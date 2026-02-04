@@ -29,7 +29,7 @@ def parse_arguments() -> argparse.Namespace:
     group = parser.add_mutually_exclusive_group(required=True)
     group.add_argument("--accept", action="store_true", help="Set status to ACCEPTED")
     group.add_argument("--reject", action="store_true", help="Set status to REJECTED")
-    group.add_argument("--hold", "--hold", "--pending", action="store_true", help="Keep/return to PENDING")
+    group.add_argument("--hold", "--visit-later", "--pending", action="store_true", help="Set/keep status as PENDING")
     parser.add_argument(
         "--reason",
         "--note",

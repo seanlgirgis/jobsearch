@@ -143,3 +143,28 @@ This closes the open question on resume handling and sets the foundation for the
 - Files created: raw_intake.md, score_report_..., metadata.yaml
 - Next: Run tailor_job_data.py on this UUID → generate tailored_data_v1.yaml
 
+
+## 2026-02-04   POC Progress – Job Accepted & Decision Script Working
+
+- First job successfully scored & persisted:
+  UUID: 96b16121-8608-405d-9553-af86fdbf939c
+  Job: Collective Health - Staff Data Engineer
+  Score: 85%
+  Status: ACCEPTED (via scripts/job_decision.py --accept)
+
+- scripts/job_decision.py created and committed:
+  Handles --accept / --reject / --hold (or --visit-later / --pending)
+  Updates metadata.yaml status + appends notes/reason
+  Mutually exclusive flags + safe YAML load/save
+
+- Current pipeline state for this job:
+  - data/jobs/<uuid>/
+    - raw_intake.md
+    - score_report_<ts>.md
+    - metadata.yaml (status: ACCEPTED, notes: "Strong ETL match for POC")
+  - Ready for tailoring script run
+
+- Next immediate action: Run scripts/tailor_job_data.py --uuid 96b16121-8608-405d-9553-af86fdbf939c
+  → Generate tailored_data_v1.yaml (summary, skills, rephrased bullets, projects)
+
+- Lesson: CLI-driven decision point (accept/reject) is clean, typo-safe, and extensible

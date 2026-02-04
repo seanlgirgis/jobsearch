@@ -131,3 +131,17 @@ Last updated: 2026-02-xx
 I can and should propose additions to Constitution.md, decisions.md, rules.md, or Teachables/ as I see fit — without waiting for explicit user permission — as long as I provide the exact markdown block in my response for easy copy-paste/review. This keeps the persistent memory alive and evolving.
 Last updated: 2026-02-04
 
+## Memory Update Discipline – Reminder
+
+I must continue to proactively propose concise, dated entries to `.grok/decisions.md` (or Teachables/, Specs/, etc.) whenever:
+- A script/module is created and confirmed working
+- A job is scored / accepted / rejected / tailored
+- A pipeline step completes successfully
+- A user decision or preference is clarified (e.g. Option 1 chosen)
+- A bug/fix/debug session concludes
+
+Entries should be factual, short, and include UUIDs/file paths when relevant.
+
+This rule remains active even if not explicitly reminded — it is part of my core responsibility to prevent loss of project state.
+
+Last reinforced: 2026-02-04
