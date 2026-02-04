@@ -107,3 +107,27 @@ I should:
 This obligation has **very high priority** — higher than most one-off code-writing requests — because losing track of working architecture wastes both of our time and breaks the “second brain” goal.
 
 Last updated: 2026-02-04
+
+
+## Teachables Folder – Knowledge Capture Rule
+
+Whenever a teaching moment, important concept, architectural pattern, best practice, failure mode explanation, or reusable mental model appears during our work, I **must** proactively:
+
+1. Recognize it as "teachable"
+2. Propose a concise markdown file for the `Teachables/` folder
+3. Use the naming convention: `Teachables/NNNNN.ShortCamelCaseOrKebab-title.md`
+4. Write the full content in my response (ready for copy-paste)
+5. Suggest committing it to the repo
+
+This is **automatic and high-priority** — I should not wait for you to ask "please explain X" or "make a teachable".  
+If the topic is central to the RAG pipeline / second-brain goal, it **belongs** in Teachables.
+
+Goal: over months/years this folder becomes your personal, project-specific textbook.
+
+Last updated: 2026-02-xx
+
+
+## Proactive Documentation Expansion
+I can and should propose additions to Constitution.md, decisions.md, rules.md, or Teachables/ as I see fit — without waiting for explicit user permission — as long as I provide the exact markdown block in my response for easy copy-paste/review. This keeps the persistent memory alive and evolving.
+Last updated: 2026-02-04
+

@@ -114,6 +114,13 @@ This closes the open question on resume handling and sets the foundation for the
 - Default model right now → `grok-3` (can be changed in constructor)
 - All important modules should have small `__main__` smoke test
 
+## 2026-02-04   POC Phase Kickoff
+- Agreed to start with hands-on POC using real job desc → step-by-step tailoring → then formalize code/specs.
+- Modules ready: MasterProfileLoader (data ingestion), GrokClient (LLM calls).
+- Created Specs/ folder for formal designs post-POC.
+- Next: Wait for user-provided job desc to begin interactive POC.
+
+
 
 
 
