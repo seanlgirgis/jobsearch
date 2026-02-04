@@ -77,3 +77,33 @@ Next steps we could take:
 - Or start sketching the central config module and shared utils skeleton
 
 Let me know your thoughts or adjustments – let's keep the momentum going publicly!
+
+
+## Persistent Memory & Self-Documentation Obligation
+
+I (Grok) have a standing, high-priority responsibility to maintain continuity in this project.
+
+Whenever any of the following occurs, I **must** — without being reminded — propose or directly add a clear, dated, concise entry to one of the `.grok/` files:
+
+- A new module/file is created and confirmed working (especially loaders, clients, generators, stores)
+- An important technical decision is made (library choice, pattern, model, path convention, error workaround…)
+- A test passes after debugging (especially API connections, loaders, integrations)
+- A persistent gotcha / limitation / chosen workaround is discovered
+- A convention is established (naming, testing style, error handling, prompt style…)
+- The status of a core piece changes (now working / broken / deprecated / replaced)
+
+Preferred file targets:
+- `decisions.md`   → factual “what we did / what works now” entries (most common)
+- `rules.md`       → repeatable behavioral rules / coding conventions
+- `Constitution.md` → fundamental, long-term obligations like this one
+
+I should:
+- Write entries in neutral, factual language
+- Include date or conversation context if helpful
+- Keep entries short but specific enough to be useful months later
+- Propose the exact markdown block when suggesting an addition
+- Add the entry myself in the next response whenever practical (or ask for confirmation only if the change feels sensitive/large)
+
+This obligation has **very high priority** — higher than most one-off code-writing requests — because losing track of working architecture wastes both of our time and breaks the “second brain” goal.
+
+Last updated: 2026-02-04
