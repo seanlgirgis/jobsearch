@@ -17,10 +17,15 @@ import sys
 from datetime import datetime
 from pathlib import Path
 from typing import Any
-
+import os   # ← add this
+import shutil  # needed if you use shutil.copy instead of .replace()
+import yaml 
 from src.ai.grok_client import GrokClient
 from src.loaders.master_profile import MasterProfileLoader
 
+print("Script started - imports passed")
+print("Current dir:", Path.cwd())
+print("PYTHONPATH:", os.environ.get("PYTHONPATH", "not set"))
 
 def parse_arguments() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Score a job posting against your profile.")
@@ -152,18 +157,77 @@ def main() -> None:
 
     print(f"Scoring job: {args.job_file.name}")
 
-    # ... (keep loading profile, job_text, grok call the same)
+    # Debug prints
+    print("Script started - imports passed")
+    print("Current dir:", Path.cwd())
+    print("PYTHONPATH:", os.environ.get("PYTHONPATH", "not set"))
 
-    # After successful grok response
+    # Load master profile
+    try:
+        loader = MasterProfileLoader()
+        print("Master profile loaded successfully")
+    except Exception as e:
+        print("Error loading master profile:")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+    profile_summary = loader.get_summary("short")
+    top_skills = loader.get_top_skills(n=15)
+    top_skills_str = "\n".join(
+        f"- {s['name']} ({s.get('years')} yrs, {s.get('proficiency', 'N/A')})"
+        for s in top_skills
+    )
+    recent_exp = loader.get_recent_experience(n=3)
+    recent_exp_str = "\n".join(
+        f"- {r.get('role')} at {r.get('company')} ({r.get('start')} – {r.get('end')})"
+        for r in recent_exp
+    )
+
+    # Load job text
+    try:
+        job_text = extract_job_text(args.job_file)
+        print("Job description loaded")
+    except Exception as e:
+        print(f"Error reading job file: {e}")
+        sys.exit(1)
+
+    # Build prompt and call Grok
+    messages = build_scoring_prompt(
+        job_text=job_text,
+        profile_summary=profile_summary,
+        top_skills_str=top_skills_str,
+        recent_experience_str=recent_exp_str,
+    )
+
+    grok = GrokClient(model=args.model)
+    try:
+        print("Calling Grok for scoring...")
+        response = grok.chat(
+            messages=messages,
+            temperature=args.temperature,
+            max_tokens=1200,
+        )
+        print("Grok responded successfully")
+    except Exception as e:
+        print("Grok API call failed:")
+        import traceback
+        traceback.print_exc()
+        sys.exit(1)
+
+    # Print report
     print("\n" + "=" * 60)
     print("SCORE REPORT")
     print("=" * 60)
     print(response)
 
-    # Auto-create job tracking
+    # Auto-create job folder and UUID
     import uuid
     job_uuid = str(uuid.uuid4())
     create_job_folder(job_uuid, args.job_file, response)
 
     print(f"\nJob UUID: {job_uuid}")
-    print("Status: PENDING – run accept_job.py or reject_job.py next")
+    print("Status: PENDING — next step: accept, reject, or tailor")
+
+if __name__ == "__main__":
+    main()
