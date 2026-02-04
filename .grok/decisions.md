@@ -1,3 +1,36 @@
+## 2026-02-XX – Resume & Cover Letter Generation MVP Choices
+
+* **Core Principle** — Do **not** just copy a static resume.md from seanlgirgis.github.io. Instead, maintain a clean **base_resume.md** (or equivalent structured source) in this repo and **always generate job-specific versions** via RAG-driven customization.
+* **Output Formats (MVP)**:
+  - Markdown (.md) — primary editable/source format; easy to diff, store, preview on GitHub, and feed back into RAG loops.
+  - DOCX (.docx) — primary submission/ATS-friendly format; allows precise styling control (fonts, margins, headings, tables) to match the clean aesthetic of seanlgirgis.github.io.
+  - PDF — deferred / on-demand only (user can export from DOCX or use Pandoc one-liner later; no need to build native PDF rendering into MVP to avoid complexity).
+* **Why MD + DOCX only for now**:
+  - MD: Matches original source style, perfect for version control and RAG input/output.
+  - DOCX: Better ATS compatibility than PDF in many cases; python-docx is lightweight, pure-Python, no external deps like WeasyPrint/Pandoc for core generation.
+  - Reduces Behemoth complexity — we extract formatting logic/style rules, not the full multi-format pipeline.
+* **Generation Flow (high-level)**:
+  1. Start from base_resume.md (copy/structure from seanlgirgis.github.io resume.md, but store here as editable base).
+  2. RAG retrieves relevant job data + user profile/experience chunks.
+  3. LLM (Grok) generates tailored content: summary rephrase, bullet optimizations, skill highlighting, keyword insertion.
+  4. Apply changes to structured MD representation.
+  5. Render final MD.
+  6. Convert structured content to DOCX using python-docx with predefined style rules mimicking website (sans-serif 11–12pt body, bold uppercase headings, indented bullets, inline contact, etc.).
+  7. Same pipeline for cover letters (separate base_cover_letter.md template: greeting → intro para → 2–3 body paras → closing).
+* **Style Matching**:
+  - Pull typography/layout cues from seanlgirgis.github.io: clean sans-serif, high contrast, uppercase bold section headers, generous whitespace, bullet hierarchy, optional skills table/matrix.
+  - Hardcode defaults in a styles/config file; allow minor overrides per generation if needed.
+* **Repo Placement**:
+  - Base templates: data/base_resume.md, data/base_cover_letter.md
+  - Generator module: src/resume_generator/ (with generate.py, styles.py, md_parser.py, docx_renderer.py, etc.)
+  - Outputs go to: data/generated/{job_id}/ or applications/{app_id}/ (with links/notes stored in job JSON)
+* **Future Triggers to Expand**:
+  - User demand for native PDF → add Pandoc integration.
+  - Need for LaTeX/Word templates → extend renderer.
+  - Bulk generation or versioning → add resume_version field in application tracking.
+
+This closes the open question on resume handling and sets the foundation for the next coding steps.
+
 ## 2026-02-04 – Vectorization & Future Data Store Evolution
 - **Short-term (MVP)**: Stick with JSON files + FAISS as decided — no vector DB yet.
 - **Expected future move**: Yes — will migrate to a proper vector database (likely Chroma first) for combined semantic + metadata retrieval once we hit scale (~500+ jobs), complex filters, or noticeable retrieval slowdowns.
