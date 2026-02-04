@@ -1,3 +1,10 @@
+## 2026-02-04 – Vectorization & Future Data Store Evolution
+- **Short-term (MVP)**: Stick with JSON files + FAISS as decided — no vector DB yet.
+- **Expected future move**: Yes — will migrate to a proper vector database (likely Chroma first) for combined semantic + metadata retrieval once we hit scale (~500+ jobs), complex filters, or noticeable retrieval slowdowns.
+- **Triggers to upgrade**: Slow search/indexing, need for hybrid filtering (e.g., location + date + semantic similarity), frequent updates/deletes, advanced RAG patterns.
+- **Planned progression**: JSON/FAISS → TinyDB (metadata help) → Chroma (local vector DB) → pgvector/Weaviate if full relational + vector power needed.
+
+
 ## 2026-02-04 – Job Data Storage Choice (MVP)
 - **Primary**: Local JSON files in `/data/jobs/`
   - Per-job files: `/data/jobs/job_{job_id}.json` (recommended for easy management)
