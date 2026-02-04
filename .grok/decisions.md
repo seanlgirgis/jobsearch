@@ -1,3 +1,11 @@
+## 2026-02-04 – Job Data Storage Choice (MVP)
+- **Primary**: Local JSON files in `/data/jobs/`
+  - Per-job files: `/data/jobs/job_{job_id}.json` (recommended for easy management)
+  - Optional single `/data/all_jobs.json` if fewer files preferred
+- **Schema fields** (initial): job_id, title, company, location, url, posting_date, scrape_date, description_raw, description_clean, keywords_extracted (list), salary, status, notes, application_date, resume_version_used, tags (list)
+- **Light querying**: Start with Python list comprehensions / pandas if needed; introduce TinyDB when filtering gets annoying
+- **Future triggers to upgrade**: >1–2k jobs, complex metadata filters, concurrency needs → TinyDB → Chroma/pgvector
+
 # Project Decisions & Agreements
 Personal RAG-powered Job Application Assistant  
 (Append-only log — add new dated sections at the top when we make/revise choices)
