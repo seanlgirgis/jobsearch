@@ -1,0 +1,16 @@
+{
+    "python.defaultInterpreterPath": "C:\\py_venv\\JobSearch\\Scripts\\python.exe",
+    "python.analysis.extraPaths": [
+        "${workspaceFolder}/src"
+    ],
+    "terminal.integrated.env.windows": {
+        "PROJECT_ROOT": "${workspaceFolder}",
+        "PYTHONPATH": "${workspaceFolder}\\src;${env:PYTHONPATH}",
+        "JOBS_DB_DIR": "${workspaceFolder}\\data\\jobs",
+        "RESUMES_DIR": "${workspaceFolder}\\data\\resumes",
+        "VECTOR_DB_PATH": "${workspaceFolder}\\data\\vectorstore",
+        "DEFAULT_EMBEDDING_MODEL": "sentence-transformers/all-MiniLM-L6-v2",
+        "DEFAULT_LLM_PROVIDER": "xai",
+        "PATH": "C:\\py_venv\\JobSearch\\Scripts;C:\\py_venv\\JobSearch;${env:PATH}"
+    }
+}
