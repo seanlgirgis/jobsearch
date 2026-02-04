@@ -1,0 +1,184 @@
+# scripts/score_job.py
+"""
+CLI script to score a job posting against your master profile using Grok.
+
+Usage:
+    python -m scripts.score_job path/to/intake/job_file.md
+
+Outputs:
+    - Console report
+    - Saves score_report.md next to the input file
+"""
+
+from __future__ import annotations
+
+import argparse
+import sys
+from datetime import datetime
+from pathlib import Path
+from typing import Any
+
+from src.ai.grok_client import GrokClient
+from src.loaders.master_profile import MasterProfileLoader
+
+
+def parse_arguments() -> argparse.Namespace:
+    parser = argparse.ArgumentParser(description="Score a job posting against your profile.")
+    parser.add_argument(
+        "job_file",
+        type=Path,
+        help="Path to the job intake markdown file (e.g. intake/00001....md)",
+    )
+    parser.add_argument(
+        "--model",
+        type=str,
+        default="grok-3",
+        help="Grok model to use (default: grok-3)",
+    )
+    parser.add_argument(
+        "--temperature",
+        type=float,
+        default=0.5,
+        help="Temperature for LLM generation (default: 0.5)",
+    )
+    return parser.parse_args()
+
+
+def extract_job_text(job_path: Path) -> str:
+    """Read and clean the job markdown file content."""
+    if not job_path.is_file():
+        raise FileNotFoundError(f"Job file not found: {job_path}")
+    text = job_path.read_text(encoding="utf-8")
+    # Basic cleaning – remove excessive whitespace, keep structure
+    lines = [line.rstrip() for line in text.splitlines() if line.strip()]
+    return "\n".join(lines)
+
+
+def build_scoring_prompt(
+    job_text: str,
+    profile_summary: str,
+    top_skills_str: str,
+    recent_experience_str: str,
+) -> list[dict[str, str]]:
+    """Construct the prompt for Grok to score the job match."""
+    return [
+        {
+            "role": "system",
+            "content": (
+                "You are an expert career coach and resume optimizer. "
+                "Your task is to compare a job description to a candidate's master profile "
+                "and give a realistic match score (0–100), recommendation, strengths, gaps, "
+                "and specific advice. Be honest, quantitative where possible, and concise."
+            ),
+        },
+        {
+            "role": "user",
+            "content": f"""\
+Here is the candidate's master profile summary:
+{profile_summary}
+
+Top skills with years and proficiency:
+{top_skills_str}
+
+Most recent experience (last 2–3 roles):
+{recent_experience_str}
+
+Job description to evaluate:
+{job_text}
+
+Tasks:
+1. Calculate an overall match score (0–100) based on:
+   - Skill overlap (years, proficiency, keywords)
+   - Experience relevance (years, domain, scale)
+   - Leadership / soft requirements
+   - Domain knowledge (healthcare is a plus here)
+2. Recommend: Strong Proceed / Proceed with Prep / Borderline / Skip
+3. List 4–6 strongest matches (with evidence)
+4. List 3–5 biggest gaps or risks (with mitigation ideas)
+5. Overall advice (1–2 sentences)
+
+Output format (markdown):
+## Match Score: XX%
+## Recommendation: ...
+## Strongest Matches
+- ...
+## Gaps & Risks
+- ...
+## Advice
+...
+""",
+        },
+    ]
+
+
+def main() -> None:
+    args = parse_arguments()
+
+    print(f"Scoring job: {args.job_file.name}")
+
+    # Load master profile
+    try:
+        loader = MasterProfileLoader()
+    except Exception as e:
+        print(f"Error loading profile: {e}")
+        sys.exit(1)
+
+    profile_summary = loader.get_summary(variant="short")
+    top_skills = loader.get_top_skills(n=15)
+    top_skills_str = "\n".join(
+        f"- {s['name']} ({s.get('years')} yrs, {s.get('proficiency', 'N/A')})"
+        for s in top_skills
+    )
+    recent_exp = loader.get_recent_experience(n=3)
+    recent_exp_str = "\n".join(
+        f"- {r.get('role')} at {r.get('company')} ({r.get('start')} – {r.get('end')})"
+        for r in recent_exp
+    )
+
+    # Load job text
+    try:
+        job_text = extract_job_text(args.job_file)
+    except Exception as e:
+        print(f"Error reading job file: {e}")
+        sys.exit(1)
+
+    # Call Grok
+    grok = GrokClient(model=args.model)
+    messages = build_scoring_prompt(
+        job_text=job_text,
+        profile_summary=profile_summary,
+        top_skills_str=top_skills_str,
+        recent_experience_str=recent_exp_str,
+    )
+
+    try:
+        response = grok.chat(
+            messages=messages,
+            temperature=args.temperature,
+            max_tokens=1200,
+        )
+    except Exception as e:
+        print(f"Grok API error: {e}")
+        sys.exit(1)
+
+    # Output
+    print("\n" + "=" * 60)
+    print("SCORE REPORT")
+    print("=" * 60)
+    print(response)
+
+    # Save report
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    report_path = args.job_file.parent / f"score_report_{timestamp}.md"
+    report_path.write_text(
+        f"# Score Report for {args.job_file.name}\n\n"
+        f"Generated: {datetime.now().isoformat()}\n"
+        f"Model: {args.model} | Temp: {args.temperature}\n\n"
+        f"{response}",
+        encoding="utf-8",
+    )
+    print(f"\nReport saved to: {report_path}")
+
+
+if __name__ == "__main__":
+    main()
