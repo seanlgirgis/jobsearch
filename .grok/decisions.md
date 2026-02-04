@@ -1,3 +1,11 @@
+## 2025-XX-XX – Master profile & structured data
+
+- Primary human-readable source: data/master/master_profile.md
+- Structured full career data: data/master/master_career_data.json
+- Granular skills inventory: data/master/skills.json
+- Decision: Keep markdown as editable master; JSON(s) for RAG / programmatic use
+- All future resume/cover-letter/job-match generations should reference these files
+
 ## 2026-02-XX – Resume & Cover Letter Generation MVP Choices
 
 * **Core Principle** — Do **not** just copy a static resume.md from seanlgirgis.github.io. Instead, maintain a clean **base_resume.md** (or equivalent structured source) in this repo and **always generate job-specific versions** via RAG-driven customization.

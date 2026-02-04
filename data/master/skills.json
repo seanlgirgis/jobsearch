@@ -1,0 +1,53 @@
+{
+    "skills": [
+        {
+            "name": "Python",
+            "category": "Data Engineering",
+            "proficiency": "Expert",
+            "years": 15,
+            "last_used": "2025",
+            "context": "Pandas, generators, ETL pipelines, scripting"
+        },
+        {
+            "name": "PySpark",
+            "category": "Big Data",
+            "proficiency": "Advanced",
+            "years": 6,
+            "last_used": "2025",
+            "context": "Large-scale telemetry processing, parallel forecasting"
+        },
+        {
+            "name": "AWS",
+            "category": "Cloud",
+            "proficiency": "Advanced",
+            "years": 7,
+            "last_used": "2025",
+            "context": "Glue, Athena, S3, Bedrock, serverless architectures"
+        },
+        {
+            "name": "Prophet / Time-Series Forecasting",
+            "category": "Machine Learning",
+            "proficiency": "Advanced",
+            "years": 5,
+            "last_used": "2025",
+            "context": "Capacity bottleneck prediction"
+        },
+        {
+            "name": "SQL / Oracle",
+            "category": "Databases",
+            "proficiency": "Expert",
+            "years": 18,
+            "last_used": "2025",
+            "context": "Schema design, partitioning, PL/SQL"
+        },
+        {
+            "name": "GenAI / LLM Agents",
+            "category": "AI",
+            "proficiency": "Intermediate-Advanced",
+            "years": 2,
+            "last_used": "2025",
+            "context": "Text-to-SQL agents, Claude 3 Sonnet integration"
+        }
+        // Add more as needed — e.g. Streamlit, Docker, Airflow, C++, Dynatrace, etc.
+    ]
+}
