@@ -121,6 +121,10 @@ This closes the open question on resume handling and sets the foundation for the
 - Next: Wait for user-provided job desc to begin interactive POC.
 
 
-
+## 2026-02-04   Enhanced Pipeline Outline & POC Commitment
+- User's original pipeline (A-J) is solid — affirmed & enhanced with RAG elements (vector retrieval for matching/search), LLM specifics (scoring/tailoring), and practical additions (overrides, logging).
+- Confirmed POC-first: interactive, step-by-step with real job, then formalize code/specs.
+- Next immediate: User provides job .md → POC intake/matching (B).
+- Created Specs/ folder for post-POC docs (e.g., Specs/00001.PipelineFlow.md).
 
 

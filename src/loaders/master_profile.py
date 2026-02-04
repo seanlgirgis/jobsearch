@@ -11,7 +11,8 @@ Usage:
     recent = loader.get_recent_experience(3)
     top_skills = loader.get_top_skills(15)
 """
-
+# To Test
+# python -m src.loaders.master_profile
 from pathlib import Path
 import yaml
 from typing import List, Dict, Any, Optional
