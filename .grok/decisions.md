@@ -135,3 +135,11 @@ This closes the open question on resume handling and sets the foundation for the
 - Saved report: intake/score_report_20260204_120419.md
 - Next: Accept job → assign UUID → proceed to Step C (tailored data generation)
 - Lesson: CLI-driven scoring works well; chat fallback still useful for debugging
+
+## 2026-02-04   POC Step B – Full Automation Success
+- scripts/score_job.py v0.2 working: auto-creates data/jobs/<uuid>/ on successful score
+- First job persisted: UUID 96b16121-8608-405d-9553-af86fdbf939c (Collective Health Staff Data Engineer)
+- Score: 85%, Strong Proceed
+- Files created: raw_intake.md, score_report_..., metadata.yaml
+- Next: Run tailor_job_data.py on this UUID → generate tailored_data_v1.yaml
+
