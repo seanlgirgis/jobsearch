@@ -110,75 +110,60 @@ Output format (markdown):
         },
     ]
 
+# ... (keep everything above main() the same)
+
+def create_job_folder(uuid: str, job_file: Path, report_content: str) -> Path:
+    """Create job tracking folder and save initial files."""
+    job_dir = Path("data/jobs") / uuid
+    job_dir.mkdir(parents=True, exist_ok=True)
+
+    # Copy raw intake
+    intake_dest = job_dir / "raw_intake.md"
+    job_file.replace(intake_dest)  # move original to job folder (or .copy() if you want to keep original)
+
+    # Save score report
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    report_path = job_dir / f"score_report_{timestamp}.md"
+    report_path.write_text(report_content, encoding="utf-8")
+
+    # Create metadata.yaml
+    metadata = {
+        "uuid": uuid,
+        "title": job_file.stem,  # or parse from content later
+        "company": "Collective Health",  # improve parsing later
+        "role": "Staff Data Engineer",
+        "status": "PENDING",
+        "score": 85,  # parse from response or hardcode for v0.2
+        "score_date": datetime.now().isoformat(),
+        "created_at": datetime.now().isoformat(),
+        "notes": ""
+    }
+    metadata_path = job_dir / "metadata.yaml"
+    with metadata_path.open("w", encoding="utf-8") as f:
+        yaml.safe_dump(metadata, f, sort_keys=False)
+
+    print(f"Job folder created: {job_dir}")
+    print(f"Files: raw_intake.md, score_report_..., metadata.yaml")
+    return job_dir
+
 
 def main() -> None:
     args = parse_arguments()
 
     print(f"Scoring job: {args.job_file.name}")
 
-    # Load master profile
-    try:
-        loader = MasterProfileLoader()
-    except Exception as e:
-        print(f"Error loading profile: {e}")
-        sys.exit(1)
+    # ... (keep loading profile, job_text, grok call the same)
 
-    profile_summary = loader.get_summary(variant="short")
-    top_skills = loader.get_top_skills(n=15)
-    top_skills_str = "\n".join(
-        f"- {s['name']} ({s.get('years')} yrs, {s.get('proficiency', 'N/A')})"
-        for s in top_skills
-    )
-    recent_exp = loader.get_recent_experience(n=3)
-    recent_exp_str = "\n".join(
-        f"- {r.get('role')} at {r.get('company')} ({r.get('start')} – {r.get('end')})"
-        for r in recent_exp
-    )
-
-    # Load job text
-    try:
-        job_text = extract_job_text(args.job_file)
-    except Exception as e:
-        print(f"Error reading job file: {e}")
-        sys.exit(1)
-
-    # Call Grok
-    grok = GrokClient(model=args.model)
-    messages = build_scoring_prompt(
-        job_text=job_text,
-        profile_summary=profile_summary,
-        top_skills_str=top_skills_str,
-        recent_experience_str=recent_exp_str,
-    )
-
-    try:
-        response = grok.chat(
-            messages=messages,
-            temperature=args.temperature,
-            max_tokens=1200,
-        )
-    except Exception as e:
-        print(f"Grok API error: {e}")
-        sys.exit(1)
-
-    # Output
+    # After successful grok response
     print("\n" + "=" * 60)
     print("SCORE REPORT")
     print("=" * 60)
     print(response)
 
-    # Save report
-    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-    report_path = args.job_file.parent / f"score_report_{timestamp}.md"
-    report_path.write_text(
-        f"# Score Report for {args.job_file.name}\n\n"
-        f"Generated: {datetime.now().isoformat()}\n"
-        f"Model: {args.model} | Temp: {args.temperature}\n\n"
-        f"{response}",
-        encoding="utf-8",
-    )
-    print(f"\nReport saved to: {report_path}")
+    # Auto-create job tracking
+    import uuid
+    job_uuid = str(uuid.uuid4())
+    create_job_folder(job_uuid, args.job_file, response)
 
-
-if __name__ == "__main__":
-    main()
+    print(f"\nJob UUID: {job_uuid}")
+    print("Status: PENDING – run accept_job.py or reject_job.py next")

@@ -128,3 +128,10 @@ This closes the open question on resume handling and sets the foundation for the
 - Created Specs/ folder for post-POC docs (e.g., Specs/00001.PipelineFlow.md).
 
 
+## 2026-02-04   POC Step B – Scoring Script v0.1 Success
+- scripts/score_job.py created and run successfully on Collective Health Staff Data Engineer intake
+- First real RAG-like flow: MasterProfileLoader retrieval → GrokClient prompt → structured score report
+- Output: 85% match, Strong Proceed recommendation
+- Saved report: intake/score_report_20260204_120419.md
+- Next: Accept job → assign UUID → proceed to Step C (tailored data generation)
+- Lesson: CLI-driven scoring works well; chat fallback still useful for debugging
