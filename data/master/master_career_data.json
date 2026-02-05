@@ -1,103 +1,276 @@
 {
-    "personal": {
-        "full_name": "Sean Luka Girgis",
-        "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
-        "phone": "214-315-2190",
-        "email": "seanlgirgis@gmail.com",
-        "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
-        "portfolio_url": "https://seanlgirgis.github.io",
-        "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
-        "github": "https://github.com/seanlgirgis",
-        "x_twitter": "https://x.com/SeanLuka22249",
-        "target_roles": [
-            "Senior Data Engineer",
-            "AI Engineer",
-            "Cloud Data Architect",
-            "Capacity Planning Engineer",
-            "PySpark / AWS Specialist"
-        ]
-    },
-    "summary": "Senior Data Engineer with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock). Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.",
-    "flagship_projects": [
-        {
-            "name": "Serverless Lakehouse Platform (AWS)",
-            "tech": [
-                "AWS Glue",
-                "Athena",
-                "Bedrock (GenAI)",
-                "S3",
-                "PySpark"
-            ],
-            "description": "Designed full serverless data platform. Built Text-to-SQL GenAI agent using Claude 3 Sonnet. Resolved small-file issues with Snappy Parquet compression."
-        },
-        {
-            "name": "HorizonScale — AI Capacity Forecasting Engine",
-            "tech": [
-                "Python",
-                "Prophet",
-                "Streamlit",
-                "PySpark",
-                "Multiprocessing"
-            ],
-            "description": "Replaced legacy manual Trenda processes. Parallel generator-based pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with real-time capacity insights and 'High Trust' utilization scores."
-        }
-    ],
-    "experience": [
-        {
-            "company": "CITI",
-            "title": "Senior Capacity & Data Engineer",
-            "start_date": "2017-11",
-            "end_date": "2025-12",
-            "bullets": [
-                "Architected automated ETL pipelines using Python + Pandas to ingest P95 performance telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing manual Trenda processes.",
-                "Designed and optimized Oracle Database schemas for historical data retention, enabling long-term trend analysis and seasonal risk forecasting.",
-                "Developed ML-driven forecasting models using Prophet and scikit-learn to predict infrastructure bottlenecks 6 months in advance.",
-                "Integrated disparate data feeds (CSV, Excel, TSCO) into unified Oracle reporting framework providing executive dashboards."
-            ]
-        },
-        {
-            "company": "G6 Hospitality LLC",
-            "title": "Performance Engineer",
-            "start_date": "2017-03",
-            "end_date": "2017-11",
-            "bullets": [
-                "Managed end-to-end monitoring using Dynatrace AppMon and Synthetics.",
-                "Led 'FAST' project: data mining user performance metrics to optimize revenue-critical systems.",
-                "Supported AWS cloud migration and mobile monitoring evaluation."
-            ]
-        },
-        {
-            "company": "CA Technologies / TIAA-CREF / Enterprise Iron",
-            "title": "Senior Consultant & CA APM SME",
-            "start_date": "2011",
-            "end_date": "2017",
-            "bullets": [
-                "Led enterprise CA APM implementations and upgrades (v9.1 → v10.1) for 4,000–6,000 agents.",
-                "Designed custom dashboards, alerts, reports, Perl/Ksh scripts, and Management Modules.",
-                "Provided architectural sizing, troubleshooting in J2EE/.NET environments."
-            ]
-        },
-        {
-            "company": "Sabre",
-            "title": "Senior Systems & Data Migration Engineer",
-            "start_date": "2008",
-            "end_date": "2012",
-            "bullets": [
-                "Led massive-scale data migration to 6-node Oracle RAC cluster (10x VISA throughput).",
-                "Optimized transaction processing in C++ / OCCI, reducing hardware footprint by 95% with sub-second latency."
-            ]
-        }
-    ],
-    "education": [
-        {
-            "degree": "Post-Graduate Diploma in Computer Science",
-            "institution": "Humber College",
-            "location": "Canada"
-        },
-        {
-            "degree": "Bachelor of Science in Civil Engineering",
-            "institution": "Zagazig University",
-            "location": "Egypt"
-        }
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "target_roles": [
+      "Senior Data Engineer",
+      "AI Engineer",
+      "Cloud Data Architect",
+      "Capacity Planning Engineer",
+      "PySpark / AWS Specialist"
     ]
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock). Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.",
+  "flagship_projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed full serverless data platform using S3 + Glue + Athena + Bedrock. Built Text-to-SQL GenAI agent using Claude 3 Sonnet. Resolved small file problem using Snappy + Parquet compression. Optimized ETL and data access for enterprise scale.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Replaced legacy manual Trenda processes with parallel generator-based pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with real-time capacity insights and 'High Trust' utilization scores. Modern agentic pipeline replacing legacy Trenda processes for banking-scale telemetry. Features parallel generator-based forecasting (90% cycle reduction), interactive Streamlit dashboards, 'High Trust' utilization scores. A sample ML project called Horizon. Repository includes code, documentation, API guides, future roadmap, operational runbook, performance benchmarks, testing strategy, evolution notes, lessons learned, and AI reasoning/RAG specs.",
+      "technologies": [
+        "Python",
+        "Prophet",
+        "Streamlit",
+        "PySpark",
+        "Multiprocessing",
+        "Spark",
+        "Machine Learning",
+        "Data Pipelines",
+        "API Integration",
+        "Performance Benchmarking",
+        "Testing and Validation",
+        "AI Reasoning",
+        "RAG (Retrieval-Augmented Generation)"
+      ],
+      "repo": "https://github.com/seanlgirgis/HorizonStudy",
+      "documentation": [
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/README.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/API_AND_INTEGRATION_GUIDE.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/FUTURE_ROADMAP.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/OPERATIONAL_RUNBOOK.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/PERFORMANCE_BENCHMARK_REPORT.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TESTING_AND_VALIDATION_STRATEGY.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TREND_TO_HORIZONSCALE_EVOLUTION.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/lessons_learnt.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/AI_REASONING_AND_RAG_SPEC.md"
+      ],
+      "code": "https://github.com/seanlgirgis/HorizonStudy/tree/main/src/HorizonScale",
+      "additional_docs": [
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/lib",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/pipeline",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/synthetic"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "FAST Project",
+      "description": "Data mining user performance metrics to optimize critical money-generating systems.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines (Python/Pandas) ingesting P95 telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing legacy manual processes.",
+        "Designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting.",
+        "Developed ML forecasting models (Prophet, scikit-learn) predicting bottlenecks 6 months ahead, improving provisioning accuracy.",
+        "Integrated disparate feeds into unified Oracle reporting with executive dashboards.",
+        "Identified underutilized infrastructure via data mining, driving hardware consolidation and cost savings.",
+        "Managed dual APM environments (CA Wily, AppDynamics) and capacity planning across banking infrastructure.",
+        "Managed CA APM environments version 9.7, Installation and Management of CA APM 10.5, Onboarding of new applications, Data Mining and Creating Capacity reports, Creating and Maintaining Data Mining Scripts.",
+        "Managed enterprise capacity planning for banking infrastructure, processing and prioritizing capacity requests.",
+        "Generated monthly capacity reports analyzing utilization trends, forecasting requirements, identifying at-risk servers.",
+        "Conducted seasonal capacity analysis for peak periods.",
+        "Developed ML forecasting models using Python and scikit-learn to predict capacity 3-6 months ahead.",
+        "Administered BMC TrueSight for infrastructure monitoring, configuring thresholds/alerts/baselines.",
+        "Integrated monitoring data from TrueSight, CA Wily APM, AppDynamics.",
+        "Built automated data pipelines using Python and pandas for ETL of capacity metrics.",
+        "Performed data cleansing and QA using pandas.",
+        "Designed/executed ETL processes to consolidate data.",
+        "Automated reporting workflows with Python scripts.",
+        "Developed interactive dashboards using matplotlib, seaborn, plotly.",
+        "Applied statistical analysis and ML in Python for underutilized infrastructure patterns.",
+        "Collaborated on rightsizing resources based on data and projections."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.",
+        "Led 'FAST' project: data-mined real-user performance metrics for optimization recommendations.",
+        "Upgraded DynaTrace (6.5\u21927.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
+        "Managed and supported monitoring for Brand.com website and critical systems.",
+        "Provided dashboarding for end-to-end functionality and before/after metrics.",
+        "Analyzed bottlenecks and suggested performance improvements.",
+        "Upgraded DynaTrace from 6.5 to 7.0 and security to TLS1.2.",
+        "Evaluated mobile monitoring and other solutions.",
+        "Participated in migration to Cloud/AWS.",
+        "Integrated Performance Center to DynaTrace.",
+        "End User Monitoring.",
+        "End to End Monitoring."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM, CEM, ADA for utility systems.",
+        "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
+      ]
+    },
+    {
+      "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
+      "title": "Senior Consultant / SME for CA APM",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations/upgrades (9.1\u219210.1), managing 4,000\u20136,000 agents.",
+        "Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.",
+        "Provided sizing recommendations, Golden Images, client training, bottleneck resolution in J2EE/.NET.",
+        "Planned and implemented APM products, provided training and support to clients.",
+        "Reviewed architectural documents and provided recommendations for sizing/implementation.",
+        "Led clients' technical teams in implementing/upgrading APM Solution.",
+        "Supported installation of POWER PACKS, customized Agents.",
+        "Created Golden Images for agent rollouts.",
+        "Created Management modules (reports, alerts, Dashboards).",
+        "Analyzed/resolved issues with solution.",
+        "Optimized agent and enterprise manager installation.",
+        "Documented implementations.",
+        "Supported and trained clients' organizations.",
+        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000\u20136,000 agents.",
+        "Designed and implemented custom Management Modules and Perl/Ksh data-extraction scripts.",
+        "Collaborated with IT teams to troubleshoot performance issues in J2EE/WebLogic environments."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom apps for load/break points, documented JDBC/threads/memory/CPU/GC metrics.",
+        "Installed JMX, Thread Dumps, Wily Introscope; created automation scripts.",
+        "Analyzed performance of J2EE telecom web applications to identify optimal loads and resource bottlenecks.",
+        "Documented key metrics (JDBC connections, threads, memory, CPU, GC) and installed JMX Monitoring."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2012",
+      "bullets": [
+        "Led massive migration: 200+ MySQL nodes \u2192 6-node Oracle RAC cluster for high-throughput shopping engine.",
+        "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",
+        "Built CPPUNIT testing framework; automated conversion.",
+        "Led the data migration of a shopping engine handling 10x the throughput of VISA, refactoring 200+ MySQL nodes into a high-performance 6-node Oracle RAC cluster.",
+        "Optimized core transaction processing using C++ and OCCI, reducing physical hardware footprint by 95% while maintaining sub-second query latency.",
+        "Built testing framework using CPPUNIT in C++/OCCI/OCI environment."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "UML design and module development for CICS/MQSeries/XML/DB2 system.",
+        "Performed UML-based unit design and developed modules for IRS modernization.",
+        "Worked on CICS/MQSeries/XML messaging architecture with VC++ and DB2."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ interfaces (POSIX, sockets, Marconi APIs).",
+        "Performance tuning in billing (C/C++/Pro*C/PL/SQL): 75% memory reduction, 20% throughput gain, 10x DB perf via sequences.",
+        "Troubleshot Enabler/CSM/EMS; automated admin with Korn Shell; EDI interfaces.",
+        "Delivered performance enhancements in billing processes (C/C++/Pro*C/PL/SQL), reducing memory usage 75%.",
+        "Developed and troubleshot Flexible Bill Formatter, EDI interfaces, and Enabler modules.",
+        "Automated system administration (WebLogic/WebSphere) with Korn Shell scripts.",
+        "Developed high-availability application using C++, multithreaded patterns, socket programming, and Marconi APIs.",
+        "Designed interface using UML in Rational Rose (class/sequence diagrams, use cases).",
+        "Used design patterns (Functors, Containers, Functor Containers).",
+        "Developed threaded command utility with POSIX threads, mutex locks, shared memory, signals, semaphores.",
+        "Created utility wrapper classes for locks, semaphores, queues, sockets.",
+        "Created Native_DES module for password encryption.",
+        "Designed thread monitor modules.",
+        "Maintained and troubleshot message processing, billing invoicing, bill generation.",
+        "Reverse engineered and documented AMDOCS PRM and APIs.",
+        "Maintained code in CVS and ClearCase.",
+        "Designed/implemented enhancements including EMS.",
+        "Analyzed new concepts, provided estimates, created functional/system requirements.",
+        "Communicated with vendors, participated in impact assessments.",
+        "Worked on Blue Print document, estimated hardware.",
+        "Contributed to installation guide.",
+        "Supervised test team using Test Director.",
+        "Responsible for batch processing (message processing, settlement, reporting).",
+        "Designed/implemented interfaces using C++, Java, J2EE, XML, Pro*C, Perl, KORN Shell, Sed, Awk.",
+        "Configured application and software on testing environments (including Weblogic).",
+        "Troubleshot bug fixes for production tickets.",
+        "Implemented database fixes improving performance by 10X.",
+        "Supported CSM Module in production (database queries, reporting).",
+        "Troubleshot production problems with CSM Module."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": [
+        "Developed time/attendance interfaces using VB6/VC++."
+      ]
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": [
+        "Maintained/troubleshot Linux/Windows systems and admin tasks.",
+        "Worked as part of the Lab Support team. Maintained and troubleshot Linux and Windows systems and ran various admin tasks."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ]
 }

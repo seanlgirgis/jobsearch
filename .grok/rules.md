@@ -10,3 +10,6 @@
 - Commit messages: keep descriptive, use conventional style when possible
 
 Last updated: 2026-02-04
+
+
+Rule: Always export legacy masters via profile_export.py before running POC scripts that load data/master/.

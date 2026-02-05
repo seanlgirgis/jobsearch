@@ -1,199 +1,210 @@
-# skills.yaml
-# --------------------------------------------------
-# Full granular skills inventory — extracted from resume.md and cv.md
-# Estimated years based on experience dates (e.g., early C++ in 1999–2001, recent AWS/GenAI)
-# Total ~30 entries for completeness; sorted roughly by years descending
-# Proficiencies inferred from context (Expert for core/long-term, Advanced for mid, etc.)
-# Categories for filtering; notes for relevance
-
 - name: SQL / Oracle
-  years: 18  # From 2005+ in Corpus/Sabre/CITI; heavy in Oracle RAC, schemas, PL/SQL
+  years: 18
   proficiency: Expert
-  last_used: 2025
-  categories: [databases, sql, oracle, querying]
-  notes: Core skill across multiple roles — always emphasize for data jobs
-
+  last_used: '2025'
+  categories:
+  - Databases
+  notes: Schema design, partitioning, PL/SQL, Pro*C, querying
 - name: Python
-  years: 15  # Recent heavy use in CITI/flagship projects; Pandas, Generators
+  years: 15
   proficiency: Expert
-  last_used: 2025
-  categories: [programming, scripting, data-engineering]
-  notes: ETL, forecasting, automation — lead with for modern data roles
-
+  last_used: '2025'
+  categories:
+  - Data Engineering
+  notes: Pandas, generators, ETL pipelines, scripting, multiprocessing
 - name: C++
-  years: 20  # Early from 1999 (VC++), through Sprint/Corpus/Sabre (OCCI, POSIX)
+  years: 20
   proficiency: Expert
-  last_used: 2010  # Last explicit in Sabre
-  categories: [programming, high-performance, low-latency]
-  notes: Legacy high-avail/performance — surface for backend/systems jobs
-
+  last_used: '2010'
+  categories:
+  - Programming
+  notes: POSIX Threads, STL, OCCI/OCI, Multithreading, high-performance
 - name: Perl
-  years: 12  # From CA/Enterprise Iron (scripts, dashboards)
+  years: 12
   proficiency: Advanced
-  last_used: 2016
-  categories: [scripting, automation]
-  notes: APM scripting — de-emphasize unless legacy monitoring
-
+  last_used: '2016'
+  categories:
+  - Scripting
+  notes: Automation, data extraction
 - name: Ksh / Korn Shell Scripting
-  years: 12  # From Corpus/CA (automation, data extraction)
+  years: 12
   proficiency: Advanced
-  last_used: 2016
-  categories: [scripting, shell, linux]
-  notes: System admin/automation heritage
-
+  last_used: '2016'
+  categories:
+  - Scripting
+  notes: System admin/automation, shell, linux
 - name: Java
-  years: 10  # From AT&T/CA (J2EE, WebLogic)
+  years: 10
   proficiency: Advanced
-  last_used: 2016
-  categories: [programming, backend]
-  notes: Performance testing/APM
-
+  last_used: '2016'
+  categories:
+  - Programming
+  notes: J2EE (EJB, JMS, Servlets), backend, performance testing/APM
 - name: PL/SQL
-  years: 18  # Heavy in Sprint/Corpus/Sabre (optimizations, Pro*C)
+  years: 18
   proficiency: Expert
-  last_used: 2010
-  categories: [databases, oracle]
-  notes: DB performance — pair with Oracle
-
+  last_used: '2010'
+  categories:
+  - Databases
+  notes: DB performance, pair with Oracle
 - name: AWS
-  years: 7  # From G6/CITI/flagships (S3, Glue, Athena, Bedrock)
+  years: 7
   proficiency: Advanced
-  last_used: 2025
-  categories: [cloud, infrastructure, aws]
-  notes: Serverless, migration — key for cloud roles
-
+  last_used: '2025'
+  categories:
+  - Cloud
+  notes: Glue, Athena, S3, Bedrock, serverless architectures, infrastructure
 - name: PySpark
-  years: 6  # Recent in flagships/HorizonScale
+  years: 6
   proficiency: Advanced
-  last_used: 2025
-  categories: [big-data, spark, data-engineering]
-
+  last_used: '2025'
+  categories:
+  - Big Data
+  notes: Large-scale telemetry processing, parallel forecasting, spark, data-engineering
 - name: Prophet / Time-Series Forecasting
-  years: 5  # CITI models
+  years: 5
   proficiency: Advanced
-  last_used: 2025
-  categories: [ml, forecasting, statistics]
-  notes: With scikit-learn for capacity planning
-
+  last_used: '2025'
+  categories:
+  - Machine Learning
+  notes: Capacity bottleneck prediction, with scikit-learn, forecasting, statistics
 - name: GenAI / LLM Agents
-  years: 2  # Recent in Serverless project (Claude 3, Text-to-SQL)
+  years: 2
   proficiency: Intermediate-Advanced
-  last_used: 2025
-  categories: [ai, llm, agents]
-  notes: Growing — include for AI-forward jobs
-
+  last_used: '2025'
+  categories:
+  - AI
+  notes: Text-to-SQL agents, Claude 3 Sonnet integration, llm, agents
 - name: Pandas
-  years: 10  # CITI ETL
+  years: 10
   proficiency: Expert
-  last_used: 2025
-  categories: [data-engineering, python]
-
+  last_used: '2025'
+  categories:
+  - Data Engineering
+  notes: Data pipelines, ETL processes
 - name: scikit-learn
-  years: 6  # CITI forecasting
+  years: 6
   proficiency: Advanced
-  last_used: 2025
-  categories: [ml, python]
-
+  last_used: '2025'
+  categories:
+  - Machine Learning
+  notes: ML forecasting, statistical analysis
 - name: Dynatrace (AppMon + Synthetics)
-  years: 8  # G6/CA
+  years: 8
   proficiency: Expert
-  last_used: 2017
-  categories: [monitoring, apm, observability]
-
+  last_used: '2017'
+  categories:
+  - Monitoring
+  notes: APM, observability, Gomez Synthetic Monitoring
 - name: CA APM / Introscope
-  years: 10  # CA/Enterprise Iron/HCL
+  years: 10
   proficiency: Expert
-  last_used: 2017
-  categories: [monitoring, apm]
-  notes: Legacy Broadcom/CA — for enterprise APM jobs
-
+  last_used: '2017'
+  categories:
+  - Monitoring
+  notes: APM, CA CEM, CA ADA, Team Center, Command Center
 - name: BMC TrueSight / TSCO
-  years: 7  # CITI telemetry
+  years: 7
   proficiency: Advanced
-  last_used: 2025
-  categories: [monitoring, capacity]
-
+  last_used: '2025'
+  categories:
+  - Monitoring
+  notes: Capacity optimization, Aperature Vista
 - name: Oracle RAC
-  years: 10  # Sabre migration
+  years: 10
   proficiency: Advanced
-  last_used: 2010
-  categories: [databases, oracle, high-availability]
-
+  last_used: '2010'
+  categories:
+  - Databases
+  notes: High-availability, oracle
 - name: ETL Design & Optimization
-  years: 15  # Across CITI/Sabre/Corpus
+  years: 15
   proficiency: Expert
-  last_used: 2025
-  categories: [data-engineering]
-
+  last_used: '2025'
+  categories:
+  - Data Engineering
+  notes: Data pipelines, reporting
 - name: Data Warehousing
-  years: 10  # Inferred from schemas, partitioning, Snowflake/Redshift mentions
+  years: 10
   proficiency: Advanced
-  last_used: 2025
-  categories: [data-engineering, databases]
-
+  last_used: '2025'
+  categories:
+  - Data Engineering
+  notes: Snowflake/Redshift, Parquet/Snappy
 - name: Streamlit
-  years: 3  # HorizonScale dashboard
+  years: 3
   proficiency: Advanced
-  last_used: 2025
-  categories: [visualization, python]
-
+  last_used: '2025'
+  categories:
+  - Visualization
+  notes: Dashboards, python
 - name: Multiprocessing
-  years: 10  # HorizonScale, early C++ threads
+  years: 10
   proficiency: Advanced
-  last_used: 2025
-  categories: [programming, performance]
-
+  last_used: '2025'
+  categories:
+  - Programming
+  notes: Performance
 - name: Docker
-  years: 5  # Mentioned in skills matrix
+  years: 5
   proficiency: Advanced
-  last_used: 2025
-  categories: [containerization, devops]
-
+  last_used: '2025'
+  categories:
+  - DevOps
+  notes: Containerization
 - name: Git
-  years: 10  # Inferred from modern roles
+  years: 10
   proficiency: Advanced
-  last_used: 2025
-  categories: [version-control]
-
+  last_used: '2025'
+  categories:
+  - Version Control
+  notes: ''
 - name: Airflow
-  years: 5  # Skills matrix
+  years: 5
   proficiency: Advanced
-  last_used: 2025
-  categories: [orchestration, data-engineering]
-
+  last_used: '2025'
+  categories:
+  - Orchestration
+  notes: Data-engineering
 - name: Hive/Hadoop
-  years: 7  # CV competencies
+  years: 7
   proficiency: Advanced
-  last_used: 2025
-  categories: [big-data]
-
+  last_used: '2025'
+  categories:
+  - Big Data
+  notes: ''
 - name: Linux/Unix
-  years: 20  # Throughout career
+  years: 20
   proficiency: Expert
-  last_used: 2025
-  categories: [os, infrastructure]
-
+  last_used: '2025'
+  categories:
+  - OS
+  notes: HPUX, SunOS, Red Hat, infrastructure
 - name: OCCI / OCI
-  years: 10  # Sabre C++
+  years: 10
   proficiency: Advanced
-  last_used: 2010
-  categories: [databases, oracle]
-
+  last_used: '2010'
+  categories:
+  - Databases
+  notes: Oracle
 - name: WebLogic / WebSphere
-  years: 10  # Corpus/AT&T
+  years: 10
   proficiency: Advanced
-  last_used: 2011
-  categories: [application-servers]
-
+  last_used: '2011'
+  categories:
+  - Application Servers
+  notes: ''
 - name: VB6 / VC++
-  years: 5  # Early Simplex
+  years: 5
   proficiency: Intermediate
-  last_used: 2001
-  categories: [programming]
-  notes: Very legacy — rarely surface
-
+  last_used: '2001'
+  categories:
+  - Programming
+  notes: Legacy
 - name: Capacity Planning / Forecasting
-  years: 15  # Core in CITI/G6
+  years: 15
   proficiency: Expert
-  last_used: 2025
-  categories: [infrastructure, ml]
+  last_used: '2025'
+  categories:
+  - Infrastructure
+  notes: ML, infrastructure
