@@ -1,0 +1,1136 @@
+{
+    "personal_info": {
+        "full_name": "Sean Luka Girgis",
+        "previous_name": "Emad Girgis",
+        "name_change_note": "Changed approximately 9 years ago (around 2017)",
+        "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+        "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+        "phone": "214-315-2190",
+        "email": "seanlgirgis@gmail.com",
+        "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+        "github": "https://github.com/seanlgirgis",
+        "personal_website": "https://seanlgirgis.github.io",
+        "x_twitter": "https://x.com/SeanLuka22249",
+        "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+        "target_roles": [
+            "Senior Data Engineer",
+            "AI Engineer",
+            "Cloud Data Architect",
+            "Capacity Planning Engineer",
+            "PySpark / AWS Specialist"
+        ]
+    },
+    "professional_summary": {
+        "short": "Senior Data Engineer with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock). Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.",
+        "long": "Results-driven professional with expertise in Data Engineering (Python, SQL, PySpark, ETL), Cloud & Infrastructure (AWS, Hive/Hadoop, Capacity Planning), and High-Performance Compute (C++, Java, Oracle RAC). Proven track record in performance optimization, data migration, and AI-driven forecasting across telecom, finance, and utility sectors. Over 20 years of professional experience in IT architecture, analysis, development, and support of batch and multi-tier applications. Diverse technical background in development, testing, administration, performance management, CA APM, UNIX, C, C++, C#, Java, and scripting languages. Comfortable in team or individual assignments."
+    },
+    "education": [
+        {
+            "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+            "institution": "Humber College",
+            "location": "Toronto, Canada",
+            "dates": "Not specified"
+        },
+        {
+            "degree": "Bachelor of Science in Civil Engineering",
+            "institution": "Zagazig University",
+            "location": "Egypt / Cairo, Egypt",
+            "dates": "Not specified"
+        }
+    ],
+    "certifications": [
+        "Brainbench C++ Fundamentals Certified",
+        "Brainbench C++ Certified",
+        "Brainbench C Certified",
+        "Brainbench Java 2.0 Certified",
+        "Brainbench OOD Certified",
+        "Brainbench Math Certified",
+        "AWS Certified (Inferred from AWS expertise)"  // Placeholder — confirm actual
+    ],
+    "skills": [
+        {
+            "name": "SQL / Oracle",
+            "category": "Databases",
+            "proficiency": "Expert",
+            "years": 18,
+            "last_used": "2025",
+            "context": "Schema design, partitioning, PL/SQL, Pro*C, querying"
+        },
+        {
+            "name": "Python",
+            "category": "Data Engineering",
+            "proficiency": "Expert",
+            "years": 15,
+            "last_used": "2025",
+            "context": "Pandas, generators, ETL pipelines, scripting, multiprocessing"
+        },
+        {
+            "name": "C++",
+            "category": "Programming",
+            "proficiency": "Expert",
+            "years": 20,
+            "last_used": "2010",
+            "context": "POSIX Threads, STL, OCCI/OCI, Multithreading, high-performance"
+        },
+        {
+            "name": "Perl",
+            "category": "Scripting",
+            "proficiency": "Advanced",
+            "years": 12,
+            "last_used": "2016",
+            "context": "Automation, data extraction"
+        },
+        {
+            "name": "Ksh / Korn Shell Scripting",
+            "category": "Scripting",
+            "proficiency": "Advanced",
+            "years": 12,
+            "last_used": "2016",
+            "context": "System admin/automation, shell, linux"
+        },
+        {
+            "name": "Java",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2016",
+            "context": "J2EE (EJB, JMS, Servlets), backend, performance testing/APM"
+        },
+        {
+            "name": "PL/SQL",
+            "category": "Databases",
+            "proficiency": "Expert",
+            "years": 18,
+            "last_used": "2010",
+            "context": "DB performance, pair with Oracle"
+        },
+        {
+            "name": "AWS",
+            "category": "Cloud",
+            "proficiency": "Advanced",
+            "years": 7,
+            "last_used": "2025",
+            "context": "Glue, Athena, S3, Bedrock, serverless architectures, infrastructure"
+        },
+        {
+            "name": "PySpark",
+            "category": "Big Data",
+            "proficiency": "Advanced",
+            "years": 6,
+            "last_used": "2025",
+            "context": "Large-scale telemetry processing, parallel forecasting, spark, data-engineering"
+        },
+        {
+            "name": "Prophet / Time-Series Forecasting",
+            "category": "Machine Learning",
+            "proficiency": "Advanced",
+            "years": 5,
+            "last_used": "2025",
+            "context": "Capacity bottleneck prediction, with scikit-learn, forecasting, statistics"
+        },
+        {
+            "name": "GenAI / LLM Agents",
+            "category": "AI",
+            "proficiency": "Intermediate-Advanced",
+            "years": 2,
+            "last_used": "2025",
+            "context": "Text-to-SQL agents, Claude 3 Sonnet integration, llm, agents"
+        },
+        {
+            "name": "Pandas",
+            "category": "Data Engineering",
+            "proficiency": "Expert",
+            "years": 10,
+            "last_used": "2025",
+            "context": "Data pipelines, ETL processes"
+        },
+        {
+            "name": "scikit-learn",
+            "category": "Machine Learning",
+            "proficiency": "Advanced",
+            "years": 6,
+            "last_used": "2025",
+            "context": "ML forecasting, statistical analysis"
+        },
+        {
+            "name": "Dynatrace (AppMon + Synthetics)",
+            "category": "Monitoring",
+            "proficiency": "Expert",
+            "years": 8,
+            "last_used": "2017",
+            "context": "APM, observability, Gomez Synthetic Monitoring"
+        },
+        {
+            "name": "CA APM / Introscope",
+            "category": "Monitoring",
+            "proficiency": "Expert",
+            "years": 10,
+            "last_used": "2017",
+            "context": "APM, CA CEM, CA ADA, Team Center, Command Center"
+        },
+        {
+            "name": "BMC TrueSight / TSCO",
+            "category": "Monitoring",
+            "proficiency": "Advanced",
+            "years": 7,
+            "last_used": "2025",
+            "context": "Capacity optimization, Aperature Vista"
+        },
+        {
+            "name": "Oracle RAC",
+            "category": "Databases",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2010",
+            "context": "High-availability, oracle"
+        },
+        {
+            "name": "ETL Design & Optimization",
+            "category": "Data Engineering",
+            "proficiency": "Expert",
+            "years": 15,
+            "last_used": "2025",
+            "context": "Data pipelines, reporting"
+        },
+        {
+            "name": "Data Warehousing",
+            "category": "Data Engineering",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2025",
+            "context": "Snowflake/Redshift, Parquet/Snappy"
+        },
+        {
+            "name": "Streamlit",
+            "category": "Visualization",
+            "proficiency": "Advanced",
+            "years": 3,
+            "last_used": "2025",
+            "context": "Dashboards, python"
+        },
+        {
+            "name": "Multiprocessing",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2025",
+            "context": "Performance"
+        },
+        {
+            "name": "Docker",
+            "category": "DevOps",
+            "proficiency": "Advanced",
+            "years": 5,
+            "last_used": "2025",
+            "context": "Containerization"
+        },
+        {
+            "name": "Git",
+            "category": "Version Control",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2025",
+            "context": ""
+        },
+        {
+            "name": "Airflow",
+            "category": "Orchestration",
+            "proficiency": "Advanced",
+            "years": 5,
+            "last_used": "2025",
+            "context": "Data-engineering"
+        },
+        {
+            "name": "Hive/Hadoop",
+            "category": "Big Data",
+            "proficiency": "Advanced",
+            "years": 7,
+            "last_used": "2025",
+            "context": ""
+        },
+        {
+            "name": "Linux/Unix",
+            "category": "OS",
+            "proficiency": "Expert",
+            "years": 20,
+            "last_used": "2025",
+            "context": "HPUX, SunOS, Red Hat, infrastructure"
+        },
+        {
+            "name": "OCCI / OCI",
+            "category": "Databases",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2010",
+            "context": "Oracle"
+        },
+        {
+            "name": "WebLogic / WebSphere",
+            "category": "Application Servers",
+            "proficiency": "Advanced",
+            "years": 10,
+            "last_used": "2011",
+            "context": ""
+        },
+        {
+            "name": "VB6 / VC++",
+            "category": "Programming",
+            "proficiency": "Intermediate",
+            "years": 5,
+            "last_used": "2001",
+            "context": "Legacy"
+        },
+        {
+            "name": "Capacity Planning / Forecasting",
+            "category": "Infrastructure",
+            "proficiency": "Expert",
+            "years": 15,
+            "last_used": "2025",
+            "context": "ML, infrastructure"
+        },
+        {
+            "name": "matplotlib",
+            "category": "Visualization",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": "2025",
+            "context": "Dashboards"
+        },
+        {
+            "name": "seaborn",
+            "category": "Visualization",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": "2025",
+            "context": "Dashboards"
+        },
+        {
+            "name": "plotly",
+            "category": "Visualization",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": "2025",
+            "context": "Dashboards"
+        },
+        {
+            "name": "AppDynamics",
+            "category": "Monitoring",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": "2025",
+            "context": "APM"
+        },
+        {
+            "name": "C",
+            "category": "Programming",
+            "proficiency": "Expert",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "C#",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Dot Net"
+        },
+        {
+            "name": "PostgreSQL",
+            "category": "Databases",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "DB2",
+            "category": "Databases",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "MySQL",
+            "category": "Databases",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "JMX Monitoring",
+            "category": "Monitoring",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Thread Dumps"
+        },
+        {
+            "name": "Awk",
+            "category": "Scripting",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Sed",
+            "category": "Scripting",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Syncsort",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Focus",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Reporting"
+        },
+        {
+            "name": "Star Team",
+            "category": "Version Control",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "CVS",
+            "category": "Version Control",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "ClearCase",
+            "category": "Version Control",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Performance Center",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Load Runner"
+        },
+        {
+            "name": "QLIK",
+            "category": "Analytics",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Data Analytics"
+        },
+        {
+            "name": "OneAgent",
+            "category": "Monitoring",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "AppMon Integrations"
+        },
+        {
+            "name": "EUM",
+            "category": "Monitoring",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "End User Monitoring"
+        },
+        {
+            "name": "Adobe AEM",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Ms CRM",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Life Ray Portal",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Microsoft SharePoint",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Tibco",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Remedy",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Agile",
+            "category": "Methodologies",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "UML",
+            "category": "Design",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Rational Rose"
+        },
+        {
+            "name": "CPPUNIT",
+            "category": "Testing",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "OO",
+            "category": "Design",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "TOAD",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Marconi APIs",
+            "category": "APIs",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "COBOL",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "MicroFocus COBOL"
+        },
+        {
+            "name": "Maestro",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "QuickSelect",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "PS2PDF",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "AMDOCS CC",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "AMDOCS APIs, FBF Designer, Enabler APIs, CSM, EMS, AMC"
+        },
+        {
+            "name": "Reverse Engineering",
+            "category": "Skills",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "API Discovery"
+        },
+        {
+            "name": "XML",
+            "category": "Data Formats",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Mercury Test Director",
+            "category": "Testing",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Quality Center"
+        },
+        {
+            "name": "Tuxedo",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": "Jolt"
+        },
+        {
+            "name": "Cloud Computing",
+            "category": "Cloud",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Analytics",
+            "category": "Data",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "UNIX HPUX",
+            "category": "OS",
+            "proficiency": "Expert",
+            "years": null,
+            "last_used": null,
+            "context": "HPUX 11i"
+        },
+        {
+            "name": "UNIX SUN",
+            "category": "OS",
+            "proficiency": "Expert",
+            "years": null,
+            "last_used": null,
+            "context": "SunOS, SUN SOLARIS"
+        },
+        {
+            "name": "TSO",
+            "category": "OS",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "CICS",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "USS",
+            "category": "OS",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Linux Red Hat",
+            "category": "OS",
+            "proficiency": "Expert",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Pro*C",
+            "category": "Programming",
+            "proficiency": "Expert",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "MQ Series",
+            "category": "Messaging",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "CORBA",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "R",
+            "category": "Scripting",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "IPCS",
+            "category": "Tools",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Semaphores",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Locks",
+            "category": "Programming",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        },
+        {
+            "name": "Encryption",
+            "category": "Security",
+            "proficiency": "Advanced",
+            "years": null,
+            "last_used": null,
+            "context": ""
+        }
+    ],
+    "experiences": [
+        {
+            "company": "CITI",
+            "role": "Senior Capacity & Data Engineer",
+            "dates": "Nov 2017 – Dec 2025",
+            "start_date": "2017-11",
+            "end_date": "2025-12",
+            "highlights": [
+                "Architected automated ETL pipelines (Python/Pandas) ingesting P95 telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing legacy manual processes.",
+                "Designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting.",
+                "Developed ML forecasting models (Prophet, scikit-learn) predicting bottlenecks 6 months ahead, improving provisioning accuracy.",
+                "Integrated disparate feeds into unified Oracle reporting with executive dashboards.",
+                "Identified underutilized infrastructure via data mining, driving hardware consolidation and cost savings.",
+                "Managed dual APM environments (CA Wily, AppDynamics) and capacity planning across banking infrastructure.",
+                "Managed CA APM environments version 9.7, Installation and Management of CA APM 10.5, Onboarding of new applications, Data Mining and Creating Capacity reports, Creating and Maintaining Data Mining Scripts.",
+                "Managed enterprise capacity planning for banking infrastructure, processing and prioritizing capacity requests.",
+                "Generated monthly capacity reports analyzing utilization trends, forecasting requirements, identifying at-risk servers.",
+                "Conducted seasonal capacity analysis for peak periods.",
+                "Developed ML forecasting models using Python and scikit-learn to predict capacity 3-6 months ahead.",
+                "Administered BMC TrueSight for infrastructure monitoring, configuring thresholds/alerts/baselines.",
+                "Integrated monitoring data from TrueSight, CA Wily APM, AppDynamics.",
+                "Built automated data pipelines using Python and pandas for ETL of capacity metrics.",
+                "Performed data cleansing and QA using pandas.",
+                "Designed/executed ETL processes to consolidate data.",
+                "Automated reporting workflows with Python scripts.",
+                "Developed interactive dashboards using matplotlib, seaborn, plotly.",
+                "Applied statistical analysis and ML in Python for underutilized infrastructure patterns.",
+                "Collaborated on rightsizing resources based on data and projections."
+            ],
+            "skills": [
+                "CA APM 10.5",
+                "CA APM 9.7",
+                "BMC TrueSight Capacity Optimization",
+                "Aperature Vista",
+                "Scripting (Perl, R, Python)",
+                "Python",
+                "Pandas",
+                "Data Pipelines",
+                "Reporting",
+                "ML Forecasting",
+                "scikit-learn",
+                "matplotlib",
+                "seaborn",
+                "plotly",
+                "ETL Processes",
+                "Statistical Analysis",
+                "AppDynamics",
+                "CA Wily APM"
+            ]
+        },
+        {
+            "company": "G6 Hospitality LLC",
+            "role": "Performance Engineer",
+            "dates": "Mar 2017 – Nov/Dec 2017",
+            "start_date": "2017-03",
+            "end_date": "2017-11",
+            "highlights": [
+                "Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.",
+                "Led 'FAST' project: data-mined real-user performance metrics for optimization recommendations.",
+                "Upgraded DynaTrace (6.5→7.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
+                "Managed and supported monitoring for Brand.com website and critical systems.",
+                "Provided dashboarding for end-to-end functionality and before/after metrics.",
+                "Analyzed bottlenecks and suggested performance improvements.",
+                "Upgraded DynaTrace from 6.5 to 7.0 and security to TLS1.2.",
+                "Evaluated mobile monitoring and other solutions.",
+                "Participated in migration to Cloud/AWS.",
+                "Integrated Performance Center to DynaTrace.",
+                "End User Monitoring.",
+                "End to End Monitoring."
+            ],
+            "skills": [
+                "DynaTrace AppMon 6.5",
+                "DynaTrace AppMon 6.0",
+                "Gomez Synthetic Monitoring",
+                "QLIK",
+                "Data Analytics",
+                "AWS",
+                "Linux",
+                "SunOS",
+                "Oracle",
+                "PostgreSQL",
+                "EUM",
+                "Performance Center",
+                "Load Runner",
+                "Adobe AEM",
+                "OneAgent",
+                "AppMon Integrations"
+            ]
+        },
+        {
+            "company": "HCL / Entergy",
+            "role": "APM Consultant",
+            "dates": "Jan 2017 – Mar 2017",
+            "start_date": "2017-01",
+            "end_date": "2017-03",
+            "highlights": [
+                "Supported enterprise CA APM, CEM, ADA for utility systems.",
+                "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
+            ],
+            "skills": [
+                "CA APM",
+                "CA CEM",
+                "CA ADA"
+            ]
+        },
+        {
+            "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
+            "role": "Senior Consultant / SME for CA APM",
+            "dates": "2011 – 2016",
+            "start_date": "2011",
+            "end_date": "2016",
+            "highlights": [
+                "Led large-scale CA APM implementations/upgrades (9.1→10.1), managing 4,000–6,000 agents.",
+                "Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.",
+                "Provided sizing recommendations, Golden Images, client training, bottleneck resolution in J2EE/.NET.",
+                "Planned and implemented APM products, provided training and support to clients.",
+                "Reviewed architectural documents and provided recommendations for sizing/implementation.",
+                "Led clients' technical teams in implementing/upgrading APM Solution.",
+                "Supported installation of POWER PACKS, customized Agents.",
+                "Created Golden Images for agent rollouts.",
+                "Created Management modules (reports, alerts, Dashboards).",
+                "Analyzed/resolved issues with solution.",
+                "Optimized agent and enterprise manager installation.",
+                "Documented implementations.",
+                "Supported and trained clients' organizations.",
+                "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000–6,000 agents.",
+                "Designed and implemented custom Management Modules and Perl/Ksh data-extraction scripts.",
+                "Collaborated with IT teams to troubleshoot performance issues in J2EE/WebLogic environments."
+            ],
+            "skills": [
+                "CA APM 10.1",
+                "CEM",
+                "Team Center",
+                "Command Center",
+                "Dot Net",
+                "Ms CRM",
+                "Life Ray Portal",
+                "Microsoft SharePoint",
+                "JMX Monitoring",
+                "J2EE",
+                "WebLogic",
+                "WebSphere",
+                "Ksh",
+                "Perl",
+                "Oracle",
+                "SQL",
+                "Linux",
+                "HPUX",
+                "SunOS"
+            ]
+        },
+        {
+            "company": "AT&T",
+            "role": "Performance Test Engineer",
+            "dates": "Aug 2010 – Jul 2011",
+            "start_date": "2010-08",
+            "end_date": "2011-07",
+            "highlights": [
+                "Analyzed J2EE telecom apps for load/break points, documented JDBC/threads/memory/CPU/GC metrics.",
+                "Installed JMX, Thread Dumps, Wily Introscope; created automation scripts.",
+                "Analyzed performance of J2EE telecom web applications to identify optimal loads and resource bottlenecks.",
+                "Documented key metrics (JDBC connections, threads, memory, CPU, GC) and installed JMX Monitoring."
+            ],
+            "skills": []
+        },
+        {
+            "company": "Sabre",
+            "role": "Senior Systems & Data Migration Engineer",
+            "dates": "May 2008 – Jan 2010 (extended to ~2012 in some refs)",
+            "start_date": "2008-05",
+            "end_date": "2012",
+            "highlights": [
+                "Led massive migration: 200+ MySQL nodes → 6-node Oracle RAC cluster for high-throughput shopping engine.",
+                "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",
+                "Built CPPUNIT testing framework; automated conversion.",
+                "Led the data migration of a shopping engine handling 10x the throughput of VISA, refactoring 200+ MySQL nodes into a high-performance 6-node Oracle RAC cluster.",
+                "Optimized core transaction processing using C++ and OCCI, reducing physical hardware footprint by 95% while maintaining sub-second query latency.",
+                "Built testing framework using CPPUNIT in C++/OCCI/OCI environment."
+            ],
+            "skills": []
+        },
+        {
+            "company": "Computer Science Corporation (CSC)",
+            "role": "Architect/Developer (IRS CADE Project)",
+            "dates": "Oct 2007 – May 2008",
+            "start_date": "2007-10",
+            "end_date": "2008-05",
+            "highlights": [
+                "UML design and module development for CICS/MQSeries/XML/DB2 system.",
+                "Performed UML-based unit design and developed modules for IRS modernization.",
+                "Worked on CICS/MQSeries/XML messaging architecture with VC++ and DB2."
+            ],
+            "skills": []
+        },
+        {
+            "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+            "role": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+            "dates": "2001 – 2007",
+            "start_date": "2001",
+            "end_date": "2007",
+            "highlights": [
+                "Developed high-availability multithreaded C++ interfaces (POSIX, sockets, Marconi APIs).",
+                "Performance tuning in billing (C/C++/Pro*C/PL/SQL): 75% memory reduction, 20% throughput gain, 10x DB perf via sequences.",
+                "Troubleshot Enabler/CSM/EMS; automated admin with Korn Shell; EDI interfaces.",
+                "Delivered performance enhancements in billing processes (C/C++/Pro*C/PL/SQL), reducing memory usage 75%.",
+                "Developed and troubleshot Flexible Bill Formatter, EDI interfaces, and Enabler modules.",
+                "Automated system administration (WebLogic/WebSphere) with Korn Shell scripts.",
+                "Developed high-availability application using C++, multithreaded patterns, socket programming, and Marconi APIs.",
+                "Designed interface using UML in Rational Rose (class/sequence diagrams, use cases).",
+                "Used design patterns (Functors, Containers, Functor Containers).",
+                "Developed threaded command utility with POSIX threads, mutex locks, shared memory, signals, semaphores.",
+                "Created utility wrapper classes for locks, semaphores, queues, sockets.",
+                "Created Native_DES module for password encryption.",
+                "Designed thread monitor modules.",
+                "Maintained and troubleshot message processing, billing invoicing, bill generation.",
+                "Reverse engineered and documented AMDOCS PRM and APIs.",
+                "Maintained code in CVS and ClearCase.",
+                "Designed/implemented enhancements including EMS.",
+                "Analyzed new concepts, provided estimates, created functional/system requirements.",
+                "Communicated with vendors, participated in impact assessments.",
+                "Worked on Blue Print document, estimated hardware.",
+                "Contributed to installation guide.",
+                "Supervised test team using Test Director.",
+                "Responsible for batch processing (message processing, settlement, reporting).",
+                "Designed/implemented interfaces using C++, Java, J2EE, XML, Pro*C, Perl, KORN Shell, Sed, Awk.",
+                "Configured application and software on testing environments (including Weblogic).",
+                "Troubleshot bug fixes for production tickets.",
+                "Implemented database fixes improving performance by 10X.",
+                "Supported CSM Module in production (database queries, reporting).",
+                "Troubleshot production problems with CSM Module."
+            ],
+            "skills": [
+                "C",
+                "C++",
+                "STL",
+                "Pro*C",
+                "POSIX Threads",
+                "IPCS",
+                "Semaphores",
+                "Locks",
+                "Encryption",
+                "Oracle",
+                "SUN SOLARIS",
+                "Korn Shell",
+                "TOAD",
+                "Marconi APIs",
+                "UML",
+                "Rational Rose",
+                "COBOL",
+                "MicroFocus COBOL",
+                "Focus Reporting",
+                "Perl",
+                "Awk",
+                "Maestro",
+                "Syncsort",
+                "QuickSelect",
+                "PS2PDF",
+                "AMDOCS CC",
+                "ClearCase",
+                "Reverse Engineering",
+                "API Discovery",
+                "Java",
+                "J2EE",
+                "JMS",
+                "XML",
+                "HPUX 11i",
+                "PL/SQL",
+                "SQL Scripts",
+                "Mercury Test Director",
+                "Tuxedo",
+                "Jolt",
+                "HPUX 11I"
+            ]
+        },
+        {
+            "company": "Simplex International - Canada",
+            "role": "Developer",
+            "dates": "1999 – 2001",
+            "start_date": "1999",
+            "end_date": "2001",
+            "highlights": [
+                "Developed time/attendance interfaces using VB6/VC++."
+            ],
+            "skills": [
+                "VB6",
+                "VC++"
+            ]
+        },
+        {
+            "company": "Humber College",
+            "role": "Lab Support",
+            "dates": "Sep 1996 – Apr 1999",
+            "start_date": "1996-09",
+            "end_date": "1999-04",
+            "highlights": [
+                "Maintained/troubleshot Linux/Windows systems and admin tasks.",
+                "Worked as part of the Lab Support team. Maintained and troubleshot Linux and Windows systems and ran various admin tasks."
+            ],
+            "skills": [
+                "Linux",
+                "Windows",
+                "System Administration",
+                "Troubleshooting"
+            ]
+        }
+    ],
+    "projects": [
+        {
+            "name": "Serverless Lakehouse Platform (AWS)",
+            "description": "Designed full serverless data platform using S3 + Glue + Athena + Bedrock. Built Text-to-SQL GenAI agent using Claude 3 Sonnet. Resolved small file problem using Snappy + Parquet compression. Optimized ETL and data access for enterprise scale.",
+            "technologies": [
+                "AWS Glue",
+                "Athena",
+                "Bedrock (GenAI)",
+                "S3",
+                "PySpark"
+            ],
+            "timeframe": "Recent"
+        },
+        {
+            "name": "HorizonScale — AI Capacity Forecasting Engine",
+            "description": "Replaced legacy manual Trenda processes with parallel generator-based pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with real-time capacity insights and 'High Trust' utilization scores. Modern agentic pipeline replacing legacy Trenda processes for banking-scale telemetry. Features parallel generator-based forecasting (90% cycle reduction), interactive Streamlit dashboards, 'High Trust' utilization scores. A sample ML project called Horizon. Repository includes code, documentation, API guides, future roadmap, operational runbook, performance benchmarks, testing strategy, evolution notes, lessons learned, and AI reasoning/RAG specs.",
+            "technologies": [
+                "Python",
+                "Prophet",
+                "Streamlit",
+                "PySpark",
+                "Multiprocessing",
+                "Spark",
+                "Machine Learning",
+                "Data Pipelines",
+                "API Integration",
+                "Performance Benchmarking",
+                "Testing and Validation",
+                "AI Reasoning",
+                "RAG (Retrieval-Augmented Generation)"
+            ],
+            "repo": "https://github.com/seanlgirgis/HorizonStudy",
+            "documentation": [
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/README.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/API_AND_INTEGRATION_GUIDE.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/FUTURE_ROADMAP.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/OPERATIONAL_RUNBOOK.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/PERFORMANCE_BENCHMARK_REPORT.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TESTING_AND_VALIDATION_STRATEGY.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TREND_TO_HORIZONSCALE_EVOLUTION.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/lessons_learnt.md",
+                "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/AI_REASONING_AND_RAG_SPEC.md"
+            ],
+            "code": "https://github.com/seanlgirgis/HorizonStudy/tree/main/src/HorizonScale",
+            "additional_docs": [
+                "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/lib",
+                "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/pipeline",
+                "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/synthetic"
+            ],
+            "timeframe": "Recent"
+        },
+        {
+            "name": "FAST Project",
+            "description": "Data mining user performance metrics to optimize critical money-generating systems.",
+            "technologies": [
+                "Dynatrace",
+                "Data Mining"
+            ],
+            "timeframe": "2017"
+        }
+    ],
+    "metadata": {
+        "last_updated": "2026-02-05",
+        "sources_archived": [
+            "sources_master1.json",
+            "Sources_master2.json",
+            "master_career_data.json",
+            "master_profile.md",
+            "skills.json",
+            "skills.yaml",
+            "master_career_data.yaml"
+        ],
+        "validation_notes": "Dates checked: No overlaps detected (e.g., G6 ends 2017-11, CITI starts 2017-11 — assume seamless). Skills deduped; experiences sorted chronologically descending. Field names standardized (e.g., 'portfolio' to 'personal_website')."
+    }
+}
