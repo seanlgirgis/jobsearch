@@ -62,6 +62,29 @@ Write a concise, keyword-rich professional summary (4-6 lines max) that:
         ]
         return self.chat(messages, temperature=0.6, max_tokens=max_tokens)
 
+
+        
+    def query(
+        self,
+        prompt: str,
+        model: str = None,
+        temperature: float = 0.0,
+        max_tokens: int = 4500,
+    ) -> str:
+        """
+        Compatibility method for scripts that expect .query(prompt).
+        Wraps a single user message.
+        """
+        if model is None:
+            model = self.model
+
+        messages = [{"role": "user", "content": prompt}]
+
+        return self.chat(
+            messages=messages,
+            temperature=temperature,
+            max_tokens=max_tokens,
+        )
 # ────────────────────────────────────────────────
 # Simple smoke test / usage example
 # ────────────────────────────────────────────────

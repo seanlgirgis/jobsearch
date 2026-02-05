@@ -7,7 +7,7 @@ $venvPath = "C:\py_venv\JobSearch"
 & "$venvPath\Scripts\Activate.ps1"
 
 # Prepend our custom Python (in case activation didn't fully override)
-$env:PATH = "C:\pyver\py312;C:\pyver\py312\Scripts;" + $env:PATH
+#$env:PATH = "C:\pyver\py312;C:\pyver\py312\Scripts;" + $env:PATH
 
 # Project-specific environment variables (expand later)
 $env:PROJECT_ROOT = Convert-Path (Split-Path -Parent $MyInvocation.MyCommand.Path)   # or hardcode repo path
