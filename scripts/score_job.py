@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # scripts/score_job.py
 """
 CLI script to score a job posting against your master profile using Grok.
@@ -22,6 +23,8 @@ import shutil  # needed if you use shutil.copy instead of .replace()
 import yaml 
 from src.ai.grok_client import GrokClient
 from src.loaders.master_profile import MasterProfileLoader
+
+JOB_ROOT = Path("data/jobs")  # ← Add this here (missing global)
 
 print("Script started - imports passed")
 print("Current dir:", Path.cwd())
@@ -92,53 +95,55 @@ Job description to evaluate:
 {job_text}
 
 Tasks:
-1. Calculate an overall match score (0–100) based on:
-   - Skill overlap (years, proficiency, keywords)
-   - Experience relevance (years, domain, scale)
-   - Leadership / soft requirements
-   - Domain knowledge (healthcare is a plus here)
-2. Recommend: Strong Proceed / Proceed with Prep / Borderline / Skip
-3. List 4–6 strongest matches (with evidence)
-4. List 3–5 biggest gaps or risks (with mitigation ideas)
-5. Overall advice (1–2 sentences)
+1. Score overall match (0-100) based on skills, experience, and requirements.
+2. Recommendation: Strong Proceed, Proceed, Hold, or Skip. Explain briefly.
+3. Strongest Matches: 5-7 bullet points of key alignments (skills, exp, etc.).
+4. Gaps & Risks: 3-5 bullet points of mismatches or concerns, with mitigation advice.
+5. Advice: 1-2 sentences on next steps (apply? tailor resume? upskill?).
 
-Output format (markdown):
-## Match Score: XX%
-## Recommendation: ...
+Output EXACTLY in this markdown format:
+## Match Score: X%
+## Recommendation: Y
 ## Strongest Matches
-- ...
+- Bullet 1
+- Bullet 2
 ## Gaps & Risks
-- ...
+- Bullet 1 *Mitigation*: Advice
+- Bullet 2 *Mitigation*: Advice
 ## Advice
-...
+Short paragraph.
 """,
         },
     ]
 
-# ... (keep everything above main() the same)
 
-def create_job_folder(uuid: str, job_file: Path, report_content: str) -> Path:
-    """Create job tracking folder and save initial files."""
-    job_dir = Path("data/jobs") / uuid
+def create_job_folder(uuid_str: str, job_file: Path, score_response: str) -> Path:
+    job_dir = JOB_ROOT / uuid_str
     job_dir.mkdir(parents=True, exist_ok=True)
 
-    # Copy raw intake
-    intake_dest = job_dir / "raw_intake.md"
-    job_file.replace(intake_dest)  # move original to job folder (or .copy() if you want to keep original)
+    # MOVE original file to job folder (removes from intake/)
+    original_name_in_job = job_dir / job_file.name
+    shutil.move(str(job_file), str(original_name_in_job))  # ← move instead of copy
 
-    # Save score report
+    # Also create raw_intake.md copy for script compatibility
+    raw_intake_path = job_dir / "raw_intake.md"
+    shutil.copy(str(original_name_in_job), str(raw_intake_path))
+
+    # Save score report with timestamp
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     report_path = job_dir / f"score_report_{timestamp}.md"
+    report_content = f"# Score Report for {job_file.stem}\n\n{score_response}"
     report_path.write_text(report_content, encoding="utf-8")
 
-    # Create metadata.yaml
+    # Create/update metadata.yaml
     metadata = {
-        "uuid": uuid,
-        "title": job_file.stem,  # or parse from content later
-        "company": "Collective Health",  # improve parsing later
+        "uuid": uuid_str,
+        "original_filename": job_file.name,
+        "title": job_file.stem,  # fallback
+        "company": "Collective Health",  # TODO: parse from filename or content
         "role": "Staff Data Engineer",
         "status": "PENDING",
-        "score": 85,  # parse from response or hardcode for v0.2
+        "score": 85,  # TODO: parse real score from response
         "score_date": datetime.now().isoformat(),
         "created_at": datetime.now().isoformat(),
         "notes": ""
@@ -148,7 +153,7 @@ def create_job_folder(uuid: str, job_file: Path, report_content: str) -> Path:
         yaml.safe_dump(metadata, f, sort_keys=False)
 
     print(f"Job folder created: {job_dir}")
-    print(f"Files: raw_intake.md, score_report_..., metadata.yaml")
+    print(f"Files: {original_name_in_job.name} (moved from intake), raw_intake.md, score_report_..., metadata.yaml")
     return job_dir
 
 
@@ -179,7 +184,7 @@ def main() -> None:
         for s in top_skills
     )
     recent_exp = loader.get_recent_experience(n=3)
-    recent_exp_str = "\n".join(
+    recent_experience_str = "\n".join(
         f"- {r.get('role')} at {r.get('company')} ({r.get('start')} – {r.get('end')})"
         for r in recent_exp
     )
@@ -197,7 +202,7 @@ def main() -> None:
         job_text=job_text,
         profile_summary=profile_summary,
         top_skills_str=top_skills_str,
-        recent_experience_str=recent_exp_str,
+        recent_experience_str=recent_experience_str,
     )
 
     grok = GrokClient(model=args.model)

@@ -1,15 +1,26 @@
-# .grok/rules.md – Our working agreement with Grok
+# Project Rules – Actionable Guidelines
 
-- All code & chat stays public in this repo
-- Prefer modular, iterative commits (small PRs or direct pushes)
-- Use xAI models / Grok API when possible
-- Responses should be code-first when implementing features
-- Keep building toward full RAG + second-brain capabilities
-- No secrets, API keys, personal data or large binaries in repo
-- Ask clarifying questions if scope is unclear
-- Commit messages: keep descriptive, use conventional style when possible
+These are specific, enforceable rules for coding, responses, and project management. See constitution.md for high-level principles; decisions.md for log.
 
-Last updated: 2026-02-04
+## Coding Rules
+- All code stays public in repo – no secrets/API keys/large binaries.
+- Modular/OOP: Classes decoupled, no duplication; favor shared utilities (e.g., one LLM client, one vector store instance).
+- Central config: Import constants/settings from config.py (e.g., paths, model names).
+- Iterative commits: Small, descriptive messages (e.g., "Add score_job.py v0.1 with Grok scoring").
+- Dependencies: LangChain/FAISS/sentence-transformers core; no unnecessary libs.
+- Error handling: Robust (try/except, user-friendly messages); no silent failures.
 
+## Response Style Rules
+- Code-first for implementations: Provide full, ready-to-run code blocks.
+- Ask clarifying questions if scope unclear.
+- Proactive memory: Propose updates to decisions.md/Teachables/ for key events/milestones.
+- Use tables for comparisons/lists when effective.
 
-Rule: Always export legacy masters via profile_export.py before running POC scripts that load data/master/.
+## Project Management Rules
+- Public repo: All comms/code in GitHub.
+- Workflow: Score → Decision → Tailor → Generate (intermediates for review).
+- Export legacy masters (profile_export.py) before running POC scripts on data/master/.
+- On rejection/hold: Optionally move files to intake/rejected/ or intake/held/.
+- Numbering: Use prefix IDs for stories/reqs/specs.
+
+Last updated: 2026-02-05

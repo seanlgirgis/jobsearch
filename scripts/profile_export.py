@@ -40,6 +40,53 @@ def export_master_career_data(sot: dict) -> None:
         json.dump(career_data, f, indent=2)
     print(f"Exported: {out_path}")
 
+def export_master_career_yaml(sot: dict) -> None:
+    """Extract to master_career_data.yaml (matches old YAML structure)."""
+    career_yaml = {
+        "personal": {
+            "name": sot["personal_info"]["full_name"],
+            "title": sot["personal_info"]["preferred_title"],
+            "location": sot["personal_info"]["location_preference"],
+            "email": sot["personal_info"]["email"],
+            "phone": sot["personal_info"]["phone"],
+            "linkedin": sot["personal_info"]["linkedin"],
+            "github": sot["personal_info"]["github"],
+            "twitter": sot["personal_info"]["x_twitter"],  # or X
+            "website": sot["personal_info"]["personal_website"]
+        },
+        "summary": {
+            "short": sot["professional_summary"]["short"],
+            "long": sot["professional_summary"]["long"]
+        },
+        "experience": [
+            {
+                "company": exp["company"],
+                "role": exp["role"],
+                "location": "",  # not in sot; blank for compat
+                "start": exp["start_date"],
+                "end": exp["end_date"],
+                "highlights": exp["highlights"]
+            }
+            for exp in sot["experiences"]
+        ],
+        "education": [
+            {
+                "degree": edu["degree"],
+                "school": edu["institution"],
+                "location": edu["location"],
+                "year": edu["dates"] if edu["dates"] != "Not specified" else "",
+                "gpa": None
+            }
+            for edu in sot["education"]
+        ],
+        "certifications": sot["certifications"],
+        "flagship_projects": sot["projects"]
+    }
+    out_path = MASTER_DIR / "master_career_data.yaml"
+    with open(out_path, "w", encoding="utf-8") as f:
+        yaml.dump(career_yaml, f, sort_keys=False, allow_unicode=True)
+    print(f"Exported: {out_path}")
+
 def export_skills_yaml(sot: dict) -> None:
     """Extract to skills.yaml (matches old list format)."""
     skills_list = [
@@ -58,7 +105,7 @@ def export_skills_yaml(sot: dict) -> None:
         yaml.dump(skills_list, f, sort_keys=False)
     print(f"Exported: {out_path}")
 
-# Add more exports if needed (e.g., master_profile.md from summary/personal)
+# Add more if loader needs (e.g., skills.json as array, master_profile.md as markdown)
 
 def main():
     if not SOT_PATH.is_file():
@@ -68,8 +115,8 @@ def main():
         sot = json.load(f)
     
     export_master_career_data(sot)
+    export_master_career_yaml(sot)
     export_skills_yaml(sot)
-    # Future: export_master_career_data.yaml, skills.json, master_profile.md
 
 if __name__ == "__main__":
     main()
