@@ -1,0 +1,27 @@
+uuid: 714f7c73-3685-4e4c-acc5-b81d7c0b5789
+job_id: 00006_714f7c73
+original_filename: 00006.CapitalOne.SeniorEngineer.02062026.1201.md
+company: CapitalOne
+role: Lead Data Engineer
+company_website: https://www.capitalonecareers.com/
+location: Plano, Texas
+status: ACCEPTED
+score: 92
+recommendation: Strong Proceed
+score_date: '2026-02-06T12:04:41.323727'
+created_at: '2026-02-06T12:04:41.323727'
+notes: 'Plano, TX location match. Score: 92%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T12:04:41.488715'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application

@@ -1,0 +1,123 @@
+company_name: Agile Engine
+company_website: https://join.agileengine.com/job/data-engineer-agileengine/
+job_title: Data Engineer ID50062
+location: USA, Remote
+extracted_skills:
+- python
+- sql
+- aws
+- airflow
+- spark
+- snowflake
+- pandas
+- polars
+- pyspark
+- duckdb
+- parquet
+- avro
+- orc
+- terraform
+- gcp
+- nosql
+- elasticsearch
+- opensearch
+- aws sagemaker studio
+- jupyter
+- scala
+job_summary: 'Agile Engine is seeking a Data Engineer ID50062 to join their remote
+  team in the USA. The role focuses on designing and building scalable Data Lakes,
+  Warehouses, and Lakehouses, while implementing robust ETL/ELT processes using Python
+  and tools like Airflow. Key responsibilities include managing data ingestion from
+  third-party APIs and optimizing file formats for performance. Candidates must have
+  5+ years of Python and data processing experience, expertise in Big Data technologies,
+  and proficiency with cloud platforms like AWS and Snowflake.
+
+  '
+responsibilities:
+- Design and develop scalable Data Lakes, Data Warehouses, and Data Lakehouses.
+- Implement efficient ETL/ELT processes at scale using Python and orchestration tools
+  like Airflow.
+- Create ingestion workflows from various third-party APIs and diverse data sources.
+- Optimize file formats such as Parquet, Avro, and ORC for high-performance data retrieval.
+- Support machine learning initiatives and advanced analytics using AI development
+  tools.
+- Act as a technical consultant to gather requirements and translate business goals
+  into technical roadmaps.
+- Build infrastructure on AWS and on-premises environments using Terraform and related
+  tools.
+requirements:
+- Must be authorized to work for any employer in the US (e.g., Green card, TN visa,
+  GC EAD, H4 EAD, U4U with EAD).
+- Bachelor’s degree in computer science, engineering, or a related technical field,
+  or equivalent experience.
+- 5+ years of hands-on experience with Python.
+- 5+ years of experience with data processing and analytics libraries like Pandas,
+  Polars, PySpark, and DuckDB.
+- 2+ years of experience with Big Data technologies such as Spark and Snowflake.
+- Expert knowledge of Airflow or similar pipeline orchestration tools.
+- Deep understanding of Medallion Architecture, columnar file formats, and database
+  technologies (SQL, NoSQL, Lakehouse).
+- Proven experience with third-party API data ingestion.
+- Proficiency with cloud platforms like AWS, GCP, and Snowflake, including advanced
+  SQL optimization.
+- Upper-intermediate English proficiency.
+preferred:
+- Familiarity with the fintech industry and financial data domains.
+- Strong documentation skills for data pipelines, architecture designs, and best practices.
+- Experience with OpenSearch or Elasticsearch.
+- Knowledge of AWS SageMaker Studio and Jupyter for data analysis.
+- Proficiency in Terraform.
+- Experience with Scala.
+benefits:
+- Remote work opportunity in the USA.
+must_have_skills:
+- Python
+- Airflow
+- Spark
+- Snowflake
+- SQL
+- AWS
+- Data Ingestion
+- ETL/ELT Processes
+- Medallion Architecture
+nice_to_have_skills:
+- Fintech Industry Knowledge
+- Documentation Skills
+- OpenSearch
+- Elasticsearch
+- AWS SageMaker Studio
+- Jupyter
+- Terraform
+- Scala
+ats_keywords:
+- Data Engineer
+- Python
+- Airflow
+- Spark
+- Snowflake
+- AWS
+- GCP
+- SQL
+- NoSQL
+- Data Lake
+- Data Warehouse
+- Data Lakehouse
+- ETL
+- ELT
+- Data Ingestion
+- Third-Party APIs
+- Parquet
+- Avro
+- ORC
+- Medallion Architecture
+- Pandas
+- Polars
+- PySpark
+- DuckDB
+- Terraform
+- Big Data
+- Machine Learning
+- Advanced Analytics
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

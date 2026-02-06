@@ -1,0 +1,106 @@
+company_name: Oden Technologies
+company_website: https://oden.io/
+job_title: Machine Learning Data Engineer
+location: USA, Remote
+extracted_skills:
+- Python
+- SQL
+- Apache Beam
+- Apache Dataflow
+- Apache Spark
+- MLFlow
+- Vertex
+- Sagemaker
+- GCP
+- Machine Learning
+- AI
+- Deep Learning
+- Reinforcement Learning
+- Recommendation Systems
+- Distributed Systems
+- Generative AI
+- Timeseries Analysis
+job_summary: 'Oden Technologies, a leader in Manufacturing AI, is driving the fourth
+  industrial revolution by enhancing factory operations with real-time data and advanced
+  ML/AI algorithms. As a Machine Learning Data Engineer, you will develop and implement
+  data and ML pipelines to optimize manufacturing processes through predictions, recommendations,
+  and anomaly detection. The role involves working with diverse datasets, collaborating
+  with product and customer success teams, and deploying solutions in real-world environments.
+  Candidates should have 1-3 years of experience as an ML or Data Engineer, proficiency
+  in Python and ML tools, and ideally an advanced degree in a related field.
+
+  '
+responsibilities:
+- Develop and maintain systems for the full ML lifecycle, including data preparation,
+  model training, deployment, and monitoring.
+- Collaborate with data scientists to create and deploy ML/AI models and algorithms
+  for complex manufacturing processes.
+- Enable applications of models for prediction, optimization, monitoring, and alerting
+  in manufacturing settings.
+- Work with engineering, product, and customer success teams to implement and deploy
+  solutions.
+- Validate results in real-world customer deployments and generalize solutions for
+  future product features.
+- Innovate to create next-generation product features and engage with the technical
+  community to stay updated on advancements.
+- Present results externally to advance the state of the art in manufacturing AI.
+requirements:
+- 1-3 years of professional experience as an ML Engineer or Data Engineer.
+- Advanced degree (M.S. or Ph.D.) in Machine Learning, Distributed Systems, Computer
+  Science with ML/AI focus, or related fields.
+- Proficiency in Python and common ML and optimization libraries.
+- Experience with distributed data processing systems such as Apache Beam/Dataflow
+  or Apache Spark.
+- Familiarity with ML workflows and tools, including open-source tools like MLFlow
+  and cloud platforms like Vertex or Sagemaker.
+- Ability to own projects end-to-end, from experimentation to customer delivery.
+- Based in the New York metro-area with willingness to come to the office several
+  times a month.
+preferred:
+- Experience with SQL and Google Cloud Platform (GCP).
+- Familiarity with unstructured data and Generative AI, particularly in enterprise
+  applications.
+- Experience designing, building, and deploying performant ML products.
+benefits:
+- Base salary range of $120,000 to $190,000, with potential for equity and additional
+  benefits.
+- Personalized career development pathways for growth and advancement.
+- Commitment to diversity and inclusion initiatives as a core component of company
+  culture.
+- Psychologically safe work environment with a focus on aligning individual strengths
+  with company goals.
+must_have_skills:
+- Python
+- Machine Learning
+- Distributed Data Processing
+- ML Workflows
+nice_to_have_skills:
+- SQL
+- GCP
+- Generative AI
+- Unstructured Data
+ats_keywords:
+- Machine Learning Engineer
+- Data Engineer
+- Manufacturing AI
+- ML Pipelines
+- Timeseries Data
+- Deep Learning
+- Reinforcement Learning
+- Recommendation Systems
+- Apache Spark
+- Apache Beam
+- MLFlow
+- Vertex AI
+- Sagemaker
+- Python Programming
+- Distributed Systems
+- Real-time Data Processing
+- Process Optimization
+- Anomaly Detection
+- Customer Success Collaboration
+- Product Deployment
+- Manufacturing Processes
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

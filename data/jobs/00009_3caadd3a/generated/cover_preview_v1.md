@@ -1,0 +1,23 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+February 06, 2026  
+
+RTX Corporation
+Arlington, VA
+
+Dear Hiring Manager,
+
+I am excited to apply for the Data Engineer position (ID50062) at RTX. With a strong alignment to your mission of pushing technological boundaries in aerospace and defense, I am eager to contribute my expertise in data engineering to support Collins Aerospace’s innovative data and analytics initiatives.
+
+With over 20 years of experience as a Senior Data Engineer, I have honed my skills in designing and maintaining robust data pipelines and ETL processes, directly aligning with RTX’s requirements. At CITI, I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints, which enhanced reporting and forecasting accuracy. My expertise in SQL and data warehousing, including schema design and optimization, mirrors the proficiency needed for Snowflake-based tasks at RTX. Additionally, my recent work on a Serverless Lakehouse Platform using AWS technologies like Glue and Athena demonstrates my capability to handle complex data modeling and ensure data quality, key aspects of this role.
+
+My experience also includes leveraging advanced tools and methodologies to deliver impactful data solutions. For instance, my HorizonScale AI Capacity Forecasting Engine project utilized PySpark and multiprocessing to reduce forecasting cycles by 90%, showcasing my ability to optimize data processes at scale. This aligns with RTX’s need for efficient data integration and transformation using tools like Matillion. Furthermore, my collaborative approach, evidenced by working with cross-functional teams at CITI to build executive dashboards, ensures I can effectively partner with data engineers and business teams at RTX to address technical challenges and deliver actionable insights.
+
+I am enthusiastic about the opportunity to bring my data engineering expertise to RTX, contributing to innovative solutions in aerospace and defense. I would welcome the chance to discuss how my skills in ETL processes, SQL, and data warehousing can support your team’s goals. Thank you for considering my application, and I look forward to the possibility of contributing to RTX’s mission of technological advancement.
+
+Sincerely,
+Sean Luka Girgis

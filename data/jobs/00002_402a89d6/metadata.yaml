@@ -19,10 +19,13 @@ last_decision_at: '2026-02-05T23:23:52.013280'
 last_decision: ACCEPTED
 application:
   applied: true
-  applied_date: '2026-02-05'
-  applied_method: https://my.greenhouse.io/dashboard
-  application_notes: Tailored cover letter and resume submitted
+  applied_date: '2026-02-06'
+  applied_method: my.greenhouse.io
+  application_notes: ''
   history:
   - date: '2026-02-05'
     status: Applied
     notes: Tailored cover letter and resume submitted
+  - date: '2026-02-06'
+    status: Applied
+    notes: Applied via my.greenhouse.io

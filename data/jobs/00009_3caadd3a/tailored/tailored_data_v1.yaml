@@ -1,0 +1,95 @@
+company_name: RTX
+company_website: https://careers.rtx.com/
+job_title: Data Engineer ID50062
+location: USA, Remote
+extracted_skills:
+- sql
+- snowflake
+- matillion
+- alteryx
+- tableau
+- etl
+- data warehousing
+- data modeling
+- data visualization
+job_summary: 'RTX, a leader in aerospace and defense through its Collins Aerospace
+  division, is seeking a skilled Data Engineer to join their Data & Analytics team.
+  This hybrid role, based at major facilities in the USA, involves designing and maintaining
+  robust data pipelines using technologies like Snowflake and Matillion. The ideal
+  candidate will collaborate with cross-functional teams to enhance data platforms
+  and ensure data quality, requiring at least 3-5 years of relevant experience and
+  strong SQL proficiency.
+
+  '
+responsibilities:
+- Design, develop, and maintain data pipelines and ETL processes to support analytics
+  and reporting needs.
+- Utilize Snowflake for data warehousing tasks, including data modeling, schema design,
+  and optimization.
+- Implement ETL processes with Matillion to integrate and transform data from various
+  sources into Snowflake.
+- Write and optimize complex SQL queries for data retrieval, analysis, and reporting.
+- Ensure data quality and integrity through validation and cleansing procedures.
+- Collaborate with data engineers, analysts, and business teams to understand and
+  deliver data solutions.
+- Investigate and resolve data issues, performance bottlenecks, and technical challenges.
+- Create and maintain documentation for data processes, workflows, and architecture.
+requirements:
+- University Degree with a minimum of 5 years of relevant experience, or an Advanced
+  Degree with a minimum of 3 years of experience.
+- U.S. citizenship required due to program/contract access restrictions; no sponsorship
+  offered.
+- At least 3 years of experience in a data engineering role, with expertise in data
+  pipelines and ETL processes.
+- Proven experience with Snowflake, Matillion, Alteryx, Tableau, or similar ETL and
+  RDBMS technologies.
+- Strong SQL skills, including complex queries, joins, and aggregations.
+- Experience in developing dashboards and visualizations using Tableau.
+- Strong understanding of ETL processes and best practices.
+- Excellent analytical, problem-solving, and communication skills.
+- Ability to work in a fast-paced, dynamic environment with changing priorities.
+- Experience with agile methodologies and working in cross-functional agile teams.
+preferred:
+- Advanced Degree in a related field.
+- Additional experience with other data visualization or ETL tools beyond those listed.
+benefits:
+- Medical, dental, and vision insurance.
+- Three weeks of vacation for newly hired employees.
+- Generous 401(k) plan with employer matching and retirement contributions.
+- Tuition reimbursement and Student Loan Repayment Program.
+- Life insurance and disability coverage.
+- Optional coverages including pet, home, auto, and critical illness insurance.
+- Parental leave benefits for birth and adoption.
+- Employee Assistance Plan with free counseling sessions.
+- Wellness rewards and virtual doctor visits through Doctor on Demand.
+- Child and elder care services through Bright Horizons.
+must_have_skills:
+- sql
+- snowflake
+- matillion
+- etl
+- data pipelines
+- u.s. citizenship
+nice_to_have_skills:
+- alteryx
+- tableau
+- advanced degree
+ats_keywords:
+- data engineer
+- snowflake
+- matillion
+- sql
+- etl processes
+- data pipelines
+- data warehousing
+- tableau
+- alteryx
+- data visualization
+- collins aerospace
+- hybrid role
+- u.s. citizenship
+- data quality
+- data modeling
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
