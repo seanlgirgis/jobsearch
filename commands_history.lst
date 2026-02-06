@@ -1,0 +1,182 @@
+
+  Id     Duration CommandLine
+  --     -------- -----------
+   1        0.190 try { . "c:\Program Files\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\common\scripts\shellIntegration.ps1" } catch {}
+   2        0.643 & C:/py_venv/JobSearch/Scripts/Activate.ps1
+   3        0.012 ls .\data\master\
+   4        0.110 python scripts/profile_export.py
+   5       13.377 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+   6        0.033 ls .\data\jobs\f3ac1f09-bb1c-4511-98fa-70427c5f1e4f\
+   7        0.270 clear
+   8       17.943 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+   9        0.010 clear
+  10       17.297 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+  11        0.008 clear
+  12        0.567 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+  13        0.055 type .\scripts\score_job.py
+  14        0.010 clear
+  15        0.564 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+  16       10.951 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+  17        0.232 clear
+  18       16.176 python scripts/score_job.py intake/00001.Collective_Health.02052026.1328.md
+  19        6.542 gitq
+  20        0.233 clear -v mkdir user_guide\v0
+  21        0.073 mkdir -p user_guide\v0
+  22        0.023 mkdir -p user_guide\v0\script_guides
+  23        4.008 code user_guide/v0/README.md
+  24        3.747 code user_guide/v0/script_guides/profile_source_of_truth.md
+  25        0.126 python scripts/job_decision.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --accept --reason "Strong 85% match; Plano location; excellent SQL/Python/…
+  26        3.774 code user_guide/v0/script_guides/score_job.md
+  27        4.023 code user_guide/v0/script_guides/job_Decision.md
+  28        2.833 gitq
+  29        0.795 python scripts/tailor_job_data.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  30        3.765 code user_guide/v0/script_guides/tailor_job_data.md
+  31        4.080 code scripts/resume_intermediate.py
+  32        3.799 code scripts/resume_generation.py
+  33        0.008 clear
+  34        0.579 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  35        0.387 cleaqr
+  36        0.008 clear
+  37       21.753 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  38        0.008 clear
+  39        0.585 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  40        0.260 clear
+  41       20.767 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  42        0.009 clear
+  43        0.055 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  44     1:19.524 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  45        0.008 clear
+  46       57.662 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  47        0.095 notepad++.exe data\jobs\28601739-4a44-4f86-8b08-bf8870a42081\generated\resume_intermediate_v1.json
+  48        0.376 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  49        0.241 clear
+  50        0.148 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  51        0.009 clear
+  52        0.226 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  53        0.232 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --trim
+  54        0.236 clear
+  55        0.212 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --trim
+  56        0.231 clear
+  57        0.205 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --trim
+  58        0.244 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  59        0.234 clear
+  60       51.094 python scripts/resume_intermediate.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  61        0.442 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  62        0.197 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --trim
+  63        0.231 clear
+  64        0.221 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --trim
+  65        0.217 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1
+  66        0.234 clear
+  67        0.302 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --all
+  68        0.251 clear
+  69        0.336 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --all
+  70        0.250 clear
+  71        0.299 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --all
+  72        0.517 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --all
+  73        0.232 clear
+  74        0.290 python scripts/resume_generation.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081 --version v1 --all
+  75        0.259 history
+  76        3.793 code user_guide/v0/script_guides/resume_Intermediate.md
+  77        0.266 clear
+  78        0.568 python .\scripts\tailor_job_data.py --uuid 96b16121-8608-405d-9553-af86fdbf939c
+  79        0.538 python .\scripts\tailor_job_data.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081
+  80        0.009 clear
+  81        0.543 python .\scripts\tailor_job_data.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081
+  82        0.270 clear
+  83        0.578 python .\scripts\tailor_job_data.py --uuid 28601739-4a44-4f86-8b08-bf8870a42081
+  84        8.265 python scripts/01_score_job.py intake\00001.Collective_Health.02052026.1328.md --no-move
+  85        0.010 clear
+  86        6.828 python scripts/01_score_job.py intake\00001.Collective_Health.02052026.1328.md --no-move
+  87        0.023 ls .\data\jobs
+  88        0.232 clear
+  89        8.363 python scripts/01_score_job.py intake\00001.Collective_Health.02052026.1328.md --no-move
+  90        0.232 clear
+  91        0.248 ls .\data\jobs\
+  92        0.059 python -m scripts.02_decide_job --uuid cdb9a3fa --accept --reason "Strong match - proceeding"
+  93        0.035 clear
+  94        0.115 python -m scripts.02_decide_job --uuid cdb9a3fa --accept --reason "Strong match - proceeding"
+  95        0.008 clear
+  96        0.097 python -m scripts.02_decide_job --uuid cdb9a3fa --accept --reason "Strong match - proceeding"
+  97        4.029 code scripts/03_tailor_job_data.py
+  98        0.559 python  .\scripts\03_tailor_job_data.py  --uuid cdb9a3fa --version llm-v1
+  99        0.023 ls .\data\jobs\
+ 100        0.234 clear
+ 101        9.330 python  .\scripts\03_tailor_job_data.py  --uuid cdb9a3fa --version llm-v1
+ 102        3.831 code .\user_guide\v0\script_guides\03_tailor_job_data.md
+ 103        4.109 code scripts/04_generate_resume_intermediate.py
+ 104        0.009 clear
+ 105       30.731 python scripts/04_generate_resume_intermediate.py --uuid 00001_cdb9a3fa --version llm-tailored-v1 --model grok-3
+ 106        4.045 code .\user_guide\v0\script_guides\04_generate_resume_intermediate.md
+ 107       21.424 npm install -g cline
+ 108        0.254 clear
+ 109        3.929 code scripts/05_render_resume.py
+ 110        0.294 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 111        0.248 clear
+ 112        0.310 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 113        0.231 clear
+ 114        0.287 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 115        0.232 clear
+ 116        0.280 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 117        0.233 clear
+ 118        0.292 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 119        0.499 python scripts/05_render_resume.py --uuid cdb9a3fa --version llm-tailored-v1 --all
+ 120        4.009 code scripts/06_generate_cover_intermediate.py
+ 121        0.010 clear
+ 122        0.570 python scripts/06_generate_cover_intermediate.py --uuid cdb9a3fa --version v1
+ 123        4.038 code scripts/07_render_cover_letter.py
+ 124        0.009 clear
+ 125        0.594 python scripts/06_generate_cover_intermediate.py --uuid cdb9a3fa --version v1
+ 126        0.008 clear
+ 127        9.097 python scripts/06_generate_cover_intermediate.py --uuid cdb9a3fa --version v1
+ 128        0.233 clear
+ 129        7.830 python scripts/06_generate_cover_intermediate.py --uuid cdb9a3fa --version v1
+ 130        0.064 python scripts/07_render_cover_letter.py --uuid cdb9a3fa --version v1
+ 131        0.009 clear
+ 132        0.189 python scripts/07_render_cover_letter.py --uuid cdb9a3fa --version v1
+ 133        4.019 code scripts/08_update_application_status.py
+ 134        0.105 python scripts/08_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
+ 135        3.351 gitq
+ 136        4.093 code .\intake\00002.PostScript.02052026.2243.md
+ 137        0.234 clear
+ 138        0.072 python scripts/score_job.py intake/00002.PostScript.02052026.2243.md
+ 139        9.534 python .\scripts\01_score_job.py intake/00002.PostScript.02052026.2243.md
+ 140        4.012 code scripts/055_company_research.py
+ 141        0.071 python .\scripts\055_company_research.py -uuid 29bbe424 --model grok-3
+ 142        0.065 python -m scripts.055_company_research -uuid 29bbe424 --model grok-3
+ 143        0.008 clear
+ 144        0.598 python -m scripts.055_company_research -uuid 29bbe424 --model grok-3
+ 145        6.002 python -m scripts.055_company_research --uuid 29bbe424 --model grok-3
+ 146        0.009 clear
+ 147        2.973 python -m scripts.055_company_research --uuid 29bbe424 --model grok-3
+ 148        0.281 clear
+ 149        8.669 python scripts\01_score_job.py "C:\jobsearch\intake\00002.PostScript.02052026.2243.md" --no-move
+ 150        0.352 python scripts\02_decide_job.py --uuid 402a89d6 --accept --reason "Strong 85% match — excellent AWS & data pipeline alignment, willing to upskill on …
+ 151       11.683 python scripts\03_tailor_job_data.py --uuid 402a89d6 --version v2-with-company --temperature 0.0
+ 152       45.563 python scripts\04_generate_resume_intermediate.py --uuid 402a89d6 --version v1-postscript --model grok-3
+ 153        0.381 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript --model grok-3 --all 
+ 154        0.163 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 155        0.170 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 156        0.173 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 157        0.008 clear
+ 158        0.063 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 159        0.161 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 160        0.010 clear
+ 161        0.168 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 162        5.470 pip install docx2pdf
+ 163        0.432 pip freeze > .\requirements.txt
+ 164        0.009 clear
+ 165        0.241 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 166        0.235 clear
+ 167        0.221 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 168        0.008 clear
+ 169        0.291 python .\scripts\05_render_resume.py --uuid 402a89d6 --version v1-postscript  --all 
+ 170        0.237 clear
+ 171        7.241 python scripts\06_company_research.py --uuid 402a89d6 --version v1-postscript
+ 172        5.908 python scripts\07_generate_cover_intermediate.py --uuid 402a89d6 --version v1-postscript --model grok-3
+ 173       14.587 python scripts\07_generate_cover_intermediate.py --uuid 402a89d6 --version v1-postscript --model grok-3
+ 174        0.394 python scripts/08_render_cover_letter.py --uuid 402a89d6 --version v1-postscript
+ 175        0.047 history
+ 176        0.009 clear
+ 177        0.096 python scripts/09_update_application_status.py --uuid 402a89d6 apply --date 2026-02-05 --method "https://my.greenhouse.io/dashboard" --notes "Tailore…
+ 178        0.008 clear
+

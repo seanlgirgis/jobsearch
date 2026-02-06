@@ -1,12 +1,12 @@
 #!/usr/bin/env python3
 """
-scripts/07_render_cover_letter.py
+scripts/08_render_cover_letter.py
 
-Phase 7: Render cover letter from intermediate JSON to DOCX and MD.
+Phase 8: Render cover letter from intermediate JSON to DOCX and MD.
 Supports agency/generic vs enterprise/personalized (from JSON).
 
 Usage:
-    python scripts/07_render_cover_letter.py --uuid <uuid-or-prefix> --version v1
+    python scripts/08_render_cover_letter.py --uuid <uuid-or-prefix> --version v1
 """
 
 import argparse
@@ -19,7 +19,7 @@ from docx.enum.text import WD_PARAGRAPH_ALIGNMENT
 JOB_ROOT = Path("data/jobs")
 
 def resolve_job_folder(uuid_str: str) -> Path:
-    """Smart resolution consistent with phases 02-06"""
+    """Smart resolution consistent with phases 02-07"""
     uuid_str = uuid_str.strip()
     job_dir = JOB_ROOT / uuid_str
 
@@ -148,7 +148,7 @@ def render_docx(cover: dict, out_path: Path):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Phase 7: Render cover letter to DOCX/MD")
+    parser = argparse.ArgumentParser(description="Phase 8: Render cover letter to DOCX/MD")
     parser.add_argument("--uuid", required=True, help="Job UUID or short prefix (e.g. cdb9a3fa)")
     parser.add_argument("--version", default="v1", help="Intermediate JSON version tag (e.g. v1)")
     args = parser.parse_args()

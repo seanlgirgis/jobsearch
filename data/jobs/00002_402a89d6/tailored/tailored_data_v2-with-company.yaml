@@ -1,0 +1,101 @@
+company_name: PostScript
+company_website: https://postscript.io/about-us
+job_title: Staff Data Engineer
+location: Remote
+extracted_skills:
+- java
+- scala
+- kotlin
+- apache spark
+- apache flink
+- apache iceberg
+- hudi
+- delta lake
+- aws
+- postgres
+- olap
+- nosql
+- data engineering
+- software engineering
+- cloud architecture
+- event-driven systems
+- stream processing
+- batch processing
+- data pipelines
+- data lakehouse
+- jvm
+job_summary: 'PostScript, a leading SMS marketing platform for ecommerce brands trusted
+  by over 18,000 Shopify stores, is seeking a Staff Data Engineer to lead their Data
+  Engineering practice. This remote role involves modernizing the data stack, building
+  an Apache Iceberg data lakehouse, and creating data pipelines to enable broad data
+  access for BI, Machine Learning, and Engineering teams. The ideal candidate will
+  have 8+ years of Data Engineering experience, expertise in modern data stacks, and
+  strong skills in JVM languages and AWS cloud architecture.
+
+  '
+responsibilities:
+- Lead and evolve the data platform, tooling, and architecture to support growing
+  analytical and product needs.
+- Drive the implementation of a v2 data architecture through a data lakehouse model.
+- Develop stream and batch data ingestion pipelines for processing source data.
+- Collaborate with Engineering, Product, and BI teams to enable new analytics use
+  cases and migrations.
+- Maintain and support existing data engineering systems.
+- Mentor and guide other data engineers and backend software engineers within the
+  data practice.
+requirements:
+- 8+ years of experience as a Data Engineer working on the modern data stack.
+- 2+ years of experience in a Staff or Lead Engineer role.
+- 5+ years of experience writing production-grade code.
+- Familiarity with JVM and at least one JVM language (Java, Scala, or Kotlin).
+- Experience with modern data lakes and open table formats like Apache Iceberg, Hudi,
+  or Delta Lake.
+- Expertise in building and operating stream processing pipelines using Apache Spark
+  and/or Flink.
+- Strong cloud architecture skills within the AWS ecosystem.
+- Experience with diverse database technologies (Postgres, OLAP, NoSQL, etc.) and
+  the ability to select appropriate tools for specific needs.
+- Background in event-driven distributed systems.
+- Proven success in remote mid/late-stage startups.
+- Strong communication and project management skills with the ability to build cross-team
+  partnerships.
+preferred:
+- Track record of upward career trajectory or history of promotions.
+- Experience in Software-as-a-Service (SaaS) startups, particularly at successful
+  growth companies.
+benefits:
+- Salary range of USD $200-235k base plus significant equity.
+- Opportunity to work in a high-growth startup with direct impact on company success.
+- Fully remote work environment with flexibility to work from anywhere.
+- Competitive compensation and equity opportunities.
+- Flexible paid time off.
+- Comprehensive health, dental, and vision insurance.
+must_have_skills:
+- Data Engineering
+- JVM languages (Java, Scala, or Kotlin)
+- Apache Iceberg or similar open table formats
+- Stream processing with Apache Spark or Flink
+- AWS cloud architecture
+nice_to_have_skills:
+- SaaS startup experience
+- Mentoring and coaching experience
+- OLAP and NoSQL database expertise
+ats_keywords:
+- Staff Data Engineer
+- Data Lakehouse
+- Apache Iceberg
+- Apache Spark
+- Apache Flink
+- AWS Cloud Architecture
+- Data Pipelines
+- Stream Processing
+- Batch Processing
+- JVM Languages
+- Data Engineering
+- Modern Data Stack
+- Remote Work
+- Ecommerce Marketing
+- SMS Marketing
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v2-with-company

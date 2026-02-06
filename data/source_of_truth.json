@@ -855,7 +855,8 @@
                 "CA APM",
                 "CA CEM",
                 "CA ADA"
-            ]
+            ],
+			"exclude_from_resume": true
         },
         {
             "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",

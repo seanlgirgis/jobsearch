@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """
-scripts/08_update_application_status.py
+scripts/09_update_application_status.py
 
-Phase 8 in POC pipeline:
+Phase 9 in POC pipeline:
 Track job application status, dates, notes, follow-ups.
 Updates metadata.yaml in the job folder.
 
@@ -13,9 +13,9 @@ Subcommands:
   list-pending - Show all jobs with pending follow-ups
 
 Usage examples:
-  python scripts/08_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
-  python scripts/08_update_application_status.py --uuid cdb9a3fa status --new-status "Interview Scheduled" --notes "Feb 12 phone screen"
-  python scripts/08_update_application_status.py --uuid cdb9a3fa show
+  python scripts/09_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
+  python scripts/09_update_application_status.py --uuid cdb9a3fa status --new-status "Interview Scheduled" --notes "Feb 12 phone screen"
+  python scripts/09_update_application_status.py --uuid cdb9a3fa show
 """
 
 import argparse
@@ -171,7 +171,7 @@ def cmd_list_pending(args):
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Phase 8: Update job application status & tracking")
+    parser = argparse.ArgumentParser(description="Phase 9: Update job application status & tracking")
     parser.add_argument("--uuid", required=True, help="Job UUID or short prefix")
 
     subparsers = parser.add_subparsers(dest="command", required=True)

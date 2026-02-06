@@ -5,6 +5,8 @@ scripts/01_score_job.py
 CLI to score a job posting against master profile using Grok.
 Creates job folder under data/jobs/00001_xxxxxxxx style.
 
+Now also extracts Company_website, Location, etc. from the top of the markdown file.
+
 Usage:
     python scripts/01_score_job.py path/to/intake/job_file.md [--model grok-3] [--temperature 0.5] [--no-move]
 """
@@ -40,21 +42,41 @@ def parse_arguments() -> argparse.Namespace:
 def extract_job_text(job_path: Path) -> str:
     if not job_path.is_file():
         raise FileNotFoundError(f"Job file not found: {job_path}")
-    text = job_path.read_text(encoding="utf-8")
-    lines = [line.rstrip() for line in text.splitlines() if line.strip()]
-    return "\n".join(lines)
+    return job_path.read_text(encoding="utf-8")
+
+
+def extract_front_matter(job_text: str) -> Dict[str, str]:
+    """
+    Extract key-value pairs from the top of the file (before the main content).
+    Looks for lines like: Company_website: https://...
+    Stops when it hits a line that doesn't look like metadata.
+    """
+    data: Dict[str, str] = {}
+    lines = job_text.splitlines()
+    for line in lines:
+        line = line.strip()
+        if not line or line.startswith('#') or line.startswith('---'):
+            continue
+        if ':' not in line:
+            break  # stop at first non-metadata line
+        key, value = line.split(':', 1)
+        key = key.strip().lower().replace(' ', '_').replace('-', '_')
+        value = value.strip()
+        if value:
+            data[key] = value
+    return data
 
 
 def extract_metadata_from_filename(filename: str) -> Dict[str, str]:
-    """Parse from filename like 00001.Collective_Health.02052026.1328.md"""
+    """Parse from filename like 00002.PostScript.02052026.2243.md"""
     stem = Path(filename).stem
     parts = stem.split(".")
     if len(parts) < 3:
         return {"company": "Unknown", "role": "Unknown"}
-    
-    num = parts[0]
+
+    # num = parts[0]
     company = parts[1].replace("_", " ").title()
-    
+
     # Role is everything after company until date-like part (8+ digits)
     rest_parts = parts[2:]
     role_parts = []
@@ -62,11 +84,11 @@ def extract_metadata_from_filename(filename: str) -> Dict[str, str]:
         if re.match(r"^\d{8,}", part):  # Date like 02052026
             break
         role_parts.append(part.replace("_", " "))
-    
+
     role = " ".join(role_parts).title().strip()
     if not role:
         role = "Unknown Role"
-    
+
     return {"company": company, "role": role}
 
 
@@ -74,13 +96,13 @@ def get_next_job_number() -> int:
     """Find the highest existing 5-digit number in folders like 00001_xxxxxxxx"""
     pattern = re.compile(r"^(\d{5})_[0-9a-f]{8}$")
     numbers: List[int] = []
-    
+
     for d in JOB_ROOT.iterdir():
         if d.is_dir():
             match = pattern.match(d.name)
             if match:
                 numbers.append(int(match.group(1)))
-    
+
     return max(numbers) + 1 if numbers else 1
 
 
@@ -139,24 +161,29 @@ def parse_score_from_response(response: str) -> tuple[int, str]:
 def create_job_folder(
     job_uuid: str,
     job_file: Path,
+    job_text: str,               # ← added so we can extract front matter
     score_response: str,
     score: int,
     recommendation: str,
     no_move: bool = False,
 ) -> Path:
-    # Determine next sequential number
     next_num = get_next_job_number()
     short_uuid = job_uuid[:8]
     job_id = f"{next_num:05d}_{short_uuid}"
-    
+
     job_dir = JOB_ROOT / job_id
     job_dir.mkdir(parents=True, exist_ok=True)
-    
-    # Create standard subfolders
+
     (job_dir / "raw").mkdir(exist_ok=True)
     (job_dir / "score").mkdir(exist_ok=True)
 
+    # Extract metadata
     meta_from_file = extract_metadata_from_filename(job_file.name)
+    front_matter = extract_front_matter(job_text)
+
+    # Prefer front-matter → fallback to filename
+    company = front_matter.get("company_name", front_matter.get("company", meta_from_file["company"]))
+    role = front_matter.get("title", front_matter.get("job_title", meta_from_file["role"]))
 
     # Move or copy original intake file
     target_original = job_dir / job_file.name
@@ -167,12 +194,12 @@ def create_job_folder(
         job_file.replace(target_original)
         print(f"Moved: {job_file.name} → {target_original}")
 
-    # Create standardized raw_intake.md in raw/
+    # Standardized raw file
     raw_path = job_dir / "raw" / "raw_intake.md"
     shutil.copy2(target_original, raw_path)
     print(f"Created standardized raw: {raw_path}")
 
-    # Score report in score/
+    # Score report
     ts = datetime.now().strftime("%Y%m%d_%H%M%S")
     report_path = job_dir / "score" / f"score_report_{ts}.md"
     report_path.write_text(
@@ -180,13 +207,15 @@ def create_job_folder(
     )
     print(f"Saved score report: {report_path}")
 
-    # metadata.yaml at root
+    # metadata.yaml – now includes website & location
     metadata: Dict[str, Any] = {
         "uuid": job_uuid,
         "job_id": job_id,
         "original_filename": job_file.name,
-        "company": meta_from_file["company"],
-        "role": meta_from_file["role"],
+        "company": company,
+        "role": role,
+        "company_website": front_matter.get("company_website", ""),
+        "location": front_matter.get("location", "Unknown"),
         "status": "PENDING",
         "score": score,
         "recommendation": recommendation,
@@ -198,10 +227,14 @@ def create_job_folder(
     meta_path = job_dir / "metadata.yaml"
     with meta_path.open("w", encoding="utf-8") as f:
         yaml.safe_dump(metadata, f, sort_keys=False, allow_unicode=True)
+
     print(f"Created metadata: {meta_path}")
+    print(f"  Company: {company}")
+    print(f"  Website: {metadata['company_website'] or 'Not found'}")
+    print(f"  Location: {metadata['location']}")
 
     print(f"✓ Job folder created: {job_dir}")
-    print(f"  Structure: original.md, raw/raw_intake.md, score/score_report_*.md, metadata.yaml")
+    print(f"  Structure: {job_file.name}, raw/raw_intake.md, score/score_report_*.md, metadata.yaml")
     return job_dir
 
 
@@ -234,11 +267,11 @@ def main() -> None:
         print(f"❌ Master profile load failed: {e}")
         sys.exit(1)
 
-    # Extract job text
+    # Read full job text (we need it for front-matter too)
     job_text = extract_job_text(args.job_file)
     print("📄 Job text extracted")
 
-    # Build prompt and call Grok
+    # Score with Grok
     messages = build_scoring_prompt(
         job_text, profile_summary, top_skills_str, recent_experience_str
     )
@@ -253,22 +286,22 @@ def main() -> None:
         print(f"❌ Grok call failed: {e}")
         sys.exit(1)
 
-    # Display results
+    # Show results
     print("\n" + "=" * 80)
     print("🎯 GROK SCORE REPORT")
     print("=" * 80)
     print(response)
     print("=" * 80)
 
-    # Parse score
     score, recommendation = parse_score_from_response(response)
     print(f"📈 Parsed: Score={score}%, Recommendation={recommendation}")
 
-    # Create job folder
+    # Create structured job folder
     job_uuid = str(uuid.uuid4())
     job_dir = create_job_folder(
         job_uuid=job_uuid,
         job_file=args.job_file,
+        job_text=job_text,           # ← passed here
         score_response=response,
         score=score,
         recommendation=recommendation,
@@ -281,8 +314,8 @@ def main() -> None:
     print(f"📊 Status: PENDING (score_report in score/ folder)")
     print("\n🚀 Next steps:")
     print(f"1. Review {job_dir}/score/score_report_*.md")
-    print("2. If ACCEPT → run: python scripts/02_accept_job.py --uuid {job_uuid}")
-    print("3. Then tailor: python scripts/tailor_job_data.py --uuid {job_uuid}")
+    print(f"2. If good → python scripts/02_accept_job.py --uuid {job_uuid}")
+    print(f"3. Then tailor → python scripts/03_tailor_job_data.py --uuid {job_uuid}")
 
 
 if __name__ == "__main__":

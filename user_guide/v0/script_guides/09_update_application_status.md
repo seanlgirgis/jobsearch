@@ -1,7 +1,7 @@
-# 08 - Update Application Status (scripts/08_update_application_status.py)
+# 09 - Update Application Status (scripts/09_update_application_status.py)
 
 **Purpose**  
-Phase 8 in the pipeline: Manages the lifecycle of the job application *after* the resume has been generated.  
+Phase 9 in the pipeline: Manages the lifecycle of the job application *after* the resume has been generated.  
 It serves as a "CRM" for your job search, allowing you to:
 - Record when and how you applied.
 - Update the status (e.g., "Interview Scheduled", "Rejected", "Offer").
@@ -33,16 +33,16 @@ The script uses subcommands: `apply`, `status`, `show`, and `list-pending`.
 
 ```bash
 # 1. Record a new application
-python scripts/08_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
+python scripts/09_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
 
 # 2. Update status (e.g., got an interview)
-python scripts/08_update_application_status.py --uuid cdb9a3fa status --new-status "Interview Scheduled" --notes "Feb 12 phone screen with HR"
+python scripts/09_update_application_status.py --uuid cdb9a3fa status --new-status "Interview Scheduled" --notes "Feb 12 phone screen with HR"
 
 # 3. View current status and history for a job
-python scripts/08_update_application_status.py --uuid cdb9a3fa show
+python scripts/09_update_application_status.py --uuid cdb9a3fa show
 
 # 4. List ALL jobs with pending follow-ups
-python scripts/08_update_application_status.py --uuid dummy list-pending
+python scripts/09_update_application_status.py --uuid dummy list-pending
 # (Note: --uuid is required by the parser but ignored for 'list-pending', so you can pass any dummy value)
 ```
 

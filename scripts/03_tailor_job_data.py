@@ -9,6 +9,8 @@ for better RAG retrieval, resume/cover matching, keyword optimization.
 Now uses Grok LLM for high-quality structured output (with naive regex fallback).
 Supports smart UUID resolution like 02_decide_job.py.
 
+Now also preserves company_name and company_website from metadata.yaml.
+
 Usage:
     python scripts/03_tailor_job_data.py --uuid <uuid-or-prefix> [--version llm-v1]
     [--model grok-3] [--temperature 0.0] [--no-llm] [--raw-file path]
@@ -62,23 +64,41 @@ def extract_skills(text: str) -> list[str]:
         skills.update(m.lower() for m in matches)
     return sorted(skills)
 
-def build_tailoring_prompt(job_text: str) -> list[dict[str, str]]:
+def build_tailoring_prompt(
+    job_text: str,
+    known_company: str = "Unknown",
+    known_website: str = "",
+    known_title: str = "Unknown",
+    known_location: str = "Unknown"
+) -> list[dict[str, str]]:
     return [
         {
             "role": "system",
             "content": (
                 "You are an expert job description analyst for career applications and ATS optimization. "
-                "Output ONLY valid YAML — no explanations, no markdown, no code blocks, no ``` fences."
+                "Output ONLY valid YAML — no explanations, no markdown, no code blocks, no ``` fences.\n"
+                "Prefer known metadata values unless the job text clearly contradicts them."
             ),
         },
         {
             "role": "user",
-            "content": f"""Parse the following job description.
+            "content": f"""Known from metadata (use these unless job text clearly says otherwise):
+company_name: {known_company}
+company_website: {known_website}
+job_title: {known_title}
+location: {known_location}
+
+Parse the following job description.
 
 Job description:
 {job_text}
 
-Output **exactly** this YAML structure (fill in the values):
+Output **exactly** this YAML structure (include ALL top-level fields):
+
+company_name: "Exact company name (prefer known value)"
+company_website: "https://... (prefer known value)"
+job_title: "Exact title from posting (prefer known value)"
+location: "Remote / City, State / etc. (prefer known value)"
 
 extracted_skills:
 - python
@@ -129,15 +149,11 @@ def tailor_job(
 ) -> None:
     uuid_str = uuid.strip()
 
-    # Try direct folder name first
+    # Resolve job directory (same smart logic as before)
     job_dir = JOB_ROOT / uuid_str
-
-    # Smart resolution if not found (same logic as 02_decide_job.py)
     if not job_dir.is_dir():
-        # Look for folders like 00001_cdb9a3fa when given cdb9a3fa
         candidates = list(JOB_ROOT.glob(f"*_{uuid_str}*"))
         if len(candidates) == 0:
-            # Try even shorter prefix (first 8 chars)
             short_prefix = uuid_str[:8]
             candidates = list(JOB_ROOT.glob(f"*_{short_prefix}*"))
 
@@ -158,18 +174,35 @@ def tailor_job(
                 f"  - data/jobs/*_{uuid_str[:8]}*"
             )
 
-    # Now we have a valid job_dir
     print(f"Processing job folder: {job_dir.name}")
+
+    # Load known metadata to guide the LLM
+    meta_path = job_dir / "metadata.yaml"
+    known_company = "Unknown"
+    known_website = ""
+    known_title = "Unknown"
+    known_location = "Unknown"
+
+    if meta_path.is_file():
+        try:
+            with meta_path.open("r", encoding="utf-8") as f:
+                meta = yaml.safe_load(f) or {}
+            known_company = meta.get("company", known_company)
+            known_website = meta.get("company_website", known_website)
+            known_title = meta.get("role", known_title)
+            known_location = meta.get("location", known_location)
+            print(f"Loaded known metadata → Company: {known_company}, Website: {known_website}")
+        except Exception as e:
+            print(f"Warning: Could not load metadata.yaml → {e}")
 
     # Determine raw file path
     if raw_file:
         raw_path = Path(raw_file)
     else:
-        # Try common locations
         candidates = [
             job_dir / "raw" / "job_description.md",
             job_dir / "raw" / "raw_intake.md",
-            job_dir / "raw_intake.md",           # sometimes people put it directly
+            job_dir / "raw_intake.md",
         ]
         for p in candidates:
             if p.is_file():
@@ -191,6 +224,10 @@ def tailor_job(
     if no_llm:
         print("Using naive regex extraction (no LLM)")
         tailored_data: Dict[str, Any] = {
+            "company_name": known_company,
+            "company_website": known_website,
+            "job_title": known_title,
+            "location": known_location,
             "extracted_skills": extract_skills(cleaned),
             "sections": {
                 "responsibilities": extract_section(cleaned, "responsibilities"),
@@ -202,7 +239,13 @@ def tailor_job(
         }
     else:
         print(f"Using LLM tailoring (model={model}, temp={temperature})")
-        messages = build_tailoring_prompt(raw_text)
+        messages = build_tailoring_prompt(
+            raw_text,
+            known_company=known_company,
+            known_website=known_website,
+            known_title=known_title,
+            known_location=known_location
+        )
         try:
             grok = GrokClient(model=model)
             response = grok.chat(
@@ -213,13 +256,11 @@ def tailor_job(
 
             # Aggressive cleaning of LLM output
             response_clean = response.strip()
-            # Remove common markdown fences
             if response_clean.startswith("```"):
                 parts = re.split(r"```(?:yaml)?", response_clean, maxsplit=2)
                 if len(parts) > 1:
                     response_clean = parts[1].strip()
-            # Remove any trailing explanation
-            yaml_start = response_clean.find("extracted_skills:")
+            yaml_start = response_clean.find("company_name:")
             if yaml_start > 0:
                 response_clean = response_clean[yaml_start:]
 
@@ -236,6 +277,10 @@ def tailor_job(
         except Exception as e:
             print(f"LLM tailoring failed: {e} — falling back to naive")
             tailored_data = {
+                "company_name": known_company,
+                "company_website": known_website,
+                "job_title": known_title,
+                "location": known_location,
                 "extracted_skills": extract_skills(cleaned),
                 "sections": {
                     "responsibilities": extract_section(cleaned, "responsibilities"),
@@ -256,7 +301,7 @@ def tailor_job(
         yaml.safe_dump(tailored_data, f, sort_keys=False, allow_unicode=True, default_flow_style=False)
 
     print(f"Tailored data saved: {out_file}")
-    skills = tailored_data.get("extracted_skills") or tailored_data.get("sections", {}).get("requirements", "").lower().split()
+    skills = tailored_data.get("extracted_skills", [])
     print(f"Extracted/Detected skills ({len(skills)}): {', '.join(skills[:15])}{' ...' if len(skills) > 15 else ''}")
 
 
