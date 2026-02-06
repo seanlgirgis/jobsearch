@@ -139,7 +139,8 @@
       "bullets": [
         "Supported enterprise CA APM, CEM, ADA for utility systems.",
         "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
-      ]
+      ],
+        "exclude_from_resume": true
     },
     {
       "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",

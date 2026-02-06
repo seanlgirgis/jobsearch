@@ -1,0 +1,240 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Senior Data Engineer | Data Warehouse Modeling & ELT Pipelines",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "target_roles": [
+      "Senior Data Engineer",
+      "Staff Data Engineer",
+      "Cloud Data Architect",
+      "Data Warehouse Engineer",
+      "PySpark / AWS Specialist"
+    ]
+  },
+  "summary": "Senior Data Engineer with over 20 years of experience in designing and implementing robust data pipelines and data warehouse solutions. Expert in ELT workflows, dimensional modeling, and modern data technologies including Snowflake, AWS (Glue, Athena, S3), and PySpark. Proficient in SQL and Python, with a focus on data ingestion, transformation, and orchestration using tools like Airflow. Skilled in mentoring teams, optimizing data models for analytics, and ensuring data quality and governance. Passionate about delivering scalable data solutions that align with business needs and drive impactful outcomes.",
+  "flagship_projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Architected a serverless data warehouse platform using S3, Glue, and Athena for efficient data ingestion and transformation. Integrated a Text-to-SQL GenAI agent with Bedrock (Claude 3 Sonnet) to enhance query capabilities. Optimized ELT pipelines with Snappy and Parquet compression to handle enterprise-scale data.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Developed an AI-driven pipeline for capacity forecasting, reducing cycles by 90% through parallel processing. Built dimensional models and interactive Streamlit dashboards for real-time analytics and reporting. Modernized legacy processes with reusable data patterns for scalability.",
+      "technologies": [
+        "Python",
+        "Prophet",
+        "Streamlit",
+        "PySpark",
+        "Multiprocessing",
+        "Spark",
+        "Machine Learning",
+        "Data Pipelines",
+        "API Integration",
+        "Performance Benchmarking",
+        "Testing and Validation",
+        "AI Reasoning",
+        "RAG (Retrieval-Augmented Generation)"
+      ],
+      "repo": "https://github.com/seanlgirgis/HorizonStudy",
+      "documentation": [
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/README.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/API_AND_INTEGRATION_GUIDE.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/FUTURE_ROADMAP.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/OPERATIONAL_RUNBOOK.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/PERFORMANCE_BENCHMARK_REPORT.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TESTING_AND_VALIDATION_STRATEGY.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TREND_TO_HORIZONSCALE_EVOLUTION.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/lessons_learnt.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/AI_REASONING_AND_RAG_SPEC.md"
+      ],
+      "code": "https://github.com/seanlgirgis/HorizonStudy/tree/main/src/HorizonScale",
+      "additional_docs": [
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/lib",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/pipeline",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/synthetic"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "FAST Project",
+      "description": "Led data mining of user performance metrics to optimize critical systems. Focused on data ingestion and modeling to support actionable insights for system enhancements.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ELT pipelines using Python and Pandas for data ingestion from 6,000+ endpoints, enhancing data warehouse capabilities.",
+        "Designed optimized Oracle schemas for historical data retention, supporting dimensional modeling for forecasting.",
+        "Developed ML models with Prophet and scikit-learn for capacity predictions, aligning data models with business needs.",
+        "Built unified reporting solutions with executive dashboards, ensuring data quality and governance.",
+        "Automated workflows and optimized data processes to improve operational reliability and efficiency."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics for critical systems, focusing on performance data collection.",
+        "Led 'FAST' project to data-mine user metrics, providing insights for system optimization.",
+        "Supported cloud migration to AWS, ensuring data pipeline continuity during upgrades."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM and CEM for utility systems, focusing on performance data.",
+        "Managed monitoring solutions to ensure data quality for downstream analytics."
+      ],
+      "exclude_from_resume": true
+    },
+    {
+      "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
+      "title": "Senior Consultant / SME for CA APM",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations, managing data collection for 4,000–6,000 agents.",
+        "Designed custom dashboards and alerts to support data-driven decision-making.",
+        "Provided technical leadership and training, enhancing team capabilities in data monitoring."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom apps for performance metrics, documenting key data points.",
+        "Installed monitoring tools like Wily Introscope to support data collection and analysis."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2012",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster, optimizing data warehouse performance.",
+        "Enhanced transaction processing with C++ and OCCI, reducing hardware footprint by 95%.",
+        "Built automated testing frameworks to ensure data integrity during migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML modules for CICS/MQSeries/XML/DB2 systems, focusing on data integration.",
+        "Developed components for IRS modernization, ensuring robust data handling."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability C++ interfaces for billing data processing.",
+        "Optimized performance in billing systems, achieving 75% memory reduction.",
+        "Automated administration tasks with Korn Shell, improving data workflow efficiency."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": [
+        "Developed time/attendance interfaces using VB6/VC++ for data tracking."
+      ]
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": [
+        "Maintained and troubleshot Linux/Windows systems, supporting data lab operations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL / Oracle",
+    "ETL Design & Optimization",
+    "Data Warehousing",
+    "Airflow",
+    "Pandas",
+    "PySpark",
+    "AWS",
+    "Capacity Planning / Forecasting",
+    "Data Governance & Quality",
+    "scikit-learn",
+    "Prophet / Time-Series Forecasting",
+    "Streamlit",
+    "Hive/Hadoop",
+    "Git",
+    "Docker",
+    "Multiprocessing",
+    "Linux/Unix",
+    "GenAI / LLM Agents",
+    "BMC TrueSight / TSCO",
+    "C++",
+    "Java",
+    "Perl",
+    "Ksh / Korn Shell Scripting",
+    "PL/SQL",
+    "Oracle RAC",
+    "OCCI / OCI",
+    "Dynatrace (AppMon + Synthetics)",
+    "CA APM / Introscope",
+    "WebLogic / WebSphere",
+    "VB6 / VC++"
+  ]
+}

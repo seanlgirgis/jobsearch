@@ -9,6 +9,7 @@ These are specific, enforceable rules for coding, responses, and project managem
 - Iterative commits: Small, descriptive messages (e.g., "Add score_job.py v0.1 with Grok scoring").
 - Dependencies: LangChain/FAISS/sentence-transformers core; no unnecessary libs.
 - Error handling: Robust (try/except, user-friendly messages); no silent failures.
+- Phase numbering: Scripts follow 01_, 02_, etc. pattern for pipeline steps.
 
 ## Response Style Rules
 - Code-first for implementations: Provide full, ready-to-run code blocks.
