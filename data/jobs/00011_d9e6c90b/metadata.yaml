@@ -1,0 +1,27 @@
+uuid: d9e6c90b-ea9d-4b18-982d-88987066ca02
+job_id: 00011_d9e6c90b
+original_filename: 00011.Sephora.Lead_Engineer_Performance.02062026.1506.md
+company: SEPHORA
+role: Lead Engineer, Performance Engineering
+company_website: https://join.sephora.com/
+location: USA, Remote
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-06T15:01:33.506454'
+created_at: '2026-02-06T15:01:33.506454'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T15:01:33.704666'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
