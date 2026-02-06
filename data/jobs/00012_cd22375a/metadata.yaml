@@ -1,0 +1,27 @@
+uuid: cd22375a-e748-4ec2-8855-65b354882064
+job_id: 00012_cd22375a
+original_filename: 00012.ClickUp.Senior_Performance_Engineer.02062026.1523.md
+company: ClickUp
+role: Senior Performance Engineer
+company_website: www.clickup.com
+location: USA, Remote
+status: ACCEPTED
+score: 75
+recommendation: Proceed
+score_date: '2026-02-06T15:26:53.238123'
+created_at: '2026-02-06T15:26:53.238123'
+notes: 'Plano, TX location match. Score: 75%. Recommendation: Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T15:26:53.439597'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
