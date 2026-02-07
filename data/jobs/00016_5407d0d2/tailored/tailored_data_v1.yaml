@@ -1,0 +1,105 @@
+company_name: AT&T
+company_website: https://www.att.jobs/job/dallas/lead-data-ai-engineering/117/91446111968
+job_title: Lead Data/AI Engineering
+location: Dallas, TX
+extracted_skills:
+- Python
+- SQL
+- Java
+- Scala
+- PySpark
+- Spark
+- Kafka
+- Databricks
+- Snowflake
+- Azure
+- AWS
+- HTTP/REST
+- CI/CD
+job_summary: 'AT&T is seeking a Lead Data/AI Engineering professional in Dallas, TX
+  to drive innovation through advanced data and AI solutions. This role involves architecting
+  and optimizing scalable, high-performance systems to transform complex data into
+  actionable insights. Key responsibilities include leading the design, development,
+  and deployment of Data & AI applications while collaborating with diverse teams.
+  Candidates should have a Bachelor’s degree in a related field and 7+ years of relevant
+  experience.
+
+  '
+responsibilities:
+- Translate Data & AI use-case requirements into effective data models and pipelines.
+- Ensure data integrity using statistical quality procedures and advanced AI techniques.
+- Evaluate and select optimal technologies for cloud and on-premises deployments.
+- Implement strategies for scalability, performance monitoring, and cost optimization.
+- Lead the creation of scalable Data & AI applications using software engineering
+  best practices.
+- Develop and implement rigorous testing strategies to ensure reliability and performance.
+- Oversee deployment processes and resolve issues related to configuration, environment,
+  and security.
+requirements:
+- Bachelor’s degree (BS/BA) in a related field such as Computer Science or Scientific
+  Computing.
+- 7+ years of related experience in data engineering and AI.
+- Expertise in Data & AI technologies like Spark, Kafka, Databricks, and Snowflake.
+- Proficiency in programming languages including Java, Scala, Python, PySpark, and
+  SQL.
+- Experience with API development patterns such as HTTP/REST.
+- Knowledge of cloud platforms like Azure and AWS.
+- Ability to work in-office 5 days per week in Dallas, TX.
+preferred:
+- Master’s degree in a related field.
+- Experience mentoring less experienced staff.
+- Proven ability to influence executive decisions and lead significant projects.
+benefits:
+- Medical, Dental, and Vision coverage.
+- 401(k) plan.
+- Tuition reimbursement program.
+- Paid Time Off and Holidays (at least 23 vacation days and 9 company-designated holidays).
+- Paid Parental Leave and Paid Caregiver Leave.
+- Additional sick leave beyond state and local law requirements.
+- Adoption Reimbursement.
+- Disability Benefits (short term and long term).
+- Life and Accidental Death Insurance.
+- Supplemental benefit programs including critical illness, accident hospital indemnity,
+  and group legal.
+- Employee Assistance Programs (EAP).
+- Extensive employee wellness programs.
+- Employee discounts up to 50% on eligible AT&T mobility plans, accessories, internet,
+  and phone services.
+must_have_skills:
+- Data Engineering
+- AI Technologies
+- Python
+- SQL
+- Cloud Platforms
+- Scalability Strategies
+nice_to_have_skills:
+- Java
+- Scala
+- Mentoring
+- Executive Influence
+ats_keywords:
+- Data Engineering
+- AI Engineering
+- Scalable Solutions
+- Data Models
+- Data Pipelines
+- Cloud Deployment
+- Performance Optimization
+- Software Engineering
+- Spark
+- Kafka
+- Databricks
+- Snowflake
+- Python
+- SQL
+- Java
+- Scala
+- PySpark
+- Azure
+- AWS
+- CI/CD
+- API Development
+- HTTP/REST
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

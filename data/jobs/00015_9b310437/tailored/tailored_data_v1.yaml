@@ -1,0 +1,145 @@
+company_name: SCRIBD
+company_website: https://tech.scribd.com/careers/
+job_title: Staff Data Engineer
+location: Dallas, TX
+extracted_skills:
+- python
+- sql
+- scala
+- databricks
+- delta lake
+- spark
+- airflow
+- aws
+- s3
+- glue
+- emr
+- kinesis
+- kafka
+- data modeling
+- etl design
+- data orchestration
+- data governance
+- data quality
+- data observability
+- datadog
+- cloud cost optimization
+job_summary: 'Scribd Inc., a company dedicated to sparking human curiosity through
+  its products like Everand, Scribd, Slideshare, and Fable, is seeking a Staff Data
+  Engineer to join their Data Platform team in Dallas, TX. This role involves designing
+  and implementing core data models and pipelines using Databricks and Delta Lake
+  to power analytics, machine learning, and product features across Scribd’s brands.
+  The position requires strategic leadership to shape the long-term vision of Scribd’s
+  data ecosystem, mentorship of other engineers, and collaboration across teams to
+  solve complex business problems. Candidates should have 8+ years of data engineering
+  experience and deep expertise in modern lakehouse technologies.
+
+  '
+responsibilities:
+- Design and implement core data models and pipelines to support analytics, machine
+  learning, and product experiences.
+- Architect and evolve a scalable, cost-efficient, and reliable lakehouse foundation
+  using Databricks, Delta Lake, and Airflow.
+- Implement modern data lake orchestration patterns, including medallion architectures
+  for batch and streaming workloads.
+- Define best practices and technical standards to enhance data quality, governance,
+  and performance across teams.
+- Mentor engineers to foster a culture of ownership, operational excellence, and continuous
+  learning.
+- Shape the long-term technical vision and roadmap for Scribd’s data platform.
+- Collaborate across teams to translate complex business problems into robust data
+  solutions.
+- Own end-to-end solutions, including architecture, implementation, operations, and
+  optimization.
+requirements:
+- 8+ years of experience in data engineering with a strong background in data architecture,
+  data modeling, and distributed data systems.
+- Deep expertise in Databricks, Delta Lake, Spark, and modern lakehouse technologies.
+- Advanced proficiency in SQL and Python or Scala, including performance optimization
+  and large-scale ETL design.
+- Proven experience designing data models and schemas for multiple downstream use
+  cases such as analytics, ML, and APIs.
+- Experience implementing modern data orchestration patterns for big data use cases,
+  including batch and streaming workloads.
+- Demonstrated ability to lead technical initiatives, set standards, and influence
+  decisions across teams.
+- Comfort owning systems end-to-end, including monitoring, reliability, and cost management.
+- Excellent communication skills to translate technical trade-offs to both engineers
+  and non-technical stakeholders.
+preferred:
+- Experience with subscription, payments, or large-scale consumer data domains.
+- Familiarity with AWS data services like S3, Glue, EMR, Kinesis, and cloud cost optimization.
+- Knowledge of streaming architectures such as Kafka or Kinesis.
+- Experience implementing data quality, governance, and observability standards at
+  scale.
+- Contributions to open-source projects or thought leadership in the data engineering
+  community.
+- Experience operationalizing data observability through tools like Datadog.
+- Experience working with Analytics teams to translate requirements into data products
+  and solutions.
+benefits:
+- Healthcare Insurance Coverage (Medical/Dental/Vision) with 100% paid for employees.
+- 12 weeks paid parental leave.
+- Short-term and long-term disability plans.
+- 401k/RSP matching.
+- Onboarding stipend for home office peripherals and accessories.
+- Learning & Development allowance and programs.
+- Quarterly stipend for Wellness, WiFi, etc.
+- Mental Health support and resources.
+- Free subscription to Scribd Inc. suite of products.
+- Referral Bonuses, Book Benefit, and Sabbaticals.
+- Company-wide events and team engagement budgets.
+- Vacation, Personal Days, Paid Holidays, and Winter Break.
+- Flexible Sick Time and Volunteer Day.
+- Company-wide Employee Resource Groups and diversity programs.
+- Access to best-in-class AI tools for productivity and innovation.
+must_have_skills:
+- databricks
+- delta lake
+- spark
+- sql
+- python
+- data modeling
+- etl design
+- data orchestration
+nice_to_have_skills:
+- scala
+- aws
+- kafka
+- kinesis
+- data observability
+- datadog
+- cloud cost optimization
+- subscription data domains
+ats_keywords:
+- staff data engineer
+- data engineering
+- databricks
+- delta lake
+- spark
+- lakehouse architecture
+- data modeling
+- etl design
+- data pipelines
+- data orchestration
+- medallion architecture
+- data governance
+- data quality
+- sql optimization
+- python programming
+- scala programming
+- aws data services
+- cloud cost optimization
+- streaming architectures
+- kafka streaming
+- kinesis streaming
+- data observability
+- mentorship
+- technical leadership
+- analytics solutions
+- machine learning data
+- subscription data
+- consumer data domains
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

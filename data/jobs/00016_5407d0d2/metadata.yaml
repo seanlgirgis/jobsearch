@@ -1,0 +1,27 @@
+uuid: 5407d0d2-008d-4029-b4ef-d0bc49963188
+job_id: 00016_5407d0d2
+original_filename: 00016.ATT.LeadData.AIEngineering.02062026.2102.md
+company: AT&T
+role: Lead Data/AI Engineering
+company_website: https://www.att.jobs/job/dallas/lead-data-ai-engineering/117/91446111968
+location: Dallas, TX
+status: ACCEPTED
+score: 92
+recommendation: Strong Proceed
+score_date: '2026-02-06T21:03:28.094996'
+created_at: '2026-02-06T21:03:28.094996'
+notes: 'Plano, TX location match. Score: 92%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T21:03:28.295523'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application

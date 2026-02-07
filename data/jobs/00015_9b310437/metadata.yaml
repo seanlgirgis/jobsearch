@@ -1,0 +1,27 @@
+uuid: 9b310437-fb01-4132-a1c0-5868437875ac
+job_id: 00015_9b310437
+original_filename: 00015.SCRIBD.StaffDataEngineer.02062026.2041.md
+company: SCRIBD
+role: Staff Data Engineer
+company_website: https://tech.scribd.com/careers/
+location: Dallas, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-06T20:43:23.835281'
+created_at: '2026-02-06T20:43:23.835281'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T20:43:24.002327'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
