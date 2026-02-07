@@ -18,7 +18,11 @@ Dated entries for traceability. Grouped by month for readability as it grows.
 - **2026-02-05 – Application Status Tracking Phase Added**: scripts/08_update_application_status.py committed. Updates metadata.yaml with apply/status/show/list-pending.
 - **2026-02-05 – README Updated**: Reflected all phases 1-8 and guides in README.md.
 
-Last updated: 2026-02-05
+- **2026-02-06 – Automation Pipeline Created**: scripts/10_auto_pipeline.py committed. Orchestrates steps 01-09. Solved Windows encoding issues by enforcing PYTHONUTF8=1 in subprocesses.
+- **2026-02-06 – Documentation Strategy Update**: Unified all script guides (01-10) in user_guide/v0/ to reference the automation workflow as the primary usage pattern.
+- **2026-02-06 – Rules Update**: Formalized rules.md to enforce the new pipeline structure, pathlib usage, and error handling standards.
+
+Last updated: 2026-02-06
 
 # Project Constitution – Guiding Framework for JobSearch
 
@@ -37,7 +41,7 @@ This is the high-level "constitution" for the JobSearch project: a RAG-based pip
 - Ethical: Inclusive tools; no unfair bias; respect privacy (no secrets/API keys).
 
 ## Workflow
-- **v0 Pipeline**: Setup profile → Intake job → Score → Decide → Tailor job data → Generate resume intermediate → Render resume → Generate cover intermediate → Render cover → Update application status.
+- **v0 Pipeline**: Setup profile → Intake job → **Auto Pipeline** (Score → Decide → Tailor → Resume → Research → Cover → Render → Apply).
 - **User Story Format**: As a [user], I want [feature] so that [benefit]. Acceptance criteria: [list].
 - **Requirements IDs**: Prefix R- (e.g., R-200.001 for stories, 200.001 for requirements). Format: XXX.YYY-ZZZ (category.subcategory-item).
 - **Development Cycle**: User story → Requirements → Design (Specs/) → Implementation (scripts/) → Test/Run → Document (Teachables/ or decisions.md).
@@ -55,4 +59,4 @@ This is the high-level "constitution" for the JobSearch project: a RAG-based pip
 - Commit after user confirmation.
 - Date all major updates at the bottom.
 
-Last updated: 2026-02-05
+Last updated: 2026-02-06

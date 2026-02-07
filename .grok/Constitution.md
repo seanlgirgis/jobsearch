@@ -16,6 +16,7 @@ This is the high-level "constitution" for the JobSearch project: a RAG-based pip
 - Model Preference: xAI/Grok API primary (leverage credits), fallbacks only if required.
 
 ## Workflow
+- **v0 Pipeline**: Setup profile → Intake job → **Auto Pipeline** (Score → Decide → Tailor → Resume → Research → Cover → Render → Apply).
 - **Numbering/Reference System**: Prefix-based IDs for traceability (e.g., 100.001 for user stories, 200.001 for requirements). Format: XXX.YYY-ZZZ (category.subcategory-item).
 - **Development Cycle**: User story → Requirements → Design (Specs/) → Implementation (scripts/) → Test/Run → Document (Teachables/ or decisions.md).
 - **Memory Management**: Proactive updates to decisions.md, rules.md, Teachables/ for all key events (e.g., script creation, job processing).
@@ -24,6 +25,7 @@ This is the high-level "constitution" for the JobSearch project: a RAG-based pip
 
 ## Standards
 - **Coding Style**: Follow CodingStyle.md (PEP8, type hints, docstrings, etc.).
+- **Windows Compatibility**: Enforce `PYTHONUTF8=1` in subprocesses; use `pathlib` for all file paths.
 - **Configuration**: Centralize in config.py or settings.py (use Pydantic for validation).
 - **Tools/Libs**: LangChain LCEL for RAG chains; FAISS for vectors; sentence-transformers for embeddings.
 - **Storage**: Local JSON/YAML for MVP; upgrade to DB (e.g., SQLite/TinyDB) as needed.
@@ -34,4 +36,4 @@ This is the high-level "constitution" for the JobSearch project: a RAG-based pip
 - Commit after user confirmation.
 - Date all major updates at the bottom.
 
-Last updated: 2026-02-05
+Last updated: 2026-02-06
