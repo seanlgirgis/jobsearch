@@ -1,62 +1,45 @@
 # 09 - Update Application Status (scripts/09_update_application_status.py)
 
 **Purpose**  
-Phase 9 in the pipeline: Manages the lifecycle of the job application *after* the resume has been generated.  
-It serves as a "CRM" for your job search, allowing you to:
-- Record when and how you applied.
-- Update the status (e.g., "Interview Scheduled", "Rejected", "Offer").
-- Log notes and history of interactions.
-- Set and track follow-up dates.
+Phase 9 in the pipeline: Manages the lifecycle of the job application *after* generation.  
+It serves as a "CRM" for your job search, storing all events in `metadata.yaml`.
 
-All data is stored persistently in the job's `metadata.yaml` file.
-
-**Current Status**  
-Working / Stable (as of Feb 5, 2026)
+**Key Capabilities**
+1.  **Apply**: Records the initial submission (Date, Method, Notes).
+2.  **Status**: Updates the current state (e.g., "Interviewing", "Rejected").
+3.  **Track**: Lists pending follow-ups across *all* jobs.
 
 **Input Requirements**  
-- Job folder in `data/jobs/` (pattern `0000X_xxxxxxxx` or similar).  
-- Existing `metadata.yaml` in that folder (created during Phase 1/2).
+*   Job folder with `metadata.yaml`.
 
 **Output**  
-- Updates `data/jobs/0000X_xxxxxxxx/metadata.yaml` with:
-  - `application` dictionary containing:
-    - `applied`: boolean
-    - `applied_date`: YYYY-MM-DD
-    - `applied_method`: string (e.g. "LinkedIn")
-    - `last_status`: string
-    - `history`: list of status change events
-    - `followup_date`: YYYY-MM-DD (optional)
+*   Updates `data/jobs/<uuid>/metadata.yaml` with:
+    *   `application` block (applied date, method, history log).
 
 **Usage**
 
-The script uses subcommands: `apply`, `status`, `show`, and `list-pending`.
-
+### 1. Manual Run (Subcommands)
 ```bash
-# 1. Record a new application
-python scripts/09_update_application_status.py --uuid cdb9a3fa apply --date 2026-02-05 --method "Company Site" --notes "Tailored cover attached"
+# Record that you just applied
+python scripts/09_update_application_status.py --uuid cdb9a3fa apply --method "LinkedIn" --notes "Easy Apply"
 
-# 2. Update status (e.g., got an interview)
-python scripts/09_update_application_status.py --uuid cdb9a3fa status --new-status "Interview Scheduled" --notes "Feb 12 phone screen with HR"
+# Update status later
+python scripts/09_update_application_status.py --uuid cdb9a3fa status --new-status "Interview" --notes "Phone screen w/ HR"
 
-# 3. View current status and history for a job
+# View history
 python scripts/09_update_application_status.py --uuid cdb9a3fa show
 
-# 4. List ALL jobs with pending follow-ups
-python scripts/09_update_application_status.py --uuid dummy list-pending
-# (Note: --uuid is required by the parser but ignored for 'list-pending', so you can pass any dummy value)
+# List all pending follow-ups (UUID ignored but required)
+python scripts/09_update_application_status.py --uuid x list-pending
 ```
 
-**Behavior**  
-- **Apply**: Sets initial `applied` flag and records the method/date. Adds initial entry to history.  
-- **Status**: Updates current status and appends a new event to the `history` list.  
-- **Show**: Prints a clean summary of the application state, including a chronological history of changes.  
-- **List Pending**: Scans *all* job folders in `data/jobs` for any with a `followup_date`.  
-
-**Known Behaviors / Gotchas**  
-- **UUID Requirement**: The `--uuid` argument is currently global and required, even for `list-pending` (where it isn't logically needed). Pass `x` or `dummy` if just running `list-pending`.  
-- **Date Format**: Expects dates in `YYYY-MM-DD` format.  
-- **Metadata dependency**: Fails if `metadata.yaml` is missing (i.e., you can't track an application for a job that hasn't been ingested).
+### 2. Via Auto Pipeline
+The automation script (`scripts/10_auto_pipeline.py`) runs this Step 9 as the final action to mark the job as "Applied".
+*   **Command used by auto-runner**:
+    ```python
+    python scripts/09_update_application_status.py --uuid <uuid> apply --date <today> --method <method> --notes <notes>
+    ```
 
 **Related Files**  
-- Script: `scripts/08_update_application_status.py`  
-- Data: `data/jobs/0000X_xxxxxxxx/metadata.yaml`  
+- Script: `scripts/09_update_application_status.py`  
+- Data: `data/jobs/<uuid>/metadata.yaml`

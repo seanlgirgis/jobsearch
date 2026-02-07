@@ -1,128 +1,62 @@
-
-```markdown
 # 03 - Tailor Job Data (scripts/03_tailor_job_data.py)
 
 **Purpose**  
-After a job has been **ACCEPTED** (via `02_decide_job.py`), enrich and structure the raw job description for downstream use:  
-- Better semantic retrieval in RAG pipelines  
-- Keyword/ATS optimization for resume & cover letter tailoring  
-- Clear separation of must-have vs nice-to-have skills  
-- Concise summary + rephrased bullets  
+This script transforms a raw job description into structured, tailored data. It uses an LLM (Grok) to extract skills, rephrase responsibilities, and identify ATS keywords.
 
-The script uses Grok (xAI) to produce high-quality structured output in YAML format, with a naive regex-based fallback if LLM fails or `--no-llm` is used.
+This structured data (`tailored_data.yaml`) is the **foundational input** for both the Resume (Script 04) and Cover Letter (Script 07) generators.
 
-**Current Status**  
-Working / POC-stable (as of Feb 5, 2026)  
-Successfully tested: Collective Health Staff Data Engineer → produced structured YAML with skills, summary, bullets, ATS keywords
+**Key Capabilities**
+1.  **Structure**: Converts messy free-text job descriptions into clean YAML.
+2.  **Enrichment**: Extracts "Must Have" vs "Nice to Have" skills.
+3.  **Metadata Preservation**: Reads `metadata.yaml` to ensure the Company Name and Website are carried over accurately (fixing issues where LLMs might hallucinate them).
 
 **Input Requirements**  
-- Job folder already exists in `data/jobs/` (pattern `0000X_xxxxxxxx`)  
-- `metadata.yaml` exists and status = **ACCEPTED** (strongly recommended, not strictly enforced yet)  
-- Raw job text exists in one of:  
-  - `raw/job_description.md`  
-  - `raw/raw_intake.md`  
-  - (or override with `--raw-file`)
+*   Job folder with raw job text (from Script 01).
+*   `metadata.yaml` (optional but recommended for accurate company info).
 
 **Output**  
-Creates/updates folder:  
-```
-data/jobs/0000X_xxxxxxxx/
-└── tailored/
-    └── tailored_data_{version}.yaml          # e.g. tailored_data_llm-v1.yaml
-```
-
-Typical content of the YAML file:
-
+Creates `data/jobs/<uuid>/tailored/tailored_data_<version>.yaml`:
 ```yaml
-extracted_skills:
-- python
-- sql
-- snowflake
-- databricks
-- airflow
-job_summary: |
-  Company is seeking a Staff Data Engineer to build and maintain scalable data pipelines...
+company_name: "StartUp Inc"
+job_title: "Senior Engineer"
+extracted_skills: [python, sql, aws]
+must_have_skills: [python, system design]
+nice_to_have_skills: [kubernetes]
+ats_keywords: [distributed systems, ci/cd]
 responsibilities:
-- Design and implement ETL pipelines using Airflow and dbt
-- ...
+  - "Design and build scalable APIs..."
 requirements:
-- 5+ years of Python and SQL experience
-- ...
-preferred:
-- Experience with Snowflake or Databricks
-- ...
-must_have_skills:
-- python
-- sql
-- etl
-nice_to_have_skills:
-- airflow
-- dbt
-ats_keywords:
-- data engineering
-- etl pipelines
-- snowflake
-- python sql
-tailoring_method: llm
-llm_model: grok-3
-llm_version: llm-v1
+  - "5+ years experience..."
 ```
 
 **Usage**
 
+### 1. Manual Run
 ```bash
-# Normal run (smart UUID resolution)
-python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version llm-v1
+# Standard run (creates tailored_data_v1.yaml)
+python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version v1
 
-# Explicit folder name
-python scripts/03_tailor_job_data.py --uuid 00001_cdb9a3fa --version llm-v2
+# Custom version tag
+python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version llm-v2
 
-# Force naive regex mode (no LLM call)
-python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version naive-v1 --no-llm
-
-# Custom model / temperature
-python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version exp-01 --model grok-3 --temperature 0.2
-
-# Override raw file
-python scripts/03_tailor_job_data.py --uuid cdb9a3fa --version llm-v1 --raw-file intake/custom-job.md
+# Force naive regex (no LLM cost)
+python scripts/03_tailor_job_data.py --uuid cdb9a3fa --no-llm
 ```
 
-**Behavior**  
-- Smart folder resolution: accepts full folder name, short UUID, or prefix (same logic as `02_decide_job.py`)  
-- Tries multiple common raw file locations  
-- Primary path: calls Grok with strict YAML-only prompt  
-- Aggressive response cleaning (removes fences, extra text)  
-- Falls back to naive regex section/skill extraction if LLM fails  
-- Saves versioned file in `tailored/` subfolder  
-- Prints detected skills preview on success
+### 2. Via Auto Pipeline
+The automation script (`scripts/10_auto_pipeline.py`) runs this immediately after accepting the job.
+*   **Command used by auto-runner**:
+    ```python
+    python scripts/03_tailor_job_data.py --uuid <uuid> --version v1
+    ```
 
-**Known Behaviors / Gotchas**  
-- Requires Grok API access (`src/ai/grok_client.py` configured)  
-- LLM output can occasionally be malformed → fallback is automatic  
-- `--temperature 0.0` is strongly recommended for structured YAML output  
-- Naive mode (`--no-llm`) produces much simpler output (only basic sections + skills)  
-- Does **not** yet update `metadata.yaml` with tailoring status/version (future enhancement)
+**Arguments**
+*   `--uuid`: The job's UUID.
+*   `--version`: Label for this tailoring iteration (e.g., `v1`, `experiment-A`).
+*   `--model`: LLM model (default: `grok-3`).
+*   `--no-llm`: Skip AI and use simple regex matching (faster, less accurate).
 
 **Related Files**  
 - Script: `scripts/03_tailor_job_data.py`  
-- Output: `data/jobs/0000X_xxxxxxxx/tailored/tailored_data_*.yaml`  
-- Predecessor: `scripts/02_decide_job.py` (should be ACCEPTED)  
-- Next typical step: resume/cover letter generation, keyword injection, application tracking  
-
-**Decisions Log References**  
-- Output format: clean YAML, no markdown fences  
-- Smart UUID resolution: `*_{uuid prefix}*` matching  
-- Fallback: naive regex → `tailoring_method: llm_fallback_naive`  
-- LLM prompt enforces strict structure (skills, summary, bullets, must/nice, ATS keywords)  
-- Versioning: free-form tag via `--version` (convention: `llm-v1`, `naive-v1`, `exp-01`, etc.)
-```
-
-This file should be saved as:
-
-```
-docs/03_tailor_job_data.md
-```
-
-(or wherever you are keeping phase documentation — consistent with `01_score_job.md` and `02_decide_job.md`).
-
-Let me know when you're ready to move to phase 04 (e.g. resume tailoring, cover letter generation, or application tracker).
+- Output: `data/jobs/<uuid>/tailored/tailored_data_*.yaml`  
+- Next Steps: `04_generate_resume_intermediate.py` and `07_generate_cover_intermediate.py`

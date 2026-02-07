@@ -1,74 +1,64 @@
 # 01 - Score Job (scripts/01_score_job.py)
 
 **Purpose**  
-Score a job posting against your master profile using Grok (xAI) to produce a realistic match percentage (0–100), recommendation, strongest alignments, gaps/risks with mitigations, and tailored advice.  
-Creates a structured job folder under `data/jobs/` using the pattern `00001_xxxxxxxx` (sequential 5-digit number + 8-char UUID prefix), copies the intake file, saves the Grok report, and initializes `metadata.yaml` with status `PENDING`.
+The entry point of the pipeline. It parses a raw job posting, compares it against your master profile using an LLM (Grok/xAI), and produces a "Score Report" with a match percentage (0–100) and recommendation.
 
-**Current Status**  
-Working / POC-stable (as of Feb 5, 2026)  
-Last tested: Collective Health Staff Data Engineer → 92% Strong Proceed
+Crucially, it **initializes the job folder** structure and generates the **Job UUID** that tracks the application through the entire system.
+
+**Key Capabilities**
+1.  **Scoring**: Generates a detailed match report (Strengths, Gaps, Advice).
+2.  **Parsing**: Extracts metadata (Company, Role, Website, Location) from both the filename and the file's front matter.
+3.  **Automation Ready**: Outputs a machine-parsable `🆔 Job UUID:` line used by `scripts/10_auto_pipeline.py`.
 
 **Input Requirements**  
-Markdown file in `intake/` containing at minimum:  
-- Employer_Name  
-- URL  
-- Title  
-- Location  
-- Full job description (preferably under "Contents:" or raw text)  
+Markdown file in `intake/` containing the job description.
+*   **Filename Convention**: `0000X.Company.Role.Date.Time.md` (e.g., `00001.DeepMind.Senior_Reseacher.02062026.1328.md`)
+*   **Front Matter**: The script scans the top of the file for lines like:
+    ```text
+    Company_website: https://careers.google.com
+    Location: Remote
+    ```
+    (This metadata is saved to `metadata.yaml` for later use by the Cover Letter generator).
 
-Example filename: `00001.Collective_Health.02052026.1328.md`
-
-**Output Folder Structure**  
+**Output folder Structure**  
+Creates `data/jobs/00001_xxxxxxxx/` (where `xxxxxxxx` is the short UUID):
 ```
-data/jobs/00001_xxxxxxxx/
-├── 00001.Collective_Health.02052026.1328.md      # original intake file (copied if --no-move)
+data/jobs/00001_cdb9a3fa/
+├── 00001.Company...md                 # Original intake file (moved from intake/)
 ├── raw/
-│   └── raw_intake.md                             # standardized copy for downstream scripts
+│   └── raw_intake.md                  # Standardized copy
 ├── score/
-│   └── score_report_YYYYMMDD_HHMMSS.md           # full Grok markdown response
-└── metadata.yaml                                 # core facts + score + status=PENDING
+│   └── score_report_YYYYMMDD.md       # Full Grok analysis
+└── metadata.yaml                      # Core DB record (UUID, Status, Score, Website, etc.)
 ```
-
-**Dependencies**  
-- `src/loaders/master_profile.py` → requires valid data in `data/master/` (run `profile_export.py` after updating source_of_truth.json)  
-- `src/ai/grok_client.py` → valid xAI API key configured  
-- Python packages: argparse, re, shutil, uuid, datetime, pathlib, yaml
 
 **Usage**
 
+### 1. Manual Run (Standalone)
 ```bash
-# Basic run (moves file from intake/)
-python scripts/01_score_job.py intake/00001.Collective_Health.02052026.1328.md
+# Standard run (moves file from intake/ to data/jobs/...)
+python scripts/01_score_job.py intake/00001.JobFile.md
 
-# Safe for debugging (does NOT move file from intake/)
-python scripts/01_score_job.py intake/00001.Collective_Health.02052026.1328.md --no-move
+# Dev Mode (Keeps file in intake/ for re-running)
+python scripts/01_score_job.py intake/00001.JobFile.md --no-move
 
-# Custom model / temperature
-python scripts/01_score_job.py intake/00001...md --model grok-beta --temperature 0.7
+# Custom Model
+python scripts/01_score_job.py intake/00001.JobFile.md --model grok-3 --temperature 0.7
 ```
 
-**Recommended Workflow**  
-1. Update master profile → run `profile_export.py` if needed  
-2. Drop new job posting markdown into `intake/`  
-3. Run scoring command  
-4. Review printed Grok report + saved `score/score_report_*.md`  
-5. Check `metadata.yaml` for score, recommendation, company/role auto-parsed from filename  
-6. If score ≥ 80–85% and recommendation is "Strong Proceed" or "Proceed" → proceed to accept (phase 02)
+### 2. Via Auto Pipeline (Recommended)
+This script is automatically called as **Step 1** by the auto-runner:
+```bash
+# The runner captures the UUID from script 01's output to trigger steps 02-09
+python scripts/10_auto_pipeline.py intake/00001.JobFile.md
+```
 
-**Known Behaviors / Gotchas**  
-- Folder naming auto-increments the 5-digit prefix by scanning existing `0000X_xxxxxxxx` folders  
-- Company/role parsing is heuristic-based on filename pattern  
-- `--no-move` strongly recommended during development  
-- `MasterProfileLoader` failure → verify `data/master/` files exist and are valid  
-- Grok prompt enforces exact markdown output structure — changes require updating `parse_score_from_response()`
+** stdout Integration**  
+The script prints the following line, which is critical for the automation pipeline:
+`🆔 Job UUID: e4648120-....`
+*Do not remove or change this print statement if you modify the script, as script 10 relies on it.*
 
 **Related Files**  
 - Script: `scripts/01_score_job.py`  
-- Example output: `data/jobs/00001_cdb9a3fa/`  
-- Profile loader: `src/loaders/master_profile.py`  
-- Grok client: `src/ai/grok_client.py`
-
-**Decisions Log References**  
-- Naming: `00001_xxxxxxxx` (sequential 5-digit + short UUID)  
-- Subfolders: `raw/`, `score/`  
-- `--no-move` flag for dev safety
+- Profile Loader: `src/loaders/master_profile.py`  
+- Orchestrator: `scripts/10_auto_pipeline.py`
