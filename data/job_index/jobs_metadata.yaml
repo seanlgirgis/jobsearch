@@ -1,0 +1,96 @@
+- uuid: 00001_cdb9a3fa
+  description_path: data\jobs\00001_cdb9a3fa\00001.Collective_Health.02052026.1328.md
+  company: Collective Health
+  role: Unknown Role
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00002_402a89d6
+  description_path: data\jobs\00002_402a89d6\00002.PostScript.02052026.2243.md
+  company: PostScript
+  role: Staff Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00003_e4648120
+  description_path: data\jobs\00003_e4648120\00003.FisherInvestements.02062026.1311.md
+  company: FisherInvestments
+  role: Senior Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00004_5abc9e0d
+  description_path: data\jobs\00004_5abc9e0d\00004.Geico.StaffEngineer.02062026.1122.md
+  company: Geico
+  role: Senior Staff Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00005_894db1e7
+  description_path: data\jobs\00005_894db1e7\00005.Geico.SeniorEngineer.02062026.1146.md
+  company: Geico
+  role: Senior Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00006_714f7c73
+  description_path: data\jobs\00006_714f7c73\00006.CapitalOne.SeniorEngineer.02062026.1201.md
+  company: CapitalOne
+  role: Lead Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: '00007_31466164'
+  description_path: data\jobs\00007_31466164\00007.AgileEngine.DataEngineer.1303.md
+  company: Agile Engine
+  role: Data Engineer ID50062
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00008_6dbaa234
+  description_path: data\jobs\00008_6dbaa234\00008.OdenTechnologies.MLEngineer.02062026.1326.md
+  company: Oden Technologies
+  role: Machine Learning Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00009_3caadd3a
+  description_path: data\jobs\00009_3caadd3a\00009.RTX.DataEngineer.02062026.1344.md
+  company: RTX
+  role: Data Engineer ID50062
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: '00010_61453370'
+  description_path: data\jobs\00010_61453370\00010.Stefanini.DataEngineer.02062026.1414.md
+  company: Stefanni Group
+  role: Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00011_d9e6c90b
+  description_path: data\jobs\00011_d9e6c90b\00011.Sephora.Lead_Engineer_Performance.02062026.1506.md
+  company: SEPHORA
+  role: Lead Engineer, Performance Engineering
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00012_cd22375a
+  description_path: data\jobs\00012_cd22375a\00012.ClickUp.Senior_Performance_Engineer.02062026.1523.md
+  company: ClickUp
+  role: Senior Performance Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00013_3f4d5336
+  description_path: data\jobs\00013_3f4d5336\00013.TheHershyCompany.SeniorDataEngineer.02062026.15.52.md
+  company: Hershey
+  role: Senior Data Engineer, Data Products
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00014_2c4f7d37
+  description_path: data\jobs\00014_2c4f7d37\00014.thehartford.LeadAIDataEngineer02062026.1950.md
+  company: TheHartford
+  role: Lead AI Data Engineer - Hybrid
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00015_9b310437
+  description_path: data\jobs\00015_9b310437\00015.SCRIBD.StaffDataEngineer.02062026.2041.md
+  company: SCRIBD
+  role: Staff Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00016_5407d0d2
+  description_path: data\jobs\00016_5407d0d2\00016.ATT.LeadData.AIEngineering.02062026.2102.md
+  company: AT&T
+  role: Lead Data/AI Engineering
+  apply_date: N/A
+  status: ACCEPTED
