@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "February 07, 2026",
+    "employer_address": "Google\nDallas, New York City, NY"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am excited to apply for the Incentives Technical Analyst, Infrastructure and Development position at YouTube, a Google subsidiary. With over 20 years of experience in data engineering and a passion for Google\u2019s mission to organize the world\u2019s information, I am eager to contribute to scalable solutions for the creator and partner ecosystem.",
+  "body": [
+    "As a Senior Data Engineer at CITI since 2017, I have honed my expertise in data analysis, SQL, and system architecture, directly aligning with the technical requirements of this role. I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints, and designed optimized Oracle schemas for historical retention and forecasting. My proficiency in programming languages like Python and C++\u2014with 15 and 20 years of experience, respectively\u2014enabled me to develop ML forecasting models using Prophet and scikit-learn, predicting capacity bottlenecks six months ahead. These skills are well-suited to building infrastructure for YouTube incentives and executing scalable code for product activation systems.",
+    "Additionally, my recent projects, such as the Serverless Lakehouse Platform on AWS and the HorizonScale AI Capacity Forecasting Engine, demonstrate my ability to translate business goals into technical solutions. The HorizonScale project replaced legacy processes with a parallel generator-based pipeline, reducing forecasting cycles by 90%, and featured interactive Streamlit dashboards for real-time insights. This experience in data engineering and business intelligence aligns with YouTube\u2019s need for data-driven decision-making using SQL and relational databases. I am inspired by Google\u2019s commitment to innovation and user focus, and I am confident my background in process improvement and technical problem-solving can enhance workflow optimization for the partner ecosystem."
+  ],
+  "conclusion": "I am thrilled at the opportunity to bring my expertise in data analysis, system architecture, and programming to Google and YouTube. I would welcome the chance to discuss how my skills and experiences align with your team\u2019s goals. Thank you for considering my application, and I look forward to the possibility of contributing to your impactful initiatives.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

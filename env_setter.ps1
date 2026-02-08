@@ -27,6 +27,6 @@ $env:VECTOR_DB_PATH = "$env:PROJECT_ROOT\data\vectorstore"
 $env:DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"   # light & fast local
 $env:DEFAULT_LLM_PROVIDER     = "xai"                                     # or grok, openai, etc.
 
-Write-Host "JobSearch environment activated ✓" -ForegroundColor Green
-Write-Host "Python: $(python --version)"
-Write-Host "Use deactivate to exit venv"
+Write-Host "JobSearch environment activated [OK]" -ForegroundColor Green
+python --version
+Write-Host "Use 'deactivate' to exit venv"

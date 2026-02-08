@@ -50,9 +50,8 @@ from scripts.utils.vector_ops import (
 
 # ──────────────────────────────────────────────── CONFIG ─────
 JOB_ROOT: Path = Path("data/jobs")
-# INDEX_PATH, METADATA_PATH, and INDEX_DIR are imported/derived
-from scripts.utils.vector_ops import INDEX_DIR 
-
+# INDEX_PATH and METADATA_PATH are now imported from vector_ops
+MIN_TEXT_LENGTH: int = 100  # Skip very short/invalid descriptions
 MIN_TEXT_LENGTH: int = 100  # Skip very short/invalid descriptions
 
 INDEX_DIR.mkdir(parents=True, exist_ok=True)
@@ -167,6 +166,8 @@ def build_index() -> None:
     except ValueError as e:
         print(f"❌ Data collection failed: {e}", file=sys.stderr)
         sys.exit(1)
+
+    print(f"✅ Collected {len(texts)} valid job descriptions.")
 
     print(f"✅ Collected {len(texts)} valid job descriptions.")
 

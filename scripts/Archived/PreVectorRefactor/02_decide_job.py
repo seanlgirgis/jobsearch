@@ -135,21 +135,6 @@ def main() -> None:
         print(f"  New status   : {new_status}")
         print(f"  Note added   : {note}")
         print(f"  Updated file : {metadata_path}")
-        
-        # ─────────────────────────────────────────────────────────────
-        # Integration: Update Vector Index if ACCEPTED
-        # ─────────────────────────────────────────────────────────────
-        if new_status == "ACCEPTED":
-            print("\n🔄 Updating Vector Index (since job accepted)...")
-            try:
-                from scripts.utils.build_job_index import build_index
-                build_index()
-            except ImportError:
-                print("⚠️ Warning: Could not import build_index. Index not updated.")
-            except Exception as e:
-                print(f"⚠️ Warning: Index update failed: {e}")
-        # ─────────────────────────────────────────────────────────────
-
     except Exception as e:
         print(f"Failed to save metadata: {e}")
         sys.exit(1)

@@ -21,6 +21,11 @@ Dated entries for traceability. Grouped by month for readability as it grows.
 - **2026-02-06 – Automation Pipeline Created**: scripts/10_auto_pipeline.py committed. Orchestrates steps 01-09. Solved Windows encoding issues by enforcing PYTHONUTF8=1 in subprocesses.
 - **2026-02-06 – Documentation Strategy Update**: Unified all script guides (01-10) in user_guide/v0/ to reference the automation workflow as the primary usage pattern.
 - **2026-02-06 – Rules Update**: Formalized rules.md to enforce the new pipeline structure, pathlib usage, and error handling standards.
+- **2026-02-06 – Vectorization & Duplicate Check Implemented**:
+    - Created `scripts/00_check_applied_before.py` as a standalone gatekeeper using FAISS + SentenceTransformer.
+    - Created shared `scripts/utils/vector_ops.py` module.
+    - Integrated indexing into `scripts/02_decide_job.py`: Automatically rebuilds index when a job is ACCEPTED.
+    - Automation Pipeline (10) remains lightweight (01-09); Vector/RAG checks are manual/decision-triggered.
 
 Last updated: 2026-02-06
 

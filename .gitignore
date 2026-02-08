@@ -213,4 +213,6 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+
+# RAG / Vector Store
+data/job_index/*.index

@@ -94,3 +94,15 @@
   role: Lead Data/AI Engineering
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00017_d8259ebc
+  description_path: data\jobs\00017_d8259ebc\00017.Anthropic.CapacityEngineerCompute.02072026.1945.md
+  company: Anthropic
+  role: Capacity Engineer Compute
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00018_539f6ba7
+  description_path: data\jobs\00018_539f6ba7\00018.Google.Incentives Technical Analyst.02072026.2031.md
+  company: Google
+  role: Incentives Technical Analyst, Infrastructure and Development, YouTube
+  apply_date: N/A
+  status: ACCEPTED

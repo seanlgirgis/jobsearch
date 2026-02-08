@@ -37,22 +37,17 @@ import sys
 from pathlib import Path
 from typing import List, Dict, Tuple, Optional
 
+import faiss
 import numpy as np
 import yaml
-
-from scripts.utils.vector_ops import (
-    get_embedding, 
-    save_index_and_metadata, 
-    INDEX_PATH, 
-    METADATA_PATH,
-    get_model
-)
+from sentence_transformers import SentenceTransformer
 
 # ──────────────────────────────────────────────── CONFIG ─────
 JOB_ROOT: Path = Path("data/jobs")
-# INDEX_PATH, METADATA_PATH, and INDEX_DIR are imported/derived
-from scripts.utils.vector_ops import INDEX_DIR 
-
+INDEX_DIR: Path = Path("data/job_index")
+INDEX_PATH: Path = INDEX_DIR / "faiss_job_descriptions.index"
+METADATA_PATH: Path = INDEX_DIR / "jobs_metadata.yaml"
+EMBEDDING_MODEL_NAME: str = "all-MiniLM-L6-v2"
 MIN_TEXT_LENGTH: int = 100  # Skip very short/invalid descriptions
 
 INDEX_DIR.mkdir(parents=True, exist_ok=True)
@@ -171,14 +166,12 @@ def build_index() -> None:
     print(f"✅ Collected {len(texts)} valid job descriptions.")
 
     try:
-        # Use batch encoding from vector_ops model instance
-        import faiss
-        model = get_model()
+        model: SentenceTransformer = SentenceTransformer(EMBEDDING_MODEL_NAME)
         embeddings: np.ndarray = model.encode(
             texts,
             show_progress_bar=True,
             normalize_embeddings=True,
-            batch_size=8,
+            batch_size=8,  # Adjustable for memory
         )
         print(f"✅ Embedded {len(embeddings)} descriptions (dim: {embeddings.shape[1]}).")
     except Exception as e:
@@ -188,13 +181,17 @@ def build_index() -> None:
         dim: int = embeddings.shape[1]
         index: faiss.IndexFlatIP = faiss.IndexFlatIP(dim)
         index.add(embeddings.astype(np.float32))
-        
-        save_index_and_metadata(index, metadatas)
+        faiss.write_index(index, str(INDEX_PATH))
         print(f"💾 Saved FAISS index to {INDEX_PATH}.")
-        print(f"💾 Saved metadata YAML to {METADATA_PATH}.")
-
     except Exception as e:
-        raise RuntimeError(f"Indexing/Saving failed: {e}") from e
+        raise RuntimeError(f"FAISS indexing failed: {e}") from e
+
+    try:
+        with METADATA_PATH.open("w", encoding="utf-8") as f:
+            yaml.dump(metadatas, f, allow_unicode=True, sort_keys=False)
+        print(f"💾 Saved metadata YAML to {METADATA_PATH}.")
+    except Exception as e:
+        raise RuntimeError(f"Metadata save failed: {e}") from e
 
     print(f"\n✅ Build complete! Indexed {len(texts)} jobs successfully.")
     print(f"   - Index size: {INDEX_PATH.stat().st_size / 1024:.1f} KB")
