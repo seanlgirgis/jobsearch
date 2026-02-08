@@ -1,0 +1,126 @@
+company_name: DTCC
+company_website: https://www.dtcc.com/careers
+job_title: Lead Database Engineer
+location: Coppell, TX
+extracted_skills:
+- python
+- sql
+- aws
+- snowflake
+- linux
+- bash
+- terraform
+- ansible
+- ci/cd
+- gitlab
+- bitbucket
+- jenkins
+- azure
+- gcp
+- splunk
+- grafana
+- dynatrace
+- autosys
+- finops
+- snowpark
+- snowpipe
+- cortex ai
+- oracle
+- ms sql
+- mysql
+- postgresql
+- agile
+- scrum
+- jira
+- itsm
+- servicenow
+job_summary: 'DTCC, a leader in financial market infrastructure, is seeking a Lead
+  Database Engineer to join their Information Technology group in Coppell, TX. This
+  role focuses on strengthening the data foundation and driving innovation through
+  Snowflake in the data cloud ecosystem. Key responsibilities include integrating
+  Snowflake with IAM and observability tools, optimizing cost and performance, and
+  providing escalated support. The ideal candidate will have expertise in Snowflake
+  administration, SQL programming, and cloud technologies like AWS. This position
+  offers a hybrid work model with competitive compensation and comprehensive benefits.
+
+  '
+responsibilities:
+- Lead strategic initiatives to enhance data foundation and performance using Snowflake.
+- Integrate Snowflake with IAM solutions such as Azure AD and HashiCorp Vault.
+- Implement Snowflake monitoring with tools like Splunk, Grafana, and Dynatrace.
+- Optimize cost and performance by applying FinOps concepts.
+- Administer Snowpark containers, Snowpipe streaming, and Cortex AI services.
+- Package new Snowflake features for enterprise-wide adoption.
+- Validate non-functional requirements including disaster recovery and backups.
+- Collaborate with application teams to ensure seamless integration.
+- Utilize CI/CD tools like GitLab, Bitbucket, and Jenkins for deployment.
+- Perform Snowflake and AWS administration using Terraform and Ansible.
+- Provide escalated support and consulting services to internal teams.
+- Develop documentation, training materials, and job aids.
+- Support disaster recovery and operational rotation activities.
+- Report defects and coordinate resolutions with Snowflake support.
+requirements:
+- Minimum of 6 years of relevant experience in database engineering or related field.
+- Bachelor's degree or equivalent experience in a related discipline.
+- Expertise in Snowflake administration.
+- Strong SQL programming skills and experience with RDBMS like Snowflake, Oracle,
+  MS SQL, MySQL, or PostgreSQL.
+- Proficiency in Python and Bash scripting on Linux environments.
+- Basic knowledge of Terraform and Ansible for infrastructure automation.
+- Experience with CI/CD tools such as GitLab, Bitbucket, or Jenkins.
+- Basic skills in AWS IaaS, with Azure or GCP experience acceptable.
+- Familiarity with Agile/Scrum methodologies and JIRA.
+- Understanding of ITSM processes and ServiceNow.
+preferred:
+- SnowPro Core certification.
+- Advanced experience with cloud platforms beyond basic IaaS.
+- Prior experience in financial services or capital markets.
+benefits:
+- Competitive compensation with base pay and annual incentive.
+- Comprehensive health and life insurance, plus well-being benefits.
+- Pension and retirement benefits.
+- Paid Time Off and Personal/Family Care leave.
+- Flexible/hybrid work model with 3 days onsite and 2 days remote.
+must_have_skills:
+- snowflake administration
+- sql programming
+- python
+- linux
+- ci/cd tools
+nice_to_have_skills:
+- snowpro core certification
+- advanced aws skills
+- azure experience
+- gcp experience
+- finops knowledge
+ats_keywords:
+- snowflake administration
+- lead database engineer
+- sql programming
+- python scripting
+- aws administration
+- terraform automation
+- ansible scripting
+- ci/cd pipelines
+- gitlab integration
+- bitbucket workflows
+- jenkins automation
+- linux bash scripting
+- snowpark containers
+- snowpipe streaming
+- cortex ai services
+- finops optimization
+- azure ad integration
+- hashicorp vault
+- splunk monitoring
+- grafana dashboards
+- dynatrace observability
+- agile scrum methodology
+- jira project management
+- itsm processes
+- servicenow platform
+- disaster recovery planning
+- financial markets infrastructure
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,27 @@
+uuid: eb57eb40-a94d-492d-a101-fbfc01d6476e
+job_id: 00021_eb57eb40
+original_filename: 00021 DTCC Lead Database Engineer 02072026 2238.md
+company: DTCC
+role: Lead Database Engineer
+company_website: https://www.dtcc.com/careers
+location: Coppell, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-07T22:42:21.459216'
+created_at: '2026-02-07T22:42:21.459216'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-07)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-07T22:42:21.686724'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-07'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-07'
+    status: Applied
+    notes: Pipeline application
