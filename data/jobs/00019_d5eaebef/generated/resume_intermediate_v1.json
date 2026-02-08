@@ -1,0 +1,526 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "target_roles": [
+      "Senior Data Engineer",
+      "AI Engineer",
+      "Cloud Data Architect",
+      "Capacity Planning Engineer",
+      "PySpark / AWS Specialist"
+    ]
+  },
+  "summary": "Senior Data Engineer with over 20 years of enterprise experience, specializing in architecting analytics platforms and data pipelines using modern cloud data platforms like AWS, Snowflake, and Databricks. Proficient in SQL, data modeling, and constructing production-grade solutions for enterprise accounts. Adept at leading technical evaluations and serving as a trusted advisor to drive customer success. Skilled in sales engineering and translating complex technical concepts for diverse audiences. Passionate about contributing to dbt Labs’ mission of advancing analytics engineering through innovative tools like dbt Cloud. Eager to collaborate on strategic accounts and influence platform development in a high-growth environment.",
+  "skills": [
+    {
+      "name": "SQL / Oracle",
+      "years": 18,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Databases"
+      ],
+      "notes": "Schema design, partitioning, PL/SQL, Pro*C, querying"
+    },
+    {
+      "name": "AWS",
+      "years": 7,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Cloud"
+      ],
+      "notes": "Glue, Athena, S3, Bedrock, serverless architectures, infrastructure"
+    },
+    {
+      "name": "Data Warehousing",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Data Engineering"
+      ],
+      "notes": "Snowflake/Redshift, Parquet/Snappy"
+    },
+    {
+      "name": "ETL Design & Optimization",
+      "years": 15,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Data Engineering"
+      ],
+      "notes": "Data pipelines, reporting"
+    },
+    {
+      "name": "Python",
+      "years": 15,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Data Engineering"
+      ],
+      "notes": "Pandas, generators, ETL pipelines, scripting, multiprocessing"
+    },
+    {
+      "name": "PySpark",
+      "years": 6,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Big Data"
+      ],
+      "notes": "Large-scale telemetry processing, parallel forecasting, spark, data-engineering"
+    },
+    {
+      "name": "Pandas",
+      "years": 10,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Data Engineering"
+      ],
+      "notes": "Data pipelines, ETL processes"
+    },
+    {
+      "name": "Capacity Planning / Forecasting",
+      "years": 15,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Infrastructure"
+      ],
+      "notes": "ML, infrastructure"
+    },
+    {
+      "name": "Prophet / Time-Series Forecasting",
+      "years": 5,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Machine Learning"
+      ],
+      "notes": "Capacity bottleneck prediction, with scikit-learn, forecasting, statistics"
+    },
+    {
+      "name": "scikit-learn",
+      "years": 6,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Machine Learning"
+      ],
+      "notes": "ML forecasting, statistical analysis"
+    },
+    {
+      "name": "GenAI / LLM Agents",
+      "years": 2,
+      "proficiency": "Intermediate-Advanced",
+      "last_used": "2025",
+      "categories": [
+        "AI"
+      ],
+      "notes": "Text-to-SQL agents, Claude 3 Sonnet integration, llm, agents"
+    },
+    {
+      "name": "Streamlit",
+      "years": 3,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Visualization"
+      ],
+      "notes": "Dashboards, python"
+    },
+    {
+      "name": "Hive/Hadoop",
+      "years": 7,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Big Data"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Airflow",
+      "years": 5,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Orchestration"
+      ],
+      "notes": "Data-engineering"
+    },
+    {
+      "name": "Docker",
+      "years": 5,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "DevOps"
+      ],
+      "notes": "Containerization"
+    },
+    {
+      "name": "Git",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Version Control"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "Linux/Unix",
+      "years": 20,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "OS"
+      ],
+      "notes": "HPUX, SunOS, Red Hat, infrastructure"
+    },
+    {
+      "name": "Multiprocessing",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Programming"
+      ],
+      "notes": "Performance"
+    },
+    {
+      "name": "BMC TrueSight / TSCO",
+      "years": 7,
+      "proficiency": "Advanced",
+      "last_used": "2025",
+      "categories": [
+        "Monitoring"
+      ],
+      "notes": "Capacity optimization, Aperature Vista"
+    },
+    {
+      "name": "C++",
+      "years": 20,
+      "proficiency": "Expert",
+      "last_used": "2010",
+      "categories": [
+        "Programming"
+      ],
+      "notes": "POSIX Threads, STL, OCCI/OCI, Multithreading, high-performance"
+    },
+    {
+      "name": "PL/SQL",
+      "years": 18,
+      "proficiency": "Expert",
+      "last_used": "2010",
+      "categories": [
+        "Databases"
+      ],
+      "notes": "DB performance, pair with Oracle"
+    },
+    {
+      "name": "Oracle RAC",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2010",
+      "categories": [
+        "Databases"
+      ],
+      "notes": "High-availability, oracle"
+    },
+    {
+      "name": "OCCI / OCI",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2010",
+      "categories": [
+        "Databases"
+      ],
+      "notes": "Oracle"
+    },
+    {
+      "name": "Java",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2016",
+      "categories": [
+        "Programming"
+      ],
+      "notes": "J2EE (EJB, JMS, Servlets), backend, performance testing/APM"
+    },
+    {
+      "name": "Perl",
+      "years": 12,
+      "proficiency": "Advanced",
+      "last_used": "2016",
+      "categories": [
+        "Scripting"
+      ],
+      "notes": "Automation, data extraction"
+    },
+    {
+      "name": "Ksh / Korn Shell Scripting",
+      "years": 12,
+      "proficiency": "Advanced",
+      "last_used": "2016",
+      "categories": [
+        "Scripting"
+      ],
+      "notes": "System admin/automation, shell, linux"
+    },
+    {
+      "name": "Dynatrace (AppMon + Synthetics)",
+      "years": 8,
+      "proficiency": "Expert",
+      "last_used": "2017",
+      "categories": [
+        "Monitoring"
+      ],
+      "notes": "APM, observability, Gomez Synthetic Monitoring"
+    },
+    {
+      "name": "CA APM / Introscope",
+      "years": 10,
+      "proficiency": "Expert",
+      "last_used": "2017",
+      "categories": [
+        "Monitoring"
+      ],
+      "notes": "APM, CA CEM, CA ADA, Team Center, Command Center"
+    },
+    {
+      "name": "WebLogic / WebSphere",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2011",
+      "categories": [
+        "Application Servers"
+      ],
+      "notes": ""
+    },
+    {
+      "name": "VB6 / VC++",
+      "years": 5,
+      "proficiency": "Intermediate",
+      "last_used": "2001",
+      "categories": [
+        "Programming"
+      ],
+      "notes": "Legacy"
+    }
+  ],
+  "flagship_projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a full serverless data platform using S3, Glue, Athena, and Bedrock. Built a Text-to-SQL GenAI agent with Claude 3 Sonnet. Resolved small file issues using Snappy and Parquet compression. Optimized ETL and data access for enterprise scale.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Replaced legacy manual processes with a parallel generator-based pipeline, reducing forecasting cycles by 90%. Developed an interactive Streamlit dashboard for real-time capacity insights and 'High Trust' utilization scores. Created a modern agentic pipeline for banking-scale telemetry. Repository includes code, documentation, and performance benchmarks.",
+      "technologies": [
+        "Python",
+        "Prophet",
+        "Streamlit",
+        "PySpark",
+        "Multiprocessing",
+        "Spark",
+        "Machine Learning",
+        "Data Pipelines",
+        "API Integration",
+        "Performance Benchmarking",
+        "Testing and Validation",
+        "AI Reasoning",
+        "RAG (Retrieval-Augmented Generation)"
+      ],
+      "repo": "https://github.com/seanlgirgis/HorizonStudy",
+      "documentation": [
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/README.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/API_AND_INTEGRATION_GUIDE.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/FUTURE_ROADMAP.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/OPERATIONAL_RUNBOOK.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/PERFORMANCE_BENCHMARK_REPORT.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TESTING_AND_VALIDATION_STRATEGY.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TREND_TO_HORIZONSCALE_EVOLUTION.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/lessons_learnt.md",
+        "https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/AI_REASONING_AND_RAG_SPEC.md"
+      ],
+      "code": "https://github.com/seanlgirgis/HorizonStudy/tree/main/src/HorizonScale",
+      "additional_docs": [
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/lib",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/pipeline",
+        "https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/synthetic"
+      ],
+      "timeframe": "Recent"
+    },
+    {
+      "name": "FAST Project",
+      "description": "Data mining user performance metrics to optimize critical money-generating systems.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines using Python and Pandas to ingest telemetry data from 6,000+ endpoints, enhancing data pipeline efficiency.",
+        "Developed ML forecasting models with Prophet and scikit-learn to predict capacity bottlenecks 6 months ahead, improving provisioning accuracy.",
+        "Designed optimized Oracle schemas for historical data retention, enabling seasonal risk forecasting for enterprise accounts.",
+        "Integrated disparate data feeds into unified reporting systems with executive dashboards, supporting strategic decision-making.",
+        "Identified underutilized infrastructure through data mining, driving significant cost savings via hardware consolidation.",
+        "Built automated workflows and interactive visualizations using Python libraries like matplotlib and plotly for stakeholder presentations."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetics for critical systems, ensuring robust performance monitoring.",
+        "Led 'FAST' project to data-mine real-user performance metrics, providing actionable optimization recommendations.",
+        "Supported cloud migration to AWS, enhancing system scalability and performance.",
+        "Upgraded Dynatrace from version 6.5 to 7.0 and implemented TLS1.2 security protocols.",
+        "Developed dashboards for end-to-end functionality and performance metrics analysis.",
+        "Analyzed bottlenecks and proposed performance improvements for key systems like Brand.com."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM, CEM, and ADA for utility systems, ensuring reliable monitoring.",
+        "Managed and supported monitoring solutions to maintain system performance and uptime."
+      ],
+      "exclude_from_resume": true
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000–6,000 agents for enterprise clients.",
+        "Designed custom Management Modules, dashboards, and alerts to support technical evaluations and reporting.",
+        "Provided sizing recommendations and bottleneck resolution for J2EE and .NET environments.",
+        "Developed Perl and Ksh scripts for data extraction, enhancing monitoring capabilities.",
+        "Trained client teams on APM solutions, acting as a trusted advisor for technical adoption.",
+        "Collaborated with IT teams to troubleshoot performance issues, ensuring scalable solutions."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications to identify load and resource bottlenecks for optimal performance.",
+        "Documented critical metrics including JDBC connections, threads, memory, CPU, and garbage collection.",
+        "Installed JMX monitoring and Wily Introscope to support performance testing initiatives.",
+        "Created automation scripts to streamline performance analysis and reporting processes."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster for a high-throughput shopping engine.",
+        "Optimized C++ and OCCI transaction processing, reducing hardware footprint by 95% while maintaining sub-second latency.",
+        "Built a CPPUNIT testing framework to automate conversion and ensure data integrity.",
+        "Collaborated with teams to design scalable solutions aligning with business and technical needs.",
+        "Enhanced system performance for a platform handling transaction volumes exceeding VISA’s throughput.",
+        "Documented processes and outcomes to support long-term system maintenance and upgrades."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Performed UML-based unit design for a CICS/MQSeries/XML/DB2 system as part of IRS modernization.",
+        "Developed modules to support critical system functionality and data processing.",
+        "Worked on messaging architecture using VC++ and DB2 for robust integration."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ interfaces using POSIX, sockets, and Marconi APIs.",
+        "Enhanced billing system performance with C/C++/Pro*C/PL/SQL, achieving 75% memory reduction and 10x database performance.",
+        "Automated system administration for WebLogic/WebSphere environments using Korn Shell scripts.",
+        "Designed and implemented interfaces with UML, C++, Java, J2EE, and XML for scalable solutions.",
+        "Troubleshot and supported Enabler/CSM/EMS modules, ensuring operational continuity.",
+        "Collaborated with vendors and teams to assess impacts and develop system enhancements."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": [
+        "Developed time and attendance interfaces using VB6 and VC++ for operational efficiency."
+      ]
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": [
+        "Maintained and troubleshot Linux and Windows systems, supporting lab operations.",
+        "Performed various administrative tasks to ensure smooth functioning of lab environments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ]
+}

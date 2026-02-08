@@ -111,9 +111,10 @@
             ]
         },
         {
-            "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
-            "role": "Senior Consultant / SME for CA APM",
-            "dates": "2011 – 2016",
+            "company": "CA Technologies/ TIAA-CREF",
+            "title": "SME for CA APM (Senior Consultant)",
+            "start_date": "2011",
+            "end_date": "2016",
             "highlights": [
                 "Led large-scale CA APM implementations/upgrades (9.1→10.1), managing 4,000–6,000 agents.",
                 "Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.",

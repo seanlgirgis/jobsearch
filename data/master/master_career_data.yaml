@@ -88,8 +88,8 @@ experience:
   highlights:
   - Supported enterprise CA APM, CEM, ADA for utility systems.
   - Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA).
-- company: CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)
-  role: Senior Consultant / SME for CA APM
+- company: CA Technologies/ TIAA-CREF
+  role: SME for CA APM (Senior Consultant)
   location: ''
   start: '2011'
   end: '2016'
@@ -132,7 +132,7 @@ experience:
   role: Senior Systems & Data Migration Engineer
   location: ''
   start: 2008-05
-  end: '2012'
+  end: '2010'
   highlights:
   - 'Led massive migration: 200+ MySQL nodes → 6-node Oracle RAC cluster for high-throughput
     shopping engine.'

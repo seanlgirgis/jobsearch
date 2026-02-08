@@ -20,7 +20,7 @@
       "PySpark / AWS Specialist"
     ]
   },
-  "summary": "Senior Data Engineer with over 20 years of enterprise experience, specializing in data analysis, system architecture, and technical problem-solving with proficiency in SQL, Python, Java, and C++. Adept at building scalable data infrastructure and optimizing workflows through data engineering and business intelligence practices. Experienced in leveraging relational databases and data science techniques to drive actionable insights and process improvements. Passionate about translating business goals into technical solutions, with a strong focus on operational reviews and product activation systems. Eager to contribute to YouTube’s mission of empowering creators and partners within Google’s innovative ecosystem by driving strategic initiatives for the partner ecosystem.",
+  "summary": "Senior Data Engineer with over 20 years of enterprise experience, specializing in data analysis, system architecture, and technical problem-solving with proficiency in SQL, Python, Java, and C++. Adept at building scalable data pipelines and infrastructure solutions, translating business goals into actionable technical systems, and driving process improvement through data-driven insights. Experienced in relational databases, data engineering, and business intelligence, with a proven track record of optimizing workflows and operational reviews. Passionate about contributing to YouTube’s mission of empowering creators and partners through innovative incentives systems and robust infrastructure development at Google. My expertise aligns with driving product activation at scale and collaborating with cross-functional teams to deliver impactful solutions. I am eager to leverage my skills to support YouTube’s global strategic initiatives.",
   "skills": [
     {
       "name": "SQL / Oracle",
@@ -43,16 +43,6 @@
       "notes": "Pandas, generators, ETL pipelines, scripting, multiprocessing"
     },
     {
-      "name": "Java",
-      "years": 10,
-      "proficiency": "Advanced",
-      "last_used": "2016",
-      "categories": [
-        "Programming"
-      ],
-      "notes": "J2EE (EJB, JMS, Servlets), backend, performance testing/APM"
-    },
-    {
       "name": "C++",
       "years": 20,
       "proficiency": "Expert",
@@ -63,14 +53,14 @@
       "notes": "POSIX Threads, STL, OCCI/OCI, Multithreading, high-performance"
     },
     {
-      "name": "ETL Design & Optimization",
-      "years": 15,
-      "proficiency": "Expert",
-      "last_used": "2025",
+      "name": "Java",
+      "years": 10,
+      "proficiency": "Advanced",
+      "last_used": "2016",
       "categories": [
-        "Data Engineering"
+        "Programming"
       ],
-      "notes": "Data pipelines, reporting"
+      "notes": "J2EE (EJB, JMS, Servlets), backend, performance testing/APM"
     },
     {
       "name": "Data Warehousing",
@@ -81,6 +71,16 @@
         "Data Engineering"
       ],
       "notes": "Snowflake/Redshift, Parquet/Snappy"
+    },
+    {
+      "name": "ETL Design & Optimization",
+      "years": 15,
+      "proficiency": "Expert",
+      "last_used": "2025",
+      "categories": [
+        "Data Engineering"
+      ],
+      "notes": "Data pipelines, reporting"
     },
     {
       "name": "Pandas",
@@ -323,149 +323,10 @@
       "notes": "Legacy"
     }
   ],
-  "experience": [
-    {
-      "company": "CITI",
-      "title": "Senior Capacity & Data Engineer",
-      "start_date": "2017-11",
-      "end_date": "2025-12",
-      "bullets": [
-        "Architected automated ETL pipelines using Python and Pandas to ingest telemetry data from 6,000+ endpoints, enhancing data analysis and operational efficiency.",
-        "Developed machine learning forecasting models with Prophet and scikit-learn to predict infrastructure bottlenecks six months ahead, supporting strategic planning.",
-        "Designed optimized Oracle schemas for historical data retention, enabling accurate seasonal risk forecasting and system architecture improvements.",
-        "Integrated disparate data feeds into unified Oracle reporting systems, creating executive dashboards for actionable business intelligence.",
-        "Utilized SQL for data mining to identify underutilized infrastructure, driving hardware consolidation and significant cost savings.",
-        "Automated reporting workflows with Python scripts, streamlining process improvement and operational reviews."
-      ]
-    },
-    {
-      "company": "G6 Hospitality LLC",
-      "title": "Performance Engineer",
-      "start_date": "2017-03",
-      "end_date": "2017-11",
-      "bullets": [
-        "Managed Dynatrace AppMon/Synthetics for critical systems, ensuring robust system architecture and performance monitoring.",
-        "Led 'FAST' project to data-mine real-user performance metrics, providing recommendations for system optimization and process improvement.",
-        "Upgraded Dynatrace from 6.5 to 7.0, implemented TLS1.2 security, and supported cloud migration to AWS for enhanced infrastructure.",
-        "Developed dashboards for end-to-end functionality, delivering before/after metrics to support operational reviews.",
-        "Analyzed system bottlenecks using data analysis techniques and suggested performance enhancements for workflow optimization.",
-        "Integrated Performance Center with Dynatrace for comprehensive monitoring and data-driven insights."
-      ]
-    },
-    {
-      "company": "HCL / Entergy",
-      "title": "APM Consultant",
-      "start_date": "2017-01",
-      "end_date": "2017-03",
-      "bullets": [
-        "Supported enterprise CA APM, CEM, and ADA for utility systems, ensuring reliable performance monitoring.",
-        "Managed and supported monitoring solutions to maintain system architecture integrity and operational efficiency."
-      ],
-      "exclude_from_resume": true
-    },
-    {
-      "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
-      "title": "Senior Consultant / SME for CA APM",
-      "start_date": "2011",
-      "end_date": "2016",
-      "bullets": [
-        "Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000–6,000 agents for robust system architecture.",
-        "Designed custom Management Modules, dashboards, and alerts using Perl/Ksh scripts for data extraction and operational reviews.",
-        "Provided sizing recommendations and Golden Images, enhancing infrastructure development and process improvement.",
-        "Collaborated with IT teams to troubleshoot performance issues in J2EE/.NET environments, ensuring workflow optimization.",
-        "Trained client teams on APM solutions, fostering best practices in technical infrastructure and system monitoring.",
-        "Analyzed and resolved performance bottlenecks, delivering actionable insights for business intelligence."
-      ]
-    },
-    {
-      "company": "AT&T",
-      "title": "Performance Test Engineer",
-      "start_date": "2010-08",
-      "end_date": "2011-07",
-      "bullets": [
-        "Analyzed J2EE telecom applications for load and break points, documenting key metrics like JDBC, threads, and memory for system architecture.",
-        "Installed JMX, Thread Dumps, and Wily Introscope to enhance performance monitoring and data analysis.",
-        "Created automation scripts to streamline testing processes, supporting workflow optimization.",
-        "Identified resource bottlenecks through detailed data analysis, contributing to operational efficiency."
-      ]
-    },
-    {
-      "company": "Sabre",
-      "title": "Senior Systems & Data Migration Engineer",
-      "start_date": "2008-05",
-      "end_date": "2012",
-      "bullets": [
-        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster for a high-throughput shopping engine, optimizing system architecture.",
-        "Optimized C++/OCCI transaction processing, reducing hardware footprint by 95% while maintaining sub-second latency.",
-        "Built CPPUNIT testing framework to automate conversion processes, enhancing workflow optimization.",
-        "Utilized data analysis to ensure performance metrics met business requirements during migration.",
-        "Collaborated with technical teams to design scalable infrastructure for high-performance systems.",
-        "Provided technical leadership in refactoring database systems for improved operational efficiency."
-      ]
-    },
-    {
-      "company": "Computer Science Corporation (CSC)",
-      "title": "Architect/Developer (IRS CADE Project)",
-      "start_date": "2007-10",
-      "end_date": "2008-05",
-      "bullets": [
-        "Performed UML-based unit design for CICS/MQSeries/XML/DB2 systems, contributing to robust system architecture.",
-        "Developed modules for IRS modernization, ensuring alignment with technical requirements.",
-        "Collaborated on messaging architecture using VC++ and DB2 for operational efficiency."
-      ]
-    },
-    {
-      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
-      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
-      "start_date": "2001",
-      "end_date": "2007",
-      "bullets": [
-        "Developed high-availability multithreaded C++ interfaces using POSIX, sockets, and Marconi APIs for robust system architecture.",
-        "Enhanced billing performance with C/C++/Pro*C/PL/SQL, achieving 75% memory reduction and 10x database performance.",
-        "Automated system administration for WebLogic/WebSphere using Korn Shell scripts, supporting workflow optimization.",
-        "Designed interfaces with UML in Rational Rose, incorporating class/sequence diagrams for process improvement.",
-        "Troubleshot Enabler/CSM/EMS modules, ensuring operational reliability and efficiency.",
-        "Utilized SQL for database queries and reporting, driving actionable insights for business intelligence."
-      ]
-    },
-    {
-      "company": "Simplex International - Canada",
-      "title": "Developer",
-      "start_date": "1999",
-      "end_date": "2001",
-      "bullets": [
-        "Developed time/attendance interfaces using VB6/VC++ to support operational systems."
-      ]
-    },
-    {
-      "company": "Humber College",
-      "title": "Lab Support",
-      "start_date": "1996-09",
-      "end_date": "1999-04",
-      "bullets": [
-        "Maintained and troubleshot Linux/Windows systems, performing various admin tasks for operational support.",
-        "Ensured system reliability through proactive monitoring and technical problem-solving."
-      ]
-    }
-  ],
-  "education": [
-    {
-      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
-      "institution": "Humber College",
-      "location": "Toronto, Canada",
-      "dates": "Not specified"
-    },
-    {
-      "degree": "Bachelor of Science in Civil Engineering",
-      "institution": "Zagazig University",
-      "location": "Egypt / Cairo, Egypt",
-      "dates": "Not specified"
-    }
-  ],
-  "projects": [
+  "flagship_projects": [
     {
       "name": "Serverless Lakehouse Platform (AWS)",
-      "description": "Designed a full serverless data platform using S3, Glue, Athena, and Bedrock. Built a Text-to-SQL GenAI agent with Claude 3 Sonnet. Resolved small file issues using Snappy and Parquet compression. Optimized ETL and data access for enterprise-scale operations.",
+      "description": "Designed a full serverless data platform using S3, Glue, Athena, and Bedrock. Built a Text-to-SQL GenAI agent with Claude 3 Sonnet. Resolved small file issues using Snappy and Parquet compression. Optimized ETL and data access for enterprise scale.",
       "technologies": [
         "AWS Glue",
         "Athena",
@@ -477,7 +338,7 @@
     },
     {
       "name": "HorizonScale — AI Capacity Forecasting Engine",
-      "description": "Replaced legacy manual processes with a parallel generator-based pipeline, reducing forecasting cycles by 90%. Developed an interactive Streamlit dashboard for real-time capacity insights and 'High Trust' utilization scores. Created a modern agentic pipeline for banking-scale telemetry. Features comprehensive documentation, API guides, and performance benchmarks.",
+      "description": "Replaced legacy manual processes with a parallel generator-based pipeline, reducing forecasting cycles by 90%. Developed an interactive Streamlit dashboard for real-time capacity insights and 'High Trust' utilization scores. Built a modern agentic pipeline for banking-scale telemetry. Repository includes code, documentation, and performance benchmarks.",
       "technologies": [
         "Python",
         "Prophet",
@@ -515,12 +376,151 @@
     },
     {
       "name": "FAST Project",
-      "description": "Conducted data mining of user performance metrics to optimize critical money-generating systems. Utilized Dynatrace for comprehensive analysis and actionable insights.",
+      "description": "Conducted data mining of user performance metrics to optimize critical money-generating systems.",
       "technologies": [
         "Dynatrace",
         "Data Mining"
       ],
       "timeframe": "2017"
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines using Python and Pandas to ingest P95 telemetry from 6,000+ endpoints, enhancing data analysis and operational efficiency.",
+        "Developed ML forecasting models with Prophet and scikit-learn to predict infrastructure bottlenecks 6 months ahead, improving provisioning accuracy.",
+        "Designed optimized Oracle schemas for historical data retention, enabling seasonal risk forecasting and robust system architecture.",
+        "Integrated disparate data feeds into unified Oracle reporting systems, creating executive dashboards for actionable business intelligence.",
+        "Identified underutilized infrastructure through data mining, driving hardware consolidation and significant cost savings.",
+        "Automated reporting workflows with Python scripts, streamlining process improvement and workflow optimization."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics for Brand.com, focusing on performance data analysis for critical systems.",
+        "Led 'FAST' project to data-mine real-user performance metrics, providing optimization recommendations for system efficiency.",
+        "Upgraded DynaTrace (6.5 to 7.0) and supported cloud migration to AWS, enhancing system architecture and security (TLS1.2).",
+        "Provided end-to-end monitoring and dashboarding, identifying bottlenecks for process improvement.",
+        "Analyzed performance issues and suggested actionable improvements to technical infrastructure.",
+        "Integrated Performance Center with DynaTrace for comprehensive monitoring solutions."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM, CEM, and ADA for utility systems, ensuring reliable performance monitoring.",
+        "Managed and supported monitoring solutions to maintain system architecture integrity."
+      ],
+      "exclude_from_resume": true
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000–6,000 agents for robust system architecture.",
+        "Designed custom Management Modules, dashboards, and alerts using Perl/Ksh scripts for data extraction and reporting.",
+        "Provided sizing recommendations and bottleneck resolution for J2EE/.NET environments, enhancing technical infrastructure.",
+        "Collaborated with IT teams to troubleshoot performance issues, driving process improvement in complex systems.",
+        "Created Golden Images for agent rollouts, optimizing deployment workflows.",
+        "Trained client teams on APM solutions, ensuring effective adoption and operational reviews."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications for load and breakpoints, focusing on data analysis of JDBC, threads, memory, CPU, and GC metrics.",
+        "Installed JMX, Thread Dumps, and Wily Introscope to enhance system monitoring and architecture.",
+        "Created automation scripts to streamline performance testing processes.",
+        "Documented key performance metrics to support technical problem-solving and system optimization."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster for a high-throughput shopping engine, optimizing system architecture.",
+        "Optimized C++/OCCI transaction processing, reducing hardware footprint by 95% while maintaining sub-second latency.",
+        "Built CPPUNIT testing framework to automate conversion and ensure data integrity.",
+        "Enhanced technical infrastructure by refactoring database systems for scalability and performance.",
+        "Collaborated with teams to align migration with business goals and operational efficiency.",
+        "Provided data-driven insights to support decision-making during migration processes."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Conducted UML design and module development for a CICS/MQSeries/XML/DB2 system, focusing on system architecture.",
+        "Developed modules for IRS modernization, ensuring alignment with technical requirements.",
+        "Worked on messaging architecture using VC++ and DB2 for robust data handling."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ interfaces using POSIX, sockets, and Marconi APIs for billing systems.",
+        "Achieved 75% memory reduction and 20% throughput gain in billing processes through performance tuning with C/C++/Pro*C/PL/SQL.",
+        "Automated system administration for WebLogic/WebSphere using Korn Shell scripts, driving workflow optimization.",
+        "Designed interfaces with UML in Rational Rose, incorporating class/sequence diagrams and use cases.",
+        "Troubleshot Enabler/CSM/EMS modules, ensuring operational reliability and process improvement.",
+        "Implemented database fixes, improving performance by 10x through optimized sequences."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": [
+        "Developed time and attendance interfaces using VB6/VC++ to support business operations."
+      ]
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": [
+        "Maintained and troubleshot Linux/Windows systems, performing various administrative tasks.",
+        "Supported lab operations by ensuring system reliability and user support."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
     }
   ]
 }

@@ -856,11 +856,11 @@
                 "CA CEM",
                 "CA ADA"
             ],
-			"exclude_from_resume": true
+            "exclude_from_resume": true
         },
         {
-            "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
-            "role": "Senior Consultant / SME for CA APM",
+            "company": "CA Technologies/ TIAA-CREF",
+            "role": "SME for CA APM (Senior Consultant)",
             "dates": "2011 – 2016",
             "start_date": "2011",
             "end_date": "2016",
@@ -921,9 +921,9 @@
         {
             "company": "Sabre",
             "role": "Senior Systems & Data Migration Engineer",
-            "dates": "May 2008 – Jan 2010 (extended to ~2012 in some refs)",
+            "dates": "May 2008 – Jan 2010",
             "start_date": "2008-05",
-            "end_date": "2012",
+            "end_date": "2010",
             "highlights": [
                 "Led massive migration: 200+ MySQL nodes → 6-node Oracle RAC cluster for high-throughput shopping engine.",
                 "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",

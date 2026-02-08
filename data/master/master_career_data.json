@@ -140,11 +140,11 @@
         "Supported enterprise CA APM, CEM, ADA for utility systems.",
         "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
       ],
-        "exclude_from_resume": true
+      "exclude_from_resume": true
     },
     {
-      "company": "CA Technologies (various clients) & Enterprise Iron (TIAA-CREF)",
-      "title": "Senior Consultant / SME for CA APM",
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
       "start_date": "2011",
       "end_date": "2016",
       "bullets": [
@@ -182,7 +182,7 @@
       "company": "Sabre",
       "title": "Senior Systems & Data Migration Engineer",
       "start_date": "2008-05",
-      "end_date": "2012",
+      "end_date": "2010",
       "bullets": [
         "Led massive migration: 200+ MySQL nodes \u2192 6-node Oracle RAC cluster for high-throughput shopping engine.",
         "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",
