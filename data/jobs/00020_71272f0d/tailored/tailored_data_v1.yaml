@@ -1,0 +1,118 @@
+company_name: Geico
+company_website: https://geico.wd1.myworkdayjobs.com/
+job_title: Capacity Planning and Management
+location: Dallas, TX
+extracted_skills:
+- aws
+- azure
+- cloud services
+- infrastructure provisioning
+- capacity planning
+- workload analysis
+- forecasting pipelines
+- data analysis
+- data pipelines
+- dashboards
+- analytics platforms
+- api development
+- quota management
+- subscription modeling
+- finops
+- cloud cost optimization
+- infrastructure telemetry
+job_summary: 'GEICO, a leading insurance provider, is seeking a Staff Engineer for
+  Capacity Planning and Management in Dallas, TX, to enhance their Capacity Management
+  Platform. This role focuses on proactive infrastructure and cloud capacity planning
+  across GEICO’s hybrid technology landscape. Key responsibilities include designing
+  systems for capacity forecasting, optimizing workload placement, and developing
+  tools for real-time capacity signals. The position requires collaboration with various
+  teams to ensure efficient infrastructure provisioning and cost predictability. Candidates
+  should have extensive experience in infrastructure or capacity engineering and a
+  strong understanding of cloud services and data analysis.
+
+  '
+responsibilities:
+- Lead the design and implementation of systems for cloud and OnPrem capacity forecasting
+  to support application onboarding and expansion.
+- Collaborate with application and infrastructure teams to analyze workload characteristics
+  and optimize placement decisions.
+- Develop internal tools and APIs to provide real-time and forecasted capacity signals
+  to relevant stakeholders.
+- Build quota and subscription management solutions for scalable consumption of shared
+  infrastructure resources.
+- Work with Hardware Engineering to define data-driven signals for purchase decisions
+  in various environments.
+- Support onboarding of service providers by developing capacity insights and demand
+  management capabilities.
+- Partner with Finance, Procurement, and Cloud FinOps teams to align capacity forecasts
+  with budget expectations.
+- Maintain governance models for capacity consumption, allocation, and scaling practices.
+- Mentor engineers and share best practices on platform scalability and cost efficiency.
+requirements:
+- 8+ years of experience in infrastructure, platform, or capacity engineering in large-scale
+  or hybrid cloud environments.
+- Expertise in building capacity planning models, workload analysis frameworks, and
+  forecasting pipelines.
+- Strong understanding of cloud services like AWS and Azure, and infrastructure provisioning
+  workflows.
+- Experience collaborating with procurement, hardware, or finance teams on infrastructure
+  acquisition.
+- Familiarity with workload repatriation, application migration, and hybrid environment
+  management.
+- Experience in building internal tools and APIs for engineering or operations teams.
+- Strong data analysis skills with experience in data pipelines, dashboards, or analytics
+  platforms.
+- Excellent collaboration and communication skills to influence cross-functional stakeholders.
+preferred:
+- Experience with FinOps principles, cloud cost optimization, or cloud spend forecasting.
+- Familiarity with enterprise quota management systems or internal subscription modeling.
+- Knowledge of infrastructure telemetry systems and service ownership models.
+- Prior experience supporting hardware procurement or platform growth in regulated
+  environments.
+benefits:
+- Comprehensive Total Rewards program including personalized coverage for well-being.
+- Financial benefits such as market-competitive compensation and a 401K savings plan
+  with a 6% match.
+- Performance and recognition-based incentives and tuition assistance.
+- Access to mental healthcare, fertility, and adoption assistance.
+- Workplace flexibility and the GEICO Flex program allowing remote work for up to
+  four weeks per year.
+- Inclusive culture with employee engagement and recognition programs.
+must_have_skills:
+- capacity planning
+- infrastructure engineering
+- cloud services
+- workload analysis
+- data analysis
+- api development
+nice_to_have_skills:
+- finops
+- cloud cost optimization
+- quota management
+- infrastructure telemetry
+- subscription modeling
+ats_keywords:
+- capacity planning
+- infrastructure engineering
+- cloud capacity
+- workload optimization
+- forecasting pipelines
+- aws
+- azure
+- hybrid cloud
+- data analysis
+- api development
+- quota management
+- subscription modeling
+- finops
+- cloud cost optimization
+- infrastructure provisioning
+- workload repatriation
+- application migration
+- hardware procurement
+- capacity engineering
+- platform scalability
+- cost efficiency
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
