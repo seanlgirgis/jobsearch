@@ -35,51 +35,51 @@ extracted_skills:
 - itsm
 - servicenow
 job_summary: 'DTCC, a leader in financial market infrastructure, is seeking a Lead
-  Database Engineer to join their Information Technology group in Coppell, TX. This
-  role focuses on strengthening the data foundation and driving innovation through
-  Snowflake in the data cloud ecosystem. Key responsibilities include integrating
-  Snowflake with IAM and observability tools, optimizing cost and performance, and
-  providing escalated support. The ideal candidate will have expertise in Snowflake
-  administration, SQL programming, and cloud technologies like AWS. This position
-  offers a hybrid work model with competitive compensation and comprehensive benefits.
+  Database Engineer in Coppell, TX, to enhance their data foundation using Snowflake
+  in the data cloud ecosystem. This role involves leading strategic initiatives to
+  integrate technology with business objectives, focusing on performance optimization
+  and innovation. Key responsibilities include administering Snowflake features, integrating
+  with IAM and observability tools, and collaborating with application teams for seamless
+  data solutions. Candidates should have at least 6 years of related experience and
+  expertise in Snowflake administration, SQL, and cloud platforms like AWS.
 
   '
 responsibilities:
-- Lead strategic initiatives to enhance data foundation and performance using Snowflake.
+- Lead strategic vision to strengthen data foundation and drive enterprise-wide innovation
+  with Snowflake.
 - Integrate Snowflake with IAM solutions such as Azure AD and HashiCorp Vault.
-- Implement Snowflake monitoring with tools like Splunk, Grafana, and Dynatrace.
+- Implement Snowflake monitoring using observability tools like Splunk, Grafana, and
+  Dynatrace.
 - Optimize cost and performance by applying FinOps concepts.
-- Administer Snowpark containers, Snowpipe streaming, and Cortex AI services.
-- Package new Snowflake features for enterprise-wide adoption.
-- Validate non-functional requirements including disaster recovery and backups.
-- Collaborate with application teams to ensure seamless integration.
-- Utilize CI/CD tools like GitLab, Bitbucket, and Jenkins for deployment.
+- Administer Snowpark containers, Snowpipe streaming, and Cortex AI services for enterprise
+  use.
+- Collaborate with application teams to ensure seamless integration of data solutions.
+- Utilize CI/CD tools like GitLab, Bitbucket, and Jenkins for deployment processes.
 - Perform Snowflake and AWS administration using Terraform and Ansible.
-- Provide escalated support and consulting services to internal teams.
-- Develop documentation, training materials, and job aids.
-- Support disaster recovery and operational rotation activities.
-- Report defects and coordinate resolutions with Snowflake support.
+- Provide escalated support, consulting, and develop documentation and training materials.
+- Support disaster recovery and operational rotation activities while coordinating
+  defect fixes with Snowflake.
 requirements:
-- Minimum of 6 years of relevant experience in database engineering or related field.
-- Bachelor's degree or equivalent experience in a related discipline.
-- Expertise in Snowflake administration.
-- Strong SQL programming skills and experience with RDBMS like Snowflake, Oracle,
-  MS SQL, MySQL, or PostgreSQL.
+- Minimum of 6 years of related experience in database engineering or administration.
+- Bachelor's degree or equivalent experience in a relevant field.
+- Expertise in Snowflake administration and SQL programming.
+- Experience with relational database management systems like Oracle, MS SQL, MySQL,
+  or PostgreSQL.
 - Proficiency in Python and Bash scripting on Linux environments.
-- Basic knowledge of Terraform and Ansible for infrastructure automation.
+- Basic skills in Terraform and Ansible for infrastructure automation.
 - Experience with CI/CD tools such as GitLab, Bitbucket, or Jenkins.
-- Basic skills in AWS IaaS, with Azure or GCP experience acceptable.
-- Familiarity with Agile/Scrum methodologies and JIRA.
+- Basic knowledge of AWS IaaS, with Azure or GCP experience acceptable.
+- Familiarity with Agile/Scrum methodologies and tools like JIRA.
 - Understanding of ITSM processes and ServiceNow.
 preferred:
-- SnowPro Core certification.
-- Advanced experience with cloud platforms beyond basic IaaS.
-- Prior experience in financial services or capital markets.
+- SnowPro Core certification in Snowflake administration.
+- Advanced experience with cloud platforms beyond basic IaaS skills.
+- Strong background in FinOps for cost and performance optimization.
 benefits:
 - Competitive compensation with base pay and annual incentive.
-- Comprehensive health and life insurance, plus well-being benefits.
+- Comprehensive health and life insurance, plus well-being benefits based on location.
 - Pension and retirement benefits.
-- Paid Time Off and Personal/Family Care leave.
+- Paid Time Off, Personal/Family Care, and other leaves of absence.
 - Flexible/hybrid work model with 3 days onsite and 2 days remote.
 must_have_skills:
 - snowflake administration
@@ -90,37 +90,30 @@ must_have_skills:
 nice_to_have_skills:
 - snowpro core certification
 - advanced aws skills
-- azure experience
-- gcp experience
-- finops knowledge
+- finops expertise
+- azure/gcp experience
+- advanced terraform/ansible skills
 ats_keywords:
 - snowflake administration
 - lead database engineer
 - sql programming
 - python scripting
-- aws administration
+- aws iaas
+- ci/cd tools
 - terraform automation
 - ansible scripting
-- ci/cd pipelines
-- gitlab integration
-- bitbucket workflows
-- jenkins automation
-- linux bash scripting
+- linux bash
+- agile scrum
+- snowpro certification
+- finops optimization
 - snowpark containers
 - snowpipe streaming
 - cortex ai services
-- finops optimization
 - azure ad integration
-- hashicorp vault
 - splunk monitoring
-- grafana dashboards
-- dynatrace observability
-- agile scrum methodology
-- jira project management
-- itsm processes
-- servicenow platform
-- disaster recovery planning
-- financial markets infrastructure
+- grafana observability
+- dynatrace tools
+- autosys scheduling
 tailoring_method: llm
 llm_model: grok-3
 llm_version: v1

@@ -56,7 +56,8 @@ def extract_uuid(output: str) -> str:
 
 def main():
     parser = argparse.ArgumentParser(description="Run full job application pipeline (01-09)")
-    parser.add_argument("intake_file", help="Path to intake markdown file (e.g. intake/job.md)")
+    parser.add_argument("intake_file", nargs="?", help="Path to intake markdown file (optional if --uuid provided)")
+    parser.add_argument("--uuid", help="Job UUID to reuse (skips intake/scoring/decision steps)")
     
     # Overrides
     parser.add_argument("--model", default="grok-3", help="LLM model to use")
@@ -75,34 +76,81 @@ def main():
     
     python = sys.executable
     
-    print("="*60)
-    print(f"🤖 AUTO PIPELINE STARTING for {args.intake_file}")
-    print("="*60)
-
-    # --- Step 01: Score ---
-    cmd_01 = [
-        python, "scripts/01_score_job.py", 
-        args.intake_file,
-        "--model", args.model,
-        "--temperature", args.temperature
-    ]
-    if args.no_move:
-        cmd_01.append("--no-move")
-        
-    print(f"Running Step 01 (Scoring)...")
-    output_01 = run_command(cmd_01, capture_output=True)
-    print(output_01) # Show output so user sees score
+    # Validation
+    if not args.intake_file and not args.uuid:
+        parser.error("❌ You must provide either an INTAKE_FILE or --uuid.")
     
-    job_uuid = extract_uuid(output_01)
-    print(f"✅ Extracted UUID: {job_uuid}")
+    if args.uuid:
+        print("="*60)
+        print(f"🔄 RESUMING PIPELINE for Job UUID: {args.uuid}")
+        print("="*60)
+        job_uuid = args.uuid
+        
+        # If intake file provided, overwrite the raw_intake.md in the job folder
+        if args.intake_file:
+            # Find the job folder
+            jobs_dir = Path("data/jobs")
+            job_folder = next((p for p in jobs_dir.iterdir() if p.is_dir() and args.uuid in p.name), None)
+            
+            if not job_folder:
+                print(f"❌ Could not find job folder for UUID {args.uuid}")
+                sys.exit(1)
+                
+            raw_path = job_folder / "raw" / "raw_intake.md"
+            print(f"📝 Overwriting {raw_path} with content from {args.intake_file}...")
+            
+            try:
+                # Read new content
+                with open(args.intake_file, 'r', encoding='utf-8') as f:
+                    new_content = f.read()
+                
+                # Write to raw path
+                raw_path.parent.mkdir(parents=True, exist_ok=True)
+                with open(raw_path, 'w', encoding='utf-8') as f:
+                    f.write(new_content)
+                print("✅ intake file updated.")
+            except Exception as e:
+                print(f"❌ Failed to update intake file: {e}")
+                sys.exit(1)
 
-    # --- Step 02: Decide (Accept) ---
-    run_command([
-        python, "-m", "scripts.02_decide_job",
-        "--uuid", job_uuid,
-        "--accept",
-        "--reason", "Auto-accepted by pipeline"
-    ])
+        # Skip Step 00, 01, 02 which are for creating/scoring new jobs
+        
+    else:
+        print("="*60)
+        print(f"🤖 AUTO PIPELINE STARTING for {args.intake_file}")
+        print("="*60)
+
+        # --- Step 00: Duplicate Check ---
+        print(f"Running Step 00 (Duplicate Check)...")
+        run_command([
+            python, "scripts/00_check_applied_before.py",
+            args.intake_file
+        ])
+
+        # --- Step 01: Score ---
+        cmd_01 = [
+            python, "scripts/01_score_job.py", 
+            args.intake_file,
+            "--model", args.model,
+            "--temperature", args.temperature
+        ]
+        if args.no_move:
+            cmd_01.append("--no-move")
+            
+        print(f"Running Step 01 (Scoring)...")
+        output_01 = run_command(cmd_01, capture_output=True)
+        print(output_01) # Show output so user sees score
+        
+        job_uuid = extract_uuid(output_01)
+        print(f"✅ Extracted UUID: {job_uuid}")
+
+        # --- Step 02: Decide (Accept) ---
+        run_command([
+            python, "-m", "scripts.02_decide_job",
+            "--uuid", job_uuid,
+            "--accept",
+            "--reason", "Auto-accepted by pipeline"
+        ])
 
     # --- Step 03: Tailor ---
     run_command([

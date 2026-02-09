@@ -1,0 +1,150 @@
+company_name: CVS Health
+company_website: https://jobs.cvshealth.com/us/en
+job_title: Data Engineer
+location: Richardson, TX
+extracted_skills:
+- Python
+- SQL
+- ETL
+- ELT
+- Data Pipelines
+- Bash Shell Scripts
+- UNIX Utilities
+- UNIX Commands
+- Cloud Platforms
+- GCP
+- AWS
+- Azure
+- Data Warehousing
+- Data Visualization
+- Reporting Tools
+- AI/ML Model Building
+- Data Wrangling
+- Git
+- CI/CD Pipeline
+- DevOps
+- API Development
+- Microservices
+- SOA
+- Schema Design
+- Dimensional Data Modeling
+- BigQuery
+- Dataflow
+- Cloud Storage
+- Tidal
+- DAG-based Workflows
+- Data Governance
+- Data Quality Frameworks
+- Metadata Management
+- SQL Optimization
+- Performance Tuning
+job_summary: 'CVS Health is seeking a Data Engineer in Richardson, TX, to design and
+  maintain optimal data pipelines for large-scale healthcare data, supporting data-driven
+  business decisions. The role involves collaborating with cross-functional teams
+  to address complex business challenges using modern tools and technologies. Key
+  responsibilities include building robust ETL processes, ensuring data quality, and
+  contributing to innovative data products. Candidates must have at least 3 years
+  of experience in data warehousing, Python, SQL, and cloud platforms like GCP, AWS,
+  or Azure.
+
+  '
+responsibilities:
+- Design, develop, and maintain data pipelines to handle large, complex datasets for
+  various CVS business lines.
+- Build robust ETL/ELT processes and develop tools for efficient data processing.
+- Analyze complex data structures from disparate sources to create scalable data engineering
+  solutions.
+- Collaborate with developers and technical leads on ETL job and pipeline development.
+- Participate in Agile scrum activities, project status meetings, and user story grooming
+  sessions.
+- Implement data quality checks and validation processes to ensure data accuracy and
+  consistency.
+- Document data engineering processes, workflows, and systems for knowledge sharing.
+- Contribute to project estimation and provide technical input to team leads.
+- Integrate components to automate project processes and enhance efficiency.
+requirements:
+- Bachelor’s Degree or equivalent experience in Computer Science, Information Systems,
+  Data Engineering, or related field.
+- 3+ years of experience in executing data warehousing ETL projects.
+- 3+ years of experience with Python programming.
+- 3+ years of experience with SQL.
+- 3+ years of experience in building high-volume batch/real-time data pipelines using
+  ETL/ELT.
+- 3+ years of hands-on experience with bash shell scripts, UNIX utilities, and UNIX
+  commands.
+- 3+ years of experience with a major cloud platform (GCP, AWS, or Azure).
+preferred:
+- Master’s Degree in a related field.
+- Experience with complex systems and solving challenging analytical problems.
+- Strong collaboration and communication skills within and across teams.
+- Knowledge of data visualization and reporting tools.
+- Experience building real-time or near real-time data pipelines using pub/sub or
+  change data capture.
+- Knowledge of AI/ML model building and data preparation using Python libraries.
+- Experience with Git, CI/CD pipelines, and DevOps best practices.
+- Understanding of software development methodologies like waterfall and agile.
+- Experience with API development, microservices, and SOA.
+- Knowledge of schema design and dimensional data modeling.
+- Google Professional Data Engineer Certification.
+- Formal SAFe and/or agile experience.
+- Previous healthcare experience and domain knowledge.
+- Experience designing and maintaining data processing systems, data warehouses, and
+  data lakes.
+- Experience with GCP services such as BigQuery, Dataflow, Cloud Storage, and Tidal.
+- Experience implementing data governance, data quality frameworks, and metadata management.
+benefits:
+- Competitive pay range of $72,100.00 - $144,200.00 annually.
+- Eligibility for CVS Health bonus, commission, or short-term incentive programs.
+- Affordable medical plan options and a 401(k) plan with company matching contributions.
+- Employee stock purchase plan.
+- No-cost wellness programs including screenings, tobacco cessation, and weight management.
+- Confidential counseling and financial coaching services.
+- Paid time off, flexible work schedules, family leave, and dependent care resources.
+- Colleague assistance programs and tuition assistance.
+- Retiree medical access and other eligibility-based benefits.
+must_have_skills:
+- Python
+- SQL
+- ETL/ELT
+- Data Warehousing
+- Cloud Platforms (GCP, AWS, or Azure)
+- Bash Shell Scripts
+- UNIX Utilities
+nice_to_have_skills:
+- AI/ML Model Building
+- Data Visualization Tools
+- Git
+- CI/CD Pipeline
+- DevOps Practices
+- Google Professional Data Engineer Certification
+- GCP Services (BigQuery, Dataflow)
+- Data Governance
+- Healthcare Domain Knowledge
+ats_keywords:
+- Data Engineer
+- ETL
+- ELT
+- Data Pipelines
+- Python
+- SQL
+- Cloud Platforms
+- GCP
+- AWS
+- Azure
+- Data Warehousing
+- Bash Shell Scripts
+- UNIX Commands
+- BigQuery
+- Dataflow
+- Data Quality
+- Data Governance
+- Healthcare Data
+- Agile
+- DevOps
+- CI/CD
+- AI/ML
+- Schema Design
+- Dimensional Modeling
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

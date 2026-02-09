@@ -127,3 +127,9 @@
   role: Lead Database Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00022_338f7341
+  description_path: data\jobs\00022_338f7341\00022 CVS Data Engineer.md
+  company: CVS
+  role: Data Engineer
+  apply_date: N/A
+  status: ACCEPTED

@@ -1,0 +1,33 @@
+uuid: 338f7341-cad7-46fd-b7ec-8972238bb00a
+job_id: 00022_338f7341
+original_filename: 00022 CVS Data Engineer.md
+company: CVS
+role: Data Engineer
+company_website: https://jobs.cvshealth.com/us/en
+location: Richardson, TX
+status: ACCEPTED
+score: 95
+recommendation: Strong Proceed
+score_date: '2026-02-07T23:11:26.515767'
+created_at: '2026-02-07T23:11:26.515767'
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-07)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-07T23:11:26.704080'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-07'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-07'
+    status: Applied
+    notes: Pipeline application
+  - date: '2026-02-07'
+    status: Applied
+    notes: Pipeline application
+  - date: '2026-02-07'
+    status: Applied
+    notes: Pipeline application

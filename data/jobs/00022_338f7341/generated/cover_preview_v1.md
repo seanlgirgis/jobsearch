@@ -1,0 +1,23 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+February 07, 2026  
+
+CVS Health
+Richardson, TX
+
+Dear Hiring Manager,
+
+I am excited to apply for the Data Engineer position at CVS Health in Richardson, TX. With a deep admiration for CVS Health’s mission to help people on their path to better health through innovation and technology, I am eager to contribute my expertise in data engineering to support your transformative healthcare initiatives.
+
+As a Senior Data Engineer with over 20 years of enterprise experience, including 8 years at CITI as a Senior Capacity & Data Engineer (2017-2025), I have honed my skills in designing and maintaining robust data pipelines for large-scale datasets. My work includes architecting automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints, which aligns directly with CVS Health’s need for efficient data processing. Additionally, my expertise in SQL and schema design, with 18 years of Oracle experience, ensures data accuracy and scalability—key for handling complex healthcare data structures across various business lines.
+
+I bring hands-on experience with cloud platforms like AWS (7 years), where I designed a full serverless data platform using S3, Glue, and Athena. This background equips me to leverage cloud technologies such as GCP, AWS, or Azure to build high-volume batch and real-time data pipelines, as outlined in your requirements. My recent projects, including the HorizonScale AI Capacity Forecasting Engine, utilized PySpark and multiprocessing to reduce forecasting cycles by 90%, demonstrating my ability to create scalable data engineering solutions. Furthermore, my proficiency in data warehousing and ETL optimization (15 years) ensures I can contribute to data quality frameworks and governance, critical for CVS Health’s data-driven decision-making.
+
+I am enthusiastic about the opportunity to bring my skills in Python, SQL, ETL design, and cloud platforms to CVS Health, supporting your commitment to innovation in healthcare. I would welcome the chance to discuss how my experience aligns with your needs. Thank you for considering my application, and I look forward to the possibility of contributing to your team.
+
+Sincerely,
+Sean Luka Girgis
