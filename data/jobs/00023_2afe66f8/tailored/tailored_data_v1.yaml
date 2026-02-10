@@ -1,0 +1,129 @@
+company_name: Qode
+company_website: Client is Wealth Management
+job_title: Sr Data Engineer
+location: Plano, TX
+extracted_skills:
+- python
+- sql
+- azure
+- t-sql
+- azure sql
+- azure storage
+- azure data factory
+- azure synapse
+- cosmos db
+- github
+- azure devops
+- ci/cd
+- etl
+- elt
+- ssis
+- informatica
+- kafka
+- spark
+- mulesoft
+- microsoft sql server
+- oracle
+- nosql
+- scala
+- devops
+- data governance
+- data security
+- data compliance
+job_summary: 'Qode is seeking a Sr Data Engineer for a client in Wealth Management
+  to design and deliver modern data solutions using cloud-based platforms and AI-driven
+  innovations. The role involves partnering with business, technology, and governance
+  teams to build scalable, secure, and compliant data platforms that support advanced
+  analytics and AI. Key responsibilities include designing and optimizing data processing
+  systems, developing data pipelines, and coordinating security and monitoring capabilities.
+  Candidates should have over 12 years of experience in data solutions, extensive
+  knowledge of Microsoft Azure, and proficiency in multiple programming languages
+  and database technologies.
+
+  '
+responsibilities:
+- Utilize Agile methodologies to gather and refine requirements through iterative
+  planning, defining acceptance criteria, prioritizing, and delivering enterprise
+  data solutions with business intelligence and IT teams.
+- Develop, configure, and manage integration tools, databases, warehouses, and analytical
+  systems using data-related software.
+- Design, build, and deploy data extraction, transformation, and loading processes
+  from diverse sources including databases, APIs, and data files.
+- Create and implement structured, semi-structured, and unstructured data storage
+  models like data vault or dimensional modeling to meet business needs on various
+  platforms.
+- Collaborate with responsible teams to coordinate security, application monitoring,
+  and development tooling capabilities.
+- Provide operational support and incident management for data pipelines, proactively
+  updating internal clients on status changes and issues.
+- Author and maintain accurate documentation for processes, procedures, and technical
+  designs.
+- Mentor junior data and business intelligence personnel, developing training materials
+  and guiding their technical skill growth.
+requirements:
+- Bachelor's degree in Computer Science, Information Technology, or a related field.
+- 12+ years of experience in developing data-related solutions and software.
+- 10+ years of experience with relational databases, particularly within the Microsoft
+  Azure platform.
+- 4+ years of experience with multiple cloud technologies in the Microsoft Stack (Azure
+  IaaS and PaaS), including designing and developing on-premises and cloud-based infrastructure.
+- 4+ years of hands-on experience with Azure cloud technologies such as T-SQL, Azure
+  SQL, Azure Storage, Azure Data Factory, Azure Synapse, Cosmos DB, GitHub, Azure
+  DevOps, and CI/CD pipelines.
+- Advanced knowledge of ETL/ELT tools for batch and real-time data transmission, such
+  as SSIS, Informatica, Kafka, Spark, or MuleSoft.
+- Advanced knowledge of database technologies including Microsoft SQL Server, Oracle,
+  or NoSQL databases.
+- Advanced proficiency in programming languages like Python, SQL, or Scala.
+- Advanced understanding of IT infrastructure standards and tools, including application
+  performance monitoring and DevOps software.
+preferred:
+- Experience with Microsoft Purview for data governance, security, and compliance
+  solutions.
+- Familiarity with DevOps tools such as Delphix (part of Perforce) and GenRocket for
+  testing.
+benefits:
+- 100% paid medical, dental, and vision premiums for employees and qualifying dependents.
+- 50% 401(k) match, up to the IRS maximum.
+- 20 days of PTO, plus 10 paid holidays.
+- Family Support programs including 8 weeks of Paid Primary Caregiver Leave, $10,000
+  fertility and family forming assistance, and back-up care for children, adults,
+  and elders.
+must_have_skills:
+- azure
+- etl
+- sql
+- python
+- data pipelines
+- cloud technologies
+nice_to_have_skills:
+- microsoft purview
+- delphix
+- genrocket
+- scala
+- spark
+- kafka
+ats_keywords:
+- sr data engineer
+- azure cloud
+- data pipelines
+- etl processes
+- elt tools
+- microsoft sql server
+- azure data factory
+- azure synapse
+- cosmos db
+- ci/cd pipelines
+- data governance
+- data security
+- devops practices
+- python programming
+- sql expertise
+- cloud infrastructure
+- wealth management
+- agile methodologies
+- data warehousing
+- business intelligence
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
