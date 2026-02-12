@@ -5,7 +5,7 @@ company: CapitalOne
 role: Lead Data Engineer
 company_website: https://www.capitalonecareers.com/
 location: Plano, Texas
-status: ACCEPTED
+status: CALL_SCHEDULED
 score: 92
 recommendation: Strong Proceed
 score_date: '2026-02-06T12:04:41.323727'
@@ -20,8 +20,18 @@ application:
   applied: true
   applied_date: '2026-02-06'
   applied_method: Company Website
-  application_notes: Pipeline application
+  application_notes: Karah sent me email regarding the call and to test my interest.
+    I responded in an email
   history:
   - date: '2026-02-06'
     status: Applied
     notes: Pipeline application
+  - date: '2026-02-10'
+    status: CALL_SCHEDULED
+    notes: Call interview by phone set to Friday 12:00 pm
+  - date: '2026-02-12'
+    status: CALL_SCHEDULED
+    notes: Karah sent me email regarding the call and to test my interest. I responded
+      in an email
+  last_status: CALL_SCHEDULED
+  last_status_date: '2026-02-10'

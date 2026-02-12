@@ -5,7 +5,7 @@ company: Google
 role: Incentives Technical Analyst, Infrastructure and Development, YouTube
 company_website: https://www.google.com/about/careers
 location: Dallas, New York City, NY
-status: ACCEPTED
+status: CALL_SCHEDULED
 score: 85
 recommendation: Strong Proceed
 score_date: '2026-02-07T20:35:58.578612'
@@ -25,3 +25,11 @@ application:
   - date: '2026-02-07'
     status: Applied
     notes: Pipeline application
+  - date: '2026-02-09'
+    status: TEST
+    notes: Aptitude test given
+  - date: '2026-02-10'
+    status: TEST_PASSED
+    notes: Aptitude test passed via email
+  last_status: TEST_PASSED
+  last_status_date: '2026-02-10'

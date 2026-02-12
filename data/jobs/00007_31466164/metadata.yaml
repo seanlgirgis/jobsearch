@@ -20,8 +20,17 @@ application:
   applied: true
   applied_date: '2026-02-06'
   applied_method: Company Website
-  application_notes: Pipeline application
+  application_notes: Backdated note test
   history:
   - date: '2026-02-06'
     status: Applied
     notes: Pipeline application
+  - date: '2026-02-10'
+    status: REJECTED
+    notes: 'Email update: Added to talent pool. ''don''t have an immediate opening...
+      we will make sure to reach out'''
+  - date: '2026-02-01'
+    status: REJECTED
+    notes: Backdated note test
+  last_status: REJECTED
+  last_status_date: '2026-02-10'

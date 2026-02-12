@@ -5,7 +5,7 @@ company: RTX
 role: Data Engineer ID50062
 company_website: '[ https://join.agileengine.com/job/data-engineer-agileengine/](https://careers.rtx.com/)'
 location: USA, Remote
-status: ACCEPTED
+status: REJECTED
 score: 85
 recommendation: Strong Proceed
 score_date: '2026-02-06T13:46:55.482159'
@@ -25,3 +25,8 @@ application:
   - date: '2026-02-06'
     status: Applied
     notes: Pipeline application
+  - date: '2026-02-09'
+    status: REJECTED
+    notes: BY Email. no snowflake
+  last_status: REJECTED
+  last_status_date: '2026-02-09'

@@ -20,7 +20,7 @@ application:
   applied: true
   applied_date: '2026-02-07'
   applied_method: Company Website
-  application_notes: Pipeline application
+  application_notes: Test note from antigravity
   history:
   - date: '2026-02-07'
     status: Applied
