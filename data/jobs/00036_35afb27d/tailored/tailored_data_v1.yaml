@@ -1,0 +1,103 @@
+company_name: Apex Systems
+company_website: https://www.apexsystems.com
+job_title: Performance Lead Engineer
+location: Plano, TX
+extracted_skills:
+- Python
+- SQL
+- C
+- Java
+- LoadRunner
+- JMeter
+- Citrix Protocol
+- HTTP
+- Dynatrace
+- CA Wily Introscope
+- AppDynamics
+- Splunk
+- VUGen
+job_summary: 'Apex Systems, a leading global technology services firm, is seeking
+  a Performance Lead Engineer for a 9-month contract in Plano, TX. The role focuses
+  on providing performance testing for complex applications, designing test cases,
+  creating performance test scripts, and executing performance scenarios. Key responsibilities
+  include writing technical performance test plans and leading data creation for load
+  tests. Candidates should have 5-10 years of experience as a developer or performance
+  architect, with specialized skills in Python programming and tools like LoadRunner
+  or JMeter.
+
+  '
+responsibilities:
+- Provide performance testing capabilities for complex applications by designing test
+  cases and creating performance test scripts.
+- Execute performance scenarios and write technical performance test plans under the
+  guidance of a Performance Lead.
+- Develop data-driven load test scripts using Citrix Protocol and design various types
+  of load tests such as load, failover, and aging.
+- Utilize LoadRunner or JMeter to design and execute load and performance tests.
+- Lead data creation activities for required load tests and report findings through
+  defined processes.
+- Collaborate with application development, architecture, infrastructure, and production
+  support teams for defect triage and production planning.
+- Participate in project and team meetings, actively contributing to discussions and
+  solutions.
+requirements:
+- 5-10 years of hands-on experience as a developer and/or performance architect.
+- Specialized programming skills in Python and proficiency in other languages such
+  as C, Java, and SQL query development.
+- Experience with LoadRunner or JMeter for designing and executing load and performance
+  tests.
+- Proficiency in using VUGen 9.5 or greater for advanced test script development beyond
+  record and playback.
+- Understanding of web protocols including HTTP and Citrix.
+- Ability to use monitoring and profiling tools like Dynatrace, CA Wily Introscope,
+  and AWR reports to analyze application performance on Windows or Linux.
+- Strong analytical skills with the ability to research and resolve complex system
+  and user issues.
+- Excellent verbal and written communication skills.
+preferred:
+- Experience with load management applications like LoanIQ (Finastra).
+- Knowledge of Splunk for enhanced load test analysis.
+- Development experience in addition to performance testing.
+benefits:
+- Comprehensive benefits package including medical, dental, vision, life, and disability
+  insurance.
+- Employee Stock Purchase Program (ESPP) and 401K program with company match after
+  12 months of tenure.
+- Health Savings Account (HSA) on the HDHP plan and Employee Assistance Program (EAP)
+  with free counseling sessions.
+- Corporate discount savings program and other discounts.
+- On-demand training program, certification prep, and access to technical and leadership
+  courses after 6+ months of tenure.
+- Certification discounts and perks with associations like CompTIA and IIBA.
+- Dedicated customer service team and certified Career Coach for consultants.
+must_have_skills:
+- Python programming
+- LoadRunner or JMeter
+- Performance testing
+- VUGen 9.5 or greater
+- Web protocols (HTTP, Citrix)
+nice_to_have_skills:
+- LoanIQ (Finastra) experience
+- Splunk knowledge
+- Development experience
+ats_keywords:
+- Performance Lead Engineer
+- Performance Testing
+- Load Testing
+- Python Programming
+- LoadRunner
+- JMeter
+- Citrix Protocol
+- VUGen 9.5
+- Dynatrace
+- CA Wily Introscope
+- AppDynamics
+- Splunk
+- HTTP Protocol
+- Web Performance
+- Distributed Load Test Environments
+- Application Architecture
+- Performance Bottlenecks
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,99 @@
+company_name: Peyton Resource Group
+company_website: ''
+job_title: Performance Engineer
+location: Dallas, TX
+extracted_skills:
+- Neoload
+- JMeter
+- Grafana
+- Dynatrace
+- GitLab CI
+- CI/CD pipelines
+- cloud native scalability testing
+- performance engineering
+- scalability principles
+- Agile methodology
+- Waterfall methodology
+job_summary: 'Peyton Resource Group is seeking a Performance Engineer for a hybrid
+  role in Dallas, Texas, focusing on local candidates. The position involves serving
+  as a central point of contact for performance testing best practices, analyzing
+  bottlenecks, and implementing new tools and frameworks. Key responsibilities include
+  developing performance test scripts, defining SLAs, and integrating testing tools
+  with CI/CD pipelines. Candidates must have over 10 years of experience in performance
+  engineering, expertise in tools like Neoload and JMeter, and familiarity with cloud
+  scalability and monitoring tools.
+
+  '
+responsibilities:
+- Act as the primary contact for performance testing best practices and governance
+  within the Testing Enablement team.
+- Analyze performance bottlenecks across applications, databases, APIs, and infrastructure,
+  evaluating current monitoring practices.
+- Assess and recommend improvements to existing performance testing toolsets and frameworks.
+- Propose, pilot, and implement new tools to enhance scalability testing and performance
+  visibility.
+- Develop and maintain performance test scripts using Neoload and JMeter.
+- Define and verify SLA, SLO, and capacity benchmarks with input from Enterprise Architecture.
+- Create and promote a standardized Performance Testing Intake Form for new project
+  initiations.
+- Consult with project teams to translate requirements into performance test plans.
+- Design load models aligned with production and futuristic traffic patterns for specific
+  applications.
+- Identify and implement infrastructure performance testing opportunities within the
+  framework.
+- Deploy continuous performance testing processes to improve execution across projects.
+- Collaborate with infrastructure teams to integrate performance testing tools into
+  CI/CD pipelines.
+- Work with developers and product managers to identify and address performance improvement
+  areas.
+- Monitor and review performance test suites to enhance system reliability and scalability.
+- Define and manage the performance engineering strategy and roadmap for the Testing
+  team.
+- Assess and report on project testing health metrics in collaboration with various
+  leads.
+- Stay updated on new performance testing technologies and recommend their implementation.
+requirements:
+- 10+ years of experience in performance engineering and scalability principles.
+- Proven expertise in assessing and improving existing performance tool ecosystems.
+- Hands-on experience with performance testing tools such as Neoload and JMeter.
+- Strong understanding of performance concepts and ability to suggest improvements
+  to development teams.
+- Experience with cloud native scalability testing.
+- Exposure to APM tools like Grafana and Dynatrace.
+- Familiarity with Agile and Waterfall methodologies, and CI/CD pipelines.
+- Ability to work in a hybrid model with required office days based on team schedule.
+- Flexibility to work overtime if needed to support team activities.
+preferred:
+- Knowledge of GitLab CI.
+benefits:
+- Hybrid work model with flexibility in office attendance based on team needs.
+must_have_skills:
+- Performance engineering
+- Neoload
+- JMeter
+- Cloud native scalability testing
+- APM tools (Grafana, Dynatrace)
+- CI/CD pipelines
+nice_to_have_skills:
+- GitLab CI
+- Test Driven Development model experience
+ats_keywords:
+- performance engineer
+- performance testing
+- scalability testing
+- Neoload
+- JMeter
+- cloud native scalability
+- Grafana
+- Dynatrace
+- CI/CD pipeline
+- Agile methodology
+- Waterfall methodology
+- performance bottlenecks
+- SLA SLO benchmarks
+- hybrid role Dallas
+- performance test scripts
+- infrastructure performance testing
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

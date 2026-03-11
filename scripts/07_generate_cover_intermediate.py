@@ -57,6 +57,7 @@ RULES:
 5. Company type: If company_type='enterprise', incorporate company_research (values/history) in intro/body. If 'agency', keep generic — no research.
 6. Date: ALWAYS use the exact current_date provided for header['date'] — do not use any other date.
 7. Output ONLY JSON: {{"header": {{...}}, "salutation": "Dear Hiring Manager,", "intro": "Para text", "body": ["Para1", "Para2"], "conclusion": "Para text", "sign_off": "Sincerely,\\nYour Name"}}. No other text.
+8. CRITICAL: The company name is "{company_name}" and the job title is "{job_title}". Use EXACTLY these values throughout the letter — in the intro, body, conclusion, and header employer field. NEVER use "0", "Unknown", or any placeholder.
 
 Current date (use this EXACTLY for header['date']): {current_date}
 
@@ -197,6 +198,12 @@ def main():
     master_career, master_skills = load_master()
     job_data = load_latest_tailored(job_folder)
 
+    metadata = {}
+    metadata_path = job_folder / "metadata.yaml"
+    if metadata_path.exists():
+        with open(metadata_path, "r", encoding="utf-8") as f:
+            metadata = yaml.safe_load(f) or {}
+
     company_type = classify_company(job_data, args.model)
     print(f"Classified as: {company_type}")
 
@@ -208,13 +215,18 @@ def main():
     current_date = datetime.now().strftime("%B %d, %Y")
     print(f"Current date: {current_date}")
 
+    company_name = job_data.get("company_name") or metadata.get("company", "the company")
+    job_title = job_data.get("job_title") or metadata.get("role", "the role")
+
     prompt = COVER_PROMPT_TEMPLATE.format(
         master_career=json.dumps(master_career, indent=2),
         master_skills=json.dumps(master_skills, indent=2),
         job_data=yaml.dump(job_data, sort_keys=False),
         company_type=company_type,
         company_research=company_research,
-        current_date=current_date
+        current_date=current_date,
+        company_name=company_name,
+        job_title=job_title
     )
 
     print("Generating cover intermediate JSON...")

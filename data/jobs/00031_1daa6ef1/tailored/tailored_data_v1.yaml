@@ -1,0 +1,141 @@
+company_name: Keurig Dr Pepper
+company_website: ''
+job_title: Principal Data Engineer
+location: Frisco, TX, US
+extracted_skills:
+- Python
+- SQL
+- Snowflake
+- SnowSQL
+- dbt
+- Databricks
+- Spark
+- Delta Lake
+- Azure
+- AWS
+- Google Cloud Platform
+- Informatica Cloud
+- Fivetran
+- Azure Data Factory
+- Power BI
+- Tableau
+- MicroStrategy
+- SAP ERP
+- KNIME
+- Alteryx
+- SageMaker
+- AutoML
+- TensorFlow
+- Git
+- CI/CD
+- DevOps
+- UNIX/Linux
+- Shell Scripting
+job_summary: 'Keurig Dr Pepper, a leading beverage company in North America, is seeking
+  a Principal Data Engineer to join their innovative team in Frisco, TX. This role
+  focuses on architecting scalable data pipelines, designing enterprise-grade data
+  lakes and warehouses, and enabling advanced analytics and AI/ML solutions. The ideal
+  candidate will lead cross-functional teams, optimize data platforms, and mentor
+  others to deliver high-quality data solutions. A strong background in Snowflake,
+  dbt, and cloud-native technologies, along with 10+ years of data management experience,
+  is essential.
+
+  '
+responsibilities:
+- Architect and implement scalable data pipelines and transformation workflows using
+  dbt, SnowSQL, and cloud-native technologies.
+- Design and maintain enterprise-grade data lakes and warehouses using modern architectural
+  patterns like Medallion (Bronze, Silver, Gold).
+- Implement best practices for data ingestion, modeling, quality assurance, and lineage
+  to ensure trusted data delivery.
+- Create reusable frameworks and tools for automated deployment, monitoring, and lifecycle
+  management of data assets.
+- Optimize data platforms for reliable, performant, and cost-effective analytics infrastructure.
+- Collaborate with Data Scientists to support AI/ML pipelines for feature engineering,
+  model training, and real-time inferencing.
+- Lead cross-functional teams to align on data strategy and deliver high-quality data
+  solutions.
+- Provide technical thought leadership and guide architectural decisions and best
+  practices.
+- Define and enforce engineering standards across the analytics ecosystem.
+- Contribute to roadmap development and long-term strategy for the enterprise analytics
+  platform.
+requirements:
+- Bachelor's or Master's degree in Computer Science, Data Science, Information Systems,
+  or related field.
+- 10+ years of experience in data management, including integration, modeling, and
+  optimization.
+- Expert-level knowledge of Snowflake architecture, SnowSQL, and data transformation
+  workflows.
+- Advanced proficiency with dbt for modeling, testing, versioning, and orchestrating
+  ELT pipelines.
+- Hands-on experience with Databricks, Spark-based data processing, and Delta Lake.
+- Strong command of SQL, Python, and scalable data pipeline development.
+- Proven experience designing and managing enterprise data warehouses and cloud-native
+  data platforms.
+- Ability to lead cross-functional teams and manage complex data initiatives.
+- Excellent communication skills to convey technical concepts to diverse audiences.
+preferred:
+- Experience with AI/ML platforms such as SageMaker, AutoML, or TensorFlow.
+- Familiarity with data integration tools like Informatica Cloud, Fivetran, or Azure
+  Data Factory.
+- Exposure to BI tools such as Power BI, Tableau, or MicroStrategy.
+- Working knowledge of SAP ERP as a data source.
+- Experience with cloud platforms like Azure, AWS, or Google Cloud Platform.
+- Familiarity with DevOps practices, Git workflows, CI/CD, and automation.
+- Certifications in Snowflake, dbt, or cloud platforms.
+benefits:
+- Salary Range: $116,100 - $185,000, based on experience and skills.
+- Comprehensive benefits including Medical, Dental, Vision, and Disability coverage.
+- Paid Time Off, including paid parental leave, vacation, and sick time.
+- 401k with company match and Tuition Reimbursement.
+- Mileage Reimbursement and annual performance-based bonus.
+must_have_skills:
+- Snowflake
+- SnowSQL
+- dbt
+- SQL
+- Python
+- Data Warehousing
+- Data Pipeline Development
+- Enterprise Data Architecture
+nice_to_have_skills:
+- AI/ML Platforms
+- SageMaker
+- AutoML
+- TensorFlow
+- Informatica Cloud
+- Fivetran
+- Azure Data Factory
+- Power BI
+- Tableau
+- SAP ERP
+- DevOps
+- CI/CD
+- Git Workflows
+- Cloud Certifications
+ats_keywords:
+- Principal Data Engineer
+- Data Engineering
+- Snowflake Architecture
+- SnowSQL Coding
+- dbt Modeling
+- Databricks Spark
+- Delta Lake Integration
+- Cloud-Native Data Platforms
+- Enterprise Data Warehouse
+- Data Pipeline Optimization
+- AI/ML Pipelines
+- Feature Engineering
+- Data Lake Design
+- Medallion Architecture
+- Data Transformation Workflows
+- Cross-Functional Collaboration
+- Technical Leadership
+- Data Governance
+- Analytics Infrastructure
+- SQL Expertise
+- Python Development
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

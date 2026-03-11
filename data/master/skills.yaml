@@ -232,3 +232,94 @@
   - Data Engineering
   notes: Data cleansing, QA with pandas, validation frameworks for telemetry pipelines;
     monitoring, alerting, incident response for data pipelines at Citi
+- name: Apache Spark
+  years: 6
+  proficiency: Advanced
+  last_used: '2025'
+  categories:
+  - Big Data
+  notes: Large-scale distributed data processing; 6 years PySpark on telemetry and
+    ETL pipelines at Citi; performance tuning, partitioning, optimization
+- name: Databricks
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Big Data
+  notes: Self-studied; Delta Lake, medallion architecture, Unity Catalog, DLT, Workflows;
+    transitioning from AWS Glue/PySpark background
+- name: Delta Lake
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Formats
+  notes: Self-studied; ACID transactions, time travel, schema enforcement, Z-ordering,
+    MERGE/upsert; extends Parquet with database-like reliability
+- name: Medallion Architecture
+  years: 0
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - Data Engineering
+  notes: 'Bronze/Silver/Gold layered design; maps directly to multi-stage ETL pipeline
+    layers built at Citi: raw ingestion, cleaned/validated, executive reporting'
+- name: Unity Catalog
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Governance
+  notes: Self-studied Databricks governance layer; centralized catalog, column-level
+    security, row filters, data lineage; maps to compliance controls at Citi
+- name: Delta Live Tables
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Engineering
+  notes: Self-studied Databricks declarative pipeline framework; triggered and continuous
+    modes; managed version of orchestration built manually at Citi
+- name: Databricks Workflows
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Orchestration
+  notes: Self-studied Databricks job orchestration; cluster scheduling, dependency
+    chaining; equivalent to Airflow for Databricks-native workloads
+- name: dbt
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Engineering
+  notes: Self-studied; models, ref() dependency resolution, YAML tests, DAG lineage,
+    incremental materializations; formalizes SQL transformation layer I built manually
+    at Citi; practiced with dbt-duckdb locally
+- name: Data Governance
+  years: 10
+  proficiency: Advanced
+  last_used: '2025'
+  categories:
+  - Data Governance
+  notes: Data access controls, compliance, and audit requirements in regulated banking
+    environment at Citi; data classification, retention policies, access management
+    for sensitive financial data
+- name: Snowflake
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Warehousing
+  notes: Self-studied; virtual warehouses, separation of compute and storage, time
+    travel, zero-copy cloning, SnowSQL; bridges from Redshift and Athena experience;
+    familiar with star/snowflake schema design in warehouse context
+- name: Data Vault
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Data Engineering
+  notes: 'Familiar with Data Vault 2.0 concepts: hubs, links, satellites; complements
+    dimensional modeling background; awareness-level for interview discussions'

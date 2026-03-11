@@ -197,6 +197,14 @@ def main():
         "--version", args.version
     ])
 
+    # --- Quality Check: Gate before recording application ---
+    run_command([
+        python, "scripts/quality_check.py",
+        "--uuid", job_uuid,
+        "--version", args.version,
+        "--strict"
+    ])
+
     # --- Step 09: Update Status (Apply) ---
     run_command([
         python, "scripts/09_update_application_status.py",

@@ -774,6 +774,94 @@
       "years": 10,
       "last_used": "2025",
       "context": "Data cleansing, QA with pandas, validation frameworks for telemetry pipelines; monitoring, alerting, incident response for data pipelines at Citi"
+    },
+    {
+      "name": "Apache Spark",
+      "category": "Big Data",
+      "proficiency": "Advanced",
+      "years": 6,
+      "last_used": "2025",
+      "context": "Large-scale distributed data processing; 6 years PySpark on telemetry and ETL pipelines at Citi; performance tuning, partitioning, optimization"
+    },
+    {
+      "name": "Databricks",
+      "category": "Big Data",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied; Delta Lake, medallion architecture, Unity Catalog, DLT, Workflows; transitioning from AWS Glue/PySpark background"
+    },
+    {
+      "name": "Delta Lake",
+      "category": "Data Formats",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied; ACID transactions, time travel, schema enforcement, Z-ordering, MERGE/upsert; extends Parquet with database-like reliability"
+    },
+    {
+      "name": "Medallion Architecture",
+      "category": "Data Engineering",
+      "proficiency": "Intermediate",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Bronze/Silver/Gold layered design; maps directly to multi-stage ETL pipeline layers built at Citi: raw ingestion, cleaned/validated, executive reporting"
+    },
+    {
+      "name": "Unity Catalog",
+      "category": "Data Governance",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied Databricks governance layer; centralized catalog, column-level security, row filters, data lineage; maps to compliance controls at Citi"
+    },
+    {
+      "name": "Delta Live Tables",
+      "category": "Data Engineering",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied Databricks declarative pipeline framework; triggered and continuous modes; managed version of orchestration built manually at Citi"
+    },
+    {
+      "name": "Databricks Workflows",
+      "category": "Orchestration",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied Databricks job orchestration; cluster scheduling, dependency chaining; equivalent to Airflow for Databricks-native workloads"
+    },
+    {
+      "name": "dbt",
+      "category": "Data Engineering",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied; models, ref() dependency resolution, YAML tests, DAG lineage, incremental materializations; formalizes SQL transformation layer I built manually at Citi; practiced with dbt-duckdb locally"
+    },
+    {
+      "name": "Data Governance",
+      "category": "Data Governance",
+      "proficiency": "Advanced",
+      "years": 10,
+      "last_used": "2025",
+      "context": "Data access controls, compliance, and audit requirements in regulated banking environment at Citi; data classification, retention policies, access management for sensitive financial data"
+    },
+    {
+      "name": "Snowflake",
+      "category": "Data Warehousing",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Self-studied; virtual warehouses, separation of compute and storage, time travel, zero-copy cloning, SnowSQL; bridges from Redshift and Athena experience; familiar with star/snowflake schema design in warehouse context"
+    },
+    {
+      "name": "Data Vault",
+      "category": "Data Engineering",
+      "proficiency": "Beginner",
+      "years": 0,
+      "last_used": "2026",
+      "context": "Familiar with Data Vault 2.0 concepts: hubs, links, satellites; complements dimensional modeling background; awareness-level for interview discussions"
     }
   ],
   "experiences": [

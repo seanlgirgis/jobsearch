@@ -235,3 +235,23 @@ things I most need to improve.
 | Medallion Architecture | — | — | No |
 | Data Governance / Unity Catalog | — | — | No |
 | Pipeline Reliability | — | — | No |
+
+
+
+
+Done. 102 skills, master files synced.
+
+Added for KDP + Monet coverage:
+
+Skill	Proficiency	Note
+Apache Spark	Advanced	Maps to your 6yr PySpark
+Databricks	Beginner	Self-studied
+Delta Lake	Beginner	Self-studied
+Medallion Architecture	Intermediate	Maps to Citi pipeline layers
+Unity Catalog	Beginner	Self-studied
+Delta Live Tables	Beginner	Self-studied
+Databricks Workflows	Beginner	Self-studied
+dbt	Beginner	Self-studied, dbt-duckdb
+Data Governance	Advanced	Real Citi experience
+Snowflake	Beginner	Self-studied, new for KDP
+Data Vault	Beginner	Awareness level

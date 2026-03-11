@@ -1,0 +1,123 @@
+company_name: PETADATA
+company_website: ''
+job_title: AWS Data Engineer
+location: Albany, NY, US
+extracted_skills:
+- python
+- sql
+- aws
+- hadoop
+- snowflake
+- data science
+- postgresql
+- data engineer
+- data pipelines
+- apache spark
+- kafka
+- flink
+- azure
+- google cloud platform
+- s3
+- glue
+- redshift
+- emr
+- athena
+- data factory
+- synapse
+- bigquery
+- dataflow
+- mysql
+- mongodb
+- cassandra
+- airflow
+- luigi
+- prefect
+- scala
+- java
+job_summary: 'PETADATA is seeking an experienced AWS Data Engineer for a client in
+  Albany, NY, with the flexibility of onsite or remote work. This role focuses on
+  designing and maintaining scalable data pipelines, integrating data from diverse
+  sources, and optimizing data architectures like data lakes and warehouses. The position
+  requires over 13 years of experience and proficiency in Python, SQL, and cloud platforms
+  like AWS, Azure, or Google Cloud. Key responsibilities include data processing with
+  big data tools, ensuring data quality, and collaborating with data scientists and
+  analysts. Candidates must hold a Bachelor’s or Master’s degree in a related field
+  and be available for C2C work with an H1-B visa.
+
+  '
+responsibilities:
+- Design, build, and maintain scalable data pipelines for data ingestion, processing,
+  and transformation.
+- Develop batch and real-time data processing workflows ensuring reliability and efficiency.
+- Create and implement data architectures including data lakes, warehouses, and lakehouses.
+- Integrate data from various sources such as databases, APIs, and streaming platforms.
+- Work with big data tools like Apache Spark, Hadoop, and Kafka to build real-time
+  processing systems.
+- Utilize cloud platforms and services like AWS (S3, Glue, Redshift), Azure (Data
+  Factory), and Google Cloud (BigQuery).
+- Manage and optimize SQL and NoSQL databases for performance and data access.
+- Implement data quality checks, governance, and security measures to ensure compliance.
+- Automate data workflows using orchestration tools like Airflow or Prefect.
+- Collaborate with data scientists and analysts to support analytics and machine learning
+  initiatives.
+requirements:
+- Bachelor’s or Master’s degree in Computer Science, Engineering, Data Science, or
+  related field.
+- Minimum of 13 years of experience as a Data Engineer or in a similar role.
+- Strong programming skills in Python and SQL; familiarity with Scala or Java is preferred.
+- Hands-on experience with big data frameworks such as Spark, Kafka, and Hadoop.
+- Proven expertise in designing and maintaining data pipelines and ETL/ELT processes.
+- In-depth knowledge of data modeling, data warehousing, and lakehouse architectures.
+- Experience with cloud platforms including AWS, Azure, or Google Cloud Platform.
+- Proficiency in managing SQL and NoSQL databases.
+- Familiarity with workflow orchestration tools like Airflow, Prefect, or Luigi.
+- Understanding of data quality, governance, and security best practices.
+preferred:
+- Experience with specific AWS services such as S3, Glue, Redshift, EMR, and Athena.
+- Knowledge of additional databases like MySQL, MongoDB, or Cassandra.
+- Prior experience leading data platform design or mentoring junior engineers.
+- Background in defining data engineering standards and best practices.
+benefits:
+- Professional work environment with opportunities for growth in the IT field.
+- Support through the interview and background check process.
+must_have_skills:
+- python
+- sql
+- aws
+- data pipelines
+- apache spark
+- data modeling
+- cloud platforms
+nice_to_have_skills:
+- scala
+- java
+- snowflake
+- kafka
+- flink
+- mysql
+- mongodb
+- cassandra
+ats_keywords:
+- data engineer
+- aws data engineer
+- data pipelines
+- python programming
+- sql database
+- apache spark
+- hadoop framework
+- kafka streaming
+- aws cloud services
+- azure data factory
+- google cloud bigquery
+- data warehousing
+- lakehouse architecture
+- etl processes
+- data integration
+- data quality governance
+- airflow orchestration
+- snowflake data warehouse
+- postgresql database
+- data science collaboration
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

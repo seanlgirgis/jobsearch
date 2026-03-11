@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "March 11, 2026",
+    "employer": "ClifyX",
+    "employer_address": "Santa Clara, CA, US"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am excited to apply for the Data Engineer with Amazon Client Experience position at ClifyX. With over 20 years of experience in data engineering and a strong focus on AWS data platforms, I am eager to contribute to your team by designing scalable ETL/ELT pipelines and architecting robust data lakes and warehouses.",
+  "body": [
+    "My recent projects align closely with the responsibilities outlined for this role. As a Senior Capacity & Data Engineer at CITI since 2017, I have architected automated ETL pipelines using Python and Pandas, ingesting high-scale telemetry data from over 6,000 endpoints. Additionally, I designed a serverless lakehouse platform using AWS services like Glue, S3, Athena, and Bedrock, optimizing data workflows for enterprise scale with Parquet and Snappy compression to solve small-file problems. My expertise in PySpark and Spark has enabled me to build parallel processing pipelines, such as the HorizonScale AI Capacity Forecasting Engine, reducing forecasting cycles by 90% through multiprocessing and real-time Streamlit dashboards. These experiences demonstrate my capability to design and maintain scalable data pipelines and data lakes as required by ClifyX.",
+    "I bring a deep understanding of AWS data platforms and big data technologies, including Hadoop and Hive, with 7 years of hands-on AWS experience and advanced proficiency in data modeling and data warehousing. My work includes implementing data quality and pipeline validation frameworks at CITI, ensuring high-quality datasets for analytics teams. I am proficient in Python and SQL, and my background in distributed computing and data governance aligns with your requirements for optimizing workloads and ensuring compliance using IAM and encryption standards. Furthermore, my prior roles have honed my ability to support analytics and machine learning initiatives, making me a strong fit for providing curated datasets to your teams."
+  ],
+  "conclusion": "I am enthusiastic about the opportunity to bring my expertise in AWS data platforms, ETL/ELT pipeline development, and data engineering to ClifyX. I would welcome the chance to discuss how my skills and experiences align with your needs. Thank you for considering my application, and I look forward to the possibility of contributing to your team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

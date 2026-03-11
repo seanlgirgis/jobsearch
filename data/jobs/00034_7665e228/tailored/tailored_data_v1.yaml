@@ -1,0 +1,42 @@
+company_name: '03112026'
+company_website: ''
+job_title: '0542'
+location: Unknown
+extracted_skills:
+- python
+- sql
+- aws
+job_summary: 'This role at 03112026 focuses on leveraging technical expertise to support
+  innovative projects. The company is dedicated to delivering high-quality solutions
+  in a dynamic environment. Key responsibilities include collaborating with cross-functional
+  teams and implementing scalable systems. Candidates are expected to have strong
+  technical skills and a passion for problem-solving.
+
+  '
+responsibilities:
+- Collaborate with cross-functional teams to design and implement solutions.
+- Develop and maintain scalable systems to support business objectives.
+- Analyze data and provide actionable insights for decision-making.
+requirements:
+- Bachelor's degree in a relevant field or equivalent experience.
+- Proficiency in programming languages such as Python.
+- Experience with database management and SQL.
+preferred:
+- Experience with cloud platforms like AWS.
+- Familiarity with agile development methodologies.
+benefits:
+- Competitive salary and comprehensive benefits package.
+- Opportunities for professional growth and development.
+must_have_skills:
+- Python
+- SQL
+nice_to_have_skills:
+- AWS
+- Agile methodologies
+ats_keywords:
+- Python programming
+- SQL database management
+- AWS cloud services
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

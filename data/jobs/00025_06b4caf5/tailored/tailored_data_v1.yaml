@@ -1,0 +1,111 @@
+company_name: Stefanini
+company_website: ''
+job_title: Data Engineer
+location: Remote in San Francisco, CA, US
+extracted_skills:
+- python
+- pyspark
+- sql
+- databricks
+- starburst
+- collibra
+- jupyter
+- gitlab
+- ci/cd pipelines
+- tableau
+- aws
+- s3
+- spark
+- airflow
+- redshift
+- snowflake
+- relational databases
+- nosql databases
+- etl
+- big data
+- lakehouse architectures
+- real-time databases
+job_summary: 'Stefanini Group, a global IT consulting company with a CMM Level 5 rating,
+  is hiring a Data Engineer for a one-year contract role to support their Common Data
+  Platform (CDP) initiative across various US locations with a hybrid work model.
+  The role focuses on designing and maintaining scalable, secure data pipelines to
+  manage and deliver high-quality data products. Key responsibilities include data
+  ingestion, transformation, and visualization to turn information into actionable
+  insights. Candidates should have experience with modern data stacks, cloud data
+  warehouses, and tools like Databricks and Python.
+
+  '
+responsibilities:
+- Design, develop, and maintain efficient data pipelines for ingesting, transforming,
+  cataloging, and delivering trusted data into the Common Data Platform.
+- Participate actively in Agile rituals and adhere to Scaled Agile processes as defined
+  by the CDP Program team.
+- Deliver high-quality data products and services following Safe Agile Practices.
+- Identify and resolve issues with data pipelines and analytical data stores proactively.
+- Implement monitoring, alerting, and auto-remediation for data pipelines to ensure
+  system reliability and availability.
+- Adopt a security-first approach with testing and automation strategies aligned with
+  data engineering best practices.
+- Collaborate with cross-functional teams including product management and data scientists
+  to meet data infrastructure needs.
+- Stay updated on industry trends and recommend new tools and technologies to enhance
+  data engineering processes.
+requirements:
+- Bachelor's degree in Computer Science, Information Systems, or a related field,
+  or equivalent experience.
+- 2+ years of experience with tools such as Databricks, Collibra, or Starburst.
+- 3+ years of experience with Python and PySpark.
+- Experience using Jupyter notebooks for coding and unit testing.
+- 2+ years of experience with modern data stacks including object stores like S3,
+  Spark, Airflow, and cloud data warehouses like RedShift or Snowflake.
+- Experience with relational and NoSQL data stores, and data modeling techniques like
+  STAR or Dimensional Modeling.
+- Background in building end-to-end data pipelines for unstructured and semi-structured
+  data using Spark architecture.
+- Data engineering experience in traditional ETL and Big Data environments, either
+  on-premise or in the cloud.
+- Experience with AWS data engineering services and tools.
+preferred:
+- Familiarity with Starburst as an additional skill to Databricks and SQL.
+- Recent accomplishments in data engineering within financial services or related
+  industries.
+- Exposure to real-time database technologies and Lakehouse architectures.
+benefits:
+- Opportunity to work on a cutting-edge Common Data Platform initiative.
+- Collaboration with a global IT consulting firm with a presence in multiple continents.
+- Potential for bonuses or incentives based on position and local market.
+must_have_skills:
+- Python
+- PySpark
+- Databricks
+- SQL
+- Jupyter notebooks
+- Experience with data pipelines
+nice_to_have_skills:
+- Starburst
+- Collibra
+- Tableau
+- Gitlab
+- CI/CD pipelines
+ats_keywords:
+- Data Engineer
+- Senior Data Engineer
+- data pipelines
+- Common Data Platform
+- Databricks
+- PySpark
+- Python
+- SQL
+- Jupyter notebooks
+- Agile
+- Safe Agile Practices
+- cloud data warehouses
+- AWS
+- Spark
+- ETL
+- Big Data
+- Lakehouse architectures
+- real-time databases
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

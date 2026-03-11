@@ -1,0 +1,71 @@
+company_name: Randstad Digital
+company_website: ''
+job_title: AI Data Engineer
+location: Dallas, TX, US
+extracted_skills:
+- AI
+- Data Engineering
+- Data Analysis
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+- Machine Learning
+- Automation
+- ChatGPT
+- OpenAI
+- GoogleAI
+job_summary: 'Randstad Digital is seeking an AI Data Engineer to join their team in
+  Dallas, TX, focusing on building, deploying, and maintaining AI systems with an
+  emphasis on generative AI and Retrieval-Augmented Generation (RAG). The role involves
+  analyzing data pipelines, automating manual processes using AI technologies, and
+  optimizing systems at the intent level. Candidates must have strong experience in
+  data analysis, AI-powered data engineering, and automation tools. This is a full-time,
+  on-site position with a salary range of $50-60 per hour.
+
+  '
+responsibilities:
+- Analyze and optimize data pipelines for efficiency and performance.
+- Identify opportunities to leverage AI and other technologies to automate manual
+  processes.
+- Optimize systems and processes at the intent level for better outcomes.
+- Develop and update code and workflows to support system enhancements.
+- Implement automation solutions that initially recommend changes and eventually automate
+  updates with manual approval.
+requirements:
+- Bachelor's degree in a relevant field.
+- 5+ years of experience in Data Analysis and/or Data Engineering.
+- 1+ years of experience working with customer-centric data.
+- 2+ years of experience in AI-powered Data Engineering, including automation using
+  tools like ChatGPT, OpenAI, and GoogleAI voice & chat.
+- Ability to work on-site in Dallas, TX.
+preferred:
+- Experience working with Contact Center systems.
+benefits:
+- Comprehensive medical, prescription, dental, and vision insurance.
+- AD&D and life insurance offerings.
+- Short-term disability coverage.
+- 401K plan (based on eligibility).
+must_have_skills:
+- AI Data Engineering
+- Data Analysis
+- Automation with AI tools
+- Generative AI
+- Retrieval-Augmented Generation (RAG)
+nice_to_have_skills:
+- Contact Center systems experience
+ats_keywords:
+- AI Data Engineer
+- Data Analysis
+- Data Engineering
+- Generative AI
+- Retrieval-Augmented Generation
+- Machine Learning
+- Automation
+- ChatGPT
+- OpenAI
+- GoogleAI
+- Contact Center systems
+- Dallas TX
+- On-site
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

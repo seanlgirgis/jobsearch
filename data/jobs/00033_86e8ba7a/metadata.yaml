@@ -1,0 +1,27 @@
+uuid: 86e8ba7a-6852-44e6-8adf-71e6e5748ddc
+job_id: 00033_86e8ba7a
+original_filename: Blackhawk Network.0.112026.524.md
+company: '0'
+role: 112026 524
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T05:25:18.680473'
+created_at: '2026-03-11T05:25:18.680473'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T05:25:18.822300'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Dice
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application

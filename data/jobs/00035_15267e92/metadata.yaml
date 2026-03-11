@@ -1,0 +1,27 @@
+uuid: 15267e92-3ad2-4032-8c5b-d5aea85bce4d
+job_id: 00035_15267e92
+original_filename: GovTact.03112026.5.55.md
+company: '03112026'
+role: 5 55
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T05:56:37.046872'
+created_at: '2026-03-11T05:56:37.046872'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T05:56:37.188979'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application

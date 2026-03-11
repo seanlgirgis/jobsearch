@@ -314,7 +314,7 @@ def render_docx(tailored: Dict, out_path: Path, trim: bool = False, exclusions: 
 def generate_files(tailored: Dict, job_folder: Path, version: str, trim_mode: bool, exclusions: Set[str], to_pdf: bool = False):
     suffix = "_trimmed" if trim_mode else ""
     md_path = job_folder / "generated" / f"resume_preview_{version}{suffix}.md"
-    docx_path = job_folder / "generated" / f"resume_{version}{suffix}.docx"
+    docx_path = job_folder / "generated" / ("resume.docx" if trim_mode else f"resume_{version}.docx")
 
     with open(md_path, "w", encoding="utf-8") as f:
         f.write(render_markdown(tailored, trim=trim_mode, exclusions=exclusions))

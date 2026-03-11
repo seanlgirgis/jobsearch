@@ -1,0 +1,27 @@
+uuid: 5e4bc3bd-78fa-4a1f-9a2e-4240d2167501
+job_id: 00030_5e4bc3bd
+original_filename: randstand.03112026.0435.md
+company: '03112026'
+role: '0435'
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T04:54:10.612914'
+created_at: '2026-03-11T04:54:10.612914'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T04:54:10.749554'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Dice
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application

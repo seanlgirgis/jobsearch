@@ -1,0 +1,20 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+March 11, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Performance Engineer position at Peyton Resource Group in Dallas, TX. With over 20 years of experience in performance engineering and data optimization, I am eager to contribute my expertise to your team’s mission of enhancing system scalability and reliability.
+
+As a Senior Capacity & Data Engineer at CITI from 2017 to 2025, I honed my skills in analyzing performance bottlenecks across applications and infrastructure, a key responsibility of this role. I managed dual APM environments using tools like CA Wily and AppDynamics, and have extensive experience with Dynatrace AppMon and Synthetics from my tenure at G6 Hospitality LLC in 2017. My work on the 'FAST' project involved data mining real-user performance metrics to optimize critical systems, aligning directly with your need for expertise in performance testing and scalability principles. Additionally, I have a proven track record of integrating monitoring data and automating workflows, which supports your goal of deploying continuous performance testing processes and integrating tools into CI/CD pipelines.
+
+My hands-on experience with cloud architectures and performance optimization further complements the requirements of this hybrid role in Dallas. At CITI, I developed automated ETL pipelines and utilized Python and Pandas for data cleansing and QA, ensuring system reliability. While my expertise lies in AWS serverless architectures and tools like BMC TrueSight, I am confident in my ability to adapt to tools such as Neoload, JMeter, and Grafana, given my strong foundation in APM tools and performance concepts. My background in Agile environments, coupled with 15 years of capacity planning and forecasting, positions me to define SLA and SLO benchmarks and contribute to your performance engineering strategy.
+
+I am enthusiastic about the opportunity to bring my skills in performance testing and scalability testing to Peyton Resource Group. I would welcome the chance to discuss how my experience can support your team’s goals. Thank you for considering my application, and I look forward to the possibility of contributing to your success.
+
+Sincerely,
+Sean Luka Girgis

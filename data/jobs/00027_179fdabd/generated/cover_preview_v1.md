@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+March 11, 2026  
+
+Albany, NY, US
+
+Dear Hiring Manager,
+
+I am excited to apply for the AWS Data Engineer position at PETADATA. With over 20 years of experience in data engineering and a passion for innovative, scalable solutions, I am eager to contribute to your mission of empowering organizations through cutting-edge technology.
+
+As a Senior Data Engineer at CITI since 2017, I have honed my expertise in designing and maintaining scalable data pipelines, a core requirement for this role. I architected automated ETL pipelines using Python and Pandas to ingest telemetry data from over 6,000 endpoints, replacing manual processes with efficient, reliable workflows. My recent project, a Serverless Lakehouse Platform on AWS, utilized S3, Glue, Athena, and Bedrock to optimize data access at enterprise scale, directly aligning with PETADATA’s emphasis on AWS cloud services like S3, Glue, and Athena. Additionally, my proficiency in PySpark enabled large-scale telemetry processing, mirroring your need for expertise in Apache Spark and data integration.
+
+I have also developed advanced data architectures and forecasting models that support data warehousing and lakehouse designs. My HorizonScale AI Capacity Forecasting Engine, built with Python, Prophet, and Streamlit, reduced forecasting cycles by 90% through parallel generator-based pipelines, showcasing my ability to handle big data frameworks and data modeling. With 15 years of ETL design and optimization experience, coupled with hands-on work in data quality governance using Pandas for cleansing and validation at CITI, I am prepared to ensure reliability and efficiency in data processing workflows. My familiarity with Airflow for orchestration further complements PETADATA’s requirements for automated data workflows.
+
+I am enthusiastic about the opportunity to bring my skills in AWS cloud services, data pipelines, and data engineering to PETADATA, contributing to your commitment to excellence and innovation. I would welcome the chance to discuss how my background aligns with your needs. Thank you for considering my application, and I look forward to the possibility of contributing to your impactful projects.
+
+Sincerely,
+Sean Luka Girgis

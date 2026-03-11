@@ -78,7 +78,6 @@ def render_markdown(cover: dict) -> str:
     md += f"{header.get('address', '')}  \n"
     md += f"{header.get('phone', '')} | {header.get('email', '')}  \n\n"
     md += f"{header.get('date', 'Date')}  \n\n"
-    md += f"{header.get('employer_address', 'Hiring Manager')}\n\n"
 
     # Salutation
     md += f"{cover.get('salutation', 'Dear Hiring Manager,')}\n\n"
@@ -109,11 +108,6 @@ def render_docx(cover: dict, out_path: Path):
     header_p.add_run(f"{header.get('address', '')}\n")
     header_p.add_run(f"{header.get('phone', '')} | {header.get('email', '')}\n")
     header_p.add_run(f"{header.get('date', 'Date')}\n\n")
-
-    # Employer address (right-aligned)
-    employer_p = doc.add_paragraph()
-    employer_p.alignment = WD_PARAGRAPH_ALIGNMENT.RIGHT
-    employer_p.add_run(f"{header.get('employer_address', 'Hiring Manager')}\n")
 
     # Salutation
     doc.add_paragraph(cover.get("salutation", "Dear Hiring Manager,"))
@@ -165,11 +159,39 @@ def main():
     print(f"Markdown saved → {md_path}")
 
     # DOCX letter
-    docx_path = job_folder / "generated" / f"cover_letter_{args.version}.docx"
+    docx_path = job_folder / "generated" / "cover.docx"
     render_docx(cover, docx_path)
     print(f"DOCX saved → {docx_path}")
 
-    print("\nDone.")
+    # Quality audit — warn before you send
+    print("\n--- COVER LETTER AUDIT ---")
+    full_text = " ".join([
+        cover.get("intro", ""),
+        " ".join(cover.get("body", [])),
+        cover.get("conclusion", "")
+    ])
+    bad_patterns = {
+        " 0 ": "Company name rendered as '0'",
+        " at 0": "Company name rendered as '0'",
+        "at 0.": "Company name rendered as '0'",
+        "Unknown": "Company name is 'Unknown'",
+        "112026": "Garbled date/position ID in text",
+        "position at 0": "Placeholder not replaced",
+        "Your Name": "Name placeholder not replaced",
+        "Para text": "Template placeholder not replaced",
+        "Mock intro": "Mock/test content in letter",
+    }
+    issues = []
+    for pattern, msg in bad_patterns.items():
+        if pattern.lower() in full_text.lower():
+            issues.append(f"  WARNING: {msg}")
+    if issues:
+        print("ISSUES FOUND — DO NOT SEND:")
+        for i in issues:
+            print(i)
+    else:
+        print("OK — No placeholder issues detected. Safe to send.")
+    print("--------------------------")
 
 
 if __name__ == "__main__":

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+March 11, 2026  
+
+Frisco, TX, US
+
+Dear Hiring Manager,
+
+I am excited to apply for the Principal Data Engineer position at Keurig Dr Pepper. With over 20 years of experience in data engineering and a passion for architecting scalable solutions, I am eager to contribute to KDP’s mission of providing 'a beverage for every need, anytime, anywhere' through innovative data platforms.
+
+My extensive background aligns closely with the requirements for this role, particularly in designing enterprise-grade data platforms. At CITI, as a Senior Capacity & Data Engineer, I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints, which mirrors the need for scalable data pipelines at KDP. My recent projects include building a serverless lakehouse platform on AWS using Glue, Athena, and S3, optimizing data transformation workflows with PySpark. Additionally, I have advanced proficiency in SQL and data warehousing, skills critical for managing Snowflake architecture and SnowSQL coding as outlined in the role’s responsibilities.
+
+I have also demonstrated technical leadership in cross-functional settings, a key requirement for this position. My HorizonScale AI Capacity Forecasting Engine project replaced legacy processes with a modern pipeline, reducing forecasting cycles by 90% using Python, Prophet, and Streamlit dashboards. This experience in data pipeline optimization and analytics infrastructure directly supports KDP’s need for reliable, performant data platforms. Furthermore, my familiarity with medallion architecture concepts and data governance from a regulated banking environment at CITI positions me to design robust data lakes and enforce best practices in data quality and lineage at KDP, aligning with your values of 'Think Bold' and innovation.
+
+I am enthusiastic about the opportunity to bring my expertise in data engineering, SQL expertise, and Python development to Keurig Dr Pepper, contributing to your enterprise data architecture and AI/ML pipelines. I would welcome the chance to discuss how my skills and experiences align with your team’s goals. Thank you for considering my application, and I look forward to the possibility of contributing to KDP’s success.
+
+Sincerely,
+Sean Luka Girgis

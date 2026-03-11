@@ -1,0 +1,27 @@
+uuid: 35afb27d-5fc0-49bb-86b1-75fc94680c06
+job_id: 00036_35afb27d
+original_filename: Apex.03112026.0619.md
+company: '03112026'
+role: 0619
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T06:19:48.308816'
+created_at: '2026-03-11T06:19:48.308816'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T06:19:48.468674'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application

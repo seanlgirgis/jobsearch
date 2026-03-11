@@ -146,3 +146,63 @@
   role: Dataengineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00025_06b4caf5
+  description_path: data\jobs\00025_06b4caf5\00024.Stefanni.DataEngineer.031120260339.md
+  company: Stefanni
+  role: Dataengineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00026_3b4b8d7b
+  description_path: data\jobs\00026_3b4b8d7b\RandstandDigital.03112026.0414.md
+  company: '03112026'
+  role: '0414'
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00027_179fdabd
+  description_path: data\jobs\00027_179fdabd\PETADATA.031120260424.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00028_58bf8e8c
+  description_path: data\jobs\00028_58bf8e8c\clifyx.DE.03112026.0437.md
+  company: De
+  role: Unknown Role
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00029_e1c101b7
+  description_path: data\jobs\00029_e1c101b7\rh.03062026.0446.md
+  company: '03062026'
+  role: '0446'
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00030_5e4bc3bd
+  description_path: data\jobs\00030_5e4bc3bd\randstand.03112026.0435.md
+  company: '03112026'
+  role: '0435'
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00031_1daa6ef1
+  description_path: data\jobs\00031_1daa6ef1\Keurig.031120260500.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00032_bfaeb440
+  description_path: data\jobs\00032_bfaeb440\payton.03112026.517.md
+  company: '03112026'
+  role: '517'
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00035_15267e92
+  description_path: data\jobs\00035_15267e92\GovTact.03112026.5.55.md
+  company: '03112026'
+  role: 5 55
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00036_35afb27d
+  description_path: data\jobs\00036_35afb27d\Apex.03112026.0619.md
+  company: '03112026'
+  role: 0619
+  apply_date: N/A
+  status: ACCEPTED
