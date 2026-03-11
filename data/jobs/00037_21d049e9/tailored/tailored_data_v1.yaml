@@ -1,0 +1,100 @@
+company_name: CTC
+company_website: ''
+job_title: Performance Architect
+location: Dallas, TX
+extracted_skills:
+- Neoload
+- JMeter
+- Grafana
+- Dynatrace
+- GitLab CI
+- CI/CD
+- Agile
+- Waterfall
+- Cloud Native Scalability Testing
+- Performance Engineering
+- Scalability Principles
+- APM Tools
+job_summary: 'CTC is seeking a Performance Architect in Dallas, TX, to lead performance
+  engineering strategies across various platforms and application teams. This role
+  involves designing and building enterprise performance toolsets, overseeing test
+  executions to ensure scalability, reliability, and responsiveness of applications.
+  Key responsibilities include reviewing performance bottlenecks, proposing new tools,
+  and integrating testing tools with CI/CD pipelines. Candidates must have over 10
+  years of experience in performance engineering, with expertise in tools like Neoload
+  and JMeter, and familiarity with cloud native scalability testing.
+
+  '
+responsibilities:
+- Act as the central point of contact for best practices and governance in performance
+  testing efforts.
+- Analyze performance bottlenecks in applications, databases, APIs, and infrastructure,
+  and evaluate current monitoring practices.
+- Recommend and implement new tools and frameworks to enhance scalability testing
+  and performance visibility.
+- Develop and maintain performance test scripts using Neoload and JMeter.
+- Define and verify SLA, SLO, and capacity benchmarks with input from Enterprise Architecture.
+- Create a standardized Performance Testing Intake Form for new project initiations.
+- Consult with project teams to translate requirements into performance test plans.
+- Design load models aligned with production and futuristic traffic patterns.
+- Identify and implement infrastructure performance testing opportunities.
+- Deploy continuous performance testing processes across projects.
+- Collaborate with infrastructure teams to integrate performance tools with CI/CD
+  pipelines.
+- Work with developers and product managers to identify performance improvement areas.
+- Monitor and improve performance test suites for system reliability and scalability.
+- Develop performance engineering strategies and roadmaps for the testing team.
+- Report on project testing health metrics with input from various leads.
+- Stay updated on new performance testing technologies and recommend implementations.
+- Foster a shift to Test Driven Development and enable maturity in testing practices.
+requirements:
+- 10+ years of experience in performance engineering and scalability principles.
+- 15+ years of experience in Information Technology.
+- 10+ years of hands-on experience with Neoload.
+- 10+ years of hands-on experience with Grafana.
+- Expertise in assessing and improving existing tool ecosystems.
+- Solid understanding of performance concepts and ability to suggest improvements.
+- Experience with cloud native scalability testing.
+- Exposure to APM tools like Grafana and Dynatrace.
+- Familiarity with Agile and Waterfall methodologies.
+- Knowledge of CI/CD pipelines, with GitLab CI as a plus.
+- Ability to work in a hybrid model with some office days.
+- Flexibility to work overtime if required to support team activities.
+preferred:
+- Deep understanding of application architecture and ability to provide quick feedback.
+- Proven track record of improving performance test metrics.
+benefits:
+- Opportunity to work with a leading company in performance engineering.
+- Collaboration with cross-functional teams and exposure to cutting-edge technologies.
+must_have_skills:
+- Performance Engineering
+- Neoload
+- JMeter
+- Grafana
+- Cloud Native Scalability Testing
+- CI/CD Pipelines
+nice_to_have_skills:
+- GitLab CI
+- Dynatrace
+- Test Driven Development
+ats_keywords:
+- Performance Architect
+- Performance Engineer
+- Performance Testing
+- Scalability Testing
+- Neoload
+- JMeter
+- Grafana
+- Dynatrace
+- CI/CD Pipeline
+- Cloud Native Testing
+- Agile Methodology
+- Waterfall Methodology
+- Performance Metrics
+- SLA SLO Benchmarks
+- Infrastructure Testing
+- Testing Enablement
+- Hybrid Work Model
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

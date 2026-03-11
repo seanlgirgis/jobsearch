@@ -323,3 +323,56 @@
   - Data Engineering
   notes: 'Familiar with Data Vault 2.0 concepts: hubs, links, satellites; complements
     dimensional modeling background; awareness-level for interview discussions'
+- name: Claude Code
+  years: 1
+  proficiency: Advanced
+  last_used: '2026'
+  categories:
+  - AI
+  notes: "Daily production use \u2014 building AI-assisted job search pipeline, agentic\
+    \ workflows, MCP server integration"
+- name: Grok (xAI)
+  years: 1
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - AI
+  notes: API integration for LLM-powered resume scoring, tailoring, and cover letter
+    generation in production pipeline
+- name: Agentic AI Workflows
+  years: 1
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - AI
+  notes: "Designed and built multi-step agentic pipelines: scoring, tailoring, generation,\
+    \ quality gates, and tracking \u2014 orchestrated via Claude Code and xAI APIs"
+- name: MCP (Model Context Protocol)
+  years: 1
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - AI
+  notes: Configured and used MCP servers with Claude Code for tool-augmented AI workflows
+- name: AI-Assisted Development
+  years: 2
+  proficiency: Advanced
+  last_used: '2026'
+  categories:
+  - AI
+  notes: Production use of Claude Code, Cursor, and Copilot to accelerate Python development,
+    code review, documentation, and pipeline automation
+- name: Google Gemini
+  years: 1
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - AI
+  notes: Used for AI-assisted research, analysis, and development workflows
+- name: Antigravity (AI Coding Assistant)
+  years: 1
+  proficiency: Intermediate
+  last_used: '2026'
+  categories:
+  - AI
+  notes: Used for AI-assisted code generation, review, and development acceleration

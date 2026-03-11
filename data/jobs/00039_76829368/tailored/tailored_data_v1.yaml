@@ -1,0 +1,118 @@
+company_name: Toyota North America
+company_website: ''
+job_title: Lead Python Developer
+location: Plano, TX
+extracted_skills:
+- python
+- sql
+- nosql
+- aws
+- apache airflow
+- prefect
+- etl
+- elt
+- data pipelines
+- data validation
+- ci/cd
+- docker
+- microservices
+- apis
+- real-time streaming
+- cloud-native
+- version control
+job_summary: 'Toyota North America, through its Toyota Financial Services (TFS) division,
+  is seeking a Lead Python Developer in Plano, TX to design and implement scalable
+  platform solutions. This role involves leading a team to develop reusable Python
+  frameworks and automation tools for enterprise-wide data and application needs.
+  Key responsibilities include collaborating with product owners and architects, driving
+  architecture decisions, and mentoring engineers. Candidates must have advanced Python
+  expertise, experience with data pipelines, and proficiency in cloud platforms like
+  AWS. TFS offers a collaborative environment with industry-leading benefits and career
+  growth opportunities.
+
+  '
+responsibilities:
+- Lead the creation of reusable Python frameworks, templates, and automation tools
+  for enterprise platform requirements.
+- Collaborate with product owners, data engineering, and application teams to prioritize
+  and deliver scalable solutions.
+- Drive architectural decisions to ensure stakeholder alignment and technical excellence.
+- Enhance data pipelines, ETL/ELT workflows, data validation, and analytics application
+  capabilities.
+- Develop integrations with data storage systems, messaging platforms, and orchestration
+  tools such as Apache Airflow or Prefect.
+- Continuously refine frameworks and processes to improve delivery speed and quality.
+- Mentor team members on Python development best practices, automation, and cloud-native
+  deployment.
+- Partner with leadership to attract, hire, and retain top talent in Python and data
+  engineering.
+- Stay updated on technology trends and contribute to the internal and external engineering
+  community.
+- Ensure adherence to and evolution of enterprise architecture standards.
+requirements:
+- Advanced experience in Python development, focusing on reusable frameworks and libraries
+  for data engineering and applications.
+- Expertise in data ingestion, transformation, ETL/ELT pipeline development, and data
+  validation frameworks.
+- Strong knowledge of SQL/NoSQL databases, data lakes, cloud storage, and orchestration
+  tools like Apache Airflow or Prefect.
+- Proficiency in APIs, real-time streaming, microservices architectures, and automation
+  of deployment/testing workflows.
+- Hands-on experience with CI/CD pipelines, containerization (Docker), and cloud platforms
+  such as AWS.
+- Proven ability to deliver scalable, cloud-native data solutions with attention to
+  logging, testing, security, and instrumentation.
+- Familiarity with version control best practices, including branching, merging, and
+  code reviews.
+preferred:
+- Experience with streaming and integration services like Kafka, AWS Kinesis, or API
+  infrastructure such as Mulesoft or Apigee.
+- Exposure to building self-service tools and frameworks that empower platform teams
+  and reduce operational overhead.
+benefits:
+- Collaborative work environment emphasizing teamwork, flexibility, and respect.
+- Professional growth programs and tuition reimbursement for career advancement.
+- Team Member Vehicle Purchase Discount and Lease Vehicle Program (if applicable).
+- Comprehensive health care and wellness plans for employees and families.
+- Toyota 401(k) Savings Plan with company match and annual retirement contributions.
+- Paid holidays and time off to support work-life balance.
+- Referral services for prenatal care, adoption, childcare, and more.
+- Tax-advantaged accounts (HSA, FSA).
+- Relocation assistance if applicable.
+must_have_skills:
+- python
+- data pipelines
+- etl/elt
+- sql/nosql
+- aws
+- ci/cd
+nice_to_have_skills:
+- kafka
+- aws kinesis
+- mulesoft
+- apigee
+- self-service tools
+ats_keywords:
+- lead python developer
+- python frameworks
+- data engineering
+- etl pipelines
+- elt workflows
+- data validation
+- cloud-native solutions
+- apache airflow
+- prefect orchestration
+- aws cloud platform
+- microservices architecture
+- real-time streaming
+- ci/cd pipelines
+- docker containerization
+- sql databases
+- nosql databases
+- enterprise platforms
+- automation tools
+- scalable solutions
+- version control practices
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -231,6 +231,67 @@ certifications:
 - Brainbench OOD Certified
 - Brainbench Math Certified
 flagship_projects:
+- name: AI-Powered Job Search Pipeline
+  description: 'Built an end-to-end agentic job application pipeline using Python,
+    Claude Code, and Grok (xAI). System orchestrates 10+ automated steps: semantic
+    duplicate detection (FAISS vector embeddings), LLM-powered job scoring and tailoring,
+    resume/cover letter generation, quality gating, and application tracking. Implemented
+    multi-step agentic workflows with Claude Code and MCP server integration. Used
+    RAG-style retrieval (FAISS + sentence-transformers) for semantic similarity matching
+    across 100+ job postings.'
+  technologies:
+  - Python
+  - Claude Code
+  - Grok / xAI API
+  - FAISS
+  - Sentence Transformers
+  - Agentic AI Workflows
+  - MCP (Model Context Protocol)
+  - RAG / Vector Embeddings
+  - AI-Assisted Development
+  - Streamlit
+  timeframe: '2026'
+  highlights:
+  - Designed and built 10-step agentic orchestration pipeline (intake → score → tailor
+    → generate → render → quality gate → track)
+  - Implemented semantic duplicate detection using FAISS vector embeddings and sentence-transformers
+  - Integrated Grok-3 LLM API for job scoring, resume tailoring, and cover letter
+    generation
+  - Built quality gate with automated pattern detection to prevent bad output from
+    reaching submission
+  - Used Claude Code and MCP servers for AI-accelerated development throughout
+  tags:
+  - ai
+  - agentic
+  - rag
+  - llm
+  - data-engineering
+- name: HorizonScale — AI Capacity Forecasting Engine
+  description: Replaced legacy manual forecasting processes with an AI-driven capacity
+    forecasting engine built on Python, PySpark, and Streamlit. Reduced forecasting
+    cycles by 90%. Built Prophet and scikit-learn models predicting capacity bottlenecks
+    6 months ahead. Created interactive Streamlit dashboard with real-time capacity
+    insights and High Trust utilization scores.
+  technologies:
+  - Python
+  - PySpark
+  - Prophet
+  - scikit-learn
+  - Streamlit
+  - Machine Learning
+  - Capacity Planning
+  - Data Pipelines
+  timeframe: '2025'
+  tags:
+  - ai
+  - data-engineering
+  - performance
+  - capacity
+  highlights:
+  - Replaced manual forecasting — cut cycles by 90%
+  - Prophet + scikit-learn models predicting bottlenecks 6 months ahead
+  - Interactive Streamlit dashboard for real-time capacity insights
+  - Banking-scale telemetry pipeline in PySpark
 - name: Serverless Lakehouse Platform (AWS)
   description: Designed full serverless data platform using S3 + Glue + Athena + Bedrock.
     Built Text-to-SQL GenAI agent using Claude 3 Sonnet. Resolved small file problem
@@ -243,47 +304,10 @@ flagship_projects:
   - S3
   - PySpark
   timeframe: Recent
-- name: HorizonScale â€” AI Capacity Forecasting Engine
-  description: Replaced legacy manual Trenda processes with parallel generator-based
-    pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with
-    real-time capacity insights and 'High Trust' utilization scores. Modern agentic
-    pipeline replacing legacy Trenda processes for banking-scale telemetry. Features
-    parallel generator-based forecasting (90% cycle reduction), interactive Streamlit
-    dashboards, 'High Trust' utilization scores. A sample ML project called Horizon.
-    Repository includes code, documentation, API guides, future roadmap, operational
-    runbook, performance benchmarks, testing strategy, evolution notes, lessons learned,
-    and AI reasoning/RAG specs.
-  technologies:
-  - Python
-  - Prophet
-  - Streamlit
-  - PySpark
-  - Multiprocessing
-  - Spark
-  - Machine Learning
-  - Data Pipelines
-  - API Integration
-  - Performance Benchmarking
-  - Testing and Validation
-  - AI Reasoning
-  - RAG (Retrieval-Augmented Generation)
-  repo: https://github.com/seanlgirgis/HorizonStudy
-  documentation:
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/README.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/API_AND_INTEGRATION_GUIDE.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/FUTURE_ROADMAP.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/OPERATIONAL_RUNBOOK.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/PERFORMANCE_BENCHMARK_REPORT.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TESTING_AND_VALIDATION_STRATEGY.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/TREND_TO_HORIZONSCALE_EVOLUTION.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/lessons_learnt.md
-  - https://github.com/seanlgirgis/HorizonStudy/blob/main/Docs/AI_REASONING_AND_RAG_SPEC.md
-  code: https://github.com/seanlgirgis/HorizonStudy/tree/main/src/HorizonScale
-  additional_docs:
-  - https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/lib
-  - https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/pipeline
-  - https://github.com/seanlgirgis/HorizonStudy/tree/main/Docs/synthetic
-  timeframe: Recent
+  tags:
+  - data-engineering
+  - cloud
+  - ai
 - name: FAST Project
   description: Data mining user performance metrics to optimize critical money-generating
     systems.
@@ -291,3 +315,6 @@ flagship_projects:
   - Dynatrace
   - Data Mining
   timeframe: '2017'
+  tags:
+  - performance
+  - capacity

@@ -28,5 +28,8 @@ application:
   - date: '2026-02-13'
     status: REJECTED
     notes: Email, thy decided to move with other candidates
+  - date: '2026-03-11'
+    status: REJECTED
+    notes: GEICO portal confirmed Not Hired (Feb 2026)
   last_status: REJECTED
-  last_status_date: '2026-02-13'
+  last_status_date: '2026-03-11'

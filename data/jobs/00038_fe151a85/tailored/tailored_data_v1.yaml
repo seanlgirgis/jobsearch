@@ -1,0 +1,136 @@
+company_name: McAfee
+company_website: ''
+job_title: Senior Data Engineer
+location: Frisco, TX
+extracted_skills:
+- python
+- scala
+- java
+- snowflake
+- databricks
+- apache spark
+- kafka
+- airflow
+- aws
+- azure
+- gcp
+- docker
+- kubernetes
+- etl
+- elt
+- data integration
+- data transformation
+- data curation
+- real-time data processing
+- data streaming
+- dataops
+- mlops
+- data modeling
+- data warehousing
+- dimensional modeling
+- artificial intelligence
+- machine learning
+- big data
+job_summary: 'As a Senior Data Engineer at McAfee, you will play a pivotal role in
+  the data innovation team, designing and deploying scalable data architectures to
+  unlock the potential of data assets. Based in Frisco, TX, this hybrid position involves
+  building ETL/ELT pipelines, leveraging AI and machine learning, and ensuring data
+  quality to drive business value. You will collaborate with stakeholders, data scientists,
+  and product teams to create data-driven solutions. McAfee, a leader in personal
+  security, offers a supportive and diverse work environment. Candidates must have
+  5+ years of data engineering experience and be located in Texas.
+
+  '
+responsibilities:
+- Collaborate with business stakeholders to define data needs and develop scalable
+  technical solutions for operational efficiency and strategic insights.
+- Lead initiatives to identify and leverage data assets for new business capabilities
+  and competitive advantages.
+- Design and deploy comprehensive data architectures to manage structured and unstructured
+  data from diverse sources.
+- Build robust ETL/ELT pipelines to channel data across cloud and local storage systems.
+- Develop data quality frameworks with validation, monitoring, and recovery strategies
+  to ensure accuracy and freshness.
+- Implement automated data cleansing, enrichment, and structuring processes using
+  AI, machine learning, and big data techniques.
+- Create web-enabled solutions to democratize data access and support self-service
+  analytics across the organization.
+- Ensure secure and compliant data ingestion processes, particularly for sensitive
+  data like PII.
+- Maintain data integrity through proactive monitoring, alerting systems, and troubleshooting
+  pipeline issues.
+- Mentor junior team members and contribute to advancing the data engineering practice.
+requirements:
+- 5+ years of experience in developing ETL/ELT pipelines across varied data sources.
+- Strong programming skills in Python, Scala, or Java with production-quality code
+  capabilities.
+- Experience with modern data platforms and tools such as Snowflake, Databricks, Apache
+  Spark, Kafka, and Airflow.
+- Knowledge of cloud platforms (AWS, Azure, GCP) and their native data services.
+- Expertise in data integration, transformation, and curation with a focus on quality
+  and consistency.
+- Familiarity with containerization and orchestration technologies like Docker and
+  Kubernetes.
+- Experience with real-time data processing and streaming architectures.
+- Commitment to SDLC best practices and structured development processes.
+- Excellent communication and collaboration skills for working with technical and
+  non-technical stakeholders.
+- Ability to manage sensitive data, including PII, with attention to compliance and
+  governance.
+preferred:
+- Background in data science or analytics for effective collaboration with data scientists.
+- Experience in client-facing or Professional Services roles.
+- Familiarity with DataOps and MLOps practices.
+- Experience with Copilot and Claude Anthropic models for development and documentation.
+- Practical knowledge of Model Context Protocol (MCP) for enterprise application integration.
+benefits:
+- Bonus Program
+- Pension and Retirement Plans
+- Medical, Dental, and Vision Coverage
+- Paid Time Off
+- Paid Parental Leave
+- Support for Community Involvement
+- Flexible Work Hours
+- Family-Friendly Benefits
+must_have_skills:
+- ETL/ELT pipeline development
+- Python, Scala, or Java programming
+- Cloud platforms (AWS, Azure, GCP)
+- Data integration and transformation
+- Data quality and consistency
+nice_to_have_skills:
+- Data science or analytics background
+- Client-facing experience
+- DataOps and MLOps knowledge
+- Copilot and Anthropic models
+- Model Context Protocol (MCP)
+ats_keywords:
+- data engineer
+- senior data engineer
+- ETL pipeline
+- ELT pipeline
+- data architecture
+- cloud data services
+- AWS data engineering
+- Azure data solutions
+- GCP data tools
+- Snowflake platform
+- Databricks expertise
+- Apache Spark processing
+- Kafka streaming
+- Airflow orchestration
+- data quality framework
+- AI data transformation
+- machine learning data
+- big data techniques
+- real-time data processing
+- data integration solutions
+- data curation processes
+- PII compliance
+- SDLC best practices
+- data modeling concepts
+- data warehousing design
+- dimensional modeling skills
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

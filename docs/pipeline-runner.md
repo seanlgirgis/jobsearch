@@ -229,6 +229,49 @@ This runs Steps 0 through 9 in one pass and auto-accepts the job.
 
 ---
 
+## Force Mode (Bypass Duplicate Check)
+
+Use this when `10_auto_pipeline.py` is blocked by the duplicate detector — for example,
+when you applied to a similar GEICO/same-company role 30+ days ago with no response.
+
+```powershell
+python scripts/10b_force_pipeline.py $JOB --method "LinkedIn" --no-move
+```
+
+**When it is safe to use force mode:**
+- Prior application is 30+ days old with no response (stale/ghosted)
+- The role is meaningfully different (different team, different title variant)
+- You have an updated resume or cover letter worth sending
+
+**When NOT to use it:**
+- You applied less than 2 weeks ago
+- The prior application is still active (interview scheduled, awaiting decision)
+- You would be applying to the exact same posting twice
+
+Force mode skips Step 00 only. Steps 01–09 and the quality check all run normally.
+
+### Resuming a Force Pipeline from a UUID
+
+If step 01 already ran (you have a UUID), skip scoring entirely:
+
+```powershell
+python scripts/10b_force_pipeline.py --uuid $UUID --method "LinkedIn"
+```
+
+### Check Prior Application Status Before Forcing
+
+```powershell
+# Find prior apps to the same company
+PYTHONIOENCODING=utf-8 python scripts/11_search_jobs.py "Geico"
+
+# Check exact status and applied date
+cat data/jobs/00020_<short-uuid>/metadata.yaml
+```
+
+Look at `application.applied_date` — if it is 30+ days ago with no follow-up, force is justified.
+
+---
+
 ## Current Job
 
 | File | `00024.monet.dataEngineer.031120261512.md` |

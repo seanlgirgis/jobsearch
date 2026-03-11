@@ -206,3 +206,39 @@
   role: 0619
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00037_21d049e9
+  description_path: data\jobs\00037_21d049e9\intake.3112026.0713.md
+  company: CTC
+  role: Performance Architect
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00038_fe151a85
+  description_path: data\jobs\00038_fe151a85\intake.md
+  company: McAfee
+  role: Senior Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00039_76829368
+  description_path: data\jobs\00039_76829368\intake.md
+  company: Toyota North America
+  role: Lead Python Developer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00040_a390effb
+  description_path: data\jobs\00040_a390effb\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00042_95feaf55
+  description_path: data\jobs\00042_95feaf55\SoFi.SeniorDataEngineer.03112026.md
+  company: Seniordataengineer
+  role: Unknown Role
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: '00043_02035075'
+  description_path: data\jobs\00043_02035075\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED

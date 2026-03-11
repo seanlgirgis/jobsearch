@@ -1,0 +1,113 @@
+company_name: Thomson Reuters
+company_website: https://www.thomsonreuters.com
+job_title: Staff Software Engineer - AI II
+location: Frisco, TX
+extracted_skills:
+- Python
+- PyTorch
+- TensorFlow
+- JAX
+- AWS
+- Azure
+- GCP
+- Docker
+- Kubernetes
+- Terraform
+- MLOps
+- LLMOps
+- Machine Learning
+- Distributed Systems
+- Cloud-Native Patterns
+- Vector DBs
+- Embeddings
+- Semantic Search
+- Information Retrieval
+job_summary: 'Thomson Reuters is seeking a Staff Software Engineer (AI) to join their
+  Forward Engineering team in Frisco, TX, to build AI-powered systems that transform
+  business operations. The role involves architecting and prototyping AI-driven solutions,
+  including multi-agent workflows and advanced RAG pipelines, while collaborating
+  with business and product leaders. Key responsibilities include designing scalable
+  AI architectures, driving innovation through proofs of concept, and scaling prototypes
+  into production. Candidates should have 8+ years of software engineering experience,
+  with deep expertise in AI/ML frameworks and cloud infrastructure.
+
+  '
+responsibilities:
+- Develop enterprise-grade AI systems, including domain-specific agent frameworks
+  and advanced RAG architectures.
+- Lead AI innovation by creating proofs of concept, evaluating new techniques, and
+  turning research into deployable solutions.
+- Design scalable architectures based on business needs, define engineering patterns,
+  and guide best practices in MLOps and LLMOps.
+- Collaborate with business units, subject matter experts, and product teams to co-create
+  and accelerate adoption of AI solutions.
+- Transition prototypes to production environments and contribute to setting engineering
+  standards for AI-first transformation.
+requirements:
+- 8+ years of software engineering experience, with at least 4 years focused on leading
+  AI/ML system development.
+- Strong proficiency in Python and modern ML/AI frameworks such as PyTorch, TensorFlow,
+  and JAX.
+- Solid understanding of machine learning, distributed systems, and scalable architectures.
+- Proven experience in the AI lifecycle, including deployment, monitoring, model management,
+  and evaluation.
+- Hands-on expertise with cloud platforms like AWS, Azure, or GCP, and tools such
+  as Docker, Kubernetes, and Terraform.
+- Demonstrated ability to integrate AI into production systems using APIs, pipelines,
+  and cloud-native patterns.
+- Experience in designing and validating agentic systems, including evaluation frameworks
+  for non-deterministic model behavior.
+preferred:
+- Experience leading teams in building internal AI prototypes or agent-driven systems.
+- Strong knowledge of vector databases, embeddings, semantic search, or information
+  retrieval systems.
+- History of launching and scaling AI solutions within enterprise environments.
+- Familiarity with AI governance, model-risk management, or regulated workflows.
+- Publications, patents, or speaking engagements in AI/ML fields.
+benefits:
+- Hybrid work model with 2-3 days per week in the office and flexible remote work
+  options.
+- Flex My Way policies supporting work-life balance, including up to 8 weeks of work-from-anywhere
+  annually.
+- Comprehensive benefits package including health, dental, vision, disability, and
+  life insurance, plus a competitive 401k match.
+- Market-leading vacation, sick leave, parental leave, sabbatical leave, and two company-wide
+  Mental Health Days off.
+- Career development through continuous learning, skill development programs, and
+  a skills-first approach.
+- Social impact opportunities with two paid volunteer days annually and pro-bono consulting
+  projects.
+- Additional perks like fitness reimbursement, Employee Assistance Program, tuition
+  reimbursement, and commuter benefits.
+must_have_skills:
+- Python
+- Machine Learning
+- AI/ML Frameworks
+- Cloud Platforms
+- Distributed Systems
+- Scalable Architectures
+nice_to_have_skills:
+- Vector Databases
+- Semantic Search
+- AI Governance
+- Model-Risk Management
+- Team Leadership in AI Prototyping
+ats_keywords:
+- Staff Software Engineer AI
+- AI-powered systems
+- Multi-agent workflows
+- RAG pipelines
+- Intelligent automation
+- Machine Learning frameworks
+- Python development
+- Cloud infrastructure
+- AWS Azure GCP
+- MLOps LLMOps
+- AI system architecture
+- Prototype to production
+- Agentic systems
+- Enterprise AI solutions
+- Distributed systems design
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

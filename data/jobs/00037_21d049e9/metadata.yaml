@@ -1,0 +1,27 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: CTC
+company_website: ''
+created_at: '2026-03-11T07:15:00.946948'
+job_id: 00037_21d049e9
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T07:15:01.081491'
+location: Dallas, TX
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 65%. Recommendation: Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: intake.3112026.0713.md
+recommendation: Proceed
+role: Performance Architect
+score: 65
+score_date: '2026-03-11T07:15:00.946948'
+status: ACCEPTED
+uuid: 21d049e9-ba6c-4b8c-94b3-5833363d5481
