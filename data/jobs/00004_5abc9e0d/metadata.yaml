@@ -5,7 +5,7 @@ company: Geico
 role: Senior Staff Engineer
 company_website: https://careers.geico.com/us/en/
 location: Richardson, Texas
-status: ACCEPTED
+status: REJECTED
 score: 85
 recommendation: Strong Proceed
 score_date: '2026-02-06T11:28:54.412057'
@@ -25,3 +25,8 @@ application:
   - date: '2026-02-06'
     status: Applied
     notes: Pipeline application
+  - date: '2026-02-13'
+    status: REJECTED
+    notes: Email, thy decided to move with other candidates
+  last_status: REJECTED
+  last_status_date: '2026-02-13'

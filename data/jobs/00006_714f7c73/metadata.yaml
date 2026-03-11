@@ -5,7 +5,7 @@ company: CapitalOne
 role: Lead Data Engineer
 company_website: https://www.capitalonecareers.com/
 location: Plano, Texas
-status: CALL_SCHEDULED
+status: REJECTED
 score: 92
 recommendation: Strong Proceed
 score_date: '2026-02-06T12:04:41.323727'
@@ -33,5 +33,8 @@ application:
     status: CALL_SCHEDULED
     notes: Karah sent me email regarding the call and to test my interest. I responded
       in an email
-  last_status: CALL_SCHEDULED
-  last_status_date: '2026-02-10'
+  - date: '2026-03-11'
+    status: REJECTED
+    notes: No response after scheduled call. Ghosted. Closing.
+  last_status: REJECTED
+  last_status_date: '2026-03-11'

@@ -5,7 +5,7 @@ company: Google
 role: Incentives Technical Analyst, Infrastructure and Development, YouTube
 company_website: https://www.google.com/about/careers
 location: Dallas, New York City, NY
-status: CALL_SCHEDULED
+status: GHOSTED
 score: 85
 recommendation: Strong Proceed
 score_date: '2026-02-07T20:35:58.578612'
@@ -14,7 +14,7 @@ notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
 
   • Auto-accepted by pipeline (2026-02-07)'
 location_preference: Plano, TX
-last_decision_at: '2026-02-07T20:35:58.780330'
+last_decision_at: '2026-02-07T20:35:58.780370'
 last_decision: ACCEPTED
 application:
   applied: true
@@ -31,5 +31,8 @@ application:
   - date: '2026-02-10'
     status: TEST_PASSED
     notes: Aptitude test passed via email
-  last_status: TEST_PASSED
-  last_status_date: '2026-02-10'
+  - date: '2026-03-11'
+    status: GHOSTED
+    notes: No response after passing aptitude test Feb 10. 30 days of silence. Closing.
+  last_status: GHOSTED
+  last_status_date: '2026-03-11'
