@@ -9,7 +9,7 @@
   company: PostScript
   role: Staff Data Engineer
   apply_date: N/A
-  status: ACCEPTED
+  status: REJECTED
 - uuid: 00003_e4648120
   description_path: data\jobs\00003_e4648120\00003.FisherInvestements.02062026.1311.md
   company: FisherInvestments
@@ -21,7 +21,7 @@
   company: Geico
   role: Senior Staff Engineer
   apply_date: N/A
-  status: ACCEPTED
+  status: REJECTED
 - uuid: 00005_894db1e7
   description_path: data\jobs\00005_894db1e7\00005.Geico.SeniorEngineer.02062026.1146.md
   company: Geico
@@ -33,7 +33,7 @@
   company: CapitalOne
   role: Lead Data Engineer
   apply_date: N/A
-  status: ACCEPTED
+  status: REJECTED
 - uuid: '00007_31466164'
   description_path: data\jobs\00007_31466164\00007.AgileEngine.DataEngineer.1303.md
   company: Agile Engine
@@ -51,7 +51,7 @@
   company: RTX
   role: Data Engineer ID50062
   apply_date: N/A
-  status: ACCEPTED
+  status: REJECTED
 - uuid: '00010_61453370'
   description_path: data\jobs\00010_61453370\00010.Stefanini.DataEngineer.02062026.1414.md
   company: Stefanni Group
@@ -105,7 +105,7 @@
   company: Google
   role: Incentives Technical Analyst, Infrastructure and Development, YouTube
   apply_date: N/A
-  status: ACCEPTED
+  status: GHOSTED
 - uuid: 00019_d5eaebef
   description_path: data\jobs\00019_d5eaebef\00019.DBT Labs. Staff Sales Engineer.
     02072026. 2121.md
@@ -138,5 +138,11 @@
     1037.md
   company: Qode
   role: Sr Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00024_1720a487
+  description_path: data\jobs\00024_1720a487\00024.monet.dataEngineer.031120261512.md
+  company: Monet
+  role: Dataengineer
   apply_date: N/A
   status: ACCEPTED

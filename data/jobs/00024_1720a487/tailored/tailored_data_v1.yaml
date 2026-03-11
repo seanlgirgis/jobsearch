@@ -1,0 +1,110 @@
+company_name: Monet Bank
+company_website: ''
+job_title: Data Engineer
+location: Plano, Texas
+extracted_skills:
+- Python
+- SQL
+- AWS
+- Apache Spark
+- Databricks
+- Delta Lake
+- Airflow
+- Prefect
+- dbt
+- Unity Catalog
+- Delta Live Tables
+- Databricks Workflows
+- Dimensional Modeling
+- Data Vault
+- Medallion Architecture
+- Data Governance
+- Data Security
+job_summary: 'Monet Bank, a Texas state-chartered and FDIC-insured bank, is seeking
+  a Data Engineer to design and maintain scalable data pipelines and infrastructure
+  in Plano, Texas. The role involves building robust ELT/ETL pipelines using Apache
+  Spark and Databricks, ensuring data quality, and supporting analytics and business
+  stakeholders. The ideal candidate will have 7+ years of data engineering experience,
+  deep expertise in Spark and Databricks, and strong communication skills to collaborate
+  across teams. This position offers the opportunity to contribute to modern banking
+  infrastructure and mentor junior engineers while driving data strategy.
+
+  '
+responsibilities:
+- Design and manage end-to-end data platform architecture using Databricks and Apache
+  Spark.
+- Develop and maintain scalable ELT/ETL pipelines, ensuring reliability and performance.
+- Define and uphold standards for data modeling, pipeline design, and data quality.
+- Collaborate with analytics and business teams to create effective data models and
+  self-serve data assets.
+- Monitor and ensure the reliability of data pipelines through alerting and incident
+  response.
+- Mentor junior and mid-level engineers, lead design and code reviews, and contribute
+  to team growth.
+- Support leadership in shaping data strategy and platform roadmap.
+- Write clean, documented, and testable code to maintain high engineering standards.
+requirements:
+- 7+ years of data engineering experience, including 2+ years at a senior or staff
+  level.
+- Extensive expertise in Apache Spark, including performance tuning and production
+  troubleshooting.
+- Hands-on experience with Databricks tools such as Unity Catalog, Delta Live Tables,
+  and Workflows.
+- Strong SQL skills and familiarity with dimensional modeling, data vault, or medallion
+  architecture.
+- Proven ability to design and maintain reliable production-grade data pipelines.
+- Versatility to work across infrastructure, pipelines, and analytics layers.
+- Excellent communication skills to explain technical concepts to non-technical stakeholders.
+preferred:
+- Experience with Python-based orchestration tools like Airflow or Prefect.
+- Familiarity with dbt for data transformation layers.
+- Knowledge of cloud platforms, particularly AWS, and cloud-native storage and compute.
+- Background in analytics engineering or data architecture.
+- Experience working with small teams in growth-stage companies.
+- Understanding of data governance and security best practices.
+- Prior work in financial services or regulated environments.
+benefits:
+- Medical, dental, and vision coverage.
+- 401K with company match.
+- 11 paid holidays.
+- Up to 17 vacation/sick days accrued per year in the first year (pro rata).
+- Potential for annual discretionary bonus.
+must_have_skills:
+- Apache Spark
+- Databricks
+- SQL
+- Data Pipeline Design
+- Data Modeling
+nice_to_have_skills:
+- Python
+- Airflow
+- Prefect
+- dbt
+- AWS
+- Data Governance
+- Financial Services Experience
+ats_keywords:
+- Data Engineer
+- Apache Spark
+- Databricks
+- Delta Lake
+- Unity Catalog
+- Delta Live Tables
+- Databricks Workflows
+- SQL
+- Data Modeling
+- Medallion Architecture
+- ELT Pipelines
+- ETL Pipelines
+- Data Quality
+- Data Governance
+- Python
+- Airflow
+- Prefect
+- dbt
+- AWS
+- Financial Services
+- Banking Infrastructure
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

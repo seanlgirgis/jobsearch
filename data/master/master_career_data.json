@@ -35,7 +35,7 @@
       "timeframe": "Recent"
     },
     {
-      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "name": "HorizonScale \u00e2\u20ac\u201d AI Capacity Forecasting Engine",
       "description": "Replaced legacy manual Trenda processes with parallel generator-based pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with real-time capacity insights and 'High Trust' utilization scores. Modern agentic pipeline replacing legacy Trenda processes for banking-scale telemetry. Features parallel generator-based forecasting (90% cycle reduction), interactive Streamlit dashboards, 'High Trust' utilization scores. A sample ML project called Horizon. Repository includes code, documentation, API guides, future roadmap, operational runbook, performance benchmarks, testing strategy, evolution notes, lessons learned, and AI reasoning/RAG specs.",
       "technologies": [
         "Python",
@@ -119,7 +119,7 @@
       "bullets": [
         "Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.",
         "Led 'FAST' project: data-mined real-user performance metrics for optimization recommendations.",
-        "Upgraded DynaTrace (6.5\u21927.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
+        "Upgraded DynaTrace (6.5\u00e2\u2020\u20197.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
         "Managed and supported monitoring for Brand.com website and critical systems.",
         "Provided dashboarding for end-to-end functionality and before/after metrics.",
         "Analyzed bottlenecks and suggested performance improvements.",
@@ -139,8 +139,7 @@
       "bullets": [
         "Supported enterprise CA APM, CEM, ADA for utility systems.",
         "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
-      ],
-      "exclude_from_resume": true
+      ]
     },
     {
       "company": "CA Technologies/ TIAA-CREF",
@@ -148,7 +147,7 @@
       "start_date": "2011",
       "end_date": "2016",
       "bullets": [
-        "Led large-scale CA APM implementations/upgrades (9.1\u219210.1), managing 4,000\u20136,000 agents.",
+        "Led large-scale CA APM implementations/upgrades (9.1\u00e2\u2020\u201910.1), managing 4,000\u00e2\u20ac\u201c6,000 agents.",
         "Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.",
         "Provided sizing recommendations, Golden Images, client training, bottleneck resolution in J2EE/.NET.",
         "Planned and implemented APM products, provided training and support to clients.",
@@ -161,7 +160,7 @@
         "Optimized agent and enterprise manager installation.",
         "Documented implementations.",
         "Supported and trained clients' organizations.",
-        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000\u20136,000 agents.",
+        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000\u00e2\u20ac\u201c6,000 agents.",
         "Designed and implemented custom Management Modules and Perl/Ksh data-extraction scripts.",
         "Collaborated with IT teams to troubleshoot performance issues in J2EE/WebLogic environments."
       ]
@@ -184,7 +183,7 @@
       "start_date": "2008-05",
       "end_date": "2010",
       "bullets": [
-        "Led massive migration: 200+ MySQL nodes \u2192 6-node Oracle RAC cluster for high-throughput shopping engine.",
+        "Led massive migration: 200+ MySQL nodes \u00e2\u2020\u2019 6-node Oracle RAC cluster for high-throughput shopping engine.",
         "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",
         "Built CPPUNIT testing framework; automated conversion.",
         "Led the data migration of a shopping engine handling 10x the throughput of VISA, refactoring 200+ MySQL nodes into a high-performance 6-node Oracle RAC cluster.",

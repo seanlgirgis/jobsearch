@@ -69,7 +69,7 @@ experience:
   - Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.
   - 'Led ''FAST'' project: data-mined real-user performance metrics for optimization
     recommendations.'
-  - Upgraded DynaTrace (6.5→7.0), TLS1.2 security, cloud migration support (AWS),
+  - Upgraded DynaTrace (6.5â†’7.0), TLS1.2 security, cloud migration support (AWS),
     EUM/End-to-End monitoring.
   - Managed and supported monitoring for Brand.com website and critical systems.
   - Provided dashboarding for end-to-end functionality and before/after metrics.
@@ -94,7 +94,7 @@ experience:
   start: '2011'
   end: '2016'
   highlights:
-  - Led large-scale CA APM implementations/upgrades (9.1→10.1), managing 4,000–6,000
+  - Led large-scale CA APM implementations/upgrades (9.1â†’10.1), managing 4,000â€“6,000
     agents.
   - Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.
   - Provided sizing recommendations, Golden Images, client training, bottleneck resolution
@@ -109,7 +109,7 @@ experience:
   - Optimized agent and enterprise manager installation.
   - Documented implementations.
   - Supported and trained clients' organizations.
-  - Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000–6,000
+  - Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000â€“6,000
     agents.
   - Designed and implemented custom Management Modules and Perl/Ksh data-extraction
     scripts.
@@ -134,7 +134,7 @@ experience:
   start: 2008-05
   end: '2010'
   highlights:
-  - 'Led massive migration: 200+ MySQL nodes → 6-node Oracle RAC cluster for high-throughput
+  - 'Led massive migration: 200+ MySQL nodes â†’ 6-node Oracle RAC cluster for high-throughput
     shopping engine.'
   - Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping
     sub-second latency.
@@ -243,7 +243,7 @@ flagship_projects:
   - S3
   - PySpark
   timeframe: Recent
-- name: HorizonScale — AI Capacity Forecasting Engine
+- name: HorizonScale â€” AI Capacity Forecasting Engine
   description: Replaced legacy manual Trenda processes with parallel generator-based
     pipeline reduced forecasting cycles by 90%. Interactive Streamlit dashboard with
     real-time capacity insights and 'High Trust' utilization scores. Modern agentic
