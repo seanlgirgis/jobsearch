@@ -1,0 +1,125 @@
+company_name: Microsoft
+company_website: https://www.microsoft.com
+job_title: Senior Software Engineer - Agentic AI & Sentiment Intelligence
+location: Redmond, WA, US
+extracted_skills:
+- Python
+- C
+- C++
+- C#
+- Java
+- JavaScript
+- Windows PowerShell
+- Microsoft Azure
+- Amazon Web Services
+- Data Engineering
+- Software Engineering
+- Cloud Computing
+- Big Data
+- Microservices
+- Artificial Intelligence
+- Prompt Engineering
+- Orchestration
+- Workflow
+- Data Modeling
+- Performance Tuning
+- Debugging
+- Problem Solving
+- Collaboration
+- Mentorship
+- Command-line Interface
+- Evaluation
+- Conflict Resolution
+- Internal Communications
+- Microsoft Office
+- Microsoft Windows
+- Microsoft Outlook
+- Microsoft Excel
+- Microsoft PowerPoint
+- Scripting
+- Reasoning
+- SAP BASIS
+job_summary: 'Microsoft is seeking a Senior Software Engineer to join the IDEAS Sentiment
+  team in Redmond, WA, focusing on agentic AI and sentiment intelligence. This role
+  involves building next-generation AI systems to analyze customer sentiment across
+  Microsoft 365 products like Copilot, Windows, and Teams, impacting billions of users
+  globally. Key responsibilities include designing complex data pipelines, writing
+  high-quality code, and mentoring junior engineers. Candidates must have a Bachelor’s
+  in Computer Science or equivalent experience, with expertise in agentic AI, LLM
+  systems, and cloud-native architectures.
+
+  '
+responsibilities:
+- Lead the design, development, and deployment of intricate data pipelines and services.
+- Develop high-quality, maintainable, and well-tested code in languages like C#, Java,
+  or C++.
+- Utilize scripting languages such as Python and PowerShell to automate data workflows
+  and operational tasks.
+- Collaborate with cross-functional teams to define technical requirements and guide
+  architectural decisions.
+- Mentor junior engineers while contributing to team growth and promoting best practices.
+- Apply deep technical expertise to address challenging data engineering issues at
+  scale.
+requirements:
+- Bachelor’s Degree in Computer Science or related technical field and 4+ years of
+  technical engineering experience with coding in languages such as C, C++, C#, Java,
+  JavaScript, or Python, or equivalent experience.
+- Strong proficiency in agentic AI frameworks, LLM orchestration, prompt engineering,
+  and autonomous workflow design.
+- Experience in developing cloud-native systems using Azure, including microservices,
+  data services, and distributed computation.
+- Familiarity with modern AI development CLI tools, evaluation frameworks, vector
+  search, embeddings, and model debugging.
+- Solid problem-solving skills and experience with large-scale data systems.
+- Ability to pass the Microsoft Cloud background check upon hire/transfer and every
+  two years thereafter.
+preferred:
+- Experience with cloud platforms like Azure and AWS, as well as big data technologies.
+- Advanced expertise in LLM-based agents, including planning, memory management, tool-use
+  patterns, and multi-step reasoning.
+- Expertise in distributed systems, data modeling, and performance optimization.
+- Proven track record of driving cross-team collaboration and delivering impactful
+  solutions.
+benefits:
+- Base pay range of USD $119,800 - $234,700 per year across the U.S., with higher
+  ranges in specific locations like San Francisco Bay Area and New York City metropolitan
+  area.
+- Potential eligibility for additional benefits and compensation as detailed on Microsoft’s
+  benefits page.
+must_have_skills:
+- Agentic AI frameworks
+- LLM orchestration
+- Prompt engineering
+- Cloud-native systems with Azure
+- Coding in C, C++, C#, Java, JavaScript, or Python
+nice_to_have_skills:
+- AWS experience
+- Big data technologies
+- Distributed systems expertise
+- Advanced LLM-based agent skills
+- Performance optimization
+ats_keywords:
+- Senior Software Engineer
+- Agentic AI
+- Sentiment Intelligence
+- Microsoft 365
+- Copilot
+- LLM orchestration
+- Prompt engineering
+- Cloud-native systems
+- Azure
+- Microservices
+- Data Engineering
+- Software Engineering
+- Python
+- C#
+- Java
+- Artificial Intelligence
+- Big Data
+- Distributed Systems
+- Performance Tuning
+- Collaboration
+- Mentorship
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

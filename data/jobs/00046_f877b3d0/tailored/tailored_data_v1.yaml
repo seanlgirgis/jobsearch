@@ -1,0 +1,87 @@
+company_name: Slalom
+company_website: https://slalom.com
+job_title: Distinguished Engineer – Generative AI
+location: Dallas, TX
+extracted_skills:
+- aws
+- generative ai
+- retrieval-augmented generation
+- mlops
+- vector databases
+- aws bedrock
+- software engineering
+- architecture design
+job_summary: 'Slalom, a global business and technology consulting company, is seeking
+  a Distinguished Engineer (Director-level Individual Contributor) to lead the architecture
+  and development of a Generative AI-native compliance platform in Dallas, TX. This
+  role focuses on translating regulatory requirements into traceable, auditable solutions
+  using modern GenAI techniques. Key responsibilities include designing end-to-end
+  GenAI compliance engines, building proofs of concept, and setting engineering standards
+  for regulated environments. The ideal candidate brings deep expertise in AWS architecture,
+  hands-on experience with production GenAI systems, and the ability to navigate ambiguity
+  while delivering impactful solutions.
+
+  '
+responsibilities:
+- Architect and oversee the complete design of a GenAI compliance engine, including
+  RAG pipelines, agent workflows, and evidence traceability.
+- Make critical design decisions for GenAI systems, establishing evaluation strategies,
+  guardrails, and controls for regulated applications.
+- Develop proofs of concept and reference implementations to validate architectural
+  patterns and scale them to production environments.
+- Write and review production code while defining engineering, testing, and operational
+  standards.
+- Design solutions for compliance anomaly detection and structured policy generation
+  from unstructured data.
+- Integrate GenAI solutions with enterprise platforms, collaborating with internal
+  GenAI, security, and compliance teams.
+- Create repeatable architectural patterns for unprecedented challenges and demonstrate
+  their viability through execution.
+requirements:
+- Experience as a Distinguished Engineer, Principal Engineer, or Principal Architect
+  in a large, complex enterprise environment.
+- Strong software engineering background with a proven track record of delivering
+  and operating production systems.
+- Deep expertise in AWS architecture and related technologies.
+- Hands-on experience building production GenAI systems, including AWS Bedrock, Retrieval-Augmented
+  Generation (RAG), agent orchestration, model evaluation, guardrails, and vector
+  databases like Pinecone.
+- Proficiency in MLOps and managing GenAI systems in production settings.
+- Ability to work independently, navigate ambiguity, and transition concepts into
+  functional software solutions.
+preferred:
+- Experience in defining architectural standards for regulated GenAI systems.
+- Prior work on compliance platforms or policy-as-code frameworks.
+- Familiarity with enterprise integration and collaboration across security and compliance
+  teams.
+benefits:
+- Meaningful time off and paid holidays.
+- 401(k) with a match.
+- Highly subsidized health, dental, and vision coverage.
+- Adoption and fertility assistance.
+- Short-term and long-term disability coverage.
+- Yearly $350 reimbursement for well-being-related expenses.
+must_have_skills:
+- aws architecture
+- generative ai systems
+- software engineering
+- retrieval-augmented generation
+- mlops
+nice_to_have_skills:
+- vector databases
+- policy-as-code
+- compliance platform experience
+ats_keywords:
+- generative ai
+- aws bedrock
+- retrieval-augmented generation
+- mlops
+- vector databases
+- compliance engine
+- software engineering
+- aws architecture
+- distinguished engineer
+- regulated environments
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

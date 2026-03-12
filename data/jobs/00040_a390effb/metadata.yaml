@@ -1,27 +1,27 @@
-uuid: a390effb-d73a-48e0-a6c7-a45e6a2b9573
-job_id: 00040_a390effb
-original_filename: intake.md
-company: Unknown
-role: Unknown
-company_website: ''
-location: Unknown
-status: ACCEPTED
-score: 85
-recommendation: Strong Proceed
-score_date: '2026-03-11T08:00:20.416222'
-created_at: '2026-03-11T08:00:20.416222'
-notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
-
-  • Auto-accepted by pipeline (2026-03-11)'
-location_preference: Plano, TX
-last_decision_at: '2026-03-11T08:00:20.568129'
-last_decision: ACCEPTED
 application:
+  application_notes: Pipeline application
   applied: true
   applied_date: '2026-03-11'
   applied_method: Linkedin
-  application_notes: Pipeline application
   history:
   - date: '2026-03-11'
-    status: Applied
     notes: Pipeline application
+    status: Applied
+company: Meta
+company_website: ''
+created_at: '2026-03-11T08:00:20.416222'
+job_id: 00040_a390effb
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T08:00:20.568129'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: intake.md
+recommendation: Strong Proceed
+role: Performance & Capacity Engineer - Planning Optimization
+score: 85
+score_date: '2026-03-11T08:00:20.416222'
+status: ACCEPTED
+uuid: a390effb-d73a-48e0-a6c7-a45e6a2b9573

@@ -1,27 +1,27 @@
-uuid: 179fdabd-0ae3-4d6f-acae-a1b9b72bbfb2
-job_id: 00027_179fdabd
-original_filename: PETADATA.031120260424.md
-company: Unknown
-role: Unknown
-company_website: ''
-location: Unknown
-status: ACCEPTED
-score: 95
-recommendation: Strong Proceed
-score_date: '2026-03-11T04:27:40.692417'
-created_at: '2026-03-11T04:27:40.692417'
-notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
-
-  • Auto-accepted by pipeline (2026-03-11)'
-location_preference: Plano, TX
-last_decision_at: '2026-03-11T04:27:40.872833'
-last_decision: ACCEPTED
 application:
+  application_notes: Pipeline application
   applied: true
   applied_date: '2026-03-11'
   applied_method: LinkedIn
-  application_notes: Pipeline application
   history:
   - date: '2026-03-11'
-    status: Applied
     notes: Pipeline application
+    status: Applied
+company: PETADATA
+company_website: ''
+created_at: '2026-03-11T04:27:40.692417'
+job_id: 00027_179fdabd
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T04:27:40.872833'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: PETADATA.031120260424.md
+recommendation: Strong Proceed
+role: AWS Data Engineer
+score: 95
+score_date: '2026-03-11T04:27:40.692417'
+status: ACCEPTED
+uuid: 179fdabd-0ae3-4d6f-acae-a1b9b72bbfb2

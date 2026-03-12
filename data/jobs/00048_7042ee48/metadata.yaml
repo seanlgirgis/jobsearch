@@ -1,0 +1,27 @@
+uuid: 7042ee48-0b81-4114-989a-98b6ed13eb6f
+job_id: 00048_7042ee48
+original_filename: intake.md
+company: Kyndryl
+role: Agentic AI - Data Engineer
+company_website: https://www.kyndryl.com
+location: Dallas, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T17:45:36.832412'
+created_at: '2026-03-11T17:45:36.832412'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T17:45:36.968051'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Company Website
+  application_notes: Applied via Kyndryl Careers. Ref# C1332657, Job R-52271
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Applied via Kyndryl Careers. Ref# C1332657, Job R-52271

@@ -224,6 +224,168 @@ things I most need to improve.
 
 ---
 
+---
+
+## Hitachi Digital Services — GenAI Multi-Agent Engineer (Weak Points)
+
+### H1. Multi-Agent Architectures (LangGraph / CrewAI / AutoGen)
+- [ ] Studied
+
+**Prompt:**
+```
+I am a Senior Data/AI Engineer with production LangChain experience (Text-to-SQL agents,
+RAG pipelines) and AWS Bedrock. I have NOT used LangGraph, CrewAI, or AutoGen in production.
+I have a job interview at Hitachi Digital Services for a GenAI multi-agent engineer role
+focused on automated code analysis, tech debt remediation, and codebase modernization.
+
+Give me a focused 2-hour session covering:
+1. Multi-agent architecture patterns: planners, executors, tool routers — how they differ
+2. LangGraph: stateful agent graphs, nodes, edges, conditional routing, checkpointing
+3. AutoGen: agent conversations, GroupChat, AssistantAgent vs UserProxyAgent
+4. CrewAI: Crew, Agent, Task, Process — when to use vs LangChain
+5. Tool orchestration: dynamic tool selection, tool isolation, sandboxing patterns
+6. Guardrails and failure recovery: how to make agents safe in production
+7. Planning/execution loops: ReAct pattern, chain-of-thought, self-reflection
+8. How these patterns apply to code analysis and automated patch generation
+9. 10 interview Q&A for a multi-agent role at an enterprise platform team
+
+Bridge everything back to my LangChain background.
+End with a framework comparison cheat sheet and honest talking points for gaps.
+```
+
+---
+
+### H2. LLM Evaluation Frameworks
+- [ ] Studied
+
+**Prompt:**
+```
+I am an AI Engineer with hands-on LLM/RAG experience but limited formal evaluation
+framework experience. I have a Hitachi interview that requires "developing robust evaluation
+frameworks for LLMs, RAG, and agent workflows including offline datasets, validation metrics,
+statistical testing, and A/B tests."
+
+Cover:
+1. Why LLM evaluation is hard — non-determinism, no ground truth, hallucination detection
+2. RAG evaluation: faithfulness, answer relevance, context recall — RAGAS framework
+3. Agent evaluation: task completion rate, tool call accuracy, trajectory evaluation
+4. Offline evaluation: golden datasets, regression suites, how to build them
+5. Online evaluation: A/B testing for LLMs, shadow deployments, canary releases
+6. Statistical testing for LLM outputs — how to measure improvement rigorously
+7. Observability for AI systems: LangSmith, Weave, Helicone — what they track
+8. Evaluation for code generation specifically — correctness, safety, test coverage
+9. 10 interview Q&A on LLM/agent evaluation
+
+Give practical Python examples where possible.
+End with an evaluation checklist I can describe in an interview.
+```
+
+---
+
+### H3. Pinecone / pgvector / Advanced RAG
+- [ ] Studied
+
+**Prompt:**
+```
+I am an AI Engineer with FAISS experience for vector search in RAG pipelines.
+I need to learn Pinecone and pgvector for a Hitachi interview that lists them explicitly.
+The role also requires advanced RAG: chunking strategies, hybrid search, reranking.
+
+Cover:
+1. Pinecone: architecture, indexes, namespaces, upsert/query API, metadata filtering
+2. pgvector: installation, ivfflat vs hnsw indexes, cosine vs L2 vs inner product
+3. FAISS vs Pinecone vs pgvector — when to use each, trade-offs
+4. Advanced chunking: fixed, semantic, recursive, sliding window — when each works
+5. Embeddings: OpenAI, Cohere, sentence-transformers — dimensions, trade-offs
+6. Hybrid search: combining BM25 (keyword) + vector search, reciprocal rank fusion
+7. Reranking: cross-encoders, Cohere Rerank, how it improves precision
+8. Retrieval policies: MMR (max marginal relevance), top-k tuning, score thresholds
+9. RAG for code: chunking codebases, AST-based splitting, code embeddings
+10. 10 interview Q&A on vector databases and advanced RAG
+
+Bridge from my FAISS background. Include Python code examples.
+End with a cheat sheet comparing the three vector DB options.
+```
+
+---
+
+### H4. DBT for AI/Data Pipelines
+- [ ] Studied
+
+**Prompt:**
+```
+I am a Senior Data Engineer who has self-studied dbt basics but has not used it in
+production. Hitachi's job description lists dbt as a required skill alongside PostgreSQL
+and data modeling. The context is AI/GenAI pipelines, not traditional BI.
+
+Cover:
+1. dbt fundamentals refresher: models, ref(), materializations, sources
+2. Incremental models in dbt — how they work with PostgreSQL, strategies (merge, append)
+3. dbt + PostgreSQL: connecting, schema management, performance considerations
+4. dbt tests: built-in + custom + dbt-expectations for data quality
+5. dbt for AI pipelines: how dbt fits in a RAG/LLM data preparation workflow
+6. Schema evolution with dbt — handling breaking changes in production
+7. dbt docs, lineage graphs — how to explain data lineage in an interview
+8. dbt + CI/CD: running tests in GitHub Actions, slim CI patterns
+9. 10 interview Q&A on dbt with honest framing for "limited production experience"
+
+Focus on PostgreSQL specifically (not Databricks/Snowflake).
+End with a script for honestly addressing my dbt experience gap in the interview.
+```
+
+---
+
+### H5. Automated Code Analysis & Tech Debt (Domain Knowledge)
+- [ ] Studied
+
+**Prompt:**
+```
+I am an AI Engineer interviewing at Hitachi Digital Services for a role that involves
+building LLM-powered systems to automatically analyze codebases, detect technical debt,
+and generate remediation patches (dependency upgrades, vulnerability fixes, language
+migrations). This is a new domain for me.
+
+Give me a focused session covering:
+1. What technical debt is — categories: code debt, dependency debt, architecture debt
+2. Static analysis tools: SonarQube, Semgrep, CodeClimate — what they detect and how
+3. Dependency management: CVE scanning (Snyk, Dependabot), SBOM, transitive deps
+4. Language/runtime upgrades: common patterns, risks, automated migration tooling
+5. How LLMs are used for code analysis: tree-sitter, AST parsing, code embeddings
+6. Agentic code remediation: how a planner-executor loop would handle a CVE patch
+7. Sandboxing for code execution: containers, E2B, code interpreters — safety patterns
+8. CI/CD integration for automated remediation: PR generation, review gates
+9. How to pitch my data engineering + GenAI background as relevant to this domain
+10. 10 interview Q&A on automated software modernization
+
+I come from infrastructure telemetry (6,000+ endpoints at Citi) — help me bridge that
+experience to this software engineering platform context.
+End with 3 strong talking points connecting my background to this role.
+```
+
+---
+
+### H6. Mock Interview — Hitachi GenAI Multi-Agent Role
+- [ ] Done
+
+**Prompt:**
+```
+I just studied multi-agent orchestration, LLM evaluation, and advanced RAG for a
+Hitachi Digital Services interview. The role is "GenAI Multi-Agent Engineer" supporting
+600+ application teams with automated code analysis and tech debt remediation.
+
+I have 20 years of enterprise experience, strong Python/AWS/RAG background,
+and production LangChain experience but limited LangGraph/CrewAI hands-on.
+
+Act as a tough but fair technical interviewer at Hitachi. Ask me 10 interview questions
+covering: multi-agent architecture, RAG/retrieval, LLM evaluation, CI/CD, observability,
+and technical debt automation. Ask one at a time, wait for my answer, then give feedback.
+
+After each answer tell me: what was strong, what was missing, what a great answer adds.
+At the end give me an overall score out of 10 and the 3 things I most need to sharpen.
+```
+
+---
+
 ## Progress Tracker
 
 | Topic | Date Studied | Score | Ready? |
@@ -235,6 +397,12 @@ things I most need to improve.
 | Medallion Architecture | — | — | No |
 | Data Governance / Unity Catalog | — | — | No |
 | Pipeline Reliability | — | — | No |
+| **Hitachi: Multi-Agent Architectures** | — | — | No |
+| **Hitachi: LLM Evaluation Frameworks** | — | — | No |
+| **Hitachi: Pinecone / pgvector / Advanced RAG** | — | — | No |
+| **Hitachi: DBT for AI Pipelines** | — | — | No |
+| **Hitachi: Automated Code Analysis / Tech Debt** | — | — | No |
+| **Hitachi: Mock Interview** | — | — | No |
 
 
 

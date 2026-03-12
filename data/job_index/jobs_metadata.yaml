@@ -154,56 +154,56 @@
   status: ACCEPTED
 - uuid: 00026_3b4b8d7b
   description_path: data\jobs\00026_3b4b8d7b\RandstandDigital.03112026.0414.md
-  company: '03112026'
-  role: '0414'
+  company: Randstad Digital
+  role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00027_179fdabd
   description_path: data\jobs\00027_179fdabd\PETADATA.031120260424.md
-  company: Unknown
-  role: Unknown
+  company: PETADATA
+  role: AWS Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00028_58bf8e8c
   description_path: data\jobs\00028_58bf8e8c\clifyx.DE.03112026.0437.md
-  company: De
-  role: Unknown Role
+  company: ClifyX
+  role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00029_e1c101b7
   description_path: data\jobs\00029_e1c101b7\rh.03062026.0446.md
-  company: '03062026'
-  role: '0446'
+  company: Robert Half
+  role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00030_5e4bc3bd
   description_path: data\jobs\00030_5e4bc3bd\randstand.03112026.0435.md
-  company: '03112026'
-  role: '0435'
+  company: Randstad Digital
+  role: AI Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00031_1daa6ef1
   description_path: data\jobs\00031_1daa6ef1\Keurig.031120260500.md
-  company: Unknown
-  role: Unknown
+  company: Keurig Dr Pepper
+  role: Principal Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00032_bfaeb440
   description_path: data\jobs\00032_bfaeb440\payton.03112026.517.md
-  company: '03112026'
-  role: '517'
+  company: Peyton Resource Group
+  role: Performance Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00035_15267e92
   description_path: data\jobs\00035_15267e92\GovTact.03112026.5.55.md
-  company: '03112026'
-  role: 5 55
+  company: Government Tactical Solutions
+  role: Senior Performance Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00036_35afb27d
   description_path: data\jobs\00036_35afb27d\Apex.03112026.0619.md
-  company: '03112026'
-  role: 0619
+  company: Apex Systems
+  role: Performance Lead Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00037_21d049e9
@@ -226,18 +226,60 @@
   status: ACCEPTED
 - uuid: 00040_a390effb
   description_path: data\jobs\00040_a390effb\intake.md
-  company: Unknown
-  role: Unknown
+  company: Meta
+  role: Performance & Capacity Engineer - Planning Optimization
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00042_95feaf55
   description_path: data\jobs\00042_95feaf55\SoFi.SeniorDataEngineer.03112026.md
-  company: Seniordataengineer
-  role: Unknown Role
+  company: SoFi
+  role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
 - uuid: '00043_02035075'
   description_path: data\jobs\00043_02035075\intake.md
+  company: Thomson Reuters
+  role: Staff Software Engineer - AI II
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00044_8c605523
+  description_path: data\jobs\00044_8c605523\intake.md
+  company: BCG Platinion
+  role: Senior IT Architect - AI Platforms
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00045_cbe95f28
+  description_path: data\jobs\00045_cbe95f28\intake.md
+  company: Bank of America
+  role: Senior Engineer-AI Inference
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00046_f877b3d0
+  description_path: data\jobs\00046_f877b3d0\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00047_96bc145f
+  description_path: data\jobs\00047_96bc145f\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00048_7042ee48
+  description_path: data\jobs\00048_7042ee48\intake.md
+  company: Kyndryl
+  role: Agentic AI - Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00049_287cd3cb
+  description_path: data\jobs\00049_287cd3cb\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00050_57128a10
+  description_path: data\jobs\00050_57128a10\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A

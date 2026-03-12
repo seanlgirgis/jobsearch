@@ -1,0 +1,27 @@
+uuid: 57128a10-c576-4ca1-bb8c-addb60cf69c3
+job_id: 00050_57128a10
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 75
+recommendation: Proceed
+score_date: '2026-03-11T19:14:11.983248'
+created_at: '2026-03-11T19:14:11.983248'
+notes: 'Plano, TX location match. Score: 75%. Recommendation: Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T19:14:12.110539'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application

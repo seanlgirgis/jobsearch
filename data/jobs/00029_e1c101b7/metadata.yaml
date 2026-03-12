@@ -1,27 +1,27 @@
-uuid: e1c101b7-5b39-4b19-828f-1ce0826bd20d
-job_id: 00029_e1c101b7
-original_filename: rh.03062026.0446.md
-company: '03062026'
-role: '0446'
-company_website: ''
-location: Unknown
-status: ACCEPTED
-score: 95
-recommendation: Strong Proceed
-score_date: '2026-03-11T04:47:35.261213'
-created_at: '2026-03-11T04:47:35.261213'
-notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
-
-  • Auto-accepted by pipeline (2026-03-11)'
-location_preference: Plano, TX
-last_decision_at: '2026-03-11T04:47:35.397865'
-last_decision: ACCEPTED
 application:
+  application_notes: Pipeline application
   applied: true
   applied_date: '2026-03-11'
   applied_method: Dice
-  application_notes: Pipeline application
   history:
   - date: '2026-03-11'
-    status: Applied
     notes: Pipeline application
+    status: Applied
+company: Robert Half
+company_website: ''
+created_at: '2026-03-11T04:47:35.261213'
+job_id: 00029_e1c101b7
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T04:47:35.397865'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: rh.03062026.0446.md
+recommendation: Strong Proceed
+role: Data Engineer
+score: 95
+score_date: '2026-03-11T04:47:35.261213'
+status: ACCEPTED
+uuid: e1c101b7-5b39-4b19-828f-1ce0826bd20d

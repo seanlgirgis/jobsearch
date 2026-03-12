@@ -1,18 +1,27 @@
-uuid: 89807fac-8782-453f-a659-2cedcae5d0c4
-job_id: 00041_89807fac
-original_filename: intake.md
+application:
+  application_notes: Applied
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Company Website
+  history:
+  - date: '2026-03-11'
+    notes: Applied
+    status: Applied
 company: Unknown
-role: Unknown
 company_website: ''
-location: Unknown
-status: ACCEPTED
-score: 85
-recommendation: Strong Proceed
-score_date: '2026-03-11T08:29:43.164008'
 created_at: '2026-03-11T08:29:43.164008'
+job_id: 00041_89807fac
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T08:29:43.312320'
+location: Unknown
+location_preference: Plano, TX
 notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
 
   • Auto-accepted by pipeline (2026-03-11)'
-location_preference: Plano, TX
-last_decision_at: '2026-03-11T08:29:43.312320'
-last_decision: ACCEPTED
+original_filename: intake.md
+recommendation: Strong Proceed
+role: Unknown
+score: 85
+score_date: '2026-03-11T08:29:43.164008'
+status: ACCEPTED
+uuid: 89807fac-8782-453f-a659-2cedcae5d0c4

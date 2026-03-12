@@ -1,0 +1,79 @@
+company_name: Motion Recruitment Partners, LLC
+company_website: ''
+job_title: Software Engineer / Agentic AI / LangChain
+location: Dallas, TX, US
+extracted_skills:
+- LangChain
+- Software Engineering
+- Data Science
+- Artificial Intelligence
+- Vector Databases
+- Computer Science
+- Data Analysis
+- Marketing
+- SAP BASIS
+- Forms
+job_summary: 'Motion Recruitment Partners, LLC is seeking a Software Engineer with
+  expertise in Agentic AI and LangChain to join their team in Dallas, TX. This full-time,
+  on-site role focuses on developing AI solutions such as chatbots and multi-agent
+  systems to support various technical and non-technical functions like marketing
+  and data analytics. The position offers the chance to work with cutting-edge AI
+  applications across an enterprise organization. Candidates must have 4+ years of
+  relevant experience and be authorized to work in the US on a full-time basis.
+
+  '
+responsibilities:
+- Develop and implement AI chatbots and multi-agent systems to enhance organizational
+  functions.
+- Collaborate with technical and non-technical teams, including marketing and data
+  analytics, to integrate AI solutions.
+- Build and deploy AI agents in production environments.
+- Tune and implement large language models (LLMs) such as Claude, Gemini, and GPT-4.
+- Utilize vector databases for Retrieval-Augmented Generation (RAG) implementation.
+requirements:
+- 4+ years of experience in Data Science, Software Engineering, or a related field.
+- Proven experience in building and implementing AI chatbots or agents.
+- Expertise in implementing and tuning large language models (LLMs) like Claude, Gemini,
+  and GPT-4.
+- Experience with RAG implementation using vector databases.
+- Must be authorized to work in the US on a full-time basis.
+preferred:
+- Bachelor's or Master's degree in Computer Science, Data Science, or a related field.
+- Familiarity with other forms of generative or multimodal AI (text, images, videos).
+benefits:
+- Annual Salary Bonus eligibility.
+- Medical Insurance.
+- Dental Benefits.
+- Vision Benefits.
+- Paid Time Off (PTO).
+- 401(k) plan.
+must_have_skills:
+- Agentic AI development
+- LangChain
+- Software Engineering
+- LLM implementation and tuning
+- Vector Databases
+nice_to_have_skills:
+- Generative AI
+- Multimodal AI
+- Advanced degree in Computer Science or Data Science
+ats_keywords:
+- Agentic AI
+- LangChain
+- Software Engineer
+- Data Science
+- Artificial Intelligence
+- Chatbots
+- Multi-agent Systems
+- Vector Databases
+- LLM Tuning
+- Claude
+- Gemini
+- GPT-4
+- RAG Implementation
+- Production Environment
+- Marketing AI
+- Data Analytics AI
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
