@@ -151,7 +151,7 @@ def main():
         "type": company_type,
         "research": research,
         "website": website,
-        "classified_at": str(Path().resolve()),  # optional: timestamp or model info
+        "classified_at": Path().resolve().name,  # project folder name, not absolute path
     }
 
     research_dir = job_folder / "research"
