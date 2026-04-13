@@ -87,8 +87,30 @@
 ## Likely Questions Sam Will Ask + Your Answers
 
 ### "Tell me about yourself"
-> Use your opening 2 minutes above. Keep it under 90 seconds.
-> End with: "I'm actively looking and the Lead DE role at Capital One is a strong fit."
+> "Sure. I'm a Senior Data Engineer with over 20 years of enterprise experience,
+> and most recently I spent 8 years at Citi as a Senior Capacity and Data Engineer —
+> that was my longest and deepest role.
+>
+> At Citi I built and owned the data infrastructure for capacity planning across
+> 6,000+ endpoints. That meant automated ETL pipelines in Python pulling telemetry
+> from enterprise monitoring systems, Oracle schemas for historical retention,
+> ML forecasting models using Prophet and scikit-learn to predict bottlenecks
+> 3 to 6 months ahead, and a hybrid AWS platform — S3, Glue, Redshift, ECS —
+> that let us scale the heavy forecasting workloads in the cloud while keeping
+> existing reporting on-prem.
+>
+> Before Citi I spent several years at CA Technologies as an SME for APM,
+> worked at Sabre on data migration, and earlier in my career I was a developer
+> and systems engineer across telecom and government projects including Sprint
+> and the IRS CADE project at CSC.
+>
+> My core is Python, SQL, cloud data platforms on AWS, and building pipelines
+> that actually serve business decisions — not just move data around.
+>
+> I'm based in Plano, actively looking, and the Lead Data Engineer role
+> at Capital One is a strong fit."
+
+*(Target: 90 seconds spoken. Practice it once out loud before Wednesday.)*
 
 ### "Why Capital One?"
 > "Capital One operates at a scale that's genuinely interesting from a data
