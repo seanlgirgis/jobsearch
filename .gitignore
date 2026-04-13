@@ -1,3 +1,7 @@
+# Gmail OAuth token — machine-local, never commit
+data/gmail_token.json
+data/gmail_digest.md
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
