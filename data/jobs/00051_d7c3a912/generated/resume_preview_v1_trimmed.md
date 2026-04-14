@@ -11,9 +11,9 @@ Senior Data Engineer with 20+ years of enterprise experience designing and build
 ## Professional Experience
 ### Senior Data Engineer at Citi
 2017-11 – 2025-12
-- Built and maintained API connectors ingesting P95 telemetry from 6,000+ enterprise endpoints (BMC TrueSight, TSCO, AppDynamics APIs) into Oracle and AWS data stores â€” automated, self-healing, and fully documented.
+- Built and maintained API connectors ingesting P95 telemetry from 6,000+ enterprise endpoints (BMC TrueSight, TSCO, AppDynamics APIs) into Oracle and AWS data stores — automated, self-healing, and fully documented.
 - Designed ETL/ELT pipelines in Python and PySpark to ingest, clean, transform, and enrich raw telemetry into analytics-ready datasets for executive dashboards and ML forecasting workloads.
-- Built hybrid AWS lakehouse platform: S3 landing zone for raw telemetry ingestion, AWS Glue for ETL transformation, Redshift for analytics and forecasting â€” with Parquet/Snappy columnar storage and Athena query optimization.
+- Built hybrid AWS lakehouse platform: S3 landing zone for raw telemetry ingestion, AWS Glue for ETL transformation, Redshift for analytics and forecasting — with Parquet/Snappy columnar storage and Athena query optimization.
 - Implemented automated data quality validation rules and pipeline monitoring using Python and pandas; proactively resolved integrity issues before they reached downstream consumers or reporting.
 - Containerized Python ETL jobs on AWS ECS/EC2 for scalable on-demand processing; built robust logging, error handling, and alerting for all pipeline stages.
 - Applied statistical analysis and ML (Prophet, scikit-learn) on capacity telemetry to identify underutilized infrastructure patterns, driving hardware consolidation and measurable cost savings.
@@ -27,7 +27,7 @@ Senior Data Engineer with 20+ years of enterprise experience designing and build
 
 ### SME for CA APM (Senior Consultant) at CA Technologies / TIAA-CREF
 2011 – 2016
-- Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000â€“6,000 monitoring agents for enterprise financial clients.
+- Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000–6,000 monitoring agents for enterprise financial clients.
 - Designed custom Management Modules, dashboards, and alerts; developed Perl/Ksh extraction scripts for data collection and enrichment pipelines.
 - Provided sizing recommendations and bottleneck resolution for J2EE/.NET enterprise environments.
 - Trained client technical teams on APM solutions, ensuring adoption and operational effectiveness.
@@ -62,7 +62,7 @@ Built an end-to-end agentic pipeline in Python orchestrating 10+ automated steps
 Designed a full serverless data platform using S3 + Glue + Athena + Bedrock. Built Text-to-SQL GenAI agent using Claude 3 Sonnet. Resolved small-file problem using Snappy + Parquet columnar compression. Optimized ETL and data access for enterprise scale.
 **Technologies:** AWS Glue, S3, Athena, Bedrock, PySpark, Parquet / Snappy
 
-### HorizonScale â€” AI Capacity Forecasting Engine
+### HorizonScale — AI Capacity Forecasting Engine
 Replaced legacy manual forecasting with a parallel generator-based Python/PySpark pipeline, reducing forecasting cycles by 90%. Built Prophet and scikit-learn models predicting capacity bottlenecks 6 months ahead. Created interactive Streamlit dashboard for real-time capacity insights.
 **Technologies:** Python, PySpark, Prophet, scikit-learn, Streamlit, Machine Learning
 **Repo:** [github.com/seanlgirgis/HorizonStudy](https://github.com/seanlgirgis/HorizonStudy)

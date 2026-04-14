@@ -145,9 +145,9 @@
       "start_date": "2017-11",
       "end_date": "2025-12",
       "bullets": [
-        "Built and maintained API connectors ingesting P95 telemetry from 6,000+ enterprise endpoints (BMC TrueSight, TSCO, AppDynamics APIs) into Oracle and AWS data stores \u00e2\u20ac\u201d automated, self-healing, and fully documented.",
+        "Built and maintained API connectors ingesting P95 telemetry from 6,000+ enterprise endpoints (BMC TrueSight, TSCO, AppDynamics APIs) into Oracle and AWS data stores — automated, self-healing, and fully documented.",
         "Designed ETL/ELT pipelines in Python and PySpark to ingest, clean, transform, and enrich raw telemetry into analytics-ready datasets for executive dashboards and ML forecasting workloads.",
-        "Built hybrid AWS lakehouse platform: S3 landing zone for raw telemetry ingestion, AWS Glue for ETL transformation, Redshift for analytics and forecasting \u00e2\u20ac\u201d with Parquet/Snappy columnar storage and Athena query optimization.",
+        "Built hybrid AWS lakehouse platform: S3 landing zone for raw telemetry ingestion, AWS Glue for ETL transformation, Redshift for analytics and forecasting — with Parquet/Snappy columnar storage and Athena query optimization.",
         "Implemented automated data quality validation rules and pipeline monitoring using Python and pandas; proactively resolved integrity issues before they reached downstream consumers or reporting.",
         "Containerized Python ETL jobs on AWS ECS/EC2 for scalable on-demand processing; built robust logging, error handling, and alerting for all pipeline stages.",
         "Applied statistical analysis and ML (Prophet, scikit-learn) on capacity telemetry to identify underutilized infrastructure patterns, driving hardware consolidation and measurable cost savings."
@@ -171,7 +171,7 @@
       "start_date": "2011",
       "end_date": "2016",
       "bullets": [
-        "Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000\u00e2\u20ac\u201c6,000 monitoring agents for enterprise financial clients.",
+        "Led large-scale CA APM implementations and upgrades (9.1 to 10.1), managing 4,000–6,000 monitoring agents for enterprise financial clients.",
         "Designed custom Management Modules, dashboards, and alerts; developed Perl/Ksh extraction scripts for data collection and enrichment pipelines.",
         "Provided sizing recommendations and bottleneck resolution for J2EE/.NET enterprise environments.",
         "Trained client technical teams on APM solutions, ensuring adoption and operational effectiveness."
@@ -207,7 +207,7 @@
         "Conducted UML design and module development for a CICS/MQSeries/XML/DB2 messaging system for IRS modernization.",
         "Developed high-reliability messaging architecture using VC++ and DB2."
       ],
-      "title": "Architect / Developer \u00e2\u20ac\u201d IRS CADE Project"
+      "title": "Architect / Developer — IRS CADE Project"
     },
     {
       "company": "Corpus Inc. / Sprint (AMDOCS projects)",
@@ -250,7 +250,7 @@
       ]
     },
     {
-      "name": "HorizonScale \u00e2\u20ac\u201d AI Capacity Forecasting Engine",
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
       "timeframe": "2025",
       "description": "Replaced legacy manual forecasting with a parallel generator-based Python/PySpark pipeline, reducing forecasting cycles by 90%. Built Prophet and scikit-learn models predicting capacity bottlenecks 6 months ahead. Created interactive Streamlit dashboard for real-time capacity insights.",
       "technologies": [
@@ -277,3 +277,4 @@
     }
   ]
 }
+
