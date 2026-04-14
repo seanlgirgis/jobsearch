@@ -2,25 +2,31 @@
 """
 scripts/00_check_applied_before.py
 
-Phase 0: Semantic Duplicate Check
-Compares new job description against indexed past jobs using FAISS + sentence-transformers.
+Phase 0: Duplicate Check (semantic + lexical fallback)
 
-Usage:
-    python scripts/00_check_applied_before.py intake/new-job.md [--threshold 0.85] [--top-k 5]
+Primary path:
+- Semantic check using FAISS + sentence-transformers.
+
+Fallback path:
+- Lexical check against stored metadata when semantic resources are unavailable
+  (network/model/cache/import/runtime issues).
+
+Exit codes:
+- 0: duplicate_check=clear
+- 1: duplicate_check=flagged
+- 2: duplicate_check=blocked
 """
 
 import argparse
+import re
 import sys
-import yaml
-import numpy as np
-import faiss
 from pathlib import Path
-from typing import List, Dict, Tuple
+from difflib import SequenceMatcher
+from typing import Any, Dict, List, Optional, Tuple
 
 # ──────────────────────────────────────────────── Constants ─────
 from scripts.utils.vector_ops import get_embedding, load_index_and_metadata
 
-MIN_TEXT_LEN = 100
 DEFAULT_THRESHOLD = 0.82
 DEFAULT_TOP_K    = 5
 
@@ -37,9 +43,9 @@ def load_intake_text(file_path: str) -> str:
     return text
 
 
-def check_duplicates(
+def check_duplicates_semantic(
     new_text: str,
-    index: faiss.Index,
+    index: Any,
     metadata: List[Dict],
     threshold: float,
     top_k: int
@@ -76,11 +82,89 @@ def check_duplicates(
     print("-" * 100)
 
     if found_duplicate:
-        print(f"\n❌ Duplicate likely (≥ {threshold:.2f})")
+        print(f"\n❌ Semantic duplicate likely (>= {threshold:.2f})")
         return True
     else:
-        print("\n✅ No strong duplicates found.")
+        print("\n✅ Semantic check found no strong duplicates.")
         return False
+
+
+def _extract_field(text: str, field_name: str) -> str:
+    match = re.search(rf"(?im)^{re.escape(field_name)}\s*:\s*(.+)$", text)
+    return (match.group(1).strip() if match else "")
+
+
+def extract_intake_fingerprint(text: str) -> Dict[str, str]:
+    title = _extract_field(text, "Title")
+    company = _extract_field(text, "Company")
+    location = _extract_field(text, "Location")
+    return {
+        "title": title.lower(),
+        "company": company.lower(),
+        "location": location.lower(),
+    }
+
+
+def _norm(s: str) -> str:
+    return re.sub(r"\s+", " ", (s or "").strip().lower())
+
+
+def _sim(a: str, b: str) -> float:
+    a_n = _norm(a)
+    b_n = _norm(b)
+    if not a_n or not b_n:
+        return 0.0
+    return SequenceMatcher(None, a_n, b_n).ratio()
+
+
+def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) -> Tuple[bool, str]:
+    if not metadata:
+        return False, "no metadata available for lexical fallback"
+
+    fp = extract_intake_fingerprint(new_text)
+    title_fp = fp["title"]
+    company_fp = fp["company"]
+    location_fp = fp["location"]
+
+    if not (title_fp or company_fp):
+        return False, "intake missing Title/Company fields for lexical comparison"
+
+    scored: List[Tuple[float, Dict[str, Any]]] = []
+    for meta in metadata:
+        company = str(meta.get("company", ""))
+        role = str(meta.get("role", ""))
+        m_loc = str(meta.get("location", ""))
+
+        company_sim = _sim(company_fp, company)
+        role_sim = _sim(title_fp, role)
+        loc_sim = _sim(location_fp, m_loc)
+
+        score = (0.50 * role_sim) + (0.40 * company_sim) + (0.10 * loc_sim)
+        scored.append((score, meta))
+
+    scored.sort(key=lambda x: x[0], reverse=True)
+    top = scored[:max(1, top_k)]
+
+    print("\n🔍 Lexical fallback duplicate check (company/title/location similarity)")
+    print(f"{'Score':<8} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
+    print("-" * 95)
+
+    flagged = False
+    for score, meta in top:
+        company = str(meta.get("company", "Unknown"))[:18]
+        role = str(meta.get("role", "Unknown"))[:28]
+        uuid = str(meta.get("uuid", "????"))[:8]
+        status = str(meta.get("status", "Unknown"))[:8]
+        is_dupe = score >= 0.78
+        if is_dupe:
+            flagged = True
+        flag = "🔴 DUPE" if is_dupe else ""
+        print(f"{score:.4f} | {company:<20} | {role:<30} | {uuid} | {status:<10} {flag}")
+
+    print("-" * 95)
+    if flagged:
+        return True, "lexical fallback flagged likely duplicate"
+    return False, "lexical fallback found no likely duplicate"
 
 
 def main():
@@ -95,10 +179,30 @@ def main():
 
     index, metadata = load_index_and_metadata()
     text = load_intake_text(args.intake_file)
+    # 1) Try semantic check first when index is available.
+    if index is not None:
+        try:
+            is_duplicate = check_duplicates_semantic(text, index, metadata, args.threshold, args.top_k)
+            if is_duplicate:
+                print("duplicate_check: flagged (semantic)")
+                sys.exit(1)
+            print("duplicate_check: clear (semantic)")
+            sys.exit(0)
+        except Exception as e:
+            print(f"⚠️ Semantic duplicate check unavailable: {e}")
 
-    is_duplicate = check_duplicates(text, index, metadata, args.threshold, args.top_k)
+    # 2) Fall back to lexical check if metadata exists.
+    is_duplicate_lex, reason = check_duplicates_lexical(text, metadata, args.top_k)
+    if is_duplicate_lex:
+        print(f"duplicate_check: flagged (lexical) | reason: {reason}")
+        sys.exit(1)
+    if metadata:
+        print(f"duplicate_check: clear (lexical) | reason: {reason}")
+        sys.exit(0)
 
-    sys.exit(1 if is_duplicate else 0)
+    # 3) Fully blocked (no semantic and no lexical inputs).
+    print(f"duplicate_check: blocked | reason: {reason}")
+    sys.exit(2)
 
 
 if __name__ == "__main__":

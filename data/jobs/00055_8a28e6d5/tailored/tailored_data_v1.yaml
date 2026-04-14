@@ -1,0 +1,56 @@
+company_name: Koch Industries
+company_website: ''
+company_type: enterprise
+job_title: Data Engineer
+location: Plano, TX (On-site)
+job_summary: >
+  Build and optimize reliable SQL/Python data pipelines in support of finance and tax
+  transformation initiatives, partnering with architecture teams on scalable, governed
+  data platform solutions.
+
+responsibilities:
+  - Write and optimize SQL/Python pipelines for quality and scalable flow
+  - Partner with solution and data architects on design and implementation
+  - Execute across SDLC/AIDLC and Agile delivery cycles
+  - Support governance, security, and compliance requirements
+  - Document architecture, workflows, and best practices
+
+requirements:
+  - Strong SQL and Python pipeline coding experience
+  - Hands-on architecture collaboration
+  - SDLC and Agile experience
+  - Strong communication with technical and non-technical stakeholders
+
+must_have_skills:
+  - SQL
+  - Python
+  - data pipelines
+  - ETL/ELT
+  - architecture collaboration
+  - data quality and governance
+
+nice_to_have_skills:
+  - dbt
+  - Snowflake
+  - AWS
+  - Airflow / Prefect
+  - Kafka
+  - Grafana / Datadog
+  - AI/ML concepts
+
+ats_keywords:
+  - Data Engineer
+  - SQL
+  - Python
+  - ETL
+  - ELT
+  - data pipeline
+  - SDLC
+  - Agile
+  - data governance
+  - data quality
+  - Snowflake
+  - dbt
+  - AWS
+  - Airflow
+  - Kafka

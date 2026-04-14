@@ -1,9 +1,12 @@
 application:
-  application_notes: Applied via Dice
-  applied: false
-  applied_date: null
+  application_notes: Applied via Dice (confirmed)
+  applied: true
+  applied_date: '2026-04-13'
   applied_method: Dice
   history:
+  - date: '2026-04-13'
+    notes: Application submitted via Dice.
+    status: Applied
   - date: '2026-04-13'
     notes: Job scored and documents generated. Ready to apply.
     status: Pending

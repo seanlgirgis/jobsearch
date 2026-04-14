@@ -1,0 +1,60 @@
+company_name: Inspiren
+company_website: ''
+company_type: enterprise
+job_title: Senior Data Engineer
+location: Remote (US or Canada)
+job_summary: >
+  Own and evolve data pipelines and platform infrastructure supporting customer-facing
+  applications, research, analytics, and machine learning in a senior-living health-tech ecosystem.
+
+responsibilities:
+  - Build and optimize ETL pipelines for structured and unstructured data at scale
+  - Partner with engineering, data science, ML, and product analytics on data models
+  - Improve storage and retrieval performance across cloud data systems
+  - Evaluate and implement RDS, NoSQL, lake, and cloud storage options
+  - Influence data platform architecture in partnership with platform engineering
+
+requirements:
+  - 5+ years backend/full-stack engineering experience
+  - Strong ETL pipeline design and maintenance experience
+  - Strong Python or Java and SQL proficiency
+  - Cloud pipeline design at scale; AWS and Databricks preferred
+  - Data modeling and architecture optimization for performance and cost
+  - Strong communication and collaboration in fast-paced environments
+  - AI coding tool adoption for automation and complex engineering workflows
+
+must_have_skills:
+  - Python
+  - SQL
+  - ETL/ELT pipeline design
+  - Data modeling
+  - Cloud data engineering
+  - Data quality and observability
+
+nice_to_have_skills:
+  - Databricks
+  - RDS/NoSQL design
+  - Health-tech domain knowledge
+  - Startup experience
+  - AI coding tools (Cursor, Claude Code)
+
+ats_keywords:
+  - Senior Data Engineer
+  - ETL
+  - ELT
+  - data pipelines
+  - Python
+  - SQL
+  - cloud data engineering
+  - AWS
+  - Databricks
+  - data modeling
+  - machine learning pipelines
+  - analytics engineering
+  - RDS
+  - NoSQL
+  - data platform
+  - data quality
+  - performance optimization
+  - health-tech
+  - startup

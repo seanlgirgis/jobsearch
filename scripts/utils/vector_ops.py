@@ -36,8 +36,7 @@ def get_model():
             # Suppress verbose output if possible
             _MODEL = SentenceTransformer(EMBEDDING_MODEL_NAME)
         except ImportError:
-            print("❌ Helper Error: sentence-transformers not installed.")
-            sys.exit(1)
+            raise RuntimeError("sentence-transformers not installed")
     return _MODEL
 
 def get_embedding(text: str) -> np.ndarray:
@@ -53,23 +52,30 @@ def load_index_and_metadata() -> Tuple[Optional[object], List[Dict]]:
     Returns (index, metadata_list).
     If index/meta missing, returns (None, []).
     """
-    if not INDEX_PATH.exists() or not METADATA_PATH.exists():
+    if not METADATA_PATH.exists():
         return None, []
+
+    metadata: List[Dict] = []
+    try:
+        with METADATA_PATH.open("r", encoding="utf-8") as f:
+            metadata = yaml.safe_load(f) or []
+    except Exception as e:
+        print(f"⚠️ Error loading metadata: {e}")
+        metadata = []
+
+    if not INDEX_PATH.exists():
+        return None, metadata
 
     try:
         import faiss
         index = faiss.read_index(str(INDEX_PATH))
-        
-        with METADATA_PATH.open("r", encoding="utf-8") as f:
-            metadata = yaml.safe_load(f) or []
-            
         return index, metadata
     except ImportError:
-        print("❌ Helper Error: faiss-cpu not installed.")
-        sys.exit(1)
+        print("⚠️ FAISS not available; semantic duplicate check disabled.")
+        return None, metadata
     except Exception as e:
         print(f"⚠️ Error loading index: {e}")
-        return None, []
+        return None, metadata
 
 def save_index_and_metadata(index: object, metadata: List[Dict]) -> None:
     """Save FAISS index and metadata to disk."""
