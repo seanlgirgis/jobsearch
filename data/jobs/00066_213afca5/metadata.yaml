@@ -1,0 +1,10 @@
+uuid: 213afca5-33b7-4320-9cd2-dde230b100c4
+job_id: 00066_213afca5
+original_filename: intake.md
+created_at: '2026-04-14T10:54:03.826109'
+status: PENDING
+job_hash: a7e5a81975f2651908af2c8fcff8b582c97f6cedfb515055d1a0f7d7b7626928
+tier0_decision: reject_early
+llm_decision: null
+user_decision: pending
+score: null

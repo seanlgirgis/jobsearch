@@ -4,11 +4,14 @@ import argparse
 import json
 from pathlib import Path
 import shutil
+import uuid
+from datetime import datetime
+import yaml
 
 from utils.duplicate_check import run_duplicate_check
 from utils.hashes import compute_sha256
 from utils.intake_normalizer import normalize_text
-from utils.job_paths import create_job_folder, create_job_id
+from utils.job_paths import create_job_folder, get_next_job_number
 
 
 def parse_args() -> argparse.Namespace:
@@ -45,7 +48,9 @@ def main() -> None:
     print(f"Matched Job ID: {duplicate_result['matched_job_id']}")
     print(f"Reason: {duplicate_result['reason']}")
 
-    job_id = create_job_id()
+    job_uuid = str(uuid.uuid4())
+    job_number = get_next_job_number()
+    job_id = f"{job_number:05d}_{job_uuid[:8]}"
     job_dir = create_job_folder(job_id)
     raw_path = job_dir / "raw" / "raw_intake.md"
     shutil.copy2(intake_path, raw_path)
@@ -95,6 +100,43 @@ def main() -> None:
     print("=== LOCAL GATE ARTIFACT WRITTEN ===")
     print(f"Path: data/jobs/{job_id}/score/local_gate.json")
     print(f"Tier0 Decision: {tier0_decision}")
+
+    metadata = {
+        "uuid": job_uuid,
+        "job_id": job_id,
+        "original_filename": intake_path.name,
+        "created_at": datetime.now().isoformat(),
+        "status": "PENDING",
+        "job_hash": digest,
+        "tier0_decision": tier0_decision,
+        "llm_decision": None,
+        "user_decision": "pending",
+        "score": None,
+    }
+    metadata_path = job_dir / "metadata.yaml"
+    metadata_path.write_text(
+        yaml.safe_dump(metadata, sort_keys=False, allow_unicode=True),
+        encoding="utf-8",
+    )
+
+    print()
+    print("=== METADATA WRITTEN ===")
+    print(f"Path: data/jobs/{job_id}/metadata.yaml")
+    print("Status: PENDING")
+    print(f"Tier0 Decision: {tier0_decision}")
+
+    reason_codes_display = ", ".join(reason_codes) if reason_codes else "none"
+    final_result = (
+        "stopping pipeline before any LLM call"
+        if tier0_decision == "reject_early"
+        else "job is eligible for next pipeline stage"
+    )
+
+    print()
+    print("=== TIER 0 FINAL DECISION ===")
+    print(f"Decision: {tier0_decision}")
+    print(f"Result: {final_result}")
+    print(f"Reason Codes: {reason_codes_display}")
 
 
 if __name__ == "__main__":
