@@ -9,19 +9,8 @@ personal:
   twitter: https://x.com/SeanLuka22249
   website: https://seanlgirgis.github.io
 summary:
-  short: Senior Data Engineer with 20+ years of enterprise experience. Specialized
-    in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock).
-    Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting
-    (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.
-  long: Results-driven professional with expertise in Data Engineering (Python, SQL,
-    PySpark, ETL), Cloud & Infrastructure (AWS, Hive/Hadoop, Capacity Planning), and
-    High-Performance Compute (C++, Java, Oracle RAC). Proven track record in performance
-    optimization, data migration, and AI-driven forecasting across telecom, finance,
-    and utility sectors. Over 20 years of professional experience in IT architecture,
-    analysis, development, and support of batch and multi-tier applications. Diverse
-    technical background in development, testing, administration, performance management,
-    CA APM, UNIX, C, C++, C#, Java, and scripting languages. Comfortable in team or
-    individual assignments.
+  short: Senior Data Engineer with 20+ years building ETL/ELT pipelines, SQL-driven data models, and reliable analytics workflows for regulated enterprise environments.
+  long: Data Engineer with deep hands-on ownership of pipeline design, transformation logic, data quality validation, and stakeholder-facing reporting. Strong Python/SQL foundation with cloud delivery experience on AWS and practical upskilling in Snowflake/Databricks patterns; focused on scalable, testable data workflows and measurable SLA outcomes.
 experience:
 - company: CITI
   role: Senior Capacity & Data Engineer
@@ -52,8 +41,8 @@ experience:
     3-6 months ahead.
   - Administered BMC TrueSight for infrastructure monitoring, configuring thresholds/alerts/baselines.
   - Integrated monitoring data from TrueSight, CA Wily APM, AppDynamics.
-  - Built automated data pipelines using Python and pandas for ETL of capacity metrics.
-  - Performed data cleansing and QA using pandas.
+  - Built automated data pipelines using Python and pandas for ETL of capacity metrics, with data validation/QA checks before downstream reporting.
+  - Performed data cleansing, QA, and anomaly checks using pandas to improve data quality and trust.
   - Designed/executed ETL processes to consolidate data.
   - Automated reporting workflows with Python scripts.
   - Developed interactive dashboards using matplotlib, seaborn, plotly.
@@ -318,3 +307,4 @@ flagship_projects:
   tags:
   - performance
   - capacity
+

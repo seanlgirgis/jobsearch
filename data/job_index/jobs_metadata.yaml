@@ -284,3 +284,9 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00051_5ade9538
+  description_path: data\jobs\00051_5ade9538\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED

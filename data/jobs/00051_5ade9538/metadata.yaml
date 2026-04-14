@@ -1,0 +1,27 @@
+uuid: 5ade9538-bdeb-4b3a-98ca-83884ec64aa2
+job_id: 00051_5ade9538
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-04-03T20:23:43.831115'
+created_at: '2026-04-03T20:23:43.831115'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Strong fit for Data Engineer role (2026-04-03)'
+location_preference: Plano, TX
+last_decision_at: '2026-04-03T20:31:41.259877'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-03'
+  applied_method: LinkedIn
+  application_notes: ''
+  history:
+  - date: '2026-04-03'
+    status: Applied
+    notes: Applied via LinkedIn

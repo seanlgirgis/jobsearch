@@ -3,7 +3,7 @@
     "full_name": "Sean Luka Girgis",
     "previous_name": "Emad Girgis",
     "name_change_note": "Changed approximately 9 years ago (around 2017)",
-    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "preferred_title": "Senior Data Engineer | ETL/ELT Pipelines | Cloud Data Platforms | Data Quality",
     "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
     "phone": "214-315-2190",
     "email": "seanlgirgis@gmail.com",
@@ -20,7 +20,7 @@
       "PySpark / AWS Specialist"
     ]
   },
-  "summary": "Senior Data Engineer with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock). Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.",
+  "summary": "Senior Data Engineer with 20+ years building ETL/ELT pipelines, SQL-driven data models, and reliable analytics workflows for regulated enterprise environments. Deep hands-on ownership of transformation logic, data quality validation, and stakeholder-facing delivery. Strong Python/SQL foundation with cloud delivery on AWS and practical upskilling in Snowflake/Databricks/Azure patterns.",
   "flagship_projects": [
     {
       "name": "AI-Powered Job Search Pipeline",
@@ -39,7 +39,7 @@
       ],
       "timeframe": "2026",
       "highlights": [
-        "Designed and built 10-step agentic orchestration pipeline (intake \u2192 score \u2192 tailor \u2192 generate \u2192 render \u2192 quality gate \u2192 track)",
+        "Designed and built 10-step agentic orchestration pipeline (intake → score → tailor → generate → render → quality gate → track)",
         "Implemented semantic duplicate detection using FAISS vector embeddings and sentence-transformers",
         "Integrated Grok-3 LLM API for job scoring, resume tailoring, and cover letter generation",
         "Built quality gate with automated pattern detection to prevent bad output from reaching submission",
@@ -54,7 +54,7 @@
       ]
     },
     {
-      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
       "description": "Replaced legacy manual forecasting processes with an AI-driven capacity forecasting engine built on Python, PySpark, and Streamlit. Reduced forecasting cycles by 90%. Built Prophet and scikit-learn models predicting capacity bottlenecks 6 months ahead. Created interactive Streamlit dashboard with real-time capacity insights and High Trust utilization scores.",
       "technologies": [
         "Python",
@@ -74,7 +74,7 @@
         "capacity"
       ],
       "highlights": [
-        "Replaced manual forecasting \u2014 cut cycles by 90%",
+        "Replaced manual forecasting — cut cycles by 90%",
         "Prophet + scikit-learn models predicting bottlenecks 6 months ahead",
         "Interactive Streamlit dashboard for real-time capacity insights",
         "Banking-scale telemetry pipeline in PySpark"
@@ -118,8 +118,8 @@
       "start_date": "2017-11",
       "end_date": "2025-12",
       "bullets": [
-        "Architected automated ETL pipelines (Python/Pandas) ingesting P95 telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing legacy manual processes.",
-        "Designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting.",
+        "Architected and owned automated ETL/ELT pipelines (Python/Pandas/SQL) ingesting P95 telemetry from 6,000+ endpoints, replacing legacy manual processes and improving delivery reliability.",
+        "Designed and optimized reporting-ready data models for historical retention and trend analysis, enabling seasonal risk forecasting and executive decision support.",
         "Developed ML forecasting models (Prophet, scikit-learn) predicting bottlenecks 6 months ahead, improving provisioning accuracy.",
         "Integrated disparate feeds into unified Oracle reporting with executive dashboards.",
         "Identified underutilized infrastructure via data mining, driving hardware consolidation and cost savings.",
@@ -132,7 +132,7 @@
         "Administered BMC TrueSight for infrastructure monitoring, configuring thresholds/alerts/baselines.",
         "Integrated monitoring data from TrueSight, CA Wily APM, AppDynamics.",
         "Built automated data pipelines using Python and pandas for ETL of capacity metrics.",
-        "Performed data cleansing and QA using pandas.",
+        "Performed data cleansing, QA, and anomaly checks using pandas to improve data quality and trust.",
         "Designed/executed ETL processes to consolidate data.",
         "Automated reporting workflows with Python scripts.",
         "Developed interactive dashboards using matplotlib, seaborn, plotly.",
@@ -148,7 +148,7 @@
       "bullets": [
         "Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.",
         "Led 'FAST' project: data-mined real-user performance metrics for optimization recommendations.",
-        "Upgraded DynaTrace (6.5\u00e2\u2020\u20197.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
+        "Upgraded DynaTrace (6.5â†’7.0), TLS1.2 security, cloud migration support (AWS), EUM/End-to-End monitoring.",
         "Managed and supported monitoring for Brand.com website and critical systems.",
         "Provided dashboarding for end-to-end functionality and before/after metrics.",
         "Analyzed bottlenecks and suggested performance improvements.",
@@ -176,7 +176,7 @@
       "start_date": "2011",
       "end_date": "2016",
       "bullets": [
-        "Led large-scale CA APM implementations/upgrades (9.1\u00e2\u2020\u201910.1), managing 4,000\u00e2\u20ac\u201c6,000 agents.",
+        "Led large-scale CA APM implementations/upgrades (9.1â†’10.1), managing 4,000â€“6,000 agents.",
         "Designed custom Management Modules, dashboards, alerts, Perl/Ksh extraction scripts.",
         "Provided sizing recommendations, Golden Images, client training, bottleneck resolution in J2EE/.NET.",
         "Planned and implemented APM products, provided training and support to clients.",
@@ -189,7 +189,7 @@
         "Optimized agent and enterprise manager installation.",
         "Documented implementations.",
         "Supported and trained clients' organizations.",
-        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000\u00e2\u20ac\u201c6,000 agents.",
+        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and ~4,000â€“6,000 agents.",
         "Designed and implemented custom Management Modules and Perl/Ksh data-extraction scripts.",
         "Collaborated with IT teams to troubleshoot performance issues in J2EE/WebLogic environments."
       ]
@@ -212,7 +212,7 @@
       "start_date": "2008-05",
       "end_date": "2010",
       "bullets": [
-        "Led massive migration: 200+ MySQL nodes \u00e2\u2020\u2019 6-node Oracle RAC cluster for high-throughput shopping engine.",
+        "Led massive migration: 200+ MySQL nodes â†’ 6-node Oracle RAC cluster for high-throughput shopping engine.",
         "Optimized C++/OCCI transaction processing; reduced hardware 95% while keeping sub-second latency.",
         "Built CPPUNIT testing framework; automated conversion.",
         "Led the data migration of a shopping engine handling 10x the throughput of VISA, refactoring 200+ MySQL nodes into a high-performance 6-node Oracle RAC cluster.",

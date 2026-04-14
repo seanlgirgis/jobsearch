@@ -224,7 +224,7 @@
   - Data Engineering
   notes: Star schema, fact/dimension tables, SCD types; applied in data warehousing
     and reporting layer design at Citi
-- name: Data Quality & Pipeline Validation
+- name: Data Quality, Testing & Pipeline Monitoring
   years: 10
   proficiency: Advanced
   last_used: '2025'
@@ -376,3 +376,11 @@
   categories:
   - AI
   notes: Used for AI-assisted code generation, review, and development acceleration
+- name: Azure (Data Platform Foundations)
+  years: 0
+  proficiency: Beginner
+  last_used: '2026'
+  categories:
+  - Cloud
+  - Data Engineering
+  notes: Foundational upskilling in Azure data services and architecture patterns; experience transfer from AWS data engineering delivery.

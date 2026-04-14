@@ -1,0 +1,103 @@
+Data Engineer
+
+Dallas, TX · 6 days ago · Over 100 people clicked apply
+
+Promoted by hirer · Responses managed off LinkedIn
+About the job
+This employer will not sponsor applicants for employment visa status (e.g., H1-B) for this position.  All applicants must be currently authorized to work in the United States on a full-time basis. 
+
+Role Summary
+
+Loopback Health is seeking an innovative and team-oriented Data Engineer to join our team. In this role, you will be responsible for designing, building, and maintaining scalable data pipelines and transformation processes that power analytics and client solutions. You will play a critical role in managing data flows, ensuring data quality, and collaborating with cross-functional teams to drive system and process improvements. Additionally, you will support the design, implementation, and maintenance of key clinical and enterprise datasets.
+
+Key Responsibilities
+
+Design, build, and maintain scalable data pipelines to ingest, transform, and deliver data across diverse sources and environments
+Develop and manage ETL/ELT processes within cloud-based data platforms (e.g., Snowflake, Databricks)
+Own and maintain data transformation logic, codebases, and supporting documentation
+Model and optimize data structures within data lakes and data warehouses to support analytics and reporting use cases
+Ensure data reliability, integrity, and performance to meet client and application SLA requirements
+Manage evolving data ingestion formats across Health Systems, Life Sciences, and Enterprise partner ecosystems
+Drive automation and continuous improvement of data workflows to reduce manual effort and increase efficiency
+Implement data quality checks, monitoring, and validation processes
+Collaborate with business and technical stakeholders to gather requirements and translate them into scalable data solutions
+Develop and promote best practices in data engineering, data modeling, and pipeline design
+Conduct data profiling and support testing efforts in partnership with QA and DevOps teams
+
+Qualifications
+
+Required:
+
+3–5 years of experience in Data Engineering, Data Integration, or a related field
+Experience designing and building data pipelines and transformation workflows
+Hands-on experience with cloud data platforms (Snowflake, Databricks) and cloud environments (Azure)
+Strong experience with SQL and at least one programming language (e.g., Python, C#)
+Experience with relational and non-relational data modeling, schema design, and performance optimization
+Familiarity with data lake and data warehouse architecture
+
+Preferred
+
+Experience working with healthcare or clinical data
+Knowledge of data orchestration tools and workflow management
+Experience implementing data quality frameworks and automated testing
+Ability to communicate complex technical concepts to both technical and non-technical stakeholders
+
+Soft Skills
+
+Detail-oriented and data-driven.
+Proactive in identifying inefficiencies and suggesting pragmatic solutions.
+Comfortable working in a cross-functional, data-intensive environment.
+Strong communication and documentation skills.
+
+All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, or national origin.Data Engineer
+
+Dallas, TX · 6 days ago · Over 100 people clicked apply
+
+Promoted by hirer · Responses managed off LinkedIn
+About the job
+This employer will not sponsor applicants for employment visa status (e.g., H1-B) for this position.  All applicants must be currently authorized to work in the United States on a full-time basis. 
+
+Role Summary
+
+Loopback Health is seeking an innovative and team-oriented Data Engineer to join our team. In this role, you will be responsible for designing, building, and maintaining scalable data pipelines and transformation processes that power analytics and client solutions. You will play a critical role in managing data flows, ensuring data quality, and collaborating with cross-functional teams to drive system and process improvements. Additionally, you will support the design, implementation, and maintenance of key clinical and enterprise datasets.
+
+Key Responsibilities
+
+Design, build, and maintain scalable data pipelines to ingest, transform, and deliver data across diverse sources and environments
+Develop and manage ETL/ELT processes within cloud-based data platforms (e.g., Snowflake, Databricks)
+Own and maintain data transformation logic, codebases, and supporting documentation
+Model and optimize data structures within data lakes and data warehouses to support analytics and reporting use cases
+Ensure data reliability, integrity, and performance to meet client and application SLA requirements
+Manage evolving data ingestion formats across Health Systems, Life Sciences, and Enterprise partner ecosystems
+Drive automation and continuous improvement of data workflows to reduce manual effort and increase efficiency
+Implement data quality checks, monitoring, and validation processes
+Collaborate with business and technical stakeholders to gather requirements and translate them into scalable data solutions
+Develop and promote best practices in data engineering, data modeling, and pipeline design
+Conduct data profiling and support testing efforts in partnership with QA and DevOps teams
+
+Qualifications
+
+Required:
+
+3–5 years of experience in Data Engineering, Data Integration, or a related field
+Experience designing and building data pipelines and transformation workflows
+Hands-on experience with cloud data platforms (Snowflake, Databricks) and cloud environments (Azure)
+Strong experience with SQL and at least one programming language (e.g., Python, C#)
+Experience with relational and non-relational data modeling, schema design, and performance optimization
+Familiarity with data lake and data warehouse architecture
+
+Preferred
+
+Experience working with healthcare or clinical data
+Knowledge of data orchestration tools and workflow management
+Experience implementing data quality frameworks and automated testing
+Ability to communicate complex technical concepts to both technical and non-technical stakeholders
+
+Soft Skills
+
+Detail-oriented and data-driven.
+Proactive in identifying inefficiencies and suggesting pragmatic solutions.
+Comfortable working in a cross-functional, data-intensive environment.
+Strong communication and documentation skills.
+
+All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, or national origin.
