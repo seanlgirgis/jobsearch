@@ -1,0 +1,32 @@
+uuid: 2afe66f8-2617-497a-89a2-50fb6de8dfad
+job_id: 00023_2afe66f8
+original_filename: 00023 Qode Sr Data Engineer 02092026 1037.md
+company: Qode
+role: Sr Data Engineer
+company_website: Client is Wealth Management
+location: Plano, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-09T10:46:30.197212'
+created_at: '2026-02-09T10:46:30.197212'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-09)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-09T10:46:30.384041'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-09'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-09'
+    status: Applied
+    notes: Pipeline application
+job_hash: 0e8a7d8c53fc695881cefa6fff226d449525ef76eaeb30bbd5aa03ab1030fde3
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.728058'
+migration_source_root: data/jobs
+historical_archive_mode: true

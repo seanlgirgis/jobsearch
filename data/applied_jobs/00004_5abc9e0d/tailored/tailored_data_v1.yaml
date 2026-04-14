@@ -1,0 +1,125 @@
+company_name: Geico
+company_website: https://careers.geico.com/us/en/
+job_title: Senior Staff Engineer
+location: Richardson, Texas
+extracted_skills:
+- python
+- Scala
+- Java
+- Apache Spark
+- AWS
+- Microsoft Azure
+- Google Cloud
+- Docker
+- Kubernetes
+- DevOps
+- Apache Iceberg
+- Delta Lake
+- Apache Flink
+- Trino
+- Presto
+- distributed systems
+- cloud computing
+- infrastructure as code
+- continuous delivery
+job_summary: 'GEICO is seeking a Senior Staff Engineer to join their team in Richardson,
+  Texas, focusing on building high-performance, low-maintenance, zero-downtime platforms
+  and core data infrastructure. This role is pivotal in driving the company''s insurance
+  business transformation by transitioning to a tech organization with engineering
+  excellence at its core. Key responsibilities include designing and implementing
+  scalable Data Lakehouse components and leading performance optimization projects.
+  Candidates must have deep expertise in Apache Spark, cloud computing, and open-source
+  data technologies, along with significant experience in software development and
+  distributed systems.
+
+  '
+responsibilities:
+- Design and build scalable, resilient Data Lakehouse components for core data use-cases.
+- Lead architecture sessions and reviews with peers and leadership to drive innovation.
+- Evaluate and implement new software and tooling to enhance data infrastructure.
+- Develop and lead Compute Efficiency projects such as Smart Spark Auto-Tuning Features.
+- Conduct performance regression testing, benchmarking, and continuous profiling.
+- Ensure quality, usability, and performance of solutions while supporting resource
+  requirements.
+- Collaborate with cross-functional teams to address complex technical challenges.
+- Mentor and coach engineering teams to strengthen technical expertise and share best
+  practices.
+- Stay updated on the latest open-source projects and contribute to technology communities.
+requirements:
+- Deep knowledge of Spark internals, including Catalyst, Tungsten, AQE, and memory
+  tuning.
+- Proven experience in tuning and optimizing Spark jobs on Hyper-Scale Spark Compute
+  Platforms.
+- Strong software engineering skills in Scala, Java, and Python.
+- Expertise in designing and developing distributed, scalable, and resilient systems.
+- Advanced experience with open-source table formats like Apache Iceberg, Delta, or
+  Hudi.
+- Experience with cloud computing platforms such as AWS, Azure, or Google Cloud.
+- 10+ years of professional experience in data software development and big data technologies.
+- 8+ years of experience in architecture and design of complex systems.
+- 6+ years of experience with distributed systems, including at least 3 years focused
+  on Apache Spark.
+- Bachelor’s or Master’s degree in Computer Science, Software Engineering, or related
+  field.
+preferred:
+- Active or past Apache Spark Committer status or significant contributions to OSS
+  Apache Spark.
+- Experience with ML-based optimization techniques like reinforcement learning or
+  Bayesian tuning.
+- Contributions to other big data/open-source projects such as Delta Lake or Apache
+  Flink.
+- Background in designing performance regression frameworks and benchmarking suites.
+- Deep understanding of Spark accelerators like Spark RAPIDS or Apache Gluten.
+- Experience in documenting methodologies and producing publication-style papers or
+  whitepapers.
+benefits:
+- Comprehensive Total Rewards program with personalized coverage for well-being.
+- Market-competitive compensation and a 401K savings plan with a 6% match from day
+  one.
+- Performance and recognition-based incentives and tuition assistance.
+- Access to mental healthcare, fertility, and adoption assistance benefits.
+- Workplace flexibility and GEICO Flex program allowing remote work for up to four
+  weeks per year.
+- Industry-leading training, certification assistance, career mentorship, and coaching.
+- Inclusive culture with employee engagement and recognition programs.
+must_have_skills:
+- Apache Spark
+- Scala
+- Java
+- Python
+- Cloud Computing
+- Distributed Systems
+- Data Lakehouse Platforms
+nice_to_have_skills:
+- Apache Spark Committer
+- ML-based Optimization
+- Spark Accelerators
+- Performance Benchmarking
+- Open-Source Contributions
+ats_keywords:
+- Senior Staff Engineer
+- Data Lakehouse
+- Apache Spark
+- Spark Tuning
+- Cloud Computing
+- AWS
+- Azure
+- Google Cloud
+- Distributed Systems
+- Scala
+- Java
+- Python
+- Open-Source Frameworks
+- DevOps
+- Infrastructure as Code
+- Continuous Delivery
+- Apache Iceberg
+- Delta Lake
+- Apache Flink
+- Trino
+- Presto
+- Docker
+- Kubernetes
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

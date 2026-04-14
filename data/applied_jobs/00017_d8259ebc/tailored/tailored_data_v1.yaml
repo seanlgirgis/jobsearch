@@ -1,0 +1,81 @@
+company_name: Anthropic
+company_website: https://www.anthropic.com/careers
+job_title: Capacity Engineer Compute
+location: Dallas, New York City, NY
+extracted_skills:
+- cloud infrastructure
+- capacity planning
+- automation
+- scripting
+- data modeling
+- public cloud providers
+- budgeting
+- cloud efficiency optimization
+- cost analytics
+- infrastructure management
+job_summary: 'Anthropic, a company focused on creating safe and beneficial AI systems,
+  is seeking a Capacity Engineer Compute to join their Compute team. This role involves
+  shaping the company-wide cloud infrastructure strategy, providing expertise in capacity
+  planning and performance, and ensuring optimal operation and growth of infrastructure
+  from cost and technology perspectives. Key responsibilities include developing self-service
+  tools, automating capacity planning, and collaborating with engineering, finance,
+  and data science teams to analyze and forecast growth. The ideal candidate will
+  have over 5 years of experience in capacity engineering and technical roles, with
+  strong knowledge of public cloud providers and budgeting.
+
+  '
+responsibilities:
+- Develop tools and processes for engineers to monitor capacity, efficiency, and costs.
+- Design and implement automation for short-term and long-term capacity planning.
+- Establish governance workflows for managing capacity request approvals.
+- Evaluate new capacity requests to optimize resource usage and instance sizing.
+- Lead cost-to-serve analytics to inform engineering, finance, and leadership on total
+  cost of ownership and scaling impacts.
+- Collaborate with external vendors to address capacity needs.
+- Identify and propose solutions for infrastructure inefficiencies.
+- Advise engineering, finance, and executive teams on major expenditure areas.
+- Partner with Technical Program Managers on efficiency projects to achieve targeted
+  outcomes.
+requirements:
+- 5+ years of experience in capacity engineering.
+- 5+ years of experience in a technical role.
+- Intermediate knowledge of various public cloud providers.
+- Experience with data modeling for public cloud environments.
+- Background in budgeting, capacity planning, and cloud efficiency optimization.
+- Proficiency in scripting and building automation tools.
+- Bachelor’s degree in a related field or equivalent experience.
+preferred:
+- Familiarity with cloud compute, storage, network, and services.
+- Self-disciplined with the ability to thrive in fast-paced environments.
+- Excellent communication skills.
+- Strong attention to detail and passion for accuracy.
+benefits:
+- Competitive annual salary range of $320,000 - $405,000 USD.
+- Optional equity donation matching.
+- Generous vacation and parental leave policies.
+- Flexible working hours.
+- Collaborative office space in San Francisco headquarters.
+must_have_skills:
+- capacity engineering
+- cloud infrastructure
+- automation
+- budgeting
+- data modeling
+nice_to_have_skills:
+- cloud services familiarity
+- scripting expertise
+- cross-functional collaboration
+ats_keywords:
+- capacity planning
+- cloud infrastructure
+- automation tools
+- public cloud providers
+- cost analytics
+- infrastructure efficiency
+- budgeting
+- data modeling
+- capacity engineering
+- cloud efficiency optimization
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,35 @@
+application:
+  application_notes: Applied via Thomson Reuters careers portal
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Company Website
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+  - date: '2026-03-11'
+    notes: Applied via Thomson Reuters careers portal
+    status: Applied
+company: Thomson Reuters
+company_website: ''
+created_at: '2026-03-11T09:37:16.858253'
+job_id: '00043_02035075'
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T09:37:17.088802'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: intake.md
+recommendation: Strong Proceed
+role: Staff Software Engineer - AI II
+score: 85
+score_date: '2026-03-11T09:37:16.858253'
+status: ACCEPTED
+uuid: 02035075-c54f-4476-a4f2-8614adf308a9
+job_hash: b2db78f51125bf89c388f69a6b57c4defb307c0724215353e501073216b78167
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.923246'
+migration_source_root: data/jobs
+historical_archive_mode: true

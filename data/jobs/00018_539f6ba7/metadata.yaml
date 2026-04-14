@@ -36,3 +36,8 @@ application:
     notes: No response after passing aptitude test Feb 10. 30 days of silence. Closing.
   last_status: GHOSTED
   last_status_date: '2026-03-11'
+job_hash: fada24b37e9111871bb82bba508d550013c3f51c0259dab7278a6a213a077808
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.692767'
+applied_jobs_path: data/applied_jobs/00018_539f6ba7
+historical_archive_mode: true

@@ -1,0 +1,32 @@
+uuid: 8c605523-23c2-49cb-97ce-220ed06cb0f9
+job_id: 00044_8c605523
+original_filename: intake.md
+company: BCG Platinion
+role: Senior IT Architect - AI Platforms
+company_website: ''
+location: Dallas, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T10:28:06.638474'
+created_at: '2026-03-11T10:28:06.638474'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T10:28:06.799711'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application
+job_hash: f0464347e9a7774d871138dc99027736f4b57a62ddf16a50da69a11733313e59
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.933936'
+migration_source_root: data/jobs
+historical_archive_mode: true

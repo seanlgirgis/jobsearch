@@ -1,0 +1,38 @@
+uuid: 71272f0d-a9e2-4d47-9b3a-dc8b1d623f01
+job_id: 00020_71272f0d
+original_filename: 00020 Geico Staff Engineer - Capacity Planning and Management 02072026
+  2137.md
+company: Geico
+role: Capacity Planning and Management
+company_website: https://geico.wd1.myworkdayjobs.com/
+location: Dallas, TX
+status: ACCEPTED
+score: 95
+recommendation: Strong Proceed
+score_date: '2026-02-07T21:42:20.007938'
+created_at: '2026-02-07T21:42:20.007938'
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-07)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-07T21:42:20.209778'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-07'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-07'
+    status: Applied
+    notes: Pipeline application
+  - date: '2026-03-11'
+    status: REJECTED
+    notes: GEICO portal confirmed Not Hired (Feb 2026)
+  last_status: REJECTED
+  last_status_date: '2026-03-11'
+job_hash: a6e78a731d3bce70eee201b11b91e132273455a97e6f101865ed8a0eef49c640
+submission_status: applied
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.770245'
+migration_source_root: data/jobs

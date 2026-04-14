@@ -1,0 +1,32 @@
+uuid: 6dbaa234-a37c-41e3-9ce3-5c0ff2126fca
+job_id: 00008_6dbaa234
+original_filename: 00008.OdenTechnologies.MLEngineer.02062026.1326.md
+company: Oden Technologies
+role: Machine Learning Data Engineer
+company_website: ''
+location: USA, Remote
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-06T13:34:22.058005'
+created_at: '2026-02-06T13:34:22.058005'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T13:34:22.222609'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
+job_hash: 860438a74f8aca52c4cc4b14bc8ffe641361bb0aa4d771a6e6f3e5281ecaf7d4
+submission_status: applied
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.656164'
+migration_source_root: data/jobs

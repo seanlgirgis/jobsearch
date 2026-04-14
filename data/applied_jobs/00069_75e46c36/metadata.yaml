@@ -1,0 +1,14 @@
+uuid: 75e46c36-e4d6-4864-8fa8-acf8bc0d00e0
+job_id: 00069_75e46c36
+original_filename: intake_cache_fixture.md
+created_at: '2026-04-14T11:10:12.714082'
+status: PENDING
+job_hash: d93ba658e28fb4f6f16a70ad640ac705c13c2ef70281bc0195f4f4f8c05ee319
+tier0_decision: needs_llm
+llm_decision: proceed
+user_decision: pending
+score: 88
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.214341'
+migration_source_root: data/jobs
+historical_archive_mode: true

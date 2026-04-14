@@ -1,0 +1,121 @@
+company_name: Hershey
+company_website: https://careers.thehersheycompany.com/
+job_title: Senior Data Engineer, Data Products
+location: Dallas, TX / Hershey, PA
+extracted_skills:
+- python
+- sql
+- azure
+- databricks
+- aws
+- java
+- c++
+- c#
+- javascript
+- postgresql
+- mysql
+- mongodb
+- etl
+- elt
+- data modeling
+- data pipelines
+- cloud data platforms
+- data lakes
+- orchestration
+- delta lake
+- medallion architecture
+- data quality
+- metadata
+- lineage
+- data governance
+job_summary: 'The Senior Data Engineer, Data Products at Hershey plays a pivotal role
+  in designing and operating enterprise-grade data products to support analytics,
+  reporting, and AI across business domains. This position involves building scalable
+  data pipelines and models using Azure and Databricks, ensuring data governance and
+  reusability. Collaborating with Data Product Managers and Platform Engineering,
+  the role translates business needs into technical solutions. Based in Dallas, TX
+  or Hershey, PA, the position contributes to Hershey’s long-term data strategy by
+  creating trusted, durable data assets. Candidates should have 5-7 years of experience
+  in data engineering and proficiency in Python and SQL.
+
+  '
+responsibilities:
+- Collaborate with business stakeholders to convert requirements into technical designs
+  and acceptance criteria.
+- Design and maintain scalable data pipelines and transformations using Azure and
+  Databricks.
+- Implement standardized ingestion frameworks and repeatable workflows following enterprise
+  engineering practices.
+- Develop and optimize data models for analytics, reporting, and AI/ML applications.
+- Apply best practices for performance tuning, cost optimization, security, and reliability
+  in data solutions.
+- Ensure alignment with enterprise architecture, including shared infrastructure and
+  platform standards.
+- Embed governance principles such as lineage, metadata, and certification into data
+  products.
+- Implement data quality monitoring and automated checks to maintain trust and accuracy.
+- Work with domain teams to validate data products against business needs and definitions.
+- Partner with Platform Engineering and Data Operations for pipeline frameworks, documentation,
+  and governance.
+requirements:
+- Bachelor’s or Master’s degree in Data Science, Engineering, or a related field.
+- 5-7 years of experience in data, analytics, or engineering roles.
+- Strong experience in ETL/ELT design, distributed processing, and pipeline optimization.
+- Hands-on expertise with cloud data platforms like Azure (preferred) or AWS.
+- Proficiency in Python, SQL, and modular coding practices.
+- Skilled in dimensional and semantic data modeling for analytics-ready structures.
+- Ability to translate business needs into technical solutions and communicate effectively
+  across teams.
+preferred:
+- Experience with Databricks and data lake architectures.
+- Familiarity with Delta Lake and medallion architecture patterns.
+- Knowledge of data quality frameworks and metadata cataloging.
+- Working knowledge of additional programming languages like Java, C#, or JavaScript.
+- Experience with SQL-based and NoSQL technologies such as PostgreSQL, MySQL, or MongoDB.
+benefits:
+- Equal Opportunity Employer with a commitment to diversity and inclusion.
+- Reasonable accommodations provided for applicants with disabilities during the application
+  process.
+must_have_skills:
+- Python
+- SQL
+- Azure or AWS
+- ETL/ELT design
+- Data modeling
+- Data pipeline development
+nice_to_have_skills:
+- Databricks
+- Delta Lake
+- Medallion architecture
+- Java
+- C#
+- JavaScript
+- PostgreSQL
+- MySQL
+- MongoDB
+ats_keywords:
+- Senior Data Engineer
+- Data Products
+- Azure
+- Databricks
+- AWS
+- Python
+- SQL
+- ETL
+- ELT
+- Data Pipelines
+- Data Modeling
+- Cloud Data Platforms
+- Data Lakes
+- Delta Lake
+- Medallion Architecture
+- Data Governance
+- Data Quality
+- Metadata
+- Lineage
+- Analytics
+- AI/ML
+- Enterprise Data Strategy
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

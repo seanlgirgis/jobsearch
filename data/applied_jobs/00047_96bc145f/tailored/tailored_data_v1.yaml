@@ -1,0 +1,140 @@
+company_name: Hitachi Digital Services
+company_website: ''
+job_title: Senior Backend Engineer (LLM Automation)
+location: Dallas, TX
+extracted_skills:
+- python
+- distributed systems
+- microservices
+- postgresql
+- dbt
+- vector databases
+- caching
+- streaming
+- queueing
+- aws
+- lambda
+- ecs/eks
+- s3
+- api gateway
+- ec2
+- iam
+- infrastructure-as-code
+- ci/cd
+- github actions
+- observability
+- datadog
+- logging
+- tracing
+- metrics
+- pinecone
+- pgvector
+- llm
+- rag
+- retrieval-augmented generation
+- multi-agent architectures
+- software modernization
+- technical debt remediation
+- application modernization
+- dependency management
+job_summary: 'Hitachi Digital Services is a global digital solutions and transformation
+  business focused on innovation and technology to power a better tomorrow. The Senior
+  Backend Engineer (LLM Automation) role in Dallas, TX, involves joining a horizontal
+  engineering team to enhance engineering maturity across 600+ application teams.
+  Key responsibilities include designing LLM-powered multi-agent workflows for code
+  analysis and technical debt remediation, building scalable automation systems, and
+  collaborating with cross-functional teams. Candidates must have 5+ years of experience
+  in production-grade systems, expertise in Python, and hands-on experience with LLM
+  features and AWS.
+
+  '
+responsibilities:
+- Design and develop LLM-powered multi-agent workflows for code analysis, remediation
+  proposals, and safe patch generation.
+- Implement agentic patterns such as planning/execution loops, dynamic tool orchestration,
+  sandboxing, guardrails, and failure recovery.
+- Build scalable automation systems for technical debt remediation, including language
+  upgrades, vulnerability patching, and dependency modernization.
+- Collaborate with Dev Experience and Platform teams to establish engineering guidelines
+  and reusable standards.
+- Architect and optimize Retrieval-Augmented Generation (RAG) pipelines, focusing
+  on chunking, embeddings, and retrieval policies.
+- Develop evaluation frameworks for LLMs, RAG, and agent workflows using offline datasets,
+  validation metrics, and statistical testing.
+- Contribute to backend systems using Python, distributed systems, microservices,
+  PostgreSQL, DBT, and vector databases.
+- Create CI/CD pipelines, observability dashboards, and perform performance analysis
+  on model and network layers.
+- Work cross-functionally with product, platform, and security teams to transition
+  prototypes to production-grade services.
+- Communicate effectively with stakeholders, produce technical documentation, and
+  mentor junior engineers.
+requirements:
+- 5+ years of experience building production-grade systems with end-to-end ownership.
+- Expertise in Python programming, software engineering best practices, testing strategies,
+  CI/CD, and system design.
+- Hands-on experience delivering LLM-powered features with measurable impact on reliability
+  or latency.
+- Deep knowledge of multi-agent architectures, including planners, executors, and
+  tool routing.
+- Strong understanding of RAG systems, including chunking, embeddings, vector/hybrid
+  search, and retrieval policies.
+- Experience evaluating LLMs and agent workflows with statistical reasoning and validation.
+- Proficiency with AWS services (Lambda, ECS/EKS, S3, API Gateway, EC2, IAM) and Infrastructure-as-Code.
+- Experience with observability tools such as Datadog for logging, tracing, and metrics.
+- Familiarity with PostgreSQL, DBT, data modeling, schema evolution, and performance
+  tuning.
+- Knowledge of vector databases like Pinecone or pgvector.
+- Experience building or optimizing CI/CD pipelines using tools like GitHub Actions.
+- Proven track record in application modernization, dependency management, and technical
+  debt reduction.
+- Ability to prototype, validate, and transition solutions to production systems.
+preferred:
+- Experience designing agent infrastructure with sandboxing, tool isolation, and fail-safe
+  execution.
+- Background in large-scale platform engineering or developer experience tooling.
+- Understanding of security, compliance, and privacy for enterprise AI systems.
+- Strong architectural communication skills, including RFC writing and diagramming.
+benefits:
+- Industry-leading benefits, support, and services for holistic health and wellbeing.
+- Flexible work arrangements to support life balance (role and location dependent).
+- A sense of belonging, autonomy, freedom, and ownership in a collaborative environment.
+- Commitment to an inclusive culture based on mutual respect and merit-based systems.
+must_have_skills:
+- Python programming
+- LLM-powered features
+- Multi-agent architectures
+- RAG systems
+- AWS proficiency
+- CI/CD pipelines
+- Technical debt remediation
+- Production-grade systems experience
+nice_to_have_skills:
+- Agent infrastructure design
+- Platform engineering
+- Security and compliance for AI systems
+- Architectural communication
+ats_keywords:
+- senior backend engineer
+- llm automation
+- multi-agent workflows
+- code analysis
+- technical debt remediation
+- retrieval-augmented generation
+- python programming
+- distributed systems
+- aws cloud services
+- ci/cd pipelines
+- observability tools
+- vector databases
+- software modernization
+- application modernization
+- dependency management
+- postgresql database
+- infrastructure-as-code
+- platform engineering
+- agentic patterns
+- rag pipelines
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

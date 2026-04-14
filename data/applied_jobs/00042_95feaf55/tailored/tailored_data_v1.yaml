@@ -1,0 +1,101 @@
+company_name: SoFi
+company_website: ''
+job_title: Senior Data Engineer
+location: Frisco, TX
+extracted_skills:
+- python
+- sql
+- aws
+- snowflake
+- postgresql
+- gitlab
+- airflow
+- dbt
+- redshift
+- gcp
+- data modeling
+- database design
+- data architecture
+- etl
+- big data pipelines
+- ai tools
+- cursor
+- claude code
+- co pilot
+job_summary: 'SoFi, a next-generation financial services company and national bank,
+  is seeking a Senior Data Engineer to join their SIPS Data Engineering team in Frisco,
+  TX. The role focuses on designing and developing robust data models and pipelines
+  to support SoFi’s Financial Services products for analytical, reporting, and machine
+  learning use-cases. Key responsibilities include optimizing large-scale data systems,
+  enforcing data governance, and collaborating with cross-functional teams. Candidates
+  should have 5-7 years of data engineering experience, proficiency in tools like
+  Snowflake, Python, and AWS, and a strong background in data modeling and architecture.
+
+  '
+responsibilities:
+- Design and develop scalable data models and pipelines for data ingestion, processing,
+  storage, and retrieval.
+- Evaluate and select technologies and tools to build reliable data infrastructure.
+- Optimize data engineering systems to efficiently handle large-scale datasets with
+  horizontal and vertical scalability.
+- Collaborate with data scientists, engineers, and business stakeholders to understand
+  and meet data requirements.
+- Communicate complex technical concepts effectively to non-technical stakeholders.
+- Enforce data governance policies to ensure data integrity, security, and regulatory
+  compliance.
+- Implement data protection mechanisms and access controls in collaboration with governance
+  and security teams.
+requirements:
+- Bachelor's degree in Computer Science, Data Science, Engineering, or a related field.
+- 5-7 years of experience in data engineering and analytics technical strategy.
+- Proficiency in data engineering tools such as Snowflake, PostgreSQL, Python, SQL,
+  GitLab, AWS, Airflow, and DBT.
+- Experience with relational and cloud database platforms like Snowflake, Redshift,
+  or GCP.
+- Strong knowledge of data modeling, database design, data architecture principles,
+  and data operations.
+- Strong analytical and problem-solving skills to simplify complex issues into actionable
+  plans.
+- Ability to travel up to 10-15% as required for the role.
+preferred:
+- Experience in the Fintech industry.
+- Familiarity with AI tools in data workflows such as Cursor, Claude Code, or Co Pilot.
+benefits:
+- Competitive base pay based on experience, skills, and location.
+- Comprehensive benefits package (details available on SoFi's Benefits page).
+- Commitment to an inclusive culture with reasonable accommodations for candidates
+  with disabilities.
+must_have_skills:
+- Python
+- SQL
+- Snowflake
+- AWS
+- Data modeling
+- ETL processes
+- Big data pipelines
+nice_to_have_skills:
+- Fintech industry experience
+- AI tools (Cursor, Claude Code, Co Pilot)
+- Redshift
+- GCP
+ats_keywords:
+- senior data engineer
+- data engineering
+- big data pipelines
+- data modeling
+- database design
+- Snowflake
+- PostgreSQL
+- Python
+- SQL
+- AWS
+- Airflow
+- DBT
+- fintech
+- data governance
+- data infrastructure
+- machine learning data
+- analytical reporting
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

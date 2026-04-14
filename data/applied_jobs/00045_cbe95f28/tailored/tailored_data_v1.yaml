@@ -1,0 +1,118 @@
+company_name: Bank of America
+company_website: https://www.bankofamerica.com
+job_title: Senior Engineer-AI Inference
+location: Addison, TX
+extracted_skills:
+- Python
+- Linux
+- AI/ML
+- Model Ops
+- Gen AI
+- CI/CD
+- Jupyter
+- VSCode
+- Redis
+- Solar
+- Postgres DB
+- FAISS
+- Teradata
+- Oracle
+- SQL Server
+- Hadoop
+- vLLM
+- Triton Inference Server
+- RAG
+- Model Monitoring
+- Test Driven Development
+job_summary: 'Join Bank of America as a Senior Engineer-AI Inference in Addison, TX,
+  and be part of a pioneering team building the next generation of Gen AI platforms.
+  This role focuses on designing and serving AI inferencing capabilities to support
+  initiatives across Consumer, Small Business, Global Banking, and Wealth organizations.
+  Key responsibilities include delivering complex features, leading technical strategy,
+  and ensuring high-performance AI solutions. Candidates must have at least 8 years
+  of relevant experience in AI/ML, Model Ops, and software development, with strong
+  expertise in Python and modern data science platforms.
+
+  '
+responsibilities:
+- Design and engineer complex features consistent with broader portfolio solutions.
+- Define technology tool stacks and evaluate new testing tools and frameworks for
+  team use.
+- Enable Continuous Integration/Continuous Development (CI/CD) capabilities for teams
+  and applications.
+- Guide teams on design and best practices for high code performance through pairing
+  and code reviews.
+- Deliver end-to-end complex features and automation for single or multiple teams
+  at a program level.
+- Conduct research, prototyping, and exploration of new tools and components for release
+  management and CI/CD.
+- Collaborate with stakeholders to define high-level solution needs and technical
+  requirements with architects.
+- Manage multiple priorities and engage with global teams simultaneously.
+- Coach and mentor team members to enhance technical skills and project delivery.
+requirements:
+- Minimum 8 years of relevant experience in AI/ML, Model Ops, and software development.
+- Hands-on experience in Python development on Linux platforms.
+- Strong understanding of open-source data science platform architecture, including
+  storage & compute separation, interactive workbenches, containers, and tools like
+  Jupyter and VSCode.
+- Experience with data sources and Vector Store platforms such as Redis, Solar, Postgres
+  DB, FAISS, Teradata, Oracle, SQL Server, and Hadoop.
+- Proficiency in using design patterns and adhering to software engineering best practices.
+- Knowledge of fundamental algorithms and ability to optimize existing code.
+- Experience deploying models using vLLM/Triton Inference Server and performance tuning
+  for higher throughput.
+- Familiarity with inference metrics, monitoring, and observability.
+- Ability to serve multiple tenants/clients with secure model endpoints.
+- Experience with authentication, authorization, policy as code, systems integration,
+  and model routing.
+- Knowledge of model evaluation frameworks to assess efficiency and performance metrics.
+- Experience building Retrieval-Augmented Generation (RAG) for various knowledge bases
+  and document types.
+- Capability in model monitoring to measure model drift and key performance indicators
+  (KPIs).
+- Strong analytical and problem-solving skills with the ability to take initiative
+  and manage concurrent tasks.
+- Proficient written and verbal communication skills to articulate technical designs
+  and concepts.
+preferred:
+- Experience developing Gen AI training and inferencing platforms with open-source
+  models.
+- Expertise in Gen AI model servicing capabilities and designing RAG frameworks.
+- Familiarity with MCP modules for enterprise data systems.
+benefits:
+- Opportunity to build a successful career with learning and growth opportunities.
+- Commitment to an inclusive workplace with support for physical, emotional, and financial
+  wellness.
+- Recognition and rewards for performance.
+- Impactful work in communities served by Bank of America.
+must_have_skills:
+- Python
+- AI/ML
+- Model Ops
+- Gen AI Inferencing
+- CI/CD
+- Model Deployment
+nice_to_have_skills:
+- Gen AI Training Platforms
+- RAG Framework Design
+- Enterprise Data Systems
+ats_keywords:
+- AI Inference
+- Gen AI Platform
+- Model Ops
+- Python Development
+- Linux
+- CI/CD Pipeline
+- Model Deployment
+- vLLM
+- Triton Inference Server
+- RAG Framework
+- Model Monitoring
+- Vector Store Platforms
+- Data Science Architecture
+- Continuous Integration
+- Software Engineering Practices
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,32 @@
+uuid: cbe95f28-cae8-4841-8b88-f69960d529df
+job_id: 00045_cbe95f28
+original_filename: intake.md
+company: Bank of America
+role: Senior Engineer-AI Inference
+company_website: https://www.bankofamerica.com
+location: Addison, TX
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T10:53:40.967162'
+created_at: '2026-03-11T10:53:40.967162'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T10:53:41.122036'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Company Website
+  application_notes: Manually submitted via company website
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Manually submitted via company website
+job_hash: 63370fff93b61c5eb6d7785df70da511a87c8ba0e7df371c00f6544ac6fd43b6
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.943154'
+migration_source_root: data/jobs
+historical_archive_mode: true

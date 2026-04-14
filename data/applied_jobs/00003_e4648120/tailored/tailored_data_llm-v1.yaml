@@ -1,0 +1,121 @@
+company_name: FisherInvestments
+company_website: https://www.fisherinvestments.com/
+job_title: Senior Data Engineer
+location: Plano, Texas
+extracted_skills:
+- Python
+- SQL
+- Azure
+- T-SQL
+- Azure SQL
+- Azure Storage
+- Azure Data Factory
+- Azure Synapse
+- Cosmos DB
+- GitHub
+- Azure DevOps
+- CI/CD
+- ETL
+- ELT
+- SSIS
+- Informatica
+- Kafka
+- Spark
+- MuleSoft
+- Microsoft SQL Server
+- Oracle
+- NoSQL
+- Scala
+- DevOps
+job_summary: 'Fisher Investments is seeking a Senior Data Engineer to join their Technology
+  Department in Plano, Texas, to support the Enterprise Data Management team. This
+  role focuses on designing and delivering modern data solutions using cloud-based
+  platforms and AI-driven innovations. The engineer will collaborate with business,
+  technology, and governance teams to build scalable, secure, and compliant data platforms
+  for advanced analytics and AI. Key responsibilities include developing data pipelines,
+  optimizing data processing systems, and ensuring security and monitoring. Candidates
+  should have extensive experience in data engineering, cloud technologies, and relational
+  databases.
+
+  '
+responsibilities:
+- Design and deliver modern data solutions using cloud-based platforms and AI-driven
+  innovations.
+- Collaborate with business, technology, and governance teams to enable scalable,
+  secure, and compliant data platforms.
+- Develop, configure, and manage integration tools, databases, warehouses, and analytical
+  systems.
+- Design, build, and deploy data extraction, transformation, and loading processes
+  from various sources.
+- Develop structured, semi-structured, and unstructured data storage models to meet
+  business needs.
+- Coordinate security, application monitoring, and development tooling with responsible
+  teams.
+- Provide operational support and incident management for data pipelines and flows.
+- Author and maintain accurate documentation for processes, procedures, and technical
+  designs.
+- Coach junior data and business intelligence personnel on technical skill growth.
+requirements:
+- 15+ years of experience developing data-related solutions and software.
+- 10+ years of experience with relational databases, including Microsoft Azure platform
+  applications.
+- 4+ years of experience with multiple cloud technologies in the Microsoft Stack (Azure
+  IaaS and PaaS).
+- 4+ years of experience designing and developing on-premises and cloud-based (Azure)
+  infrastructure.
+- 4+ years of hands-on development with Azure cloud tools like T-SQL, Azure SQL, and
+  Azure Data Factory.
+- Advanced knowledge of ETL/ELT tools such as SSIS, Informatica, Kafka, or Spark.
+- Advanced knowledge of database technologies like Microsoft SQL Server, Oracle, or
+  NoSQL.
+- Advanced knowledge of programming languages such as Python, SQL, or Scala.
+- Bachelor's degree in Computer Science, Information Technology, or a relevant field.
+preferred:
+- Familiarity with alternative cloud technologies beyond Azure.
+- Experience with IT infrastructure standards and tools like application performance
+  monitoring or IT service management.
+- Prior experience coaching or mentoring junior team members.
+benefits:
+- 100% paid medical, dental, and vision premiums for employees and qualifying dependents.
+- 50% 401(k) match, up to the IRS maximum.
+- 20 days of PTO, plus 10 paid holidays.
+- Family Support programs including 8 weeks Paid Primary Caregiver Leave.
+- $10,000 fertility, family forming, and hormonal health assistance.
+- Back-up child, adult, and elder care services.
+- Opportunity for hybrid work from home based on role, tenure, and performance eligibility.
+must_have_skills:
+- Azure cloud technologies
+- Data pipeline development
+- ETL/ELT processes
+- Relational databases
+- T-SQL and Azure SQL
+nice_to_have_skills:
+- Scala programming
+- Alternative cloud platforms
+- Mentoring experience
+- NoSQL databases
+ats_keywords:
+- Senior Data Engineer
+- Azure cloud
+- Data pipeline
+- ETL processes
+- ELT tools
+- Microsoft SQL Server
+- Azure Data Factory
+- Azure Synapse
+- Cosmos DB
+- CI/CD pipelines
+- Data warehouse
+- Data mart
+- Cloud-based infrastructure
+- Data extraction
+- Data transformation
+- Data loading
+- Agile practices
+- Data governance
+- Data security
+- Application monitoring
+- DevOps software
+tailoring_method: llm
+llm_model: grok-3
+llm_version: llm-v1

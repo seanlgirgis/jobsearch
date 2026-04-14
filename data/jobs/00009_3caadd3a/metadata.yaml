@@ -30,3 +30,8 @@ application:
     notes: BY Email. no snowflake
   last_status: REJECTED
   last_status_date: '2026-02-09'
+job_hash: 72b374defd7634702585cc9f654a258bf91d6e7eb34e1082383c257eec88e411
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.673162'
+applied_jobs_path: data/applied_jobs/00009_3caadd3a
+historical_archive_mode: true

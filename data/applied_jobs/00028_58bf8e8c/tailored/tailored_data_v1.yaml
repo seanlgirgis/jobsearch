@@ -1,0 +1,144 @@
+company_name: ClifyX
+company_website: ''
+job_title: Data Engineer with Amazon Client Experience
+location: Santa Clara, CA, US
+extracted_skills:
+- python
+- sql
+- aws
+- spark
+- pyspark
+- hadoop
+- hive
+- scala
+- glue
+- s3
+- redshift
+- emr
+- lambda
+- kinesis
+- athena
+- sql server
+- postgresql
+- mysql
+- nosql
+- dynamodb
+- mongodb
+- ci/cd
+- devops
+- iac
+- terraform
+- cloudformation
+- cloudwatch
+- data modeling
+- data warehousing
+- distributed computing
+- etl
+- elt
+- data pipeline
+- data lake
+- lake formation
+- step functions
+- data cataloging
+- metadata management
+- data lifecycle
+- data quality
+- data governance
+- iam
+- kms
+- encryption
+job_summary: 'ClifyX is seeking a Data Engineer for a 12+ month contract in Santa
+  Clara, CA, with a hybrid-onsite work arrangement. The role focuses on designing
+  and maintaining scalable ETL/ELT pipelines using AWS services, architecting data
+  lakes and warehouses, and supporting analytics and machine learning teams with high-quality
+  datasets. Candidates must have 7+ years of data engineering experience, a strong
+  understanding of AWS platforms, and prior experience working with Amazon in a similar
+  capacity.
+
+  '
+responsibilities:
+- Design, build, and maintain scalable ETL/ELT pipelines using AWS services like Glue,
+  Lambda, EMR, and Step Functions.
+- Develop batch and real-time data ingestion processes from diverse sources including
+  APIs, RDBMS, and streaming platforms.
+- Optimize data workflows for performance, scalability, and cost-efficiency.
+- Architect and implement data lakes and warehouses using S3, Redshift, Lake Formation,
+  and Athena.
+- Manage data modeling with star/snowflake schemas and design optimized storage layers.
+- Implement data cataloging, metadata management, and data lifecycle policies.
+- Support analytics and machine learning teams by providing curated, high-quality
+  datasets.
+- Build CI/CD pipelines for data engineering using tools like CodePipeline, CodeBuild,
+  and GitHub Actions.
+- Write Infrastructure as Code (IaC) using Terraform or AWS CloudFormation.
+- Monitor, troubleshoot, and optimize workloads with CloudWatch and distributed logging
+  tools.
+- Implement data validation frameworks and automated quality checks.
+- Ensure compliance with security, privacy, and governance standards using IAM, KMS,
+  and encryption.
+requirements:
+- 7+ years of experience in data engineering or related fields.
+- Strong hands-on experience with AWS services including Glue, S3, Redshift, EMR,
+  Lambda, Kinesis, and Athena.
+- Proficiency in big data technologies such as Spark, PySpark, Hadoop, and Hive.
+- Expertise in programming languages like Python and SQL.
+- Experience with databases including SQL Server, PostgreSQL, MySQL, and NoSQL databases
+  like DynamoDB and MongoDB.
+- Familiarity with CI/CD, DevOps practices, and Infrastructure as Code (IaC) tools.
+- Strong understanding of data modeling, data warehousing, and distributed computing
+  concepts.
+- Prior experience working with Amazon in a similar role.
+preferred:
+- Knowledge of Scala programming.
+- Experience with Terraform for IaC.
+- Familiarity with advanced analytics and machine learning support.
+benefits:
+- Opportunity to work on a long-term 12+ month contract.
+- Hybrid-onsite work arrangement in Santa Clara, CA.
+must_have_skills:
+- AWS Data Platform
+- Data Engineering
+- ETL/ELT Pipeline Development
+- Amazon Client Experience
+- Python
+- SQL
+- Spark/PySpark
+- Data Modeling
+nice_to_have_skills:
+- Scala
+- Terraform
+- Advanced Machine Learning Support
+ats_keywords:
+- data engineer
+- aws data platform
+- amazon client experience
+- etl pipeline
+- elt pipeline
+- data lake
+- data warehouse
+- aws glue
+- aws s3
+- aws redshift
+- aws emr
+- aws lambda
+- aws kinesis
+- aws athena
+- spark
+- pyspark
+- hadoop
+- hive
+- python
+- sql
+- data modeling
+- ci/cd
+- devops
+- iac
+- terraform
+- cloudformation
+- data quality
+- data governance
+- big data
+- distributed computing
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

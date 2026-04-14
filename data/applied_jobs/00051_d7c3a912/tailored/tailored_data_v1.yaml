@@ -1,0 +1,84 @@
+company_name: Ekman Associates, Inc.
+company_website: ''
+company_type: agency
+job_title: Data Engineer
+location: Remote
+job_summary: >
+  Design and build scalable real-time and batch data solutions powering analytics
+  and operational platforms. Focus on API connector development, event-driven pipelines,
+  lakehouse data management, ETL/ELT transformation, data quality, and cross-functional
+  collaboration.
+
+responsibilities:
+  - Build, maintain, and document scalable API integrations with internal and external platforms
+  - Design event-driven pipelines using Kafka, Kinesis, or similar messaging systems
+  - Manage ingestion and transformation pipelines into lakehouse / eventhouse architectures
+  - Use ETL/ELT tools and scripting to clean, transform, and enrich data
+  - Establish automated validation rules and monitor data integrity
+  - Partner with analytics, business, and engineering teams for data requirements
+
+requirements:
+  - Bachelor's degree or equivalent experience
+  - 3-6 years data engineering or backend data experience
+  - API integration and event-driven pipeline experience
+  - Python, PySpark, SQL proficiency
+  - AWS, Azure, or GCP (S3, Redshift, Snowflake, Databricks)
+  - Kafka, Kinesis, or similar event streaming familiarity
+  - CI/CD pipelines and infrastructure-as-code (Terraform, GitHub Actions)
+  - Lakehouse architecture (Delta Lake, Apache Iceberg)
+  - Robust logging, error handling, monitoring for pipelines
+  - Data governance, privacy, compliance understanding
+  - Documentation and communication skills
+
+must_have_skills:
+  - Python
+  - PySpark
+  - SQL
+  - API connector development / integration
+  - ETL/ELT pipelines
+  - AWS (S3, Redshift, Glue or equivalent)
+  - Data quality and validation
+  - Lakehouse architecture
+
+nice_to_have_skills:
+  - Kafka / Kinesis
+  - Terraform / GitHub Actions
+  - Delta Lake / Apache Iceberg
+  - Databricks
+  - Snowflake
+  - CI/CD tooling
+
+ats_keywords:
+  - Data Engineer
+  - API integrations
+  - API connector
+  - event-driven
+  - data pipelines
+  - data lakehouse
+  - lakehouse architecture
+  - ETL
+  - ELT
+  - Python
+  - PySpark
+  - SQL
+  - AWS
+  - S3
+  - Redshift
+  - Snowflake
+  - Databricks
+  - Kafka
+  - Kinesis
+  - Delta Lake
+  - Apache Iceberg
+  - data quality
+  - data validation
+  - data governance
+  - CI/CD
+  - Terraform
+  - Airflow
+  - orchestration
+  - batch pipelines
+  - real-time pipelines
+  - scalable data solutions
+  - data transformation
+  - compliance

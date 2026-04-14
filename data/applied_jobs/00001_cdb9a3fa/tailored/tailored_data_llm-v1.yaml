@@ -1,0 +1,84 @@
+extracted_skills:
+- python
+- sql
+- scala
+- snowflake
+- databricks
+- bigquery
+- airflow
+- dbt
+job_summary: 'Collective Health is transforming health benefits engagement through
+  innovative technology and user experience design. As a Staff Data Engineer on the
+  Data Engineering Platform team, you will lead the technical strategy for data ingestion
+  and modeling, designing robust data pipelines and dimensional models. This role
+  involves hands-on development, mentoring a small team of engineers, and collaborating
+  with analytics and product teams to deliver impactful data solutions. Candidates
+  should have 12+ years of data engineering experience, expertise in ELT pipelines,
+  and proficiency in SQL and programming languages like Python or Scala.
+
+  '
+responsibilities:
+- Lead the design and implementation of data ingestion and transformation pipelines
+  into a centralized data warehouse.
+- Develop and maintain dimensional data models to support analytics, reporting, and
+  data science initiatives.
+- Collaborate with data analysts and product managers to align data models with business
+  requirements.
+- Mentor team members, conduct code reviews, and enhance engineering quality and operational
+  reliability.
+- Optimize ELT workflows, including orchestration, testing, and CI/CD practices for
+  improved efficiency.
+- Promote consistency in data modeling through reusable patterns, frameworks, and
+  tools.
+- Contribute to long-term architecture decisions and prioritize technical debt resolution
+  with platform leads.
+requirements:
+- 12+ years of experience in data engineering or analytics engineering with a focus
+  on data warehouse modeling.
+- Expertise in modern ELT pipelines, dimensional modeling, and warehouse technologies
+  such as Snowflake, Databricks, or BigQuery.
+- Strong proficiency in SQL and at least one programming language like Python or Scala.
+- Experience with orchestration tools like Airflow or DBT for managing data pipeline
+  workflows.
+- Knowledge of data governance, data quality, and testing best practices.
+- Ability to provide technical leadership and influence peers collaboratively.
+preferred:
+- Experience in healthcare or regulated data environments.
+benefits:
+- Competitive salary with location-based pay ranges.
+- Stock options valued at 330,000.
+- Comprehensive benefits including health insurance, 401k, and paid time off.
+- Opportunities for professional development through mentorship, internal mobility,
+  and tailored courses.
+- Flexible hybrid work arrangements with a supportive work-life balance.
+must_have_skills:
+- data engineering
+- data warehouse modeling
+- ELT pipelines
+- dimensional modeling
+- SQL
+- Python or Scala
+nice_to_have_skills:
+- healthcare data experience
+- regulated data environments
+ats_keywords:
+- data engineer
+- staff data engineer
+- data warehouse
+- dimensional modeling
+- ELT pipelines
+- SQL
+- Python
+- Scala
+- Snowflake
+- Databricks
+- BigQuery
+- Airflow
+- DBT
+- data governance
+- data quality
+- healthcare data
+- technical leadership
+tailoring_method: llm
+llm_model: grok-3
+llm_version: llm-v1

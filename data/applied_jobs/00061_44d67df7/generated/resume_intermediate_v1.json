@@ -1,0 +1,92 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "location_preference": "Remote"
+  },
+  "summary": "Senior Capacity and Data Engineer with 20+ years of enterprise experience optimizing system performance, forecasting capacity demand, and scaling infrastructure through data-driven decisions. Built telemetry pipelines for 6,000+ endpoints, delivered predictive bottleneck models, and produced executive risk dashboards to improve throughput and resource allocation. Strong in performance analytics, observability, and cross-functional execution across engineering and operations.",
+  "skills": [
+    "Performance Engineering",
+    "Capacity Planning",
+    "Bottleneck Analysis",
+    "Forecasting",
+    "Infrastructure Optimization",
+    "Telemetry Analytics",
+    "Python",
+    "SQL",
+    "PySpark",
+    "Pandas",
+    "Prophet",
+    "scikit-learn",
+    "BMC TrueSight",
+    "AppDynamics",
+    "CA APM / Introscope",
+    "Risk and KPI Reporting",
+    "Cross-functional Collaboration"
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and operated telemetry pipelines ingesting metrics from 6,000+ endpoints to support large-scale capacity and performance analysis.",
+        "Developed predictive models to identify performance and capacity bottlenecks 3-6 months ahead, improving planning and mitigation lead time.",
+        "Performed sustained bottleneck/root-cause analysis across compute and application layers using integrated monitoring datasets.",
+        "Delivered leadership risk summaries and KPI dashboards that guided prioritization and throughput optimization.",
+        "Drove efficiency improvements and resource optimization through data-driven capacity actions."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led performance analysis and optimization initiatives for revenue-critical systems.",
+        "Conducted detailed bottleneck investigations and presented quantified before/after impact to stakeholders.",
+        "Supported cloud migration performance validation and monitoring upgrades."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (CA APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed large-scale APM deployments and optimization for enterprise financial platforms.",
+        "Designed performance dashboards and operational analytics that improved incident detection and remediation speed.",
+        "Partnered with engineering teams to improve scalability and reliability through targeted tuning."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "projects": [
+    {
+      "name": "HorizonScale - AI Capacity Forecasting Engine",
+      "timeframe": "2025",
+      "description": "Built AI-driven forecasting and capacity analytics platform reducing forecasting cycle time by 90%.",
+      "technologies": ["Python", "PySpark", "Prophet", "scikit-learn", "Streamlit"]
+    }
+  ]
+}

@@ -35,3 +35,8 @@ application:
       Enginee
   last_status: REJECTED
   last_status_date: '2026-02-11'
+job_hash: e5747f0b722251cce571169f33c4f3951d35a67de0c40194466d2dfbadb53828
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.636385'
+applied_jobs_path: data/applied_jobs/00002_402a89d6
+historical_archive_mode: true

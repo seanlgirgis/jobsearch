@@ -1,0 +1,32 @@
+application:
+  application_notes: Applied
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Company Website
+  history:
+  - date: '2026-03-11'
+    notes: Applied
+    status: Applied
+company: Unknown
+company_website: ''
+created_at: '2026-03-11T08:29:43.164008'
+job_id: 00041_89807fac
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T08:29:43.312320'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: intake.md
+recommendation: Strong Proceed
+role: Unknown
+score: 85
+score_date: '2026-03-11T08:29:43.164008'
+status: ACCEPTED
+uuid: 89807fac-8782-453f-a659-2cedcae5d0c4
+job_hash: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.904437'
+migration_source_root: data/jobs
+historical_archive_mode: true

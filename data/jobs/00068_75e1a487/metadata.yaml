@@ -10,3 +10,8 @@ user_decision: pending
 score: 85
 last_llm_error: null
 last_llm_attempt_at: null
+submission_status: applied
+applied_at: '2026-04-14T12:17:54.892330'
+applied_via: manual
+copied_to_applied_jobs: true
+applied_jobs_path: data/applied_jobs/00068_75e1a487

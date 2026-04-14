@@ -38,3 +38,8 @@ application:
     notes: No response after scheduled call. Ghosted. Closing.
   last_status: REJECTED
   last_status_date: '2026-03-11'
+job_hash: 93f6b4bd23d28031420c75d80be0ee4196895fbf3c6f772fb1f3723ab9542ba5
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.659845'
+applied_jobs_path: data/applied_jobs/00006_714f7c73
+historical_archive_mode: true

@@ -1,0 +1,65 @@
+company_name: RAVIN IT SOLUTIONS, Inc
+company_website: ''
+company_type: agency
+job_title: Sr. Data Engineer
+location: Remote (OH preferred)
+job_summary: >
+  Senior data engineering role focused on scalable pipelines, ETL/ELT, cloud data systems,
+  and reliable data flow for analytics and business decisioning.
+
+responsibilities:
+  - Design and optimize ETL/ELT pipelines
+  - Build scalable data lake/warehouse architecture
+  - Enforce data quality, integrity, and security
+  - Collaborate with analysts, scientists, and stakeholders
+  - Improve workflow/query performance and reliability
+  - Document systems and data flows
+
+requirements:
+  - 5-10+ years data engineering experience
+  - Strong Python and SQL
+  - Airflow/workflow orchestration
+  - Spark/Hadoop big-data exposure
+  - AWS/Azure/GCP cloud data platform experience
+  - Warehouse solutions (Snowflake/Redshift/BigQuery)
+  - CI/CD, DevOps, Git familiarity
+
+must_have_skills:
+  - Python
+  - SQL
+  - ETL/ELT
+  - data pipelines
+  - cloud data engineering
+  - data quality
+
+nice_to_have_skills:
+  - Airflow
+  - Spark
+  - Hadoop
+  - Snowflake
+  - Redshift
+  - BigQuery
+  - Kafka
+  - data governance
+  - ML pipelines
+
+ats_keywords:
+  - Senior Data Engineer
+  - Python
+  - SQL
+  - ETL
+  - ELT
+  - Airflow
+  - Spark
+  - Hadoop
+  - AWS
+  - Azure
+  - Google Cloud
+  - Snowflake
+  - Redshift
+  - BigQuery
+  - CI/CD
+  - DevOps
+  - Git
+  - data lake
+  - data warehouse

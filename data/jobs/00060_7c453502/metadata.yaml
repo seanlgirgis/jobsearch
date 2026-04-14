@@ -32,3 +32,8 @@ score_date: '2026-04-14T00:00:00.000000'
 source: LinkedIn
 status: ACCEPTED
 uuid: 7c453502-e8ed-4c71-b1f2-e89f76a9b713
+job_hash: 3bf763173df1401720cb4b47e9b578d4d8d7e49b7c0e50c1c0c76f65d1c0d8f7
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.169019'
+applied_jobs_path: data/applied_jobs/00060_7c453502
+historical_archive_mode: true

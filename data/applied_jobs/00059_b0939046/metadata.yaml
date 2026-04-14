@@ -1,0 +1,41 @@
+application:
+  history:
+  - date: '2026-04-14'
+    status: Pending
+    notes: Job scored and documents generated. Ready to apply.
+  - date: '2026-04-14'
+    status: Applied
+    notes: Applied after tailored package generation in fallback mode (no xAI key).
+  applied: true
+  applied_date: '2026-04-14'
+  applied_method: LinkedIn
+  application_notes: Applied after tailored package generation in fallback mode (no
+    xAI key).
+company: Amazon.com LLC
+company_website: https://www.amazon.jobs/
+company_type: direct
+created_at: '2026-04-14T00:00:00.000000'
+duplicate_check: clear
+duplicate_check_method: lexical
+duplicate_check_notes: intake missing Title/Company fields for lexical comparison
+  in script 00
+job_id: 00059_b0939046
+last_decision: ACCEPTED
+last_decision_at: '2026-04-14T00:00:00.000000'
+location: Seattle, WA
+location_preference: Remote / Dallas
+notes: 'Score: 84%. Recommendation: Apply with caution. Strong capacity planning and
+  forecasting match; compensation band may be below principal/senior-market target.'
+original_filename: intake.md
+recommendation: Apply with caution
+role: Capacity Planning Specialist, Capacity Planning
+score: 84
+score_date: '2026-04-14T00:00:00.000000'
+source: LinkedIn
+status: ACCEPTED
+uuid: b0939046-bb37-4f0f-8e5d-77de4d8f819a
+job_hash: 6fe628ee65d80a76e368ee32cbe5641bbac878548f912a6fb52e73c8831d15a8
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.157328'
+migration_source_root: data/jobs
+historical_archive_mode: true

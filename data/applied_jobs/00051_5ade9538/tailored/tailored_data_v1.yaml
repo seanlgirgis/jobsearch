@@ -1,0 +1,94 @@
+company_name: Loopback Health
+company_website: ''
+job_title: Data Engineer
+location: Dallas, TX
+extracted_skills:
+- Python
+- SQL
+- Snowflake
+- Databricks
+- Azure
+- C#
+- ETL/ELT
+- Data Modeling
+- Data Warehousing
+- Data Lakes
+job_summary: 'Loopback Health is seeking a skilled Data Engineer to join their team
+  in Dallas, TX. The role focuses on designing, building, and maintaining scalable
+  data pipelines and transformation processes to support analytics and client solutions.
+  Key responsibilities include managing data flows, ensuring data quality, and collaborating
+  with cross-functional teams to improve systems. Candidates must have 3-5 years of
+  experience in data engineering, expertise in cloud platforms like Snowflake and
+  Databricks, and strong SQL and programming skills.
+
+  '
+responsibilities:
+- Design, develop, and maintain scalable data pipelines for data ingestion, transformation,
+  and delivery across various sources and environments.
+- Manage ETL/ELT processes using cloud-based data platforms such as Snowflake and
+  Databricks.
+- Maintain data transformation logic, codebases, and related documentation.
+- Optimize data structures in data lakes and warehouses to support analytics and reporting
+  needs.
+- Ensure data reliability, integrity, and performance to meet client and application
+  SLA requirements.
+- Handle evolving data ingestion formats from Health Systems, Life Sciences, and Enterprise
+  partners.
+- Drive automation and continuous improvement in data workflows to enhance efficiency.
+- Implement data quality checks, monitoring, and validation processes.
+- Collaborate with business and technical stakeholders to gather requirements and
+  create scalable data solutions.
+- Promote best practices in data engineering, modeling, and pipeline design.
+- Conduct data profiling and support testing efforts with QA and DevOps teams.
+requirements:
+- 3-5 years of experience in Data Engineering, Data Integration, or a related field.
+- Proven experience in designing and building data pipelines and transformation workflows.
+- Hands-on expertise with cloud data platforms like Snowflake and Databricks, and
+  cloud environments like Azure.
+- Strong proficiency in SQL and at least one programming language such as Python or
+  C#.
+- Experience in relational and non-relational data modeling, schema design, and performance
+  optimization.
+- Familiarity with data lake and data warehouse architectures.
+preferred:
+- Experience with healthcare or clinical data.
+- Knowledge of data orchestration tools and workflow management.
+- Experience in implementing data quality frameworks and automated testing.
+- Ability to explain complex technical concepts to both technical and non-technical
+  audiences.
+benefits:
+- Equal opportunity employment without regard to race, color, religion, sex, or national
+  origin.
+must_have_skills:
+- Data Engineering
+- Data Pipelines
+- Snowflake
+- Databricks
+- Azure
+- SQL
+- Python
+nice_to_have_skills:
+- Healthcare Data
+- Data Orchestration Tools
+- Automated Testing
+- C#
+ats_keywords:
+- Data Engineer
+- Data Pipelines
+- ETL/ELT Processes
+- Cloud Data Platforms
+- Snowflake
+- Databricks
+- Azure
+- SQL
+- Python
+- Data Modeling
+- Data Warehouse
+- Data Lake
+- Healthcare Data
+- Data Quality
+- Automation
+- Cross-Functional Collaboration
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

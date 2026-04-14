@@ -1,0 +1,32 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Dice
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: Robert Half
+company_website: ''
+created_at: '2026-03-11T04:47:35.261213'
+job_id: 00029_e1c101b7
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T04:47:35.397865'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: rh.03062026.0446.md
+recommendation: Strong Proceed
+role: Data Engineer
+score: 95
+score_date: '2026-03-11T04:47:35.261213'
+status: ACCEPTED
+uuid: e1c101b7-5b39-4b19-828f-1ce0826bd20d
+job_hash: 5044f3f13d4abb65f6a4f9411b45cdc66fba5474bea84b6cfdf91fbf723ac309
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.786070'
+migration_source_root: data/jobs
+historical_archive_mode: true

@@ -1,0 +1,32 @@
+uuid: 06b4caf5-e09d-4f27-a312-0b81a06587fc
+job_id: 00025_06b4caf5
+original_filename: 00024.Stefanni.DataEngineer.031120260339.md
+company: Stefanni
+role: Dataengineer
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T04:03:01.274956'
+created_at: '2026-03-11T04:03:01.274956'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T04:03:01.427443'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: LinkedIn
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application
+job_hash: f9ae5eae982a82d4898877dae9bdf64221daf0dbeba41c8d36883b646a5ed012
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.747378'
+migration_source_root: data/jobs
+historical_archive_mode: true

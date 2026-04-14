@@ -1,0 +1,39 @@
+uuid: de476853-1fb1-4586-8c27-31158f741019
+job_id: 00058_de476853
+original_filename: intake.md
+company: Headway
+role: Capacity Planning Analyst
+company_website: https://headway.co/careers
+location: Remote (United States)
+source: LinkedIn
+company_type: enterprise
+status: ACCEPTED
+score: 90
+recommendation: Strong Proceed
+score_date: '2026-04-13T23:59:00'
+created_at: '2026-04-13T23:59:00'
+last_decision: ACCEPTED
+last_decision_at: '2026-04-13T23:59:00'
+duplicate_check: clear
+location_preference: Remote
+notes: 'Score: 90%. Recommendation: Strong Proceed. Capacity planning and forecasting
+  alignment is strong for Headway WFM.'
+application:
+  applied: true
+  applied_date: '2026-04-13'
+  applied_method: LinkedIn
+  application_notes: Application submitted
+  last_status: APPLIED
+  last_status_date: '2026-04-13'
+  history:
+  - date: '2026-04-13'
+    status: Pending
+    notes: Duplicate check clear (semantic). Job evaluated and package generated.
+  - date: '2026-04-13'
+    status: Applied
+    notes: Application submitted
+job_hash: 017b4d8ccaca5febd7a02a9e8c9671be0827f60548189ef49d16dc4ba4fc1bce
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.145021'
+migration_source_root: data/jobs
+historical_archive_mode: true

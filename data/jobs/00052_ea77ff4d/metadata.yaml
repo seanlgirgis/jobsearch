@@ -1,5 +1,6 @@
 application:
-  application_notes: 'Applied confirmation received 2026-03-11 for Senior Data Engineer (Req 782033). Rejection later received from Ericsson recruitment team.'
+  application_notes: Applied confirmation received 2026-03-11 for Senior Data Engineer
+    (Req 782033). Rejection later received from Ericsson recruitment team.
   applied: true
   applied_date: '2026-03-11'
   applied_method: Ericsson Careers
@@ -7,7 +8,7 @@ application:
   last_status_date: '2026-04-13'
   history:
   - date: '2026-03-11'
-    notes: 'Application received confirmation email for Senior Data Engineer, Req 782033.'
+    notes: Application received confirmation email for Senior Data Engineer, Req 782033.
     status: APPLIED
   - date: '2026-04-13'
     notes: Rejection notice received from Ericsson recruitment team.
@@ -21,7 +22,8 @@ last_decision: REJECTED
 last_decision_at: '2026-04-13T22:08:09.7181928'
 location: Unknown
 location_preference: Remote
-notes: Legacy backfill entry created from recruiter emails to preserve tracking continuity (application confirmation and later rejection).
+notes: Legacy backfill entry created from recruiter emails to preserve tracking continuity
+  (application confirmation and later rejection).
 original_filename: legacy_rejection_email.txt
 recommendation: Stop
 role: Senior Data Engineer
@@ -30,4 +32,7 @@ score_date: null
 source: Legacy Backfill
 status: REJECTED
 uuid: ea77ff4d-7fc6-4a2b-be89-f7ecaae968a0
-
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.095712'
+applied_jobs_path: data/applied_jobs/00052_ea77ff4d
+historical_archive_mode: true

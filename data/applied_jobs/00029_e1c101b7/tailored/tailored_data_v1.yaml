@@ -1,0 +1,100 @@
+company_name: Robert Half
+company_website: ''
+job_title: Data Engineer
+location: Remote in New York, NY, US
+extracted_skills:
+- Python
+- SQL
+- AWS
+- Snowflake
+- BigQuery
+- Airflow
+- dbt
+- Tableau
+- Google Analytics
+- S3
+- Lambda
+- Batch
+- CI/CD
+- DevOps
+job_summary: 'Robert Half, the world''s first and largest specialized talent solutions
+  firm, is seeking an experienced Data Engineer to join their team in New York, NY.
+  This role involves designing, building, and maintaining data infrastructure to support
+  business intelligence and analytics needs. Key responsibilities include developing
+  ETL pipelines, managing data solutions with cloud platforms like Snowflake and AWS,
+  and automating processes with Python and SQL. The ideal candidate will have at least
+  7 years of data engineering experience and strong technical expertise in data modeling,
+  orchestration tools, and visualization platforms like Tableau.
+
+  '
+responsibilities:
+- Develop and optimize ETL pipelines for efficient data processing and integration.
+- Design and maintain scalable data solutions, including data warehouses and data
+  lakes.
+- Collaborate with cross-functional teams to identify data needs and provide actionable
+  insights.
+- Manage data infrastructure using cloud platforms like Snowflake and AWS for performance
+  optimization.
+- Build and automate data workflows using Python and SQL.
+- Utilize orchestration tools such as Airflow and dbt to streamline data operations.
+- Support data analytics and visualization by enabling dashboard creation with tools
+  like Tableau.
+- Integrate marketing and product data from sources like Google Analytics for valuable
+  insights.
+- Implement CI/CD pipelines and DevOps practices to improve data engineering processes.
+- Ensure data security and compliance across all systems and tools.
+requirements:
+- Minimum of 7 years of experience in data engineering or analytics-related roles.
+- Advanced proficiency in Python programming and SQL query development.
+- Strong experience with Snowflake or BigQuery, including data modeling and optimization.
+- Familiarity with orchestration tools like Airflow and data integration frameworks
+  such as dbt.
+- Proven expertise with AWS services, including S3, Lambda, and Batch.
+- Knowledge of data visualization tools, particularly Tableau, for dashboard development
+  support.
+- Experience with CI/CD pipelines and DevOps practices in data engineering.
+- Understanding of marketing and product data sources, including Google Analytics.
+preferred:
+- Hands-on experience with additional cloud-based data platforms.
+- Advanced knowledge of data security and compliance standards.
+benefits:
+- Competitive compensation ranging from USD $147,000.00 to $172,000.00 per year.
+- Medical, vision, dental, and life and disability insurance for contract/temporary
+  professionals.
+- Access to company 401(k) plan for hired contract/temporary professionals.
+- Free online training and access to the Robert Half app for job opportunities.
+must_have_skills:
+- Python
+- SQL
+- Snowflake
+- AWS
+- Airflow
+- dbt
+nice_to_have_skills:
+- BigQuery
+- Tableau
+- Google Analytics
+ats_keywords:
+- Data Engineer
+- ETL pipelines
+- Data Warehouse
+- Data Lake
+- Snowflake
+- AWS
+- Python
+- SQL
+- Airflow
+- dbt
+- Tableau
+- Google Analytics
+- CI/CD pipelines
+- DevOps
+- Data Modeling
+- Data Integration
+- Business Intelligence
+- Data Analytics
+- Cloud Platforms
+- Data Security
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

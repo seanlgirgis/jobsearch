@@ -1,0 +1,32 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: Meta
+company_website: ''
+created_at: '2026-03-11T08:00:20.416222'
+job_id: 00040_a390effb
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T08:00:20.568129'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: intake.md
+recommendation: Strong Proceed
+role: Performance & Capacity Engineer - Planning Optimization
+score: 85
+score_date: '2026-03-11T08:00:20.416222'
+status: ACCEPTED
+uuid: a390effb-d73a-48e0-a6c7-a45e6a2b9573
+job_hash: 80a8ac078194234b5c7c2a7fb336a479b0ff886e333a1e4a377f3fd11ff98a8c
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.894891'
+migration_source_root: data/jobs
+historical_archive_mode: true

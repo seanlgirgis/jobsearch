@@ -1,0 +1,101 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote"
+  },
+  "summary": "Senior Capacity and Data Engineer with 20+ years of enterprise experience delivering forecasting, capacity optimization, and KPI-driven planning for large-scale infrastructure. Built automated analytics pipelines that ingested telemetry from 6,000+ endpoints, produced executive dashboards, and predicted bottlenecks 3-6 months ahead using Prophet and scikit-learn. Strong background in resource optimization, cross-functional planning, and process automation using Python, SQL, PySpark, and AWS.",
+  "skills": [
+    "Capacity Planning",
+    "Workforce and Infrastructure Forecasting",
+    "Python",
+    "SQL",
+    "PySpark",
+    "Pandas",
+    "Prophet",
+    "scikit-learn",
+    "KPI Analysis",
+    "Resource Optimization",
+    "Executive Reporting",
+    "Data Visualization (matplotlib, seaborn, plotly)",
+    "BMC TrueSight / TSCO",
+    "AppDynamics",
+    "CA APM / Introscope",
+    "Dynatrace",
+    "AWS (S3, Glue, Redshift, Athena)",
+    "Process Automation",
+    "Cross-functional Collaboration",
+    "Continuous Improvement"
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated telemetry pipelines ingesting P95 metrics from 6,000+ endpoints, replacing manual workflows and improving data timeliness for planning decisions.",
+        "Built Prophet and scikit-learn forecasting models that predicted capacity bottlenecks 3-6 months ahead and improved provisioning accuracy.",
+        "Generated monthly capacity reports and seasonal risk analysis used by leadership to prioritize capacity requests and optimize resource allocation.",
+        "Integrated TrueSight, CA APM, and AppDynamics datasets into unified reporting views with executive dashboards.",
+        "Identified underutilized infrastructure patterns and drove right-sizing actions that reduced waste and improved efficiency."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led performance analytics on user experience data to identify bottlenecks and improve service responsiveness.",
+        "Built before/after performance reporting for stakeholder decision-making and prioritization.",
+        "Managed Dynatrace monitoring modernization during cloud migration initiatives."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (CA APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led enterprise observability deployments and optimization programs across large financial environments.",
+        "Developed monitoring dashboards and extraction scripts enabling KPI tracking and operational planning.",
+        "Partnered with cross-functional teams to standardize monitoring and improve controllership outcomes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "projects": [
+    {
+      "name": "HorizonScale - AI Capacity Forecasting Engine",
+      "timeframe": "2025",
+      "description": "Replaced manual forecasting with AI-driven modeling and dashboarding, reducing forecasting cycle time by 90%.",
+      "technologies": ["Python", "PySpark", "Prophet", "scikit-learn", "Streamlit"]
+    },
+    {
+      "name": "Enterprise Capacity Optimization Analytics",
+      "timeframe": "2017-2025",
+      "description": "Built KPI-centric reporting and analytics workflows to support staffing and infrastructure planning decisions.",
+      "technologies": ["Python", "Pandas", "Oracle", "BMC TrueSight", "AppDynamics"]
+    }
+  ]
+}

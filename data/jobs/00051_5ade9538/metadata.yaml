@@ -25,3 +25,8 @@ application:
   - date: '2026-04-03'
     status: Applied
     notes: Applied via LinkedIn
+job_hash: ed47b014e9ef6da1bcc710fec9e060556fd8f8fa907322d452faad8555164501
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.011826'
+applied_jobs_path: data/applied_jobs/00051_5ade9538
+historical_archive_mode: true

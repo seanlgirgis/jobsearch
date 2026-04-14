@@ -3,6 +3,7 @@ import yaml
 import sys
 import re
 from pathlib import Path
+from typing import Any
 
 # Try to import rich for pretty printing, fallback to standard print if not available
 try:
@@ -24,6 +25,8 @@ def load_job_data(job_folder):
         'company': 'Unknown',
         'role': 'Unknown',
         'status': 'Unknown',
+        'submission_status': 'Unknown',
+        'metadata_text': '',
         'description': '',
         'path': str(job_folder)
     }
@@ -32,13 +35,17 @@ def load_job_data(job_folder):
     meta_path = job_folder / "metadata.yaml"
     if meta_path.exists():
         try:
-            with open(meta_path, 'r', encoding='utf-8') as f:
-                meta = yaml.safe_load(f)
-                if meta:
-                    data['uuid'] = meta.get('uuid')
-                    data['company'] = meta.get('company', 'Unknown')
-                    data['role'] = meta.get('role', 'Unknown')
-                    data['status'] = meta.get('status', 'Unknown')
+            metadata_text = meta_path.read_text(encoding='utf-8')
+            data['metadata_text'] = metadata_text
+            meta = yaml.safe_load(metadata_text)
+            if not isinstance(meta, dict):
+                meta = {}
+            if meta:
+                data['uuid'] = meta.get('uuid')
+                data['company'] = meta.get('company', 'Unknown')
+                data['role'] = meta.get('role', 'Unknown')
+                data['status'] = meta.get('status', 'Unknown')
+                data['submission_status'] = meta.get('submission_status', 'Unknown')
         except Exception:
             pass # Keep defaults if read fails
 
@@ -53,13 +60,26 @@ def load_job_data(job_folder):
 
     return data
 
+def parse_field_query(query: str) -> tuple[str | None, str]:
+    """
+    Supports simple metadata-prefix queries:
+    - status: VALUE
+    - submission_status: VALUE
+    Returns (field_name_or_none, value)
+    """
+    match = re.match(r'^\s*(status|submission_status)\s*:\s*(.+?)\s*$', query, flags=re.IGNORECASE)
+    if not match:
+        return None, query.strip()
+    return match.group(1).lower(), match.group(2).strip()
+
 def search_jobs(query, jobs_dir):
     """
     Iterates through all jobs and finds matches.
     Returns a list of match objects.
     """
-    results = []
-    query_lower = query.lower()
+    results: list[dict[str, Any]] = []
+    field_query, parsed_value = parse_field_query(query)
+    query_lower = parsed_value.lower().strip()
     
     # Iterate over all folders in data/jobs
     # Only look at directories starting with digits (e.g. 00022_...)
@@ -70,22 +90,53 @@ def search_jobs(query, jobs_dir):
             # Check for matches
             match_found = False
             fields_matched = []
+            score = 0
 
-            # Check Metadata Fields
-            if query_lower in job_data['company'].lower():
-                match_found = True
-                fields_matched.append("Company")
-            if query_lower in job_data['role'].lower():
-                match_found = True
-                fields_matched.append("Role")
-            if query_lower in job_data['status'].lower():
-                match_found = True
-                fields_matched.append("Status")
-            
-            # Check Description
-            if query_lower in job_data['description'].lower():
-                match_found = True
-                fields_matched.append("Description")
+            # Field-prefixed query mode: only check the specific field.
+            if field_query:
+                if query_lower in str(job_data.get(field_query, '')).lower():
+                    match_found = True
+                    fields_matched.append(field_query)
+                    score += 10
+            else:
+                if query_lower and query_lower == job_data['job_id'].lower():
+                    match_found = True
+                    fields_matched.append("Job ID (exact)")
+                    score += 100
+                elif query_lower and query_lower in job_data['job_id'].lower():
+                    match_found = True
+                    fields_matched.append("Job ID")
+                    score += 50
+
+                # Check Metadata Fields
+                if query_lower and query_lower in str(job_data['company']).lower():
+                    match_found = True
+                    fields_matched.append("Company")
+                    score += 20
+                if query_lower and query_lower in str(job_data['role']).lower():
+                    match_found = True
+                    fields_matched.append("Role")
+                    score += 20
+                if query_lower and query_lower in str(job_data['status']).lower():
+                    match_found = True
+                    fields_matched.append("Status")
+                    score += 10
+                if query_lower and query_lower in str(job_data['submission_status']).lower():
+                    match_found = True
+                    fields_matched.append("Submission Status")
+                    score += 10
+
+                # Check full metadata text
+                if query_lower and query_lower in job_data['metadata_text'].lower():
+                    match_found = True
+                    fields_matched.append("Metadata")
+                    score += 5
+
+                # Check Description
+                if query_lower and query_lower in job_data['description'].lower():
+                    match_found = True
+                    fields_matched.append("Description")
+                    score += 5
 
             if match_found:
                 results.append({
@@ -94,18 +145,22 @@ def search_jobs(query, jobs_dir):
                     'company': job_data['company'],
                     'role': job_data['role'],
                     'status': job_data['status'],
+                    'submission_status': job_data['submission_status'],
+                    'score': score,
                     'matched_in': ", ".join(fields_matched)
                 })
 
+    # Deterministic ranking: best score first, then stable id ordering
+    results.sort(key=lambda r: (-r.get('score', 0), r.get('job_id', '')))
     return results
 
 def print_results(results, query):
     """Prints the search results in a table."""
     if not results:
-        print(f"\n❌ No jobs found matching '{query}'.")
+        print(f"\nNo jobs found matching '{query}'.")
         return
 
-    print(f"\n🔍 Found {len(results)} jobs matching '{query}':\n")
+    print(f"\nFound {len(results)} jobs matching '{query}':\n")
 
     if RICH_AVAILABLE:
         console = Console()
@@ -141,9 +196,14 @@ def print_results(results, query):
 def main():
     parser = argparse.ArgumentParser(description="Search job applications by keyword.")
     parser.add_argument("query", help="Text to search for (e.g. 'Python', 'Google')")
+    parser.add_argument(
+        "--jobs-dir",
+        default="data/applied_jobs",
+        help="Directory root to search (default: data/applied_jobs)",
+    )
     args = parser.parse_args()
 
-    base_dir = Path("data/jobs")
+    base_dir = Path(args.jobs_dir)
     if not base_dir.exists():
         print(f"❌ Error: {base_dir} does not exist.")
         sys.exit(1)

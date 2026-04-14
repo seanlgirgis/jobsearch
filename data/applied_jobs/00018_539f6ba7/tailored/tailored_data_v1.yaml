@@ -1,0 +1,94 @@
+company_name: Google
+company_website: https://www.google.com/about/careers
+job_title: Incentives Technical Analyst, Infrastructure and Development, YouTube
+location: Dallas, New York City, NY
+extracted_skills:
+- python
+- java
+- c++
+- sql
+- data analysis
+- system architecture
+- relational databases
+- data science
+- data engineering
+- business intelligence
+- process improvement
+- operational reviews
+- workflow optimization
+job_summary: 'As an Incentives Technical Analyst for Infrastructure and Development
+  at YouTube, a Google subsidiary, you will join the Business Central Strategy and
+  Operations team to drive global strategic initiatives for the creator and partner
+  ecosystem. Your role focuses on operationalizing the central incentives system by
+  implementing scalable code and reliable systems to activate key YouTube products
+  worldwide. You will collaborate with data infrastructure teams, translate business
+  goals into technical solutions, and leverage data analysis to inform decisions.
+  This position requires a Bachelor’s degree in a related field, 3 years of technical
+  problem-solving experience, and proficiency in SQL and programming languages like
+  Python or Java.
+
+  '
+responsibilities:
+- Lead the development of YouTube incentives by defining technical requirements, modeling
+  business logic, and executing in the code base to drive product activation at scale.
+- Collaborate with YouTube product and technical teams to build the necessary infrastructure
+  for incentive systems.
+- Provide thought leadership and business recommendations on development processes
+  and related architectural components.
+- Communicate findings effectively to managers and peers through presentations and
+  quantitative data displays.
+- Utilize YouTube's data warehouse to access and manipulate data using SQL and other
+  query languages, while promoting best practices in development life-cycle, AI usage,
+  technical infrastructure, and data concepts within the analyst community.
+requirements:
+- Bachelor’s degree in engineering, computer science, or a related field, or equivalent
+  practical experience.
+- 3 years of experience in solving technical problems and building technical systems.
+- 3 years of experience with data analysis, relational databases, and SQL.
+- Proficiency in system architecture and code comprehension in at least one programming
+  language such as Python, Java, or C++.
+preferred:
+- Master’s degree in engineering, mathematics, statistics, economics, applied science,
+  or a related field.
+- 5 years of experience in impactful technical roles.
+- 5 years of experience in operations management, including process improvement and
+  workflow optimization.
+- 5 years of experience in technical analytics roles such as data science, data engineering,
+  or business intelligence.
+- Expertise in drawing actionable insights from data sets using SQL to influence business
+  and technology decisions.
+benefits:
+- Competitive base salary range of $123,000-$176,000, determined by role, level, and
+  location.
+- Additional compensation including bonus and equity.
+- Comprehensive benefits package (specific details available through recruiter).
+must_have_skills:
+- sql
+- data analysis
+- system architecture
+- programming (python, java, or c++)
+nice_to_have_skills:
+- data science
+- data engineering
+- business intelligence
+- process improvement
+- workflow optimization
+ats_keywords:
+- incentives technical analyst
+- infrastructure development
+- youtube incentives
+- data analysis sql
+- system architecture
+- programming python java c++
+- relational databases
+- data science analytics
+- business intelligence
+- process improvement
+- operational reviews
+- workflow optimization
+- technical problem solving
+- product activation systems
+- youtube partner ecosystem
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

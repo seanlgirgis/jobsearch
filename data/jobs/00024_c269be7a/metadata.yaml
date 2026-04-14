@@ -25,3 +25,8 @@ application:
   - date: '2026-03-11'
     status: Applied
     notes: Applied via LinkedIn easy apply
+job_hash: fbe6f52caff7057926abb5c6ec5b18fb1cb35296fd7b34991a546f415042521c
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.738776'
+applied_jobs_path: data/applied_jobs/00024_c269be7a
+historical_archive_mode: true

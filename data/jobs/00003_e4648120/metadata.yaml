@@ -25,3 +25,7 @@ application:
   - date: '2026-02-05'
     status: Applied
     notes: Tailored Resume
+job_hash: 1db60e8e3ce50b8e1907450c94c8d5180eb63383988f1af5f31345cede643039
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.620800'
+applied_jobs_path: data/applied_jobs/00003_e4648120

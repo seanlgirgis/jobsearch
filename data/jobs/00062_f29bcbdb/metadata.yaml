@@ -1,37 +1,41 @@
-job_id: "00062_f29bcbdb"
+job_id: 00062_f29bcbdb
 company: Pennymac
 title: Observability Engineer (Senior)
 location: Carrollton, TX
 work_type: Office (On-site)
 employment_type: Full Time
 source: LinkedIn
-date_added: "2026-04-14"
+date_added: '2026-04-14'
 compensation:
   base_min: 95000
   base_max: 155000
   currency: USD
-  notes: "Performance-based bonus and stock incentives possible"
-
+  notes: Performance-based bonus and stock incentives possible
 status: ACCEPTED
-decision_reason: "Strong domain match — 20+ years APM/observability experience, regulated financial background, local to Carrollton. Salary ceiling low but applying. Tool gaps (New Relic, Terraform, K8s) are transferable from deep CA APM, Dynatrace, AppDynamics background."
-
+decision_reason: Strong domain match — 20+ years APM/observability experience, regulated
+  financial background, local to Carrollton. Salary ceiling low but applying. Tool
+  gaps (New Relic, Terraform, K8s) are transferable from deep CA APM, Dynatrace, AppDynamics
+  background.
 duplicate_check: clear
 duplicate_check_method: lexical_fallback
-duplicate_check_date: "2026-04-14"
-
+duplicate_check_date: '2026-04-14'
 application:
   applied: true
-  applied_date: "2026-04-14"
-  applied_method: "LinkedIn"
-  notes: "Submitted via LinkedIn. Conflict of interest disclosure answered: No conflicts."
-
+  applied_date: '2026-04-14'
+  applied_method: LinkedIn
+  notes: 'Submitted via LinkedIn. Conflict of interest disclosure answered: No conflicts.'
 history:
-  - date: "2026-04-14"
-    event: Applied
-    notes: "Submitted via LinkedIn. Conflict of interest disclosure answered: No conflicts."
-  - date: "2026-04-14"
-    event: Scored
-    notes: "Fit score 58/100. Strong observability domain fit. Gaps: New Relic specific, Terraform/IaC, K8s."
-  - date: "2026-04-14"
-    event: Accepted
-    notes: "User decision: Apply. Proceeding to full pipeline."
+- date: '2026-04-14'
+  event: Applied
+  notes: 'Submitted via LinkedIn. Conflict of interest disclosure answered: No conflicts.'
+- date: '2026-04-14'
+  event: Scored
+  notes: 'Fit score 58/100. Strong observability domain fit. Gaps: New Relic specific,
+    Terraform/IaC, K8s.'
+- date: '2026-04-14'
+  event: Accepted
+  notes: 'User decision: Apply. Proceeding to full pipeline.'
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.194144'
+applied_jobs_path: data/applied_jobs/00062_f29bcbdb
+historical_archive_mode: true

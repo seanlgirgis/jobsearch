@@ -1,0 +1,47 @@
+company_name: GEICO
+company_website: ''
+company_type: enterprise
+job_title: Staff Engineer - Capacity Planning and Management
+location: Dallas, TX (On-site)
+job_summary: >
+  Lead capacity engineering design for hybrid cloud/on-prem infrastructure through
+  forecasting, workload analysis, quota/subscription strategy, and cross-functional
+  planning with finance/procurement/platform teams.
+
+responsibilities:
+  - Build forecasting models and onboarding/expansion planning
+  - Drive workload optimization and infrastructure efficiency
+  - Build internal APIs/tools for capacity signals
+  - Align capacity forecasts with finance and procurement
+  - Define governance for allocation, scaling, and resilience
+
+must_have_skills:
+  - capacity planning
+  - forecasting
+  - workload analysis
+  - hybrid cloud infrastructure
+  - internal tooling/APIs
+  - data pipelines and analytics
+
+nice_to_have_skills:
+  - FinOps
+  - quota/subscription management
+  - telemetry systems
+  - procurement strategy alignment
+  - service ownership models
+
+ats_keywords:
+  - Capacity Engineering
+  - Capacity Planning
+  - Forecasting
+  - Workload Optimization
+  - Hybrid Cloud
+  - On-Prem
+  - FinOps
+  - Infrastructure Demand Planning
+  - Quota Management
+  - Subscription Management
+  - Internal APIs
+  - Utilization Analytics
+  - Governance
+  - Cloud Cost Optimization

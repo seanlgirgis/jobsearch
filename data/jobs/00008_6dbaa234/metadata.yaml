@@ -25,3 +25,7 @@ application:
   - date: '2026-02-06'
     status: Applied
     notes: Pipeline application
+job_hash: 860438a74f8aca52c4cc4b14bc8ffe641361bb0aa4d771a6e6f3e5281ecaf7d4
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.656164'
+applied_jobs_path: data/applied_jobs/00008_6dbaa234

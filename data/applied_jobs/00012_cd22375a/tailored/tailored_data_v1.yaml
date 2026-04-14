@@ -1,0 +1,146 @@
+company_name: ClickUp
+company_website: https://www.clickup.com
+job_title: Senior Performance Engineer
+location: USA, Remote
+extracted_skills:
+- performance engineering
+- web application debugging
+- profiling
+- performance optimization
+- browser performance traces
+- network analysis
+- client-side profiling
+- bottleneck analysis
+- root cause identification
+- APM tools
+- observability tools
+- Datadog RUM
+- Datadog APM
+- Datadog DBM
+- network HAR files
+- performance metrics
+- frontend optimization
+- backend optimization
+- API optimization
+- database optimization
+- logging
+- monitoring
+- alerting
+- performance testing tools
+- Chrome DevTools
+- memlab
+- system architecture
+- distributed systems
+- cloud environments
+- AWS
+- Kubernetes
+- CDN
+- PostgreSQL
+- RDS/Aurora
+- DynamoDB
+- TypeScript
+- JavaScript frameworks
+- Angular
+- React
+job_summary: 'ClickUp is seeking a Senior Performance Engineer to join their innovative
+  team in a remote role across the USA. As a leader in creating AI-driven workspace
+  solutions, ClickUp aims to redefine productivity by unifying tasks, docs, and more.
+  The role focuses on ensuring platform speed, scalability, and reliability through
+  end-to-end performance analysis and optimization. Key responsibilities include identifying
+  bottlenecks, collaborating with engineering teams, and building performance monitoring
+  systems. Candidates should have strong experience in performance engineering, web
+  application debugging, and observability tools.
+
+  '
+responsibilities:
+- Conduct comprehensive performance analysis across frontend, backend, and infrastructure
+  layers.
+- Optimize application code, APIs, and database queries for enhanced efficiency.
+- Identify and resolve performance bottlenecks using observability and monitoring
+  tools.
+- Collaborate with development, DevOps, and product teams to design scalable, high-performance
+  solutions.
+- Develop and maintain performance dashboards, metrics, and automated monitoring systems.
+- Perform root cause analysis for performance incidents and implement long-term improvements.
+- Create strategies for continuous performance optimization and capacity planning.
+- Stay updated on industry trends, tools, and best practices in performance engineering.
+requirements:
+- Extensive experience in debugging, profiling, and optimizing complex web applications.
+- In-depth knowledge of browser performance traces, network analysis, and client-side
+  profiling.
+- Proven expertise in performance engineering, including bottleneck analysis and root
+  cause identification.
+- Hands-on experience with APM and observability tools like Datadog RUM, APM, and
+  DBM.
+- Proficiency in analyzing network HAR files and performance metrics.
+- Experience in optimizing frontend, backend, API, and database layers.
+- Strong understanding of logging, monitoring, and alerting best practices for frontend
+  and backend systems.
+- Familiarity with performance testing tools and frameworks such as memlab and Chrome
+  DevTools.
+- Solid knowledge of system architecture, distributed systems, and cloud environments
+  like AWS, Kubernetes, and CDN.
+- Passion for delivering fast, stable, and scalable user experiences.
+preferred:
+- Experience with Datadog RUM, APM, and DBM.
+- Familiarity with AWS, Kubernetes, and CDN technologies.
+- Knowledge of PostgreSQL, RDS/Aurora, and DynamoDB.
+- Proficiency in TypeScript or JavaScript-based frameworks.
+- Experience with Angular or React frontend development.
+benefits:
+- Equity in the company.
+- 401k retirement plan.
+- Health, Dental, and Vision insurance.
+- Spending accounts for various needs.
+- Life and Disability insurance.
+- Paid parental leave.
+- Flexible paid time off.
+- Enhanced employee assistance program.
+- Employee wellness stipend.
+- Professional development stipend.
+must_have_skills:
+- performance engineering
+- web application debugging
+- profiling
+- performance optimization
+- bottleneck analysis
+- observability tools
+- network analysis
+- system architecture
+nice_to_have_skills:
+- Datadog RUM
+- Datadog APM
+- Datadog DBM
+- AWS
+- Kubernetes
+- CDN
+- PostgreSQL
+- TypeScript
+- Angular
+- React
+ats_keywords:
+- performance engineer
+- senior performance engineer
+- web application debugging
+- performance optimization
+- bottleneck analysis
+- root cause analysis
+- observability tools
+- APM tools
+- Datadog RUM
+- Datadog APM
+- network analysis
+- browser performance traces
+- frontend optimization
+- backend optimization
+- database optimization
+- AWS
+- Kubernetes
+- distributed systems
+- system architecture
+- performance testing tools
+- Chrome DevTools
+- scalable user experience
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

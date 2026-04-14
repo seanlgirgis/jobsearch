@@ -19,10 +19,15 @@ last_decision: ACCEPTED
 last_decision_at: '2026-04-13T00:00:00.000000'
 location: Remote
 location_preference: Remote
-notes: "Remote role. Score: 74%. Recommendation: Proceed\n\u2022 Staffing/agency
-  placement \u2014 client company unknown\n\u2022 Core DE skills strong match (Python,
-  PySpark, SQL, AWS, ETL, API ingestion, data quality)\n\u2022 Gaps: Kafka/Kinesis
-  (adjacent), Terraform/CI-CD (minor), 3-6yr requirement (overqualified at 20+yr)"
+notes: 'Remote role. Score: 74%. Recommendation: Proceed
+
+  • Staffing/agency placement — client company unknown
+
+  • Core DE skills strong match (Python, PySpark, SQL, AWS, ETL, API ingestion, data
+  quality)
+
+  • Gaps: Kafka/Kinesis (adjacent), Terraform/CI-CD (minor), 3-6yr requirement (overqualified
+  at 20+yr)'
 original_filename: intake.md
 recommendation: Proceed
 role: Data Engineer
@@ -31,3 +36,8 @@ score_date: '2026-04-13T00:00:00.000000'
 source: Dice
 status: ACCEPTED
 uuid: d7c3a912-0000-0000-0000-000000000031
+job_hash: 37b1b9c6fc86740e96a3639801978fb7547d310b7ca51382ddd3e778426d176a
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.090711'
+applied_jobs_path: data/applied_jobs/00051_d7c3a912
+historical_archive_mode: true

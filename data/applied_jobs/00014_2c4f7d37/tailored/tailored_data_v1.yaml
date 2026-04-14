@@ -1,0 +1,141 @@
+company_name: TheHartford
+company_website: https://thehartford.wd5.myworkdayjobs.com/
+job_title: Lead AI Data Engineer - Hybrid
+location: Frisco, TX
+extracted_skills:
+- python
+- sql
+- aws
+- azure
+- google cloud
+- spark
+- kafka
+- snowflake
+- etl
+- elt
+- cicd
+- bigdata
+- datalake
+- datamesh
+- nosql
+- generative ai
+- retrieval-augmented generation
+- vector databases
+- graph databases
+- deep learning
+- pytorch
+- tensorflow
+- langchain
+- langgraph
+- docker
+- kubernetes
+- data governance
+- data quality
+- nlp
+- computer vision
+job_summary: 'Join TheHartford as a Lead AI Data Engineer in a hybrid role based in
+  Frisco, TX, and contribute to shaping the future of insurance through innovative
+  AI and data engineering solutions. This position involves leading the development
+  of AI data pipelines, integrating structured and unstructured data for generative
+  AI applications, and ensuring scalability and reliability of data systems. Collaborate
+  with cross-functional teams to implement cutting-edge technologies like Retrieval-Augmented
+  Generation (RAG) and stay ahead with industry advancements in GenAI. The role requires
+  strong technical expertise, mentorship skills, and a passion for transforming data
+  into actionable business solutions.
+
+  '
+responsibilities:
+- Lead the implementation of AI data pipelines to integrate structured, semi-structured,
+  and unstructured data for AI and agentic solutions.
+- Develop and maintain scalable real-time data streaming pipelines using technologies
+  like Apache Kafka, AWS Kinesis, and Spark Streaming.
+- Design AI-driven systems to enhance data capabilities while adhering to industry
+  best practices.
+- Implement Retrieval-Augmented Generation (RAG) architectures and integrate with
+  enterprise data infrastructure.
+- Collaborate with cross-functional teams to embed AI solutions into operational processes
+  across various functions.
+- Stay updated on GenAI advancements and apply modern technologies to improve systems.
+- Ensure reliability, availability, and scalability of data pipelines through effective
+  monitoring and incident management.
+- Mentor junior team members and promote best practices in data and AI solution delivery.
+- Develop graph database solutions for complex data relationships supporting AI systems.
+- Partner with architects and stakeholders to influence and implement AI and data
+  pipeline visions while maintaining system integrity.
+requirements:
+- Bachelor's degree in Computer Science, Artificial Intelligence, or a related field.
+- 8+ years of data engineering experience with expertise in data solutions, SQL, NoSQL,
+  Snowflake, ETL/ELT tools, CI/CD, Big Data, and cloud technologies (AWS, Google,
+  Azure).
+- 1+ years of data engineering experience focused on supporting Generative AI technologies.
+- Strong hands-on experience in implementing production-ready enterprise-grade GenAI
+  data solutions.
+- Proficiency in Python and familiarity with deep learning frameworks like PyTorch
+  or TensorFlow.
+- Experience with vector databases, graph databases, and NoSQL databases, including
+  design and optimization.
+- Experience in implementing scalable AI-driven data systems and agentic solutions
+  using tools like AWS Lambda, S3, EC2, LangChain, and LangGraph.
+- Experience with cloud platforms (AWS, GCP, or Azure) and containerization technologies
+  (Docker, Kubernetes).
+- Strong communication skills to explain technical concepts to diverse stakeholders.
+- Must be authorized to work in the US without company sponsorship.
+preferred:
+- Experience in multi-cloud hybrid AI solutions.
+- AI certifications.
+- Experience in the Property & Casualty (P&C) or Employee Benefits industry.
+- Knowledge of natural language processing (NLP) and computer vision technologies.
+- Contributions to open-source AI projects or research publications in Generative
+  AI.
+benefits:
+- Annualized base pay range of $135,040 - $202,560.
+- Total compensation package including short-term or annual bonuses, long-term incentives,
+  and on-the-spot recognition.
+must_have_skills:
+- generative ai
+- data engineering
+- python
+- sql
+- cloud technologies
+- retrieval-augmented generation
+- vector databases
+- graph databases
+nice_to_have_skills:
+- nlp
+- computer vision
+- multi-cloud solutions
+- ai certifications
+- p&c industry experience
+ats_keywords:
+- lead ai data engineer
+- generative ai
+- data pipelines
+- retrieval-augmented generation
+- vector databases
+- graph databases
+- cloud technologies
+- aws
+- azure
+- google cloud
+- python
+- sql
+- snowflake
+- etl tools
+- bigdata
+- datalake
+- datamesh
+- kafka
+- spark streaming
+- data governance
+- ai solutions
+- agentic solutions
+- deep learning
+- pytorch
+- tensorflow
+- langchain
+- langgraph
+- docker
+- kubernetes
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

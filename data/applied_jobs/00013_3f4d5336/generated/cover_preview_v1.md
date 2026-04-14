@@ -1,0 +1,23 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+February 06, 2026  
+
+The Hershey Company
+Dallas, TX / Hershey, PA
+
+Dear Hiring Manager,
+
+I am excited to apply for the Senior Data Engineer, Data Products position at The Hershey Company. With over 20 years of experience in data engineering and a passion for building scalable data solutions, I am eager to contribute to Hershey’s mission of creating more moments of goodness through innovative data strategies.
+
+My recent work aligns closely with Hershey’s focus on enterprise-grade data products for analytics and AI. At CITI, as a Senior Capacity & Data Engineer from 2017 to 2025, I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints. I also designed a serverless lakehouse platform on AWS using Glue, Athena, and S3, optimizing data pipelines for enterprise scale. These experiences directly relate to your requirements for designing scalable data pipelines and leveraging cloud data platforms like AWS, ensuring performance tuning and reliability.
+
+Additionally, my expertise in data modeling and governance matches Hershey’s emphasis on trusted data assets. I developed ML forecasting models with Prophet and scikit-learn at CITI, predicting capacity bottlenecks six months ahead, and created optimized Oracle schemas for historical retention. My HorizonScale AI Capacity Forecasting Engine reduced forecasting cycles by 90% using PySpark and multiprocessing, demonstrating my ability to build analytics-ready structures. I am confident in applying these skills to support Hershey’s data governance, metadata, and lineage needs, aligning with your enterprise architecture standards and values of excellence and innovation.
+
+I am enthusiastic about the opportunity to bring my expertise in Python, SQL, AWS, and ETL design to The Hershey Company, contributing to your long-term data strategy. I would welcome the chance to discuss how my background in building scalable data solutions can support your goals. Thank you for considering my application, and I look forward to the possibility of contributing to Hershey’s success.
+
+Sincerely,
+Sean Luka Girgis

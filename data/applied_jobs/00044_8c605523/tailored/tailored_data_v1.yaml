@@ -1,0 +1,115 @@
+company_name: Boston Consulting Group (BCG)
+company_website: https://www.bcg.com
+job_title: Senior IT Architect - AI Platforms
+location: Dallas, TX
+extracted_skills:
+- Python
+- JavaScript
+- AI/ML
+- LLM (Large Language Models)
+- RAG (Retrieval-Augmented Generation)
+- LangChain
+- LlamaIndex
+- Semantic Kernel
+- Docker
+- Kubernetes
+- Cloud Platforms
+- APIs
+- Data Pipelines
+- Vector Databases
+- Prompt Orchestration
+- Multi-Agent Patterns
+- GenAI Tools (ChatGPT, Claude)
+job_summary: 'Boston Consulting Group (BCG) is a global consulting firm focused on
+  delivering strategic and digital solutions to clients across industries. The Senior
+  IT Architect - AI Platforms role at BCG Platinion involves designing and implementing
+  AI platform components, including large language models (LLMs) and agentic systems,
+  to solve complex business challenges. Key responsibilities include collaborating
+  with cross-functional teams, prototyping AI solutions, and supporting deployment
+  in production environments. Candidates should have 4+ years of experience in software
+  or AI development, proficiency in programming, and familiarity with modern AI frameworks
+  and cloud platforms.
+
+  '
+responsibilities:
+- Collaborate with engineers, data scientists, and architects to design and implement
+  AI platform components for business solutions.
+- Contribute to the architecture and development of agentic AI systems and LLM-based
+  workflows for automation and task execution.
+- Build and extend RAG-based solutions for context retrieval, prompt workflows, and
+  system integration.
+- Develop prototypes and proofs-of-concept to validate AI platform components and
+  iterate based on feedback.
+- Support deployment, monitoring, and troubleshooting of AI platform components in
+  development and production environments.
+- Communicate technical concepts clearly within project teams and assist in preparing
+  documentation and presentations.
+- Mentor junior team members through knowledge sharing and foster a positive team
+  culture aligned with BCG values.
+requirements:
+- Bachelor’s degree in Information Technology, Computer Science, Engineering, or a
+  related field (Master’s degree is a plus).
+- 4+ years of experience in software engineering, data engineering, or AI development.
+- Hands-on experience building or integrating AI/ML or LLM-based components.
+- Familiarity with modern AI frameworks and libraries such as LangChain, LlamaIndex,
+  or Semantic Kernel.
+- Basic understanding of cloud platforms and AI services, with experience in at least
+  one hyperscaler environment.
+- Exposure to deploying AI workloads on cloud platforms and integrating with APIs
+  and data sources.
+- Strong problem-solving skills and attention to code quality.
+- Ability to work in fast-paced, ambiguous environments with an agile mindset focused
+  on iterative delivery.
+- Willingness to travel to work with clients and BCG teams as needed.
+preferred:
+- Proficiency in programming languages such as Python or JavaScript.
+- Hands-on experience with AI-assisted coding tools like Cursor, Claude Code, or Replit.
+- Familiarity with containerization concepts, including Docker and Kubernetes.
+- Experience with multi-agent AI patterns and vector databases.
+benefits:
+- Zero dollar ($0) health insurance premiums for employees, spouses, and children.
+- $10 copays for doctor visits, urgent care, and generic prescriptions.
+- Dental coverage with up to $5,000 in orthodontia benefits.
+- Vision insurance covering glasses and contact lenses annually.
+- Reimbursement for gym memberships and fitness activities.
+- Fully vested retirement contributions made annually.
+- Generous paid time off, including vacation, holidays, and office closure between
+  Christmas and New Year’s.
+- Paid parental leave and family benefits like egg freezing, surrogacy, and adoption
+  reimbursement.
+must_have_skills:
+- AI/ML Development
+- LLM Integration
+- Software Engineering
+- Cloud Platform Experience
+- Problem-Solving
+nice_to_have_skills:
+- Python Programming
+- JavaScript Programming
+- Kubernetes
+- Docker
+- AI-Assisted Coding Tools
+ats_keywords:
+- AI Platform Architect
+- Senior IT Architect
+- Large Language Models
+- LLM Architecture
+- Agentic AI Systems
+- Retrieval-Augmented Generation
+- RAG Solutions
+- AI Frameworks
+- Cloud AI Services
+- Data Pipelines
+- Prompt Orchestration
+- Vector Databases
+- Multi-Agent Patterns
+- Software Engineering
+- Digital Transformation
+- BCG Platinion
+- Agile Delivery
+- GenAI Tools
+- API Integration
+- Containerization
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

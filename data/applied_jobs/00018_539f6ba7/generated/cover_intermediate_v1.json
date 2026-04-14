@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "February 07, 2026",
+    "employer_address": "Google\nDallas, New York City, NY"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am excited to apply for the Incentives Technical Analyst, Infrastructure and Development position at YouTube, a Google subsidiary. With Google\u2019s mission to organize the world\u2019s information and make it universally accessible, I am eager to contribute to innovative solutions that drive the creator and partner ecosystem on a global scale.",
+  "body": [
+    "As a Senior Data Engineer with over 20 years of enterprise experience, I have a proven track record in technical problem-solving and building scalable systems, aligning directly with the requirements for this role. At CITI, as a Senior Capacity & Data Engineer from 2017 to 2025, I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints, which enhanced data analysis and system architecture for capacity forecasting. My proficiency in SQL and relational databases, honed over 18 years with Oracle schema design and querying, positions me to effectively utilize YouTube\u2019s data warehouse and promote best practices in development life-cycles as outlined in the responsibilities.",
+    "Additionally, my recent projects demonstrate my capability to drive product activation systems at scale. I designed a serverless lakehouse platform on AWS using Glue, Athena, and S3, optimizing ETL processes for enterprise-scale data access. My HorizonScale AI Capacity Forecasting Engine, built with Python, PySpark, and Prophet, reduced forecasting cycles by 90% through parallel generator-based pipelines, showcasing my expertise in programming (Python) and data science analytics. These experiences equip me to collaborate with YouTube\u2019s product and technical teams to build infrastructure for incentive systems and provide thought leadership on development processes, directly addressing the role\u2019s focus on infrastructure development and workflow optimization."
+  ],
+  "conclusion": "I am enthusiastic about the opportunity to bring my skills in data engineering, system architecture, and SQL to Google, contributing to the success of YouTube\u2019s incentives systems. I would welcome the chance to discuss how my background aligns with your team\u2019s goals. Thank you for considering my application, and I look forward to the possibility of contributing to your innovative projects.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

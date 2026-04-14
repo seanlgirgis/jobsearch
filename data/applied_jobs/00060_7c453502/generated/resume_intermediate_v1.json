@@ -1,0 +1,94 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "location_preference": "Dallas-Fort Worth / On-site"
+  },
+  "summary": "Senior Capacity and Data Engineer with 20+ years of enterprise experience driving bottleneck reduction, throughput optimization, and forecasting-led planning decisions. Built automated analytics pipelines for 6,000+ endpoints, developed predictive models (Prophet/scikit-learn), and delivered executive risk dashboards for proactive resource allocation. Strong in Python, SQL, PySpark, and cross-functional execution between engineering and operations teams.",
+  "skills": [
+    "Capacity Planning",
+    "Bottleneck Analysis",
+    "Throughput Optimization",
+    "Forecasting (Prophet, scikit-learn)",
+    "Production Strategy",
+    "Line Analysis",
+    "Resource Allocation",
+    "Python",
+    "SQL",
+    "PySpark",
+    "Pandas",
+    "Equipment Efficiency Analytics",
+    "KPI and Risk Reporting",
+    "BMC TrueSight / TSCO",
+    "AppDynamics",
+    "CA APM / Introscope",
+    "Project Management",
+    "Process Improvement",
+    "Cross-functional Collaboration"
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Performed enterprise capacity analysis and forecasting across constrained infrastructure domains, improving prioritization and delivery outcomes.",
+        "Built predictive models using Prophet and scikit-learn to identify bottlenecks 3-6 months ahead and guide proactive remediation.",
+        "Executed line and utilization analysis across telemetry from 6,000+ endpoints; identified capacity gaps and drove action plans to completion.",
+        "Integrated tool performance data from TrueSight, AppDynamics, and CA APM into leadership-facing risk summaries and KPI dashboards.",
+        "Drove resource right-sizing and efficiency improvements through data-driven throughput and constraint analysis."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led performance investigations to identify operational bottlenecks and recommend throughput improvements.",
+        "Built before/after performance reporting and impact analysis for leadership decision-making.",
+        "Partnered across engineering teams to improve production stability and efficiency."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (CA APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed large-scale monitoring and performance environments and delivered capacity insights for operational planning.",
+        "Built dashboards/alerts/extraction scripts to support trend analysis and risk visibility.",
+        "Coordinated with technical teams to execute performance improvement initiatives."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "projects": [
+    {
+      "name": "HorizonScale - AI Capacity Forecasting Engine",
+      "timeframe": "2025",
+      "description": "Replaced manual forecasting with AI-driven modeling and dashboards; reduced forecasting cycles by 90% and improved planning lead time.",
+      "technologies": ["Python", "PySpark", "Prophet", "scikit-learn", "Streamlit"]
+    }
+  ]
+}

@@ -34,3 +34,7 @@ application:
     notes: Backdated note test
   last_status: REJECTED
   last_status_date: '2026-02-10'
+job_hash: 0c448b0ca0b4c403515ac52c37310b36ff848c3bf4da25f81080978c52f2589b
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.645358'
+applied_jobs_path: data/applied_jobs/00007_31466164

@@ -148,6 +148,52 @@ def _build_prompt(
     )
 
 
+def _format_list(items: Any, limit: int = 3, empty_label: str = "None") -> str:
+    if not isinstance(items, list):
+        return empty_label
+    cleaned = [str(x).strip() for x in items if str(x).strip()]
+    if not cleaned:
+        return empty_label
+    return ", ".join(cleaned[:limit])
+
+
+def _short_text(value: Any, max_len: int = 180, empty_label: str = "Unknown") -> str:
+    text = str(value).strip() if value is not None else ""
+    if not text:
+        return empty_label
+    if len(text) <= max_len:
+        return text
+    return text[: max_len - 3] + "..."
+
+
+def _print_analysis_summary(packet: Dict[str, Any], job_id: str) -> None:
+    job_facts = packet.get("job_facts", {}) or {}
+    requirements = packet.get("requirements", {}) or {}
+    must_haves = requirements.get("must_have_skills", [])
+    risk_flags = requirements.get("risk_flags", [])
+    missing_skills = requirements.get("missing_skills", [])
+
+    top_risks: list[str] = []
+    if isinstance(risk_flags, list):
+        top_risks.extend([str(x).strip() for x in risk_flags if str(x).strip()])
+    if len(top_risks) < 3 and isinstance(missing_skills, list):
+        top_risks.extend(
+            [str(x).strip() for x in missing_skills if str(x).strip() and str(x).strip() not in top_risks]
+        )
+
+    print()
+    print("=== ANALYZE JOB SUMMARY ===")
+    print(f"Job ID: {packet.get('job_id') or job_id}")
+    print(f"Company: {_short_text(job_facts.get('company'), empty_label='Unknown')}")
+    print(f"Title: {_short_text(job_facts.get('title'), empty_label='Unknown')}")
+    print(f"Score: {packet.get('score') if packet.get('score') is not None else 'Unknown'}")
+    print(f"LLM Decision: {_short_text(packet.get('llm_decision'), empty_label='Unknown')}")
+    print(f"Rationale: {_short_text(packet.get('rationale'), max_len=220, empty_label='Unknown')}")
+    print(f"Top Must-Haves: {_format_list(must_haves, limit=3, empty_label='None')}")
+    print(f"Top Risks: {_format_list(top_risks, limit=3, empty_label='None')}")
+    print(f"Artifact: data/jobs/{job_id}/tailored/job_packet.json")
+
+
 def main() -> None:
     args = parse_args()
 
@@ -179,6 +225,12 @@ def main() -> None:
         print(f"Job ID: {args.job_id}")
         print("Result: cached analysis found, skipping LLM call")
         print(f"Artifact: data/jobs/{args.job_id}/tailored/job_packet.json")
+        try:
+            cached_packet = json.loads(job_packet_path.read_text(encoding="utf-8"))
+            if isinstance(cached_packet, dict):
+                _print_analysis_summary(cached_packet, args.job_id)
+        except Exception:
+            pass
         return
 
     source_of_truth_path = Path("data/source_of_truth.json")
@@ -299,6 +351,7 @@ def main() -> None:
     print(f"LLM Decision: {packet.get('llm_decision')}")
     print(f"Score: {packet.get('score')}")
     print(f"Artifact: data/jobs/{args.job_id}/tailored/job_packet.json")
+    _print_analysis_summary(packet, args.job_id)
 
 
 if __name__ == "__main__":

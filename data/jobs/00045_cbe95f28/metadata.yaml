@@ -25,3 +25,8 @@ application:
   - date: '2026-03-11'
     status: Applied
     notes: Manually submitted via company website
+job_hash: 63370fff93b61c5eb6d7785df70da511a87c8ba0e7df371c00f6544ac6fd43b6
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.943154'
+applied_jobs_path: data/applied_jobs/00045_cbe95f28
+historical_archive_mode: true

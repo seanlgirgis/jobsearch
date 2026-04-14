@@ -1,0 +1,101 @@
+{
+  "artifact_type": "job_packet",
+  "artifact_schema_version": "v1",
+  "job_id": "00070_3fa9c07b",
+  "job_hash": "3fb93db8289a8517940485b3c96dc3fead1ba50d1fc4013d01b9e30130b55d89",
+  "score": 85,
+  "llm_decision": "proceed",
+  "rationale": "Candidate's 20+ years of data engineering experience, expertise in Python, SQL, and AWS, and recent roles in ETL pipeline design align strongly with the job's focus on Spark-based data processing and pipeline optimization on Azure Databricks. Minor gaps in Scala and Azure-specific experience are offset by transferable skills.",
+  "job_facts": {
+    "title": "Data Engineer",
+    "company": "Scotiabank",
+    "location": "Dallas, TX",
+    "employment_type": "Full Time, On-site"
+  },
+  "requirements": {
+    "must_have_skills": [
+      "Apache Spark",
+      "Python",
+      "SQL",
+      "Distributed Systems",
+      "Data Processing",
+      "Data Lakes",
+      "Columnar Formats (Parquet, Delta Lake)",
+      "Git",
+      "Software Engineering Practices"
+    ],
+    "nice_to_have_skills": [
+      "Scala",
+      "Java",
+      "Azure Databricks",
+      "Migration from Hadoop/Cloudera to Cloud",
+      "Orchestration Tools (Airflow, Azure Data Factory)",
+      "Cloud Storage (ADLS Gen2)",
+      "Cloud Security"
+    ],
+    "responsibilities": [
+      "Design, develop, and maintain large-scale Spark applications",
+      "Build and optimize batch and streaming data pipelines",
+      "Write production-quality Spark code focusing on performance and scalability",
+      "Optimize Spark jobs (partitioning, caching, memory tuning)",
+      "Collaborate with platform, analytics, and data science teams",
+      "Debug and troubleshoot Spark job issues in production",
+      "Follow best practices for code quality, testing, and documentation"
+    ],
+    "requirements_text": [
+      "Bachelor's degree in Computer Science, Engineering, or equivalent experience",
+      "3+ years of experience as a Data Engineer or similar role",
+      "Strong hands-on experience with Apache Spark",
+      "Proficiency in Python, Scala, or Java",
+      "Experience with data lakes and columnar formats",
+      "Strong problem-solving skills and attention to detail"
+    ],
+    "ats_keywords": [
+      "Apache Spark",
+      "Python",
+      "Scala",
+      "Java",
+      "SQL",
+      "Azure Databricks",
+      "Data Engineer",
+      "Distributed Systems",
+      "Data Pipelines",
+      "Parquet",
+      "Delta Lake",
+      "Git"
+    ],
+    "missing_skills": [
+      "Scala",
+      "Azure Databricks",
+      "Orchestration Tools (Airflow, Azure Data Factory)",
+      "Cloud Storage (ADLS Gen2)",
+      "Cloud Security"
+    ],
+    "risk_flags": [
+      "Limited direct experience with Scala and Azure-specific technologies",
+      "On-site requirement in Dallas may conflict with candidate's remote preference"
+    ]
+  },
+  "tailoring_plan": {
+    "positioning_angle": "Highlight 20+ years of data engineering expertise, focusing on Python, SQL, and ETL pipeline optimization as directly transferable to Spark-based data processing. Emphasize adaptability to learn Scala and Azure Databricks based on strong foundation in distributed systems and AWS.",
+    "priority_experiences": [
+      "Architected automated ETL pipelines (Python/Pandas) at CITI, ingesting telemetry from 6,000+ endpoints",
+      "Designed optimized Oracle schemas for historical retention and forecasting at CITI",
+      "Managed performance engineering and data mining for optimization at G6 Hospitality"
+    ],
+    "priority_keywords": [
+      "Python",
+      "SQL",
+      "ETL Pipelines",
+      "Data Processing",
+      "Distributed Systems",
+      "Performance Optimization"
+    ],
+    "bullet_strategy": [
+      "Lead with Python and SQL expertise in context of large-scale data pipeline design",
+      "Frame AWS and PySpark experience as transferable to Azure Databricks and Spark environments",
+      "Address Scala gap by emphasizing quick learning of new languages (e.g., Java, C++) and adaptability",
+      "Mitigate on-site concern by expressing flexibility for hybrid or relocation to Dallas if required"
+    ]
+  }
+}

@@ -1,0 +1,86 @@
+company_name: Government Tactical Solutions, LLC
+company_website: ''
+job_title: Performance Engineer (Senior)
+location: Dallas, TX
+extracted_skills:
+- NeoLoad
+- JMeter
+- Grafana
+- Dynatrace
+- GitLab CI
+- CI/CD pipelines
+- cloud-native scalability testing
+- performance engineering
+- Agile methodology
+- Waterfall methodology
+job_summary: 'Government Tactical Solutions, LLC is seeking a Senior Performance Engineer
+  in Dallas, TX to lead performance engineering strategies across various platforms
+  and application teams. This full-time, hybrid role involves designing and building
+  enterprise performance toolsets and overseeing test execution to ensure scalability,
+  reliability, and responsiveness of applications. Key responsibilities include reviewing
+  performance bottlenecks, proposing new tools, and defining performance benchmarks.
+  The ideal candidate will have over 10 years of experience in performance engineering,
+  expertise in tools like NeoLoad and JMeter, and familiarity with cloud-native scalability
+  testing.
+
+  '
+responsibilities:
+- Serve as the central point of contact for best practices and governance in performance
+  testing across all efforts.
+- Analyze performance bottlenecks in applications, databases, APIs, and infrastructure,
+  and evaluate current testing monitoring.
+- Recommend and implement new tools and frameworks to enhance scalability testing
+  and performance visibility.
+- Develop and maintain performance test scripts using tools like NeoLoad and JMeter.
+- Define and verify SLA, SLO, and capacity benchmarks with input from Enterprise Architecture.
+- Create and promote a standardized Performance Testing Intake Form for new project
+  initiations.
+- Consult with project teams to translate requirements into performance test plans.
+- Design load models aligned with production traffic and future patterns for storm-impacted
+  applications.
+- Collaborate with infrastructure teams to integrate performance testing tools with
+  CI/CD pipelines.
+- Define and manage the performance engineering strategy and roadmap for the Testing
+  team.
+requirements:
+- 10+ years of experience in performance engineering and scalability principles.
+- Hands-on experience with performance testing tools such as NeoLoad and JMeter.
+- Strong understanding of performance concepts and ability to recommend improvements
+  to development teams.
+- Experience with cloud-native scalability testing.
+- Exposure to APM and monitoring tools like Grafana and Dynatrace.
+- Familiarity with Agile and Waterfall methodologies and CI/CD pipelines.
+- Ability to work in a hybrid model with required in-office days.
+- Flexibility to work overtime when needed to support team activities.
+preferred:
+- Experience with GitLab CI.
+benefits:
+- Target salary range of $150,000 - $190,000 based on education, experience, and certifications.
+must_have_skills:
+- Performance engineering
+- NeoLoad
+- JMeter
+- Cloud-native scalability testing
+- APM tools (Grafana, Dynatrace)
+nice_to_have_skills:
+- GitLab CI experience
+- Test-Driven Development model exposure
+ats_keywords:
+- performance engineer
+- senior performance engineer
+- performance testing
+- scalability testing
+- NeoLoad
+- JMeter
+- Grafana
+- Dynatrace
+- cloud-native testing
+- CI/CD pipelines
+- Agile methodology
+- Waterfall methodology
+- performance bottlenecks
+- enterprise architecture
+- SLA SLO benchmarks
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

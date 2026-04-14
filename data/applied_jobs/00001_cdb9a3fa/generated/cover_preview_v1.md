@@ -1,0 +1,24 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+February 2026  
+
+Collective Health
+[Address Line 1]
+[City, State, ZIP Code]
+
+Dear Hiring Manager,
+
+I am excited to apply for the Staff Data Engineer position at Collective Health. With over 20 years of experience in data engineering, I am eager to contribute my expertise in designing robust data pipelines and dimensional modeling to transform health benefits engagement through innovative technology.
+
+In my role as Senior Capacity & Data Engineer at CITI, I architected automated ETL pipelines using Python and Pandas, ingesting telemetry data from over 6,000 endpoints into a unified Oracle reporting system. This experience aligns directly with your need for expertise in data ingestion and transformation pipelines for a centralized data warehouse. I also designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting, which demonstrates my capability in dimensional modeling to support analytics and reporting initiatives. My proficiency in SQL and Python, coupled with 15 years of ETL design and optimization, positions me to develop and maintain data models that align with business requirements at Collective Health.
+
+Additionally, I have hands-on experience with modern tools and methodologies that match your requirements. I have utilized Airflow for orchestration of data pipelines over the past 5 years, ensuring efficient ELT workflows. My recent projects include designing a serverless lakehouse platform on AWS (Glue, Athena, S3), optimizing data access for enterprise scale, and building AI-driven forecasting engines like HorizonScale, which reduced forecasting cycles by 90% using PySpark and multiprocessing. These achievements highlight my ability to optimize workflows, promote consistency through reusable frameworks, and provide technical leadership—key aspects of mentoring team members and enhancing engineering quality as outlined in the role responsibilities.
+
+I am enthusiastic about the opportunity to bring my data engineering expertise to Collective Health, contributing to impactful data solutions for health benefits engagement. I would welcome the chance to discuss how my skills in ELT pipelines, dimensional modeling, and technical leadership can support your team’s goals. Thank you for considering my application, and I look forward to the possibility of contributing to your mission.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,22 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 14, 2026"
+  },
+  "employer": {
+    "company": "Pennymac",
+    "location": "Carrollton, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Senior Observability Engineer role at Pennymac. With over 20 years of hands-on APM and observability experience in regulated financial environments, and a home base in Plano, TX, I am well-positioned to contribute to your Core Services Engineering team from day one.",
+  "body": [
+    "My observability background spans the major enterprise platforms your team relies on. As CA APM Subject Matter Expert at CA Technologies/TIAA-CREF, I managed over 50 Enterprise Managers and 4,000 to 6,000 monitored agents across large-scale financial systems. I designed custom dashboards, management modules, and alerting policies, and I delivered training programs that enabled partner engineering teams to operate the platform independently. This is precisely the SME and enablement role your posting describes. At Citi, I extended that practice across dual APM environments (CA Wily/Introscope and AppDynamics), BMC TrueSight, and automated Python telemetry pipelines ingesting performance data from 6,000+ endpoints. I built the alerting baselines, threshold policies, and executive dashboards that made infrastructure health visible across the organization.",
+    "I understand what working in a regulated environment actually requires. Eight years at Citi under banking compliance standards gave me a disciplined approach to data handling, access controls, and security-aware system design that translates directly to Pennymac's mortgage regulatory context. The values of being Accountable, Reliable, and Ethical resonate with how I have operated throughout my career.",
+    "I recognize that New Relic and Terraform are specific platform requirements I will ramp into. My experience with Dynatrace AppMon and Synthetics, AppDynamics, and CA APM gives me a strong conceptual foundation for transferring to New Relic, as the instrumentation, querying, dashboarding, and synthetic monitoring patterns are directly parallel. On the IaC side, my Python automation background, including building and maintaining telemetry pipelines, alerting scripts, and reporting infrastructure, reflects the same infrastructure-as-code mindset and I am actively building Terraform skills to close that gap formally."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my observability depth, financial services background, and local presence can support Pennymac's monitoring and reliability goals. Thank you for your consideration.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

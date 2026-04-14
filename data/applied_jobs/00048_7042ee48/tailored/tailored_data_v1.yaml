@@ -1,0 +1,89 @@
+company_name: Kyndryl
+company_website: ''
+job_title: Agentic AI - Data Engineer
+location: Dallas, TX
+extracted_skills:
+- python
+- sql
+- aws
+- azure
+- gcp
+- airflow
+- dbt
+- kafka
+- datahub
+- great expectations
+- docker
+- kubernetes
+job_summary: 'Kyndryl, a global leader in designing and managing mission-critical
+  technology systems, is seeking an Agentic AI Data Engineer in Dallas, TX. This role
+  focuses on designing and implementing scalable data platforms and pipelines to support
+  enterprise AI and analytics capabilities. Key responsibilities include building
+  ETL/ELT pipelines, optimizing data architectures, and ensuring data quality for
+  Agentic AI frameworks. Candidates must have strong programming skills in SQL and
+  Python, expertise in cloud platforms, and a passion for innovation in data engineering.
+
+  '
+responsibilities:
+- Design and optimize ETL/ELT pipelines and data models for both structured and unstructured
+  data.
+- Develop scalable architectures for batch and real-time data processing in cloud
+  and on-premises environments.
+- Implement data quality frameworks, governance policies, and validation rules to
+  ensure reliability.
+- Create API endpoints and integrations to enable AI agents to access structured data.
+- Manage vector databases and semantic layers to support AI-driven search and contextual
+  grounding.
+- Collaborate with architects, software engineers, and data scientists to align data
+  solutions with business and AI objectives.
+- Mentor junior engineers and promote best practices in DataOps and pipeline orchestration.
+requirements:
+- Strong programming skills in SQL and Python, with hands-on experience in ETL/ELT
+  tools like Airflow, dbt, and Kafka.
+- Expertise in data modeling, distributed systems, and cloud-native platforms such
+  as AWS, Azure, and GCP.
+- Familiarity with data governance, lineage, and observability tools including DataHub
+  and Great Expectations.
+- Experience with vector databases and feature store design for AI/ML workflows.
+- Proven ability to troubleshoot complex data issues and optimize performance.
+preferred:
+- Background in regulated industries or environments with strict compliance requirements.
+- Knowledge of containerization and orchestration tools like Docker and Kubernetes.
+- Familiarity with semantic modeling, metadata management, and emerging AI/ML data
+  integration patterns.
+- Experience with CI/CD for data workflows, version control, and Agile methodologies.
+benefits:
+- Opportunity to work on cutting-edge Agentic AI technology with enterprise-scale
+  impact.
+- Access to comprehensive benefits including medical, dental, disability, retirement
+  plans, paid leave, and time off.
+- Career growth through hands-on experience, certifications, and learning programs
+  with major platforms.
+- Participation in a discretionary annual bonus program based on performance.
+- Supportive, inclusive workplace with employee learning and volunteering initiatives.
+must_have_skills:
+- python
+- sql
+- etl/elt tools
+- cloud platforms
+- data modeling
+nice_to_have_skills:
+- docker
+- kubernetes
+- semantic modeling
+- ci/cd for data workflows
+ats_keywords:
+- agentic ai
+- data engineer
+- etl/elt pipelines
+- data modeling
+- cloud platforms
+- aws
+- azure
+- gcp
+- data governance
+- vector databases
+- ai/ml workflows
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

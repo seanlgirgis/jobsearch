@@ -1,0 +1,78 @@
+company_name: Meta
+company_website: https://www.meta.com
+job_title: Performance & Capacity Engineer - Planning Optimization
+location: New York, NY
+extracted_skills:
+- python
+- sql
+- capacity planning
+- mathematical optimization
+- software design
+- data analysis
+- cloud computing
+job_summary: 'Meta is seeking a Performance & Capacity Engineer to join the Capacity
+  Engineering & Analysis team in New York, NY, focusing on site-wide performance and
+  capacity optimization across all Meta products and physical infrastructure. The
+  role involves creating and optimizing global and regional capacity plans to balance
+  service, infrastructure, financial, and business constraints, managing billions
+  in investments annually. Key responsibilities include building software and mathematical
+  optimization models to drive executive decision-making and collaborating with various
+  engineering and business teams. Candidates must have a Bachelor’s degree in a relevant
+  technical field, 6+ years of coding experience, and 4+ years in capacity or performance
+  engineering.
+
+  '
+responsibilities:
+- Own technical and business outcomes for capacity planning across all Meta software
+  products and infrastructure scaling strategies.
+- Develop and analyze business and technical scenarios to support executive decision-making
+  at the CxO level.
+- Collaborate with engineering teams to optimize hardware, infrastructure, and software
+  intersections for efficient scaling.
+- Design and build scalable planning systems to connect business strategy with detailed
+  technical execution.
+- Partner with Finance to balance cost efficiency with technical and product considerations.
+- Define problem statements, collect data, build analytical models, and provide recommendations
+  for strategic optimization.
+- Proactively identify capacity-related issues and implement solutions across technical
+  and business teams.
+requirements:
+- Bachelor’s degree in Computer Science, Computer Engineering, or a relevant technical
+  field, or equivalent practical experience.
+- 6+ years of experience in any coding language and designing software systems.
+- 4+ years of experience in capacity, performance, software, or reliability engineering.
+- Proven ability to manage ambiguity and frequently learn new technical and business
+  concepts.
+preferred:
+- Practical experience and demonstrated success in capacity planning for a major private
+  or public cloud.
+- Experience with mathematical optimization techniques.
+- Experience working with a variety of technical and business teams.
+benefits:
+- Compensation range of $154,000/year to $217,000/year.
+- Bonus, equity, and additional benefits offered.
+- Commitment to equal employment opportunity and reasonable accommodations for candidates
+  with disabilities.
+must_have_skills:
+- capacity planning
+- software design
+- performance engineering
+- data analysis
+nice_to_have_skills:
+- cloud computing
+- mathematical optimization
+- cross-functional collaboration
+ats_keywords:
+- capacity planning
+- performance engineering
+- software systems design
+- mathematical optimization
+- infrastructure scaling
+- data center capacity
+- executive decision making
+- cross-functional collaboration
+- cost efficiency
+- technical execution
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

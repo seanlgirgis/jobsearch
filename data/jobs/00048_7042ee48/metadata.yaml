@@ -25,3 +25,8 @@ application:
   - date: '2026-03-11'
     status: Applied
     notes: Applied via Kyndryl Careers. Ref# C1332657, Job R-52271
+job_hash: e28ab33e8694cf414ff7337eee68e35eda176df84877abcd1ec903960e3b9cb2
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.975932'
+applied_jobs_path: data/applied_jobs/00048_7042ee48
+historical_archive_mode: true

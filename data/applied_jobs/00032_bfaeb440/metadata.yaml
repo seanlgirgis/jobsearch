@@ -1,0 +1,32 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Dice
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: Peyton Resource Group
+company_website: ''
+created_at: '2026-03-11T05:18:20.856962'
+job_id: 00032_bfaeb440
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T05:18:20.986438'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 75%. Recommendation: Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: payton.03112026.517.md
+recommendation: Proceed
+role: Performance Engineer
+score: 75
+score_date: '2026-03-11T05:18:20.856962'
+status: ACCEPTED
+uuid: bfaeb440-babd-4271-b428-6ae35b5aa5b5
+job_hash: 6cbd4a9e2d4f33532a77273a23b48c4457b55789a39b768cc2f42644b46e457d
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.814241'
+migration_source_root: data/jobs
+historical_archive_mode: true

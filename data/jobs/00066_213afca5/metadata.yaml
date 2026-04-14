@@ -8,3 +8,7 @@ tier0_decision: reject_early
 llm_decision: null
 user_decision: pending
 score: null
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.202690'
+applied_jobs_path: data/applied_jobs/00066_213afca5
+historical_archive_mode: true

@@ -1,0 +1,77 @@
+company_name: Randstad Digital
+company_website: ''
+job_title: Data Engineer
+location: Remote in New York, NY, US
+extracted_skills:
+- python
+- etl pipelines
+- data workflows
+- data operations
+- data processing
+- data storage
+- data quality
+- data management
+job_summary: 'Randstad Digital is seeking a Data Engineer (contract) to join their
+  Data Engineering team. The role focuses on designing and building scalable, high-performance
+  data pipelines that handle over 30TB of data daily, ensuring reliability and integrity.
+  Key responsibilities include collaborating with business partners to understand
+  data needs, onboarding new datasets, and productionalizing data pipelines to support
+  trading activities at Two Sigma. Candidates must have a bachelor''s degree, at least
+  3 years of experience as a Data Engineer, and proficiency in Python and ETL pipeline
+  development.
+
+  '
+responsibilities:
+- Collaborate with business partners across Two Sigma to identify data ingestion and
+  transformation requirements.
+- Partner with engineers, researchers, and portfolio managers to integrate new datasets
+  and operationalize data pipelines.
+- Develop robust, production-ready data pipelines to support Two Sigma's trading operations.
+- Enhance and maintain the data ingestion and transformation framework to meet evolving
+  needs.
+requirements:
+- Bachelor's degree in a technical field.
+- Minimum of 3 years of full-time experience as a Data Engineer or in a comparable
+  role.
+- At least 3 years of experience in building ETL pipelines.
+- At least 3 years of experience with Python programming.
+- Strong understanding of data operations, including processing, storage, quality,
+  and management.
+preferred:
+- Experience working with large-scale data environments (e.g., handling terabytes
+  of data daily).
+- Familiarity with financial or trading data systems.
+benefits:
+- Comprehensive benefits package including medical, prescription, dental, and vision
+  insurance.
+- Access to AD&D and life insurance offerings.
+- Short-term disability coverage.
+- 401K plan (based on eligibility).
+must_have_skills:
+- Python programming
+- ETL pipeline development
+- Data workflow development
+- Bachelor's degree in a technical field
+nice_to_have_skills:
+- Experience with financial trading data
+- Knowledge of large-scale data processing frameworks
+ats_keywords:
+- Data Engineer
+- Python programming
+- ETL pipelines
+- data ingestion
+- data transformation
+- data pipelines
+- data operations
+- data processing
+- data storage
+- data quality
+- data management
+- Two Sigma
+- trading activities
+- bachelor's degree
+- remote work
+- contract role
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

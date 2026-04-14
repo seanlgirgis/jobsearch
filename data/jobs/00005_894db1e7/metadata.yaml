@@ -30,3 +30,7 @@ application:
     notes: GEICO portal confirmed Not Hired (Feb 2026)
   last_status: REJECTED
   last_status_date: '2026-03-11'
+job_hash: 32b1689e02b83948c1acfdcdd8ec51123d42e89c08a20a5b6a8a17c47dde9a80
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.634152'
+applied_jobs_path: data/applied_jobs/00005_894db1e7

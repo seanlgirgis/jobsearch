@@ -1,0 +1,40 @@
+uuid: 5abc9e0d-e69e-45f3-b368-0fe9bd1b4bd6
+job_id: 00004_5abc9e0d
+original_filename: 00004.Geico.StaffEngineer.02062026.1122.md
+company: Geico
+role: Senior Staff Engineer
+company_website: https://careers.geico.com/us/en/
+location: Richardson, Texas
+status: REJECTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-02-06T11:28:54.412057'
+created_at: '2026-02-06T11:28:54.412057'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T11:28:54.613301'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Pipeline application
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
+  - date: '2026-02-13'
+    status: REJECTED
+    notes: Email, thy decided to move with other candidates
+  - date: '2026-03-11'
+    status: REJECTED
+    notes: GEICO portal confirmed Not Hired (Feb 2026)
+  last_status: REJECTED
+  last_status_date: '2026-03-11'
+job_hash: 1411c735efbd4b8d2db5e8560769c07509fec11f31e14c386e7954ee3a35193f
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.647118'
+migration_source_root: data/jobs
+historical_archive_mode: true

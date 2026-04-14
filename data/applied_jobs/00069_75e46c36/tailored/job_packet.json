@@ -1,0 +1,45 @@
+{
+  "score": 88,
+  "rationale": "cache fixture successful analysis",
+  "artifact_schema_version": "v1",
+  "requirements": {
+    "requirements_text": [],
+    "missing_skills": [],
+    "ats_keywords": [
+      "python",
+      "sql"
+    ],
+    "risk_flags": [],
+    "responsibilities": [
+      "build pipelines"
+    ],
+    "nice_to_have_skills": [],
+    "must_have_skills": [
+      "python",
+      "sql"
+    ]
+  },
+  "job_hash": "d93ba658e28fb4f6f16a70ad640ac705c13c2ef70281bc0195f4f4f8c05ee319",
+  "artifact_type": "job_packet",
+  "llm_decision": "proceed",
+  "job_facts": {
+    "title": "Cache Fixture Data Engineer",
+    "company": "Cache Test Labs",
+    "location": "Remote US",
+    "employment_type": "Full-time"
+  },
+  "job_id": "00069_75e46c36",
+  "tailoring_plan": {
+    "positioning_angle": "data reliability and ETL",
+    "priority_experiences": [
+      "etl automation"
+    ],
+    "priority_keywords": [
+      "python",
+      "sql"
+    ],
+    "bullet_strategy": [
+      "lead with reliability impact"
+    ]
+  }
+}

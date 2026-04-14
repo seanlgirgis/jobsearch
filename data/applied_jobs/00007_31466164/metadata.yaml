@@ -1,0 +1,41 @@
+uuid: 31466164-944a-4f84-b9b0-954c3d849ec3
+job_id: '00007_31466164'
+original_filename: 00007.AgileEngine.DataEngineer.1303.md
+company: Agile Engine
+role: Data Engineer ID50062
+company_website: https://join.agileengine.com/job/data-engineer-agileengine/
+location: USA, Remote
+status: ACCEPTED
+score: 95
+recommendation: Strong Proceed
+score_date: '2026-02-06T13:05:26.976279'
+created_at: '2026-02-06T13:05:26.976279'
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-02-06)'
+location_preference: Plano, TX
+last_decision_at: '2026-02-06T13:05:27.181451'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-02-06'
+  applied_method: Company Website
+  application_notes: Backdated note test
+  history:
+  - date: '2026-02-06'
+    status: Applied
+    notes: Pipeline application
+  - date: '2026-02-10'
+    status: REJECTED
+    notes: 'Email update: Added to talent pool. ''don''t have an immediate opening...
+      we will make sure to reach out'''
+  - date: '2026-02-01'
+    status: REJECTED
+    notes: Backdated note test
+  last_status: REJECTED
+  last_status_date: '2026-02-10'
+job_hash: 0c448b0ca0b4c403515ac52c37310b36ff848c3bf4da25f81080978c52f2589b
+submission_status: applied
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:27:41.645358'
+migration_source_root: data/jobs

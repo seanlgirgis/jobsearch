@@ -1,0 +1,156 @@
+company_name: Geico
+company_website: https://careers.geico.com/us/en/
+job_title: Senior Engineer
+location: Richardson, Texas
+extracted_skills:
+- python
+- sql
+- nosql
+- dbt
+- apache spark
+- docker
+- kubernetes
+- azure
+- power bi
+- apache superset
+- powershell
+- rest apis
+- ci/cd
+- data warehousing
+- olap
+- dimensional modeling
+- etl
+- ssis
+- apache iceberg
+- kafka
+- git
+- containerization
+- power platform
+- dataverse
+- azure devops
+- github
+- microsoft 365
+- azure ad
+- airflow
+- react
+- javascript
+- microsoft fabric
+- azure data factory
+- aws
+- gcp
+- big data
+- spark
+- databricks
+job_summary: 'GEICO is seeking a Senior Engineer to join their Data Analytics and
+  Vertical Engineering team in Richardson, Texas, focusing on building high-performance,
+  low-maintenance platforms and applications. The role involves designing and developing
+  automated solutions for platform administration, creating data pipelines, models,
+  and reports from vast datasets, and driving innovation within a hyper-growth environment.
+  Key responsibilities include scoping and building scalable systems, automating administrative
+  tasks, and collaborating with cross-functional teams to ensure compliance and governance.
+  Candidates should have advanced experience in programming, big data technologies,
+  and business intelligence tools, along with a passion for engineering excellence.
+
+  '
+responsibilities:
+- Design and develop scalable, resilient distributed systems to support business needs.
+- Utilize technologies such as Python, SQL, NoSQL, DBT, Apache Spark, Docker, Kubernetes,
+  and Azure tools for data processing and automation.
+- Create high-quality data visualizations and reports using Power BI and Apache Superset
+  to enable data-driven decisions.
+- Define and implement automation strategies for administrative and governance tasks
+  within Power Platform and Power BI.
+- Build automation solutions using PowerShell, REST APIs, and CI/CD pipelines for
+  user provisioning, license management, and platform monitoring.
+- Lead design sessions and code reviews to enhance engineering quality across the
+  organization.
+- Collaborate with security, compliance, and data governance teams to align solutions
+  with enterprise policies and integrate with systems like Azure DevOps and Microsoft
+  365.
+- Develop standards for monitoring, auditing, and reporting, providing executive-level
+  insights on platform health and adoption trends.
+- Mentor other engineers and share best practices to improve processes within and
+  across teams.
+requirements:
+- Bachelor’s degree in Computer Science, Information Systems, Data Science, Data Analytics,
+  or equivalent education/work experience.
+- 4+ years of professional experience in data/analytics/database engineering and programming
+  with big data technologies.
+- 3+ years of experience in data architecture and design, particularly in Data Warehousing
+  concepts.
+- 3+ years of experience with cloud services such as AWS, GCP, or Azure.
+- 3+ years of professional software development experience with SQL-based technologies.
+- 3+ years of experience with BI and ETL tools.
+- 2+ years of experience with open-source frameworks and big data tools like Spark
+  and Databricks.
+- Advanced programming and big data experience with Python, SQL, DBT, Spark, Kafka,
+  Git, Docker, and Kubernetes.
+- Advanced knowledge of business intelligence tools, preferably Power BI, and/or ETL
+  tools like SSIS or DBT.
+- Proven expertise in PowerShell scripting, Power BI REST APIs, Graph API, and automation
+  frameworks.
+preferred:
+- 2+ years of experience with Microsoft Fabric/Azure Data Factory.
+- Experience with Apache Iceberg for managing large-scale tabular data in data lakes.
+- Experience with enterprise orchestration tools such as Airflow.
+- Experience with Power Platform and multiple data domains.
+- Experience with front-end development using React/JavaScript.
+benefits:
+- Comprehensive Total Rewards program with personalized coverage for well-being.
+- Market-competitive compensation and a 401K savings plan with a 6% match from day
+  one.
+- Performance and recognition-based incentives and tuition assistance.
+- Access to mental healthcare, fertility, and adoption assistance.
+- Workplace flexibility and the GEICO Flex program allowing remote work for up to
+  four weeks per year.
+- Personalized development programs, industry-leading training, certification assistance,
+  and career mentorship.
+- Inclusive culture with employee engagement and recognition programs.
+must_have_skills:
+- python
+- sql
+- power bi
+- data warehousing
+- etl
+- azure
+- ci/cd
+- automation frameworks
+- powershell
+- big data technologies
+nice_to_have_skills:
+- apache iceberg
+- airflow
+- react
+- javascript
+- microsoft fabric
+- azure data factory
+- databricks
+ats_keywords:
+- senior engineer
+- data analytics
+- vertical engineering
+- automation solutions
+- data pipelines
+- power bi administration
+- power platform
+- big data technologies
+- cloud services
+- azure devops
+- ci/cd pipelines
+- data warehousing
+- dimensional modeling
+- business intelligence
+- python programming
+- sql expertise
+- apache spark
+- docker kubernetes
+- rest apis
+- governance frameworks
+- compliance standards
+- platform health monitoring
+- executive reporting
+- mentorship engineering
+- cross-functional collaboration
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

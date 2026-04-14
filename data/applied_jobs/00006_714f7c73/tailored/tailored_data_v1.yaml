@@ -1,0 +1,118 @@
+company_name: CapitalOne
+company_website: https://www.capitalonecareers.com/
+job_title: Lead Data Engineer
+location: Plano, Texas
+extracted_skills:
+- Python
+- SQL
+- Scala
+- Java
+- AWS
+- Microsoft Azure
+- Google Cloud
+- MapReduce
+- Hadoop
+- Hive
+- EMR
+- Kafka
+- Spark
+- Gurobi
+- MySQL
+- Mongo
+- Cassandra
+- Redshift
+- Snowflake
+- UNIX
+- Linux
+- Agile
+job_summary: 'Capital One is seeking a Lead Data Engineer to join their team in Plano,
+  Texas, where you''ll be part of a dynamic group focused on solving real customer
+  problems through technology. In this role, you will collaborate with Agile teams
+  to design, develop, and implement technical solutions using full-stack tools and
+  cloud-based technologies. You''ll work on big data projects, leveraging programming
+  languages like Python and Java, and cloud data warehousing services such as Redshift
+  and Snowflake. The position requires at least 4 years of application development
+  experience and a passion for staying ahead of tech trends.
+
+  '
+responsibilities:
+- Collaborate with Agile teams to design, develop, test, implement, and support technical
+  solutions using full-stack development tools and technologies.
+- Work alongside developers experienced in machine learning, distributed microservices,
+  and full-stack systems.
+- Utilize programming languages such as Java, Scala, and Python, along with Open Source
+  RDBMS, NoSQL databases, and cloud-based data warehousing services like Redshift
+  and Snowflake.
+- Stay updated on technology trends, experiment with new tools, participate in tech
+  communities, and mentor other engineers.
+- Partner with digital product managers to deliver cloud-based solutions that enhance
+  financial empowerment for millions of Americans.
+- Conduct unit tests and peer reviews to ensure code is well-designed, elegantly coded,
+  and optimized for performance.
+requirements:
+- Bachelor’s Degree.
+- At least 4 years of experience in application development (internship experience
+  excluded).
+- At least 2 years of experience with big data technologies.
+- At least 1 year of experience with cloud computing platforms (AWS, Microsoft Azure,
+  or Google Cloud).
+preferred:
+- 7+ years of experience in application development with Python, SQL, Scala, or Java.
+- 4+ years of experience with a public cloud (AWS, Microsoft Azure, or Google Cloud).
+- 4+ years of experience with distributed data/computing tools such as MapReduce,
+  Hadoop, Hive, EMR, Kafka, Spark, Gurobi, or MySQL.
+- 4+ years of experience with real-time data and streaming applications.
+- 4+ years of experience with NoSQL databases like Mongo or Cassandra.
+- 4+ years of data warehousing experience with Redshift or Snowflake.
+- 4+ years of experience with UNIX/Linux, including basic commands and shell scripting.
+- 2+ years of experience with Agile engineering practices.
+benefits:
+- Comprehensive, competitive, and inclusive health, financial, and well-being benefits.
+- Eligibility for performance-based incentive compensation, including cash bonuses
+  and long-term incentives (LTI).
+- Salary range for Plano, TX: $179,400 - $204,700 annually for full-time roles.
+must_have_skills:
+- Application Development
+- Big Data Technologies
+- Cloud Computing
+- Python
+- SQL
+nice_to_have_skills:
+- Scala
+- Java
+- AWS
+- Microsoft Azure
+- Google Cloud
+- Hadoop
+- Spark
+- Kafka
+- NoSQL Databases
+- Data Warehousing
+- UNIX/Linux
+- Agile Practices
+ats_keywords:
+- Lead Data Engineer
+- Big Data Technologies
+- Cloud Computing
+- AWS
+- Azure
+- Google Cloud
+- Python
+- SQL
+- Scala
+- Java
+- Hadoop
+- Spark
+- Kafka
+- NoSQL
+- Redshift
+- Snowflake
+- Agile Engineering
+- Application Development
+- Data Warehousing
+- Machine Learning
+- Distributed Microservices
+- Full Stack Development
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

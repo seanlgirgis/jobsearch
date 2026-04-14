@@ -1,0 +1,100 @@
+company_name: dbt Labs
+company_website: https://www.getdbt.com/
+job_title: Staff Sales Engineer, Texas
+location: Dallas, Texas, United States
+extracted_skills:
+- SQL
+- data modeling
+- data pipelines
+- Snowflake
+- Databricks
+- BigQuery
+- AWS
+- GCP
+- Azure
+job_summary: 'dbt Labs, a pioneer in analytics engineering, is seeking a Staff Sales
+  Engineer for their Central Solutions Architecture team in Texas. This role focuses
+  on driving customer and revenue impact in a high-growth territory by leading complex
+  technical evaluations and serving as a trusted advisor to enterprise customers.
+  Responsibilities include architecting analytics platforms with dbt Cloud, partnering
+  with Sales to win strategic accounts, and shaping product direction. Candidates
+  should have 5+ years of relevant experience and deep expertise in modern data stacks
+  and cloud platforms.
+
+  '
+responsibilities:
+- Architect and implement enterprise-scale analytics platforms using dbt Cloud.
+- Collaborate with Sales to secure and expand strategic accounts by showcasing technical
+  and business value.
+- Lead intricate proof-of-value engagements and deliver executive-level technical
+  evaluations.
+- Manage the technical customer journey from pre-sales to long-term adoption and expansion.
+- Work with Product and Engineering teams to influence enterprise features and platform
+  development.
+- Partner with key technology providers like Snowflake, Databricks, and AWS to enhance
+  customer success.
+- Represent dbt externally through community involvement, thought leadership, and
+  industry events.
+- Travel approximately 10-20% for key customer engagements and executive meetings.
+requirements:
+- 5+ years of experience in sales engineering, solutions architecture, data engineering,
+  or similar customer-facing technical roles.
+- Strong expertise in SQL, data modeling, and constructing production-grade data pipelines.
+- In-depth knowledge of modern data stacks and cloud data platforms such as Snowflake,
+  Databricks, BigQuery, AWS, GCP, and Azure.
+- Proven ability to explain complex technical concepts to both technical and executive
+  audiences.
+- Experience in translating business goals and technical needs into scalable solutions.
+- Excellent written and verbal communication skills for customer presentations and
+  documentation.
+- Ability to thrive in fast-paced, ambiguous settings with changing priorities.
+- Collaborative attitude with a commitment to mentorship, inclusion, and ongoing learning.
+preferred:
+- Track record of influencing and closing large, complex enterprise deals.
+- Experience leading high-stakes proof-of-value engagements from discovery to executive
+  presentation.
+- Strong ability to identify expansion and platform adoption opportunities in strategic
+  accounts.
+- Capability to act as a trusted advisor to senior technical and business leaders.
+- Demonstrated influence on product direction, go-to-market strategies, or internal
+  best practices.
+- Passion for mentoring team members and elevating organizational technical standards.
+benefits:
+- Unlimited vacation time with encouragement to take time off.
+- 401k plan with a 3% guaranteed company contribution.
+- Comprehensive healthcare coverage.
+- Generous paid parental leave.
+- Flexible stipends for health & wellness, home office setup, cell phone & internet,
+  learning & development, and office space.
+- Competitive compensation package including salary, equity, and performance-based
+  pay where applicable.
+must_have_skills:
+- SQL
+- data modeling
+- cloud data platforms
+- sales engineering
+- customer-facing technical experience
+nice_to_have_skills:
+- enterprise deal closure
+- proof-of-value leadership
+- mentoring
+- thought leadership
+ats_keywords:
+- analytics engineering
+- dbt Cloud
+- sales engineer
+- solutions architecture
+- data pipelines
+- enterprise accounts
+- cloud data platforms
+- Snowflake
+- Databricks
+- AWS
+- technical evaluations
+- customer success
+- data modeling
+- SQL expertise
+- strategic accounts
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,32 @@
+uuid: 287cd3cb-1aea-43cf-bd5c-9b1a79a03163
+job_id: 00049_287cd3cb
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 85
+recommendation: Strong Proceed
+score_date: '2026-03-11T18:54:43.555019'
+created_at: '2026-03-11T18:54:43.555019'
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+location_preference: Plano, TX
+last_decision_at: '2026-03-11T18:54:43.734295'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: Linkedin
+  application_notes: Pipeline application
+  history:
+  - date: '2026-03-11'
+    status: Applied
+    notes: Pipeline application
+job_hash: 178b3878a13ca6efe33ff27cfb7238e538ffa5141209fc98e66d994900332cc9
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.987327'
+migration_source_root: data/jobs
+historical_archive_mode: true

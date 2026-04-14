@@ -1,0 +1,116 @@
+company_name: SEPHORA
+company_website: https://join.sephora.com/
+job_title: Lead Engineer, Performance Engineering
+location: USA, Remote
+extracted_skills:
+- python
+- java
+- groovy
+- aws
+- azure
+- gcp
+- docker
+- kubernetes
+- splunk
+- dynatrace
+- datadog
+- appdynamics
+- new relic
+- jmeter
+- blazemeter
+- loadrunner
+- gatling
+- gremlin
+- chaos mesh
+job_summary: 'As a Lead Engineer, Performance Engineering at Sephora, you will spearhead
+  the performance strategy for digital platforms, ensuring speed, scalability, and
+  reliability across e-commerce, APIs, and cloud-native systems. Sephora, a leader
+  in beauty retail, focuses on innovative technology to enhance customer experiences
+  through mobile and in-store solutions. Key responsibilities include designing performance
+  testing strategies, integrating chaos engineering, and building monitoring frameworks.
+  This role demands collaboration with cross-functional teams like Development, SRE,
+  and DevOps to embed performance into the technology stack. Candidates should have
+  extensive experience in performance engineering, cloud platforms, and observability
+  tools.
+
+  '
+responsibilities:
+- Lead performance engineering for Sephora’s digital systems, including e-commerce
+  platforms, microservices, and APIs, to ensure high performance, availability, and
+  scalability.
+- Design and implement performance testing strategies such as load, stress, spike,
+  soak testing, capacity planning, and bottleneck analysis.
+- Integrate Chaos Engineering practices using tools like Gremlin or Chaos Mesh to
+  test system resilience and ensure graceful degradation under failure conditions.
+- Develop and maintain monitoring, logging, and alerting frameworks for performance
+  metrics using tools like Splunk, AppDynamics, or Dynatrace.
+- Collaborate on CI/CD pipelines to incorporate performance checks, automated regression
+  testing, and performance gating.
+- Conduct root-cause analysis for performance incidents, propose solutions, and implement
+  preventive engineering measures.
+requirements:
+- 8+ years of experience in performance, scalability, and architecture of large, high-traffic
+  systems, preferably in e-commerce or similar environments.
+- 8+ years of expertise in ensuring stability, reliability, and performance of mission-critical
+  software applications in production.
+- 8+ years of experience with monitoring, observability, and performance management
+  tools such as Splunk, Dynatrace, Datadog, or AppDynamics.
+- 8+ years of demonstrated skills in performance engineering, log analysis, anomaly
+  detection, and troubleshooting distributed systems.
+- Strong programming and scripting skills in Java, Python, or Groovy.
+- Experience with microservices, APIs, Docker, Kubernetes, and cloud platforms like
+  AWS, Azure, or GCP.
+- Proven ability to identify bottlenecks and optimize system performance.
+preferred:
+- 2+ years of experience in a retail or e-commerce high-scale environment.
+- Familiarity with performance testing tools like JMeter, BlazeMeter, LoadRunner,
+  or Gatling.
+- Prior leadership or mentoring experience in engineering teams.
+benefits:
+- Competitive salary range of $173,610.00 - $192,900.00 annually, with potential bonuses.
+- Comprehensive health coverage including medical, dental, and vision plans, with
+  fully covered disability and life insurance.
+- 401k plan with a 4% match, plus FSA, HSA, and Student Debt Retirement programs.
+- Paid time off for vacation, sick leave, and protected leave.
+- 30% discount on merchandise/services, free products, and flash sale discounts on
+  LVMH brands.
+- Access to training, tuition reimbursement, and leadership development programs.
+- Mental health and financial coaching resources through Modern Health and Financial
+  Finesse, plus volunteer and donation matching.
+must_have_skills:
+- performance engineering
+- scalability
+- observability tools
+- cloud platforms
+- programming in java or python
+- distributed systems troubleshooting
+nice_to_have_skills:
+- chaos engineering
+- retail or e-commerce experience
+- mentoring or leadership experience
+ats_keywords:
+- performance engineering
+- scalability
+- load testing
+- stress testing
+- chaos engineering
+- observability
+- monitoring tools
+- splunk
+- dynatrace
+- appdynamics
+- cloud platforms
+- aws
+- azure
+- gcp
+- microservices
+- apis
+- docker
+- kubernetes
+- e-commerce
+- distributed systems
+- ci/cd pipelines
+- root cause analysis
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

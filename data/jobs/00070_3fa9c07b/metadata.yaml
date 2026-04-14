@@ -1,0 +1,12 @@
+uuid: 3fa9c07b-94b4-417b-863a-a7a59cd4b5bd
+job_id: 00070_3fa9c07b
+original_filename: intake.md
+created_at: '2026-04-14T13:55:39.977186'
+status: PENDING
+job_hash: 3fb93db8289a8517940485b3c96dc3fead1ba50d1fc4013d01b9e30130b55d89
+tier0_decision: needs_llm
+llm_decision: proceed
+user_decision: accept
+score: 85
+user_decision_at: '2026-04-14T14:46:42.363013'
+user_reason: null

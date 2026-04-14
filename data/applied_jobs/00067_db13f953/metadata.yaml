@@ -1,0 +1,14 @@
+uuid: db13f953-46a9-4e20-9c81-469a94a7b350
+job_id: 00067_db13f953
+original_filename: intake_inspiren_senior_data_engineer_2026-04-13.md
+created_at: '2026-04-14T10:56:45.709117'
+status: PENDING
+job_hash: b2e68fe53f47bfb0ba3cc7247c665f37fbaab8613d212ff4c7f3a70675081355
+tier0_decision: reject_early
+llm_decision: null
+user_decision: pending
+score: null
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:20.206222'
+migration_source_root: data/jobs
+historical_archive_mode: true

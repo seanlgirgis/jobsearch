@@ -25,3 +25,8 @@ score: 85
 score_date: '2026-03-11T04:38:16.627194'
 status: ACCEPTED
 uuid: 58bf8e8c-1aab-42d1-b7ec-0f17cd40604a
+job_hash: d15bf5b033affc78b5478f419655cc116ce5e4547a7fe351e2422c7ce980d2c5
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.776363'
+applied_jobs_path: data/applied_jobs/00028_58bf8e8c
+historical_archive_mode: true

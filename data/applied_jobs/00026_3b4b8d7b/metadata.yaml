@@ -1,0 +1,32 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: LinkedIn
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: Randstad Digital
+company_website: ''
+created_at: '2026-03-11T04:16:49.188483'
+job_id: 00026_3b4b8d7b
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T04:16:49.342193'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 95%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: RandstandDigital.03112026.0414.md
+recommendation: Strong Proceed
+role: Data Engineer
+score: 95
+score_date: '2026-03-11T04:16:49.187978'
+status: ACCEPTED
+uuid: 3b4b8d7b-e4dc-432f-bc3d-2d3fa6492485
+job_hash: 204010f76554036e9af04bb691d8b30f6834e883b710a064496fefadd12f7344
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.756571'
+migration_source_root: data/jobs
+historical_archive_mode: true

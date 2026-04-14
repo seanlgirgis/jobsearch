@@ -1,0 +1,32 @@
+application:
+  application_notes: Pipeline application
+  applied: true
+  applied_date: '2026-03-11'
+  applied_method: LinkedIn
+  history:
+  - date: '2026-03-11'
+    notes: Pipeline application
+    status: Applied
+company: ClifyX
+company_website: ''
+created_at: '2026-03-11T04:38:16.627194'
+job_id: 00028_58bf8e8c
+last_decision: ACCEPTED
+last_decision_at: '2026-03-11T04:38:16.786808'
+location: Unknown
+location_preference: Plano, TX
+notes: 'Plano, TX location match. Score: 85%. Recommendation: Strong Proceed
+
+  • Auto-accepted by pipeline (2026-03-11)'
+original_filename: clifyx.DE.03112026.0437.md
+recommendation: Strong Proceed
+role: Data Engineer
+score: 85
+score_date: '2026-03-11T04:38:16.627194'
+status: ACCEPTED
+uuid: 58bf8e8c-1aab-42d1-b7ec-0f17cd40604a
+job_hash: d15bf5b033affc78b5478f419655cc116ce5e4547a7fe351e2422c7ce980d2c5
+migrated_to_applied_jobs: true
+migrated_at: '2026-04-14T12:38:19.776363'
+migration_source_root: data/jobs
+historical_archive_mode: true

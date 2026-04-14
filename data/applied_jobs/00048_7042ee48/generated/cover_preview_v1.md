@@ -1,0 +1,20 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+March 11, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Agentic AI - Data Engineer position at Kyndryl. As a Senior Data Engineer with over 20 years of enterprise experience, I am eager to contribute to a global leader in IT infrastructure services known for its innovative solutions and commitment to digital transformation.
+
+My expertise aligns closely with Kyndryl’s focus on designing scalable data platforms for AI and analytics. I have extensive experience in building ETL/ELT pipelines, as demonstrated by my work at CITI, where I architected automated pipelines using Python and Pandas to ingest telemetry data from over 6,000 endpoints. Additionally, I designed a serverless lakehouse platform on AWS using S3, Glue, Athena, and Bedrock, optimizing data architectures with Snappy and Parquet compression to solve small-file issues at enterprise scale. My proficiency in cloud platforms like AWS, coupled with hands-on skills in data modeling and distributed systems, positions me to develop robust solutions for batch and real-time data processing as required for this role.
+
+Furthermore, my projects reflect a strong alignment with Agentic AI frameworks and data governance needs at Kyndryl. I recently built an AI-Powered Job Search Pipeline in 2026, implementing agentic AI workflows with Python, Claude Code, and Grok (xAI) to orchestrate multi-step data processes. My HorizonScale AI Capacity Forecasting Engine, developed in 2025, reduced forecasting cycles by 90% using PySpark and Prophet for time-series analysis. With 10 years of experience in data quality and pipeline validation, I have implemented frameworks to ensure reliability, a critical aspect of Kyndryl’s mission to deliver mission-critical systems. I am also adept in tools like Airflow for orchestration and Docker for containerization, enhancing my ability to contribute to DataOps best practices.
+
+I am thrilled at the opportunity to bring my skills in data engineering and Agentic AI to Kyndryl, a company whose values of Restless innovation and Devotion to excellence resonate with my professional ethos. I look forward to discussing how my background in cloud platforms, ETL/ELT pipelines, and AI/ML workflows can support your team’s objectives. Thank you for considering my application, and I am eager to contribute to Kyndryl’s transformative projects.
+
+Sincerely,
+Sean Luka Girgis
