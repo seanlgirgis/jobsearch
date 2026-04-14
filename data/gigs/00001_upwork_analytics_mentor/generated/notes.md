@@ -1,0 +1,3 @@
+- Fit notes: Strong alignment with analytics engineering mentorship and portfolio-building outcomes.
+- Competition notes: Posting indicates 10-15 proposals so far.
+- Strategy notes: Emphasize practical roadmap, weekly structure, and interview prep outcomes.

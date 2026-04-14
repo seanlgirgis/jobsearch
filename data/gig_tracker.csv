@@ -1,0 +1,2 @@
+gig_id,platform,company,title,type,date_found,date_applied,status,hourly_rate_sent,proposal_version,followup_due,resume_used,folder
+00001,Upwork,Independent Client,"Seeking Mentor to Help Me Transition from Non-Tech Background into Analytics Engineering",mentoring,2026-04-14,,discovered,,v1,,TBD,data/gigs/00001_upwork_analytics_mentor
