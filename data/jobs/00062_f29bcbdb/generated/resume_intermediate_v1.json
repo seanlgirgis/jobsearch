@@ -1,0 +1,155 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Observability & Performance Engineer | APM | Cloud Infrastructure",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "location_preference": "Carrollton, TX (Local)"
+  },
+  "summary": "Senior Observability and Performance Engineer with 20+ years of enterprise experience designing and operating APM platforms, monitoring pipelines, and performance analytics in regulated financial environments. Expert in Dynatrace, AppDynamics, CA APM (Introscope), and BMC TrueSight — managing 6,000+ monitored endpoints and 50+ Enterprise Managers. Proven track record building automated telemetry pipelines, dashboards, and alerting systems in Python and scripting languages. 8+ years supporting banking infrastructure at Citi with compliance and security disciplines aligned to financial services standards. Local to Carrollton, TX.",
+  "skills": [
+    "APM / Application Performance Monitoring",
+    "Observability Platform Administration",
+    "Dynatrace (AppMon, Synthetics, EUM)",
+    "AppDynamics",
+    "CA APM / Introscope / Wily",
+    "BMC TrueSight",
+    "New Relic (learning / transferring)",
+    "Dashboard Design and Alerting",
+    "Python (automation, ETL, scripting)",
+    "Bash / Korn Shell / Perl scripting",
+    "AWS (Glue, Athena, S3, Bedrock)",
+    "Performance Analysis and Bottleneck Identification",
+    "Telemetry Pipelines",
+    "Metrics, Logging, Tracing",
+    "Regulated Financial Services (Banking / Mortgage)",
+    "Cross-team SME and Enablement",
+    "Linux / Windows Server Administration",
+    "C / C++ (systems performance)"
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Managed dual APM environments (CA Wily/Introscope, AppDynamics) and BMC TrueSight across 6,000+ endpoints, configuring thresholds, alerts, and baselines for enterprise banking infrastructure.",
+        "Architected automated Python/Pandas telemetry pipelines ingesting P95 performance metrics from 6,000+ servers, replacing manual monitoring processes.",
+        "Built interactive performance dashboards (matplotlib, seaborn, plotly) delivering real-time visibility into infrastructure health and capacity risk to leadership.",
+        "Developed predictive ML models (Prophet, scikit-learn) identifying performance bottlenecks 3-6 months ahead, enabling proactive capacity planning.",
+        "Conducted data mining across integrated monitoring feeds (TrueSight, CA APM, AppDynamics) to surface underutilized infrastructure and drive cost optimization.",
+        "Operated within banking compliance and regulated environment standards throughout 8-year tenure."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetics for Brand.com and revenue-critical systems, providing end-to-end monitoring and EUM visibility.",
+        "Led 'FAST' initiative: data-mined real-user performance metrics to identify and quantify optimization opportunities for money-generating systems.",
+        "Upgraded Dynatrace 6.5 to 7.0, implemented TLS 1.2 security hardening, and supported AWS cloud migration performance validation.",
+        "Integrated Performance Center with Dynatrace; delivered before/after performance dashboards for stakeholder reporting."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Managed and supported enterprise CA APM, CA CEM, and CA ADA environments for utility infrastructure monitoring."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant — CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for TIAA-CREF, managing 50+ Enterprise Managers and 4,000-6,000 monitored agents across large-scale financial systems.",
+        "Led APM implementations and major upgrades (v9.1 through v10.1) for enterprise financial clients, ensuring platform stability and coverage.",
+        "Designed custom Management Modules, dashboards, and alerting policies; authored Perl/Ksh data-extraction scripts to extend platform capabilities.",
+        "Delivered client training programs, sizing recommendations, and Golden Image agent rollouts; served as technical SME enabling partner teams.",
+        "Collaborated with IT teams to troubleshoot performance bottlenecks in J2EE/WebLogic environments, reducing MTTR."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications to identify optimal load points and resource bottlenecks (JDBC, threads, memory, CPU, GC).",
+        "Installed JMX monitoring, Thread Dump analysis, and Wily Introscope instrumentation; built automation scripts for performance test execution."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Optimized core C++/OCCI transaction processing for high-throughput shopping engine, reducing physical hardware footprint 95% while maintaining sub-second query latency.",
+        "Led migration of 200+ MySQL nodes to 6-node Oracle RAC cluster; built CPPUNIT testing framework for automated validation."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS)",
+      "title": "Developer / Performance Engineer",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Delivered C/C++ performance tuning in billing systems: 75% memory reduction, 20% throughput gain, 10x DB performance via query optimization.",
+        "Developed high-availability multithreaded C++ interfaces using POSIX threads, mutex locks, semaphores, and socket programming."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "certifications": [
+    "Brainbench C++ Fundamentals Certified",
+    "Brainbench C++ Certified",
+    "Brainbench C Certified",
+    "Brainbench Java 2.0 Certified",
+    "Brainbench OOD Certified"
+  ],
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "timeframe": "2026",
+      "description": "Built end-to-end agentic job application pipeline orchestrating 10+ automated steps using Python, Claude Code, FAISS vector embeddings, and LLM APIs.",
+      "technologies": ["Python", "Claude Code", "FAISS", "Sentence Transformers", "RAG", "Streamlit", "MCP"]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "timeframe": "2025",
+      "description": "Replaced manual forecasting with AI-driven engine; reduced forecasting cycles by 90%. Built Prophet + scikit-learn models predicting bottlenecks 6 months ahead with real-time Streamlit dashboards.",
+      "technologies": ["Python", "PySpark", "Prophet", "scikit-learn", "Streamlit"]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "timeframe": "Recent",
+      "description": "Designed full serverless data platform (S3 + Glue + Athena + Bedrock) with Text-to-SQL GenAI agent using Claude 3 Sonnet.",
+      "technologies": ["AWS Glue", "Athena", "Bedrock", "S3", "PySpark"]
+    }
+  ]
+}

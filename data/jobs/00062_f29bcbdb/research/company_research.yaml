@@ -1,0 +1,38 @@
+company: Pennymac
+ticker: PFSI
+role: Observability Engineer (Senior)
+industry: Financial Services — Mortgage Lending and Servicing
+size: ~4,000 employees
+headquarters: Westlake Village, CA (office presence in Carrollton, TX)
+founded: 2008
+
+quick_notes:
+  - Top U.S. mortgage lender/servicer; NYSE listed (PFSI)
+  - Over 4 million lifetime homeowners served; 4,000+ employees
+  - Core values: Accountable, Reliable, Ethical
+  - Carrollton, TX office — Core Services Engineering team is based there
+  - Role is fully on-site (office) — no hybrid or remote
+  - Heavily regulated environment: CFPB, OCC, state mortgage regulations; data privacy requirements
+  - Investing in observability modernization (New Relic as platform of record)
+  - Compensation ceiling ($155K) is lower than market for 20+ years; likely targeting mid-senior hire
+  - Stability-focused company culture; mortgage sector tends toward conservative, process-driven engineering
+
+interview_angles:
+  - Lead with CA APM SME at TIAA-CREF: managing 50+ Enterprise Managers, 4,000-6,000 agents — directly parallels New Relic fleet management at scale
+  - Citi regulated environment: FFIEC, SOX compliance mindset; "security best practices in regulated environments" is a stated requirement — this is a direct match
+  - Python automation (telemetry pipelines, reporting) as proxy for IaC/Terraform automation mindset
+  - Dynatrace Synthetics experience parallels New Relic Synthetics requirement
+  - Emphasize MTTR reduction via APM dashboards and alerting at TIAA-CREF and Citi
+  - Lean into "local to Carrollton" — they want an office presence, proximity is an advantage
+  - Acknowledge New Relic gap proactively: frame as rapid platform transfer from equivalent tools, not a learning curve
+
+talking_points:
+  - "I've managed observability platforms at this scale before — 50+ Enterprise Managers, 6,000+ agents — and the discipline of building alerting, dashboards, and instrumentation is tool-agnostic. New Relic is a platform I'd ramp quickly."
+  - "Pennymac's regulated environment is a context I've lived in — 8 years at Citi under banking compliance requirements. I understand what 'security and compliance in a regulated environment' actually means day-to-day."
+  - "The 'promote best practices as SME' expectation maps exactly to my CA Technologies consulting role where I trained client teams and authored implementation standards."
+
+risks_to_address:
+  - New Relic: No hands-on, but Dynatrace + AppDynamics + CA APM = direct conceptual equivalent. Prepare specific examples of NRQL-equivalent query work (custom metrics, CEM in CA APM).
+  - Terraform/IaC: Honest gap. Reframe as "Python-first automation; actively building IaC knowledge." Don't oversell.
+  - K8s/Docker: Honest gap. Reframe as infrastructure-aware engineer comfortable learning containerization primitives.
+  - Overqualified concern: 20+ years for a $95-155K role. Address by showing genuine local interest and domain passion, not desperation.
