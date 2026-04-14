@@ -1,0 +1,22 @@
+{
+  "artifact_type": "local_gate",
+  "artifact_schema_version": "v1",
+  "job_id": "00069_75e46c36",
+  "job_hash": "d93ba658e28fb4f6f16a70ad640ac705c13c2ef70281bc0195f4f4f8c05ee319",
+  "duplicate_check": {
+    "mode": "semantic",
+    "duplicate_found": false,
+    "score": 0.46078574657440186,
+    "matched_job_id": "00056_a51218f7",
+    "reason": "no strong duplicate found"
+  },
+  "rules": {
+    "location_ok": true,
+    "visa_ok": true,
+    "salary_ok": true,
+    "contract_ok": true,
+    "title_ok": true
+  },
+  "tier0_decision": "needs_llm",
+  "reason_codes": []
+}

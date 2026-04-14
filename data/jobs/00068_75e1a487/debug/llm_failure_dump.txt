@@ -1,0 +1,120 @@
+timestamp: 2026-04-14T11:15:27.157070
+error: InternalServerError: Error code: 500
+
+prompt_preview_first_5000_chars:
+Analyze the job and candidate context in one pass and return exactly one JSON object.
+Required output shape example:
+{
+  "artifact_type": "job_packet",
+  "artifact_schema_version": "v1",
+  "job_id": "00068_75e1a487",
+  "job_hash": "3ba35a141eb6b5ee989ae0cd05aff19ca483df90afe5a3e53299897b2c3dc050",
+  "score": 0,
+  "llm_decision": "proceed",
+  "rationale": "",
+  "job_facts": {
+    "title": "",
+    "company": "",
+    "location": "",
+    "employment_type": ""
+  },
+  "requirements": {
+    "must_have_skills": [],
+    "nice_to_have_skills": [],
+    "responsibilities": [],
+    "requirements_text": [],
+    "ats_keywords": [],
+    "missing_skills": [],
+    "risk_flags": []
+  },
+  "tailoring_plan": {
+    "positioning_angle": "",
+    "priority_experiences": [],
+    "priority_keywords": [],
+    "bullet_strategy": []
+  }
+}
+
+Constraints:
+- Set artifact_type='job_packet' and artifact_schema_version='v1'.
+- Set job_id='00068_75e1a487' and job_hash='3ba35a141eb6b5ee989ae0cd05aff19ca483df90afe5a3e53299897b2c3dc050'.
+- score is integer 0-100.
+- llm_decision must be one of: proceed, hold, skip.
+- rationale must be short and grounded.
+
+Candidate context JSON:
+{
+  "preferred_title": "Senior Data Engineer | Capacity Planning & AI-Driven Infrastructure Optimization",
+  "target_roles": [
+    "Senior Data Engineer",
+    "AI Engineer",
+    "Cloud Data Architect",
+    "Capacity Planning Engineer",
+    "PySpark / AWS Specialist"
+  ],
+  "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+  "work_authorization": "Authorized to work in the U.S. without sponsorship now or in the future",
+  "summary_short": "Senior Data Engineer with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock). Expert in PySpark, GenAI agents (Text-to-SQL), high-scale capacity forecasting (Prophet/scikit-learn), automated telemetry pipelines, and executive-level reporting.",
+  "top_skills": [
+    "SQL / Oracle",
+    "Python",
+    "C++",
+    "Perl",
+    "Ksh / Korn Shell Scripting",
+    "Java",
+    "PL/SQL",
+    "AWS",
+    "PySpark",
+    "Prophet / Time-Series Forecasting",
+    "GenAI / LLM Agents",
+    "Pandas",
+    "scikit-learn",
+    "Dynatrace (AppMon + Synthetics)",
+    "CA APM / Introscope",
+    "BMC TrueSight / TSCO",
+    "Oracle RAC",
+    "ETL Design & Optimization",
+    "Data Warehousing",
+    "Streamlit"
+  ],
+  "recent_experience": [
+    {
+      "company": "CITI",
+      "role": "Senior Capacity & Data Engineer",
+      "highlights": [
+        "Architected automated ETL pipelines (Python/Pandas) ingesting P95 telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing legacy manual processes.",
+        "Designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "role": "Performance Engineer",
+      "highlights": [
+        "Managed Dynatrace AppMon/Synthetics for Brand.com and critical systems.",
+        "Led 'FAST' project: data-mined real-user performance metrics for optimization recommendations."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "role": "APM Consultant",
+      "highlights": [
+        "Supported enterprise CA APM, CEM, ADA for utility systems.",
+        "Managing and supporting monitoring solutions (CA APM, CA CEM, CA ADA)."
+      ]
+    }
+  ]
+}
+
+Raw job text:
+Title: Principal Polar Orbit Data Reliability Engineer
+Company: Aurora Glacier Analytics
+Location: Remote - US
+Employment Type: Full-time
+
+Aurora Glacier Analytics is building a telemetry platform for synthetic polar-orbit simulations. We need an engineer to design resilient ingestion pipelines for orbital sensor snapshots, normalize event streams, and build quality checks for anomaly drift. Must-have skills: Python, SQL, data modeling, ETL reliability, observability, incident response, and distributed processing. Nice-to-have: PySpark, AWS Glue, Apache Iceberg, and forecasting methods.
+
+Responsibilities:
+- Build robust data quality checks for simulation telemetry.
+- Create scalable ETL jobs and schema contracts.
+- Partner with platform team on SLOs, alerts, and runbooks.
+- Drive reliability improvements and root-cause analysis.
