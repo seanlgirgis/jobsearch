@@ -1,0 +1,119 @@
+company_name: Koch Industries
+company_website: ''
+job_title: Senior Data Engineer
+location: Plano, TX / Wichita, KS / Atlanta, GA (On-site)
+extracted_skills:
+- python
+- sql
+- aws
+- snowflake
+- dbt
+- github
+- apache airflow
+- prefect
+- kafka
+- grafana
+- datadog
+- agile
+- sdlc
+- aidlc
+- data governance
+- data security
+- ai/ml
+job_summary: 'The Senior Data Engineer at Koch Industries will play a pivotal role
+  in designing and implementing robust data pipelines to support various initiatives
+  across the organization. This position involves hands-on coding in SQL and Python,
+  collaborating with architecture teams, and acting as a Subject Matter Expert (SME)
+  in data engineering to ensure scalability and innovation. Based in Wichita, KS,
+  Plano, TX, or Atlanta, GA with an onsite requirement, the role focuses on transforming
+  data management within the finance and tax sectors. Key responsibilities include
+  optimizing data flow, ensuring data quality, and supporting data governance and
+  security protocols. Candidates must have strong experience in SQL, Python, and Agile
+  environments.
+
+  '
+responsibilities:
+- Develop and maintain efficient data pipelines using SQL and Python to ensure seamless
+  data flow and high data quality across systems.
+- Collaborate with solution and data architects to design and implement scalable data
+  solutions aligned with enterprise standards.
+- Apply comprehensive knowledge of Software Development Life Cycle (SDLC) and AI Development
+  Life Cycle (AIDLC) in all project phases, from requirements to deployment.
+- Participate in Agile processes, including sprint planning, stand-ups, and retrospectives,
+  to deliver incremental value and drive continuous improvement.
+- Act as a Subject Matter Expert (SME) in data engineering, providing guidance and
+  expertise to cross-functional teams.
+- Support data governance and quality initiatives while ensuring compliance with security
+  and privacy policies.
+- Document data architecture, pipeline workflows, and best practices to facilitate
+  knowledge sharing and operational efficiency.
+requirements:
+- Proven experience in coding with SQL and Python for data pipeline development and
+  maintenance.
+- Hands-on experience working with architecture teams to implement data solutions.
+- Strong understanding of the Software Development Life Cycle (SDLC) and experience
+  in Agile development environments.
+- Excellent communication skills to explain technical concepts to non-technical stakeholders
+  and collaborate across teams.
+preferred:
+- Familiarity with dbt (Data Build Tool) for data transformation and modeling.
+- Extensive experience with Snowflake data warehouse and AWS cloud infrastructure.
+- Proficiency in version control tools like GitHub for collaborative development.
+- Exposure to orchestration tools such as Apache Airflow or Prefect.
+- Experience with distributed events and stream-processing technologies like Kafka.
+- Knowledge of observability tools such as Grafana or Datadog.
+- Understanding of data governance, security protocols, and compliance requirements.
+- Experience or knowledge of AI/ML concepts, frameworks, or model deployment.
+benefits:
+- Medical, dental, and vision insurance.
+- Flexible spending and health savings accounts.
+- Life insurance, ADD, and disability coverage.
+- Retirement plans.
+- Paid vacation and time off.
+- Educational assistance.
+must_have_skills:
+- sql
+- python
+- sdlc
+- agile
+- data pipelines
+nice_to_have_skills:
+- dbt
+- snowflake
+- aws
+- github
+- apache airflow
+- prefect
+- kafka
+- grafana
+- datadog
+- ai/ml
+ats_keywords:
+- data engineer
+- senior data engineer
+- sql coding
+- python coding
+- data pipelines
+- data quality
+- data governance
+- data security
+- agile framework
+- sdlc
+- aidlc
+- snowflake warehouse
+- aws cloud
+- dbt tool
+- github version control
+- apache airflow
+- prefect orchestration
+- kafka streaming
+- grafana observability
+- datadog monitoring
+- ai/ml frameworks
+- cross-functional collaboration
+- enterprise architecture
+- finance transformation
+- tax data management
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
