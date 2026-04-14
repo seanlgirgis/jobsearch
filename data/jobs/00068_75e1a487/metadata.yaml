@@ -5,8 +5,8 @@ created_at: '2026-04-14T11:01:19.153456'
 status: PENDING
 job_hash: 3ba35a141eb6b5ee989ae0cd05aff19ca483df90afe5a3e53299897b2c3dc050
 tier0_decision: needs_llm
-llm_decision: null
+llm_decision: proceed
 user_decision: pending
-score: null
-last_llm_error: 'InternalServerError: Error code: 500'
-last_llm_attempt_at: '2026-04-14T11:15:29.170182'
+score: 85
+last_llm_error: null
+last_llm_attempt_at: null

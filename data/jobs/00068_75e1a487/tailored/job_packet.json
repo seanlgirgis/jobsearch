@@ -1,0 +1,84 @@
+{
+  "artifact_type": "job_packet",
+  "artifact_schema_version": "v1",
+  "job_id": "00068_75e1a487",
+  "job_hash": "3ba35a141eb6b5ee989ae0cd05aff19ca483df90afe5a3e53299897b2c3dc050",
+  "score": 85,
+  "llm_decision": "proceed",
+  "rationale": "Strong alignment with candidate's Senior Data Engineer experience, Python/SQL expertise, and ETL design skills. Nice-to-have skills like PySpark and AWS Glue are also present.",
+  "job_facts": {
+    "title": "Principal Polar Orbit Data Reliability Engineer",
+    "company": "Aurora Glacier Analytics",
+    "location": "Remote - US",
+    "employment_type": "Full-time"
+  },
+  "requirements": {
+    "must_have_skills": [
+      "Python",
+      "SQL",
+      "Data Modeling",
+      "ETL Reliability",
+      "Observability",
+      "Incident Response",
+      "Distributed Processing"
+    ],
+    "nice_to_have_skills": [
+      "PySpark",
+      "AWS Glue",
+      "Apache Iceberg",
+      "Forecasting Methods"
+    ],
+    "responsibilities": [
+      "Build robust data quality checks for simulation telemetry",
+      "Create scalable ETL jobs and schema contracts",
+      "Partner with platform team on SLOs, alerts, and runbooks",
+      "Drive reliability improvements and root-cause analysis"
+    ],
+    "requirements_text": [
+      "Must-have skills: Python, SQL, data modeling, ETL reliability, observability, incident response, and distributed processing",
+      "Nice-to-have: PySpark, AWS Glue, Apache Iceberg, and forecasting methods"
+    ],
+    "ats_keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Data Modeling",
+      "Observability",
+      "Incident Response",
+      "Distributed Processing",
+      "PySpark",
+      "AWS Glue",
+      "Apache Iceberg",
+      "Forecasting"
+    ],
+    "missing_skills": [
+      "Apache Iceberg"
+    ],
+    "risk_flags": [
+      "Candidate lacks explicit experience with Apache Iceberg",
+      "Job focuses on polar-orbit simulations, which is outside candidate's direct domain experience"
+    ]
+  },
+  "tailoring_plan": {
+    "positioning_angle": "Highlight extensive experience in designing automated ETL pipelines and optimizing data schemas, aligning with the job's focus on reliable ingestion and telemetry quality checks.",
+    "priority_experiences": [
+      "Architected automated ETL pipelines (Python/Pandas) ingesting P95 telemetry from 6,000+ endpoints (BMC TrueSight/TSCO), replacing legacy manual processes at CITI",
+      "Designed optimized Oracle schemas for historical retention, enabling seasonal risk forecasting at CITI"
+    ],
+    "priority_keywords": [
+      "ETL Design & Optimization",
+      "Python",
+      "SQL",
+      "PySpark",
+      "AWS",
+      "Data Warehousing",
+      "Telemetry Pipelines"
+    ],
+    "bullet_strategy": [
+      "Emphasize hands-on ETL pipeline design and telemetry ingestion experience from CITI role",
+      "Highlight Python and SQL expertise as core strengths for data reliability tasks",
+      "Mention PySpark and AWS skills to address nice-to-have requirements",
+      "Frame forecasting experience (Prophet/scikit-learn) as relevant to anomaly detection and data quality checks"
+    ]
+  }
+}

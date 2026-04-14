@@ -356,3 +356,9 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00070_4ccfd894
+  description_path: data\jobs\00070_4ccfd894\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
