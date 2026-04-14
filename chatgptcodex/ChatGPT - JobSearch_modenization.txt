@@ -1,0 +1,307 @@
+**You:**
+
+We are optimizing a job application pipeline for cost and efficiency.
+
+Focus:
+- Identify where xAI calls are redundant
+- Merge steps where possible
+- Reduce total LLM calls per job to 1–2 max
+
+Constraints:
+- Filesystem is source of truth
+- Codex will execute changes (so be explicit)
+- No vague suggestions — propose structural changes
+
+Start by:
+1. Mapping current LLM calls across the pipeline
+2. Identifying redundancy and overlap
+3. Suggesting which steps to merge first
+
+* * *
+
+**ChatGPT:**
+
+I’m pulling the current pipeline shape from the docs you uploaded, then I’m going to collapse it into a call map and a concrete merge plan. After that I’ll point to the first cuts that get you closest to the “1–2 LLM calls per job” target.
+
+* * *
+
+**ChatGPT:**
+
+The current shape is pretty clear already: five separate xAI calls are doing overlapping reading of the same job text and the same master profile. I’m tightening that into a “what each call knows / what it repeats / what it should become” map now.
+
+* * *
+
+**ChatGPT:**
+
+Here’s the structural read.
+
+Current xAI call map
+
+Right now the pipeline uses xAI in 5 separate places: scoring in 01_score_job.py, extraction in 03_tailor_job_data.py, resume generation in 04_generate_resume_intermediate.py, company research in 06_company_research.py, and cover generation in 07_generate_cover_intermediate.py. The current design is explicitly split that way in the pipeline doc. 
+
+CURRENT_PIPELINE
+
+That already conflicts with the modernization target. Your charter says one LLM call should do as much work as possible, no duplicate AI calls for the same data, max 1 LLM call for most jobs, max 2 for top-tier jobs, and zero for rejected jobs. 
+
+PROJECT_CHARTER
+
+So the main problem is not subtle: the job text and master profile are being reread by Grok over and over.
+
+Where the redundancy is
+
+01_score_job.py and 03_tailor_job_data.py overlap heavily. To score a job well, the model already has to identify title, core skills, seniority, must-haves, nice-to-haves, likely fit, and gaps. Then 03 asks it to do basically the same comprehension pass again, just returning structured YAML instead of a score.
+
+03_tailor_job_data.py and 04_generate_resume_intermediate.py overlap next. Resume tailoring depends on the same extracted requirements, ATS keywords, positioning angle, and fit gaps that 03 already produced. Today the model first extracts them, then rereads them plus the original job context again to rewrite the resume.
+
+06_company_research.py and 07_generate_cover_intermediate.py are another obvious pair. Cover generation needs company tone, company type, values, and role framing. Today one call gathers that, then another call consumes it to write the letter.
+
+The net effect is this:
+
+call 1: understand the job
+call 2: understand the same job again
+call 3: understand the same job plus master profile again
+call 4: understand the company
+call 5: understand the company + same job + same profile again
+
+That is exactly the kind of duplicate AI work your charter says to stop. 
+
+CURRENT_PIPELINE
+
+ 
+
+PROJECT_CHARTER
+
+Best first merges
+
+Merge 01_score_job.py + 03_tailor_job_data.py first
+
+This is the highest-value first cut.
+
+Why first:
+
+both read the same raw intake
+both are pre-decision intelligence steps
+this lets rejected jobs stop after one LLM call
+it aligns directly with “zero LLM calls for rejected jobs” and “max 1 LLM call for most jobs” 
+
+PROJECT_CHARTER
+
+Replace both with one new step:
+
+01_analyze_job.py
+
+Inputs:
+
+intake.md
+data/source_of_truth.json or current derived master profile snapshot
+
+Outputs:
+
+score/analysis_v1.yaml or .json
+score/score_report.md
+tailored/tailored_data_v1.yaml
+decision recommendation in metadata.yaml
+
+Single response should contain:
+
+fit score
+proceed/hold/skip recommendation
+rationale
+structured extraction:
+title
+company
+location
+employment type
+responsibilities
+requirements
+must_have_skills
+nice_to_have_skills
+ats_keywords
+positioning_angle
+risk_flags
+missing_skills
+compensation summary if present
+
+Structural rule for Codex:
+
+scoring and extraction must come from the same xAI response payload
+parsed once, written to multiple filesystem artifacts
+no second AI call before manual accept/reject
+Merge 06_company_research.py + 07_generate_cover_intermediate.py second
+
+This is the next cleanest cut.
+
+Why:
+
+company research exists almost entirely to feed cover generation
+for many jobs, company values can be derived from the posting itself or skipped entirely
+if you still want a cover letter, research and writing should be one pass, not two
+
+Replace both with:
+
+06_generate_cover_package.py
+
+Inputs:
+
+intake.md
+tailored/tailored_data_v1.yaml
+source_of_truth.json
+optionally a cached local company profile if present
+
+Outputs:
+
+research/company_profile_v1.yaml
+generated/cover_intermediate_v1.json
+generated/cover_preview_v1.md
+
+Single response should contain:
+
+company_type
+company_summary
+values_or_tone_signals
+cover_letter_json
+cover_letter_preview_md
+confidence / evidence source
+
+Structural rule:
+
+do not call xAI just to classify company type
+if company facts are needed for cover, fetch/generate them in the same call that writes the cover package
+Remove standalone AI resume generation as a separate early-stage call only if you want true 1-call mode
+
+This is the bigger architectural decision.
+
+Today 04_generate_resume_intermediate.py is its own call. If your target is 1 call for most jobs, then the first analysis call has to optionally emit resume-ready content too.
+
+That means your new 01_analyze_job.py can support two modes:
+
+Mode A: cheap analysis-only
+
+for intake triage
+one LLM call total
+no resume/cover generation
+used on most jobs until accepted
+
+Mode B: full application package
+
+one LLM call that emits:
+analysis
+tailored YAML
+resume intermediate JSON
+optional cover intermediate JSON
+only for high-value jobs when user already wants to apply
+
+This gets you closest to the charter.
+
+Recommended target architecture
+
+Use two pipeline tiers.
+
+Tier 1: most jobs, 1 LLM call max
+
+00_check_applied_before.py local only
+01_analyze_job.py xAI once
+user decides accept/reject
+if reject/hold: stop
+if accept and resume/cover not needed yet: render later from cached analysis or rule-based templates
+
+Tier 2: top-tier jobs, 2 LLM calls max
+
+Call 1: 01_analyze_job.py
+Call 2: 04_generate_application_package.py
+
+Where 04_generate_application_package.py replaces:
+
+04_generate_resume_intermediate.py
+06_company_research.py
+07_generate_cover_intermediate.py
+
+That second call should generate one combined package:
+
+resume intermediate JSON
+trimmed resume intermediate JSON or trimming instructions
+company profile summary
+cover intermediate JSON
+shared evidence / keyword grounding block
+
+Then Python renderers keep doing the DOCX work locally, which is already the right pattern. The rendering steps are cheap and should stay non-LLM. 
+
+CURRENT_PIPELINE
+
+What I would merge first, in order
+
+First merge:
+
+01_score_job.py + 03_tailor_job_data.py
+new file: 01_analyze_job.py
+
+Second merge:
+
+06_company_research.py + 07_generate_cover_intermediate.py
+new file: 06_generate_cover_package.py
+
+Third merge:
+
+fold 04_generate_resume_intermediate.py into a new combined package generator for accepted jobs
+new file: 04_generate_application_package.py
+
+What should stay separate
+
+Keep these separate:
+
+00_check_applied_before.py local
+02_decide_job.py manual gate
+05_render_resume.py local renderer
+08_render_cover_letter.py local renderer
+09_update_application_status.py local metadata update
+10_auto_pipeline.py orchestration only
+
+These are not the cost problem. The xAI fragmentation is the problem. 
+
+CURRENT_PIPELINE
+
+Concrete structural changes for Codex
+
+Give Codex these rules:
+
+Eliminate all xAI calls before decision except one unified analyzer call.
+New analyzer must write both score and tailored extraction from one response.
+No script may call xAI if its required inputs can be satisfied from existing job folder artifacts.
+Company research cannot be a standalone xAI step.
+Cover generation cannot trigger a separate research pass.
+Accepted-job generation must use at most one additional xAI call.
+Renderers consume JSON/YAML only and never call xAI.
+Add artifact existence checks:
+if tailored/tailored_data_v1.yaml exists, do not regenerate
+if generated/resume_intermediate_v1.json exists, do not regenerate
+if generated/cover_intermediate_v1.json exists, do not regenerate
+Add analysis_hash and prompt_version into metadata so the filesystem can decide cache reuse.
+10_auto_pipeline.py must branch by mode:
+triage
+accepted_resume_only
+accepted_resume_and_cover
+
+Bottom line
+
+Current state: 5 xAI calls per job. 
+
+CURRENT_PIPELINE
+
+Best first cut:
+
+merge 01 + 03
+
+Best second cut:
+
+merge 06 + 07
+
+Best end-state:
+
+1 xAI call for most jobs
+2 xAI calls for accepted/top-tier jobs
+0 xAI calls after reject
+which is exactly what your charter asks for. 
+
+PROJECT_CHARTER
+
+If you want, next I’ll turn this into a Codex-ready refactor spec with exact new script names, responsibilities, inputs, outputs, and delete/replace mappings.
