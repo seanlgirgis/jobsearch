@@ -284,12 +284,18 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-<<<<<<< HEAD
 - uuid: 00051_5ade9538
   description_path: data\jobs\00051_5ade9538\intake.md
   company: Unknown
   role: Unknown
-=======
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00051_98db0f64
+  description_path: data\jobs\00051_98db0f64\00051.Koch_Industries.03302026.md
+  company: Koch Industries
+  role: Senior Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
 - uuid: 00051_d7c3a912
   description_path: data\jobs\00051_d7c3a912\intake.md
   company: Ekman Associates, Inc.
@@ -324,6 +330,29 @@
   description_path: data\jobs\00058_de476853\intake.md
   company: Headway
   role: Capacity Planning Analyst
->>>>>>> a051b738c694ad96ac53d9bde7237ef52ce48775
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00059_b0939046
+  description_path: data\jobs\00059_b0939046\intake.md
+  company: Amazon.com LLC
+  role: Capacity Planning Specialist, Capacity Planning
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00060_7c453502
+  description_path: data\jobs\00060_7c453502\intake.md
+  company: Samsung Semiconductor
+  role: Capacity Planning Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00061_44d67df7
+  description_path: data\jobs\00061_44d67df7\intake.md
+  company: Meta Platforms, Inc.
+  role: Performance and Capacity Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00062_f29bcbdb
+  description_path: data\jobs\00062_f29bcbdb\intake.md
+  company: Pennymac
+  role: Unknown
   apply_date: N/A
   status: ACCEPTED
