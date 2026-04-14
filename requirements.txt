@@ -1,3 +1,6 @@
+google-auth>=2.29.0
+google-auth-oauthlib>=1.2.0
+google-api-python-client>=2.126.0
 aiohappyeyeballs==2.6.1
 aiohttp==3.13.3
 aiosignal==1.4.0

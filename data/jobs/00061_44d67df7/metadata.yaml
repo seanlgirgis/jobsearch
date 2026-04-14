@@ -1,0 +1,35 @@
+application:
+  history:
+  - date: '2026-04-14'
+    status: Pending
+    notes: Job scored and documents generated. Ready to apply.
+  - date: '2026-04-14'
+    status: Applied
+    notes: Submitted Meta Performance and Capacity Engineer application (REQ-2602-159198).
+  applied: true
+  applied_date: '2026-04-14'
+  applied_method: LinkedIn
+  application_notes: Submitted Meta Performance and Capacity Engineer application
+    (REQ-2602-159198).
+company: Meta Platforms, Inc.
+company_website: https://www.metacareers.com/
+company_type: direct
+created_at: '2026-04-14T00:00:00.000000'
+duplicate_check: clear
+duplicate_check_method: lexical
+duplicate_check_notes: lexical fallback found no likely duplicate
+job_id: 00061_44d67df7
+last_decision: ACCEPTED
+last_decision_at: '2026-04-14T00:00:00.000000'
+location: Remote (U.S.)
+location_preference: Remote
+notes: 'Score: 93%. Recommendation: Apply. Strong fit in performance and capacity
+  engineering at large-scale infrastructure and cross-functional optimization.'
+original_filename: intake.md
+recommendation: Apply
+role: Performance and Capacity Engineer
+score: 93
+score_date: '2026-04-14T00:00:00.000000'
+source: Dice / Meta Careers
+status: ACCEPTED
+uuid: 44d67df7-7abd-402b-b00d-4613757bee87

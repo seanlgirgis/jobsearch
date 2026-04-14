@@ -12,6 +12,8 @@
     "personal_website": "https://seanlgirgis.github.io",
     "x_twitter": "https://x.com/SeanLuka22249",
     "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "citizenship_status": "U.S. Citizen",
+    "work_authorization": "Authorized to work in the U.S. without sponsorship now or in the future",
     "target_roles": [
       "Senior Data Engineer",
       "AI Engineer",
@@ -954,7 +956,10 @@
         "Automated reporting workflows with Python scripts.",
         "Developed interactive dashboards using matplotlib, seaborn, plotly.",
         "Applied statistical analysis and ML in Python for underutilized infrastructure patterns.",
-        "Collaborated on rightsizing resources based on data and projections."
+        "Collaborated on rightsizing resources based on data and projections.",
+        "Built hybrid AWS/Oracle data platform: used S3 as landing zone for raw telemetry from 6,000+ endpoints, AWS Glue for ETL transformation, and Redshift for ML forecasting workloads alongside existing Oracle reporting infrastructure.",
+        "Containerized Python ETL pipeline jobs on EC2 and ECS, enabling scalable on-demand processing for capacity forecasting workloads.",
+        "Migrated heavy ML forecasting workloads (Prophet, scikit-learn) from on-prem Oracle to Redshift, reducing query time and enabling parallel forecasting runs at cloud scale."
       ],
       "skills": [
         "CA APM 10.5",
@@ -974,7 +979,12 @@
         "ETL Processes",
         "Statistical Analysis",
         "AppDynamics",
-        "CA Wily APM"
+        "CA Wily APM",
+        "AWS S3",
+        "AWS EC2",
+        "AWS ECS",
+        "AWS Glue",
+        "Amazon Redshift"
       ]
     },
     {

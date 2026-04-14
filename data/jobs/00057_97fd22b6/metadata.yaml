@@ -1,0 +1,42 @@
+application:
+  application_notes: Application submitted on 2026-02-07
+  applied: true
+  applied_date: '2026-02-07'
+  applied_method: LinkedIn
+  history:
+  - date: '2026-04-13'
+    notes: Duplicate check clear (semantic). Repost similarity below threshold; proceed
+      approved.
+    status: Pending
+  - date: '2026-02-07'
+    status: Applied
+    notes: Application submitted
+  - date: '2026-02-07'
+    status: REJECTED
+    notes: Immediate rejection email received from GEICO Hiring Team; reapply allowed
+      after six months.
+  last_status: REJECTED
+  last_status_date: '2026-02-07'
+company: GEICO
+company_website: ''
+company_type: enterprise
+created_at: '2026-04-13T23:08:01.798681'
+duplicate_check: clear
+job_id: 00057_97fd22b6
+last_decision: ACCEPTED
+last_decision_at: '2026-04-13T23:08:01.798681'
+location: Dallas, TX (On-site)
+location_preference: On-site DFW
+notes: 'Score: 91%. Recommendation: Apply with duplicate caution
+
+  • Strong capacity/performance/platform fit
+
+  • Similar to prior GEICO role but below duplicate threshold'
+original_filename: intake.md
+recommendation: Apply with duplicate caution
+role: Staff Engineer - Capacity Planning and Management
+score: 91
+score_date: '2026-04-13T23:08:01.798681'
+source: LinkedIn
+status: ACCEPTED
+uuid: 97fd22b6-3998-4f83-b1ea-87cb3ce122be

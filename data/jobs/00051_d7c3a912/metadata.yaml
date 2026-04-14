@@ -1,0 +1,33 @@
+application:
+  application_notes: Applied via Dice (confirmed)
+  applied: true
+  applied_date: '2026-04-13'
+  applied_method: Dice
+  history:
+  - date: '2026-04-13'
+    notes: Application submitted via Dice.
+    status: Applied
+  - date: '2026-04-13'
+    notes: Job scored and documents generated. Ready to apply.
+    status: Pending
+company: Ekman Associates, Inc.
+company_website: ''
+company_type: agency
+created_at: '2026-04-13T00:00:00.000000'
+job_id: 00051_d7c3a912
+last_decision: ACCEPTED
+last_decision_at: '2026-04-13T00:00:00.000000'
+location: Remote
+location_preference: Remote
+notes: "Remote role. Score: 74%. Recommendation: Proceed\n\u2022 Staffing/agency
+  placement \u2014 client company unknown\n\u2022 Core DE skills strong match (Python,
+  PySpark, SQL, AWS, ETL, API ingestion, data quality)\n\u2022 Gaps: Kafka/Kinesis
+  (adjacent), Terraform/CI-CD (minor), 3-6yr requirement (overqualified at 20+yr)"
+original_filename: intake.md
+recommendation: Proceed
+role: Data Engineer
+score: 74
+score_date: '2026-04-13T00:00:00.000000'
+source: Dice
+status: ACCEPTED
+uuid: d7c3a912-0000-0000-0000-000000000031

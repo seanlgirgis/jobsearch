@@ -8,6 +8,9 @@ personal:
   github: https://github.com/seanlgirgis
   twitter: https://x.com/SeanLuka22249
   website: https://seanlgirgis.github.io
+  citizenship_status: U.S. Citizen
+  work_authorization: Authorized to work in the U.S. without sponsorship now or
+    in the future
 summary:
   short: Senior Data Engineer with 20+ years building ETL/ELT pipelines, SQL-driven data models, and reliable analytics workflows for regulated enterprise environments.
   long: Data Engineer with deep hands-on ownership of pipeline design, transformation logic, data quality validation, and stakeholder-facing reporting. Strong Python/SQL foundation with cloud delivery experience on AWS and practical upskilling in Snowflake/Databricks patterns; focused on scalable, testable data workflows and measurable SLA outcomes.

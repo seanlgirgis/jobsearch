@@ -1,0 +1,28 @@
+application:
+  application_notes: Job package generated and accepted to apply.
+  applied: false
+  applied_date: null
+  applied_method: null
+  history:
+  - date: '2026-04-13'
+    notes: Duplicate check clear via lexical fallback (semantic blocked by WinError 10013). Job evaluated and package generated.
+    status: Pending
+company: Koch Industries
+company_website: ''
+company_type: enterprise
+created_at: '2026-04-13T22:32:58.610220'
+duplicate_check: clear
+job_id: 00055_8a28e6d5
+last_decision: ACCEPTED
+last_decision_at: '2026-04-13T22:32:58.610220'
+location: Plano, TX (On-site)
+location_preference: On-site / Hybrid DFW
+notes: "Score: 86%. Recommendation: Apply\n• Strong SQL/Python data pipeline fit\n• Architecture collaboration + governance alignment\n• Duplicate check: clear (lexical fallback); semantic path blocked by WinError 10013"
+original_filename: intake.md
+recommendation: Apply
+role: Data Engineer
+score: 86
+score_date: '2026-04-13T22:32:58.610220'
+source: LinkedIn
+status: ACCEPTED
+uuid: 8a28e6d5-01fe-4297-968a-3cf350ddc4e6

@@ -1,0 +1,84 @@
+company_name: Pennymac
+company_website: https://www.pennymac.com
+company_type: direct
+job_title: Observability Engineer (Senior)
+location: Carrollton, TX (Office)
+job_summary: >
+  Senior Observability Engineer role within Core Services Engineering, responsible
+  for designing and maintaining the observability platform (New Relic), automating
+  monitoring infrastructure with IaC (Terraform), and acting as SME to drive proactive
+  monitoring and data-driven decision-making across DevOps, Development, and Operations
+  teams in a regulated financial services environment.
+
+responsibilities:
+  - Architect and scale monitoring solutions using New Relic (APM, Infrastructure, Logs, Synthetics, NRQL)
+  - Automate observability configurations (alerts, dashboards, synthetic checks) using Terraform/OpenTofu
+  - Develop insightful dashboards and actionable alerting policies for real-time visibility
+  - Act as observability SME guiding teams on logging, metrics, and tracing best practices
+  - Analyze telemetry to identify bottlenecks and drive performance optimization
+  - Troubleshoot production issues and reduce MTTR
+
+requirements:
+  - 7+ years Cloud Engineering experience (Observability, DevOps, SRE)
+  - 3+ years hands-on New Relic (Dashboards, NRQL, APM, alerting)
+  - 3+ years IaC (Terraform/OpenTofu preferred)
+  - AWS cloud platform experience
+  - Python/Bash scripting proficiency
+  - Docker, Kubernetes, CI/CD familiarity
+  - Security and compliance in regulated environments
+
+must_have_skills:
+  - APM / Application Performance Monitoring
+  - Observability platform administration
+  - Dashboard and alerting design
+  - Python scripting for automation
+  - AWS cloud infrastructure
+  - Regulated environment (financial services) experience
+  - Cross-team SME and enablement
+
+nice_to_have_skills:
+  - New Relic NRQL and Synthetics
+  - Terraform / Infrastructure as Code
+  - Kubernetes / Docker
+  - CI/CD pipeline integration
+  - Security and compliance tooling
+
+positioning_angle: >
+  Lead with depth of APM/observability experience (CA APM SME, Dynatrace, AppDynamics,
+  BMC TrueSight) as direct transfer to New Relic. Emphasize Citi financial services
+  background for regulated environment alignment. Surface Python automation and dashboard
+  work as IaC-adjacent capability. Frame C++ performance optimization as systems-level
+  depth underpinning the observability mindset.
+
+ats_keywords:
+  - observability
+  - APM
+  - application performance monitoring
+  - New Relic
+  - NRQL
+  - monitoring
+  - alerting
+  - dashboards
+  - infrastructure as code
+  - Terraform
+  - Python
+  - AWS
+  - Dynatrace
+  - AppDynamics
+  - telemetry
+  - performance optimization
+  - SRE
+  - DevOps
+  - regulated environment
+  - financial services
+  - MTTR
+  - synthetic monitoring
+  - logging
+  - metrics
+  - tracing
+  - cloud engineering
+  - Kubernetes
+  - Docker
+  - CI/CD
+  - BMC TrueSight
+  - CA APM
