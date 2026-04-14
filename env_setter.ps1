@@ -26,6 +26,9 @@ $env:VECTOR_DB_PATH = "$env:PROJECT_ROOT\data\vectorstore"
 # Optional: embeddings model / LLM model selection
 $env:DEFAULT_EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"   # light & fast local
 $env:DEFAULT_LLM_PROVIDER     = "xai"                                     # or grok, openai, etc.
+$env:STUDYBOOK_EMBEDDING_LOCAL_ONLY = "1"                                 # force local cache / local model path only
+$env:HF_HUB_OFFLINE = "1"                                                 # prevent network fetches during model load
+$env:TRANSFORMERS_OFFLINE = "1"                                           # keep transformers fully offline
 
 Write-Host "JobSearch environment activated [OK]" -ForegroundColor Green
 python --version

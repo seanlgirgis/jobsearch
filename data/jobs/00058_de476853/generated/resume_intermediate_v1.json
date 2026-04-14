@@ -1,0 +1,101 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Capacity Planning & Performance Analytics Engineer",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "location_preference": "Remote (US)"
+  },
+  "summary": "Capacity and performance-focused data/platform engineer with 20+ years of enterprise experience turning telemetry and workflow data into actionable forecasting models, staffing signals, and cost-aware planning decisions. Strong track record in Python/SQL analytics, reliability-driven data pipelines, and cross-functional planning with operations and finance stakeholders. Hands-on builder who translates complex queue and throughput behavior into clear decisions for leadership.",
+  "skills": [
+    {"name":"Capacity Planning & Forecasting","years":8,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"Performance Engineering","years":15,"proficiency":"Expert","last_used":"2026"},
+    {"name":"Python","years":15,"proficiency":"Expert","last_used":"2026"},
+    {"name":"SQL","years":18,"proficiency":"Expert","last_used":"2026"},
+    {"name":"Workload & Queue Analytics","years":8,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"Data Modeling","years":12,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"AWS","years":7,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"Snowflake / Modern Warehouse","years":4,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"Data Governance & Reliability","years":10,"proficiency":"Advanced","last_used":"2026"},
+    {"name":"Cross-functional Stakeholder Communication","years":12,"proficiency":"Advanced","last_used":"2026"}
+  ],
+  "experience": [
+    {
+      "company":"Citi",
+      "title":"Senior Data Engineer / Capacity Engineering Lead",
+      "start_date":"2017-11",
+      "end_date":"2025-12",
+      "bullets":[
+        "Built enterprise capacity forecasting pipelines from operational telemetry to support proactive scaling and demand planning.",
+        "Developed Python/SQL workflows to model throughput, utilization trends, and threshold risks for infrastructure and operations leaders.",
+        "Partnered with engineering and business stakeholders to connect technical demand signals with budget and planning decisions.",
+        "Implemented monitoring and data quality controls to improve forecast trust and reduce operational surprises.",
+        "Drove process improvements that reduced manual analysis and improved planning cycle speed for recurring capacity reviews."
+      ]
+    },
+    {
+      "company":"G6 Hospitality LLC",
+      "title":"Performance Engineer",
+      "start_date":"2017-03",
+      "end_date":"2017-11",
+      "bullets":[
+        "Managed Dynatrace AppMon/Synthetics and produced actionable performance insights for high-traffic customer systems.",
+        "Analyzed real-user metrics and bottlenecks to guide engineering priorities and improve service quality.",
+        "Built reporting dashboards with before/after KPI views for executive and operational stakeholders."
+      ]
+    },
+    {
+      "company":"CA Technologies / TIAA-CREF",
+      "title":"SME for CA APM (Senior Consultant)",
+      "start_date":"2011",
+      "end_date":"2016",
+      "bullets":[
+        "Led large-scale observability and performance implementations across regulated enterprise environments.",
+        "Built data extraction and reporting scripts to improve visibility into capacity and stability risks.",
+        "Advised client teams on sizing, bottleneck diagnostics, and operational readiness."
+      ]
+    },
+    {
+      "company":"AT&T",
+      "title":"Performance Test Engineer",
+      "start_date":"2010-08",
+      "end_date":"2011-07",
+      "bullets":[
+        "Analyzed load and break points in telecom applications using CPU, memory, thread, and database indicators.",
+        "Automated data collection and test diagnostics to accelerate issue isolation and performance tuning."
+      ]
+    },
+    {
+      "company":"Sabre",
+      "title":"Senior Systems & Data Migration Engineer",
+      "start_date":"2008-05",
+      "end_date":"2010",
+      "bullets":[
+        "Led large-scale migration of data systems to improve throughput and reduce infrastructure footprint.",
+        "Built validation automation to maintain data integrity during high-volume cutovers."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name":"HorizonScale — AI Capacity Forecasting Engine",
+      "timeframe":"2025",
+      "description":"Built a Python/PySpark forecasting pipeline using ML models to project capacity bottlenecks and improve planning lead time.",
+      "technologies":["Python","PySpark","Prophet","scikit-learn","Streamlit"]
+    },
+    {
+      "name":"AI-Powered Job Search Pipeline",
+      "timeframe":"2026",
+      "description":"Built an end-to-end automation pipeline with duplicate detection, scoring, artifact generation, and application tracking.",
+      "technologies":["Python","FAISS","Sentence Transformers","Workflow Automation"]
+    }
+  ],
+  "education": [
+    {"degree":"High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science","institution":"Humber College","location":"Toronto, Canada"},
+    {"degree":"Bachelor of Science in Civil Engineering","institution":"Zagazig University","location":"Egypt"}
+  ]
+}

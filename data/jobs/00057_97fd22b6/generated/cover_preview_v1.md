@@ -1,0 +1,20 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 13, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Staff Engineer - Capacity Planning and Management role at GEICO. My background aligns strongly with your need for a technical leader who can connect infrastructure telemetry, forecasting, and platform strategy to practical operational and financial decisions.
+
+I have led capacity and performance engineering initiatives in large enterprise environments, building Python/SQL pipelines that transform raw infrastructure signals into actionable forecasts and utilization insights. This includes proactive scaling indicators, demand planning views, and reliability-focused governance controls that help teams avoid under-provisioning and over-spend.
+
+I work effectively across infrastructure, platform, and business stakeholders, translating technical realities into decision-ready outputs for engineering leaders and finance partners. GEICO's mission to mature capacity engineering as a strategic function is exactly the kind of impact-focused challenge I enjoy, and I would be excited to help shape scalable models, internal APIs, and planning workflows that support long-term efficiency and service resilience.
+
+Thank you for your consideration. I would welcome the opportunity to discuss how my capacity engineering and platform analytics experience can contribute to GEICO's modernization and growth goals.
+
+Sincerely,
+Sean Luka Girgis

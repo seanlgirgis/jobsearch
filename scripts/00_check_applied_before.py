@@ -34,7 +34,7 @@ DEFAULT_TOP_K    = 5
 def load_intake_text(file_path: str) -> str:
     path = Path(file_path)
     if not path.is_file():
-        print(f"❌ File not found: {file_path}")
+        print(f"[ERROR] File not found: {file_path}")
         sys.exit(1)
     text = path.read_text(encoding="utf-8").strip()
     # MIN_TEXT_LEN was removed, so this check is also removed.
@@ -53,7 +53,7 @@ def check_duplicates_semantic(
     emb = get_embedding(new_text)
     distances, indices = index.search(emb, top_k)
 
-    print(f"\n🔍 Query against {index.ntotal} past jobs (threshold {threshold:.2f}, showing top {top_k})")
+    print(f"\n[INFO] Query against {index.ntotal} past jobs (threshold {threshold:.2f}, showing top {top_k})")
     print(f"{'Sim':<8} | {'Apply Date':<12} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
     print("-" * 100)
 
@@ -66,7 +66,7 @@ def check_duplicates_semantic(
 
         meta = metadata[idx]
         is_dupe = score >= threshold
-        flag = "🔴 DUPE" if is_dupe else ""
+        flag = "DUPE" if is_dupe else ""
 
         if is_dupe:
             found_duplicate = True
@@ -82,10 +82,10 @@ def check_duplicates_semantic(
     print("-" * 100)
 
     if found_duplicate:
-        print(f"\n❌ Semantic duplicate likely (>= {threshold:.2f})")
+        print(f"\n[FLAGGED] Semantic duplicate likely (>= {threshold:.2f})")
         return True
     else:
-        print("\n✅ Semantic check found no strong duplicates.")
+        print("\n[CLEAR] Semantic check found no strong duplicates.")
         return False
 
 
@@ -145,7 +145,7 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
     scored.sort(key=lambda x: x[0], reverse=True)
     top = scored[:max(1, top_k)]
 
-    print("\n🔍 Lexical fallback duplicate check (company/title/location similarity)")
+    print("\n[INFO] Lexical fallback duplicate check (company/title/location similarity)")
     print(f"{'Score':<8} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
     print("-" * 95)
 
@@ -158,7 +158,7 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
         is_dupe = score >= 0.78
         if is_dupe:
             flagged = True
-        flag = "🔴 DUPE" if is_dupe else ""
+        flag = "DUPE" if is_dupe else ""
         print(f"{score:.4f} | {company:<20} | {role:<30} | {uuid} | {status:<10} {flag}")
 
     print("-" * 95)
@@ -189,7 +189,7 @@ def main():
             print("duplicate_check: clear (semantic)")
             sys.exit(0)
         except Exception as e:
-            print(f"⚠️ Semantic duplicate check unavailable: {e}")
+            print(f"[WARN] Semantic duplicate check unavailable: {e}")
 
     # 2) Fall back to lexical check if metadata exists.
     is_duplicate_lex, reason = check_duplicates_lexical(text, metadata, args.top_k)
@@ -207,3 +207,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+

@@ -290,3 +290,33 @@
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00053_e37e8194
+  description_path: data\jobs\00053_e37e8194\intake.md
+  company: Inspiren
+  role: Senior Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00055_8a28e6d5
+  description_path: data\jobs\00055_8a28e6d5\intake.md
+  company: Koch Industries
+  role: Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00056_a51218f7
+  description_path: data\jobs\00056_a51218f7\intake.md
+  company: RAVIN IT SOLUTIONS, Inc
+  role: Sr. Data Engineer
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00057_97fd22b6
+  description_path: data\jobs\00057_97fd22b6\intake.md
+  company: GEICO
+  role: Staff Engineer - Capacity Planning and Management
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00058_de476853
+  description_path: data\jobs\00058_de476853\intake.md
+  company: Headway
+  role: Capacity Planning Analyst
+  apply_date: N/A
+  status: ACCEPTED
