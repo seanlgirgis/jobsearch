@@ -8,6 +8,9 @@ personal:
   github: https://github.com/seanlgirgis
   twitter: https://x.com/SeanLuka22249
   website: https://seanlgirgis.github.io
+  citizenship_status: U.S. Citizen
+  work_authorization: Authorized to work in the U.S. without sponsorship now or
+    in the future
 summary:
   short: Senior Data Engineer with 20+ years of enterprise experience. Specialized
     in migrating legacy on-prem pipelines to serverless AWS architectures (Glue/Athena/Bedrock).

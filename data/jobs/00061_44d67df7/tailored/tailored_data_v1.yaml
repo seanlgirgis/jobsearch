@@ -1,0 +1,45 @@
+company_name: Meta Platforms, Inc.
+company_website: https://www.metacareers.com/
+company_type: direct
+job_title: Performance and Capacity Engineer
+location: Remote (U.S.)
+job_summary: >
+  Performance and capacity engineering role for hyperscale infrastructure,
+  focused on sustainable scaling across very high request volumes,
+  data volumes, and network throughput.
+
+responsibilities:
+  - Partner with product, infrastructure, and data engineering teams
+  - Analyze and optimize capacity and performance across systems
+  - Identify bottlenecks and design scaling strategies
+  - Improve throughput, reliability, and efficiency for large-scale workloads
+
+requirements:
+  - Strong performance and capacity engineering experience
+  - Ability to work cross-functionally on large-scale systems
+  - Strong analytical and data-driven optimization mindset
+
+must_have_skills:
+  - Capacity planning
+  - Performance engineering
+  - Bottleneck analysis
+  - Forecasting
+  - Telemetry analytics
+  - Cross-functional execution
+
+nice_to_have_skills:
+  - Hyperscale infrastructure experience
+  - Network flow and throughput analysis
+  - Large-scale data-platform optimization
+
+ats_keywords:
+  - performance engineering
+  - capacity engineering
+  - infrastructure scaling
+  - bottleneck analysis
+  - throughput optimization
+  - telemetry
+  - forecasting
+  - reliability
+  - distributed systems
+  - cross-functional collaboration

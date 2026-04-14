@@ -1,0 +1,20 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 14, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Capacity Planning Specialist role at Amazon. My background combines deep capacity planning experience with advanced analytics and automation, and I am confident I can help your team deliver data-driven workforce strategies at scale.
+
+In my most recent role at Citi, I led enterprise capacity planning and forecasting programs across complex infrastructure environments. I built Python-based analytics pipelines ingesting telemetry from 6,000+ endpoints and developed forecasting models with Prophet and scikit-learn that predicted bottlenecks 3-6 months ahead. These outputs were translated into executive-facing KPI dashboards and monthly planning recommendations used for prioritization and resource allocation.
+
+I bring strong experience improving planning processes through automation and standardization. I integrated data across TrueSight, AppDynamics, and CA APM to create unified reporting and controllership views, and partnered with cross-functional stakeholders to align technical analysis with business decisions. This aligns closely with your focus on strategic hiring and resource planning, visualization-driven decision support, and operational excellence.
+
+I would welcome the opportunity to discuss how my forecasting, automation, and planning experience can support Amazon's global workforce strategy goals. Thank you for your time and consideration.
+
+Sincerely,
+Sean Luka Girgis
