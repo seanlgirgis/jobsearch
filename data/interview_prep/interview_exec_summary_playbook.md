@@ -146,6 +146,16 @@ When to use:
 Backup version (short):
 - My strongest depth is batch and warehouse data engineering, and I am actively building deeper Kafka and streaming capability. I already understand the core architecture and can ramp quickly in production contexts.
 
+### 6) Tell Me About A Challenging Project
+One of the most challenging projects I led was a large-scale telecom data streaming platform, before Kafka was widely adopted. The environment was C/C++ on Linux, and the goal was to ingest high-volume call detail records and transform them into digestible output files for an Amdocs AMS/EMS billing system. We designed and built a distributed, queue-based processing system from scratch to run across multiple machines and handle sustained peak load. The system integrated with a macro server layer connected to live telecom switch feeds, so reliability and throughput were critical. From an engineering perspective, this required heavy object-oriented design and low-level systems programming with semaphores, shared memory, signals, pipes, and OS message queues. The project was a strong success and handled massive call-record volumes reliably in production.
+
+When to use:
+- Use for challenging project, scale, or systems-depth questions.
+- Keep to 60-90 seconds.
+
+Backup version (short):
+- I led a pre-Kafka telecom streaming platform in C/C++ on Linux, building a distributed queue-based system that processed massive call-record volume for downstream billing. It was low-level, high-scale engineering and ran reliably in production.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
