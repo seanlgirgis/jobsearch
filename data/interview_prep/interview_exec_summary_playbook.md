@@ -200,6 +200,52 @@ When to use:
 Backup version (short):
 - We built a hybrid Oracle-to-AWS pipeline: S3 landing zone, Glue transformations, Redshift for heavy forecasting, and containerized Python jobs on EC2/ECS for scaling. It let us preserve legacy reporting while moving ML-heavy workloads to cloud scale.
 
+### 11) Why Redshift Instead Of Keeping Everything In Oracle?
+Oracle was already load-bearing for the live BMC TrueSight environment, and even the replica tier was not designed for concurrent, large-scale analytical queries and ML workloads over years of telemetry history. Under that type of demand, performance degraded quickly.
+
+We were also combining multiple data sources beyond Oracle, including CMDB and additional monitoring feeds, so we needed a platform built for high-volume, multi-source analytics. Redshift gave us columnar storage and horizontally scalable compute optimized for analytical workloads, without risking production reporting stability in Oracle. It was the right separation of concerns and the right tool for the workload.
+
+When to use:
+- Use for architecture tradeoff and database choice questions.
+- Keep to 45-60 seconds.
+
+Backup version (short):
+- Oracle was optimized for operational/reporting load, not heavy historical analytics plus ML at scale. Redshift provided columnar, scalable analytics capacity and protected the live Oracle environment.
+
+### 12) How Did You Ensure Data Quality And Reliability In The AWS Pipeline?
+We treated data quality as code, not a manual afterthought. In Glue, we used Deequ to define schema checks, business-rule validation, and anomaly detection as versioned tests, similar to unit testing for data pipelines.
+
+For malformed records, we implemented a dead-letter pattern: bad records were tagged with reason codes and routed to a quarantine S3 location instead of failing the full pipeline. That let healthy data continue flowing while preserving a clear path for review and reprocessing.
+
+For observability and fast response, we integrated CloudWatch and EventBridge, with SNS alerts when validation failures crossed a threshold, so issues were caught early. We also enforced idempotency in Glue and Lambda so retries did not create duplicate writes in Redshift or Athena.
+
+Finally, we managed infrastructure through IaC to reduce environment drift and used strict S3 prefix conventions to prevent recursive or accidental reprocessing loops.
+
+When to use:
+- Use for data quality, reliability, and production-readiness questions.
+- Keep to 60-90 seconds.
+
+Backup version (short):
+- We used Deequ in Glue for versioned data validation, dead-letter quarantine for bad records, CloudWatch/EventBridge/SNS for alerting, idempotent processing to avoid duplicates, and IaC plus strict S3 prefixes to prevent drift and reprocessing loops.
+
+### 13) How Did You Handle Cost Optimization In This Architecture?
+We approached cost optimization across compute, storage, and guardrails.
+
+On compute, we right-sized Glue workers by workload, used Auto Scaling, and enabled job bookmarks so we processed incremental data instead of reprocessing full S3 history. For non-urgent jobs, we used Glue Flex execution to lower run cost.
+
+On storage and query efficiency, we converted raw JSON/CSV to Parquet early and partitioned by business-relevant keys, which reduced scan volume for Athena and Spectrum. We also applied S3 lifecycle policies to move older data into lower-cost tiers while keeping it retrievable for reprocessing.
+
+On architecture, we reduced unnecessary data movement by using S3 VPC endpoints to avoid avoidable NAT and transfer costs. For event-driven pieces, we tuned Lambda memory/runtime settings to avoid over-provisioning.
+
+Finally, we added financial and operational guardrails: account-level billing alarms, job-level DPU usage thresholds to catch inefficient runs, and monitoring for hidden cost signals like unexpected NAT egress or sudden growth in small-file counts.
+
+When to use:
+- Use for FinOps, performance-cost tradeoff, or production ownership questions.
+- Keep to 60-90 seconds.
+
+Backup version (short):
+- We reduced cost through Glue right-sizing, incremental processing, Parquet + partitioning, lifecycle tiering, and VPC endpoints, then enforced guardrails with billing alarms and workload-level usage thresholds.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
