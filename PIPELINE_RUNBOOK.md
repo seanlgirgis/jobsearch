@@ -2,7 +2,7 @@
 # Last updated: 2026-04-14
 
 ===================================================================
-  THE NORMAL FLOW — 4 commands, no UUIDs, no arguments to remember
+  THE NORMAL FLOW — 5 commands, no UUIDs, no arguments to remember
 ===================================================================
 
 # STEP 1 — Check for duplicates (pass the job file once, never again)
@@ -17,10 +17,13 @@
 # STEP 4 — Generate everything: resume + cover letter, opens folder when done
 .\job-run.ps1
 
+# STEP 5 — After you've submitted your application, mark it as applied
+.\job-apply.ps1
+
 ---
 
-That's it. After step 4 finishes, Windows Explorer opens the generated\ folder
-with your resume_v1.docx and cover_letter.docx ready to submit.
+That's it. After step 4, Windows Explorer opens the generated\ folder
+with your resume_v1.docx and cover_letter.docx. Submit them, then run step 5.
 
 ===================================================================
   FIRST-TIME SETUP (one time only, not every session)
@@ -43,12 +46,12 @@ job-accept.ps1
                   Example: .\job-accept.ps1 -Reject
 
 job-run.ps1
-    -Method       LinkedIn (default) | Indeed | Company Website | Referral | Email
     -Model        grok-3 (default)
-    -Notes        "your notes here" (default: "Applied via pipeline")
+    -Version      v1 (default)
 
-    Example with options:
-    .\job-run.ps1 -Method "Indeed" -Notes "Referral from John"
+job-apply.ps1
+    -Method       LinkedIn (default) | Indeed | Company Website | Referral | Email
+                  Example: .\job-apply.ps1 -Method "Indeed"
 
 ===================================================================
   WHERE THE SCRIPTS LIVE
@@ -58,6 +61,7 @@ job-run.ps1
     C:\jobsearch\job-score.ps1
     C:\jobsearch\job-accept.ps1
     C:\jobsearch\job-run.ps1
+    C:\jobsearch\job-apply.ps1
 
 Run them FROM C:\jobsearch (the scripts set the directory automatically).
 You can run them from anywhere — they always cd to C:\jobsearch first.
@@ -81,7 +85,8 @@ The scripts share state via:  C:\jobsearch\.job_cache.json
     job-check.ps1  writes: intake_file path
     job-score.ps1  writes: uuid, uuid_short, job_folder
     job-accept.ps1 writes: accepted = true
-    job-run.ps1    reads all of the above, then DELETES the cache when done
+    job-run.ps1    writes: documents_ready = true
+    job-apply.ps1  reads all of the above, then DELETES the cache when done
 
 You never see or touch the cache file. It's automatic.
 
@@ -96,6 +101,7 @@ If something goes wrong and you want to reset:
     job-score   1 call   (scoring)
     job-accept  0 calls  (free — local state update)
     job-run     4-5 calls (tailor + resume + research + cover letter)
+    job-apply   0 calls  (free — local status update)
     ─────────────────────────────────────────────────────────────
     Total       5-6 calls per job
 
@@ -117,6 +123,9 @@ If something goes wrong and you want to reset:
 
 "Job has not been accepted. Run job-accept.ps1 first."
 → Run .\job-accept.ps1 before .\job-run.ps1
+
+"Documents not ready. Run job-run.ps1 first."
+→ Run .\job-run.ps1 before .\job-apply.ps1
 
 "Duplicate detected"
 → You already processed this job. Check C:\jobsearch\data\jobs\

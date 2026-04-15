@@ -19,9 +19,12 @@ last_decision: ACCEPTED
 application:
   applied: true
   applied_date: '2026-04-14'
-  applied_method: LinkedIn
-  application_notes: Pipeline application
+  applied_method: Indeed
+  application_notes: Applied via pipeline
   history:
   - date: '2026-04-14'
     status: Applied
     notes: Pipeline application
+  - date: '2026-04-14'
+    status: Applied
+    notes: Applied via pipeline
