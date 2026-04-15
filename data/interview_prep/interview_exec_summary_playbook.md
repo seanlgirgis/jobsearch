@@ -166,6 +166,16 @@ When to use:
 Backup version (short):
 - I handle ambiguity by turning it into alignment: clarify inputs, ask targeted stakeholder questions, document assumptions, and reframe the work into a clear plan the team can execute.
 
+### 8) Are You Interviewing Elsewhere?
+Yes, I have a few conversations in progress. I recently completed a technical assessment with Toyota Financial Services and I am waiting on next steps. That said, this opportunity is a strong fit for my background, and I am very interested in moving forward here.
+
+When to use:
+- Use when recruiter asks about active pipeline.
+- Keep to 20-30 seconds.
+
+Backup version (short):
+- Yes, I have a small number of active processes, including one where I completed a technical assessment. This role is one of my top priorities based on fit.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
