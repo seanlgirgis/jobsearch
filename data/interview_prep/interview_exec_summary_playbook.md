@@ -186,6 +186,20 @@ When to use:
 Backup version (short):
 - I can start immediately.
 
+### 10) Walk Me Through AWS Systems You Used
+In one of my key projects, we built an ML-focused data pipeline while keeping existing on-prem reporting stable. The source environment was Oracle on-prem, holding near real-time KPI telemetry, especially P95 system metrics. We added ingestion jobs to collect time-series telemetry plus supporting inputs from performance monitoring tools and CMDB data.
+
+Raw telemetry landed in S3 as the cloud landing zone. From there, we used AWS Glue ETL jobs to clean, enrich, and transform the data into analytics-ready datasets. The transformed data fed forecasting workloads in Redshift, which handled the heavy analytical processing. We also containerized Python ETL workloads on EC2/ECS for elastic, on-demand scaling.
+
+The result was a hybrid architecture where existing Oracle reporting remained intact, while compute-intensive ML forecasting moved to AWS and scaled reliably under larger loads.
+
+When to use:
+- Use for cloud architecture or AWS depth questions.
+- Keep to 60-90 seconds.
+
+Backup version (short):
+- We built a hybrid Oracle-to-AWS pipeline: S3 landing zone, Glue transformations, Redshift for heavy forecasting, and containerized Python jobs on EC2/ECS for scaling. It let us preserve legacy reporting while moving ML-heavy workloads to cloud scale.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
