@@ -1,0 +1,85 @@
+company_name: PwC
+company_website: ''
+job_title: GenAI Python Systems Engineer –Senior Manager
+location: Fort Worth, TX
+extracted_skills:
+- python
+- sql
+- fastapi
+- ai agents
+- retrieval-augmented generation
+- prompt engineering
+- genai
+- machine learning
+- data science workflows
+- docker
+- aws
+- azure
+- gcp
+- data integration
+- ci/cd pipelines
+- infrastructure as code
+- data governance
+- data security
+job_summary: 'PwC is a global professional services firm seeking a Senior Manager
+  for GenAI Python Systems Engineering in Fort Worth, TX. The role involves designing
+  and building data infrastructure, developing AI-enhanced systems using Python and
+  cloud technologies, and leading teams to solve complex data problems. Key requirements
+  include strong proficiency in Python, SQL, and cloud platforms like AWS, Azure,
+  and GCP, along with experience in AI techniques and data pipelines.
+
+  '
+responsibilities:
+- Design and build robust data infrastructure for efficient data processing and analysis
+- Develop and implement data pipelines, integration, and transformation solutions
+- Lead teams through complex problems, providing coaching and fostering inclusive
+  environments
+- Validate outcomes with clients and act on feedback to ensure quality results
+- Optimize cloud resources for cost, performance, and scalability while ensuring compliance
+  with data governance and security policies
+requirements:
+- Strong proficiency in Python and experience with structured and unstructured data
+- Strong proficiency in SQL and experience with relational databases
+- Experience writing and maintaining FastAPI endpoints for scalable applications
+- Strong understanding of AI techniques such as AI Agents and Retrieval-Augmented
+  Generation
+- Experience in prompt engineering for optimizing LLM outputs and knowledge of software
+  development workflows
+preferred:
+- Experience with machine learning and data science workflows
+benefits:
+- 401(k)
+- Health insurance
+- Vision insurance
+- Dental insurance
+- Paid holidays
+must_have_skills:
+- Python
+- SQL
+- FastAPI
+- AI techniques
+- Data integration solutions
+- Cloud platforms (AWS, Azure, GCP)
+nice_to_have_skills:
+- Machine learning workflows
+- Data science workflows
+ats_keywords:
+- Python programming
+- SQL databases
+- FastAPI endpoints
+- AI agents
+- Retrieval-Augmented Generation
+- Prompt engineering
+- GenAI development
+- Machine learning workflows
+- Docker containerization
+- AWS services
+- Azure Data Factory
+- GCP Dataproc
+- CI/CD pipelines
+- Infrastructure as code
+- Data governance
+- Cloud optimization
+tailoring_method: llm
+llm_model: grok-3-mini
+llm_version: v1

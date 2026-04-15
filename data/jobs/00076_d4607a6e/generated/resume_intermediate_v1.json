@@ -1,0 +1,242 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Senior AI Engineer | GenAI & Data Engineering Specialist",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "citizenship_status": "U.S. Citizen",
+    "work_authorization": "Authorized to work in the U.S. without sponsorship now or in the future",
+    "target_roles": [
+      "Senior Data Engineer",
+      "AI Engineer",
+      "Cloud Data Architect",
+      "Capacity Planning Engineer",
+      "PySpark / AWS Specialist"
+    ]
+  },
+  "summary": "Senior AI Engineer with over 20 years of expertise in designing and delivering data engineering solutions, AI-driven pipelines, and GenAI applications for enterprise environments. Proficient in building LLM models, implementing RAG and vector search, and optimizing real-time inference services with a strong focus on security controls and DevOps practices. Skilled in data and AI engineering, API design, and cloud platforms like AWS and Azure, ensuring scalable and governed solutions. Experienced in MLOps and LLMOps to drive operational efficiency and reliability. Eager to contribute to Deloitte’s Human Capital team by leveraging my technical depth to build innovative AI solutions for HR products.",
+  "flagship_projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Developed an end-to-end agentic pipeline using Python and GenAI models like Claude and Grok (xAI), focusing on RAG and vector search with FAISS embeddings for semantic duplicate detection across 100+ job postings. Implemented multi-step workflows for job scoring, resume tailoring, and quality gating, ensuring governed outputs. Integrated LLM models for real-time inference and application tracking, aligning with AI engineering best practices.",
+      "technologies": [
+        "Python",
+        "Claude Code",
+        "Grok / xAI API",
+        "FAISS",
+        "Sentence Transformers",
+        "Agentic AI Workflows",
+        "MCP (Model Context Protocol)",
+        "RAG / Vector Embeddings",
+        "AI-Assisted Development",
+        "Streamlit"
+      ],
+      "timeframe": "2026",
+      "highlights": [
+        "Designed and built 10-step agentic orchestration pipeline (intake → score → tailor → generate → render → quality gate → track)",
+        "Implemented semantic duplicate detection using FAISS vector embeddings and sentence-transformers",
+        "Integrated Grok-3 LLM API for job scoring, resume tailoring, and cover letter generation",
+        "Built quality gate with automated pattern detection to prevent bad output from reaching submission",
+        "Used Claude Code and MCP servers for AI-accelerated development throughout"
+      ],
+      "tags": [
+        "ai",
+        "agentic",
+        "rag",
+        "llm",
+        "data-engineering"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Engineered an AI-driven forecasting engine using Python and PySpark, integrating GenAI and data engineering to replace manual processes, cutting cycles by 90%. Developed Prophet and scikit-learn models for real-time inference, predicting capacity bottlenecks 6 months ahead. Built a Streamlit dashboard for interactive insights, aligning with MLOps practices for operational efficiency.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Machine Learning",
+        "Capacity Planning",
+        "Data Pipelines"
+      ],
+      "timeframe": "2025",
+      "tags": [
+        "ai",
+        "data-engineering",
+        "performance",
+        "capacity"
+      ],
+      "highlights": [
+        "Replaced manual forecasting — cut cycles by 90%",
+        "Prophet + scikit-learn models predicting bottlenecks 6 months ahead",
+        "Interactive Streamlit dashboard for real-time capacity insights",
+        "Banking-scale telemetry pipeline in PySpark"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless data platform on AWS using S3, Glue, Athena, and Bedrock, focusing on data engineering and GenAI integration with Claude 3 Sonnet for Text-to-SQL agents. Optimized ETL pipelines with Parquet compression to solve small file issues, ensuring scalability for enterprise use. Applied security controls and DevOps practices to maintain governance and performance.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent",
+      "tags": [
+        "data-engineering",
+        "cloud",
+        "ai"
+      ]
+    },
+    {
+      "name": "FAST Project",
+      "description": "Conducted data mining of user performance metrics using Dynatrace to optimize critical systems, supporting data engineering efforts for real-time insights. Delivered actionable recommendations to enhance system efficiency.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017",
+      "tags": [
+        "performance",
+        "capacity"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL/ELT pipelines using Python and SQL, ingesting P95 telemetry from 6,000+ endpoints, replacing manual processes and enhancing delivery reliability.",
+        "Designed optimized data models for historical retention and trend analysis, enabling seasonal risk forecasting and supporting executive decisions.",
+        "Developed AI-driven forecasting models with Prophet and scikit-learn for real-time inference, predicting bottlenecks 6 months ahead and improving provisioning accuracy.",
+        "Integrated disparate data feeds into unified Oracle reporting with executive dashboards, ensuring data reliability and governance.",
+        "Built automated data pipelines with Python and Pandas, focusing on data quality and security controls, enhancing trust in enterprise datasets.",
+        "Applied MLOps practices to operationalize ML models, driving cost-performance discipline and infrastructure optimization."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics for critical systems, delivering real-time performance data for optimization.",
+        "Led 'FAST' project to mine user performance metrics, providing actionable insights that improved system efficiency.",
+        "Supported cloud migration to AWS, integrating monitoring solutions and ensuring data reliability during transition."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM and CEM for utility systems, ensuring reliable performance data collection.",
+        "Managed monitoring solutions to provide real-time insights, enhancing system observability and operational efficiency."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations for 4,000–6,000 agents, delivering scalable monitoring solutions for enterprise systems.",
+        "Designed custom dashboards and alerts, optimizing data collection for performance analysis and bottleneck resolution.",
+        "Developed Perl/Ksh scripts for data extraction, automating workflows and improving operational efficiency.",
+        "Collaborated with IT teams to troubleshoot J2EE/.NET environments, ensuring reliable real-time inference and system stability."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications for load breakpoints, documenting key metrics to optimize performance.",
+        "Installed monitoring tools like Wily Introscope and created automation scripts, enhancing data collection efficiency.",
+        "Developed performance reports for resource bottlenecks, supporting data-driven infrastructure improvements."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster, optimizing data pipelines for a high-throughput shopping engine.",
+        "Enhanced transaction processing with C++/OCCI, reducing hardware footprint by 95% while maintaining sub-second latency.",
+        "Built CPPUNIT testing framework, automating conversion processes and ensuring data reliability."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML-based modules for CICS/MQSeries/XML/DB2 systems, supporting enterprise data integration.",
+        "Developed critical components for IRS modernization, ensuring secure and reliable data processing."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability C++ interfaces using POSIX and sockets, ensuring robust data processing for billing systems.",
+        "Optimized billing performance with C/C++/Pro*C/PL/SQL, achieving 75% memory reduction and 20% throughput increase."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": []
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python | SQL / Oracle | PL/SQL | C++ | Java | Perl | Ksh / Korn Shell Scripting | VB6 / VC++",
+    "Cloud & Data": "AWS | Azure | GCP | PySpark | Apache Spark | Hive/Hadoop | Databricks | Delta Lake | Snowflake | Data Warehousing | Apache Parquet / Columnar Storage | ETL Design & Optimization | Dimensional Modeling | Data Quality, Testing & Pipeline Monitoring | Medallion Architecture | Unity Catalog | Delta Live Tables | Databricks Workflows | dbt | Data Vault | Data Governance | OCCI / OCI | Oracle RAC",
+    "AI/ML": "GenAI / LLM Agents | Building LLM/GenAI solutions | Implementing RAG and vector search | Claude Code | Grok (xAI) | Agentic AI Workflows | MCP (Model Context Protocol) | AI-Assisted Development | Google Gemini | Antigravity (AI Coding Assistant) | Prophet / Time-Series Forecasting | scikit-learn | MLOps | LLMOps | Capacity Planning / Forecasting",
+    "Tools & Infra": "Docker | Kubernetes | Terraform | CloudFormation | CI/CD | Git | Airflow | Streamlit | Dynatrace (AppMon + Synthetics) | CA APM / Introscope | BMC TrueSight / TSCO | Linux/Unix | Multiprocessing | WebLogic / WebSphere",
+    "Legacy": "VB6 / VC++"
+  }
+}

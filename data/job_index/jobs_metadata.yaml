@@ -386,3 +386,15 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00076_d4607a6e
+  description_path: data\jobs\00076_d4607a6e\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00077_1fdebba2
+  description_path: data\jobs\00077_1fdebba2\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED

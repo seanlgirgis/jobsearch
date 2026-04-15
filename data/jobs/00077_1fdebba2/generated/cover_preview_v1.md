@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 14, 2026  
+
+Dear Hiring Manager,
+
+I am applying for the GenAI Python Systems Engineer – Senior Manager position at PwC. I am drawn to PwC’s mission to build trust in society and solve important problems through innovative technology solutions, which aligns with my expertise in AI-driven data engineering.
+
+With over 15 years of experience in Python programming and ETL/ELT pipeline development, I have designed and built robust data infrastructure for enterprise environments. At CITI, as a Senior Capacity & Data Engineer from 2017 to 2025, I architected automated data pipelines ingesting P95 telemetry from over 6,000 endpoints, replacing manual processes and enhancing reliability. This directly maps to PwC’s need for efficient data processing and integration solutions, leveraging my expertise in Python, SQL databases, and data governance to ensure compliance and scalability.
+
+My recent projects demonstrate a strong alignment with GenAI development and AI techniques such as AI agents and Retrieval-Augmented Generation. In 2026, I built an AI-Powered Job Search Pipeline, orchestrating a 10-step agentic workflow using Python, Claude Code, and Grok (xAI) APIs, incorporating FAISS vector embeddings for semantic duplicate detection across 100+ job postings. This experience in prompt engineering and LLM integration positions me to develop innovative AI-enhanced systems at PwC, ensuring optimized outcomes for complex data challenges.
+
+Additionally, my 7 years of experience with AWS services, including Glue, Athena, and Bedrock, complement PwC’s requirements for cloud optimization across platforms like AWS, Azure, and GCP. In a recent serverless lakehouse project, I resolved the small file problem using Snappy and Parquet compression, optimizing ETL processes for enterprise scale. I am prepared to lead teams in building scalable data solutions while adhering to data security policies, reflecting PwC’s value of acting with integrity.
+
+I am confident that my extensive background in Python programming, GenAI workflows, and cloud data platforms will contribute to PwC’s mission of reimagining the possible through technology. I look forward to the opportunity to bring my skills in data integration and AI techniques to your team as a Senior Manager.
+
+Sincerely,
+Sean Luka Girgis

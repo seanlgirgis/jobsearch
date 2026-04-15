@@ -1,0 +1,109 @@
+company_name: Deloitte
+company_website: ''
+job_title: AI Engineer Senior Consultant
+location: Dallas, TX
+extracted_skills:
+- AI engineering
+- Data engineering
+- GenAI
+- LLM models (Claude, GPT, Gemini)
+- RAG (Retrieval-Augmented Generation)
+- Vector search
+- Embeddings
+- Data pipelines
+- API design
+- Microservices
+- DevOps
+- DevSecOps
+- CI/CD
+- Terraform
+- CloudFormation
+- Docker
+- Kubernetes
+- AWS
+- Azure
+- GCP
+- Security controls
+- MLOps
+- LLMOps
+job_summary: 'Deloitte''s Human Capital team is seeking a Senior AI Engineer to design
+  and build secure, scalable AI solutions for HR products, focusing on data engineering,
+  GenAI foundations, and integration with models like Claude, GPT, and Gemini. The
+  role involves partnering with architects and teams to deliver production pipelines
+  for model training, real-time inference, and LLM applications while ensuring governance,
+  observability, and cost efficiency. Required qualifications include a STEM degree
+  and at least 4 years of experience in AI engineering, data pipelines, and cloud
+  platforms, with opportunities for travel and potential immigration sponsorship.
+
+  '
+responsibilities:
+- Partner with architects to translate product needs into secure, scalable technical
+  designs and solutions.
+- Build and operationalize LLM-enabled capabilities like copilots and HR assistants
+  using models such as Claude, GPT, and Gemini.
+- Implement RAG patterns, document processing, embeddings, and vector search with
+  governance controls.
+- Deliver governed datasets and feature engineering for ML training and real-time
+  inference, ensuring performance and reliability.
+- Establish data reliability, cost-performance discipline, and contribute to MLOps/LLMOps
+  operations.
+requirements:
+- Bachelor's degree in a STEM field such as Computer Science or Engineering.
+- 4+ years of experience building and delivering LLM/GenAI solutions with models like
+  Claude, GPT, and Gemini.
+- 4+ years implementing RAG and retrieval systems with enterprise governance.
+- 4+ years of modern data and AI engineering, including pipelines and feature engineering.
+- 4+ years building real-time inference services and leading platform engineering.
+- 4+ years of DevOps/DevSecOps experience with tools like CI/CD and Terraform.
+- 4+ years leading security and compliance efforts, including familiarity with IAM
+  and data privacy.
+- Ability to travel 0-25% based on client needs.
+preferred:
+- Advanced degree (MS/PhD) or relevant certifications in cloud and AI/ML.
+- 4+ years of experience with Human Capital platforms like Workday or SAP SuccessFactors.
+- 4+ years operationalizing LLMOps/MLOps and cloud experience on AWS, Azure, or GCP.
+- 4+ years of structured problem-solving, stakeholder communication, and collaboration
+  across teams.
+- 4+ years of experience with ethics, privacy, testing, and operational readiness.
+benefits:
+- Annual salary range of $113,100 to $208,300.
+- Potential eligibility for a discretionary annual incentive program.
+- Opportunities for travel and possible limited immigration sponsorship.
+- Access to resources for applicants with disabilities via Deloitte's accommodation
+  page.
+must_have_skills:
+- Building LLM/GenAI solutions
+- Implementing RAG and vector search
+- Data and AI engineering
+- Real-time inference services
+- DevOps/DevSecOps practices
+- Security and compliance leadership
+nice_to_have_skills:
+- Human Capital platform integrations
+- LLMOps/MLOps operationalization
+- Cloud experience on AWS/Azure/GCP
+- Structured problem-solving and stakeholder communication
+- Ethics and privacy awareness
+ats_keywords:
+- AI Engineer
+- Senior Consultant
+- Data Engineering
+- GenAI
+- LLM Models
+- RAG
+- Vector Search
+- API Design
+- Microservices
+- DevOps
+- CI/CD
+- AWS
+- Azure
+- GCP
+- Security Controls
+- MLOps
+- Human Capital Platforms
+- Workday
+- SAP SuccessFactors
+tailoring_method: llm
+llm_model: grok-3-mini
+llm_version: v1

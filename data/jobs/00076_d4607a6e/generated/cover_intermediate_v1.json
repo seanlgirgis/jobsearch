@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 14, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the AI Engineer Senior Consultant position at Deloitte. I am drawn to Deloitte\u2019s mission to make an impact that matters, particularly through innovative AI and digital transformation solutions that solve real-world problems.",
+  "body": [
+    "With over 20 years of experience in data engineering and a strong focus on AI solutions, I am equipped to design and deliver secure, scalable LLM/GenAI solutions as outlined in the role\u2019s responsibilities. My recent project, an AI-Powered Job Search Pipeline (2026), involved building a 10-step agentic workflow using Python, Claude Code, and Grok (xAI) APIs, integrating RAG patterns and vector search with FAISS embeddings for semantic similarity matching across 100+ job postings. This directly aligns with Deloitte\u2019s need for expertise in LLM models like Claude and Gemini, as well as implementing RAG and retrieval systems with governance controls.",
+    "My tenure as a Senior Capacity & Data Engineer at CITI (2017-2025) honed my skills in data and AI engineering, specifically in building robust data pipelines for enterprise environments. I architected automated ETL/ELT pipelines using Python and Pandas, ingesting P95 telemetry from over 6,000 endpoints, which improved delivery reliability and supported real-time inference capabilities. This experience maps to your requirement for delivering governed datasets and feature engineering for ML training, ensuring performance and reliability in high-stakes settings.",
+    "Additionally, my work on a Serverless Lakehouse Platform using AWS (recent) demonstrates my proficiency in cloud platforms and DevOps practices. I designed a full serverless data platform with S3, Glue, Athena, and Bedrock, incorporating GenAI agents like Claude 3 Sonnet for Text-to-SQL capabilities, addressing cost-performance discipline akin to Deloitte\u2019s focus on MLOps/LLMOps operations. I am committed to aligning with Deloitte\u2019s core value of integrity by ensuring security controls and compliance in all technical designs."
+  ],
+  "conclusion": "I am confident that my extensive background in AI engineering, data pipelines, and cloud solutions positions me to contribute effectively to Deloitte\u2019s Human Capital team. I look forward to leveraging my skills to build impactful LLM-enabled capabilities and drive innovation in line with your commitment to outstanding value to clients.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}
