@@ -1,0 +1,112 @@
+company_name: KATMAI
+company_website: https://katmaicorp.com/
+job_title: Python Developer (SAS), Systems Modernization - REMOTE
+location: Orlando, FL 32826 • Remote
+extracted_skills:
+- python
+- sas
+- sql
+- postgresql
+- parquet
+- json
+- dask
+- pyspark
+- multiprocessing
+- aws
+- linux
+- git
+- cloud computing
+- data pipelines
+- data validation
+- code profiling
+- unit testing
+- technical documentation
+job_summary: 'KATMAI is seeking a Python Developer for Systems Modernization to lead
+  the transformation of legacy SAS-based data processing systems into efficient, scalable
+  Python solutions. This remote role involves designing and maintaining high-performance
+  data pipelines for large-scale datasets in a cloud-native environment. Key responsibilities
+  include translating SAS logic to Python, optimizing code for performance, and ensuring
+  data integrity through automated testing. Candidates must have 5-7 years of experience
+  in Python, data processing, and performance optimization, with strong skills in
+  SQL and PostgreSQL integration.
+
+  '
+responsibilities:
+- Lead the modernization of core data processing systems by converting SAS logic into
+  robust Python solutions.
+- Design and develop scalable data pipelines to handle diverse data formats like SAS
+  datasets, Parquet, JSON, and SQL.
+- Optimize code performance by profiling and refactoring to eliminate bottlenecks
+  using parallel computing strategies.
+- Interface with PostgreSQL for high-volume data storage and retrieval using Python.
+- Implement automated testing and data quality checks to ensure integrity of critical
+  data assets.
+- Produce well-documented, readable, and extensible code while participating in peer
+  reviews and knowledge sharing.
+- Communicate technical knowledge through presentations, documentation, and step-by-step
+  procedures.
+- Attend branch meetings and maintain regular communication with the team.
+- Assist in analyzing SAS-based systems to develop optimized Python solutions.
+requirements:
+- 5-7 years of experience in improving code performance, including profiling and refactoring
+  production code.
+- Proficiency in Python for reading and reformatting large datasets.
+- Experience with data formats such as Parquet, SQL, JSON, and larger-than-memory
+  datasets.
+- Strong SQL skills, specifically with PostgreSQL integration.
+- Familiarity with libraries like PySpark, multiprocessing, Dask, and code profiling
+  tools.
+- Experience in Linux environments and with cloud-native resources like AWS.
+- Knowledge of version control (Git), unit testing, and technical documentation.
+- Ability to perform basic Linux commands as an end user.
+- Must pass the Census Bureau Security Investigation/background check.
+preferred:
+- Bachelor’s degree in computer science or related field.
+- 5-7 years of experience in backend and front-end development, relational databases,
+  or application development.
+- Ability to read and interpret SAS code or SAS programming experience.
+- Familiarity with database designs balancing usability and functionality.
+- Cloud computing experience, preferably with Amazon Web Services (AWS).
+benefits:
+- Medical insurance
+- Dental insurance
+- Vision insurance
+- Life & AD&D insurance
+- Long-Term & Short-Term Disability insurance
+- 401(k) Savings Plan
+- Employee Assistance Program (EAP)
+- Paid Time Off (PTO)
+- 11 Paid Federal Holidays
+- Leave of Absence
+must_have_skills:
+- Python
+- SQL
+- PostgreSQL
+- Data pipelines
+- Code profiling
+- Performance optimization
+nice_to_have_skills:
+- SAS programming
+- AWS
+- Cloud computing
+- Database design
+- PySpark
+ats_keywords:
+- Python Developer
+- SAS Modernization
+- Data Pipelines
+- Cloud-Native Environment
+- PostgreSQL Integration
+- Performance Optimization
+- Code Profiling
+- Large-Scale Datasets
+- Automated Testing
+- Data Quality Checks
+- Linux Environment
+- AWS Cloud
+- Git Version Control
+- Unit Testing
+- Technical Documentation
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

@@ -1,0 +1,68 @@
+company_name: DataAnnotation
+company_website: ''
+job_title: Cloud Engineer - AI Trainer
+location: Sacramento, CA 95831 • Remote
+extracted_skills:
+- JavaScript
+- TypeScript
+- Python
+- C
+- C#
+- C++
+- React
+- Go
+- Java
+- Kotlin
+- Swift
+job_summary: 'DataAnnotation is seeking a skilled Cloud Engineer - AI Trainer to join
+  their remote team and contribute to the development of cutting-edge AI systems.
+  This role involves working on diverse coding challenges, creating high-quality code,
+  and providing feedback to enhance AI models. The position offers flexibility with
+  a fully remote setup and the ability to choose projects and schedules. Candidates
+  must be proficient in at least one specified programming language and fluent in
+  English. This contract role offers competitive hourly pay starting at $40 USD.
+
+  '
+responsibilities:
+- Design and solve diverse coding problems to train AI systems.
+- Write clear, high-quality code snippets and detailed explanations.
+- Evaluate AI-generated code for accuracy, performance, and clarity.
+- Provide actionable feedback to improve next-generation AI models.
+requirements:
+- Fluency in English at a native or bilingual level.
+- Proficiency in at least one of the following: JavaScript, TypeScript, Python, C,
+    C#, C++, React, Go, Java, Kotlin, or Swift.
+- Excellent writing and grammar skills.
+- A bachelor’s degree, either completed or in progress.
+preferred:
+- Previous experience as a Software Developer, Coder, Software Engineer, or Programmer.
+benefits:
+- Fully remote work available in the US, Canada, UK, Ireland, Australia, and New Zealand.
+- Flexible schedule allowing choice of projects and work hours.
+- Competitive hourly pay starting at $40 USD, with potential for higher rates based
+  on performance.
+- Opportunity to impact the future of AI technologies.
+must_have_skills:
+- Programming proficiency in at least one specified language
+- English fluency
+nice_to_have_skills:
+- Experience in software development or coding roles
+ats_keywords:
+- Cloud Engineer
+- AI Trainer
+- Remote Work
+- Flexible Schedule
+- AI Development
+- Coding Problems
+- Software Developer
+- Programming Languages
+- JavaScript
+- TypeScript
+- Python
+- React
+- Java
+- Kotlin
+- Swift
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1

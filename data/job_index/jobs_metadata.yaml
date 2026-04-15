@@ -1,536 +1,370 @@
 - uuid: 00001_cdb9a3fa
-  description_path: data/applied_jobs/00001_cdb9a3fa/raw/raw_intake.md
+  description_path: data\jobs\00001_cdb9a3fa\00001.Collective_Health.02052026.1328.md
   company: Collective Health
   role: Unknown Role
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00002_402a89d6
-  description_path: data/applied_jobs/00002_402a89d6/raw/raw_intake.md
+  description_path: data\jobs\00002_402a89d6\00002.PostScript.02052026.2243.md
   company: PostScript
   role: Staff Data Engineer
   apply_date: N/A
   status: REJECTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00003_e4648120
-  description_path: data/applied_jobs/00003_e4648120/raw/raw_intake.md
+  description_path: data\jobs\00003_e4648120\00003.FisherInvestements.02062026.1311.md
   company: FisherInvestments
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00004_5abc9e0d
-  description_path: data/applied_jobs/00004_5abc9e0d/raw/raw_intake.md
+  description_path: data\jobs\00004_5abc9e0d\00004.Geico.StaffEngineer.02062026.1122.md
   company: Geico
   role: Senior Staff Engineer
   apply_date: N/A
   status: REJECTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00005_894db1e7
-  description_path: data/applied_jobs/00005_894db1e7/raw/raw_intake.md
+  description_path: data\jobs\00005_894db1e7\00005.Geico.SeniorEngineer.02062026.1146.md
   company: Geico
   role: Senior Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00006_714f7c73
-  description_path: data/applied_jobs/00006_714f7c73/raw/raw_intake.md
+  description_path: data\jobs\00006_714f7c73\00006.CapitalOne.SeniorEngineer.02062026.1201.md
   company: CapitalOne
   role: Lead Data Engineer
   apply_date: N/A
   status: REJECTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: '00007_31466164'
-  description_path: data/applied_jobs/00007_31466164/raw/raw_intake.md
+  description_path: data\jobs\00007_31466164\00007.AgileEngine.DataEngineer.1303.md
   company: Agile Engine
   role: Data Engineer ID50062
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00008_6dbaa234
-  description_path: data/applied_jobs/00008_6dbaa234/raw/raw_intake.md
+  description_path: data\jobs\00008_6dbaa234\00008.OdenTechnologies.MLEngineer.02062026.1326.md
   company: Oden Technologies
   role: Machine Learning Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00009_3caadd3a
-  description_path: data/applied_jobs/00009_3caadd3a/raw/raw_intake.md
+  description_path: data\jobs\00009_3caadd3a\00009.RTX.DataEngineer.02062026.1344.md
   company: RTX
   role: Data Engineer ID50062
   apply_date: N/A
   status: REJECTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: '00010_61453370'
-  description_path: data/applied_jobs/00010_61453370/raw/raw_intake.md
+  description_path: data\jobs\00010_61453370\00010.Stefanini.DataEngineer.02062026.1414.md
   company: Stefanni Group
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00011_d9e6c90b
-  description_path: data/applied_jobs/00011_d9e6c90b/raw/raw_intake.md
+  description_path: data\jobs\00011_d9e6c90b\00011.Sephora.Lead_Engineer_Performance.02062026.1506.md
   company: SEPHORA
   role: Lead Engineer, Performance Engineering
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00012_cd22375a
-  description_path: data/applied_jobs/00012_cd22375a/raw/raw_intake.md
+  description_path: data\jobs\00012_cd22375a\00012.ClickUp.Senior_Performance_Engineer.02062026.1523.md
   company: ClickUp
   role: Senior Performance Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00013_3f4d5336
-  description_path: data/applied_jobs/00013_3f4d5336/raw/raw_intake.md
+  description_path: data\jobs\00013_3f4d5336\00013.TheHershyCompany.SeniorDataEngineer.02062026.15.52.md
   company: Hershey
   role: Senior Data Engineer, Data Products
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00014_2c4f7d37
-  description_path: data/applied_jobs/00014_2c4f7d37/raw/raw_intake.md
+  description_path: data\jobs\00014_2c4f7d37\00014.thehartford.LeadAIDataEngineer02062026.1950.md
   company: TheHartford
   role: Lead AI Data Engineer - Hybrid
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00015_9b310437
-  description_path: data/applied_jobs/00015_9b310437/raw/raw_intake.md
+  description_path: data\jobs\00015_9b310437\00015.SCRIBD.StaffDataEngineer.02062026.2041.md
   company: SCRIBD
   role: Staff Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00016_5407d0d2
-  description_path: data/applied_jobs/00016_5407d0d2/raw/raw_intake.md
+  description_path: data\jobs\00016_5407d0d2\00016.ATT.LeadData.AIEngineering.02062026.2102.md
   company: AT&T
   role: Lead Data/AI Engineering
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00017_d8259ebc
-  description_path: data/applied_jobs/00017_d8259ebc/raw/raw_intake.md
+  description_path: data\jobs\00017_d8259ebc\00017.Anthropic.CapacityEngineerCompute.02072026.1945.md
   company: Anthropic
   role: Capacity Engineer Compute
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00018_539f6ba7
-  description_path: data/applied_jobs/00018_539f6ba7/raw/raw_intake.md
+  description_path: data\jobs\00018_539f6ba7\00018.Google.Incentives Technical Analyst.02072026.2031.md
   company: Google
   role: Incentives Technical Analyst, Infrastructure and Development, YouTube
   apply_date: N/A
   status: GHOSTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00019_d5eaebef
-  description_path: data/applied_jobs/00019_d5eaebef/raw/raw_intake.md
+  description_path: data\jobs\00019_d5eaebef\00019.DBT Labs. Staff Sales Engineer.
+    02072026. 2121.md
   company: dbt Labs
   role: Staff Sales Engineer, Texas
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00020_71272f0d
-  description_path: data/applied_jobs/00020_71272f0d/raw/raw_intake.md
+  description_path: data\jobs\00020_71272f0d\00020 Geico Staff Engineer - Capacity
+    Planning and Management 02072026 2137.md
   company: Geico
   role: Capacity Planning and Management
   apply_date: N/A
   status: ACCEPTED
-  submission_status: applied
-  source_root: data/applied_jobs
 - uuid: 00021_eb57eb40
-  description_path: data/applied_jobs/00021_eb57eb40/raw/raw_intake.md
+  description_path: data\jobs\00021_eb57eb40\00021 DTCC Lead Database Engineer 02072026
+    2238.md
   company: DTCC
   role: Lead Database Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00022_338f7341
-  description_path: data/applied_jobs/00022_338f7341/raw/raw_intake.md
+  description_path: data\jobs\00022_338f7341\00022 CVS Data Engineer.md
   company: CVS
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00023_2afe66f8
-  description_path: data/applied_jobs/00023_2afe66f8/raw/raw_intake.md
+  description_path: data\jobs\00023_2afe66f8\00023 Qode Sr Data Engineer 02092026
+    1037.md
   company: Qode
   role: Sr Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00024_c269be7a
-  description_path: data/applied_jobs/00024_c269be7a/raw/raw_intake.md
+  description_path: data\jobs\00024_c269be7a\00024.monet.dataEngineer.031120261512.md
   company: Monet
   role: Dataengineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00025_06b4caf5
-  description_path: data/applied_jobs/00025_06b4caf5/raw/raw_intake.md
+  description_path: data\jobs\00025_06b4caf5\00024.Stefanni.DataEngineer.031120260339.md
   company: Stefanni
   role: Dataengineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00026_3b4b8d7b
-  description_path: data/applied_jobs/00026_3b4b8d7b/raw/raw_intake.md
+  description_path: data\jobs\00026_3b4b8d7b\RandstandDigital.03112026.0414.md
   company: Randstad Digital
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00027_179fdabd
-  description_path: data/applied_jobs/00027_179fdabd/raw/raw_intake.md
+  description_path: data\jobs\00027_179fdabd\PETADATA.031120260424.md
   company: PETADATA
   role: AWS Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00028_58bf8e8c
-  description_path: data/applied_jobs/00028_58bf8e8c/raw/raw_intake.md
+  description_path: data\jobs\00028_58bf8e8c\clifyx.DE.03112026.0437.md
   company: ClifyX
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00029_e1c101b7
-  description_path: data/applied_jobs/00029_e1c101b7/raw/raw_intake.md
+  description_path: data\jobs\00029_e1c101b7\rh.03062026.0446.md
   company: Robert Half
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00030_5e4bc3bd
-  description_path: data/applied_jobs/00030_5e4bc3bd/raw/raw_intake.md
+  description_path: data\jobs\00030_5e4bc3bd\randstand.03112026.0435.md
   company: Randstad Digital
   role: AI Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00031_1daa6ef1
-  description_path: data/applied_jobs/00031_1daa6ef1/raw/raw_intake.md
+  description_path: data\jobs\00031_1daa6ef1\Keurig.031120260500.md
   company: Keurig Dr Pepper
   role: Principal Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00032_bfaeb440
-  description_path: data/applied_jobs/00032_bfaeb440/raw/raw_intake.md
+  description_path: data\jobs\00032_bfaeb440\payton.03112026.517.md
   company: Peyton Resource Group
   role: Performance Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00035_15267e92
-  description_path: data/applied_jobs/00035_15267e92/raw/raw_intake.md
+  description_path: data\jobs\00035_15267e92\GovTact.03112026.5.55.md
   company: Government Tactical Solutions
   role: Senior Performance Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00036_35afb27d
-  description_path: data/applied_jobs/00036_35afb27d/raw/raw_intake.md
+  description_path: data\jobs\00036_35afb27d\Apex.03112026.0619.md
   company: Apex Systems
   role: Performance Lead Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00037_21d049e9
-  description_path: data/applied_jobs/00037_21d049e9/raw/raw_intake.md
+  description_path: data\jobs\00037_21d049e9\intake.3112026.0713.md
   company: CTC
   role: Performance Architect
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00038_fe151a85
-  description_path: data/applied_jobs/00038_fe151a85/raw/raw_intake.md
+  description_path: data\jobs\00038_fe151a85\intake.md
   company: McAfee
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00039_76829368
-  description_path: data/applied_jobs/00039_76829368/raw/raw_intake.md
+  description_path: data\jobs\00039_76829368\intake.md
   company: Toyota North America
   role: Lead Python Developer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00040_a390effb
-  description_path: data/applied_jobs/00040_a390effb/raw/raw_intake.md
+  description_path: data\jobs\00040_a390effb\intake.md
   company: Meta
   role: Performance & Capacity Engineer - Planning Optimization
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00042_95feaf55
-  description_path: data/applied_jobs/00042_95feaf55/raw/raw_intake.md
+  description_path: data\jobs\00042_95feaf55\SoFi.SeniorDataEngineer.03112026.md
   company: SoFi
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: '00043_02035075'
-  description_path: data/applied_jobs/00043_02035075/raw/raw_intake.md
+  description_path: data\jobs\00043_02035075\intake.md
   company: Thomson Reuters
   role: Staff Software Engineer - AI II
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00044_8c605523
-  description_path: data/applied_jobs/00044_8c605523/raw/raw_intake.md
+  description_path: data\jobs\00044_8c605523\intake.md
   company: BCG Platinion
   role: Senior IT Architect - AI Platforms
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00045_cbe95f28
-  description_path: data/applied_jobs/00045_cbe95f28/raw/raw_intake.md
+  description_path: data\jobs\00045_cbe95f28\intake.md
   company: Bank of America
   role: Senior Engineer-AI Inference
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00046_f877b3d0
-  description_path: data/applied_jobs/00046_f877b3d0/raw/raw_intake.md
+  description_path: data\jobs\00046_f877b3d0\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00047_96bc145f
-  description_path: data/applied_jobs/00047_96bc145f/raw/raw_intake.md
+  description_path: data\jobs\00047_96bc145f\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00048_7042ee48
-  description_path: data/applied_jobs/00048_7042ee48/raw/raw_intake.md
+  description_path: data\jobs\00048_7042ee48\intake.md
   company: Kyndryl
   role: Agentic AI - Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00049_287cd3cb
-  description_path: data/applied_jobs/00049_287cd3cb/raw/raw_intake.md
+  description_path: data\jobs\00049_287cd3cb\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00050_57128a10
-  description_path: data/applied_jobs/00050_57128a10/raw/raw_intake.md
+  description_path: data\jobs\00050_57128a10\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00051_5ade9538
-  description_path: data/applied_jobs/00051_5ade9538/raw/raw_intake.md
+  description_path: data\jobs\00051_5ade9538\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00051_98db0f64
-  description_path: data/applied_jobs/00051_98db0f64/raw/raw_intake.md
+  description_path: data\jobs\00051_98db0f64\00051.Koch_Industries.03302026.md
   company: Koch Industries
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00051_d7c3a912
-  description_path: data/applied_jobs/00051_d7c3a912/raw/raw_intake.md
+  description_path: data\jobs\00051_d7c3a912\intake.md
   company: Ekman Associates, Inc.
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00053_e37e8194
-  description_path: data/applied_jobs/00053_e37e8194/raw/raw_intake.md
+  description_path: data\jobs\00053_e37e8194\intake.md
   company: Inspiren
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00055_8a28e6d5
-  description_path: data/applied_jobs/00055_8a28e6d5/raw/raw_intake.md
+  description_path: data\jobs\00055_8a28e6d5\intake.md
   company: Koch Industries
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00056_a51218f7
-  description_path: data/applied_jobs/00056_a51218f7/raw/raw_intake.md
+  description_path: data\jobs\00056_a51218f7\intake.md
   company: RAVIN IT SOLUTIONS, Inc
   role: Sr. Data Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00057_97fd22b6
-  description_path: data/applied_jobs/00057_97fd22b6/raw/raw_intake.md
+  description_path: data\jobs\00057_97fd22b6\intake.md
   company: GEICO
   role: Staff Engineer - Capacity Planning and Management
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00058_de476853
-  description_path: data/applied_jobs/00058_de476853/raw/raw_intake.md
+  description_path: data\jobs\00058_de476853\intake.md
   company: Headway
   role: Capacity Planning Analyst
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00059_b0939046
-  description_path: data/applied_jobs/00059_b0939046/raw/raw_intake.md
+  description_path: data\jobs\00059_b0939046\intake.md
   company: Amazon.com LLC
   role: Capacity Planning Specialist, Capacity Planning
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00060_7c453502
-  description_path: data/applied_jobs/00060_7c453502/raw/raw_intake.md
+  description_path: data\jobs\00060_7c453502\intake.md
   company: Samsung Semiconductor
   role: Capacity Planning Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00061_44d67df7
-  description_path: data/applied_jobs/00061_44d67df7/raw/raw_intake.md
+  description_path: data\jobs\00061_44d67df7\intake.md
   company: Meta Platforms, Inc.
   role: Performance and Capacity Engineer
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
 - uuid: 00062_f29bcbdb
-  description_path: data/applied_jobs/00062_f29bcbdb/intake.md
+  description_path: data\jobs\00062_f29bcbdb\intake.md
   company: Pennymac
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00063_39b76735
-  description_path: data/applied_jobs/00063_39b76735/raw/raw_intake.md
+- uuid: 00071_46d0318a
+  description_path: data\jobs\00071_46d0318a\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
-  status: Unknown
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00064_780ff7b7
-  description_path: data/applied_jobs/00064_780ff7b7/raw/raw_intake.md
+  status: ACCEPTED
+- uuid: 00072_92dbecdd
+  description_path: data\jobs\00072_92dbecdd\intake.md
   company: Unknown
   role: Unknown
   apply_date: N/A
-  status: Unknown
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00065_695cc15b
-  description_path: data/applied_jobs/00065_695cc15b/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: Unknown
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00066_213afca5
-  description_path: data/applied_jobs/00066_213afca5/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00067_db13f953
-  description_path: data/applied_jobs/00067_db13f953/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00067_f347e46a
-  description_path: data/applied_jobs/00067_f347e46a/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-  submission_status: Unknown
-  source_root: data/applied_jobs
-- uuid: 00068_75e1a487
-  description_path: data/applied_jobs/00068_75e1a487/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-  submission_status: applied
-  source_root: data/applied_jobs
-- uuid: 00069_75e46c36
-  description_path: data/applied_jobs/00069_75e46c36/raw/raw_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-  submission_status: Unknown
-  source_root: data/applied_jobs
+  status: ACCEPTED
