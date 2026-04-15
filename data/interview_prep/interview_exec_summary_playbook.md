@@ -107,7 +107,7 @@ Backup version (short):
 - I am a Senior Data Engineer with 20+ years, including 8 years at Citi building Python and SQL data pipelines at enterprise scale. I have led end-to-end work from ETL automation to AWS data platform delivery, with measurable impact on forecasting and operational decision-making. I am looking for a hands-on Lead Data Engineer role in Plano where I can contribute immediately.
 
 ### 2) Why This Role? (Lead Data Engineer)
-This role is a strong fit because it matches where I deliver best: hands-on data engineering at scale. My background is in Python, SQL, cloud data platforms, and turning ambiguous business needs into reliable production pipelines. I enjoy owning systems end-to-end, from architecture decisions to implementation and operational reliability. The Lead Data Engineer scope aligns with both my technical depth and how I work best as a senior individual contributor.
+This role is a strong fit because it aligns directly with how I create value: hands-on data engineering that improves real business outcomes. I enjoy turning complex, ambiguous data problems into reliable production pipelines, and that has been a consistent theme throughout my career. My background in Python, SQL, and cloud data platforms maps well to the core responsibilities of this role. I also bring a strong team mindset, with focus on shared outcomes, execution quality, and ownership. Lead Data Engineer is the right continuation of the work I have been doing and the environment where I do my best work.
 
 When to use:
 - After intro when asked about role motivation.
@@ -117,7 +117,7 @@ Backup version (short):
 - Lead Data Engineer is the sweet spot for me: hands-on architecture and delivery, strong technical ownership, and direct business impact through production data systems.
 
 ### 3) Why Capital One?
-Capital One is attractive to me because of the combination of scale, cloud-first engineering culture, and high-impact data problems. The environment rewards engineers who stay hands-on at senior levels, and that matches how I work. I am especially interested in contributing to teams solving reliability, performance, and decision-support problems with modern data platforms. The role, team context, and Plano alignment make this a strong fit for where I want to make my next long-term impact.
+Capital One is attractive to me because it combines customer-focused banking with a strong technology culture. Building and operating digital-first financial services creates meaningful engineering challenges at scale, and that is exactly the kind of environment where I do my best work. I also value Capital One's reputation for modern, cloud-driven engineering and hands-on technical leadership. The chance to contribute to that culture as a Lead Data Engineer is genuinely exciting to me.
 
 When to use:
 - Company-motivation prompt.
@@ -127,7 +127,7 @@ Backup version (short):
 - I am interested in Capital One because it combines real scale, strong engineering standards, and meaningful data problems where a hands-on Lead Data Engineer can create immediate value.
 
 ### 4) Salary Expectations
-Based on the role scope and my experience, I am targeting around $185,000 base. I am flexible depending on the full compensation package, including bonus and equity.
+Based on the role scope and my experience, I am targeting around $185,000 base. I am flexible depending on the full compensation package, including bonus and equity, and I am confident we can align on a fair number.
 
 When to use:
 - Only when asked directly.
