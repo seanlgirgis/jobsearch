@@ -1,77 +1,76 @@
-Principal, SDET (Engineer/Architect)- job post
-Request Technology
-Coppell, TX 75019•Hybrid work
-From $160,000 a year - Permanent, Full-time
+AI Data Engineer - Senior Consultant- job post
+Deloitte
+3.9
+3.9 out of 5 stars
+Dallas, TX
+$113,100 - $208,300 a year - Full-time
 
 Job details
 Here’s how the job details align with your profile.
 Pay
 
-From $160,000 a year
+$113,100 - $208,300 a year
 Job type
-
-Permanent
 
 Full-time
 &nbsp;
-Location
-Estimated commute
-35 minutes from 424 Oriole Dr.
-Job address
-Coppell, TX 75019•Hybrid work
-&nbsp;
-Benefits
-Pulled from the full job description
-401(k)
-Health insurance
-Paid time off
-Dental insurance
-&nbsp;
 Full job description
-Principal, SDET (Engineer/Architect)
+AI Engineer Senior Consultant
 
-Salary: Open + Bonus
+Our Deloitte Human Capital team transforms technology platforms, drives innovation, and helps make a significant impact on our clients' success. We are hiring an AI Engineer to build and operate the data, features, and GenAI foundations that power Human Capital AI products and analytics. You will work with an AI Data Engineer (data ingestion, curation, governance, platform foundations) and a Lead AI Solutions Architect (end-to-end solution architecture, integration patterns, non-functional requirements), partnering closely with product, data science/ML, security, and platform engineering to deliver reliable, secure, and scalable AI solutions.
 
-Location: Chicago, IL or Coppell, TX
+This role is hands-on and delivery-oriented: you will ship production pipelines and services that support model training, real-time inference, and LLM applications using Claude-, GPT/Codex-, and Gemini-class models, and more implemented with strong governance, observability, and cost/performance discipline.
 
-Hybrid: 3 days onsite, 2 days remote
+Recruiting for this role ends on August 30, 2026
 
-Qualifications
+Work You'll Do:
 
-Bachelor’s degree
-7+ years’ experience working with manual and automation technologies as an expert with a clear understanding of core practices, processes, and terminology
-5+ years’ experience implementing, enhancing, and supporting integration testing to address business problems and requirements in multiple functional areas
-Experience in financial services, capital markets, or related
-Proficiency in test automation tools – Gherkin, Cucumber, Selenium
-Proficiency in Cloud technology – AWS
-API and high-volume data testing experience
-Development of data testing and transformation tools
-Programming in Python, Java, other programming languages
-Strong data experience including PostgreSQL, databases
-Message queuing and event sourcing tools (Kafka)
-Splunk Logs
-Preferred
+As an AI Engineer Senior Consultant, you will design, build, and run the trusted, governed data + feature + retrieval layer used by AI/ML and GenAI solutions. You will deliver reproducible datasets and features, operationalize quality and lineage, and enable secure consumption patterns for both predictive ML and LLM-based experiences.
 
-Clearing and Risk systems functional expertise and familiarity with technical offerings such as integrations and Core Connectors
-Claude AI
-Responsibilities
+Key Responsibilities:
+Partner with the Lead AI Solutions Architect and AI Data Engineer to translate Human Capital product needs into secure, scalable technical designs and delivered solutions (APIs, services, pipelines, containers/serverless) meeting availability, performance, and security expectations.
+Build and operationalize LLM-enabled capabilities (e.g., copilots, HR knowledge assistants, summarization, policy Q&A) using Claude/GPT(Codex)/Gemini, including secure endpoints, tool/function calling, and reusable prompt/context patterns.
+Implement LLM application patterns including RAG, document ingestion/chunking, embeddings, vector/hybrid search, and retrieval/evaluation telemetry.
+Deliver governed datasets and feature engineering/serving for ML training and real-time inference (online/offline consistency, caching, latency SLOs, backfills).
+Implement safety, privacy, and access controls (PII handling, prompt-injection defenses, content filtering, policy-based access) with security and risk stakeholders.
+Establish data/model reliability and cost-performance discipline (data quality, schema evolution, lineage/metadata, monitoring; right-sizing, query tuning, LLM token/cost telemetry).
+Contribute to MLOps/LLMOps and production operations (versioning, reproducibility, CI/CD, automated testing, observability, incident response); support design reviews, deployment readiness, and runbooks.
 
-Develop and execute integration test strategy for assigned products
-Develop and execute test plans, develop test automation
-Lead the testing and automation function in collaboration with other team members
-Execute test plans and prepare clearly documented results, demonstrate the results to the product teams and management
-Review release notes of delivered functionality and create test plans focused on integration tests
-Work with the product teams on resolution of any outstanding issues within the release and post-release
-Develop and execute functional and non-functional testing plans
-Partner with internal business users and stakeholders to prioritize and develop requirements and testing for implementing new features and functionality including, but not limited to, Risk Platform applications.
-INDS
+The Team
 
-Pay: From $160,000.00 per year
+HC Forward is a dedicated innovation partner accelerating the future of Human Capital by building market-aligned products, platforms, and services that apply AI, data, and engineering to modernize HR experiences and outcomes.
 
-Benefits:
+Required Qualifications:
+Bachelor's degree in a STEM field (e.g., Computer Science, Engineering, Statistics, Data Science)
+4+ years building and delivering LLM/GenAI solutions with Claude/GPT(Codex)/Gemini-class models, including prompt/context design, tool/function calling, evaluation, and production integration.
+4+ years implementing RAG/retrieval (document processing, embeddings, vector/hybrid search) with enterprise governance controls.
+4+ years of modern data & AI engineering, including data modeling, batch/streaming pipelines, structured/unstructured processing, and feature engineering/serving fundamentals.
+4+ years building production, real-time inference services (API design, latency/performance, reliability patterns).
+4+ years leading platform/integration engineering across enterprise systems; strong API/integration experience (REST, GraphQL, event-driven, microservices, middleware).
+4+ years DevOps/DevSecOps experience (CI/CD, IaC such as Terraform/CloudFormation, Docker/Kubernetes, observability/monitoring).
+4+ years leading security/compliance efforts; familiarity with enterprise security controls (IAM, encryption, secrets, audit logging) and data/privacy (PII, retention, access controls); SOC 2/GDPR/HIPAA exposure a plus.
+Ability to travel 0-25%, on average, based on client and project needs.
+Limited immigration sponsorship may be available
 
-401(k)
-Dental insurance
-Health insurance
-Paid time off
-Work Location: Hybrid remote in Coppell, TX 75019
+Preferred Qualifications:
+Advanced degree (MS/PhD) and/or relevant certifications (cloud and AI/ML).
+4+ years of experience with Human Capital platforms and integrations (e.g., Workday, SAP SuccessFactors, Oracle HCM, Salesforce) and HR data domains.
+4+ years of experience operationalizing LLMOps/MLOps capabilities (evaluation, monitoring, governance workflows, model/prompt/version management).
+4+ years of cloud experience on AWS/Azure/GCP (one or more), including managed data platforms and scalable compute patterns.
+4+ years of experience with structured problem solving, translating business needs into requirements, acceptance criteria, and shippable increments.
+4+ years of experience with stakeholder communication: ability to explain AI/GenAI trade-offs (quality vs. latency vs. cost vs. risk) and document decisions.
+4+ years of experience collaborating across product, data science/ML, data engineering, platform, and security.
+4+ years of experience with treat testing, monitoring, and operational readiness as core responsibilities.
+4+ years of experience with ethics and privacy awareness being able to recognize consent/PII/bias boundaries and escalate appropriately.
+
+The wage range for this role takes into account the wide range of factors that are considered in making compensation decisions including but not limited to skill sets; experience and training; licensure and certifications; and other business and organizational needs. The disclosed range estimate has not been adjusted for the applicable geographic differential associated with the location at which the position may be filled. At Deloitte, it is not typical for an individual to be hired at or near the top of the range for their role and compensation decisions are dependent on the facts and circumstances of each case. A reasonable estimate of the current range is $113,100 to $208,300.
+
+You may also be eligible to participate in a discretionary annual incentive program, subject to the rules governing the program, whereby an award, if any, depends on various factors, including, without limitation, individual and organizational performance.
+
+Possible Locations: Atlanta, Austin, Baltimore, Boston, Charlotte, Chicago, Cincinnati, Cleveland, Columbus, Costa Mesa, Dallas, Denver, Detroit, Hartford, Houston, Indianapolis, Jacksonville, Kansas City, Las Vegas, Los Angeles, McLean, Miami, Milwaukee, Nashville, New Orleans, New York, Philadelphia, Pittsburgh, Portland, Raleigh, Richmond, Sacramento, San Antonio, San Diego, San Francisco, San Jose, Seattle, St. Louis, Stamford, Tampa, Tempe
+
+Information for applicants with a need for accommodation: https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-assistance-for-disabled-applicants.html
+
+For more information about Human Capital, visit our landing page at: https://www2.deloitte.com/us/en/pages/careers/articles/join-deloitte-human-capital-consulting-jobs.html
+
+#HCFY26 #IIOFY26

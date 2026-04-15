@@ -2,8 +2,8 @@
 # Usage: .\job-check.ps1 "intake\intake.md"
 
 param(
-    [Parameter(Mandatory=$true, Position=0)]
-    [string]$IntakeFile
+    [Parameter(Mandatory=$false, Position=0)]
+    [string]$IntakeFile = "intake\intake.md"
 )
 
 Set-Location $PSScriptRoot

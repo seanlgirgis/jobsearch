@@ -1,0 +1,94 @@
+company_name: Public Storage
+company_website: ''
+job_title: Sr. AI/ML Data Engineer
+location: Plano, TX
+extracted_skills:
+- python
+- sql
+- bigquery
+- dbt
+- airflow
+- cloud composer
+- pubsub
+- dataflow
+- gcp
+- vertex ai
+- ci/cd
+- terraform
+- bqml
+- mlflow
+- evidently
+job_summary: 'Public Storage, a leading global self-storage company, is seeking a
+  Sr. AI/ML Data Engineer to design and maintain data pipelines and ML platforms using
+  Google Cloud tools. The role focuses on building scalable batch and streaming pipelines,
+  deploying production-grade ML workflows, and supporting real-time decisioning for
+  business impacts. Key requirements include expertise in Python, SQL, and GCP, with
+  at least 4-6 years of experience in data engineering and technical leadership.
+
+  '
+responsibilities:
+- Architect, build, and maintain batch and streaming data pipelines using tools like
+  BigQuery, dbt, Airflow, and Pub/Sub
+- Define and implement data models, semantic layers, and governance practices for
+  quality and observability
+- Deploy and manage ML training and inference workflows on GCP with CI/CD and version
+  control
+- Support real-time event-driven systems for inference, A/B testing, and AI decisioning
+- Collaborate with data scientists and business teams to operationalize models and
+  drive metric-based success
+requirements:
+- MS in Computer Science with 4+ years of experience or BS with 6+ years
+- 3+ years of hands-on experience building data pipelines using Python, SQL, and dbt
+- At least 1 year of experience in real-time or event-driven systems like Pub/Sub
+  and DataFlow
+- 2+ years owning technical decisions or leading engineering direction
+- Expert proficiency in SQL, BigQuery, dbt, Airflow, GCP fundamentals, and Python
+preferred:
+- Experience with GCP or AWS cloud platforms
+- Knowledge of ML monitoring tools like MLflow or Vertex AI
+- Familiarity with semantic search, vector embeddings, LLM orchestration, or RAG workflows
+- Domain knowledge in pricing, recommendations, forecasting, or customer analytics
+- Awareness of geospatial data modeling or basic JavaScript for UI prototyping
+benefits:
+- Work in a fast-paced, high-velocity environment with opportunities for rapid learning
+  and career growth
+- Ownership of meaningful platform components with end-to-end impact on business outcomes
+- Flexible remote options with up to three remote days per month
+- Inclusive culture recognized as a Great Place to Work with strong diversity and
+  work-life balance
+- Equal opportunity employment and professional development in a dynamic team
+must_have_skills:
+- python
+- sql
+- bigquery
+- dbt
+- airflow
+- pubsub
+- gcp fundamentals
+- data pipeline development
+nice_to_have_skills:
+- aws
+- ml monitoring
+- vector embeddings
+- llm orchestration
+- geospatial data
+- javascript
+ats_keywords:
+- senior ai engineer
+- ml data engineer
+- data pipelines
+- bigquery
+- dbt
+- airflow
+- gcp
+- python
+- sql
+- real-time systems
+- ci/cd
+- machine learning deployment
+- event-driven architecture
+- data modeling
+- cloud composer
+tailoring_method: llm
+llm_model: grok-3-mini
+llm_version: v1

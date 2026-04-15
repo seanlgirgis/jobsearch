@@ -374,3 +374,15 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00074_8a65740b
+  description_path: data\jobs\00074_8a65740b\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: REJECTED
+- uuid: 00075_bd07e862
+  description_path: data\jobs\00075_bd07e862\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED

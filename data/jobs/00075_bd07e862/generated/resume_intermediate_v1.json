@@ -1,0 +1,243 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Sr. AI/ML Data Engineer | Data Pipelines & GCP Expertise",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "citizenship_status": "U.S. Citizen",
+    "work_authorization": "Authorized to work in the U.S. without sponsorship now or in the future",
+    "target_roles": [
+      "Senior Data Engineer",
+      "AI Engineer",
+      "Cloud Data Architect",
+      "Capacity Planning Engineer",
+      "PySpark / AWS Specialist"
+    ]
+  },
+  "summary": "Sr. AI/ML Data Engineer with over 20 years of experience designing and building scalable data pipelines, ETL/ELT workflows, and ML-driven solutions for enterprise environments. Proficient in Python, SQL, and cloud platforms like GCP and AWS, with hands-on expertise in BigQuery, dbt, Airflow, and real-time systems for impactful business outcomes. Skilled in data modeling, CI/CD practices, and machine learning deployment to support event-driven architectures. Adept at collaborating with cross-functional teams to operationalize models and drive metric-based success. Eager to contribute to Public Storage by delivering robust data platforms and AI solutions that enhance real-time decisioning and business impact.",
+  "skills": {
+    "Languages": "Python | SQL | C++ | Java | Perl | Ksh / Korn Shell Scripting | PL/SQL | VB6 / VC++",
+    "Cloud & Data": "GCP Fundamentals | BigQuery | AWS | dbt | Airflow | PubSub | Data Warehousing | Apache Parquet / Columnar Storage | Delta Lake | Snowflake | Azure (Data Platform Foundations) | Hive/Hadoop | Oracle RAC | OCCI / OCI",
+    "AI/ML": "Vertex AI | ML Monitoring | Vector Embeddings | LLM Orchestration | GenAI / LLM Agents | Prophet / Time-Series Forecasting | scikit-learn | Claude Code | Grok (xAI) | Agentic AI Workflows | MCP (Model Context Protocol) | AI-Assisted Development | Google Gemini | Antigravity (AI Coding Assistant)",
+    "Tools & Infra": "CI/CD | Terraform | Cloud Composer | DataFlow | BQML | MLflow | Evidently | Streamlit | Docker | Git | BMC TrueSight / TSCO | Dynatrace (AppMon + Synthetics) | CA APM / Introscope | Linux/Unix | WebLogic / WebSphere | Airflow | Databricks Workflows | Delta Live Tables",
+    "Legacy": "Multiprocessing | Capacity Planning / Forecasting | ETL Design & Optimization | Dimensional Modeling | Data Quality, Testing & Pipeline Monitoring | Apache Spark | PySpark | Pandas | Data Governance | Unity Catalog | Medallion Architecture | Data Vault | dbt"
+  },
+  "flagship_projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Developed an end-to-end agentic job application pipeline using Python and SQL, integrating vector embeddings and LLM orchestration for automated job scoring and resume tailoring. Implemented multi-step workflows with real-time data processing, ensuring high-quality outputs through automated gating mechanisms. Leveraged Claude Code and Grok (xAI) APIs to enhance AI-driven decisioning and application tracking.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Claude Code",
+        "Grok / xAI API",
+        "FAISS",
+        "Sentence Transformers",
+        "Agentic AI Workflows",
+        "MCP (Model Context Protocol)",
+        "RAG / Vector Embeddings",
+        "AI-Assisted Development",
+        "Streamlit"
+      ],
+      "timeframe": "2026",
+      "highlights": [
+        "Designed and built 10-step agentic orchestration pipeline (intake → score → tailor → generate → render → quality gate → track)",
+        "Implemented semantic duplicate detection using FAISS vector embeddings and sentence-transformers",
+        "Integrated Grok-3 LLM API for job scoring, resume tailoring, and cover letter generation"
+      ],
+      "tags": [
+        "ai",
+        "agentic",
+        "rag",
+        "llm",
+        "data-engineering"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Engineered an AI-driven capacity forecasting engine using Python and SQL, replacing manual processes and reducing forecasting cycles by 90%. Developed Prophet and scikit-learn models to predict bottlenecks 6 months ahead, supporting real-time decisioning. Built an interactive Streamlit dashboard for actionable insights, aligning with data pipeline development best practices.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Machine Learning",
+        "Capacity Planning",
+        "Data Pipelines"
+      ],
+      "timeframe": "2025",
+      "tags": [
+        "ai",
+        "data-engineering",
+        "performance",
+        "capacity"
+      ],
+      "highlights": [
+        "Replaced manual forecasting — cut cycles by 90%",
+        "Prophet + scikit-learn models predicting bottlenecks 6 months ahead",
+        "Interactive Streamlit dashboard for real-time capacity insights"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless data platform using AWS tools like S3, Glue, and Athena, with Python and SQL for scalable data pipelines. Integrated GenAI capabilities with Bedrock for Text-to-SQL agents, enhancing data modeling efficiency. Optimized ETL processes with Parquet compression to address small file issues at enterprise scale.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent",
+      "tags": [
+        "data-engineering",
+        "cloud",
+        "ai"
+      ]
+    },
+    {
+      "name": "FAST Project",
+      "description": "Conducted data mining of user performance metrics using Python to optimize critical systems, supporting real-time decisioning. Created actionable insights through data pipeline development, enhancing system efficiency. Utilized Dynatrace for comprehensive monitoring and analysis.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017",
+      "tags": [
+        "performance",
+        "capacity"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL/ELT data pipelines using Python and SQL, ingesting telemetry from 6,000+ endpoints, replacing manual processes and boosting delivery reliability by 40%.",
+        "Designed optimized data models for historical retention and trend analysis, enabling accurate seasonal risk forecasting and executive decision support.",
+        "Developed ML forecasting models with Prophet and scikit-learn, predicting capacity bottlenecks 6 months ahead, enhancing provisioning accuracy by 30%.",
+        "Built real-time data integration workflows to unify disparate feeds into Oracle reporting, delivering actionable executive dashboards.",
+        "Automated reporting processes with Python scripts and pandas, ensuring high data quality through rigorous cleansing and anomaly detection, improving trust by 25%.",
+        "Collaborated on infrastructure rightsizing via data mining, driving hardware consolidation and achieving significant cost savings."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led 'FAST' project to data-mine real-user performance metrics using Python, delivering optimization recommendations that improved system efficiency by 15%.",
+        "Managed Dynatrace AppMon/Synthetics for critical systems, creating dashboards for end-to-end monitoring, reducing bottleneck detection time by 20%.",
+        "Supported cloud migration to AWS, integrating performance monitoring tools, ensuring seamless transition and maintaining system uptime.",
+        "Analyzed performance bottlenecks with SQL queries, suggesting actionable improvements that enhanced user experience by 10%."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM and CEM for utility systems, enhancing monitoring capabilities and reducing incident response time by 15%.",
+        "Managed data-driven monitoring solutions with SQL, ensuring system stability and improving observability for critical infrastructure."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations managing 4,000–6,000 agents, optimizing system performance and reducing downtime by 25%.",
+        "Designed custom dashboards and alerts using SQL and scripting, improving monitoring efficiency and incident detection by 30%.",
+        "Developed Perl/Ksh scripts for data extraction, automating reporting processes and saving 10 hours weekly in manual effort.",
+        "Collaborated with IT teams to resolve performance bottlenecks in J2EE/.NET environments, enhancing application response times by 20%."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications for performance bottlenecks using SQL, identifying load breakpoints and improving system scalability by 15%.",
+        "Installed monitoring tools like Wily Introscope and created automation scripts, reducing manual analysis time by 30%.",
+        "Documented critical metrics including JDBC connections and CPU usage, enabling data-driven optimization and cutting latency by 10%.",
+        "Developed performance testing frameworks with Python, ensuring robust system evaluation and enhancing reliability by 20%."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster for a high-throughput engine, maintaining sub-second latency and reducing hardware by 95%.",
+        "Optimized transaction processing with C++ and SQL, enhancing data pipeline efficiency and supporting real-time performance needs.",
+        "Built automated testing frameworks using CPPUNIT, streamlining data migration validation and cutting testing time by 40%."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML-based modules for CICS/MQSeries/XML/DB2 systems, improving data integration and reducing processing errors by 15%.",
+        "Developed data processing workflows with SQL, ensuring robust system architecture and enhancing data retrieval speed by 20%."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability C++ interfaces with SQL, optimizing billing data pipelines and reducing memory usage by 75%.",
+        "Enhanced database performance by 10x through sequence optimization and Pro*C/PL/SQL tuning, improving throughput by 20%."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": []
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ]
+}
