@@ -1,0 +1,102 @@
+company_name: PMG
+company_website: ''
+job_title: AI & Software Engineer Lead - Backend
+location: Dallas, TX
+extracted_skills:
+- python
+- nodejs
+- expressjs
+- django
+- flask
+- restful apis
+- microservices
+- postgresql
+- mongodb
+- redis
+- mysql
+- ai
+- openai
+- bedrock
+- vertex
+- langchain
+- git
+- cicd
+- terraform
+- ansible
+- docker
+- kubernetes
+- grafana
+- prometheus
+- elk stack
+job_summary: 'PMG is a global independent marketing services and technology company
+  specializing in AI-driven digital solutions. As a Lead Software Engineer in Backend,
+  you will design and develop scalable features for the Alli platform, mentor teams,
+  and integrate AI technologies to enhance digital marketing campaigns. This role
+  requires 5+ years of backend experience with NodeJS or Python, expertise in databases,
+  and strong skills in modern development tools.
+
+  '
+responsibilities:
+- Lead the design, development, and deployment of scalable features in the Alli suite.
+- Implement architectural designs for reliable and high-performance systems.
+- Collaborate with cross-functional teams to integrate AI-driven solutions.
+- Build products that deliver measurable results for clients.
+- Mentor junior engineers and promote best practices in development.
+- Conduct coding, debugging, testing, and troubleshooting throughout the development
+  lifecycle.
+- Perform code reviews and provide feedback to ensure code quality.
+- Pioneer advancements in cutting-edge technologies for marketing solutions.
+requirements:
+- 5+ years of backend development experience with NodeJS or Python.
+- 3+ years working with frameworks like ExpressJS, Django, or Flask.
+- Proven experience in designing and integrating RESTful APIs and microservices.
+- Hands-on experience across all stages of software development.
+- Experience mentoring and guiding engineers.
+- Advanced skills in databases such as PostgreSQL, MongoDB, Redis, or MySQL.
+- Familiarity with AI technologies like OpenAI, Bedrock, Vertex, and LangChain.
+- Experience with Git and CI/CD pipelines.
+- Knowledge of infrastructure-as-code tools like Terraform or Ansible.
+- Hands-on experience with Docker and Kubernetes.
+- Strong expertise in monitoring tools such as Grafana, Prometheus, or ELK Stack.
+- Strong communication skills and a proactive, solution-oriented mindset.
+preferred:
+- Interest or familiarity with the Digital Marketing industry.
+- AWS Certifications.
+benefits:
+- Professional development programs and mentorship opportunities.
+- Generous paid time off and holiday allowances.
+- Paid parental leave and family support benefits.
+- Retirement and pension plans with contribution matching.
+- Healthcare coverage tailored to geography.
+- Pet insurance for employees.
+- Lifestyle spending accounts for healthy habits.
+- Commuter assistance benefits.
+- Annual bonus eligibility.
+- Volunteering opportunities with paid time.
+- Access to AI Enterprise License and training sessions.
+must_have_skills:
+- Backend development with NodeJS or Python
+- Designing RESTful APIs and microservices
+- Database management (e.g., PostgreSQL, MongoDB)
+- AI technologies integration
+- CI/CD pipelines and version control
+- Mentoring engineers
+nice_to_have_skills:
+- Digital Marketing industry knowledge
+- AWS Certifications
+ats_keywords:
+- Lead Software Engineer
+- Backend Development
+- NodeJS
+- Python
+- AI Engineering
+- Scalable Systems
+- Microservices Architecture
+- RESTful APIs
+- Docker and Kubernetes
+- CI/CD Pipelines
+- Database Optimization
+- AI Technologies like OpenAI
+tailoring_method: llm
+llm_model: grok-3-mini
+llm_version: v1

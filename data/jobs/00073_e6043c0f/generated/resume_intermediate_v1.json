@@ -1,0 +1,244 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_note": "Changed approximately 9 years ago (around 2017)",
+    "preferred_title": "Lead Software Engineer | Backend Development & AI Technologies Integration",
+    "address": "Murphy, TX (Plano area) / 424 Oriole Dr., Murphy, TX 75094",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "x_twitter": "https://x.com/SeanLuka22249",
+    "location_preference": "Plano, TX / Dallas-Fort Worth / Remote",
+    "citizenship_status": "U.S. Citizen",
+    "work_authorization": "Authorized to work in the U.S. without sponsorship now or in the future",
+    "target_roles": [
+      "Senior Data Engineer",
+      "AI Engineer",
+      "Cloud Data Architect",
+      "Capacity Planning Engineer",
+      "PySpark / AWS Specialist"
+    ]
+  },
+  "summary": "Lead Software Engineer with over 20 years of experience in backend development, specializing in Python and scalable systems for enterprise environments. Proficient in designing RESTful APIs, microservices architecture, and integrating AI technologies like OpenAI and Bedrock to drive innovative solutions. Expertise spans database optimization, CI/CD pipelines, and mentoring engineers to deliver high-performance applications. Skilled in Docker, Kubernetes, and modern development practices for building robust platforms. Eager to contribute to PMG’s mission of delivering AI-driven digital marketing solutions with measurable impact.",
+  "skills": {
+    "Languages": "Python | NodeJS | C++ | Java | Perl | Ksh / Korn Shell Scripting | VB6 / VC++",
+    "Cloud & Data": "AWS | PostgreSQL | MongoDB | Redis | MySQL | PySpark | Apache Spark | Databricks | Delta Lake | Snowflake | Hive/Hadoop | Apache Parquet / Columnar Storage | Azure (Data Platform Foundations)",
+    "AI/ML": "AI Technologies like OpenAI | Bedrock | Vertex | LangChain | GenAI / LLM Agents | Prophet / Time-Series Forecasting | scikit-learn | Claude Code | Grok (xAI) | Agentic AI Workflows | MCP (Model Context Protocol) | AI-Assisted Development | Google Gemini | Antigravity (AI Coding Assistant)",
+    "Tools & Infra": "Git | CI/CD Pipelines | Docker | Kubernetes | Terraform | Ansible | Grafana | Prometheus | ELK Stack | Streamlit | Airflow | Dynatrace (AppMon + Synthetics) | CA APM / Introscope | BMC TrueSight / TSCO | Linux/Unix | WebLogic / WebSphere",
+    "Legacy": "SQL / Oracle | PL/SQL | Oracle RAC | OCCI / OCI | Multiprocessing"
+  },
+  "flagship_projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Developed an end-to-end agentic pipeline using Python and AI technologies like Bedrock, integrating multi-step workflows for job scoring and application tracking. Leveraged RESTful API designs and microservices principles to ensure scalability. Implemented semantic duplicate detection with FAISS vector embeddings for efficient processing of 100+ job postings.",
+      "technologies": [
+        "Python",
+        "Claude Code",
+        "Grok / xAI API",
+        "FAISS",
+        "Sentence Transformers",
+        "Agentic AI Workflows",
+        "MCP (Model Context Protocol)",
+        "RAG / Vector Embeddings",
+        "AI-Assisted Development",
+        "Streamlit"
+      ],
+      "timeframe": "2026",
+      "highlights": [
+        "Designed and built 10-step agentic orchestration pipeline (intake → score → tailor → generate → render → quality gate → track)",
+        "Implemented semantic duplicate detection using FAISS vector embeddings and sentence-transformers",
+        "Integrated Grok-3 LLM API for job scoring, resume tailoring, and cover letter generation",
+        "Built quality gate with automated pattern detection to prevent bad output from reaching submission",
+        "Used Claude Code and MCP servers for AI-accelerated development throughout"
+      ],
+      "tags": [
+        "ai",
+        "agentic",
+        "rag",
+        "llm",
+        "data-engineering"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Engineered an AI-driven forecasting engine using Python and PySpark, replacing manual processes and reducing cycles by 90%. Integrated scalable backend systems with microservices architecture for real-time capacity insights. Built interactive dashboards with Streamlit to support data-driven decisions.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Machine Learning",
+        "Capacity Planning",
+        "Data Pipelines"
+      ],
+      "timeframe": "2025",
+      "tags": [
+        "ai",
+        "data-engineering",
+        "performance",
+        "capacity"
+      ],
+      "highlights": [
+        "Replaced manual forecasting — cut cycles by 90%",
+        "Prophet + scikit-learn models predicting bottlenecks 6 months ahead",
+        "Interactive Streamlit dashboard for real-time capacity insights",
+        "Banking-scale telemetry pipeline in PySpark"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless data platform on AWS using S3, Glue, and Athena, integrating AI technologies with Bedrock for Text-to-SQL GenAI agents. Optimized backend ETL processes with microservices architecture for enterprise scalability. Resolved small file issues using Snappy and Parquet compression for efficient data handling.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ],
+      "timeframe": "Recent",
+      "tags": [
+        "data-engineering",
+        "cloud",
+        "ai"
+      ]
+    },
+    {
+      "name": "FAST Project",
+      "description": "Conducted data mining of user performance metrics to optimize critical systems, leveraging backend development skills. Built scalable solutions to enhance system performance and reliability.",
+      "technologies": [
+        "Dynatrace",
+        "Data Mining"
+      ],
+      "timeframe": "2017",
+      "tags": [
+        "performance",
+        "capacity"
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL/ELT pipelines using Python, ingesting telemetry from 6,000+ endpoints, replacing manual processes and enhancing delivery reliability.",
+        "Designed backend data models for historical retention and trend analysis, enabling seasonal risk forecasting and executive decision support.",
+        "Developed AI-driven forecasting models with scikit-learn and Prophet, predicting bottlenecks 6 months ahead, improving provisioning accuracy.",
+        "Integrated disparate data feeds into unified Oracle reporting systems, creating scalable backend solutions for executive dashboards.",
+        "Built automated data pipelines with Python and Pandas, optimizing backend processes for capacity metrics and reducing processing time.",
+        "Collaborated on infrastructure rightsizing using statistical analysis, driving cost savings through efficient backend system designs."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics for critical systems, ensuring backend performance monitoring for Brand.com.",
+        "Led 'FAST' project, mining real-user performance metrics to provide optimization recommendations, enhancing system scalability.",
+        "Supported cloud migration to AWS, integrating backend monitoring solutions for end-to-end functionality and performance tracking.",
+        "Analyzed bottlenecks and proposed backend performance improvements, reducing latency and improving user experience."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM and CEM for utility systems, ensuring reliable backend performance monitoring.",
+        "Managed monitoring solutions to optimize backend system reliability and uptime for critical infrastructure."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale CA APM implementations, managing 4,000–6,000 agents, ensuring robust backend system monitoring.",
+        "Designed custom backend modules and dashboards, optimizing performance metrics for enterprise environments.",
+        "Provided sizing recommendations and bottleneck resolution for J2EE/.NET systems, enhancing backend scalability.",
+        "Mentored client technical teams on APM solutions, fostering best practices in backend development and monitoring."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications for load breakpoints, documenting key backend metrics like JDBC and CPU usage.",
+        "Installed monitoring tools like Wily Introscope, creating automation scripts to optimize backend performance testing.",
+        "Developed performance benchmarks for telecom web apps, identifying resource bottlenecks and improving system reliability.",
+        "Supported backend optimization by documenting memory and thread metrics, ensuring efficient application scaling."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of 200+ MySQL nodes to a 6-node Oracle RAC cluster, designing scalable backend systems for a high-throughput engine.",
+        "Optimized transaction processing using C++, reducing hardware footprint by 95% while maintaining sub-second latency.",
+        "Built automated testing frameworks with CPPUNIT, streamlining backend data migration and validation processes."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML-based backend modules for CICS/MQSeries systems, ensuring reliable data processing for IRS modernization.",
+        "Developed backend components using VC++ and DB2, optimizing performance for critical messaging architecture."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ interfaces, enhancing backend system reliability with POSIX and socket programming.",
+        "Optimized billing processes with C++ and PL/SQL, reducing memory usage by 75% and boosting throughput by 20%."
+      ]
+    },
+    {
+      "company": "Simplex International - Canada",
+      "title": "Developer",
+      "start_date": "1999",
+      "end_date": "2001",
+      "bullets": []
+    },
+    {
+      "company": "Humber College",
+      "title": "Lab Support",
+      "start_date": "1996-09",
+      "end_date": "1999-04",
+      "bullets": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ]
+}

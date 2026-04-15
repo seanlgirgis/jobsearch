@@ -60,7 +60,8 @@ def main():
     parser.add_argument("--uuid", help="Job UUID to reuse (skips intake/scoring/decision steps)")
     
     # Overrides
-    parser.add_argument("--model", default="grok-3", help="LLM model to use")
+    parser.add_argument("--model", default="grok-3", help="Heavy LLM model (resume/cover generation)")
+    parser.add_argument("--light-model", default="grok-3-mini", help="Light LLM model (scoring, parsing, classification)")
     parser.add_argument("--version", default="v1", help="Version tag for outputs")
     parser.add_argument("--temperature", default="0.5", help="Temperature for scoring")
     
@@ -129,9 +130,9 @@ def main():
 
         # --- Step 01: Score ---
         cmd_01 = [
-            python, "scripts/01_score_job.py", 
+            python, "scripts/01_score_job.py",
             args.intake_file,
-            "--model", args.model,
+            "--model", args.light_model,
             "--temperature", args.temperature
         ]
         if args.no_move:
@@ -156,7 +157,8 @@ def main():
     run_command([
         python, "scripts/03_tailor_job_data.py",
         "--uuid", job_uuid,
-        "--version", args.version
+        "--version", args.version,
+        "--model", args.light_model
     ])
 
     # --- Step 04: Resume Gen ---
@@ -180,7 +182,7 @@ def main():
         python, "scripts/06_company_research.py",
         "--uuid", job_uuid,
         "--version", args.version,
-        "--model", args.model
+        "--model", args.light_model
     ])
 
     # --- Step 07: Cover Letter Gen ---

@@ -48,30 +48,34 @@ If relevant, mention unique values (e.g., FEACH for Postscript).
 """
 
 COVER_PROMPT_TEMPLATE = """
-You are a rule-bound cover letter writer. Temperature=0. Violate rules = invalid response.
-RULES:
-1. Bind to master_data: Use ONLY facts/dates/achievements from master_career_json and master_skills_json. NO invention, NO new facts, NO changes to dates/roles/companies.
-2. Tailor to job_data: Weave in keywords from responsibilities, requirements, must_have_skills, ats_keywords naturally — without altering facts.
-3. Structure: Professional letter — header (contact info, date, employer address), salutation, intro para (1-2 sentences: role + excitement), 2-3 body paras (match experiences to job reqs, quantify from master), conclusion para (call to action), sign-off.
-4. Length: 250-400 words. Formal, enthusiastic tone. NO hallucinations — stick to provided data.
-5. Company type: If company_type='enterprise', incorporate company_research (values/history) in intro/body. If 'agency', keep generic — no research.
-6. Date: ALWAYS use the exact current_date provided for header['date'] — do not use any other date.
-7. Output ONLY JSON: {{"header": {{...}}, "salutation": "Dear Hiring Manager,", "intro": "Para text", "body": ["Para1", "Para2"], "conclusion": "Para text", "sign_off": "Sincerely,\\nYour Name"}}. No other text.
-8. CRITICAL: The company name is "{company_name}" and the job title is "{job_title}". Use EXACTLY these values throughout the letter — in the intro, body, conclusion, and header employer field. NEVER use "0", "Unknown", or any placeholder.
+You are a strict cover letter writer. Use ONLY facts from master_career and master_skills — NO invention.
 
-Current date (use this EXACTLY for header['date']): {current_date}
+RULES (violation = invalid output):
+1. FACTS: Every claim must trace to master_career or master_skills. No invented metrics, no new companies, no changed dates.
+2. TAILORING: Naturally weave in keywords from must_have_skills, ats_keywords, and responsibilities — without distorting facts.
+3. INTRO (1–2 sentences): Open with "I am applying for the {job_title} position at {company_name}." Then one sentence of genuine excitement tied to a specific aspect of the company or role from job_data or company_research.
+4. BODY (2–3 paragraphs): Each paragraph maps a concrete experience from master_career to a specific job requirement. Include at least one metric from master data per paragraph (numbers, percentages, scale).
+5. COMPANY VALUES: If company_type='enterprise' and company_research names specific values, programs, or culture terms (e.g., "FEACH", "customer obsession"), reference at least one by name in the body or conclusion. If 'agency', keep generic.
+6. LENGTH: 280–380 words total. Formal, confident tone — no filler phrases ("I am excited to", "I believe", "I am passionate").
+7. HEADER ADDRESS: If the job location contains "Remote" or location is unknown, set header['employer_address'] to "" (empty string). Only populate it for on-site roles with a real city.
+8. DATE: Use EXACTLY the current_date provided for header['date'].
+9. OUTPUT: ONLY this JSON — no other text:
+{{
+  "header": {{"name": "...", "address": "...", "phone": "...", "email": "...", "date": "...", "employer_address": ""}},
+  "salutation": "Dear Hiring Manager,",
+  "intro": "paragraph text",
+  "body": ["paragraph 1 text", "paragraph 2 text", "paragraph 3 text"],
+  "conclusion": "paragraph text",
+  "sign_off": "Sincerely,\\nFull Name"
+}}
+10. CRITICAL: company name = "{company_name}", job title = "{job_title}". Use exactly these — never "Unknown" or "0".
 
-Master career (JSON):
-{master_career}
-
-Master skills (JSON):
-{master_skills}
-
-Job data (YAML):
-{job_data}
-
+Current date: {current_date}
+Master career (JSON): {master_career}
+Master skills (JSON): {master_skills}
+Job data (YAML): {job_data}
 Company type: {company_type}
-Company research (if enterprise): {company_research}
+Company research: {company_research}
 
 Generate JSON now.
 """
@@ -135,6 +139,22 @@ def load_latest_tailored(job_dir: Path) -> Dict:
         return yaml.safe_load(f)
 
 
+def load_research_from_file(job_folder: Path) -> tuple[str, str] | None:
+    """Load company type and research from Script 06's saved file. Returns (type, research) or None."""
+    research_dir = job_folder / "research"
+    candidates = sorted(research_dir.glob("company_research*.yaml"), reverse=True) if research_dir.is_dir() else []
+    if not candidates:
+        return None
+    with open(candidates[0], "r", encoding="utf-8") as f:
+        data = yaml.safe_load(f) or {}
+    company_type = data.get("type", "").strip().lower()
+    research = data.get("research", "").strip()
+    if company_type in ("agency", "enterprise"):
+        print(f"Loaded research from {candidates[0].name} (type={company_type})")
+        return company_type, research
+    return None
+
+
 def classify_company(job_data: Dict, model: str = "grok-3") -> str:
     company = job_data.get("company_name", "Unknown")
     website = job_data.get("company_website", "")
@@ -144,7 +164,7 @@ def classify_company(job_data: Dict, model: str = "grok-3") -> str:
         return "enterprise"
 
     grok = GrokClient(model=model)
-    resp = grok.chat([{"role": "user", "content": query}], temperature=0.0).strip().lower()
+    resp = grok.chat([{"role": "user", "content": query}], temperature=0.0, max_tokens=10).strip().lower()
 
     if "enterprise" in resp:
         return "enterprise"
@@ -158,7 +178,7 @@ def fetch_company_research(company: str, model: str = "grok-3") -> str:
         return "Mock research: innovative company."
 
     grok = GrokClient(model=model)
-    return grok.chat([{"role": "user", "content": query}], temperature=0.2).strip()
+    return grok.chat([{"role": "user", "content": query}], temperature=0.2, max_tokens=500).strip()
 
 
 def extract_json_from_response(response: str) -> Dict:
@@ -204,13 +224,18 @@ def main():
         with open(metadata_path, "r", encoding="utf-8") as f:
             metadata = yaml.safe_load(f) or {}
 
-    company_type = classify_company(job_data, args.model)
-    print(f"Classified as: {company_type}")
-
-    company_research = ""
-    if company_type == "enterprise":
-        company_research = fetch_company_research(job_data.get("company_name", "Unknown"), args.model)
-        print("Fetched research.")
+    # Use Script 06's saved research if available (avoids 2 redundant API calls)
+    cached = load_research_from_file(job_folder)
+    if cached:
+        company_type, company_research = cached
+    else:
+        print("No cached research found — calling API...")
+        company_type = classify_company(job_data, args.model)
+        print(f"Classified as: {company_type}")
+        company_research = ""
+        if company_type == "enterprise":
+            company_research = fetch_company_research(job_data.get("company_name", "Unknown"), args.model)
+            print("Fetched research.")
 
     current_date = datetime.now().strftime("%B %d, %Y")
     print(f"Current date: {current_date}")
@@ -219,8 +244,8 @@ def main():
     job_title = job_data.get("job_title") or metadata.get("role", "the role")
 
     prompt = COVER_PROMPT_TEMPLATE.format(
-        master_career=json.dumps(master_career, indent=2),
-        master_skills=json.dumps(master_skills, indent=2),
+        master_career=json.dumps(master_career, separators=(',', ':')),
+        master_skills=json.dumps(master_skills, separators=(',', ':')),
         job_data=yaml.dump(job_data, sort_keys=False),
         company_type=company_type,
         company_research=company_research,

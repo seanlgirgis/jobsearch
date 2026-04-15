@@ -151,9 +151,14 @@ def render_markdown(tailored: Dict, trim: bool = False, exclusions: Set[str] = s
             md += f" ({dates})"
         md += "\n\n"
 
-    md += "## Skills\n" + ", ".join(
-        s.get("name", s) if isinstance(s, dict) else s for s in tailored.get("skills", [])
-    ) + "\n\n"
+    raw_skills = tailored.get("skills", [])
+    if isinstance(raw_skills, dict):
+        # Categorized skills: {"Languages": "Python | SQL", "Cloud & Data": "AWS | ..."}
+        skill_lines = "\n".join(f"**{cat}:** {vals}" for cat, vals in raw_skills.items() if vals)
+        md += f"## Skills\n{skill_lines}\n\n"
+    else:
+        flat = ", ".join(s.get("name", s) if isinstance(s, dict) else s for s in raw_skills)
+        md += f"## Skills\n{flat}\n\n"
 
     projs = tailored.get("projects", []) or tailored.get("flagship_projects", [])
     if projs:
@@ -271,8 +276,17 @@ def render_docx(tailored: Dict, out_path: Path, trim: bool = False, exclusions: 
         p.add_run(line)
 
     doc.add_heading("Skills", 1)
-    skills = ", ".join(s.get("name", s) if isinstance(s, dict) else s for s in tailored.get("skills", []))
-    doc.add_paragraph(skills)
+    raw_skills = tailored.get("skills", [])
+    if isinstance(raw_skills, dict):
+        for cat, vals in raw_skills.items():
+            if not vals:
+                continue
+            p = doc.add_paragraph()
+            p.add_run(f"{cat}: ").bold = True
+            p.add_run(str(vals))
+    else:
+        flat = ", ".join(s.get("name", s) if isinstance(s, dict) else s for s in raw_skills)
+        doc.add_paragraph(flat)
 
     projs = tailored.get("projects", []) or tailored.get("flagship_projects", [])
     if projs:

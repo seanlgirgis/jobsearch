@@ -37,31 +37,50 @@ MASTER_ROOT = Path("data/master")
 
 # Improved prompt — clearer rules, no contradictions
 RESUME_PROMPT_TEMPLATE = """
-You are a resume optimizer that NEVER invents facts, NEVER removes entries, NEVER changes dates, titles, companies, or degrees.
+You are a resume optimizer. NEVER invent facts. NEVER change dates, titles, companies, or degrees.
 
 MANDATORY RULES — violation = invalid output:
-1. Preserve EVERY experience entry and EVERY project from the master data exactly as provided.
-   Do NOT omit, delete, or combine any entries.
-2. For each experience: keep original company, title, dates. Rewrite up to 4–6 bullets per role.
-   Prioritize relevance to this job but retain important non-matching bullets.
-3. Summary: 4–6 sentences max, professional tone. Naturally weave in 5–8 key job keywords/responsibilities.
-   If relevant, mention interest in contributing to {company_name}'s mission/platform.
-4. Skills: Include ALL from master skills (deduplicated). Sort with job-relevant ones first
-   (must_have_skills, nice_to_have_skills, extracted_skills from job data at the top).
-5. Projects: Keep ALL. Shorten descriptions to 2–4 sentences max if needed for length.
-6. Output ONLY valid JSON — nothing before {{ or after }}. No markdown, no explanations, no fences.
 
-Master career data (already filtered — use EXACTLY):
+1. HEADER TITLE: Rewrite the professional subtitle under the candidate's name to mirror this job's level and
+   domain keywords (e.g., "Staff Data Engineer | Cloud Lakehouse & Stream Processing"). Pull exact terms
+   from job_title, must_have_skills, and ats_keywords. Never reuse the master profile subtitle verbatim.
+
+2. EXPERIENCE — preserve all entries, but apply these bullet rules by era:
+   - Roles ending 2010 or later: write 4–6 strong bullets each.
+   - Roles ending 2005–2009: write 2–3 bullets max, focusing only on skills/tech that match this job.
+   - Roles ending before 2005: keep company/title/dates but write AT MOST 2 bullets — or skip bullets
+     entirely if nothing in that role matches the job's must_have_skills or extracted_skills.
+   Keep original company, title, and dates exactly — do not modify them.
+
+3. BULLET FORMAT (STAR-lite): Every bullet must follow: [Action verb] + [what was built/done] + [result or metric].
+   Example: "Architected ETL pipelines ingesting telemetry from 6,000+ endpoints, replacing manual processes
+   and cutting reporting lag by 40%."
+   If master data has a specific number or percentage, include it exactly. Never drop metrics.
+
+4. SUMMARY: 4–5 sentences. Open with the exact target job title level (e.g., "Staff Data Engineer" or "Lead
+   Engineer"). Weave in 6–8 keywords from must_have_skills and ats_keywords. Close with one sentence about
+   contributing to {company_name}.
+
+5. SKILLS: Group into exactly these categories on one line each, pipe-separated within each group:
+   "Languages: ..." | "Cloud & Data: ..." | "AI/ML: ..." | "Tools & Infra: ..." | "Legacy: ..."
+   Put must_have_skills and nice_to_have_skills from the job first within each group.
+   Include ALL skills from master skills — no omissions.
+
+6. PROJECTS: Keep ALL. Max 3 sentences per project description. Rewrite to emphasize technologies matching
+   this job's extracted_skills and ats_keywords.
+
+7. Output ONLY valid JSON — nothing before {{ or after }}. No markdown, no explanations, no fences.
+
+Master career data (use EXACTLY — do not alter facts):
 {career_json}
 
-Master skills (use all, sort by job relevance):
+Master skills (include all, prioritize job-relevant):
 {skills_json}
 
-This job (tailored data — source of keywords, responsibilities, must-haves):
+Job data (keywords, must-haves, ATS terms — source of tailoring):
 {job_yaml}
 
-Generate the tailored resume JSON now.
-Output ONLY the complete JSON object.
+Generate the tailored resume JSON now. Output ONLY the JSON object.
 """
 
 def resolve_job_folder(uuid_str: str) -> Path:
@@ -164,7 +183,7 @@ def call_llm(prompt: str, model: str = "grok-3") -> Dict:
 
     grok = GrokClient(model=model)
     print(f"Calling Grok ({model}) for resume tailoring...")
-    response = grok.chat([{"role": "user", "content": prompt}], max_tokens=8192, temperature=0.0)
+    response = grok.chat([{"role": "user", "content": prompt}], max_tokens=4096, temperature=0.0)
 
     return extract_json_from_response(response)
 
@@ -199,8 +218,8 @@ def main():
     company_name = job_data.get("company_name", "the company")
 
     prompt = RESUME_PROMPT_TEMPLATE.format(
-        career_json=json.dumps(master_career, indent=2),
-        skills_json=json.dumps(master_skills, indent=2),
+        career_json=json.dumps(master_career, separators=(',', ':')),
+        skills_json=json.dumps(master_skills, separators=(',', ':')),
         job_yaml=yaml.dump(job_data, sort_keys=False, allow_unicode=True),
         company_name=company_name
     )

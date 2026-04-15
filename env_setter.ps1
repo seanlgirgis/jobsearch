@@ -30,6 +30,13 @@ $env:STUDYBOOK_EMBEDDING_LOCAL_ONLY = "1"                                 # forc
 $env:HF_HUB_OFFLINE = "1"                                                 # prevent network fetches during model load
 $env:TRANSFORMERS_OFFLINE = "1"                                           # keep transformers fully offline
 
+# Force UTF-8 so Python scripts with emojis display correctly in the Windows console
+$env:PYTHONUTF8        = "1"
+$env:PYTHONIOENCODING  = "utf-8"
+chcp 65001 | Out-Null
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding            = [System.Text.Encoding]::UTF8
+
 Write-Host "JobSearch environment activated [OK]" -ForegroundColor Green
 python --version
 Write-Host "Use 'deactivate' to exit venv"

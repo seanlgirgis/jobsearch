@@ -1,0 +1,27 @@
+uuid: e6043c0f-d76a-4d5b-b1c8-4ff9b61b2f82
+job_id: 00073_e6043c0f
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: Unknown
+status: ACCEPTED
+score: 60
+recommendation: Hold
+score_date: '2026-04-14T21:38:05.287733'
+created_at: '2026-04-14T21:38:05.287733'
+notes: 'Plano, TX location match. Score: 60%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-14)'
+location_preference: Plano, TX
+last_decision_at: '2026-04-14T21:38:49.166708'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-14'
+  applied_method: LinkedIn
+  application_notes: Applied via pipeline
+  history:
+  - date: '2026-04-14'
+    status: Applied
+    notes: Applied via pipeline

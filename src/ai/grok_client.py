@@ -6,8 +6,17 @@ from dotenv import load_dotenv
 #python -m src.ai.grok_client  
 load_dotenv()
 
+# Model tiers — set GROK_HEAVY_MODEL / GROK_LIGHT_MODEL in .env to override
+# Heavy (complex generation): grok-3
+# Light (classification, scoring, parsing): grok-3-mini
+DEFAULT_HEAVY_MODEL = os.getenv("GROK_HEAVY_MODEL", "grok-3")
+DEFAULT_LIGHT_MODEL = os.getenv("GROK_LIGHT_MODEL", "grok-3-mini")
+
+
 class GrokClient:
-    def __init__(self, model: str = "grok-3"):
+    def __init__(self, model: str = None):
+        if model is None:
+            model = DEFAULT_HEAVY_MODEL
         api_key = os.getenv("XAI_API_KEY")
         if not api_key:
             raise ValueError("XAI_API_KEY not found in .env")

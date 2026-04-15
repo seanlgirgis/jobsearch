@@ -116,9 +116,11 @@ def build_scoring_prompt(
         {
             "role": "system",
             "content": (
-                "You are an expert career coach. Compare job to candidate profile. "
-                "Give realistic 0-100 score, recommendation, strengths, gaps, advice. "
-                "Be concise, quantitative, honest."
+                "You are a strict career coach scoring candidate-job fit. "
+                "Score calibration: 50=weak match, 65=average, 75=solid, 85+=exceptional. "
+                "Each missing must-have skill costs 8–12 pts. "
+                "Each strong match adds 5–8 pts. "
+                "Never inflate — a score of 85+ means the candidate could interview today with confidence."
             ),
         },
         {
@@ -133,18 +135,24 @@ Top skills:
 Recent experience:
 {recent_experience_str}
 
-Job:
+Job posting:
 {job_text}
 
-Output EXACTLY this markdown:
+Score this candidate against the job. Be strict and realistic.
+
+Output EXACTLY this markdown (no extra text):
 ## Match Score: X%
 ## Recommendation: Strong Proceed / Proceed / Hold / Skip
 ## Strongest Matches
-- ...
+- bullet per concrete match (skill, experience, or credential present in both)
 ## Gaps & Risks
-- ... *Mitigation*: ...
+- bullet per missing must-have or risk. *Mitigation*: one sentence fix.
+## ATS Keywords Present
+- list keywords from the job that are already in the candidate profile
+## ATS Keywords Missing
+- list important job keywords NOT in the candidate profile
 ## Advice
-...
+2–4 concrete sentences on how to position the application.
 """,
         },
     ]

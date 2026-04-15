@@ -94,7 +94,7 @@ def classify_company(company: str, website: str, model: str) -> str:
     grok = GrokClient(model=model)
     query = CLASSIFY_PROMPT.format(company=company, website=website or "N/A")
     try:
-        resp = grok.chat([{"role": "user", "content": query}], temperature=0.0, max_tokens=20).strip().lower()
+        resp = grok.chat([{"role": "user", "content": query}], temperature=0.0, max_tokens=10).strip().lower()
         # Robust parsing: take last word or exact match
         words = resp.split()
         last_word = words[-1] if words else ""
@@ -116,7 +116,7 @@ def research_company(company: str, model: str) -> str:
     grok = GrokClient(model=model)
     query = RESEARCH_PROMPT.format(company=company)
     try:
-        return grok.chat([{"role": "user", "content": query}], temperature=0.3, max_tokens=500).strip()
+        return grok.chat([{"role": "user", "content": query}], temperature=0.3, max_tokens=350).strip()
     except Exception as e:
         print(f"Research failed: {e}")
         return ""

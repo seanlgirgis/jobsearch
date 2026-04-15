@@ -1,12 +1,15 @@
 # Job Application Pipeline — Runbook
 # Last updated: 2026-04-14
 
+Your project root: D:\StudyBook\temp\jobsearch
+Run all scripts from that folder.
+
 ===================================================================
   THE NORMAL FLOW — 5 commands, no UUIDs, no arguments to remember
 ===================================================================
 
 # STEP 1 — Check for duplicates (pass the job file once, never again)
-.\job-check.ps1 "D:\StudyBook\temp\jobsearch\intake\intake.md"
+.\job-check.ps1 "intake\intake.md"
 
 # STEP 2 — Score the job (picks up file from step 1 automatically)
 .\job-score.ps1
@@ -57,14 +60,13 @@ job-apply.ps1
   WHERE THE SCRIPTS LIVE
 ===================================================================
 
-    C:\jobsearch\job-check.ps1
-    C:\jobsearch\job-score.ps1
-    C:\jobsearch\job-accept.ps1
-    C:\jobsearch\job-run.ps1
-    C:\jobsearch\job-apply.ps1
+    .\job-check.ps1
+    .\job-score.ps1
+    .\job-accept.ps1
+    .\job-run.ps1
+    .\job-apply.ps1
 
-Run them FROM C:\jobsearch (the scripts set the directory automatically).
-You can run them from anywhere — they always cd to C:\jobsearch first.
+Run them from your project root (scripts resolve all paths automatically).
 
 ===================================================================
   WHERE YOUR OUTPUT FILES ARE
@@ -72,7 +74,7 @@ You can run them from anywhere — they always cd to C:\jobsearch first.
 
 After job-run.ps1 finishes, the folder opens automatically. Files are at:
 
-    C:\jobsearch\data\jobs\NNNNN_xxxxxxxx\generated\
+    data\jobs\NNNNN_xxxxxxxx\generated\
         resume_v1.docx       <- YOUR RESUME       submit this
         cover_letter.docx    <- YOUR COVER LETTER submit this
 
@@ -80,7 +82,7 @@ After job-run.ps1 finishes, the folder opens automatically. Files are at:
   HOW THE CACHE WORKS
 ===================================================================
 
-The scripts share state via:  C:\jobsearch\.job_cache.json
+The scripts share state via:  .job_cache.json  (in the project root)
 
     job-check.ps1  writes: intake_file path
     job-score.ps1  writes: uuid, uuid_short, job_folder
@@ -91,7 +93,7 @@ The scripts share state via:  C:\jobsearch\.job_cache.json
 You never see or touch the cache file. It's automatic.
 
 If something goes wrong and you want to reset:
-    Remove-Item C:\jobsearch\.job_cache.json
+    Remove-Item .job_cache.json
 
 ===================================================================
   GROK API CALLS PER JOB
@@ -114,7 +116,7 @@ If something goes wrong and you want to reset:
     Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 "XAI API key missing" / scoring fails
-→ Add your key to C:\jobsearch\.env file:
+→ Add your key to .env in the project root:
     XAI_API_KEY=your-key-here
 → The scripts load it automatically from that file.
 
@@ -128,8 +130,7 @@ If something goes wrong and you want to reset:
 → Run .\job-run.ps1 before .\job-apply.ps1
 
 "Duplicate detected"
-→ You already processed this job. Check C:\jobsearch\data\jobs\
-  for the existing folder with your resume.
+→ You already processed this job. Check data\jobs\ for the existing folder.
 
 ===================================================================
   ADVANCED — Re-run one specific step on an existing job
@@ -137,14 +138,16 @@ If something goes wrong and you want to reset:
 
 If you already ran the pipeline but want to regenerate something:
 
-    # Re-generate resume only
-    cd C:\jobsearch
-    $env:PYTHONPATH = "C:\jobsearch"
+    # Set environment first (run from project root)
+    $env:PYTHONPATH = $PWD
     $env:PYTHONIOENCODING = "utf-8"
-    C:\py_venv\JobSearch\Scripts\python.exe scripts\04_generate_resume_intermediate.py --uuid XXXXXXXX --model grok-3
-    C:\py_venv\JobSearch\Scripts\python.exe scripts\05_render_resume.py --uuid XXXXXXXX --version v1 --all
+    $Python = "C:\py_venv\JobSearch\Scripts\python.exe"
+
+    # Re-generate resume only
+    & $Python scripts\04_generate_resume_intermediate.py --uuid XXXXXXXX --model grok-3
+    & $Python scripts\05_render_resume.py --uuid XXXXXXXX --version v1 --all
 
     # Re-run everything from step 03 onward
-    C:\py_venv\JobSearch\Scripts\python.exe scripts\10_auto_pipeline.py --uuid XXXXXXXX --model grok-3 --method "LinkedIn"
+    & $Python scripts\10_auto_pipeline.py --uuid XXXXXXXX --model grok-3 --method "LinkedIn"
 
-Replace XXXXXXXX with the 8-char ID from the folder name in C:\jobsearch\data\jobs\
+Replace XXXXXXXX with the 8-char ID from the folder name in data\jobs\
