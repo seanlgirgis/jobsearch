@@ -74,11 +74,11 @@ You are a hands-on senior data engineer who builds production systems at enterpr
 3. Stay flexible on total package (bonus/equity), but precise on base expectation.
 
 ## Questions You Should Ask Recruiters
-1. Is this backfill or new headcount?
-2. How is the team structured?
-3. What is the top engineering challenge this role will own?
-4. What are the next interview stages and timeline?
-5. What are location/hybrid expectations?
+1. What does the team structure look like for the Lead Data Engineer role in Plano, and where would this position plug in day to day?
+2. Is this a backfill or a new headcount?
+3. What is the biggest data engineering challenge the team is working through right now?
+4. What does the interview process look like after this call?
+5. Is the Plano role hybrid or on-site?
 
 ## Reusable 30-Minute Pre-Interview Refresh
 1. Review your intro and 3-4 stories out loud.
