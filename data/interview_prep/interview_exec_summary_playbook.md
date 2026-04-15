@@ -156,6 +156,16 @@ When to use:
 Backup version (short):
 - I led a pre-Kafka telecom streaming platform in C/C++ on Linux, building a distributed queue-based system that processed massive call-record volume for downstream billing. It was low-level, high-scale engineering and ran reliably in production.
 
+### 7) How Do You Handle Ambiguity?
+I treat ambiguity as a signal that alignment is incomplete, not as a blocker. First, I step back and clarify the problem inputs, constraints, and desired outcomes. Then I identify the key stakeholders and ask targeted questions to close the most important gaps quickly. I document assumptions and decisions in writing so everyone has a shared reference point. Once that is done, I restate the problem as a clear objective with an execution plan, confirm alignment with stakeholders, and move the team into implementation with confidence.
+
+When to use:
+- Use for ambiguity, ownership, or cross-team collaboration questions.
+- Keep to 45-60 seconds.
+
+Backup version (short):
+- I handle ambiguity by turning it into alignment: clarify inputs, ask targeted stakeholder questions, document assumptions, and reframe the work into a clear plan the team can execute.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
