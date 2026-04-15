@@ -176,6 +176,16 @@ When to use:
 Backup version (short):
 - Yes, I have a small number of active processes, including one where I completed a technical assessment. This role is one of my top priorities based on fit.
 
+### 9) When Can You Start?
+I am available to start immediately, and I can align with your preferred timeline to ensure a smooth onboarding process.
+
+When to use:
+- Use when asked about notice period or start date.
+- Keep to 10-20 seconds.
+
+Backup version (short):
+- I can start immediately.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
