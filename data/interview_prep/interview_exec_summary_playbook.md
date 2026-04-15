@@ -136,6 +136,16 @@ When to use:
 Backup version (if pressed for flexibility):
 - I am anchored around $185,000 base for this level, and I am open to discussing total package details based on role scope and leveling.
 
+### 5) What Is Your Experience With Kafka/Streaming?
+Kafka is a strong platform for event-driven architectures and real-time data movement, especially in high-volume environments like banking and transaction-heavy systems. My deepest experience has been in batch and warehouse-focused data engineering, where I have built reliable production pipelines at scale. In recent months, I have been actively studying and experimenting with Kafka concepts, including topics, partitions, consumer groups, and delivery semantics, so I can apply streaming patterns where they create clear business value. I am very comfortable ramping quickly and applying new platform patterns in production environments.
+
+When to use:
+- Use when asked directly about Kafka, streaming, or real-time systems.
+- Keep to 45-60 seconds.
+
+Backup version (short):
+- My strongest depth is batch and warehouse data engineering, and I am actively building deeper Kafka and streaming capability. I already understand the core architecture and can ramp quickly in production contexts.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
