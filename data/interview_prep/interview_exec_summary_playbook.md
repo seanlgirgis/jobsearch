@@ -93,6 +93,49 @@ You are a hands-on senior data engineer who builds production systems at enterpr
 3. Reuse the same frameworks, only swapping company/role details and stories.
 4. Track what worked after each call and refine your answer bank.
 
+## Answer Bank (Recruiter Round)
+Use these as default scripts. Keep delivery natural, not memorized.
+
+### 1) Tell Me About Yourself (Primary)
+I am Sean Girgis, a hands-on Senior Data Engineer with about 20 years across IT and data-focused roles. Most recently at Citi, I worked on time-series data engineering for capacity planning, building pipelines that generated operational insights and supported future hardware planning. I designed and delivered machine learning forecasting pipelines to help teams anticipate demand instead of reacting late. My core strengths are Python, SQL, and production data platforms, and I have always preferred hands-on ownership from design through delivery. I am based in Plano, and this Lead Data Engineer role at Capital One is a strong fit for how I work and where I can add value quickly.
+
+When to use:
+- Default first answer in any recruiter call.
+- Keep to 75-90 seconds.
+
+Backup version (short):
+- I am a Senior Data Engineer with 20+ years, including 8 years at Citi building Python and SQL data pipelines at enterprise scale. I have led end-to-end work from ETL automation to AWS data platform delivery, with measurable impact on forecasting and operational decision-making. I am looking for a hands-on Lead Data Engineer role in Plano where I can contribute immediately.
+
+### 2) Why This Role? (Lead Data Engineer)
+This role is a strong fit because it matches where I deliver best: hands-on data engineering at scale. My background is in Python, SQL, cloud data platforms, and turning ambiguous business needs into reliable production pipelines. I enjoy owning systems end-to-end, from architecture decisions to implementation and operational reliability. The Lead Data Engineer scope aligns with both my technical depth and how I work best as a senior individual contributor.
+
+When to use:
+- After intro when asked about role motivation.
+- Keep to 45-60 seconds.
+
+Backup version (short):
+- Lead Data Engineer is the sweet spot for me: hands-on architecture and delivery, strong technical ownership, and direct business impact through production data systems.
+
+### 3) Why Capital One?
+Capital One is attractive to me because of the combination of scale, cloud-first engineering culture, and high-impact data problems. The environment rewards engineers who stay hands-on at senior levels, and that matches how I work. I am especially interested in contributing to teams solving reliability, performance, and decision-support problems with modern data platforms. The role, team context, and Plano alignment make this a strong fit for where I want to make my next long-term impact.
+
+When to use:
+- Company-motivation prompt.
+- Keep to 45-60 seconds.
+
+Backup version (short):
+- I am interested in Capital One because it combines real scale, strong engineering standards, and meaningful data problems where a hands-on Lead Data Engineer can create immediate value.
+
+### 4) Salary Expectations
+Based on the role scope and my experience, I am targeting around $185,000 base. I am flexible depending on the full compensation package, including bonus and equity.
+
+When to use:
+- Only when asked directly.
+- Say once, then pause.
+
+Backup version (if pressed for flexibility):
+- I am anchored around $185,000 base for this level, and I am open to discussing total package details based on role scope and leveling.
+
 ## Related Files
 - `data/interview_prep/capitalone_lead_de_2026-04-16.md`
 - `data/interview_prep/capitalone_skills_focus.md`
