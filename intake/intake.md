@@ -1,117 +1,60 @@
-Scotiabank
-Scotiabank
+Cloud Engineer - AI Trainer- job post
+DataAnnotation
+4.1
+4.1 out of 5 stars
+Sacramento, CA 95831•Remote
+$40 - $60 an hour - Contract
+DataAnnotation
+Sacramento, CA 95831•Remote
+$40 - $60 an hour
 
+Job details
+Here’s how the job details align with your profile.
+Pay
 
-Apply
-Data Engineer
-• Posted 3 days ago • Updated 3 days ago
-Full Time
-On-site
+$40 - $60 an hour
+Job type
 
+Contract
+&nbsp;
+Benefits
+Pulled from the full job description
+Flexible schedule
+&nbsp;
+Full job description
+Join the DataAnnotation team and contribute to developing cutting-edge AI systems, while enjoying the flexibility of remote work and setting your own schedule.
 
+We are looking for a proficient Cloud Engineer - AI Trainer to help advance AI development. As a member of DataAnnotation’s coding team, you’ll be part of a growing community of over 100,000 professionals — including front-end, back-end, full-stack, machine learning, and other engineers — who are driving real-world impact in AI development.
 
-Job Details
-Skills
-Reporting
-Writing
-Streaming
-Scalability
-Caching
-Computerized System Validation
-JSON
-Collaboration
-Analytics
-Data Science
-Use Cases
-Debugging
-Testing
-Documentation
-Computer Science
-Python
-Scala
-Java
-Data Processing
-SQL
-Apache Parquet
-Git
-Software Engineering
-Problem Solving
-Conflict Resolution
-Attention To Detail
-Databricks
-Migration
-Apache Spark
-Apache Hadoop
-Cloudera
-Cloud Computing
-Orchestration
-Microsoft Azure
-Cloud Storage
-Cloud Security
-FOCUS
-Finance
-Wealth Management
-Banking
-Investment Banking
-Capital Market
-Assistive Technology
-Recruiting
-Summary
-{"description": "Requisition ID: 257501
+Our platform offers an engaging blend of flexibility and challenge: you’ll work closely with state-of the art AI models to take on programming tasks that include creating and solving challenging coding problems, building beautiful apps with rich functionality, and synthesizing insights through data analysis and visualization. Your work directly contributes to refining intelligent systems that learn, adapt, and evolve. Some team members fit this work alongside a full-time role, while others treat it as their primary focus, choosing projects and schedules that align with their availability and goals.
 
-Join a purpose driven winning team, committed to results, in an inclusive and high-performing culture.
+To get started, once you sign up for an account, you'll take a short assessment (this serves as our version of an interview). If you pass that assessment, you’ll receive an email confirmation, and paid work will become available to you through our platform.
 
-We are committed to investing in our employees and helping you continue your career at Scotiabank.
+Benefits:
 
-We are looking for a hands on Data Engineer with deep expertise in Apache Spark and strong programming skills in Python, Scala, and Java. This role is centered on building high performance, scalable data pipelines and processing large datasets in a distributed environment.
+Fully remote: work from anywhere in the US, Canada, UK, Ireland, Australia, and New Zealand.
+Flexible schedule: choose which projects you take on and when you work.
+Competitive pay: projects are paid hourly, starting at $40+ USD per hour. Opportunities for higher-paying projects are available with strong performance.
+Impact: help shape the future of AI technologies.
+Responsibilities:
 
-You will work primarily on Spark based data processing running on Azure Databricks, developing production grade code that supports enterprise analytics, reporting, and data products. This is an engineering heavy role for someone who enjoys writing clean, efficient code and optimizing distributed workloads.
+Design and solve diverse coding problems used to train AI systems.
+Write clear, high-quality code snippets and detailed explanations.
+Evaluate AI-generated code for accuracy, performance, and clarity.
+Provide feedback that directly shapes the next generation of AI models.
+Qualifications:
 
-Purpose
-Design, develop, and maintain large scale Spark applications using Python, Scala, and/or Java
-Build and optimize batch and streaming data pipelines in distributed environments
-Write production quality Spark code with strong focus on performance, scalability, and reliability
-Optimize Spark jobs (partitioning, caching, shuffles, memory tuning, execution plans)
-Develop reusable Spark frameworks, libraries, and utilities
-Work with structured and semi structured data (Parquet, Delta, CSV, JSON)
-Collaborate with platform, analytics, and data science teams to support downstream use cases
-Debug and troubleshoot Spark job failures and performance issues in production
-Follow best practices for code quality, testing, logging, and documentation
+Fluency in English (native or bilingual level).
+Proficiency in at least one of the following programming languages or frameworks: JavaScript, TypeScript, Python, C, C#, C++, React, Go, Java, Kotlin, or Swift.
+Excellent writing and grammar skills.
+A bachelor’s degree (completed or in progress).
+Previous experience as a Software Developer, Coder, Software Engineer, or Programmer is preferred.
+Note: Payment is made via PayPal. We will never ask for any money from you. PayPal will handle any currency conversions from USD. This job is only available to those in the US, Canada, UK, Ireland, Australia, and New Zealand. Those located outside of these countries will not see work or assessments available on our site at this time.
 
-What You'll Bring
-Bachelor's degree in Computer Science, Engineering, or a related field (or equivalent experience)
-3+ years of experience as a Data Engineer or in a similar role
-Strong hands on experience with Apache Spark
-Proficiency in one or more of the following languages: (Python, Scala or Java)
-Strong understanding of distributed systems and data processing concepts
-Solid experience with SQL for data transformation and analysis
-Experience working with data lakes and columnar formats (e.g., Parquet, Delta Lake)
-Familiarity with Git and standard software engineering practices
-Strong problem solving skills and attention to detail
-Experience running Spark on Azure Databricks an asset.
-Experience migrating Spark jobs from on prem Hadoop/Cloudera to cloud platforms an asset.
-Familiarity with orchestration tools (e.g., Airflow, Azure Data Factory) an asset.
-Exposure to cloud storage (ADLS Gen2) and cloud security concepts an asset.
+#INDCODPRE
 
-Interested?
+Job Type: Contract
 
-If your experience is closely related but doesn't align perfectly with every qualification, we do encourage you to apply - you might be the right candidate for this or other roles at Scotiabank!
-At Scotiabank, every employee is empowered to reach their fullest potential, respected for who they are and, embraced for their differences. That's why we work to grow and diversify talent and engage employees in a performance-oriented culture.
+Pay: $40.00 - $60.00 per hour
 
-What's in it for you?
-
-Scotiabank wants you to be able to bring your best self to work - and life, every day. With a focus on holistic well-being, our many flexible benefit programs are designed to help support your unique family, financial, physical, mental, and social health needs.
-
-#Dallas
-
-Location(s): United States : Texas : Dallas
-
-Scotiabank is a leading bank in the Americas. Guided by our purpose: \"for every future\", we help our customers, their families and their communities achieve success through a broad range of advice, products and services, including personal and commercial banking, wealth management and private banking, corporate and investment banking, and capital markets.
-
-At Scotiabank, we value the unique skills and experiences each individual brings to the Bank, and are committed to creating and maintaining an inclusive and accessible environment for everyone. If you require accommodation (including, but not limited to, an accessible interview site, alternate format documents, ASL Interpreter, or Assistive Technology) during the recruitment and selection process, please let our Recruitment team know. If you require technical assistance, please click here. Candidates must apply directly online to be considered for this role. We thank all applicants for their interest in a career at Scotiabank; however, only those candidates who are selected for an interview will be contacted.", "salary_raw": "Row(double=None, string=None)"}
-Employers have access to artificial intelligence language tools (“AI”) that help generate and enhance job descriptions and AI may have been used to create this description. The position description has been reviewed for accuracy and Dice believes it to correctly reflect the job opportunity.
-Dice Id: 90922487
-Position Id: 24109058
-Posted 3 days ago
-
-
+Work Location: Remote
