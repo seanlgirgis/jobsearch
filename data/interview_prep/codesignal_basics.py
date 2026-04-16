@@ -6,6 +6,42 @@ Every section = one concept. Concept first. Example second. Contest hook last.
 """
 
 # ============================================================
+# SECTION 0 — MASTERY PLAN (CodeSignal GCA Focus)
+# ============================================================
+print("=" * 60)
+print("SECTION 0 — MASTERY PLAN (What to Master First)")
+print("=" * 60)
+
+MUST_MASTER = [
+    "1) Hash maps + sets: counting, membership, first-seen index",
+    "2) 2D arrays: row/col traversal, boundary checks, direction vectors",
+    "3) String transforms: split/join, frequency, two-pointer scans",
+    "4) Sorting with key: tuples, multi-key ordering",
+    "5) Prefix sums: range totals, running balance",
+    "6) Sliding window/deque basics: fixed and variable windows",
+    "7) Stack/queue patterns: monotonic stack, BFS queue",
+    "8) Binary search/bisect on sorted arrays",
+    "9) Heap basics: top-k, min/max heap tricks",
+    "10) Edge-case discipline: empty, single, duplicates, bounds",
+]
+
+for item in MUST_MASTER:
+    print(f"[ ] {item}")
+
+print("\nTIMED DRILL ROUTINE (repeat daily until test day):")
+print("  10 min: warm-up (Q1-style strings/arrays)")
+print("  15 min: hash map + set problems")
+print("  15 min: 2D grid + boundary problems")
+print("  15 min: medium pattern (prefix/sliding/sort+map)")
+print("  10 min: post-mortem (write 3 mistakes + fixes)")
+
+print("\nLIVE TEST RULES (70 min):")
+print("  - Q1/Q2 done in <= 15 min total")
+print("  - If stuck > 10 min on Q3, switch to Q4")
+print("  - Submit early/often; optimize for passed tests")
+print("  - Attempt all 4 questions")
+
+# ============================================================
 # SECTION 1 — BUILT-IN FUNCTIONS (The Workhorses)
 # ============================================================
 print("=" * 60)

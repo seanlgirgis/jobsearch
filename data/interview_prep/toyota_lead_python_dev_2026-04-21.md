@@ -154,7 +154,7 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > I'm flexible depending on the full comp package."
 
 ### "When can you start?"
-> "I can be flexible — ideally 2–3 weeks to wrap up properly."
+> "I am available to start immediately, and I can align with your preferred timeline for onboarding."
 
 ### "Airflow experience?"
 > "Yes — Airflow for orchestrating ETL pipelines. DAG design, task dependencies,
