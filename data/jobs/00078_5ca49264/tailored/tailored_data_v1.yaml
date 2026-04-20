@@ -1,0 +1,114 @@
+company_name: Capital One
+company_website: https://www.capitalone.com
+job_title: Senior Lead Data Engineer
+location: McLean, VA / Richmond, VA / Chicago, IL / Plano, TX
+extracted_skills:
+- Python
+- Java
+- Scala
+- SQL
+- AWS
+- Microsoft Azure
+- Google Cloud
+- Redshift
+- Snowflake
+- MapReduce
+- Hadoop
+- Hive
+- EMR
+- Kafka
+- Spark
+- Gurobi
+- MySQL
+- Mongo
+- Cassandra
+- UNIX/Linux
+- Agile
+job_summary: 'Capital One is seeking a Senior Lead Data Engineer to join their innovative
+  team in a fast-paced, collaborative environment. This role involves designing, developing,
+  and implementing technical solutions using full-stack development tools and technologies.
+  The ideal candidate will lead a team of developers, utilize programming languages
+  like Java, Scala, and Python, and work with cloud-based data warehousing services.
+  Responsibilities include collaborating with Agile teams and digital product managers
+  to deliver robust cloud-based solutions that empower millions of Americans financially.
+  Candidates should have a Bachelor’s degree and at least 6 years of application development
+  experience.
+
+  '
+responsibilities:
+- Collaborate with Agile teams to design, develop, test, implement, and support technical
+  solutions using full-stack tools and technologies.
+- Lead a team of developers experienced in machine learning, distributed microservices,
+  and full-stack systems.
+- Utilize programming languages such as Java, Scala, and Python, along with Open Source
+  RDBMS, NoSQL databases, and cloud-based data warehousing services like Redshift
+  and Snowflake.
+- Stay updated on tech trends, experiment with new technologies, participate in technology
+  communities, and mentor other engineering team members.
+- Work with digital product managers to deliver cloud-based solutions that enhance
+  customer financial experiences.
+- Conduct unit tests and code reviews to ensure high-quality, performance-tuned, and
+  elegantly coded solutions.
+requirements:
+- Bachelor’s Degree.
+- At least 6 years of experience in application development (internship experience
+  excluded).
+- At least 2 years of experience with big data technologies.
+- At least 1 year of experience with cloud computing platforms (AWS, Microsoft Azure,
+  or Google Cloud).
+preferred:
+- Master’s Degree.
+- 9+ years of experience in application development, including Python, SQL, Scala,
+  or Java.
+- 4+ years of experience with a public cloud (AWS, Microsoft Azure, or Google Cloud).
+- 5+ years of experience with distributed data/computing tools (MapReduce, Hadoop,
+  Hive, EMR, Kafka, Spark, Gurobi, or MySQL).
+- 4+ years of experience with real-time data and streaming applications.
+- 4+ years of experience with NoSQL databases (Mongo, Cassandra).
+- 4+ years of data warehousing experience (Redshift or Snowflake).
+- 4+ years of experience with UNIX/Linux, including basic commands and shell scripting.
+- 2+ years of experience with Agile engineering practices.
+benefits:
+- Comprehensive, competitive, and inclusive health, financial, and other benefits.
+- Eligibility for performance-based incentive compensation, including cash bonuses
+  and long-term incentives (LTI).
+- Support for total well-being through various programs (details on Capital One Careers
+  website).
+must_have_skills:
+- Application development
+- Big data technologies
+- Cloud computing (AWS, Azure, or Google Cloud)
+- Programming languages (Java, Scala, or Python)
+nice_to_have_skills:
+- Advanced experience with distributed data tools (Hadoop, Spark, Kafka)
+- Real-time data and streaming application experience
+- NoSQL database implementation
+- Data warehousing with Redshift or Snowflake
+- UNIX/Linux proficiency
+- Agile engineering practices
+ats_keywords:
+- Senior Lead Data Engineer
+- Capital One
+- Data Engineering
+- Big Data Technologies
+- Cloud Computing
+- AWS
+- Azure
+- Google Cloud
+- Python
+- Java
+- Scala
+- SQL
+- Redshift
+- Snowflake
+- Hadoop
+- Spark
+- Kafka
+- NoSQL
+- Agile
+- Machine Learning
+- Distributed Microservices
+- Full Stack Development
+tailoring_method: llm
+llm_model: grok-3
+llm_version: v1
