@@ -7,6 +7,71 @@
 
 ---
 
+## The Pivot: IT Capacity Planning → Manufacturing Capacity Planning
+
+The pivot has three moves. Use all three consistently throughout the interview.
+
+### Move 1 — Reframe Before They Do
+
+Don't wait for them to notice the gap. Address it in your **opening 2 minutes**:
+
+> "My background is IT infrastructure capacity planning — not fab — but the
+> methodology is the same discipline. Bottleneck identification, utilization
+> analysis, Little's Law, forecasting demand against constrained resources —
+> I've been doing that for 8 years at enterprise scale. The domain changes.
+> The analytical framework doesn't."
+
+You own the gap before they raise it. That reads as confidence, not defensiveness.
+
+---
+
+### Move 2 — Speak Fab Language From Word One
+
+Every time you describe your Citi work, use **fab vocabulary** — not IT vocabulary.
+
+| Don't say | Say instead |
+|-----------|------------|
+| "servers hitting CPU limits" | "endpoints hitting capacity thresholds — same as tools approaching utilization ceiling" |
+| "6,000 endpoints" | "6,000 assets across the estate — comparable scale to a large tool set" |
+| "pipeline queue depth" | "WIP buildup upstream of the constraint" |
+| "P95 utilization" | "peak utilization — equivalent to tool utilization rate in a fab" |
+| "procurement lead time" | "capacity acquisition lead time — same 6–12 month horizon problem" |
+
+If you translate your own work into their language, they do the mapping for you.
+
+---
+
+### Move 3 — The Direct Challenge Answer
+
+At some point someone will ask: **"Do you have manufacturing experience?"** or **"Why would we pick you over someone who's worked in a fab?"**
+
+Have this ready cold:
+
+> "I don't have direct fab experience — I'll be straight about that.
+> What I have is deep mastery of the analytical methodology that sits under
+> all capacity planning regardless of domain: utilization modeling, bottleneck
+> forecasting, Factory Physics, supply chain lead time analysis.
+>
+> Those skills take years to build. Semiconductor domain knowledge — process
+> steps, MES systems, fab-specific terminology — I can learn in months.
+> I've done exactly that before: I entered financial services IT with no
+> banking background and was running the capacity planning system for Citi
+> within my first year.
+>
+> The question isn't whether I know wafer fabs today. It's whether I can
+> apply rigorous capacity planning methodology in a new domain — and I have
+> a strong track record of doing exactly that."
+
+---
+
+### The Underlying Logic To Internalize
+
+Manufacturing capacity planning is the **origin** of the discipline. Factory Physics, Little's Law, takt time, OEE — all invented for factories. IT capacity planning borrowed them. You're going from the application back to the source. That's not a stretch — it's the natural direction.
+
+If you believe that framing, it comes through in the interview. If you're apologizing for it, it doesn't.
+
+---
+
 ## The Key Reframe: IT Capacity → FAB Capacity
 
 Samsung does **semiconductor factory capacity planning**. You did **IT infrastructure capacity planning**. The domain differs. The analytical DNA is identical.
@@ -252,6 +317,252 @@ Austin/Taylor market for senior capacity planning with ML depth: **$145K–$160K
 > meant monitoring container task utilization, setting appropriate Fargate CPU/memory
 > specs, and configuring ECS service auto-scaling policies based on queue depth
 > and task throughput metrics."
+
+---
+
+## Manufacturing Engineering — Core Concepts Q&A
+
+### "What is OEE and how do you use it for capacity planning?"
+> "OEE — Overall Equipment Effectiveness — is the standard manufacturing KPI for
+> measuring how well a piece of equipment is actually performing versus its theoretical
+> maximum. It's the product of three factors:
+>
+> **Availability × Performance × Quality = OEE**
+>
+> - **Availability:** Actual uptime ÷ planned production time. Captures scheduled
+>   and unscheduled downtime. If a tool is planned to run 20 hours but was down
+>   2 hours, availability is 90%.
+> - **Performance:** Actual throughput rate ÷ ideal throughput rate. Captures slow
+>   cycles and minor stoppages. If a tool runs at 80% of rated speed, performance is 80%.
+> - **Quality:** Good units ÷ total units started. Captures yield loss and rework.
+>   If 95% of wafer lots pass the process step, quality is 95%.
+>
+> OEE = 0.90 × 0.80 × 0.95 = **68.4%**. World-class manufacturing targets 85%+.
+>
+> For capacity planning, OEE is the bridge between theoretical capacity and
+> real capacity. A tool rated at 100 lots/week at 68% OEE delivers 68 lots/week
+> effective. If you plan against theoretical capacity, you'll consistently miss output.
+>
+> I used the same logic in IT capacity — raw CPU capacity isn't real capacity.
+> Effective capacity = theoretical × availability × performance efficiency.
+> The math is identical, the terminology shifts."
+
+---
+
+### "What are the SEMI E10 equipment states and why do they matter?"
+> "SEMI E10 is the industry standard for classifying semiconductor equipment time
+> into defined states. Every minute of equipment time falls into one bucket:
+>
+> - **Productive:** Equipment is running product — processing wafer lots
+> - **Standby:** Equipment is ready and available but no product to process (queue empty)
+> - **Engineering:** Running experiments, qualifications, or process development — not production
+> - **Scheduled Downtime:** Planned maintenance, PMs, calibrations
+> - **Unscheduled Downtime:** Unexpected failures, process excursions, waiting for parts
+> - **Off:** Not available for any use
+>
+> These states matter for capacity planning because they define what actually happened
+> to your capacity budget. If a tool has 15% engineering time and 12% unscheduled
+> downtime, your real productive window is much narrower than the calendar says.
+>
+> For long-range planning, trends in these state breakdowns are early warning signals:
+> rising unscheduled downtime often precedes a larger equipment reliability problem.
+> Rising engineering time can indicate a process that isn't stable — and that eats
+> into production capacity before you see the output miss."
+
+---
+
+### "How do you perform line analysis and identify line movement constraints?"
+> "Line analysis is about understanding how product flows through the entire process
+> sequence — not just at one tool, but across all steps — and finding where it
+> accumulates, slows, or starves.
+>
+> I'd start by mapping the process flow: what are all the steps, what tools run each
+> step, what's the throughput rate at each tool? Then I'd overlay WIP data — where
+> are queues building up? WIP accumulates upstream of a bottleneck.
+>
+> Key metrics I'd track per step:
+> - Queue depth (WIP waiting at the tool)
+> - Move rate (lots completing the step per day/week)
+> - Cycle time per step vs. standard cycle time
+> - Tool utilization at each step
+>
+> A healthy line has WIP distributed evenly with minimal queue buildup. An
+> unhealthy line has WIP piling up at one or two steps — those are your constraints.
+>
+> Line balance is the goal: matching the throughput rate at every step to the
+> pace set by the bottleneck so WIP flows smoothly rather than accumulating.
+> Imbalance wastes capacity on fast tools while the bottleneck starves or overloads."
+
+---
+
+### "What is takt time and how does it connect to capacity planning?"
+> "Takt time is the pace at which you must produce to meet customer demand.
+> It's calculated as: **available production time ÷ customer demand rate.**
+>
+> Example: If a fab has 168 hours/week available and customers need 200 wafer
+> lots/week, takt time is 168 ÷ 200 = 0.84 hours per lot. The factory must
+> complete one lot every 50 minutes to meet demand.
+>
+> For capacity planning, takt time sets the floor for required throughput. If the
+> bottleneck tool can only complete one lot every 70 minutes, you have a gap —
+> either add tool capacity, reduce demand, or accept a miss.
+>
+> Takt time also drives lot start planning: to hit the output target accounting
+> for cycle time, you have to release lots into the line well ahead of the
+> delivery date. If cycle time is 45 days and you need 200 lots out in week 10,
+> lot starts need to begin in week 3."
+
+---
+
+### "How do lot starts connect to output planning?"
+> "Lot starts are the input lever for controlling output. The relationship is:
+>
+> **Output = Lot Starts × Yield × (adjusted for cycle time and WIP)**
+>
+> In a fab, you can't pull product off the line on demand — everything has a
+> multi-week cycle time. So the planning question is: given what we need to ship
+> 6-8 weeks from now, what do we need to start today?
+>
+> Lot start planning requires:
+> 1. Demand signal: what product mix and volume does the customer need?
+> 2. Yield estimates per product: not all lots that go in come out as good die
+> 3. Cycle time by product: different products take different paths and durations
+> 4. Current WIP: what's already in the line and when will it complete?
+> 5. Tool capacity at the bottleneck: can the planned lot starts actually be processed?
+>
+> I built the same logic in IT capacity — to hit a future capacity target you
+> have to start procurement now, because hardware lead times are 3-6 months.
+> The forward-planning horizon and the need to account for yield/attrition are
+> identical concepts."
+
+---
+
+### "How does yield impact capacity planning?"
+> "Yield is critical and often underweighted in naive capacity models.
+>
+> If a process step has 95% yield — meaning 5% of lots fail or require rework —
+> then to produce 100 good lots you need to start 105. That 5% overhead has to
+> be built into the lot start plan and the tool capacity model.
+>
+> More importantly, yield loss at the bottleneck tool is doubly expensive: you
+> consumed bottleneck capacity to process a lot that didn't contribute to output.
+> A 5% yield loss at the bottleneck is effectively a 5% capacity loss.
+>
+> For long-range capacity modeling, I'd build yield assumptions per product and
+> process step into the capacity model, with sensitivity analysis: what does the
+> capacity picture look like if yield drops from 95% to 90%? That drives both
+> the lot start buffer and the equipment investment decision."
+
+---
+
+### "How do you quantify the impact of a throughput improvement?"
+> "I quantify impact in three dimensions: output, revenue, and cost avoidance.
+>
+> **Output impact:** If a bottleneck tool's throughput increases by 5%, and it's
+> the line constraint, total fab output increases by 5%. Convert that to wafer
+> starts or die quantity.
+>
+> **Revenue impact:** Incremental output × average selling price. If the fab
+> produces 1,000 more wafers/month at $5,000/wafer revenue, that's $5M/month.
+>
+> **Cost avoidance:** If the improvement delays a $20M tool procurement by
+> 18 months, that's a quantifiable capital deferral. NPV of deferred spend.
+>
+> At Citi, I used the same framework: a throughput improvement that reduced
+> forecasted server procurement was quantified as $ of CapEx avoided over the
+> planning horizon. That's how you get engineering work approved by leadership —
+> you translate utilization percentages into dollar impact."
+
+---
+
+### "What is supply chain management in a fab context?"
+> "In semiconductor manufacturing, supply chain has two main dimensions:
+>
+> **Equipment supply chain:** Fab tools — especially leading-edge lithography —
+> have 18–24 month lead times. A capacity gap identified today can't be filled
+> with new equipment for 2 years. This means capacity planning must look out
+> 24+ months and signal equipment needs well ahead of demand.
+>
+> Spare parts planning is also critical: a tool that's down waiting for a
+> $50,000 part for 3 weeks is a massive capacity loss. Stocking decisions
+> for critical spares are a supply chain optimization problem.
+>
+> **Materials and consumables supply chain:** Wafers, gases, chemicals, photomasks.
+> Demand forecasting for these feeds procurement cycles. A sudden ramp in
+> lot starts requires more raw wafers — if procurement didn't anticipate it,
+> you can have a capacity plan that's impossible to execute because raw
+> material isn't there.
+>
+> The planning role sits at the intersection of both: forecast demand accurately,
+> communicate capacity constraints to production, and give procurement enough
+> lead time to support the plan."
+
+---
+
+### "How do you present capacity risk to leadership?"
+> "I use a risk-tiered format with clear action items — leadership doesn't
+> need to understand queuing theory, they need to know: what's at risk, by when,
+> what does it cost, and what's the recommended action.
+>
+> My standard structure:
+> 1. **Current state:** Key metrics — OEE by tool class, utilization vs. threshold,
+>    WIP levels. One slide, traffic-light format.
+> 2. **Risk horizon:** Which tools/resources breach capacity within 3, 6, 12 months.
+>    Ranked by severity (impact × probability).
+> 3. **Options and cost:** For each at-risk item — do nothing (cost of miss),
+>    efficiency improvement (investment + lead time), or procurement (cost + lead time).
+> 4. **Recommended action with decision deadline:** By when does leadership need
+>    to decide to stay on track? That's the forcing function.
+>
+> At Citi, I built automated capacity risk decks from the HorizonScale pipeline —
+> leadership saw the same format every month, which built trust in the numbers.
+> Consistency in reporting is as important as accuracy."
+
+---
+
+### "How do you coordinate between Production and Fab Engineering teams?"
+> "These two teams have different incentives that create natural tension:
+>
+> - **Production** wants to maximize output now — push lots through the line,
+>   minimize equipment downtime for engineering use.
+> - **Fab Engineering** wants stability and optimization — process experiments,
+>   PM schedules, qualifications that take tools offline.
+>
+> The capacity planner's job is to quantify and mediate that tension with data.
+>
+> I'd build a shared capacity model that shows: if engineering takes Tool X
+> offline for 8 hours this week, it costs Y lots of output. That forces an
+> explicit decision — is the engineering run worth Y lots?
+>
+> I did the same at Citi between infrastructure engineering (who wanted maintenance
+> windows) and application teams (who wanted 100% availability). A shared data
+> model that quantified the tradeoff — maintenance window now vs. risk of
+> unplanned outage later — turned arguments into decisions.
+>
+> The key is making the model trusted by both sides. Once both teams use the
+> same numbers, the conversation shifts from 'my team's priority' to 'what's
+> the right tradeoff for the business.'"
+
+---
+
+### "What is MES and how does capacity planning interact with it?"
+> "MES — Manufacturing Execution System — is the software layer that runs a
+> fab floor in real time. It tracks every lot at every step: where it is,
+> what tool processed it, how long each step took, any holds or excursions.
+>
+> For capacity planning, MES is the primary data source:
+> - **Lot tracking data:** Actual cycle time per step, move rates, WIP by step
+> - **Equipment history:** Uptime/downtime logs, tool state transitions (SEMI E10)
+> - **Process data:** Which lots ran on which tool, recipe used, process time
+>
+> Capacity planning queries MES to calculate actual OEE, actual vs. standard
+> cycle time, and WIP movement rates — then feeds that into forecasting models.
+>
+> Common MES platforms in semiconductor: Applied Materials' Automation suite,
+> Camstar (now Siemens Opcenter), Synopsys WorkStream. I haven't worked directly
+> with fab MES, but the data extraction and pipeline architecture is the same
+> pattern I used pulling from BMC TrueSight — connect to the source, extract
+> time-series telemetry, enrich with reference data, build analytical models."
 
 ---
 
@@ -544,3 +855,46 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 ## After The Screen
 
 Update `data/applied_jobs/00060_7c453502/metadata.yaml` status to `PHONE_SCREEN` or `INTERVIEW`.
+
+---
+
+## Job Requirements Coverage Check
+
+Use this to self-audit before the hiring manager interview. Every bullet from the job description must have a ready answer.
+
+### Role Responsibilities — Coverage
+
+| Job Bullet | Your Answer |
+|-----------|-------------|
+| Capacity analysis on factory bottlenecks (long/short term) | Story 1 (TrueSight), Story 3 (Bottleneck Investigation), "Walk me through a capacity analysis" Q&A |
+| Identify actions to reduce capacity gaps, drive to completion | Story 3 (gap → rebalancing recommendation), "Throughput dropped 10%" Q&A |
+| Line analysis, supply chain forecasting, line movement/balance | "Line analysis" Q&A, "Supply chain management" Q&A, "Takt time" Q&A |
+| Bottleneck investigations using production plans + tool metrics | "Throughput dropped 10%" Q&A, "Estimate bottleneck tool capacity" Q&A, Little's Law |
+| Summarize risk to leadership | "How do you present capacity risk to leadership" Q&A |
+| Coordinate with manufacturing and engineering teams for throughput improvements, quantify impact | Story 4 (Cross-team coordination), "Coordinate between Production and Fab Engineering" Q&A, "Quantify throughput improvement" Q&A |
+| Equipment efficiency analysis and execute improvements | "OEE" Q&A, "SEMI E10 states" Q&A |
+
+**All 7 role bullets are covered. ✓**
+
+---
+
+### Qualifications — Coverage
+
+| Qualification | Your Match |
+|--------------|-----------|
+| BS in Engineering / applied math | Computer Engineering Technology (Humber) + Civil Engineering (Zagazig) — engineering background ✓ |
+| 5+ years Capacity Planning / Data Analytics / Production Strategy | 8 years at Citi as Senior Capacity & Data Engineer, 20+ total — far exceeds ✓ |
+| Factory Physics methodologies | "Factory Physics" Q&A, Little's Law Q&A, takt time, line balance ✓ |
+| Supply chain management | "Supply chain management" Q&A, lot starts + yield + procurement lead time ✓ |
+| Strong analytical / problem-solving / data modeling | HorizonScale (Story 2), all SQL/Python sections, forecasting methodology ✓ |
+| SQL, Python, or scripting for analytics/automation | Full SQL section, full Python section, 18 years Oracle/SQL, 15 years Python ✓ |
+
+**All 5 qualifications are covered. ✓**
+
+---
+
+### Gaps To Acknowledge Honestly (If Asked)
+
+- **Direct fab / semiconductor experience:** None. Own it confidently: "My capacity planning methodology is directly transferable — the fab domain specifics I will learn fast. I've done it before when I entered financial services capacity planning with no prior banking background."
+- **MES systems (Opcenter, WorkStream):** No direct experience. Frame as: "Haven't worked directly with fab MES, but the pattern — extract time-series telemetry, enrich with reference data, build forecasting models — is exactly what I built against BMC TrueSight."
+- **Physical manufacturing / shop floor:** Acknowledge and redirect to analytical depth and transferable methodology.
