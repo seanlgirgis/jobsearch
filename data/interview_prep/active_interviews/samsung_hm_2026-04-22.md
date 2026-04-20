@@ -1,6 +1,6 @@
 # Samsung Austin Semiconductor — Capacity Planning Engineer
 **Recruiter:** Robyn Wentworth (r.wentworth@samsung.com · 512.516.0181)
-**Stage:** Phone screen → Hiring Manager interview
+**Stage:** Hiring Manager interview (phone)
 **Location:** Taylor, TX (on-site)
 **Applied:** 2026-04-14 via LinkedIn | **Score:** 90%
 **Job Folder:** `data/applied_jobs/00060_7c453502/`
@@ -820,6 +820,14 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 
 ---
 
+### "Are you eligible under U.S. Export Control requirements?"
+> "Yes. I understand this role has U.S. Export Control compliance requirements, and I can complete any required verification steps promptly."
+
+### "Are you comfortable with full-time on-site work in Taylor?"
+> "Yes. I'm comfortable with full-time on-site work in Taylor and can support the schedule the team needs."
+
+---
+
 ## Questions To Ask The Hiring Manager
 
 1. "What does the split look like between short-range capacity management (daily/weekly WIP) and long-range planning (6–18 months)?"
@@ -833,11 +841,13 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 ## Logistics
 
 - **Recruiter screen:** Robyn Wentworth — r.wentworth@samsung.com
-- **Format:** 30-min phone screen first, then hiring manager
+- **Format:** 30-min hiring manager phone interview
 - **Request:** 2 days' notice before interview to prepare
 - **Start:** Available immediately
 - **Salary anchor:** $145,000–$160,000 base
 - **Key numbers:** 20+ years, 8 years Citi, 6,000+ endpoints, 90% forecast accuracy, 6-month prediction horizon, 90% cycle time reduction (HorizonScale)
+- **Compliance ready:** U.S. Export Control eligibility answer prepared
+- **Work model ready:** Full-time on-site in Taylor confirmed
 
 ---
 
@@ -852,9 +862,9 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 
 ---
 
-## After The Screen
+## After The Interview
 
-Update `data/applied_jobs/00060_7c453502/metadata.yaml` status to `PHONE_SCREEN` or `INTERVIEW`.
+Update `data/applied_jobs/00060_7c453502/metadata.yaml` status to `INTERVIEW`.
 
 ---
 

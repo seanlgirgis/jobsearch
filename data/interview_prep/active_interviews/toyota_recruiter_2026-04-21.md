@@ -31,7 +31,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 **Your number: $185,000 base**
 > "Based on the role and my experience, I'm targeting around $185,000 base.
-> I'm flexible depending on the full package including bonus and equity."
+> I'm flexible depending on the overall package."
 
 Same rules as Capital One — don't lead with it, don't give a range.
 
@@ -156,6 +156,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 ### "When can you start?"
 > "I am available to start immediately, and I can align with your preferred timeline for onboarding."
 
+### "Do you require sponsorship now or in the future?"
+> "No. I do not require employment visa sponsorship now or in the future."
+
 ### "Airflow experience?"
 > "Yes — Airflow for orchestrating ETL pipelines. DAG design, task dependencies,
 > retry logic, scheduling. Part of the orchestration layer in my AWS platform at Citi."
@@ -218,6 +221,7 @@ Opening 2-min structure, salary script, "why hands-on IC", "interviewing elsewhe
 - [ ] Have this doc open on second screen
 - [ ] Know your numbers: 20+ years, 8 years Citi, 6,000+ endpoints, $185k target
 - [ ] Key phrase: *"reusable frameworks that other teams build on top of"*
+- [ ] Have sponsorship answer ready: no sponsorship required now or in future
 
 ---
 
@@ -226,7 +230,7 @@ Opening 2-min structure, salary script, "why hands-on IC", "interviewing elsewhe
 If it goes well, Codie schedules you with hiring manager or technical screen.
 Typical Toyota loop: Recruiter → Technical screen → Hiring manager → Panel
 
-After the call — update `data/jobs/00039_76829368/metadata.yaml` status to `INTERVIEW`.
+After the call — update `data/applied_jobs/00039_76829368/metadata.yaml` status to `INTERVIEW`.
 
 ---
 
