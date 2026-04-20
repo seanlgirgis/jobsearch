@@ -230,13 +230,353 @@ After the call — update `data/jobs/00039_76829368/metadata.yaml` status to `IN
 
 ---
 
-## Technical Screen Prep (When It Comes)
+## Technical Screen Prep — Full Gap Coverage
 
-Priority topics to build out:
-- Python OOP: classes, inheritance, decorators, context managers
-- Framework design patterns: Strategy, Factory, Pipeline
-- SQL concepts: window functions, CTEs, optimization
-- Airflow DAG design patterns
-- Docker + CI/CD fundamentals
-- API design (REST, FastAPI)
-- Testing: pytest, mocking, coverage
+This section covers every required and preferred skill from the job description.
+Sections marked **[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]** need live practice before the next round.
+Sections marked **[PULLED FROM CAPITAL ONE PLAYBOOK]** are already battle-tested answers — just review.
+
+---
+
+### Python OOP & Framework Design
+
+**What They Want:** Reusable Python frameworks, templates, libraries — not scripts.
+
+> "My core approach is to design frameworks as composable layers.
+> At Citi I built a reusable ETL framework with a clean ingestion interface —
+> any new data source could be onboarded by implementing one interface,
+> without touching the core pipeline. That's the Strategy pattern in practice:
+> define the contract, let each implementation vary independently.
+>
+> For HorizonScale I used a generator-based pipeline architecture —
+> each asset's time-series flows through the same processing stages independently,
+> which gave me natural parallelism via multiprocessing.Pool and cut cycle
+> time by 90%.
+>
+> The patterns I reach for most: Strategy for pluggable components,
+> Factory for object creation without tight coupling, Pipeline for
+> sequential data transformations. All implemented with Python dataclasses
+> or Pydantic models at boundaries so data contracts are enforced at runtime."
+
+**OOP quick hits to have cold:**
+```python
+# Decorator pattern
+def retry(times):
+    def decorator(fn):
+        def wrapper(*args, **kwargs):
+            for _ in range(times):
+                try: return fn(*args, **kwargs)
+                except Exception: pass
+        return wrapper
+    return decorator
+
+# Context manager
+class DBConnection:
+    def __enter__(self): self.conn = connect(); return self.conn
+    def __exit__(self, *args): self.conn.close()
+
+# Abstract base class (Strategy pattern)
+from abc import ABC, abstractmethod
+class Extractor(ABC):
+    @abstractmethod
+    def extract(self) -> pd.DataFrame: ...
+```
+
+---
+
+### Apache Airflow — DAG Design
+
+**What They Want:** Integrations with orchestration tools like Airflow or Prefect.
+
+> "I used Airflow for orchestrating ETL pipelines at Citi — DAG design,
+> task dependencies, retry logic, and scheduling. My DAGs were structured
+> with sensor tasks for data arrival detection, followed by transformation
+> tasks with upstream dependencies, then load tasks with idempotency checks
+> to prevent duplicate writes.
+>
+> Key design principles: keep tasks atomic and idempotent, use XCom sparingly
+> (pass file paths not data), parameterize DAGs with Jinja templating for
+> reuse across environments, and use task groups for readability in complex DAGs."
+
+```python
+from airflow import DAG
+from airflow.operators.python import PythonOperator
+from datetime import datetime
+
+with DAG('capacity_etl', start_date=datetime(2025,1,1), schedule_interval='@daily') as dag:
+    extract = PythonOperator(task_id='extract', python_callable=run_extract)
+    transform = PythonOperator(task_id='transform', python_callable=run_transform)
+    load = PythonOperator(task_id='load', python_callable=run_load)
+    extract >> transform >> load
+```
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
+- Prefect: Never used directly. Frame as: *"Haven't used Prefect in production but
+  understand it's a Python-first modern alternative to Airflow — dynamic DAGs,
+  built-in observability, no scheduler overhead. Would ramp quickly given my
+  Airflow foundation."* Research Prefect flows vs tasks before technical screen.
+
+---
+
+### APIs & Microservices
+
+**What They Want:** Proficiency in APIs, microservices architectures.
+
+> "I've built API integrations throughout my career — at Citi I used REST APIs
+> to pull telemetry from BMC TrueSight and CMDB systems into my Python pipelines.
+> HorizonScale includes an API integration layer for pulling external data feeds.
+>
+> For microservices architecture, at Citi I containerized Python ETL workloads
+> on ECS — each workload was independently deployable and scalable, which is
+> the core principle of microservices applied to data pipelines.
+>
+> For building APIs, my tool is FastAPI — it's typed (Pydantic models for
+> request/response schemas), async-ready, and auto-generates OpenAPI docs.
+> I use it for internal platform APIs where other teams need to trigger
+> or query pipeline results."
+
+```python
+from fastapi import FastAPI
+from pydantic import BaseModel
+
+app = FastAPI()
+
+class ForecastRequest(BaseModel):
+    asset_id: str
+    horizon_days: int = 180
+
+@app.post("/forecast")
+async def get_forecast(req: ForecastRequest) -> dict:
+    result = run_forecast(req.asset_id, req.horizon_days)
+    return {"asset_id": req.asset_id, "forecast": result}
+```
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
+- Deepen: REST vs gRPC tradeoffs, API versioning strategy, rate limiting patterns.
+- Mulesoft / Apigee: Never used. Frame as: *"Enterprise API gateway tools —
+  I've worked with the REST layer they manage but not configured the gateways
+  themselves. Could ramp on the platform-specific config quickly."*
+
+---
+
+### Real-Time Streaming / Kafka
+
+**[PULLED FROM CAPITAL ONE PLAYBOOK]**
+
+> "Kafka is a strong platform for event-driven architectures and real-time
+> data movement, especially in high-volume environments like banking and
+> transaction-heavy systems. My deepest experience has been in batch and
+> warehouse-focused data engineering, where I've built reliable production
+> pipelines at scale.
+>
+> In recent months I've been actively studying Kafka concepts — topics,
+> partitions, consumer groups, offset management, and delivery semantics
+> (at-least-once vs exactly-once). I understand the architecture and
+> can ramp quickly in production contexts."
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
+- AWS Kinesis: Same honest framing as Kafka — batch depth, studying streaming.
+  Know the difference: Kinesis = AWS-managed, Kafka = open source / MSK on AWS.
+- Key Kafka concepts to know cold: topic/partition/offset, consumer group,
+  producer acks, at-least-once vs exactly-once, compaction.
+
+---
+
+### Data Validation Frameworks
+
+**[PULLED FROM CAPITAL ONE PLAYBOOK]**
+
+> "We treated data quality as code, not a manual afterthought. In Glue,
+> we used Deequ to define schema checks, business-rule validation, and
+> anomaly detection as versioned tests — similar to unit testing for data pipelines.
+>
+> For malformed records, we implemented a dead-letter pattern: bad records
+> tagged with reason codes and routed to a quarantine S3 location instead
+> of failing the full pipeline. Healthy data continues flowing while
+> preserving a clear path for reprocessing.
+>
+> For alerting, CloudWatch + EventBridge + SNS when validation failures
+> crossed a threshold — issues caught early, not discovered in reports."
+
+**For Toyota framing — self-service angle:**
+> "The validation framework was designed to be reusable — any new data source
+> could plug in by defining its own rule set. That's the same pattern Toyota
+> needs: platform teams shouldn't have to rebuild validation logic per pipeline."
+
+---
+
+### Logging, Testing, Security & Instrumentation
+
+**Logging:**
+> "Structured logging with Python's logging module — JSON-formatted logs
+> so they're queryable in CloudWatch Log Insights. Log levels enforced:
+> DEBUG for pipeline internals, INFO for stage completion, WARNING for
+> data anomalies, ERROR for failures. Correlation IDs on every log record
+> so you can trace a single run across distributed tasks."
+
+**Testing:**
+> "pytest for unit testing pipeline logic — mock external calls (S3, DB),
+> test transformation functions with known inputs/outputs. For integration
+> tests, small representative datasets against real infrastructure in a
+> dev environment. Coverage target: 80%+ on core transformation logic.
+> At Citi: CPPUNIT framework at Sabre for automated conversion validation."
+
+**Security:**
+> "IAM least-privilege for all AWS resources — no broad S3 bucket policies,
+> role-per-service. Secrets in AWS Secrets Manager or Parameter Store,
+> never in code or env files. At G6 Hospitality I implemented TLS 1.2
+> during a Dynatrace upgrade — security as part of the deployment, not an afterthought."
+
+**Instrumentation / Observability:**
+> "CloudWatch metrics + dashboards for pipeline health: records processed,
+> error rates, job duration, cost per run. Custom metrics published via
+> boto3 CloudWatch PutMetricData. For the Streamlit HorizonScale dashboard —
+> built-in real-time observability so capacity analysts could see pipeline
+> status alongside forecast results."
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
+- OpenTelemetry: Know the concept — traces, metrics, logs as three pillars.
+  Mention awareness even without direct experience.
+
+---
+
+### Docker & CI/CD
+
+> "At Citi I containerized Python ETL workloads on ECS using Docker —
+> each pipeline packaged with its dependencies, deployed as a Fargate task.
+> This made environment parity a non-issue: dev, staging, and prod ran
+> identical containers.
+>
+> For CI/CD: Git-based branching with feature branches, PR-required code review,
+> automated test runs on push. Deployment pipelines trigger container builds,
+> push to ECR, and update ECS task definitions. Infrastructure as Code via
+> CloudFormation to prevent environment drift."
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
+- GitHub Actions vs AWS CodePipeline — know both at a concept level.
+- Kubernetes: Haven't used K8s directly, only ECS. Frame as:
+  *"ECS for container orchestration at Citi — understand K8s concepts
+  (pods, deployments, services) and could ramp on it given the ECS foundation."*
+
+---
+
+### SQL & NoSQL Databases
+
+**SQL — already strong. Key concepts cold:**
+- Window functions: ROW_NUMBER, RANK, LAG/LEAD, PARTITION BY
+- CTEs vs subqueries — readability vs optimizer behavior
+- Indexing strategy: clustered vs non-clustered, covering indexes
+- Query plan analysis: EXPLAIN, statistics, cardinality estimation
+- Oracle-specific: materialized CTEs, histogram stats, RAC considerations
+
+**[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN — NoSQL Gap]**
+- NoSQL is listed as a required skill. Direct experience is thin.
+- Honest framing: *"My production depth is relational — Oracle, Redshift.
+  I understand NoSQL data modeling principles: document stores (MongoDB)
+  for flexible schema, key-value (DynamoDB/Redis) for low-latency lookups,
+  columnar (Cassandra) for time-series at scale. For TFS I'd apply the
+  right store for the workload."*
+- **Study before technical screen:** DynamoDB partition key design,
+  MongoDB document modeling basics, Redis use cases (caching, session).
+
+---
+
+### Version Control — Branching & Code Reviews
+
+> "Git-based workflow: feature branches off main, PRs required before merge,
+> no direct commits to main. Branch naming convention: feature/, fix/, chore/
+> for clarity in large teams.
+>
+> For code reviews: I look for correctness first, then edge cases, then
+> readability. I write review comments as questions not commands —
+> 'have you considered X?' rather than 'do X'. Makes reviews collaborative,
+> not gatekeeping.
+>
+> At Citi I established code review standards for the capacity engineering
+> team — minimum one approval, CI must pass, no unresolved comments.
+> Onboarding time dropped because new engineers had clear patterns to follow."
+
+---
+
+### Mentoring Engineers
+
+**Story — already in Story 4. Toyota framing:**
+> "At Citi I built documentation standards, code review practices, and
+> onboarding templates so new engineers could contribute to the pipeline
+> framework without depending on me. Goal was always to make myself
+> replaceable on the details so I could focus on the harder problems.
+> Team became self-sufficient. Onboarding time cut significantly."
+
+---
+
+### Hiring & Talent Attraction
+
+**[NOTE TO SELF — BUILD THIS STORY BEFORE TECHNICAL SCREEN]**
+- No direct hiring manager experience owning a full recruiting cycle.
+- Honest frame: *"I've been a strong signal in the hiring process —
+  participated in technical screens, defined the bar for what 'strong'
+  looks like on a Python data engineering team, and contributed to
+  onboarding that retained engineers. The full hiring ownership is a
+  growth area I'm ready to step into at Lead level."*
+- **Prep:** Think of one specific example where you influenced a
+  hiring decision or helped define technical bar.
+
+---
+
+### Self-Service Tools & Frameworks
+
+**This is a strength — use it proactively:**
+> "HorizonScale's Streamlit dashboard is exactly this — I built it so
+> capacity analysts could explore forecasts, filter by resource class,
+> and drill into at-risk assets without needing to run any code.
+> The goal was: engineer builds it once, ten people use it independently.
+>
+> Same philosophy in the ETL framework at Citi — onboarding a new data
+> source required filling in a config file, not touching the core pipeline.
+> Self-service by design."
+
+---
+
+### Why Toyota Specifically — Company Research
+
+From research file (`company_research.yaml`):
+- Toyota Motor North America HQ is in **Plano, TX** — you're local, no relocation friction
+- **Toyota Way:** Kaizen (continuous improvement) + respect for people — mention this naturally
+- TFS is the finance/insurance arm — data engineering at TFS means financial-scale volume,
+  compliance requirements, real business impact on customer transactions
+- Toyota invests heavily in AI, electrification, autonomous driving — engineering culture
+  is forward-looking, not legacy-bound
+- Hybrid work model for many corporate/tech roles (confirm on-site expectations with Codie)
+
+**Use this in "Why Toyota?":**
+> "Toyota Financial Services sits at the intersection of two things I find
+> genuinely compelling — financial-scale data problems and Toyota's engineering
+> culture. The Toyota Way, Kaizen — continuous improvement is honestly how I
+> approach platform engineering. You ship a framework, you iterate, you make
+> it better. That philosophy fits me naturally. And Plano is home — this is
+> exactly where I want to be doing this work."
+
+---
+
+### Job Requirements Coverage Checklist
+
+| Requirement | Covered In This Doc? | Status |
+|-------------|---------------------|--------|
+| Reusable Python frameworks | Story 1, Story 2, Python OOP section | ✓ Ready |
+| ETL/ELT pipelines | Story 1, AWS story | ✓ Ready |
+| SQL databases | SQL section | ✓ Ready |
+| AWS cloud platform | Story 3, AWS story | ✓ Ready |
+| Apache Airflow | Airflow section | ✓ Ready |
+| Docker / CI-CD | Docker section | ✓ Ready |
+| APIs & microservices | APIs section | ✓ Ready |
+| Data validation frameworks | Validation section (Deequ) | ✓ Ready |
+| Logging / testing / security / instrumentation | Dedicated section | ✓ Ready |
+| Version control / code reviews | Version control section | ✓ Ready |
+| Mentoring engineers | Story 4 | ✓ Ready |
+| Real-time streaming / Kafka | Streaming section | ⚠ Honest framing only |
+| NoSQL databases | SQL/NoSQL section | ⚠ Honest framing — drill before tech screen |
+| Prefect | Airflow section (note) | ⚠ Honest framing — research before tech screen |
+| Hiring / talent attraction | Hiring section | ⚠ Placeholder — build story before tech screen |
+| Kafka / Kinesis (preferred) | Streaming section | ⚠ Honest framing only |
+| Mulesoft / Apigee (preferred) | APIs section (note) | ⚠ Honest framing only |
+| Self-service tools (preferred) | Self-service section | ✓ HorizonScale + Streamlit |
