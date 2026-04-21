@@ -3,7 +3,8 @@
 **Req:** 10301655
 **Role:** Lead Senior Python Developer — Python · AWS · Microservices
 **Location:** Plano, TX — 4 days onsite / Friday remote
-**Format:** Recruiter phone screen — no live coding
+**Interview:** Thursday April 23, 2026 — 10:00 AM CT (Ramya calls you at 214-315-2190)
+**Format:** 30-min recruiter phone screen — no live coding
 **Salary target:** $185,000 base
 
 ---
