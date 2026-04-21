@@ -158,6 +158,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > "I have a few conversations in progress. Toyota is a strong fit given
 > the platform engineering focus and the Plano location."
 
+**Concise recruiter version (15-20 seconds):**
+> "Yes, I'm currently in process with Capital One and Samsung. That said, Toyota Financial Services is one of my top priorities because of the enterprise platform focus, the long-term stability and growth, and the continuous-improvement culture that strongly matches how I work."
+
 ### "What's your salary expectation?"
 > "Based on the role and my experience, I'm targeting around $185,000 base.
 > I'm flexible depending on the full comp package."
