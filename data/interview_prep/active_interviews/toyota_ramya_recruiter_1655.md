@@ -1,108 +1,357 @@
 # Toyota Financial Services — Lead Senior Python Developer
+**Recruiter:** Ramya Ravichandran (recruiter@toyota.com) — referred by Codie Marcell
 **Req:** 10301655
-**Recruiter:** Ramya Ravichandran (recruiter@toyota.com)
-**Referred by:** Codie Marcell (original recruiter — reorg handoff)
 **Role:** Lead Senior Python Developer — Python · AWS · Microservices
-**Location:** Plano, TX — 4 days onsite / 1 day remote (Friday)
-**Format:** Recruiter screen (phone or virtual — TBD)
+**Location:** Plano, TX — 4 days onsite / Friday remote
+**Format:** Recruiter phone screen — no live coding
 **Salary target:** $185,000 base
 
 ---
 
-## What We Know About This Role
+## Table of Contents
 
-From screening questions:
-- Python + FastAPI + OpenAPI/Swagger — backend services and RESTful APIs
-- ETL pipelines — Glue ETL, Glue Catalog, S3, Lambda, ECS
-- AWS proficiency — ECS Fargate, API Gateway, Lambda, S3, CloudWatch
-- Terraform / CloudFormation (gap — be honest)
-- Git, CI/CD (GitHub Actions, Jenkins), Gradle/Maven (Java)
-- Regulated environment experience (Citi = financial services)
-- Observability — Dynatrace (strong), CloudWatch (adjacent)
-- Performance testing background (AT&T, G6)
-
-From Codie's call context:
-- Role created from reorg — new headcount, fresh requirements
-- Manager will conduct 1-hour technical virtual interview after recruiter screen
-- Platform thinking: "I build reusable frameworks other teams consume"
+- [The Framing](#the-framing)
+- [Your Opening 2 Minutes](#your-opening-2-minutes)
+- [Salary](#salary)
+- [Questions — Ordered By Likelihood](#questions--ordered-by-likelihood)
+  - [Tell me about yourself](#tell-me-about-yourself)
+  - [Why Toyota / Why this role?](#why-toyota--why-this-role)
+  - [Walk me through your Python and AWS experience](#walk-me-through-your-python-and-aws-experience)
+  - [Have you built REST APIs or microservices in Python?](#have-you-built-rest-apis-or-microservices-in-python)
+  - [ETL pipeline experience on AWS?](#etl-pipeline-experience-on-aws)
+  - [Terraform or CloudFormation experience?](#terraform-or-cloudformation-experience)
+  - [Tell me about a challenging project](#tell-me-about-a-challenging-project)
+  - [How do you handle ambiguity?](#how-do-you-handle-ambiguity)
+  - [Why are you leaving Citi?](#why-are-you-leaving-citi)
+  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - [Work authorization?](#work-authorization)
+  - [Onsite 4 days — comfortable?](#onsite-4-days--comfortable)
+  - [When can you start?](#when-can-you-start)
+  - [Salary expectation?](#salary-expectation)
+- [Honest Gap — Terraform](#honest-gap--terraform)
+- [Questions To Ask Ramya](#questions-to-ask-ramya)
+- [Logistics Checklist](#logistics-checklist)
 
 ---
 
-## Key Framing for This Role
+## The Framing
 
-**Not** data engineer. **Not** capacity planner. **Python platform developer.**
+This role is **not** data engineering. It is **not** capacity planning. It is a Python platform developer role — backend services, REST APIs, microservices, cloud-native AWS.
 
-> "I build backend Python services and ETL frameworks that other teams consume —
-> reusable, API-first, cloud-native on AWS. That is exactly what this role is asking for."
+Your framing for every answer:
+
+> "I build reusable Python frameworks and backend services that other teams consume —
+> API-first, cloud-native on AWS, with CI/CD and Docker from day one."
+
+Codie was impressed by your resume and handed you to Ramya personally. You are already warm. This call is about confirming fit, not starting over.
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+## Your Opening 2 Minutes
+
+> "I'm a Senior Python Developer with 20+ years of enterprise experience —
+> most recently 8 years at Citi where I owned the data platform and backend
+> engineering for capacity planning across 4 global regions.
+>
+> The core of that work was building Python-based backend services and ETL
+> frameworks — pulling data from REST APIs across BMC TrueSight, AppDynamics,
+> and CMDB systems, processing 6,000+ endpoints, running containerized on
+> Docker and AWS ECS with CI/CD pipelines. I built reusable modules that
+> multiple engineering teams consumed — not one-off scripts, but platform-grade
+> Python services.
+>
+> I also built HorizonScale — an ML forecasting engine in Python using Prophet
+> and scikit-learn, deployed on AWS with a Streamlit dashboard for real-time
+> insights. It cut forecasting cycle time by 90%.
+>
+> I'm in Plano, the four-day onsite works for me, I'm available immediately,
+> and the Lead Senior Python Developer role at Toyota Financial is exactly
+> the kind of platform engineering work I want to do next."
+
+*(Target: 90 seconds. Practice out loud.)*
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
 ---
 
 ## Salary
 
+**$185,000 base.**
+
 > "I'm targeting $185,000 base."
 
-Say it once. Pause. Do not add anything.
+Say it once. Pause. Do not add "negotiable," do not give a range, do not say "depending on the package." Let it sit.
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
 ---
 
-## Honest Gap to Own
-
-**Terraform:** No direct production experience.
-> "I have not used Terraform in production — I have worked with AWS-native services
-> directly. It is on my active learning list and I can ramp quickly."
+## Questions — Ordered By Likelihood
 
 ---
 
-## Opening 2 Minutes
+### "Tell me about yourself"
 
-> "I'm a Senior Python Developer with 20+ years of enterprise experience —
-> most recently 8 years at Citi building Python-based ETL pipelines, REST API
-> integrations, and cloud data platforms on AWS.
+> "I'm a Senior Python Developer with over 20 years of enterprise experience.
+> Most recently I spent 8 years at Citi as a Senior Capacity and Data Engineer —
+> that was my longest and deepest role, and it was fundamentally a Python
+> platform engineering job.
 >
-> I built reusable Python frameworks that multiple teams consumed —
-> automated pipelines pulling from REST APIs across 6,000+ endpoints,
-> containerized on Docker and ECS, with CI/CD deployment workflows.
+> I built the backend data infrastructure for capacity planning across
+> 4 global regions — automated Python pipelines consuming REST APIs from
+> enterprise monitoring systems, processing telemetry from 6,000+ endpoints,
+> containerized with Docker on AWS ECS, with CI/CD deployment workflows.
+> I replaced a 10-day manual process with a fully automated platform that
+> delivered reports in 2 days with zero errors.
 >
-> I'm based in Plano, the onsite schedule works for me, and I'm ready immediately.
-> The Lead Senior Python Developer role is a strong fit."
+> On top of that I built HorizonScale — an AI-driven ML forecasting engine
+> in Python using Prophet and scikit-learn — predicting infrastructure
+> bottlenecks 6 months ahead at 90% accuracy, deployed on AWS with a
+> Streamlit dashboard.
+>
+> My foundation is Python, AWS, REST API integration, and building
+> reusable engineering frameworks. I'm in Plano, available immediately,
+> and the Lead Senior Python Developer role is the right next step."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
 ---
 
-## Questions Ramya Will Likely Ask
+### "Why Toyota / Why this role?"
 
-- Tell me about yourself
-- Why Toyota / Why this role?
-- Walk me through your Python and AWS experience
-- Have you built REST APIs / microservices in Python?
-- ETL pipeline experience on AWS?
-- Terraform / CloudFormation?
-- Current salary / expectation?
-- When can you start?
-- Are you interviewing elsewhere?
-- Work authorization?
-- Onsite 4 days — comfortable?
+> "Toyota Financial Services operates at a scale where engineering quality
+> directly affects millions of customers. The combination of Python platform
+> work — microservices, REST APIs, AWS — with the rigor of a financial
+> services environment is exactly what I'm built for.
+>
+> I spent 8 years at Citi doing exactly this kind of work in a regulated,
+> high-stakes financial services environment. Toyota Financial is the
+> natural next chapter — same discipline, larger platform, more impact.
+>
+> The Plano location is also a strong fit — I'm local, no relocation,
+> ready to be in the office four days a week."
 
-*(Full scripted answers — expand when interview is scheduled)*
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Walk me through your Python and AWS experience"
+
+> "Python has been my primary language for 8-plus years. At Citi I used it
+> for everything — REST API integrations consuming TrueSight and AppDynamics
+> APIs, ETL pipeline design with Pandas and PySpark, ML model development
+> with Prophet and scikit-learn, and building reusable Python framework
+> modules that other engineering teams consumed.
+>
+> On AWS: I built a hybrid platform using S3 as the data landing zone,
+> AWS Glue for ETL transformation jobs, Redshift for analytical workloads,
+> and ECS and Fargate for containerized Python pipeline execution.
+> I containerized Python ETL jobs with Docker for on-demand cloud-scale
+> processing and built CI/CD deployment pipelines to keep delivery
+> consistent across environments.
+>
+> For the Toyota role specifically — the ETL pipeline stack on Glue,
+> S3, Lambda, and ECS maps directly to what I built at Citi.
+> ECS Fargate, API Gateway, CloudWatch — I am comfortable in that environment."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Have you built REST APIs or microservices in Python?"
+
+> "Yes — REST API integration and building modular, API-first Python services
+> is core to what I have been doing.
+>
+> At Citi I built Python services that consumed REST APIs from multiple
+> enterprise systems — BMC TrueSight, AppDynamics, CMDB — extracted, 
+> transformed, and loaded data into downstream pipelines. I designed
+> those modules to be independently deployable and reusable — the same
+> pattern as microservices architecture.
+>
+> On the documentation side — I have worked with API contracts and
+> structured interface design. FastAPI and OpenAPI/Swagger specifically:
+> I have been building with those patterns and am actively deepening
+> my FastAPI experience. The framework is straightforward for someone
+> with strong Python and REST API backgrounds — the learning curve
+> is minimal."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "ETL pipeline experience on AWS?"
+
+> "Strong and direct. At Citi I built ETL pipelines on AWS using S3 as
+> the raw data landing zone, AWS Glue for transformation jobs, and
+> Redshift as the analytical target. I used the Glue Data Catalog
+> to manage schema metadata across datasets.
+>
+> For compute: containerized Python ETL jobs on ECS and Fargate —
+> Docker images deployed on demand, scaled automatically, no server
+> management. Lambda for lightweight event-driven triggers between
+> pipeline stages.
+>
+> The specific stack in this Toyota role — Glue ETL, Glue Catalog,
+> S3, Lambda, ECS — that is the stack I have production experience with."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Terraform or CloudFormation experience?"
+
+> "I will be straight — I have not used Terraform in production.
+> My infrastructure work at Citi was provisioned through internal
+> platforms and AWS-native tooling directly. Terraform is on my
+> active learning list and I can ramp quickly — the declarative
+> IaC model is straightforward for someone with deep AWS hands-on
+> experience. It is a tool gap, not a knowledge gap."
+
+Own it cleanly. Do not over-explain. Move on.
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Tell me about a challenging project"
+
+> "HorizonScale is the one I am most proud of. The challenge was scale
+> and speed — I needed to forecast capacity for thousands of infrastructure
+> assets 6 months ahead, but the legacy process was a 10-day manual Excel
+> cycle. Completely reactive, always behind.
+>
+> I built HorizonScale from scratch in Python — PySpark pipeline for
+> banking-scale telemetry processing, Prophet for time-series forecasting
+> with seasonality decomposition, scikit-learn classifiers to flag
+> at-risk assets with a binary risk signal. Generator-based parallel
+> architecture so thousands of assets processed simultaneously instead
+> of sequentially. Deployed on AWS with a Streamlit dashboard for
+> real-time leadership visibility.
+>
+> Result: 90% cycle time reduction. 6-month ahead bottleneck prediction
+> at 90-plus percent accuracy. Went from a 10-day manual process
+> to minutes."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "How do you handle ambiguity?"
+
+> "I anchor on the data and work backwards to the decision.
+>
+> At Citi, when I joined there was no clear owner for capacity planning —
+> just a manual process and a lot of tribal knowledge. I mapped what
+> data existed, what decisions depended on it, and what was missing.
+> That gave me a roadmap even when the requirements were unclear.
+>
+> My experience is that ambiguity usually means the stakeholders
+> have not agreed on what problem they are solving. I bring them
+> a shared data model and let the numbers drive the conversation
+> to a decision."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Why are you leaving Citi?"
+
+> "I was at Citi for 8 years and delivered strong results —
+> built the capacity planning platform from the ground up.
+> My role was eliminated as part of a broader organizational
+> restructuring — not performance related. I have used the
+> time to sharpen my skills and I am focused on finding
+> the right long-term fit. Toyota Financial is at the top
+> of my list."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Are you interviewing elsewhere?"
+
+> "I have a few conversations in progress — including with
+> Samsung and Capital One. Toyota Financial is my top priority
+> given the Python platform focus, the Plano location,
+> and the financial services environment I know well."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Work authorization?"
+
+> "I am a U.S. citizen — no visa, no sponsorship needed,
+> no restrictions."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Onsite 4 days — comfortable?"
+
+> "Yes, fully comfortable. I am in Plano — the commute
+> is easy and I prefer being in the office with the team."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "When can you start?"
+
+> "I am available to start immediately and can align
+> with your preferred onboarding timeline."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### "Salary expectation?"
+
+> "I am targeting $185,000 base."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+## Honest Gap — Terraform
+
+**Do not hide it. Do not oversell it.**
+
+> "I have not used Terraform in production. My AWS work was
+> provisioned through AWS-native tooling directly. Terraform
+> is on my active learning list — the declarative model is
+> straightforward for someone with deep AWS hands-on experience.
+> It is a tool gap, not a knowledge gap."
+
+That answer is credible. Recruiters respect honesty on specifics.
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
 ---
 
 ## Questions To Ask Ramya
 
-1. "What does the technical interview with the manager look like — format and focus areas?"
+1. "What does the technical interview with the hiring manager look like — format and focus areas?"
 2. "Is this a new headcount from the recent reorg, or a backfill?"
-3. "What does the team structure look like for this role?"
-4. "What is the timeline from here?"
+3. "What does the team look like — size, structure, what they are building?"
+4. "What is the timeline from here to offer?"
+5. "Is the Friday remote fixed or flexible depending on the team?"
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
 ---
 
-## Logistics
-- Phone charged, quiet room
-- Have this doc on second screen
-- Key numbers: 20+ years · 8 years Citi · 6,000+ endpoints · $185K
+## Logistics Checklist
 
----
+- [ ] Phone charged, quiet room
+- [ ] This doc open on second screen
+- [ ] Ramya calls you — confirm your number is 214-315-2190
+- [ ] Key numbers cold: 20+ years · 8 years Citi · 6,000+ endpoints · 4 global regions · 90% accuracy · 90% cycle reduction
+- [ ] Salary: $185,000 — one number, no range, no qualifiers
+- [ ] Terraform gap: own it in one sentence, move on
 
-## TODO — Expand Before Interview
-- [ ] Full scripted answers for each likely question
-- [ ] FastAPI / OpenAPI talking points (study before call)
-- [ ] Convert to audio script for NotebookLM
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
