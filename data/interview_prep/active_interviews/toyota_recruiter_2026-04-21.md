@@ -151,6 +151,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > not performance related. I've used the time to sharpen my skills and I'm
 > now actively looking for the right fit. TFS is at the top of my list."
 
+**Concise recruiter version (20-30 seconds):**
+> "I was at Citi for 8 years and had strong results building robust data pipelines and forecasting solutions. My position was contract-based, and it was not renewed during broader contract reductions in December. The transition was business-driven, and now I'm focused on finding the right long-term fit where I can contribute at a high level, which is why this Toyota role is so compelling."
+
 ### "Are you interviewing elsewhere?"
 > "I have a few conversations in progress. Toyota is a strong fit given
 > the platform engineering focus and the Plano location."
