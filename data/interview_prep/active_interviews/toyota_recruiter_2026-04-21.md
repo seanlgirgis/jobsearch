@@ -165,6 +165,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > "Based on the role and my experience, I'm targeting around $185,000 base.
 > I'm flexible depending on the full comp package."
 
+**Concise recruiter version (10-15 seconds):**
+> "Based on the role and my experience, I'm targeting a base in the $175,000 to $185,000 range, and I'm flexible based on the overall package."
+
 ### "When can you start?"
 > "I am available to start immediately, and I can align with your preferred timeline for onboarding."
 
