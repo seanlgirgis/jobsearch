@@ -174,6 +174,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 ### "Do you require sponsorship now or in the future?"
 > "No. I do not require employment visa sponsorship now or in the future."
 
+**Direct version (one sentence):**
+> "As a U.S. citizen, I am fully authorized to work in the United States for any employer and do not require sponsorship now or in the future."
+
 ### "Airflow experience?"
 > "Yes — Airflow for orchestrating ETL pipelines. DAG design, task dependencies,
 > retry logic, scheduling. Part of the orchestration layer in my AWS platform at Citi."
