@@ -236,6 +236,10 @@ Opening 2-min structure, salary script, "why hands-on IC", "interviewing elsewhe
 4. "What does the interview process look like after this call?"
 5. "Is the role hybrid or fully on-site in Plano?"
 
+**Top 2 if time is short:**
+1. "What does the interview process look like after this call?"
+2. "What does the team structure look like for the Lead Python Developer role?"
+
 ---
 
 ## Logistics Checklist
