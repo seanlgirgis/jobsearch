@@ -10,9 +10,17 @@ application:
   - date: '2026-03-11'
     notes: Toyota North America - Lead Python Developer - Plano TX - Applied via LinkedIn
       2026-03-11
-    status: ACCEPTED
-  last_status: ACCEPTED
-  last_status_date: '2026-03-11'
+    status: TECHNICAL_PENDING
+  - date: '2026-04-21'
+    notes: >
+      Recruiter screen completed with Codie Marcell. Call went well — Codie impressed
+      by resume. Company reorg this week created a new position with new requirements.
+      Codie went ahead with the call despite reorg. Resume shared with hiring manager.
+      New JD expected by weekend. Next step: 1-hour technical virtual interview with manager.
+      Answered from prep script — not 100% but Codie seemed satisfied and impressed.
+    status: TECHNICAL_PENDING
+  last_status: TECHNICAL_PENDING
+  last_status_date: '2026-04-21'
 company: Toyota North America
 company_website: ''
 created_at: '2026-03-11T07:42:56.935999'
@@ -29,7 +37,7 @@ recommendation: Strong Proceed
 role: Lead Python Developer
 score: 85
 score_date: '2026-03-11T07:42:56.935999'
-status: ACCEPTED
+status: TECHNICAL_PENDING
 uuid: 76829368-ce92-4783-949b-ae9b3bd3f52a
 job_hash: b5c7c22807313e433e07ebdfe80c4d4d2b22361c49a8c2b67084b4654d9371e7
 migrated_to_applied_jobs: true
