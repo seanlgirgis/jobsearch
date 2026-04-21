@@ -134,6 +134,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > it's about building foundations — frameworks that accelerate delivery for
 > everyone. That's where I do my best work. And Plano is ideal — I'm right here."
 
+**Concise recruiter version (45-60 seconds):**
+> "Toyota is a global leader with enterprise-scale operations and very high-volume customer transactions, which makes the data platform mission here especially compelling. What attracts me most is the Enterprise Platforms focus at Toyota Financial Services, because this role is about building reusable frameworks that accelerate delivery and decision-making across teams. That maps directly to the work I've done in large-scale capacity and data engineering environments. Location is also a strong plus for me since I'm based in Plano, so I can contribute immediately with no relocation friction."
+
 *If it fits naturally:*
 > "Toyota's Kaizen philosophy — continuous improvement — is honestly how I
 > approach engineering. You never ship a framework and walk away. You iterate."
