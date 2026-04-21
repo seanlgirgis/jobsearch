@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Samsung HM Interview — Audio Training</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      background: #0a0a0f;
+      color: #e8e8f0;
+      min-height: 100vh;
+      padding: 20px 16px 40px;
+    }
+
+    header {
+      text-align: center;
+      padding: 28px 0 32px;
+    }
+    header .company {
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #1428a0;
+      background: #1428a015;
+      border: 1px solid #1428a040;
+      display: inline-block;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 12px;
+    }
+    header h1 {
+      font-size: 22px;
+      font-weight: 700;
+      color: #f0f0fa;
+      margin-bottom: 6px;
+    }
+    header p {
+      font-size: 13px;
+      color: #888;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 14px;
+      max-width: 640px;
+      margin: 0 auto;
+    }
+
+    .card {
+      background: #13131f;
+      border: 1px solid #2a2a3d;
+      border-radius: 14px;
+      padding: 18px 18px 14px;
+      transition: border-color 0.2s;
+    }
+    .card.active {
+      border-color: #1428a0;
+      background: #13131f;
+    }
+
+    .card-top {
+      display: flex;
+      align-items: flex-start;
+      gap: 14px;
+      margin-bottom: 14px;
+    }
+
+    .play-btn {
+      flex-shrink: 0;
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      border: none;
+      background: #1428a0;
+      color: #fff;
+      font-size: 18px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: background 0.15s, transform 0.1s;
+      -webkit-tap-highlight-color: transparent;
+    }
+    .play-btn:active { transform: scale(0.93); }
+    .play-btn.playing { background: #0f1f80; }
+
+    .card-meta { flex: 1; min-width: 0; }
+    .card-num {
+      font-size: 10px;
+      font-weight: 700;
+      letter-spacing: 1.5px;
+      text-transform: uppercase;
+      color: #1428a0;
+      margin-bottom: 3px;
+    }
+    .card-title {
+      font-size: 15px;
+      font-weight: 700;
+      color: #f0f0fa;
+      margin-bottom: 4px;
+      line-height: 1.3;
+    }
+    .card-desc {
+      font-size: 12px;
+      color: #666;
+      line-height: 1.5;
+    }
+
+    .progress-wrap {
+      position: relative;
+      height: 4px;
+      background: #2a2a3d;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-bottom: 8px;
+    }
+    .progress-fill {
+      height: 100%;
+      background: #1428a0;
+      border-radius: 4px;
+      width: 0%;
+      transition: width 0.2s linear;
+      pointer-events: none;
+    }
+
+    .time-row {
+      display: flex;
+      justify-content: space-between;
+      font-size: 11px;
+      color: #555;
+      font-variant-numeric: tabular-nums;
+    }
+
+    .order-note {
+      max-width: 640px;
+      margin: 0 auto 20px;
+      background: #13131f;
+      border: 1px solid #2a2a3d;
+      border-radius: 10px;
+      padding: 12px 16px;
+      font-size: 12px;
+      color: #666;
+      line-height: 1.6;
+    }
+    .order-note strong { color: #aaa; }
+
+    footer {
+      text-align: center;
+      margin-top: 32px;
+      font-size: 11px;
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="company">Samsung Austin Semiconductor</div>
+  <h1>HM Interview — Audio Training</h1>
+  <p>David Rojas &nbsp;·&nbsp; Wednesday April 22, 2026 &nbsp;·&nbsp; 9:00 AM CT</p>
+</header>
+
+<div class="order-note">
+  <strong>Listen order for fastest burn-in:</strong>
+  Start with 01 and 02 — they cover 80% of what David will ask.
+  Loop them until cold. Then layer in 03 → 04 → 05. File 06 is lowest priority for an HM phone screen.
+</div>
+
+<div class="grid">
+
+  <div class="card" id="card-1">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(1)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 01 — Load First</div>
+        <div class="card-title">Foundation &amp; Framing</div>
+        <div class="card-desc">Pivot strategy · 3 moves · IT→FAB reframe table · Opening 2 minutes · Salary anchor</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(1, event)">
+      <div class="progress-fill" id="fill-1"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-1">0:00</span>
+      <span id="dur-1">--:--</span>
+    </div>
+    <audio id="audio-1" src="REPLACE_BASE_URL/01_foundation_and_framing.mp3" preload="none"></audio>
+  </div>
+
+  <div class="card" id="card-2">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(2)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 02 — Load Second</div>
+        <div class="card-title">Your 4 Stories</div>
+        <div class="card-desc">BMC TrueSight · HorizonScale · Bottleneck investigation · Cross-team coordination · Tell me about yourself</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(2, event)">
+      <div class="progress-fill" id="fill-2"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-2">0:00</span>
+      <span id="dur-2">--:--</span>
+    </div>
+    <audio id="audio-2" src="REPLACE_BASE_URL/02_four_stories.mp3" preload="none"></audio>
+  </div>
+
+  <div class="card" id="card-3">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(3)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 03</div>
+        <div class="card-title">Manufacturing Domain</div>
+        <div class="card-desc">Factory Physics · OEE · SEMI E10 · Little's Law · Takt time · Lot starts · Yield · Supply chain</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(3, event)">
+      <div class="progress-fill" id="fill-3"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-3">0:00</span>
+      <span id="dur-3">--:--</span>
+    </div>
+    <audio id="audio-3" src="REPLACE_BASE_URL/03_manufacturing_domain.mp3" preload="none"></audio>
+  </div>
+
+  <div class="card" id="card-4">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(4)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 04</div>
+        <div class="card-title">Technical Depth</div>
+        <div class="card-desc">Bottleneck investigation · Full capacity analysis · BMC TrueSight · ML forecasting · MES · Throughput drop</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(4, event)">
+      <div class="progress-fill" id="fill-4"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-4">0:00</span>
+      <span id="dur-4">--:--</span>
+    </div>
+    <audio id="audio-4" src="REPLACE_BASE_URL/04_technical_depth.mp3" preload="none"></audio>
+  </div>
+
+  <div class="card" id="card-5">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(5)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 05</div>
+        <div class="card-title">Behavioral &amp; General</div>
+        <div class="card-desc">Fab experience challenge · Line analysis · Coordination · Risk to leadership · Why Samsung · Salary · Start date</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(5, event)">
+      <div class="progress-fill" id="fill-5"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-5">0:00</span>
+      <span id="dur-5">--:--</span>
+    </div>
+    <audio id="audio-5" src="REPLACE_BASE_URL/05_behavioral_and_general.mp3" preload="none"></audio>
+  </div>
+
+  <div class="card" id="card-6">
+    <div class="card-top">
+      <button class="play-btn" onclick="togglePlay(6)">&#9654;</button>
+      <div class="card-meta">
+        <div class="card-num">Audio 06 — Lowest Priority</div>
+        <div class="card-title">SQL &amp; Python</div>
+        <div class="card-desc">Bottleneck queries · Gaps-and-islands · Window functions · Prophet forecasting · PySpark pipeline</div>
+      </div>
+    </div>
+    <div class="progress-wrap" onclick="seek(6, event)">
+      <div class="progress-fill" id="fill-6"></div>
+    </div>
+    <div class="time-row">
+      <span id="cur-6">0:00</span>
+      <span id="dur-6">--:--</span>
+    </div>
+    <audio id="audio-6" src="REPLACE_BASE_URL/06_sql_and_python_prose.mp3" preload="none"></audio>
+  </div>
+
+</div>
+
+<footer>Samsung HM &nbsp;·&nbsp; April 22, 2026</footer>
+
+<script>
+  let currentPlaying = null;
+
+  function fmt(s) {
+    if (isNaN(s) || !isFinite(s)) return '--:--';
+    const m = Math.floor(s / 60);
+    const sec = Math.floor(s % 60).toString().padStart(2, '0');
+    return `${m}:${sec}`;
+  }
+
+  function togglePlay(n) {
+    const audio = document.getElementById('audio-' + n);
+    const btn   = document.querySelector('#card-' + n + ' .play-btn');
+
+    if (currentPlaying && currentPlaying !== n) {
+      const prev = document.getElementById('audio-' + currentPlaying);
+      const prevBtn = document.querySelector('#card-' + currentPlaying + ' .play-btn');
+      prev.pause();
+      prevBtn.innerHTML = '&#9654;';
+      prevBtn.classList.remove('playing');
+      document.getElementById('card-' + currentPlaying).classList.remove('active');
+    }
+
+    if (audio.paused) {
+      audio.play();
+      btn.innerHTML = '&#9646;&#9646;';
+      btn.classList.add('playing');
+      document.getElementById('card-' + n).classList.add('active');
+      currentPlaying = n;
+    } else {
+      audio.pause();
+      btn.innerHTML = '&#9654;';
+      btn.classList.remove('playing');
+      document.getElementById('card-' + n).classList.remove('active');
+      currentPlaying = null;
+    }
+  }
+
+  function seek(n, e) {
+    const audio = document.getElementById('audio-' + n);
+    const wrap  = e.currentTarget;
+    const rect  = wrap.getBoundingClientRect();
+    const pct   = (e.clientX - rect.left) / rect.width;
+    if (audio.duration) audio.currentTime = pct * audio.duration;
+  }
+
+  for (let n = 1; n <= 6; n++) {
+    (function(n) {
+      const audio = document.getElementById('audio-' + n);
+
+      audio.addEventListener('loadedmetadata', () => {
+        document.getElementById('dur-' + n).textContent = fmt(audio.duration);
+      });
+
+      audio.addEventListener('timeupdate', () => {
+        document.getElementById('cur-' + n).textContent = fmt(audio.currentTime);
+        if (audio.duration) {
+          const pct = (audio.currentTime / audio.duration) * 100;
+          document.getElementById('fill-' + n).style.width = pct + '%';
+        }
+      });
+
+      audio.addEventListener('ended', () => {
+        const btn = document.querySelector('#card-' + n + ' .play-btn');
+        btn.innerHTML = '&#9654;';
+        btn.classList.remove('playing');
+        document.getElementById('card-' + n).classList.remove('active');
+        document.getElementById('fill-' + n).style.width = '0%';
+        currentPlaying = null;
+      });
+    })(n);
+  }
+</script>
+</body>
+</html>
