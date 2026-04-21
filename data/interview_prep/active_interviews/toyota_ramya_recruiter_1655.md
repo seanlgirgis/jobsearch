@@ -29,6 +29,10 @@
   - [When can you start?](#when-can-you-start)
   - [Salary expectation?](#salary-expectation)
 - [Honest Gap — Terraform](#honest-gap--terraform)
+- [Your Key Stories](#your-key-stories)
+  - [Story 1 — FAST Project (G6 / Dynatrace ETL)](#story-1--fast-project-g6--dynatrace-etl)
+  - [Story 2 — HorizonScale ML Forecasting Engine](#story-2--horizonscale-ml-forecasting-engine)
+  - [Story 3 — AWS Hybrid Data Platform](#story-3--aws-hybrid-data-platform)
 - [Questions To Ask Ramya](#questions-to-ask-ramya)
 - [Logistics Checklist](#logistics-checklist)
 
@@ -218,6 +222,15 @@ Own it cleanly. Do not over-explain. Move on.
 
 ### "Tell me about a challenging project"
 
+Use **FAST Project** if they probed on Dynatrace or observability. Use **HorizonScale** for ML/scale/automation. Both are fully scripted in the [Your Key Stories](#your-key-stories) section.
+
+**FAST Project punch line:**
+> "At G6 I built an ETL pipeline mining Dynatrace real-user data to find
+> the exact bottlenecks costing Brand.com revenue — the FAST project.
+> Instrument, extract, mine, act. Same pattern I use everywhere."
+
+**HorizonScale punch line:**
+
 > "HorizonScale is the one I am most proud of. The challenge was scale
 > and speed — I needed to forecast capacity for thousands of infrastructure
 > assets 6 months ahead, but the legacy process was a 10-day manual Excel
@@ -312,6 +325,64 @@ Own it cleanly. Do not over-explain. Move on.
 ### "Salary expectation?"
 
 > "I am targeting $185,000 base."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+## Your Key Stories
+
+---
+
+### Story 1 — FAST Project (G6 / Dynatrace ETL)
+
+**Use when asked:** Observability experience · Dynatrace · ETL for business impact · Data-driven optimization
+
+**Situation:** G6 Hospitality — parent company of Motel 6 — had performance issues on Brand.com, their revenue-generating ecommerce site. No one had a clear picture of where real users were experiencing slowdowns or what was causing them.
+
+**Task:** Mine Dynatrace AppMon telemetry to identify the actual performance bottlenecks impacting real users — not just synthetic tests, but real-user behavior data.
+
+**Action:** Built the FAST project — an ETL pipeline that extracted real-user performance metrics directly from Dynatrace AppMon. Pulled transaction traces, response times, error rates, and user journey data. Applied data mining techniques to segment by transaction type, geography, and device. Identified specific bottlenecks in the ecommerce checkout and search flows that were degrading conversion.
+
+**Result:** Delivered data-backed optimization recommendations to the engineering team. Critical money-generating flows on Brand.com were improved. The project demonstrated that the performance problem was not infrastructure capacity — it was specific code paths and third-party integrations identified through the data.
+
+> "At G6 I built an ETL pipeline that mined Dynatrace AppMon for real-user performance data
+> across the Brand.com ecommerce site. We used data mining to identify the exact bottlenecks
+> causing revenue loss — not guesses, not synthetic tests, actual user behavior data.
+> That is the FAST project — Find And Stop Trouble. It is the same pattern I use everywhere:
+> instrument, extract, mine, act."
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### Story 2 — HorizonScale ML Forecasting Engine
+
+**Use when asked:** Most impactful project · Python at scale · ML in production · Automation
+
+**Situation:** At Citi, infrastructure capacity forecasting was a 10-day manual Excel process. Reactive, error-prone, and couldn't scale across thousands of assets.
+
+**Task:** Replace it entirely with an automated ML-driven platform.
+
+**Action:** Built HorizonScale from scratch — PySpark telemetry pipeline at banking scale, Prophet for time-series forecasting with seasonality decomposition, scikit-learn classifiers for binary risk flagging. Generator-based parallel architecture processing thousands of assets simultaneously. Deployed on AWS with a Streamlit dashboard for real-time leadership visibility and CI/CD pipelines for consistent delivery.
+
+**Result:** 90% cycle time reduction. 6-month ahead bottleneck prediction at 90%+ accuracy. Went from 10 days manual to minutes automated.
+
+[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+
+---
+
+### Story 3 — AWS Hybrid Data Platform
+
+**Use when asked:** AWS architecture · ETL on AWS · Cloud migration
+
+**Situation:** Oracle on-prem for reporting, but ML forecasting workloads needed cloud scale.
+
+**Task:** Extend the data platform into AWS without breaking existing Oracle reporting.
+
+**Action:** Built hybrid platform — S3 as landing zone for raw telemetry, AWS Glue for ETL transformation, Redshift for forecasting workloads. Containerized Python ETL jobs on ECS/Fargate with Docker. CI/CD pipelines for deployment consistency.
+
+**Result:** Oracle reporting stayed intact. Heavy ML workloads moved to Redshift at cloud scale. Platform-grade, not a one-off migration.
 
 [↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
 
