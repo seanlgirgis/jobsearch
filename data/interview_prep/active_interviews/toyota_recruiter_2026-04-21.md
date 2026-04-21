@@ -16,6 +16,19 @@
 - [Key Reframe: Capital One vs Toyota](#key-reframe-capital-one-vs-toyota-language)
 - [Your 4 Key Stories](#your-4-key-stories-toyota-framing)
 - [Likely Questions Codie Will Ask](#likely-questions-codie-will-ask)
+  - [Tell me about yourself](#tell-me-about-yourself)
+  - [Give me a specific framework example](#give-me-a-specific-framework-example)
+  - [Tell me about your ML forecasting experience](#tell-me-about-your-ml-forecasting-experience)
+  - [Location / on-site comfort](#location--on-site-comfort)
+  - [Why Toyota / Why TFS?](#why-toyota--why-tfs)
+  - [What are you looking for?](#what-are-you-looking-for-in-your-next-role)
+  - [Why are you leaving Citi?](#why-are-you-leaving--what-happened-at-citi)
+  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - [Salary expectation](#whats-your-salary-expectation)
+  - [When can you start?](#when-can-you-start)
+  - [Do you require sponsorship?](#do-you-require-sponsorship)
+  - [Airflow experience?](#airflow-experience)
+  - [Docker / CI/CD?](#docker--cicd-1)
 - [What Codie Will NOT Ask](#what-codie-will-not-ask-save-for-technical-screen)
 - [Questions To Ask Codie](#questions-to-ask-codie)
 - [Logistics Checklist](#logistics-checklist)
@@ -196,80 +209,184 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 ## Likely Questions Codie Will Ask
 
-### "Tell me about yourself"
-Use the Opening 2 Minutes above. Hit platform framing hard.
+---
 
-**Concise recruiter version (45-60 seconds):**
-> "I'm a Senior Data Engineer and Python developer with over 20 years of experience
-> building scalable data platforms and reusable frameworks. I'm based in Plano,
-> so the location is a perfect fit. Most recently at Citi, I led capacity-planning
-> data infrastructure across more than 6,000 endpoints, building reusable automation
-> and ML forecasting platforms that reduced manual effort by 90% and improved
-> planning accuracy significantly. What I'm looking for is a hands-on lead role
-> where I build reusable Python frameworks that help multiple teams move faster —
-> which is exactly the Toyota Financial Services Enterprise Platforms mission."
+### "Tell me about yourself"
+
+> "I am a Senior Data Engineer and Python Developer with over 20 years of experience
+> across an expansive technology toolset. My focus has always been building scalable
+> data platforms and reusable frameworks — not just pipelines for one team, but
+> platforms that accelerate delivery across the entire organization.
+>
+> Most recently at Citi, I led capacity planning and infrastructure data engineering
+> across 4 global regions. We monitored tens of thousands of servers across the globe.
+> I built the data pipelines and ML forecasting systems that replaced what used to be
+> a 10-day manual Excel process — we got reports out in the first 2 days of every month
+> with zero errors. We also delivered significant cost savings by identifying
+> underutilized infrastructure, while averting bottlenecks by expanding resources
+> before they hit capacity.
+>
+> I'm very passionate about new technologies — I continuously monitor and adopt
+> innovations as they become available. The Lead Python Developer role at Toyota
+> Financial Services is exactly the environment I'm looking for — building reusable
+> platforms at enterprise scale, in Plano, with a company whose Kaizen culture
+> matches how I approach engineering."
+
+*(Target: 75–90 seconds)*
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
+---
+
+### "Give me a specific framework example"
+
+> "Before I joined the team, Excel sheets were used on a monthly basis to analyze
+> capacity resource data and filter out both at-risk servers and underutilized ones.
+> That process took up to 10 days and had significant errors.
+>
+> I built a reusable ETL framework to replace it. It consumed data from multiple
+> systems — BMC TrueSight, AppDynamics, and others — cleaned and standardized the
+> data, applied the capacity calculations, then automated the filtering and reporting.
+>
+> The framework was designed so that any new data source could be onboarded by
+> plugging in a new ingestion module without touching the core pipeline. Other
+> teams could consume the output directly — it wasn't built for my team alone.
+>
+> The result: reports delivered in the first 2 days of each month instead of 10,
+> errors eliminated, and a platform that scaled to additional data sources
+> without rewriting anything."
+
+*(This is your anchor story — use it every time they ask about frameworks)*
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
+---
+
+### "Tell me about your ML forecasting experience"
+
+> "At Citi it was critical to have a realistic forecasting engine for the condition
+> servers were expected to be in over the next 3 to 6 months.
+>
+> I built a pipeline that consumed time-series telemetry going back a couple of years.
+> After the standard ingestion and transformation steps, I created forecasting models
+> using Prophet and scikit-learn to predict capacity. I ran multiple model types and
+> back-tested them against historical data to find the best fit for different server
+> classes — because not all servers behave the same way.
+>
+> We were able to predict server consumption 6 months into the future. In practice
+> we used the 3-month output as our reliable planning horizon.
+>
+> A key part of the model design was accounting for seasonality — holidays, quarter-end
+> processing spikes, special business seasons all affect consumption, and Prophet
+> handles that natively. The result was a significant improvement in provisioning
+> accuracy and gave business units ample time to avert bottlenecks before they
+> impacted service."
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
+---
+
+### "Location / on-site comfort"
+
+> "I'm very close to the Toyota campus — it's practically local for me. I actually
+> followed the planning and development of the campus over the years, including
+> the eco-design concepts built into it. It would be a genuine pleasure to work
+> inside that campus with a company that has such a strong track record of
+> engineering excellence and continuous improvement."
+
+*(Personal and genuine — this detail stands out. Keep it exactly like this.)*
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
 
 ---
 
 ### "Why Toyota / Why TFS?"
+
 > "Toyota Financial Services sits at the intersection of two things I find
 > genuinely compelling — financial-scale data problems and Toyota's engineering
 > culture. The Toyota Way, Kaizen — continuous improvement — is honestly how I
 > approach platform engineering. You ship a framework, you iterate, you make
-> it better. That philosophy fits me naturally. And Plano is home — this is
-> exactly where I want to be doing this work."
+> it better. That philosophy fits me naturally.
+>
+> The Enterprise Platforms focus is exactly the kind of work I want to be doing —
+> building reusable foundations that accelerate delivery for everyone, not just
+> one team. And Plano is home. This is exactly where I want to be doing this work."
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
 
 ---
 
 ### "What are you looking for in your next role?"
+
 > "Hands-on technical lead work — building Python platforms and frameworks
 > at enterprise scale. I want to design the architecture and get into the code,
 > not purely manage. The Lead Python Developer title at TFS fits that perfectly."
 
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
 ---
 
 ### "Why are you leaving / what happened at Citi?"
+
 > "I was at Citi for 8 years and delivered strong results. My role was eliminated
 > as part of a broader organizational restructuring — not performance related.
 > I've used the time to sharpen my skills and I'm now actively looking for the
 > right long-term fit. TFS is at the top of my list."
 
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
 ---
 
 ### "Are you interviewing elsewhere?"
+
 > "Yes, I have a few conversations in progress — including with Capital One and
 > Samsung. That said, Toyota Financial Services is one of my top priorities
 > because of the enterprise platform focus, the long-term stability, and the
 > Kaizen culture that strongly matches how I work."
 
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
 ---
 
 ### "What's your salary expectation?"
+
 > "Based on the role and my experience, I'm targeting around $185,000 base.
 > I'm flexible depending on the full comp package."
 
-**Say $185,000 once. Pause. Do not offer a range.**
+**Say $185,000 once. Pause. Do not offer a range. Do not say $175K–$185K.**
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
 
 ---
 
 ### "When can you start?"
+
 > "I am available to start immediately and can align with your preferred onboarding timeline."
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
 
 ---
 
 ### "Do you require sponsorship?"
+
 > "No. As a U.S. citizen I'm fully authorized to work for any employer and do not require sponsorship now or in the future."
+
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
 
 ---
 
 ### "Airflow experience?"
+
 > "Yes — Airflow for orchestrating ETL pipelines at Citi. DAG design, task dependencies,
 > retry logic, scheduling. Sensor tasks for data arrival, transformation steps with
 > upstream dependencies, load tasks with idempotency checks to prevent duplicate writes."
 
+[↑ Back to top](#toyota-financial-services--lead-python-developer)
+
 ---
 
 ### "Docker / CI/CD?"
+
 > "Yes. Containerized Python ETL workloads on ECS at Citi — Docker for packaging,
 > ECS for scaling. Git-based CI/CD with feature branches, PR-required code review,
 > and automated testing on every push."
