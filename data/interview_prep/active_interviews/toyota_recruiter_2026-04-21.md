@@ -124,6 +124,9 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 ### "Tell me about yourself"
 Use the Opening 2 Minutes above. Hit platform framing hard.
 
+**Concise recruiter version (45-60 seconds):**
+> "I'm a Senior Data Engineer and Python developer with over 20 years of experience building scalable data platforms and reusable frameworks. I'm based in Plano, so the location is an excellent fit. Most recently at Citi, I led capacity-planning data infrastructure across more than 6,000 endpoints, where I built automation and forecasting pipelines that significantly reduced manual effort and improved planning speed. What I'm looking for now is a hands-on lead role where I can build reusable Python frameworks that help multiple teams move faster, which is exactly why the Toyota Financial Services Enterprise Platforms role stands out to me."
+
 ### "Why Toyota / Why TFS?"
 > "Toyota Financial Services operates at a scale that's genuinely interesting —
 > millions of customer transactions, compliance requirements, enterprise-wide
