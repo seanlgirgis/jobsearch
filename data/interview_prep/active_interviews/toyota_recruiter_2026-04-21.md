@@ -188,6 +188,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > "Containerized Python ETL workloads on ECS at Citi. Docker for packaging,
 > ECS for scaling. Git-based branching, automated testing as part of the pipeline."
 
+**Concise recruiter version (15-20 seconds):**
+> "Yes. I containerized Python ETL workloads on ECS at Citi, used Docker for packaging, and ECS for scaling. I also worked in a Git-based CI/CD flow with automated testing as part of the delivery pipeline."
+
 ---
 
 ## What Codie Will NOT Ask (Save For Technical Screen)
