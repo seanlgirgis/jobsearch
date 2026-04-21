@@ -6,6 +6,37 @@
 
 ---
 
+## Table of Contents
+
+- [The Role](#the-role)
+- [Your Opening 2 Minutes](#your-opening-2-minutes)
+- [Which Role To Target](#which-role-to-target)
+- [Your 4 Key Stories](#your-4-key-stories-star-format)
+  - [Story 1 — ETL Automation at Scale](#story-1--etl-automation-at-scale)
+  - [Story 2 — ML Forecasting for Business Impact](#story-2--ml-forecasting-for-business-impact)
+  - [Story 3 — Cost Savings From Data Mining](#story-3--cost-savings-from-data-mining)
+  - [Story 4 — AWS Hybrid Data Platform](#story-4--aws-hybrid-data-platform)
+- [Likely Questions Sam Will Ask](#likely-questions-sam-will-ask)
+  - [Tell me about yourself](#tell-me-about-yourself)
+  - [Why Capital One?](#why-capital-one)
+  - [What are you looking for?](#what-are-you-looking-for-in-your-next-role)
+  - [Streaming / Kafka experience?](#whats-your-experience-with-streaming--kafka)
+  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - [Salary expectation?](#whats-your-salary-expectation)
+  - [When can you start?](#when-can-you-start)
+  - [Tell me about a challenging project](#tell-me-about-a-challenging-project)
+  - [How do you handle ambiguity?](#how-do-you-handle-ambiguity)
+- [Things To Refresh Before The Call](#things-to-refresh-before-the-call)
+  - [AWS Quick Review](#aws--quick-review)
+  - [Kafka Basics](#kafka-basics)
+  - [Python / Data Engineering](#python--data-engineering)
+  - [Capital One Culture](#capital-one-culture)
+- [Questions To Ask Sam](#questions-to-ask-sam)
+- [Logistics Checklist](#logistics-checklist)
+- [After The Call](#after-the-call)
+
+---
+
 ## The Role
 
 **Title:** Lead Data Engineer (Individual Contributor)
@@ -20,6 +51,8 @@
 - Don't give a range — they anchor to the bottom
 - Don't say "whatever is fair"
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
 ---
 
 ## Your Opening 2 Minutes
@@ -29,6 +62,8 @@
 > sweet spot for me. I've been doing Python pipelines, cloud data platforms,
 > and ML forecasting at scale for most of my career — most recently 8 years
 > at Citi in a Senior Capacity and Data Engineer role."
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
@@ -40,37 +75,45 @@
 - Lead SWE = Java/Scala microservices, more application-layer — not your strongest hand
 - Senior Lead SWE = Senior Manager equivalent, heavy leadership loop — too early in this conversation
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
 ---
 
 ## Your 4 Key Stories (STAR Format)
 
 ### Story 1 — ETL Automation at Scale
-**Situation:** Citi had a manual capacity planning process across 6,000+ endpoints.
+**Situation:** Citi had a manual capacity planning process across 6,000+ endpoints — Excel sheets, 10-day cycle, error-prone.
 **Task:** Replace it with something automated and reliable.
-**Action:** Built automated ETL pipelines in Python/Pandas, pulling P95 telemetry from BMC TrueSight/TSCO, ingesting into Oracle schemas optimized for historical retention.
-**Result:** Replaced legacy manual processes entirely. Unified disparate feeds into a single reporting platform with executive dashboards.
+**Action:** Built automated ETL pipelines in Python/Pandas, pulling P95 telemetry from BMC TrueSight/TSCO and other systems, ingesting into Oracle schemas optimized for historical retention.
+**Result:** Replaced legacy manual processes entirely. Reports delivered in 2 days instead of 10. Unified disparate feeds into a single reporting platform with executive dashboards.
 
 > *Use when asked: "Tell me about a complex pipeline you built" / "Describe a time you automated a manual process"*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
 ### Story 2 — ML Forecasting for Business Impact
 **Situation:** Infrastructure provisioning was reactive — problems were caught too late.
 **Task:** Build a system that predicts bottlenecks before they hit.
-**Action:** Developed ML forecasting models using Prophet and scikit-learn to predict capacity needs 3–6 months ahead. Fed historical telemetry data through the pipeline into the models.
-**Result:** Improved provisioning accuracy, gave the business time to act before bottlenecks materialized. Reduced emergency capacity requests.
+**Action:** Developed ML forecasting models using Prophet and scikit-learn to predict capacity needs 3–6 months ahead. Fed historical time-series telemetry through the pipeline into the models. Accounted for seasonality and holidays. Back-tested multiple model types per server class.
+**Result:** Improved provisioning accuracy significantly. Gave the business ample time to act before bottlenecks materialized. Reduced emergency capacity requests.
 
 > *Use when asked: "Tell me about a time you used data to drive a business decision" / "Have you worked with ML in production?"*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
 ### Story 3 — Cost Savings From Data Mining
 **Situation:** Large enterprise infrastructure estate with no visibility into underutilization.
 **Task:** Identify waste and drive consolidation.
-**Action:** Applied statistical analysis and data mining on utilization patterns across the estate. Built Python scripts to flag underutilized servers.
-**Result:** Identified underutilized infrastructure, drove hardware consolidation, delivered measurable cost savings. [Add $ number if you remember one]
+**Action:** Applied statistical analysis and data mining on utilization patterns across the estate. Built Python scripts to flag underutilized servers alongside over-utilized ones in the same tier.
+**Result:** Identified that bottlenecks were scheduling/allocation gaps, not capacity gaps. Drove hardware consolidation, delivered measurable cost savings. Avoided net-new hardware procurement.
 
 > *Use when asked: "Tell me about a time you delivered business value" / "Cost optimization experience?"*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
@@ -82,99 +125,167 @@
 
 > *Use when asked: "Tell me about your AWS experience" / "Have you worked with cloud data warehousing?"*
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
 ---
 
-## Likely Questions Sam Will Ask + Your Answers
+## Likely Questions Sam Will Ask
+
+---
 
 ### "Tell me about yourself"
+
 > "Sure. I'm a Senior Data Engineer with over 20 years of enterprise experience,
 > and most recently I spent 8 years at Citi as a Senior Capacity and Data Engineer —
 > that was my longest and deepest role.
 >
 > At Citi I built and owned the data infrastructure for capacity planning across
-> 6,000+ endpoints. That meant automated ETL pipelines in Python pulling telemetry
-> from enterprise monitoring systems, Oracle schemas for historical retention,
-> ML forecasting models using Prophet and scikit-learn to predict bottlenecks
-> 3 to 6 months ahead, and a hybrid AWS platform — S3, Glue, Redshift, ECS —
-> that let us scale the heavy forecasting workloads in the cloud while keeping
-> existing reporting on-prem.
+> 6,000+ endpoints across 4 global regions. That meant automated ETL pipelines
+> in Python pulling telemetry from BMC TrueSight, AppDynamics, and other enterprise
+> monitoring systems — replacing what used to be a 10-day manual Excel process.
+> We got reports out in 2 days with zero errors.
 >
-> Before Citi I spent several years at CA Technologies as an SME for APM,
-> worked at Sabre on data migration, and earlier in my career I was a developer
-> and systems engineer across telecom and government projects including Sprint
-> and the IRS CADE project at CSC.
+> I also built ML forecasting models using Prophet and scikit-learn to predict
+> capacity 3 to 6 months ahead, accounting for seasonality and holidays. And I
+> built a hybrid AWS platform — S3, Glue, Redshift, ECS — to scale the heavy
+> forecasting workloads in the cloud while keeping existing reporting on-prem.
 >
 > My core is Python, SQL, cloud data platforms on AWS, and building pipelines
-> that actually serve business decisions — not just move data around.
+> that serve real business decisions — not just move data around.
 >
 > I'm based in Plano, actively looking, and the Lead Data Engineer role
 > at Capital One is a strong fit."
 
-*(Target: 90 seconds spoken. Practice it once out loud before Wednesday.)*
+*(Target: 90 seconds. Practice it out loud before the call.)*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### "Why Capital One?"
+
 > "Capital One operates at a scale that's genuinely interesting from a data
 > engineering perspective — millions of customers, real-time transactions,
 > compliance requirements. That combination of scale, cloud-first culture,
 > and hands-on technical work at the Lead level is exactly what I'm looking for."
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
+
 ### "What are you looking for in your next role?"
+
 > "Hands-on technical work — I don't want to move into pure management.
 > I want to be designing and building data systems, working with a strong team,
 > and solving hard problems at scale. The Lead DE title at Capital One fits that."
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
+
 ### "What's your experience with streaming / Kafka?"
+
 > "My background is stronger on the batch and warehouse side — Redshift,
-> Snowflake, Spark for large-scale processing. I've worked adjacent to
-> streaming architectures and I'm actively building in that space.
-> It's an area I'm ramping on." *(Honest, not damaging)*
+> Spark for large-scale processing, Python ETL pipelines at enterprise scale.
+> I've been actively studying Kafka concepts — topics, partitions, consumer groups,
+> delivery semantics. I understand the architecture and can ramp quickly
+> in a production context." *(Honest, not damaging)*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### "Are you interviewing elsewhere?"
-> "I have a few conversations in progress. Capital One is at the top of my
-> list given the role fit and the Plano location."
+
+> "I have a few conversations in progress — including with Toyota Financial Services
+> and Samsung. Capital One is at the top of my list given the role fit,
+> the Plano location, and the engineering culture."
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### "What's your salary expectation?"
+
 > "Based on the role and my experience, I'm targeting around $185,000 base.
 > I'm flexible depending on the full comp package including bonus and equity."
 
+**Say $185,000 once. Pause. Do not give a range.**
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
+
 ### "When can you start?"
-> "I can be flexible — ideally I'd like 2–3 weeks to wrap up properly,
-> but I can discuss if there's urgency on your end."
+
+> "I am available to start immediately and can align with your preferred onboarding timeline."
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### "Tell me about a challenging project"
-> Use Story 1 (ETL automation) or Story 4 (AWS platform). Both show scale and complexity.
+
+Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale and complexity.
+
+> Story 1 punch line: *"Replaced a 10-day manual Excel process with a fully automated
+> pipeline — reports in 2 days, zero errors, consumed by multiple teams."*
+
+> Story 4 punch line: *"Built a hybrid Oracle-to-AWS platform — preserved legacy
+> reporting while moving ML forecasting workloads to cloud scale on Redshift."*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### "How do you handle ambiguity?"
+
 > "At Citi, capacity planning had no clear owner when I joined — just a manual
 > process and a lot of tribal knowledge. I mapped out what data we had,
 > what decisions depended on it, and built the system around that.
 > I find that when there's ambiguity, the data usually tells you what to do next."
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
 ---
 
-## Things To Refresh Before Wednesday
+## Things To Refresh Before The Call
 
-### AWS — quick review (30 min)
+### AWS — Quick Review
 - [ ] S3 concepts: buckets, prefixes, partitioning for performance
 - [ ] Glue: crawlers, ETL jobs, data catalog
 - [ ] Redshift: distribution styles, sort keys, WLM (workload management)
 - [ ] ECS vs EC2: when to use containers vs raw instances
 
-### Kafka Basics — just enough to not be cold (1 hour)
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
+
+### Kafka Basics
 - [ ] What it is: distributed log, topics, partitions, consumer groups
 - [ ] Producer → topic → consumer mental model
 - [ ] Why it's used: decoupling, real-time event streaming, at-least-once delivery
 - [ ] How it differs from batch: push vs pull, latency vs throughput
-- Key phrase to use: *"event-driven architecture"*
+- Key phrase: *"event-driven architecture"*
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### Python / Data Engineering
 - [ ] Review your ETL code patterns — be ready to describe a pipeline end-to-end
-- [ ] Know: pandas, scikit-learn, Prophet (you've used all of these)
+- [ ] Know cold: pandas, scikit-learn, Prophet, PySpark
+
+[↑ Back to top](#capital-one--lead-data-engineer)
+
+---
 
 ### Capital One Culture
 - [ ] They emphasize: hands-on, full-stack thinking, Agile, cloud-native
 - [ ] Key phrase they use: *"full system design and architecture knowledge"*
 - [ ] They value engineers who stay technical at senior levels — lean into that
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
@@ -186,6 +297,8 @@
 4. "What does the interview process look like after this call?"
 5. "Is the Plano role hybrid or on-site?"
 
+[↑ Back to top](#capital-one--lead-data-engineer)
+
 ---
 
 ## Logistics Checklist
@@ -194,7 +307,10 @@
 - [ ] Phone charged and ready 10 min before
 - [ ] Quiet room — Sam calls you directly
 - [ ] Have this doc open on second screen
-- [ ] Know your numbers: 20+ years exp, 8 years at Citi, 6,000+ endpoints, $185k target
+- [ ] Key numbers: 20+ years, 8 years Citi, 6,000+ endpoints, 4 global regions, $185K target
+- [ ] Salary: $185,000 — single number, no range
+
+[↑ Back to top](#capital-one--lead-data-engineer)
 
 ---
 
@@ -206,3 +322,5 @@ If it goes well Sam will schedule you for a technical screen. Typical Capital On
 3. Virtual onsite (3–4 rounds: coding + system design + behavioral)
 
 After the call — update `data/jobs/` metadata for Capital One with status `INTERVIEW` and add a history entry.
+
+[↑ Back to top](#capital-one--lead-data-engineer)
