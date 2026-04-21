@@ -181,6 +181,9 @@ Use the Opening 2 Minutes above. Hit platform framing hard.
 > "Yes — Airflow for orchestrating ETL pipelines. DAG design, task dependencies,
 > retry logic, scheduling. Part of the orchestration layer in my AWS platform at Citi."
 
+**Concise recruiter version (15-20 seconds):**
+> "Yes. I used Airflow to orchestrate ETL pipelines, including DAG design, task dependencies, and retry logic. My DAGs used sensor tasks for data arrival, then transformation steps with clear upstream dependencies, followed by load tasks with idempotency checks to prevent duplicate writes."
+
 ### "Docker / CI/CD?"
 > "Containerized Python ETL workloads on ECS at Citi. Docker for packaging,
 > ECS for scaling. Git-based branching, automated testing as part of the pipeline."
