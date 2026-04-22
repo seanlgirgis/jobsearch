@@ -108,6 +108,10 @@ Every time you describe your Citi work, use **fab vocabulary**.
 
 If you translate your own work into their language, they do the mapping for you.
 
+**Quick definitions to use in the interview:**
+- **MES (Manufacturing Execution System):** The real-time system that tracks every lot, step, tool state, and cycle time on the fab floor; it is the core data source for capacity analysis.
+- **Factory Physics:** The operating math of manufacturing flow (WIP, throughput, cycle time, bottlenecks), including Little's Law, used to predict where constraints will appear.
+
 [↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
 
 ---
