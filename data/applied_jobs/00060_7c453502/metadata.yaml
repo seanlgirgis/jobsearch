@@ -6,6 +6,17 @@ application:
   - date: '2026-04-14'
     status: Applied
     notes: Submitted Samsung Capacity Planning Engineer application.
+  - date: '2026-04-22'
+    status: HM_INTERVIEW_COMPLETE
+    notes: >
+      HM phone interview completed with David Rojas. Call went OK.
+      David asked about Citi experience and motivation for moving into manufacturing.
+      Key intel gathered: fab NOT yet in production — going live within next few months.
+      Currently using data from sister sites to build models. Team is SQL and Excel
+      focused today — Python and AI push is the reason this role exists.
+      Sean asked strong questions: process maturity, tech stack, MES vs other data
+      sources, on-premise vs cloud, AI adoption plans.
+      Expected timeline: 1-2 weeks to hear back.
   applied: true
   applied_date: '2026-04-14'
   applied_method: LinkedIn
@@ -30,7 +41,7 @@ role: Capacity Planning Engineer
 score: 90
 score_date: '2026-04-14T00:00:00.000000'
 source: LinkedIn
-status: ACCEPTED
+status: HM_INTERVIEW_COMPLETE
 uuid: 7c453502-e8ed-4c71-b1f2-e89f76a9b713
 job_hash: 3bf763173df1401720cb4b47e9b578d4d8d7e49b7c0e50c1c0c76f65d1c0d8f7
 migrated_to_applied_jobs: true
