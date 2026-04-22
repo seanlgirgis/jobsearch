@@ -111,6 +111,9 @@ If you translate your own work into their language, they do the mapping for you.
 **Quick definitions to use in the interview:**
 - **MES (Manufacturing Execution System):** The real-time system that tracks every lot, step, tool state, and cycle time on the fab floor; it is the core data source for capacity analysis.
 - **Factory Physics:** The operating math of manufacturing flow (WIP, throughput, cycle time, bottlenecks), including Little's Law, used to predict where constraints will appear.
+- **Little's Law:** `WIP = Throughput × Cycle Time`; if two are known, the third can be calculated to diagnose flow constraints.
+- **Takt time:** The pace required to meet demand (available production time divided by required output); if process cycle time is slower than takt, a gap exists.
+- **OEE (Overall Equipment Effectiveness):** `Availability × Performance × Quality`; converts theoretical tool capacity into realistic effective capacity.
 
 [↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
 
