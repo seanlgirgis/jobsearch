@@ -8,46 +8,46 @@
 
 ## Table of Contents
 
-- [Mock Feedback — April 21](#mock-feedback--april-21)
-- [Reading Codie](#reading-codie)
-- [The Role In Plain English](#the-role-in-plain-english)
-- [Salary](#salary)
-- [Your Opening 2 Minutes](#your-opening-2-minutes-toyota-version)
-- [Key Reframe: Capital One vs Toyota](#key-reframe-capital-one-vs-toyota-language)
-- [Your 4 Key Stories](#your-4-key-stories-toyota-framing)
-- [Likely Questions Codie Will Ask](#likely-questions-codie-will-ask)
-  - [Tell me about yourself](#tell-me-about-yourself)
-  - [Give me a specific framework example](#give-me-a-specific-framework-example)
-  - [Tell me about your ML forecasting experience](#tell-me-about-your-ml-forecasting-experience)
-  - [Location / on-site comfort](#location--on-site-comfort)
-  - [Why Toyota / Why TFS?](#why-toyota--why-tfs)
-  - [What are you looking for?](#what-are-you-looking-for-in-your-next-role)
-  - [Why are you leaving Citi?](#why-are-you-leaving--what-happened-at-citi)
-  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
-  - [Salary expectation](#whats-your-salary-expectation)
-  - [When can you start?](#when-can-you-start)
-  - [Do you require sponsorship?](#do-you-require-sponsorship)
-  - [Airflow experience?](#airflow-experience)
-  - [Docker / CI/CD?](#docker--cicd-1)
-- [What Codie Will NOT Ask](#what-codie-will-not-ask-save-for-technical-screen)
-- [Questions To Ask Codie](#questions-to-ask-codie)
-- [Logistics Checklist](#logistics-checklist)
-- [After The Call](#after-the-call)
-- [Technical Screen Prep](#technical-screen-prep--full-gap-coverage)
-  - [Python OOP & Framework Design](#python-oop--framework-design)
-  - [Apache Airflow](#apache-airflow--dag-design)
-  - [APIs & Microservices](#apis--microservices)
-  - [Real-Time Streaming / Kafka](#real-time-streaming--kafka)
-  - [Data Validation Frameworks](#data-validation-frameworks)
-  - [Logging, Testing, Security & Instrumentation](#logging-testing-security--instrumentation)
-  - [Docker & CI/CD](#docker--cicd)
-  - [SQL & NoSQL](#sql--nosql-databases)
-  - [Version Control](#version-control--branching--code-reviews)
-  - [Mentoring Engineers](#mentoring-engineers)
-  - [Hiring & Talent Attraction](#hiring--talent-attraction)
-  - [Self-Service Tools](#self-service-tools--frameworks)
-  - [Why Toyota — Company Research](#why-toyota-specifically--company-research)
-  - [Job Requirements Coverage Checklist](#job-requirements-coverage-checklist)
+- <a id="toc-mock-feedback--april-21"></a>[Mock Feedback — April 21](#mock-feedback--april-21)
+- <a id="toc-reading-codie"></a>[Reading Codie](#reading-codie)
+- <a id="toc-the-role-in-plain-english"></a>[The Role In Plain English](#the-role-in-plain-english)
+- <a id="toc-salary"></a>[Salary](#salary)
+- <a id="toc-your-opening-2-minutes-toyota-version"></a>[Your Opening 2 Minutes](#your-opening-2-minutes-toyota-version)
+- <a id="toc-key-reframe-capital-one-vs-toyota-language"></a>[Key Reframe: Capital One vs Toyota](#key-reframe-capital-one-vs-toyota-language)
+- <a id="toc-your-4-key-stories-toyota-framing"></a>[Your 4 Key Stories](#your-4-key-stories-toyota-framing)
+- <a id="toc-likely-questions-codie-will-ask"></a>[Likely Questions Codie Will Ask](#likely-questions-codie-will-ask)
+  - <a id="toc-tell-me-about-yourself"></a>[Tell me about yourself](#tell-me-about-yourself)
+  - <a id="toc-give-me-a-specific-framework-example"></a>[Give me a specific framework example](#give-me-a-specific-framework-example)
+  - <a id="toc-tell-me-about-your-ml-forecasting-experience"></a>[Tell me about your ML forecasting experience](#tell-me-about-your-ml-forecasting-experience)
+  - <a id="toc-location--on-site-comfort"></a>[Location / on-site comfort](#location--on-site-comfort)
+  - <a id="toc-why-toyota--why-tfs"></a>[Why Toyota / Why TFS?](#why-toyota--why-tfs)
+  - <a id="toc-what-are-you-looking-for-in-your-next-role"></a>[What are you looking for?](#what-are-you-looking-for-in-your-next-role)
+  - <a id="toc-why-are-you-leaving--what-happened-at-citi"></a>[Why are you leaving Citi?](#why-are-you-leaving--what-happened-at-citi)
+  - <a id="toc-are-you-interviewing-elsewhere"></a>[Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - <a id="toc-whats-your-salary-expectation"></a>[Salary expectation](#whats-your-salary-expectation)
+  - <a id="toc-when-can-you-start"></a>[When can you start?](#when-can-you-start)
+  - <a id="toc-do-you-require-sponsorship"></a>[Do you require sponsorship?](#do-you-require-sponsorship)
+  - <a id="toc-airflow-experience"></a>[Airflow experience?](#airflow-experience)
+  - <a id="toc-docker--cicd-1"></a>[Docker / CI/CD?](#docker--cicd-1)
+- <a id="toc-what-codie-will-not-ask-save-for-technical-screen"></a>[What Codie Will NOT Ask](#what-codie-will-not-ask-save-for-technical-screen)
+- <a id="toc-questions-to-ask-codie"></a>[Questions To Ask Codie](#questions-to-ask-codie)
+- <a id="toc-logistics-checklist"></a>[Logistics Checklist](#logistics-checklist)
+- <a id="toc-after-the-call"></a>[After The Call](#after-the-call)
+- <a id="toc-technical-screen-prep--full-gap-coverage"></a>[Technical Screen Prep](#technical-screen-prep--full-gap-coverage)
+  - <a id="toc-python-oop--framework-design"></a>[Python OOP & Framework Design](#python-oop--framework-design)
+  - <a id="toc-apache-airflow--dag-design"></a>[Apache Airflow](#apache-airflow--dag-design)
+  - <a id="toc-apis--microservices"></a>[APIs & Microservices](#apis--microservices)
+  - <a id="toc-real-time-streaming--kafka"></a>[Real-Time Streaming / Kafka](#real-time-streaming--kafka)
+  - <a id="toc-data-validation-frameworks"></a>[Data Validation Frameworks](#data-validation-frameworks)
+  - <a id="toc-logging-testing-security--instrumentation"></a>[Logging, Testing, Security & Instrumentation](#logging-testing-security--instrumentation)
+  - <a id="toc-docker--cicd"></a>[Docker & CI/CD](#docker--cicd)
+  - <a id="toc-sql--nosql-databases"></a>[SQL & NoSQL](#sql--nosql-databases)
+  - <a id="toc-version-control--branching--code-reviews"></a>[Version Control](#version-control--branching--code-reviews)
+  - <a id="toc-mentoring-engineers"></a>[Mentoring Engineers](#mentoring-engineers)
+  - <a id="toc-hiring--talent-attraction"></a>[Hiring & Talent Attraction](#hiring--talent-attraction)
+  - <a id="toc-self-service-tools--frameworks"></a>[Self-Service Tools](#self-service-tools--frameworks)
+  - <a id="toc-why-toyota-specifically--company-research"></a>[Why Toyota — Company Research](#why-toyota-specifically--company-research)
+  - <a id="toc-job-requirements-coverage-checklist"></a>[Job Requirements Coverage Checklist](#job-requirements-coverage-checklist)
 
 ---
 
@@ -72,7 +72,7 @@
 ### Start Date
 Said "one week notice" — prep doc says **immediately**. Immediately is stronger at recruiter stage.
 
-[↑ Back to section](#mock-feedback--april-21)
+[↑ Back to TOC](#toc-start-date)
 
 ---
 
@@ -82,7 +82,7 @@ Said "one week notice" — prep doc says **immediately**. Immediately is stronge
 - Toyota uses automated scheduling (Phenom) — large recruiting operation
 - Same playbook as Sam Ali: warm, confident, concise, let them lead
 
-[↑ Back to section](#reading-codie)
+[↑ Back to TOC](#toc-reading-codie)
 
 ---
 
@@ -95,7 +95,7 @@ Toyota wants: **"I build the tools that let OTHER engineers build faster."**
 
 That framing must come through in every answer.
 
-[↑ Back to section](#the-role-in-plain-english)
+[↑ Back to TOC](#toc-the-role-in-plain-english)
 
 ---
 
@@ -109,7 +109,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 **Do NOT say a range.** Giving $175K–$185K hands them the lower number. Say $185K once, then pause.
 
-[↑ Back to section](#salary)
+[↑ Back to TOC](#toc-salary)
 
 ---
 
@@ -144,7 +144,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 *(Target: 90 seconds. Hits: Plano, frameworks, platform thinking, Citi, HorizonScale, Kaizen)*
 
-[↑ Back to section](#your-opening-2-minutes-toyota-version)
+[↑ Back to TOC](#toc-your-opening-2-minutes-toyota-version)
 
 ---
 
@@ -159,7 +159,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 The work is the same. The framing shifts from **"I solved my team's problem"** to **"I built the platform that solves everyone's problem."**
 
-[↑ Back to section](#key-reframe-capital-one-vs-toyota-language)
+[↑ Back to TOC](#toc-key-reframe-capital-one-vs-toyota-language)
 
 ---
 
@@ -203,7 +203,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > *Use when asked: "Tell me about your leadership style" / "Mentoring experience"*
 
-[↑ Back to section](#your-4-key-stories-toyota-framing)
+[↑ Back to TOC](#toc-story-4--mentoring-and-technical-leadership)
 
 ---
 
@@ -234,7 +234,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(Target: 75–90 seconds)*
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-tell-me-about-yourself)
 
 ---
 
@@ -258,7 +258,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(This is your anchor story — use it every time they ask about frameworks)*
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-give-me-a-specific-framework-example)
 
 ---
 
@@ -282,7 +282,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > accuracy and gave business units ample time to avert bottlenecks before they
 > impacted service."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-tell-me-about-your-ml-forecasting-experience)
 
 ---
 
@@ -296,7 +296,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(Personal and genuine — this detail stands out. Keep it exactly like this.)*
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-location--on-site-comfort)
 
 ---
 
@@ -312,7 +312,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > building reusable foundations that accelerate delivery for everyone, not just
 > one team. And Plano is home. This is exactly where I want to be doing this work."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-why-toyota--why-tfs)
 
 ---
 
@@ -322,7 +322,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > at enterprise scale. I want to design the architecture and get into the code,
 > not purely manage. The Lead Python Developer title at TFS fits that perfectly."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-what-are-you-looking-for-in-your-next-role)
 
 ---
 
@@ -333,7 +333,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > I've used the time to sharpen my skills and I'm now actively looking for the
 > right long-term fit. TFS is at the top of my list."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-why-are-you-leaving--what-happened-at-citi)
 
 ---
 
@@ -344,7 +344,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > because of the enterprise platform focus, the long-term stability, and the
 > Kaizen culture that strongly matches how I work."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-are-you-interviewing-elsewhere)
 
 ---
 
@@ -355,7 +355,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 **Say $185,000 once. Pause. Do not offer a range. Do not say $175K–$185K.**
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-whats-your-salary-expectation)
 
 ---
 
@@ -363,7 +363,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > "I am available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-when-can-you-start)
 
 ---
 
@@ -371,7 +371,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > "No. As a U.S. citizen I'm fully authorized to work for any employer and do not require sponsorship now or in the future."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-do-you-require-sponsorship)
 
 ---
 
@@ -381,7 +381,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > retry logic, scheduling. Sensor tasks for data arrival, transformation steps with
 > upstream dependencies, load tasks with idempotency checks to prevent duplicate writes."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-airflow-experience)
 
 ---
 
@@ -391,7 +391,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > ECS for scaling. Git-based CI/CD with feature branches, PR-required code review,
 > and automated testing on every push."
 
-[↑ Back to section](#likely-questions-codie-will-ask)
+[↑ Back to TOC](#toc-docker--cicd)
 
 ---
 
@@ -403,7 +403,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 - Kafka / streaming architecture
 - System design deep dives
 
-[↑ Back to section](#what-codie-will-not-ask-save-for-technical-screen)
+[↑ Back to TOC](#toc-what-codie-will-not-ask-save-for-technical-screen)
 
 ---
 
@@ -419,7 +419,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 1. "What does the interview process look like after this call?"
 2. "What does the team structure look like for the Lead Python Developer role?"
 
-[↑ Back to section](#questions-to-ask-codie)
+[↑ Back to TOC](#toc-questions-to-ask-codie)
 
 ---
 
@@ -433,7 +433,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 - [ ] Key word: **Kaizen** — use it naturally in "Why Toyota"
 - [ ] Salary: $185,000 — single number, no range
 
-[↑ Back to section](#logistics-checklist)
+[↑ Back to TOC](#toc-logistics-checklist)
 
 ---
 
@@ -444,7 +444,7 @@ Typical Toyota loop: Recruiter → Technical screen → Hiring manager → Panel
 
 After the call — update `data/applied_jobs/00039_76829368/metadata.yaml` status to `INTERVIEW`.
 
-[↑ Back to section](#after-the-call)
+[↑ Back to TOC](#toc-after-the-call)
 
 ---
 
@@ -498,7 +498,7 @@ class Extractor(ABC):
     def extract(self) -> pd.DataFrame: ...
 ```
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-python-oop--framework-design)
 
 ---
 
@@ -534,7 +534,7 @@ with DAG('capacity_etl', start_date=datetime(2025,1,1), schedule_interval='@dail
   built-in observability, no scheduler overhead. Would ramp quickly given my
   Airflow foundation."*
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-apache-airflow--dag-design)
 
 ---
 
@@ -574,7 +574,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Mulesoft / Apigee: *"Enterprise API gateway tools — I've worked with the REST
   layer they manage but not configured the gateways themselves. Could ramp quickly."*
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-apis--microservices)
 
 ---
 
@@ -597,7 +597,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Key concepts cold: topic/partition/offset, consumer group, producer acks,
   at-least-once vs exactly-once, log compaction.
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-real-time-streaming--kafka)
 
 ---
 
@@ -620,7 +620,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > by defining its own rule set. Platform teams shouldn't rebuild validation
 > logic per pipeline."
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-data-validation-frameworks)
 
 ---
 
@@ -651,7 +651,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 **[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
 - OpenTelemetry: traces, metrics, logs as three pillars — know the concept.
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-logging-testing-security--instrumentation)
 
 ---
 
@@ -671,7 +671,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Kubernetes: *"ECS at Citi — understand K8s concepts (pods, deployments,
   services) and could ramp given the ECS foundation."*
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-docker--cicd)
 
 ---
 
@@ -692,7 +692,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
   > for time-series at scale. I'd apply the right store for the workload."*
 - Study: DynamoDB partition key design, MongoDB document modeling, Redis use cases.
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-sql--nosql-databases)
 
 ---
 
@@ -708,7 +708,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > minimum one approval, CI must pass, no unresolved comments. Onboarding
 > time dropped because new engineers had clear patterns to follow."
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-version-control--branching--code-reviews)
 
 ---
 
@@ -719,7 +719,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > on me. Goal: make myself replaceable on the details so I could focus
 > on harder problems. Team became self-sufficient. Onboarding time cut significantly."
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-mentoring-engineers)
 
 ---
 
@@ -733,7 +733,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
   area I'm ready to step into at Lead level."*
 - Prep: one specific example where you influenced a hiring decision or defined technical bar.
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-hiring--talent-attraction)
 
 ---
 
@@ -748,7 +748,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > required filling in a config file, not touching core pipeline logic.
 > Self-service by design."
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-self-service-tools--frameworks)
 
 ---
 
@@ -761,7 +761,7 @@ From `data/applied_jobs/00039_76829368/research/company_research.yaml`:
 - Toyota invests heavily in AI, electrification, autonomous driving — forward-looking culture
 - Hybrid work model for many corporate/tech roles — confirm on-site expectations with Codie
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-why-toyota-specifically--company-research)
 
 ---
 
@@ -788,4 +788,4 @@ From `data/applied_jobs/00039_76829368/research/company_research.yaml`:
 | Mulesoft / Apigee (preferred) | APIs section | ⚠ Honest framing only |
 | Self-service tools (preferred) | Self-service section | ✓ HorizonScale + Streamlit |
 
-[↑ Back to section](#technical-screen-prep--full-gap-coverage)
+[↑ Back to TOC](#toc-job-requirements-coverage-checklist)

@@ -8,32 +8,32 @@
 
 ## Table of Contents
 
-- [The Role](#the-role)
-- [Your Opening 2 Minutes](#your-opening-2-minutes)
-- [Which Role To Target](#which-role-to-target)
-- [Your 4 Key Stories](#your-4-key-stories-star-format)
-  - [Story 1 — ETL Automation at Scale](#story-1--etl-automation-at-scale)
-  - [Story 2 — ML Forecasting for Business Impact](#story-2--ml-forecasting-for-business-impact)
-  - [Story 3 — Cost Savings From Data Mining](#story-3--cost-savings-from-data-mining)
-  - [Story 4 — AWS Hybrid Data Platform](#story-4--aws-hybrid-data-platform)
-- [Likely Questions Sam Will Ask](#likely-questions-sam-will-ask)
-  - [Tell me about yourself](#tell-me-about-yourself)
-  - [Why Capital One?](#why-capital-one)
-  - [What are you looking for?](#what-are-you-looking-for-in-your-next-role)
-  - [Streaming / Kafka experience?](#whats-your-experience-with-streaming--kafka)
-  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
-  - [Salary expectation?](#whats-your-salary-expectation)
-  - [When can you start?](#when-can-you-start)
-  - [Tell me about a challenging project](#tell-me-about-a-challenging-project)
-  - [How do you handle ambiguity?](#how-do-you-handle-ambiguity)
-- [Things To Refresh Before The Call](#things-to-refresh-before-the-call)
-  - [AWS Quick Review](#aws--quick-review)
-  - [Kafka Basics](#kafka-basics)
-  - [Python / Data Engineering](#python--data-engineering)
-  - [Capital One Culture](#capital-one-culture)
-- [Questions To Ask Sam](#questions-to-ask-sam)
-- [Logistics Checklist](#logistics-checklist)
-- [After The Call](#after-the-call)
+- <a id="toc-the-role"></a>[The Role](#the-role)
+- <a id="toc-your-opening-2-minutes"></a>[Your Opening 2 Minutes](#your-opening-2-minutes)
+- <a id="toc-which-role-to-target"></a>[Which Role To Target](#which-role-to-target)
+- <a id="toc-your-4-key-stories-star-format"></a>[Your 4 Key Stories](#your-4-key-stories-star-format)
+  - <a id="toc-story-1--etl-automation-at-scale"></a>[Story 1 — ETL Automation at Scale](#story-1--etl-automation-at-scale)
+  - <a id="toc-story-2--ml-forecasting-for-business-impact"></a>[Story 2 — ML Forecasting for Business Impact](#story-2--ml-forecasting-for-business-impact)
+  - <a id="toc-story-3--cost-savings-from-data-mining"></a>[Story 3 — Cost Savings From Data Mining](#story-3--cost-savings-from-data-mining)
+  - <a id="toc-story-4--aws-hybrid-data-platform"></a>[Story 4 — AWS Hybrid Data Platform](#story-4--aws-hybrid-data-platform)
+- <a id="toc-likely-questions-sam-will-ask"></a>[Likely Questions Sam Will Ask](#likely-questions-sam-will-ask)
+  - <a id="toc-tell-me-about-yourself"></a>[Tell me about yourself](#tell-me-about-yourself)
+  - <a id="toc-why-capital-one"></a>[Why Capital One?](#why-capital-one)
+  - <a id="toc-what-are-you-looking-for-in-your-next-role"></a>[What are you looking for?](#what-are-you-looking-for-in-your-next-role)
+  - <a id="toc-whats-your-experience-with-streaming--kafka"></a>[Streaming / Kafka experience?](#whats-your-experience-with-streaming--kafka)
+  - <a id="toc-are-you-interviewing-elsewhere"></a>[Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - <a id="toc-whats-your-salary-expectation"></a>[Salary expectation?](#whats-your-salary-expectation)
+  - <a id="toc-when-can-you-start"></a>[When can you start?](#when-can-you-start)
+  - <a id="toc-tell-me-about-a-challenging-project"></a>[Tell me about a challenging project](#tell-me-about-a-challenging-project)
+  - <a id="toc-how-do-you-handle-ambiguity"></a>[How do you handle ambiguity?](#how-do-you-handle-ambiguity)
+- <a id="toc-things-to-refresh-before-the-call"></a>[Things To Refresh Before The Call](#things-to-refresh-before-the-call)
+  - <a id="toc-aws--quick-review"></a>[AWS Quick Review](#aws--quick-review)
+  - <a id="toc-kafka-basics"></a>[Kafka Basics](#kafka-basics)
+  - <a id="toc-python--data-engineering"></a>[Python / Data Engineering](#python--data-engineering)
+  - <a id="toc-capital-one-culture"></a>[Capital One Culture](#capital-one-culture)
+- <a id="toc-questions-to-ask-sam"></a>[Questions To Ask Sam](#questions-to-ask-sam)
+- <a id="toc-logistics-checklist"></a>[Logistics Checklist](#logistics-checklist)
+- <a id="toc-after-the-call"></a>[After The Call](#after-the-call)
 
 ---
 
@@ -51,7 +51,7 @@
 - Don't give a range — they anchor to the bottom
 - Don't say "whatever is fair"
 
-[↑ Back to section](#the-role)
+[↑ Back to TOC](#toc-the-role)
 
 ---
 
@@ -63,7 +63,7 @@
 > and ML forecasting at scale for most of my career — most recently 8 years
 > at Citi in a Senior Capacity and Data Engineer role."
 
-[↑ Back to section](#your-opening-2-minutes)
+[↑ Back to TOC](#toc-your-opening-2-minutes)
 
 ---
 
@@ -75,7 +75,7 @@
 - Lead SWE = Java/Scala microservices, more application-layer — not your strongest hand
 - Senior Lead SWE = Senior Manager equivalent, heavy leadership loop — too early in this conversation
 
-[↑ Back to section](#which-role-to-target)
+[↑ Back to TOC](#toc-which-role-to-target)
 
 ---
 
@@ -89,7 +89,7 @@
 
 > *Use when asked: "Tell me about a complex pipeline you built" / "Describe a time you automated a manual process"*
 
-[↑ Back to section](#your-4-key-stories-star-format)
+[↑ Back to TOC](#toc-story-1--etl-automation-at-scale)
 
 ---
 
@@ -101,7 +101,7 @@
 
 > *Use when asked: "Tell me about a time you used data to drive a business decision" / "Have you worked with ML in production?"*
 
-[↑ Back to section](#your-4-key-stories-star-format)
+[↑ Back to TOC](#toc-story-2--ml-forecasting-for-business-impact)
 
 ---
 
@@ -113,7 +113,7 @@
 
 > *Use when asked: "Tell me about a time you delivered business value" / "Cost optimization experience?"*
 
-[↑ Back to section](#your-4-key-stories-star-format)
+[↑ Back to TOC](#toc-story-3--cost-savings-from-data-mining)
 
 ---
 
@@ -125,7 +125,7 @@
 
 > *Use when asked: "Tell me about your AWS experience" / "Have you worked with cloud data warehousing?"*
 
-[↑ Back to section](#your-4-key-stories-star-format)
+[↑ Back to TOC](#toc-story-4--aws-hybrid-data-platform)
 
 ---
 
@@ -158,7 +158,7 @@
 
 *(Target: 90 seconds. Practice it out loud before the call.)*
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-tell-me-about-yourself)
 
 ---
 
@@ -169,7 +169,7 @@
 > compliance requirements. That combination of scale, cloud-first culture,
 > and hands-on technical work at the Lead level is exactly what I'm looking for."
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-why-capital-one)
 
 ---
 
@@ -179,7 +179,7 @@
 > I want to be designing and building data systems, working with a strong team,
 > and solving hard problems at scale. The Lead DE title at Capital One fits that."
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-what-are-you-looking-for-in-your-next-role)
 
 ---
 
@@ -191,7 +191,7 @@
 > delivery semantics. I understand the architecture and can ramp quickly
 > in a production context." *(Honest, not damaging)*
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-whats-your-experience-with-streaming--kafka)
 
 ---
 
@@ -201,7 +201,7 @@
 > and Samsung. Capital One is at the top of my list given the role fit,
 > the Plano location, and the engineering culture."
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-are-you-interviewing-elsewhere)
 
 ---
 
@@ -212,7 +212,7 @@
 
 **Say $185,000 once. Pause. Do not give a range.**
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-whats-your-salary-expectation)
 
 ---
 
@@ -220,7 +220,7 @@
 
 > "I am available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-when-can-you-start)
 
 ---
 
@@ -234,7 +234,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 > Story 4 punch line: *"Built a hybrid Oracle-to-AWS platform — preserved legacy
 > reporting while moving ML forecasting workloads to cloud scale on Redshift."*
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-tell-me-about-a-challenging-project)
 
 ---
 
@@ -245,7 +245,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 > what decisions depended on it, and built the system around that.
 > I find that when there's ambiguity, the data usually tells you what to do next."
 
-[↑ Back to section](#likely-questions-sam-will-ask)
+[↑ Back to TOC](#toc-how-do-you-handle-ambiguity)
 
 ---
 
@@ -257,7 +257,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Redshift: distribution styles, sort keys, WLM (workload management)
 - [ ] ECS vs EC2: when to use containers vs raw instances
 
-[↑ Back to section](#things-to-refresh-before-the-call)
+[↑ Back to TOC](#toc-aws--quick-review)
 
 ---
 
@@ -268,7 +268,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] How it differs from batch: push vs pull, latency vs throughput
 - Key phrase: *"event-driven architecture"*
 
-[↑ Back to section](#things-to-refresh-before-the-call)
+[↑ Back to TOC](#toc-kafka-basics)
 
 ---
 
@@ -276,7 +276,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Review your ETL code patterns — be ready to describe a pipeline end-to-end
 - [ ] Know cold: pandas, scikit-learn, Prophet, PySpark
 
-[↑ Back to section](#things-to-refresh-before-the-call)
+[↑ Back to TOC](#toc-python--data-engineering)
 
 ---
 
@@ -285,7 +285,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Key phrase they use: *"full system design and architecture knowledge"*
 - [ ] They value engineers who stay technical at senior levels — lean into that
 
-[↑ Back to section](#things-to-refresh-before-the-call)
+[↑ Back to TOC](#toc-capital-one-culture)
 
 ---
 
@@ -297,7 +297,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 4. "What does the interview process look like after this call?"
 5. "Is the Plano role hybrid or on-site?"
 
-[↑ Back to section](#questions-to-ask-sam)
+[↑ Back to TOC](#toc-questions-to-ask-sam)
 
 ---
 
@@ -310,7 +310,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Key numbers: 20+ years, 8 years Citi, 6,000+ endpoints, 4 global regions, $185K target
 - [ ] Salary: $185,000 — single number, no range
 
-[↑ Back to section](#logistics-checklist)
+[↑ Back to TOC](#toc-logistics-checklist)
 
 ---
 
@@ -323,4 +323,4 @@ If it goes well Sam will schedule you for a technical screen. Typical Capital On
 
 After the call — update `data/jobs/` metadata for Capital One with status `INTERVIEW` and add a history entry.
 
-[↑ Back to section](#after-the-call)
+[↑ Back to TOC](#toc-after-the-call)
