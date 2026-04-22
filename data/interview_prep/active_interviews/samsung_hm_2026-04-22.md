@@ -10,63 +10,63 @@
 
 ## Table of Contents
 
-- [The Pivot Strategy](#the-pivot-strategy)
-  - [Move 1 — Reframe Before They Do](#move-1--reframe-before-they-do)
-  - [Move 2 — Speak Fab Language From Word One](#move-2--speak-fab-language-from-word-one)
-  - [Move 3 — The Direct Challenge Answer](#move-3--the-direct-challenge-answer)
-  - [The Underlying Logic](#the-underlying-logic-to-internalize)
-- [IT Capacity → FAB Capacity Reframe Table](#the-key-reframe-it-capacity--fab-capacity)
-- [Your Opening 2 Minutes](#your-opening-2-minutes-samsung-version)
-- [Salary](#salary)
-- [Your 4 Key Stories](#your-4-key-stories-samsung-framing)
-  - [Story 1 — BMC TrueSight Capacity Optimization](#story-1--bmc-truesight-capacity-optimization-your-anchor-story)
-  - [Story 2 — HorizonScale ML Forecasting Engine](#story-2--horizonscale-ml-forecasting-engine-your-flagship)
-  - [Story 3 — Bottleneck Investigation & Constraint Removal](#story-3--bottleneck-investigation--constraint-removal)
-  - [Story 4 — Cross-Team Capacity Coordination](#story-4--cross-team-capacity-coordination)
-- [Questions — Ordered By Likelihood](#questions--ordered-by-likelihood)
-  - [Tell me about yourself](#tell-me-about-yourself)
-  - [Walk me through your capacity planning experience](#walk-me-through-your-capacity-planning-experience)
-  - [Do you have manufacturing / fab experience?](#do-you-have-manufacturing--fab-experience)
-  - [How do you approach a bottleneck investigation?](#how-do-you-approach-a-bottleneck-investigation)
-  - [What is Factory Physics and how do you apply it?](#what-is-factory-physics-and-how-do-you-apply-it)
-  - [Walk me through a full capacity analysis](#walk-me-through-how-you-approach-a-capacity-analysis)
-  - [How did you use BMC TrueSight / TSCO?](#how-did-you-use-bmc-truesight--tsco-for-capacity-optimization)
-  - [Tell me about your ML forecasting experience](#tell-me-about-ml-approaches-for-capacity-forecasting)
-  - [What is OEE?](#what-is-oee-and-how-do-you-use-it-for-capacity-planning)
-  - [What is supply chain management in a fab context?](#what-is-supply-chain-management-in-a-fab-context)
-  - [How do you perform line analysis?](#how-do-you-perform-line-analysis-and-identify-line-movement-constraints)
-  - [How do you coordinate Production and Engineering?](#how-do-you-coordinate-between-production-and-fab-engineering-teams)
-  - [How do you present capacity risk to leadership?](#how-do-you-present-capacity-risk-to-leadership)
-  - [How do you quantify throughput improvement impact?](#how-do-you-quantify-the-impact-of-a-throughput-improvement)
-  - [What is takt time?](#what-is-takt-time-and-how-does-it-connect-to-capacity-planning)
-  - [How do lot starts connect to output planning?](#how-do-lot-starts-connect-to-output-planning)
-  - [How does yield impact capacity planning?](#how-does-yield-impact-capacity-planning)
-  - [Why Samsung / Why this role?](#why-samsung--why-this-role)
-  - [Why are you leaving Citi?](#why-are-you-leaving--what-happened-at-citi)
-  - [Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
-  - [Salary expectation](#whats-your-salary-expectation)
-  - [When can you start?](#when-can-you-start)
-  - [U.S. Export Control / On-site comfort](#us-export-control--on-site-comfort)
-- [Deep Technical Topics](#deep-technical-topics-if-david-goes-there)
-  - [SEMI E10 Equipment States](#what-are-the-semi-e10-equipment-states)
-  - [MES Systems](#what-is-mes-and-how-does-capacity-planning-interact-with-it)
-  - [Little's Law](#littles-law--explain-it-and-give-an-example)
-  - [How to calculate resource capacity](#how-do-you-calculate-resource-capacity-and-utilization)
-  - [In-house vs cloud capacity](#whats-your-experience-with-in-house-vs-cloud-capacity-planning)
-  - [Estimate bottleneck tool capacity](#how-would-you-estimate-the-capacity-of-a-bottleneck-tool)
-  - [Throughput dropped 10% — root cause](#if-throughput-dropped-10-this-week-how-do-you-find-the-cause)
-- [SQL Questions](#sql-questions)
-  - [Top 5 bottleneck tools query](#top-5-bottleneck-tools-query)
-  - [Consecutive days over threshold](#consecutive-days-over-threshold-gaps-and-islands)
-  - [Query optimization approach](#query-optimization-approach)
-  - [Window functions](#window-functions)
-- [Python Questions](#python-questions)
-  - [Processing large time-series telemetry](#processing-large-time-series-telemetry)
-  - [Build a forecasting model in Python](#build-a-capacity-forecasting-model-in-python)
-  - [Python data analysis stack](#python-data-analysis-stack)
-- [Questions To Ask David](#questions-to-ask-david-rojas)
-- [Logistics & Pre-Interview Refresh](#logistics--pre-interview-refresh)
-- [Job Requirements Coverage Check](#job-requirements-coverage-check)
+- <a id="toc-the-pivot-strategy"></a>[The Pivot Strategy](#the-pivot-strategy)
+  - <a id="toc-move-1--reframe-before-they-do"></a>[Move 1 — Reframe Before They Do](#move-1--reframe-before-they-do)
+  - <a id="toc-move-2--speak-fab-language-from-word-one"></a>[Move 2 — Speak Fab Language From Word One](#move-2--speak-fab-language-from-word-one)
+  - <a id="toc-move-3--the-direct-challenge-answer"></a>[Move 3 — The Direct Challenge Answer](#move-3--the-direct-challenge-answer)
+  - <a id="toc-the-underlying-logic-to-internalize"></a>[The Underlying Logic](#the-underlying-logic-to-internalize)
+- <a id="toc-the-key-reframe-it-capacity--fab-capacity"></a>[IT Capacity → FAB Capacity Reframe Table](#the-key-reframe-it-capacity--fab-capacity)
+- <a id="toc-your-opening-2-minutes-samsung-version"></a>[Your Opening 2 Minutes](#your-opening-2-minutes-samsung-version)
+- <a id="toc-salary"></a>[Salary](#salary)
+- <a id="toc-your-4-key-stories-samsung-framing"></a>[Your 4 Key Stories](#your-4-key-stories-samsung-framing)
+  - <a id="toc-story-1--bmc-truesight-capacity-optimization-your-anchor-story"></a>[Story 1 — BMC TrueSight Capacity Optimization](#story-1--bmc-truesight-capacity-optimization-your-anchor-story)
+  - <a id="toc-story-2--horizonscale-ml-forecasting-engine-your-flagship"></a>[Story 2 — HorizonScale ML Forecasting Engine](#story-2--horizonscale-ml-forecasting-engine-your-flagship)
+  - <a id="toc-story-3--bottleneck-investigation--constraint-removal"></a>[Story 3 — Bottleneck Investigation & Constraint Removal](#story-3--bottleneck-investigation--constraint-removal)
+  - <a id="toc-story-4--cross-team-capacity-coordination"></a>[Story 4 — Cross-Team Capacity Coordination](#story-4--cross-team-capacity-coordination)
+- <a id="toc-questions--ordered-by-likelihood"></a>[Questions — Ordered By Likelihood](#questions--ordered-by-likelihood)
+  - <a id="toc-tell-me-about-yourself"></a>[Tell me about yourself](#tell-me-about-yourself)
+  - <a id="toc-walk-me-through-your-capacity-planning-experience"></a>[Walk me through your capacity planning experience](#walk-me-through-your-capacity-planning-experience)
+  - <a id="toc-do-you-have-manufacturing--fab-experience"></a>[Do you have manufacturing / fab experience?](#do-you-have-manufacturing--fab-experience)
+  - <a id="toc-how-do-you-approach-a-bottleneck-investigation"></a>[How do you approach a bottleneck investigation?](#how-do-you-approach-a-bottleneck-investigation)
+  - <a id="toc-what-is-factory-physics-and-how-do-you-apply-it"></a>[What is Factory Physics and how do you apply it?](#what-is-factory-physics-and-how-do-you-apply-it)
+  - <a id="toc-walk-me-through-how-you-approach-a-capacity-analysis"></a>[Walk me through a full capacity analysis](#walk-me-through-how-you-approach-a-capacity-analysis)
+  - <a id="toc-how-did-you-use-bmc-truesight--tsco-for-capacity-optimization"></a>[How did you use BMC TrueSight / TSCO?](#how-did-you-use-bmc-truesight--tsco-for-capacity-optimization)
+  - <a id="toc-tell-me-about-ml-approaches-for-capacity-forecasting"></a>[Tell me about your ML forecasting experience](#tell-me-about-ml-approaches-for-capacity-forecasting)
+  - <a id="toc-what-is-oee-and-how-do-you-use-it-for-capacity-planning"></a>[What is OEE?](#what-is-oee-and-how-do-you-use-it-for-capacity-planning)
+  - <a id="toc-what-is-supply-chain-management-in-a-fab-context"></a>[What is supply chain management in a fab context?](#what-is-supply-chain-management-in-a-fab-context)
+  - <a id="toc-how-do-you-perform-line-analysis-and-identify-line-movement-constraints"></a>[How do you perform line analysis?](#how-do-you-perform-line-analysis-and-identify-line-movement-constraints)
+  - <a id="toc-how-do-you-coordinate-between-production-and-fab-engineering-teams"></a>[How do you coordinate Production and Engineering?](#how-do-you-coordinate-between-production-and-fab-engineering-teams)
+  - <a id="toc-how-do-you-present-capacity-risk-to-leadership"></a>[How do you present capacity risk to leadership?](#how-do-you-present-capacity-risk-to-leadership)
+  - <a id="toc-how-do-you-quantify-the-impact-of-a-throughput-improvement"></a>[How do you quantify throughput improvement impact?](#how-do-you-quantify-the-impact-of-a-throughput-improvement)
+  - <a id="toc-what-is-takt-time-and-how-does-it-connect-to-capacity-planning"></a>[What is takt time?](#what-is-takt-time-and-how-does-it-connect-to-capacity-planning)
+  - <a id="toc-how-do-lot-starts-connect-to-output-planning"></a>[How do lot starts connect to output planning?](#how-do-lot-starts-connect-to-output-planning)
+  - <a id="toc-how-does-yield-impact-capacity-planning"></a>[How does yield impact capacity planning?](#how-does-yield-impact-capacity-planning)
+  - <a id="toc-why-samsung--why-this-role"></a>[Why Samsung / Why this role?](#why-samsung--why-this-role)
+  - <a id="toc-why-are-you-leaving--what-happened-at-citi"></a>[Why are you leaving Citi?](#why-are-you-leaving--what-happened-at-citi)
+  - <a id="toc-are-you-interviewing-elsewhere"></a>[Are you interviewing elsewhere?](#are-you-interviewing-elsewhere)
+  - <a id="toc-whats-your-salary-expectation"></a>[Salary expectation](#whats-your-salary-expectation)
+  - <a id="toc-when-can-you-start"></a>[When can you start?](#when-can-you-start)
+  - <a id="toc-us-export-control--on-site-comfort"></a>[U.S. Export Control / On-site comfort](#us-export-control--on-site-comfort)
+- <a id="toc-deep-technical-topics-if-david-goes-there"></a>[Deep Technical Topics](#deep-technical-topics-if-david-goes-there)
+  - <a id="toc-what-are-the-semi-e10-equipment-states"></a>[SEMI E10 Equipment States](#what-are-the-semi-e10-equipment-states)
+  - <a id="toc-what-is-mes-and-how-does-capacity-planning-interact-with-it"></a>[MES Systems](#what-is-mes-and-how-does-capacity-planning-interact-with-it)
+  - <a id="toc-littles-law--explain-it-and-give-an-example"></a>[Little's Law](#littles-law--explain-it-and-give-an-example)
+  - <a id="toc-how-do-you-calculate-resource-capacity-and-utilization"></a>[How to calculate resource capacity](#how-do-you-calculate-resource-capacity-and-utilization)
+  - <a id="toc-whats-your-experience-with-in-house-vs-cloud-capacity-planning"></a>[In-house vs cloud capacity](#whats-your-experience-with-in-house-vs-cloud-capacity-planning)
+  - <a id="toc-how-would-you-estimate-the-capacity-of-a-bottleneck-tool"></a>[Estimate bottleneck tool capacity](#how-would-you-estimate-the-capacity-of-a-bottleneck-tool)
+  - <a id="toc-if-throughput-dropped-10-this-week-how-do-you-find-the-cause"></a>[Throughput dropped 10% — root cause](#if-throughput-dropped-10-this-week-how-do-you-find-the-cause)
+- <a id="toc-sql-questions"></a>[SQL Questions](#sql-questions)
+  - <a id="toc-top-5-bottleneck-tools-query"></a>[Top 5 bottleneck tools query](#top-5-bottleneck-tools-query)
+  - <a id="toc-consecutive-days-over-threshold-gaps-and-islands"></a>[Consecutive days over threshold](#consecutive-days-over-threshold-gaps-and-islands)
+  - <a id="toc-query-optimization-approach"></a>[Query optimization approach](#query-optimization-approach)
+  - <a id="toc-window-functions"></a>[Window functions](#window-functions)
+- <a id="toc-python-questions"></a>[Python Questions](#python-questions)
+  - <a id="toc-processing-large-time-series-telemetry"></a>[Processing large time-series telemetry](#processing-large-time-series-telemetry)
+  - <a id="toc-build-a-capacity-forecasting-model-in-python"></a>[Build a forecasting model in Python](#build-a-capacity-forecasting-model-in-python)
+  - <a id="toc-python-data-analysis-stack"></a>[Python data analysis stack](#python-data-analysis-stack)
+- <a id="toc-questions-to-ask-david-rojas"></a>[Questions To Ask David](#questions-to-ask-david-rojas)
+- <a id="toc-logistics--pre-interview-refresh"></a>[Logistics & Pre-Interview Refresh](#logistics--pre-interview-refresh)
+- <a id="toc-job-requirements-coverage-check"></a>[Job Requirements Coverage Check](#job-requirements-coverage-check)
 
 ---
 
@@ -89,7 +89,7 @@ Address the domain gap in your **opening 2 minutes** — don't wait for them to 
 
 You own the gap before they raise it. That reads as confidence, not defensiveness.
 
-[↑ Back to section](#the-pivot-strategy)
+[↑ Back to TOC](#toc-move-1--reframe-before-they-do)
 
 ---
 
@@ -115,7 +115,7 @@ If you translate your own work into their language, they do the mapping for you.
 - **Takt time:** The pace required to meet demand (available production time divided by required output); if process cycle time is slower than takt, a gap exists.
 - **OEE (Overall Equipment Effectiveness):** `Availability × Performance × Quality`; converts theoretical tool capacity into realistic effective capacity.
 
-[↑ Back to section](#the-pivot-strategy)
+[↑ Back to TOC](#toc-move-2--speak-fab-language-from-word-one)
 
 ---
 
@@ -138,7 +138,7 @@ If you translate your own work into their language, they do the mapping for you.
 > apply rigorous capacity planning methodology in a new domain — and I have
 > a strong track record of doing exactly that."
 
-[↑ Back to section](#the-pivot-strategy)
+[↑ Back to TOC](#toc-move-3--the-direct-challenge-answer)
 
 ---
 
@@ -148,7 +148,7 @@ Manufacturing capacity planning is the **origin** of the discipline. Factory Phy
 
 If you believe that framing, it comes through. If you're apologizing for it, it doesn't.
 
-[↑ Back to section](#the-pivot-strategy)
+[↑ Back to TOC](#toc-the-underlying-logic-to-internalize)
 
 ---
 
@@ -169,7 +169,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 **Lead with the methodology and outcomes. Let David see the transfer.**
 
-[↑ Back to section](#the-key-reframe-it-capacity--fab-capacity)
+[↑ Back to TOC](#toc-the-key-reframe-it-capacity--fab-capacity)
 
 ---
 
@@ -196,7 +196,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 *(Target: 90 seconds. Hits: pivot owned, BMC TrueSight, HorizonScale, 10→2 days, 6-month forecast)*
 
-[↑ Back to section](#your-opening-2-minutes-samsung-version)
+[↑ Back to TOC](#toc-your-opening-2-minutes-samsung-version)
 
 ---
 
@@ -209,7 +209,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > I understand Samsung structures comp as base plus bonus without RSUs,
 > and I'm open to discussing the full package."
 
-[↑ Back to section](#salary)
+[↑ Back to TOC](#toc-salary)
 
 ---
 
@@ -223,7 +223,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Tell me about your capacity planning experience" / "Have you worked with BMC TrueSight?"*
 
-[↑ Back to section](#your-4-key-stories-samsung-framing)
+[↑ Back to TOC](#toc-story-1--bmc-truesight-capacity-optimization-your-anchor-story)
 
 ---
 
@@ -235,7 +235,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Tell me about ML in capacity planning" / "Your most impactful project" / "Forecasting experience"*
 
-[↑ Back to section](#your-4-key-stories-samsung-framing)
+[↑ Back to TOC](#toc-story-2--horizonscale-ml-forecasting-engine-your-flagship)
 
 ---
 
@@ -247,7 +247,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Bottleneck analysis" / "How do you approach capacity gaps?" / "Constraint removal"*
 
-[↑ Back to section](#your-4-key-stories-samsung-framing)
+[↑ Back to TOC](#toc-story-3--bottleneck-investigation--constraint-removal)
 
 ---
 
@@ -259,7 +259,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Cross-functional coordination" / "Stakeholder management" / "How do you drive action from data?"*
 
-[↑ Back to section](#your-4-key-stories-samsung-framing)
+[↑ Back to TOC](#toc-story-4--cross-team-capacity-coordination)
 
 ---
 
@@ -291,7 +291,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > where the stakes are higher — capacity decisions in a fab directly determine
 > output, revenue, and capital investment."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-tell-me-about-yourself)
 
 ---
 
@@ -320,7 +320,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > finance, and procurement teams — translating utilization data into procurement
 > decisions with quantified cost and lead time for each option."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-walk-me-through-your-capacity-planning-experience)
 
 ---
 
@@ -343,7 +343,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > apply rigorous capacity planning methodology in a new domain — and I have
 > a strong track record of doing exactly that."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-do-you-have-manufacturing--fab-experience)
 
 ---
 
@@ -371,7 +371,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to find the root cause. The output wasn't just 'this is bottlenecked' —
 > it was 'here's why, here's the quantified impact, here's the recommended action.'"
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-you-approach-a-bottleneck-investigation)
 
 ---
 
@@ -397,7 +397,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I applied the same queuing theory in IT capacity — a server at 90% utilization
 > behaves very differently from one at 70%. The math translates directly."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-what-is-factory-physics-and-how-do-you-apply-it)
 
 ---
 
@@ -422,7 +422,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > utilization (investment + lead time), or procure (cost + lead time).
 > Leadership decides with full information, not just a status update."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-walk-me-through-how-you-approach-a-capacity-analysis)
 
 ---
 
@@ -446,7 +446,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > value a MES provides in a fab: one source of truth for equipment state,
 > lot movement, and process data."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-did-you-use-bmc-truesight--tsco-for-capacity-optimization)
 
 ---
 
@@ -472,7 +472,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > replace CMDB with equipment master data. The pipeline architecture and
 > model structure transfer directly."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-tell-me-about-ml-approaches-for-capacity-forecasting)
 
 ---
 
@@ -498,7 +498,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > × performance efficiency. Raw CPU capacity is never real capacity.
 > The math is the same, the terminology shifts."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-what-is-oee-and-how-do-you-use-it-for-capacity-planning)
 
 ---
 
@@ -523,7 +523,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to support the plan. I did the same at Citi — 6-month forecasting horizon
 > aligned directly to the hardware procurement cycle."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-what-is-supply-chain-management-in-a-fab-context)
 
 ---
 
@@ -548,7 +548,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > At Citi I did the same across server tiers — mapping utilization flow
 > to find where processing was accumulating and which tier was the constraint."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-you-perform-line-analysis-and-identify-line-movement-constraints)
 
 ---
 
@@ -571,7 +571,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > data model that quantified the tradeoff — maintenance now vs. risk of
 > unplanned outage later — turned arguments into decisions."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-you-coordinate-between-production-and-fab-engineering-teams)
 
 ---
 
@@ -595,7 +595,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > which built trust in the numbers. Consistency in reporting is as important
 > as accuracy."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-you-present-capacity-risk-to-leadership)
 
 ---
 
@@ -617,7 +617,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > That's how you get engineering work approved — translate utilization
 > percentages into dollar impact."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-you-quantify-the-impact-of-a-throughput-improvement)
 
 ---
 
@@ -636,7 +636,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Takt time also drives lot start planning: if cycle time is 45 days and you
 > need 200 lots out in week 10, lot starts must begin in week 3."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-what-is-takt-time-and-how-does-it-connect-to-capacity-planning)
 
 ---
 
@@ -656,7 +656,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > because hardware lead times are 3-6 months. Forward-planning horizon and
 > yield/attrition accounting are identical concepts."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-do-lot-starts-connect-to-output-planning)
 
 ---
 
@@ -675,7 +675,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > yield drops from 95% to 90%? That drives both the lot start buffer
 > and the equipment investment decision."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-how-does-yield-impact-capacity-planning)
 
 ---
 
@@ -695,7 +695,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > building out the operational excellence layer of that facility is
 > genuinely exciting — it's a generational project."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-why-samsung--why-this-role)
 
 ---
 
@@ -707,7 +707,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I'm actively looking for the right long-term fit.
 > The Samsung role is at the top of my list."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-why-are-you-leaving--what-happened-at-citi)
 
 ---
 
@@ -718,7 +718,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > focus, the analytical depth the role requires, and the scale of what's being
 > built at the Taylor facility."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-are-you-interviewing-elsewhere)
 
 ---
 
@@ -728,7 +728,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I understand Samsung structures comp as base plus bonus without RSUs,
 > and I'm open to discussing the full package."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-whats-your-salary-expectation)
 
 ---
 
@@ -736,7 +736,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 
 > "I'm available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-when-can-you-start)
 
 ---
 
@@ -748,7 +748,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 **On-site:**
 > "Yes, fully on-site in Taylor works for me and I can support whatever schedule the team needs."
 
-[↑ Back to section](#questions--ordered-by-likelihood)
+[↑ Back to TOC](#toc-us-export-control--on-site-comfort)
 
 ---
 
@@ -771,7 +771,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > window than the calendar suggests. Rising unscheduled downtime is an early warning
 > signal of equipment reliability issues before you see the output miss."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-what-are-the-semi-e10-equipment-states)
 
 ---
 
@@ -791,7 +791,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to what I built against BMC TrueSight — connect to the source, extract time-series
 > telemetry, enrich with reference data, build analytical models."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-what-is-mes-and-how-does-capacity-planning-interact-with-it)
 
 ---
 
@@ -809,7 +809,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > The lever: to reduce cycle time without reducing WIP, increase throughput.
 > To reduce cycle time without increasing throughput, reduce WIP. No free lunch."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-littles-law--explain-it-and-give-an-example)
 
 ---
 
@@ -827,7 +827,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Effective capacity = theoretical × availability — raw theoretical capacity
 > is never the real planning number."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-how-do-you-calculate-resource-capacity-and-utilization)
 
 ---
 
@@ -848,7 +848,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Cloud = cost optimization and right-sizing problem.
 > Same analytical foundation, different action levers."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-whats-your-experience-with-in-house-vs-cloud-capacity-planning)
 
 ---
 
@@ -865,7 +865,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Validate against cycle time data: cycle time rising alongside utilization
 > is the classic queuing nonlinearity that confirms the bottleneck."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-how-would-you-estimate-the-capacity-of-a-bottleneck-tool)
 
 ---
 
@@ -881,7 +881,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > The variable that changes coincidentally with the throughput drop is the
 > lead indicator. Quantify impact and drive the corrective action."
 
-[↑ Back to section](#deep-technical-topics-if-david-goes-there)
+[↑ Back to TOC](#toc-if-throughput-dropped-10-this-week-how-do-you-find-the-cause)
 
 ---
 
@@ -905,7 +905,7 @@ ORDER BY avg_utilization DESC
 LIMIT 5;
 ```
 
-[↑ Back to section](#sql-questions)
+[↑ Back to TOC](#toc-top-5-bottleneck-tools-query)
 
 ---
 
@@ -943,7 +943,7 @@ ORDER BY consecutive_days DESC;
 
 > "The gaps-and-islands pattern — subtract two row numbers to identify consecutive runs."
 
-[↑ Back to section](#sql-questions)
+[↑ Back to TOC](#toc-consecutive-days-over-threshold-gaps-and-islands)
 
 ---
 
@@ -960,7 +960,7 @@ ORDER BY consecutive_days DESC;
 > General rules: push filters early, avoid SELECT *, index join keys and
 > high-cardinality filter columns."
 
-[↑ Back to section](#sql-questions)
+[↑ Back to TOC](#toc-query-optimization-approach)
 
 ---
 
@@ -976,7 +976,7 @@ ORDER BY consecutive_days DESC;
 > Rolling 7-day average per tool:
 > `AVG(utilization_pct) OVER (PARTITION BY tool_id ORDER BY day ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`"
 
-[↑ Back to section](#sql-questions)
+[↑ Back to TOC](#toc-window-functions)
 
 ---
 
@@ -997,7 +997,7 @@ ORDER BY consecutive_days DESC;
 > fed through a generator, processed independently, parallelized with
 > multiprocessing.Pool. 90% cycle time reduction vs. sequential design."
 
-[↑ Back to section](#python-questions)
+[↑ Back to TOC](#toc-processing-large-time-series-telemetry)
 
 ---
 
@@ -1024,7 +1024,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 > If yhat_upper crosses the threshold within the forecast window,
 > that asset is flagged at risk."
 
-[↑ Back to section](#python-questions)
+[↑ Back to TOC](#toc-build-a-capacity-forecasting-model-in-python)
 
 ---
 
@@ -1037,7 +1037,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 > Discipline: type hints everywhere, Pydantic for data model validation,
 > pytest for pipeline testing, Black and ruff for formatting."
 
-[↑ Back to section](#python-questions)
+[↑ Back to TOC](#toc-python-data-analysis-stack)
 
 ---
 
@@ -1049,7 +1049,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 4. "How mature is the use of statistical or ML forecasting in the current capacity process?"
 5. "What does success look like in the first 90 days for this role?"
 
-[↑ Back to section](#questions-to-ask-david-rojas)
+[↑ Back to TOC](#toc-questions-to-ask-david-rojas)
 
 ---
 
@@ -1072,7 +1072,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 5. BMC TrueSight story — most direct credential match
 6. Story 3 (Bottleneck Investigation) — most likely deep follow-up
 
-[↑ Back to section](#logistics--pre-interview-refresh)
+[↑ Back to TOC](#toc-logistics--pre-interview-refresh)
 
 ---
 
@@ -1096,4 +1096,4 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 - MES systems (Opcenter, WorkStream): No direct experience — frame as same pattern as BMC TrueSight
 - Physical shop floor: Acknowledge and redirect to analytical depth
 
-[↑ Back to section](#job-requirements-coverage-check)
+[↑ Back to TOC](#toc-job-requirements-coverage-check)
