@@ -3,8 +3,11 @@
 **Req:** 10301655
 **Role:** Lead Senior Python Developer — Python · AWS · Microservices
 **Location:** Plano, TX — 4 days onsite / Friday remote
-**Interview:** Thursday April 23, 2026 — 10:00 AM CT (Ramya calls you at 214-315-2190)
-**Format:** 30-min recruiter phone screen — no live coding
+**Interview:** Thursday April 23, 2026 — 10:00 AM CT (10:00–10:30 AM)
+**Format:** 30-min recruiter screen — **Microsoft Teams VIDEO** — no live coding
+**Teams Meeting ID:** 288082233660320 | **Passcode:** q4y8Au75
+**Join link:** https://teams.microsoft.com/l/meetup-join
+**Reschedule link:** https://sh.phenom.com/GK1tMsm
 **Salary target:** $185,000 base
 
 ---
@@ -419,9 +422,10 @@ That answer is credible. Recruiters respect honesty on specifics.
 
 ## Logistics Checklist
 
-- [ ] Phone charged, quiet room
-- [ ] This doc open on second screen
-- [ ] Ramya calls you — confirm your number is 214-315-2190
+- [ ] Camera on — clean background, good lighting, quiet room
+- [ ] Join Teams meeting at 9:55 AM — confirm audio/video working before Ramya joins
+- [ ] This doc open on second screen (not visible on camera)
+- [ ] Join via Meeting ID 288082233660320 · Passcode q4y8Au75
 - [ ] Key numbers cold: 20+ years · 8 years Citi · 6,000+ endpoints · 4 global regions · 90% accuracy · 90% cycle reduction
 - [ ] Salary: $185,000 — one number, no range, no qualifiers
 - [ ] Terraform gap: own it in one sentence, move on
