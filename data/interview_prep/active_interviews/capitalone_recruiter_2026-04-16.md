@@ -51,7 +51,7 @@
 - Don't give a range — they anchor to the bottom
 - Don't say "whatever is fair"
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#the-role)
 
 ---
 
@@ -63,7 +63,7 @@
 > and ML forecasting at scale for most of my career — most recently 8 years
 > at Citi in a Senior Capacity and Data Engineer role."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#your-opening-2-minutes)
 
 ---
 
@@ -75,7 +75,7 @@
 - Lead SWE = Java/Scala microservices, more application-layer — not your strongest hand
 - Senior Lead SWE = Senior Manager equivalent, heavy leadership loop — too early in this conversation
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#which-role-to-target)
 
 ---
 
@@ -89,7 +89,7 @@
 
 > *Use when asked: "Tell me about a complex pipeline you built" / "Describe a time you automated a manual process"*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#your-4-key-stories-star-format)
 
 ---
 
@@ -101,7 +101,7 @@
 
 > *Use when asked: "Tell me about a time you used data to drive a business decision" / "Have you worked with ML in production?"*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#your-4-key-stories-star-format)
 
 ---
 
@@ -113,7 +113,7 @@
 
 > *Use when asked: "Tell me about a time you delivered business value" / "Cost optimization experience?"*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#your-4-key-stories-star-format)
 
 ---
 
@@ -125,7 +125,7 @@
 
 > *Use when asked: "Tell me about your AWS experience" / "Have you worked with cloud data warehousing?"*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#your-4-key-stories-star-format)
 
 ---
 
@@ -158,7 +158,7 @@
 
 *(Target: 90 seconds. Practice it out loud before the call.)*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -169,7 +169,7 @@
 > compliance requirements. That combination of scale, cloud-first culture,
 > and hands-on technical work at the Lead level is exactly what I'm looking for."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -179,7 +179,7 @@
 > I want to be designing and building data systems, working with a strong team,
 > and solving hard problems at scale. The Lead DE title at Capital One fits that."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -191,7 +191,7 @@
 > delivery semantics. I understand the architecture and can ramp quickly
 > in a production context." *(Honest, not damaging)*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -201,7 +201,7 @@
 > and Samsung. Capital One is at the top of my list given the role fit,
 > the Plano location, and the engineering culture."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -212,7 +212,7 @@
 
 **Say $185,000 once. Pause. Do not give a range.**
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -220,7 +220,7 @@
 
 > "I am available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -234,7 +234,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 > Story 4 punch line: *"Built a hybrid Oracle-to-AWS platform — preserved legacy
 > reporting while moving ML forecasting workloads to cloud scale on Redshift."*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -245,7 +245,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 > what decisions depended on it, and built the system around that.
 > I find that when there's ambiguity, the data usually tells you what to do next."
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#likely-questions-sam-will-ask)
 
 ---
 
@@ -257,7 +257,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Redshift: distribution styles, sort keys, WLM (workload management)
 - [ ] ECS vs EC2: when to use containers vs raw instances
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#things-to-refresh-before-the-call)
 
 ---
 
@@ -268,7 +268,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] How it differs from batch: push vs pull, latency vs throughput
 - Key phrase: *"event-driven architecture"*
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#things-to-refresh-before-the-call)
 
 ---
 
@@ -276,7 +276,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Review your ETL code patterns — be ready to describe a pipeline end-to-end
 - [ ] Know cold: pandas, scikit-learn, Prophet, PySpark
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#things-to-refresh-before-the-call)
 
 ---
 
@@ -285,7 +285,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Key phrase they use: *"full system design and architecture knowledge"*
 - [ ] They value engineers who stay technical at senior levels — lean into that
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#things-to-refresh-before-the-call)
 
 ---
 
@@ -297,7 +297,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 4. "What does the interview process look like after this call?"
 5. "Is the Plano role hybrid or on-site?"
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#questions-to-ask-sam)
 
 ---
 
@@ -310,7 +310,7 @@ Use **Story 1** (ETL automation) or **Story 4** (AWS platform). Both show scale 
 - [ ] Key numbers: 20+ years, 8 years Citi, 6,000+ endpoints, 4 global regions, $185K target
 - [ ] Salary: $185,000 — single number, no range
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#logistics-checklist)
 
 ---
 
@@ -323,4 +323,4 @@ If it goes well Sam will schedule you for a technical screen. Typical Capital On
 
 After the call — update `data/jobs/` metadata for Capital One with status `INTERVIEW` and add a history entry.
 
-[↑ Back to top](#capital-one--lead-data-engineer)
+[↑ Back to section](#after-the-call)

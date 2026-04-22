@@ -53,7 +53,7 @@ Your framing for every answer:
 
 Codie was impressed by your resume and handed you to Ramya personally. You are already warm. This call is about confirming fit, not starting over.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#the-framing)
 
 ---
 
@@ -80,7 +80,7 @@ Codie was impressed by your resume and handed you to Ramya personally. You are a
 
 *(Target: 90 seconds. Practice out loud.)*
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#your-opening-2-minutes)
 
 ---
 
@@ -92,7 +92,7 @@ Codie was impressed by your resume and handed you to Ramya personally. You are a
 
 Say it once. Pause. Do not add "negotiable," do not give a range, do not say "depending on the package." Let it sit.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#salary)
 
 ---
 
@@ -123,7 +123,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 > reusable engineering frameworks. I'm in Plano, available immediately,
 > and the Lead Senior Python Developer role is the right next step."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -141,7 +141,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 > The Plano location is also a strong fit — I'm local, no relocation,
 > ready to be in the office four days a week."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -164,7 +164,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 > S3, Lambda, and ECS maps directly to what I built at Citi.
 > ECS Fargate, API Gateway, CloudWatch — I am comfortable in that environment."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -186,7 +186,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 > with strong Python and REST API backgrounds — the learning curve
 > is minimal."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -205,7 +205,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 > The specific stack in this Toyota role — Glue ETL, Glue Catalog,
 > S3, Lambda, ECS — that is the stack I have production experience with."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -220,7 +220,7 @@ Say it once. Pause. Do not add "negotiable," do not give a range, do not say "de
 
 Own it cleanly. Do not over-explain. Move on.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -252,7 +252,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > at 90-plus percent accuracy. Went from a 10-day manual process
 > to minutes."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -270,7 +270,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > a shared data model and let the numbers drive the conversation
 > to a decision."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -284,7 +284,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > the right long-term fit. Toyota Financial is at the top
 > of my list."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -295,7 +295,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > given the Python platform focus, the Plano location,
 > and the financial services environment I know well."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -304,7 +304,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > "I am a U.S. citizen — no visa, no sponsorship needed,
 > no restrictions."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -313,7 +313,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > "Yes, fully comfortable. I am in Plano — the commute
 > is easy and I prefer being in the office with the team."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -322,7 +322,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > "I am available to start immediately and can align
 > with your preferred onboarding timeline."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -330,7 +330,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 
 > "I am targeting $185,000 base."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -356,7 +356,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 > That is the FAST project — Find And Stop Trouble. It is the same pattern I use everywhere:
 > instrument, extract, mine, act."
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#your-key-stories)
 
 ---
 
@@ -372,7 +372,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 
 **Result:** 90% cycle time reduction. 6-month ahead bottleneck prediction at 90%+ accuracy. Went from 10 days manual to minutes automated.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#your-key-stories)
 
 ---
 
@@ -388,7 +388,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 
 **Result:** Oracle reporting stayed intact. Heavy ML workloads moved to Redshift at cloud scale. Platform-grade, not a one-off migration.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#your-key-stories)
 
 ---
 
@@ -404,7 +404,7 @@ Use **FAST Project** if they probed on Dynatrace or observability. Use **Horizon
 
 That answer is credible. Recruiters respect honesty on specifics.
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#honest-gap--terraform)
 
 ---
 
@@ -416,7 +416,7 @@ That answer is credible. Recruiters respect honesty on specifics.
 4. "What is the timeline from here to offer?"
 5. "Is the Friday remote fixed or flexible depending on the team?"
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#questions-to-ask-ramya)
 
 ---
 
@@ -430,4 +430,4 @@ That answer is credible. Recruiters respect honesty on specifics.
 - [ ] Salary: $185,000 — one number, no range, no qualifiers
 - [ ] Terraform gap: own it in one sentence, move on
 
-[↑ Back to top](#toyota-financial-services--lead-senior-python-developer)
+[↑ Back to section](#logistics-checklist)

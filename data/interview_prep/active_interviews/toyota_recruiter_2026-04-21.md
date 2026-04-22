@@ -72,7 +72,7 @@
 ### Start Date
 Said "one week notice" — prep doc says **immediately**. Immediately is stronger at recruiter stage.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#mock-feedback--april-21)
 
 ---
 
@@ -82,7 +82,7 @@ Said "one week notice" — prep doc says **immediately**. Immediately is stronge
 - Toyota uses automated scheduling (Phenom) — large recruiting operation
 - Same playbook as Sam Ali: warm, confident, concise, let them lead
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#reading-codie)
 
 ---
 
@@ -95,7 +95,7 @@ Toyota wants: **"I build the tools that let OTHER engineers build faster."**
 
 That framing must come through in every answer.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#the-role-in-plain-english)
 
 ---
 
@@ -109,7 +109,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 **Do NOT say a range.** Giving $175K–$185K hands them the lower number. Say $185K once, then pause.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#salary)
 
 ---
 
@@ -144,7 +144,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 *(Target: 90 seconds. Hits: Plano, frameworks, platform thinking, Citi, HorizonScale, Kaizen)*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#your-opening-2-minutes-toyota-version)
 
 ---
 
@@ -159,7 +159,7 @@ Toyota Financial Services Plano market rate: ~$160k–$195k for Lead Python Deve
 
 The work is the same. The framing shifts from **"I solved my team's problem"** to **"I built the platform that solves everyone's problem."**
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#key-reframe-capital-one-vs-toyota-language)
 
 ---
 
@@ -203,7 +203,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > *Use when asked: "Tell me about your leadership style" / "Mentoring experience"*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#your-4-key-stories-toyota-framing)
 
 ---
 
@@ -234,7 +234,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(Target: 75–90 seconds)*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -258,7 +258,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(This is your anchor story — use it every time they ask about frameworks)*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -282,7 +282,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > accuracy and gave business units ample time to avert bottlenecks before they
 > impacted service."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -296,7 +296,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 *(Personal and genuine — this detail stands out. Keep it exactly like this.)*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -312,7 +312,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > building reusable foundations that accelerate delivery for everyone, not just
 > one team. And Plano is home. This is exactly where I want to be doing this work."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -322,7 +322,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > at enterprise scale. I want to design the architecture and get into the code,
 > not purely manage. The Lead Python Developer title at TFS fits that perfectly."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -333,7 +333,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > I've used the time to sharpen my skills and I'm now actively looking for the
 > right long-term fit. TFS is at the top of my list."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -344,7 +344,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > because of the enterprise platform focus, the long-term stability, and the
 > Kaizen culture that strongly matches how I work."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -355,7 +355,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 **Say $185,000 once. Pause. Do not offer a range. Do not say $175K–$185K.**
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -363,7 +363,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > "I am available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -371,7 +371,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 
 > "No. As a U.S. citizen I'm fully authorized to work for any employer and do not require sponsorship now or in the future."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -381,7 +381,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > retry logic, scheduling. Sensor tasks for data arrival, transformation steps with
 > upstream dependencies, load tasks with idempotency checks to prevent duplicate writes."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -391,7 +391,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 > ECS for scaling. Git-based CI/CD with feature branches, PR-required code review,
 > and automated testing on every push."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#likely-questions-codie-will-ask)
 
 ---
 
@@ -403,7 +403,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 - Kafka / streaming architecture
 - System design deep dives
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#what-codie-will-not-ask-save-for-technical-screen)
 
 ---
 
@@ -419,7 +419,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 1. "What does the interview process look like after this call?"
 2. "What does the team structure look like for the Lead Python Developer role?"
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#questions-to-ask-codie)
 
 ---
 
@@ -433,7 +433,7 @@ The work is the same. The framing shifts from **"I solved my team's problem"** t
 - [ ] Key word: **Kaizen** — use it naturally in "Why Toyota"
 - [ ] Salary: $185,000 — single number, no range
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#logistics-checklist)
 
 ---
 
@@ -444,7 +444,7 @@ Typical Toyota loop: Recruiter → Technical screen → Hiring manager → Panel
 
 After the call — update `data/applied_jobs/00039_76829368/metadata.yaml` status to `INTERVIEW`.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#after-the-call)
 
 ---
 
@@ -498,7 +498,7 @@ class Extractor(ABC):
     def extract(self) -> pd.DataFrame: ...
 ```
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -534,7 +534,7 @@ with DAG('capacity_etl', start_date=datetime(2025,1,1), schedule_interval='@dail
   built-in observability, no scheduler overhead. Would ramp quickly given my
   Airflow foundation."*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -574,7 +574,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Mulesoft / Apigee: *"Enterprise API gateway tools — I've worked with the REST
   layer they manage but not configured the gateways themselves. Could ramp quickly."*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -597,7 +597,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Key concepts cold: topic/partition/offset, consumer group, producer acks,
   at-least-once vs exactly-once, log compaction.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -620,7 +620,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > by defining its own rule set. Platform teams shouldn't rebuild validation
 > logic per pipeline."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -651,7 +651,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 **[NOTE TO SELF — DRILL BEFORE TECHNICAL SCREEN]**
 - OpenTelemetry: traces, metrics, logs as three pillars — know the concept.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -671,7 +671,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 - Kubernetes: *"ECS at Citi — understand K8s concepts (pods, deployments,
   services) and could ramp given the ECS foundation."*
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -692,7 +692,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
   > for time-series at scale. I'd apply the right store for the workload."*
 - Study: DynamoDB partition key design, MongoDB document modeling, Redis use cases.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -708,7 +708,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > minimum one approval, CI must pass, no unresolved comments. Onboarding
 > time dropped because new engineers had clear patterns to follow."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -719,7 +719,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > on me. Goal: make myself replaceable on the details so I could focus
 > on harder problems. Team became self-sufficient. Onboarding time cut significantly."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -733,7 +733,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
   area I'm ready to step into at Lead level."*
 - Prep: one specific example where you influenced a hiring decision or defined technical bar.
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -748,7 +748,7 @@ async def get_forecast(req: ForecastRequest) -> dict:
 > required filling in a config file, not touching core pipeline logic.
 > Self-service by design."
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -761,7 +761,7 @@ From `data/applied_jobs/00039_76829368/research/company_research.yaml`:
 - Toyota invests heavily in AI, electrification, autonomous driving — forward-looking culture
 - Hybrid work model for many corporate/tech roles — confirm on-site expectations with Codie
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)
 
 ---
 
@@ -788,4 +788,4 @@ From `data/applied_jobs/00039_76829368/research/company_research.yaml`:
 | Mulesoft / Apigee (preferred) | APIs section | ⚠ Honest framing only |
 | Self-service tools (preferred) | Self-service section | ✓ HorizonScale + Streamlit |
 
-[↑ Back to top](#toyota-financial-services--lead-python-developer)
+[↑ Back to section](#technical-screen-prep--full-gap-coverage)

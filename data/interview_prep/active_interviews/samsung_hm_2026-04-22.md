@@ -89,7 +89,7 @@ Address the domain gap in your **opening 2 minutes** — don't wait for them to 
 
 You own the gap before they raise it. That reads as confidence, not defensiveness.
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#the-pivot-strategy)
 
 ---
 
@@ -115,7 +115,7 @@ If you translate your own work into their language, they do the mapping for you.
 - **Takt time:** The pace required to meet demand (available production time divided by required output); if process cycle time is slower than takt, a gap exists.
 - **OEE (Overall Equipment Effectiveness):** `Availability × Performance × Quality`; converts theoretical tool capacity into realistic effective capacity.
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#the-pivot-strategy)
 
 ---
 
@@ -138,7 +138,7 @@ If you translate your own work into their language, they do the mapping for you.
 > apply rigorous capacity planning methodology in a new domain — and I have
 > a strong track record of doing exactly that."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#the-pivot-strategy)
 
 ---
 
@@ -148,7 +148,7 @@ Manufacturing capacity planning is the **origin** of the discipline. Factory Phy
 
 If you believe that framing, it comes through. If you're apologizing for it, it doesn't.
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#the-pivot-strategy)
 
 ---
 
@@ -169,7 +169,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 **Lead with the methodology and outcomes. Let David see the transfer.**
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#the-key-reframe-it-capacity--fab-capacity)
 
 ---
 
@@ -196,7 +196,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 *(Target: 90 seconds. Hits: pivot owned, BMC TrueSight, HorizonScale, 10→2 days, 6-month forecast)*
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#your-opening-2-minutes-samsung-version)
 
 ---
 
@@ -209,7 +209,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > I understand Samsung structures comp as base plus bonus without RSUs,
 > and I'm open to discussing the full package."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#salary)
 
 ---
 
@@ -223,7 +223,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Tell me about your capacity planning experience" / "Have you worked with BMC TrueSight?"*
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#your-4-key-stories-samsung-framing)
 
 ---
 
@@ -235,7 +235,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Tell me about ML in capacity planning" / "Your most impactful project" / "Forecasting experience"*
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#your-4-key-stories-samsung-framing)
 
 ---
 
@@ -247,7 +247,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Bottleneck analysis" / "How do you approach capacity gaps?" / "Constraint removal"*
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#your-4-key-stories-samsung-framing)
 
 ---
 
@@ -259,7 +259,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 
 > *Use when asked: "Cross-functional coordination" / "Stakeholder management" / "How do you drive action from data?"*
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#your-4-key-stories-samsung-framing)
 
 ---
 
@@ -291,7 +291,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > where the stakes are higher — capacity decisions in a fab directly determine
 > output, revenue, and capital investment."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -320,7 +320,7 @@ If you believe that framing, it comes through. If you're apologizing for it, it 
 > finance, and procurement teams — translating utilization data into procurement
 > decisions with quantified cost and lead time for each option."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -343,7 +343,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > apply rigorous capacity planning methodology in a new domain — and I have
 > a strong track record of doing exactly that."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -371,7 +371,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to find the root cause. The output wasn't just 'this is bottlenecked' —
 > it was 'here's why, here's the quantified impact, here's the recommended action.'"
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -397,7 +397,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I applied the same queuing theory in IT capacity — a server at 90% utilization
 > behaves very differently from one at 70%. The math translates directly."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -422,7 +422,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > utilization (investment + lead time), or procure (cost + lead time).
 > Leadership decides with full information, not just a status update."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -446,7 +446,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > value a MES provides in a fab: one source of truth for equipment state,
 > lot movement, and process data."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -472,7 +472,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > replace CMDB with equipment master data. The pipeline architecture and
 > model structure transfer directly."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -498,7 +498,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > × performance efficiency. Raw CPU capacity is never real capacity.
 > The math is the same, the terminology shifts."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -523,7 +523,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to support the plan. I did the same at Citi — 6-month forecasting horizon
 > aligned directly to the hardware procurement cycle."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -548,7 +548,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > At Citi I did the same across server tiers — mapping utilization flow
 > to find where processing was accumulating and which tier was the constraint."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -571,7 +571,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > data model that quantified the tradeoff — maintenance now vs. risk of
 > unplanned outage later — turned arguments into decisions."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -595,7 +595,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > which built trust in the numbers. Consistency in reporting is as important
 > as accuracy."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -617,7 +617,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > That's how you get engineering work approved — translate utilization
 > percentages into dollar impact."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -636,7 +636,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Takt time also drives lot start planning: if cycle time is 45 days and you
 > need 200 lots out in week 10, lot starts must begin in week 3."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -656,7 +656,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > because hardware lead times are 3-6 months. Forward-planning horizon and
 > yield/attrition accounting are identical concepts."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -675,7 +675,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > yield drops from 95% to 90%? That drives both the lot start buffer
 > and the equipment investment decision."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -695,7 +695,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > building out the operational excellence layer of that facility is
 > genuinely exciting — it's a generational project."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -707,7 +707,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I'm actively looking for the right long-term fit.
 > The Samsung role is at the top of my list."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -718,7 +718,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > focus, the analytical depth the role requires, and the scale of what's being
 > built at the Taylor facility."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -728,7 +728,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > I understand Samsung structures comp as base plus bonus without RSUs,
 > and I'm open to discussing the full package."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -736,7 +736,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 
 > "I'm available to start immediately and can align with your preferred onboarding timeline."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -748,7 +748,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 **On-site:**
 > "Yes, fully on-site in Taylor works for me and I can support whatever schedule the team needs."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions--ordered-by-likelihood)
 
 ---
 
@@ -771,7 +771,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > window than the calendar suggests. Rising unscheduled downtime is an early warning
 > signal of equipment reliability issues before you see the output miss."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -791,7 +791,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > to what I built against BMC TrueSight — connect to the source, extract time-series
 > telemetry, enrich with reference data, build analytical models."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -809,7 +809,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > The lever: to reduce cycle time without reducing WIP, increase throughput.
 > To reduce cycle time without increasing throughput, reduce WIP. No free lunch."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -827,7 +827,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Effective capacity = theoretical × availability — raw theoretical capacity
 > is never the real planning number."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -848,7 +848,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Cloud = cost optimization and right-sizing problem.
 > Same analytical foundation, different action levers."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -865,7 +865,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > Validate against cycle time data: cycle time rising alongside utilization
 > is the classic queuing nonlinearity that confirms the bottleneck."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -881,7 +881,7 @@ Use **Move 3** from the Pivot Strategy above — have it cold.
 > The variable that changes coincidentally with the throughput drop is the
 > lead indicator. Quantify impact and drive the corrective action."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#deep-technical-topics-if-david-goes-there)
 
 ---
 
@@ -905,7 +905,7 @@ ORDER BY avg_utilization DESC
 LIMIT 5;
 ```
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#sql-questions)
 
 ---
 
@@ -943,7 +943,7 @@ ORDER BY consecutive_days DESC;
 
 > "The gaps-and-islands pattern — subtract two row numbers to identify consecutive runs."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#sql-questions)
 
 ---
 
@@ -960,7 +960,7 @@ ORDER BY consecutive_days DESC;
 > General rules: push filters early, avoid SELECT *, index join keys and
 > high-cardinality filter columns."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#sql-questions)
 
 ---
 
@@ -976,7 +976,7 @@ ORDER BY consecutive_days DESC;
 > Rolling 7-day average per tool:
 > `AVG(utilization_pct) OVER (PARTITION BY tool_id ORDER BY day ROWS BETWEEN 6 PRECEDING AND CURRENT ROW)`"
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#sql-questions)
 
 ---
 
@@ -997,7 +997,7 @@ ORDER BY consecutive_days DESC;
 > fed through a generator, processed independently, parallelized with
 > multiprocessing.Pool. 90% cycle time reduction vs. sequential design."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#python-questions)
 
 ---
 
@@ -1024,7 +1024,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 > If yhat_upper crosses the threshold within the forecast window,
 > that asset is flagged at risk."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#python-questions)
 
 ---
 
@@ -1037,7 +1037,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 > Discipline: type hints everywhere, Pydantic for data model validation,
 > pytest for pipeline testing, Black and ruff for formatting."
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#python-questions)
 
 ---
 
@@ -1049,7 +1049,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 4. "How mature is the use of statistical or ML forecasting in the current capacity process?"
 5. "What does success look like in the first 90 days for this role?"
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#questions-to-ask-david-rojas)
 
 ---
 
@@ -1072,7 +1072,7 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 5. BMC TrueSight story — most direct credential match
 6. Story 3 (Bottleneck Investigation) — most likely deep follow-up
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#logistics--pre-interview-refresh)
 
 ---
 
@@ -1096,4 +1096,4 @@ def forecast_capacity(telemetry_df: pd.DataFrame, periods: int = 180) -> pd.Data
 - MES systems (Opcenter, WorkStream): No direct experience — frame as same pattern as BMC TrueSight
 - Physical shop floor: Acknowledge and redirect to analytical depth
 
-[↑ Back to top](#samsung-austin-semiconductor--capacity-planning-engineer)
+[↑ Back to section](#job-requirements-coverage-check)
