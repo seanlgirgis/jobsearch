@@ -23,6 +23,20 @@ The document will contain: interview questions and fully scripted candidate answ
 
 ---
 
+## RUNTIME PREFLIGHT (MANDATORY)
+
+Before any conversion or audio generation steps:
+
+1. Run environment bootstrap from project root:
+   - `PS D:\StudyBook> .\env_setter.ps1`
+2. Confirm secrets were loaded successfully (`Secrets Loaded: True` expected).
+3. Validate API key presence without printing value:
+   - `python -c "import os; print(bool(os.getenv('OPENAI_API_KEY')))"`  -> must print `True`
+
+If preflight fails, stop and report the failure. Do not continue with conversion/generation.
+
+---
+
 ## WHAT YOU WILL PRODUCE
 
 A single `.md` file containing:
@@ -97,7 +111,6 @@ Replace every technical term with its phonetic equivalent:
 | AWS | A-W-S |
 | API / APIs | A-P-I / A-P-I-s |
 | ETL | E-T-L |
-| CI/CD | C-I-C-D |
 | ECS | E-C-S |
 | MES | M-E-S |
 | OEE | O-E-E |
@@ -117,6 +130,7 @@ Replace every technical term with its phonetic equivalent:
 | IAM | I-A-M |
 | JWT | J-W-T |
 | OAuth2 | Oh-Auth 2 |
+| Sean | Shawn (only if pronunciation drifts) |
 
 **F. Numbers as spoken words**
 - "8 years" → "eight years"
@@ -186,6 +200,7 @@ Sample API call:
 - ❌ Do NOT change the meaning of any answer — only change the delivery style
 - ❌ Do NOT add filler content or make the candidate sound uncertain
 - ❌ Do NOT produce non-speech sounds, effects, or stage directions
+- ❌ Do NOT switch language or translate content
 
 ---
 
