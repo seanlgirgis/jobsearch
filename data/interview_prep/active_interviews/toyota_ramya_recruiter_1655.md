@@ -1,5 +1,5 @@
 # Toyota Financial Services — Lead Senior Python Developer
-**Recruiter:** Ramya Ravichandran (recruiter@toyota.com) — referred by Codie Marcell
+**Recruiter:** Ramya Ravichandran (recruiter@toyota.com · (123) 456-7890) — referred by Codie Marcell
 **Req:** 10301655
 **Role:** Lead Senior Python Developer — Python · AWS · Microservices
 **Location:** Plano, TX — 4 days onsite / Friday remote

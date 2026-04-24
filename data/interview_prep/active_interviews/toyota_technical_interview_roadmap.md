@@ -2,6 +2,12 @@
 **Role:** Lead Senior Python Developer — Req 10301655
 **Interview:** Week of April 28, 2026 — Technical Manager
 **Signal from Ramya:** End-to-end architecture · DevOps · Pipelines · Containerization · Build and scale · API scaling · CloudFormation · Architectural decision-making
+**Recruiter Contact:** Ramya Ravichandran · recruiter@toyota.com · (123) 456-7890
+
+## Current Pipeline Status (Updated April 24, 2026)
+- **Toyota Financial Services:** Primary and most active track right now.
+- **Samsung:** Interview process closed.
+- **Capital One:** Code test submitted (2 solved, attempted 3rd); outcome uncertain, so treat as secondary until confirmed.
 
 ---
 
@@ -622,9 +628,7 @@ I'd validate this with a load test at 2x expected peak before going live."
 
 ---
 
-## STUDY ORDER (Priority for Next 5 Days)
-
-After Capital One CodeSignal is done, attack in this order:
+## STUDY ORDER (Toyota-First Priority for Next 5 Days)
 
 | Day | Focus |
 |-----|-------|
