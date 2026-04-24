@@ -26,7 +26,7 @@
 | 5 | CI/CD Design | build/test/deploy gates, rollback strategy, zero-downtime release |
 | 6 | AWS Deep Dive | S3, Glue, Redshift, SQS, CloudWatch, IAM decision rationale |
 | 7 | CloudFormation | stack design, change sets, safe update strategy |
-| 8 | Terraform Framing | honest gap + fast-ramp narrative (tool gap, not architecture gap) |
+| 8 | Terraform Framing + IaC Alternatives | honest gap + fast-ramp narrative; explicitly mention **CloudFormation** and **AWS CDK** as strong AWS-native alternatives |
 | 9 | Testing Strategy | unit/integration/contract pyramid with production gate logic |
 | 10 | Observability | metrics/logs/traces, alarms, bottleneck detection loop |
 
