@@ -3,9 +3,9 @@
 **Req:** 10301655
 **Role:** Lead Senior Python Developer — Python · AWS · Microservices
 **Location:** Plano, TX — 4 days onsite / Friday remote
-**Interview:** Thursday April 23, 2026 — 10:00 AM CT (10:00–10:30 AM)
-**Format:** 30-min recruiter screen — **PHONE CALL** (Teams blocked by org policy — requested call instead)
-**Reschedule link:** https://sh.phenom.com/GK1tMsm
+**Interview:** Thursday April 23, 2026 — 10:00 AM CT ✅ COMPLETE
+**Format:** Phone call (Teams blocked by org policy)
+**Outcome:** ✅ PASSED — Technical interview with Technical Manager next (timeline TBD)
 **Salary target:** $185,000 base
 
 ---

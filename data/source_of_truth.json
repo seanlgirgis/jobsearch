@@ -951,6 +951,78 @@
             "note": "Used for AI-assisted code generation, review, and development acceleration",
             "last_used": "2026",
             "context": "Used for AI-assisted code generation, review, and development acceleration"
+        },
+        {
+            "name": "Terraform",
+            "category": "DevOps",
+            "proficiency": "Beginner",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Actively learning; HCL syntax, core workflow (init/plan/apply/destroy), resource blocks, variables, modules, remote state in S3 with DynamoDB lock; provisioning ECS clusters, ALB, and VPC on AWS; prior AWS work used native tooling — building Terraform fluency now"
+        },
+        {
+            "name": "FastAPI",
+            "category": "Data Engineering",
+            "proficiency": "Beginner-Intermediate",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Actively learning; REST API design with FastAPI, Pydantic models for request/response validation, dependency injection, OAuth2/JWT auth, OpenAPI docs; strong Python and REST API consumption background (TrueSight, AppDynamics, CMDB APIs at Citi) transfers directly"
+        },
+        {
+            "name": "CI/CD Pipelines",
+            "category": "DevOps",
+            "proficiency": "Intermediate",
+            "years": 3,
+            "last_used": "2026",
+            "context": "GitHub Actions workflows: lint, pytest, Docker build/push to ECR, ECS service deploy; blue-green and rolling deploy strategies; CI/CD pipeline design for containerized Python services; hands-on with Docker and ECS deployment at Citi"
+        },
+        {
+            "name": "AWS MSK / Apache Kafka",
+            "category": "Cloud",
+            "proficiency": "Beginner",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Learning; Kafka core concepts: topics, partitions, consumer groups, offset management; MSK as managed Kafka on AWS; SQS vs MSK decision framework; Python confluent-kafka producer/consumer; MSK Connect for S3/Redshift sink connectors; MQ Series messaging background provides foundation"
+        },
+        {
+            "name": "PyIceberg / Apache Iceberg",
+            "category": "Data Formats",
+            "proficiency": "Beginner",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Learning; open table format for S3 data lakes — ACID transactions, schema evolution, time travel, partition evolution; PyIceberg Python library with Glue Catalog; S3 + Iceberg + Snowflake/Athena/Trino architecture; extends existing Parquet/S3/Glue experience"
+        },
+        {
+            "name": "OpenSearch / Elasticsearch",
+            "category": "Data Engineering",
+            "proficiency": "Beginner",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Learning; distributed search and log analytics; index/document/shard model; Python opensearch-py client for querying; log aggregation pattern via Kinesis Firehose → OpenSearch; OpenSearch Dashboards for operational visibility; complements CloudWatch metrics"
+        },
+        {
+            "name": "REST API Design / Microservices",
+            "category": "Data Engineering",
+            "proficiency": "Advanced",
+            "years": 8,
+            "last_used": "2025",
+            "context": "Resource-based URL design, HTTP verb semantics, status codes, pagination, versioning; built Python services consuming REST APIs from BMC TrueSight, AppDynamics, and CMDB systems at Citi; modular independently-deployable service architecture; API-first platform engineering"
+        },
+        {
+            "name": "OAuth2 / JWT",
+            "category": "Security",
+            "proficiency": "Beginner-Intermediate",
+            "years": 0,
+            "last_used": "2026",
+            "context": "Learning; OAuth2 authorization flows (client credentials, authorization code); JWT token structure and validation; securing FastAPI endpoints with OAuth2 bearer tokens; IAM-based auth for AWS services; maps to compliance and security requirements in regulated financial services environments"
+        },
+        {
+            "name": "pytest",
+            "category": "Testing",
+            "proficiency": "Intermediate",
+            "years": 3,
+            "last_used": "2026",
+            "context": "Unit tests, integration tests, fixtures, parametrize, monkeypatch; testing Python ETL pipelines and API endpoints; test pyramid: unit → integration → E2E; used pytest in playground and production pipeline validation; CI integration with GitHub Actions"
         }
     ],
     "experiences": [
@@ -1308,7 +1380,7 @@
         }
     ],
     "metadata": {
-        "last_updated": "2026-02-05",
+        "last_updated": "2026-04-24",
         "sources_archived": [
             "sources_master1.json",
             "Sources_master2.json",

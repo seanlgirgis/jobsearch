@@ -5,9 +5,16 @@
 **Recruiter Contact:** Ramya Ravichandran · recruiter@toyota.com · (123) 456-7890
 
 ## Current Pipeline Status (Updated April 24, 2026)
-- **Toyota Financial Services:** Primary and most active track right now.
-- **Samsung:** Interview process closed.
-- **Capital One:** Code test submitted (2 solved, attempted 3rd); outcome uncertain, so treat as secondary until confirmed.
+- **Toyota Financial Services:** Primary and most active track. Ramya screen April 23 → Technical HM interview week of April 28.
+- **Samsung:** ❌ Declined — closed.
+- **Capital One:** CodeSignal submitted (Q1 ✅ Q2 ✅ Q3 attempted). Outcome pending — treat as secondary until confirmed.
+
+## Capital One Topic Overlap
+Most Toyota prep doubles as Capital One prep. Cap One-specific additions if they advance:
+- **Kafka** (beyond MSK awareness — raw Kafka, consumer group rebalancing, at-least-once vs exactly-once)
+- **Spark / EMR** (beyond Glue — raw PySpark, DataFrames, EMR cluster config)
+- **NoSQL depth** (DynamoDB — partition keys, GSI, single-table design; or Cassandra)
+- **Scala awareness** (Cap One prefers Python/Scala — acknowledge Python-first, Scala-familiar)
 
 ---
 
@@ -37,9 +44,12 @@ Your Citi work already has this — HorizonScale, the AWS Hybrid Platform, the R
 | 5 | CI/CD Pipeline Design | Concept + Hands-on | 🔴 Critical |
 | 6 | AWS Deep Dive — Services You Must Own | Concept + Hands-on | 🔴 Critical |
 | 7 | CloudFormation | Concept + Hands-on | 🟠 High |
-| 8 | Terraform | Concept + Hands-on | 🟠 High |
+| 8 | Terraform | Concept + Hands-on | 🔴 Critical — Ramya flagged this gap explicitly |
 | 9 | Testing Strategy | Concept | 🟡 Medium |
 | 10 | Observability and Monitoring | Concept | 🟡 Medium |
+| 11 | Streaming — AWS MSK / Kafka | Concept + Hands-on | 🟠 High |
+| 12 | Snowflake + PyIceberg / Data Lake | Concept | 🟠 High |
+| 13 | OpenSearch + Dynatrace (Observability Expanded) | Concept | 🟡 Medium |
 
 ---
 
@@ -628,15 +638,234 @@ I'd validate this with a load test at 2x expected peak before going live."
 
 ---
 
-## STUDY ORDER (Toyota-First Priority for Next 5 Days)
+## PHASE 11 — STREAMING: AWS MSK / KAFKA
 
-| Day | Focus |
-|-----|-------|
-| Day 1 | Phase 1 (Architect mindset) + Phase 2 (System design) |
-| Day 2 | Phase 3 (API + FastAPI hands-on) + Phase 4 (Docker hands-on) |
-| Day 3 | Phase 5 (CI/CD hands-on with GitHub Actions) + Phase 6 (AWS services review) |
-| Day 4 | Phase 7 (CloudFormation hands-on — deploy a real stack) |
-| Day 5 | Phase 8 (Terraform hands-on — same stack in HCL) + Phase 9+10 (Testing + Observability concepts) |
+### Why It Matters
+Toyota req explicitly lists "real-time streaming exposure (AWS MSK)." MSK is managed Kafka on AWS. You need to speak to the streaming pattern confidently — not implement it from scratch, but architect it.
+
+### Core Concepts
+
+**Kafka / MSK mental model:**
+```
+Producers → Topics (partitioned) → Consumer Groups → Downstream Services
+```
+
+| Concept | What It Means |
+|---------|--------------|
+| **Topic** | Named stream of records — like a database table for events |
+| **Partition** | Unit of parallelism — more partitions = more consumers in parallel |
+| **Consumer Group** | Set of consumers that split the partitions between them |
+| **Offset** | Position in the partition — each consumer tracks its own |
+| **Retention** | How long messages are kept (time or size-based) |
+
+**SQS vs MSK — know when to use which:**
+
+| | SQS | MSK / Kafka |
+|--|-----|------------|
+| Use case | Task queues, decoupling services | Event streaming, audit logs, real-time pipelines |
+| Message replay | ❌ No | ✅ Yes — consumers can rewind |
+| Fan-out | SNS + SQS | Multiple consumer groups read same topic |
+| Ordering | FIFO queue only | Per partition ordering |
+| Scale | Managed, auto | Higher throughput, more config |
+| Choose when | One-time task processing | Event streams, CDC, real-time analytics |
+
+**Python Kafka producer/consumer:**
+```python
+from confluent_kafka import Producer, Consumer
+
+# Producer
+producer = Producer({'bootstrap.servers': 'msk-broker:9092'})
+producer.produce('account-events', key='ACC001', value='{"type":"payment","amount":500}')
+producer.flush()
+
+# Consumer
+consumer = Consumer({
+    'bootstrap.servers': 'msk-broker:9092',
+    'group.id': 'payment-processor',
+    'auto.offset.reset': 'earliest'
+})
+consumer.subscribe(['account-events'])
+
+while True:
+    msg = consumer.poll(timeout=1.0)
+    if msg and not msg.error():
+        process(msg.value())
+```
+
+**AWS MSK specifics:**
+- MSK = managed Kafka — AWS handles broker provisioning, patching, replication
+- MSK Serverless = fully serverless, auto-scaling capacity
+- MSK Connect = managed Kafka Connect for source/sink connectors (S3, Redshift)
+- IAM authentication for MSK in VPC
+
+**The architecture answer:**
+> "For real-time event streaming I use MSK. The pattern is: producers publish domain events to a topic — payment initiated, account updated — consumer groups downstream process those events independently. The key design decision is partition count: partition by a natural key like account ID so all events for one account land in the same partition, preserving order. SQS is for task queues; MSK is for event streams where replay and fan-out matter."
+
+---
+
+## PHASE 12 — SNOWFLAKE + PYICEBERG / DATA LAKE
+
+### Why It Matters
+Toyota req mentions "data lake and integration engineering (S3/Snowflake/PyIceberg)." This is the modern data lake stack. You need to understand the architecture, not necessarily hands-on implementation.
+
+### Snowflake Architecture
+
+**Core concepts:**
+- **Virtual Warehouse** — compute layer (scales independently of storage)
+- **Database / Schema / Table** — standard SQL hierarchy
+- **Stage** — landing zone for data files (internal or S3 external)
+- **Data Sharing** — share live data across accounts without copying
+- **Time Travel** — query historical state of any table up to 90 days
+
+**Loading data into Snowflake:**
+```sql
+-- Create an external stage pointing to S3
+CREATE STAGE my_s3_stage
+  URL = 's3://my-bucket/data/'
+  CREDENTIALS = (AWS_ROLE = 'arn:aws:iam::...');
+
+-- Copy data from stage into table
+COPY INTO my_table
+FROM @my_s3_stage/file.parquet
+FILE_FORMAT = (TYPE = PARQUET);
+```
+
+**Python + Snowflake:**
+```python
+import snowflake.connector
+
+conn = snowflake.connector.connect(
+    account='my_account',
+    user='my_user',
+    password='my_password',
+    warehouse='COMPUTE_WH',
+    database='ANALYTICS',
+    schema='PUBLIC'
+)
+cursor = conn.cursor()
+cursor.execute("SELECT * FROM account_summary LIMIT 10")
+results = cursor.fetchall()
+```
+
+**Snowflake vs Redshift — know the comparison:**
+
+| | Snowflake | Redshift |
+|--|-----------|---------|
+| Compute/storage | Fully separated | Coupled (RA3 nodes decouple) |
+| Scaling | Instant, multi-cluster | Manual resize |
+| Pricing | Per-second compute | Per-node reserved or serverless |
+| Multi-cloud | AWS + Azure + GCP | AWS only |
+| Choose when | Cross-cloud, flexible scaling | Pure AWS, existing investment |
+
+### PyIceberg / Apache Iceberg
+
+**What Iceberg is:**
+Apache Iceberg is an open table format for large analytic datasets stored in S3 (or any object store). Think of it as giving S3 files the properties of a database table.
+
+**Why it matters:**
+- **ACID transactions** on S3 files — no more corrupt partitions from concurrent writes
+- **Schema evolution** — add/rename/drop columns without rewriting data
+- **Time travel** — query data as it was at any point in time
+- **Partition evolution** — change partitioning strategy without rewriting data
+
+**The architecture pattern:**
+```
+Raw events → S3 (Parquet files) → Iceberg table layer → Query engines (Spark, Athena, Snowflake, Trino)
+```
+
+**Python with PyIceberg:**
+```python
+from pyiceberg.catalog import load_catalog
+
+catalog = load_catalog("glue", **{"type": "glue"})
+table = catalog.load_table("analytics.account_events")
+
+# Read as Arrow or Pandas
+df = table.scan(limit=1000).to_pandas()
+
+# Append new data
+from pyiceberg.schema import Schema
+table.append(new_df)
+```
+
+**The architecture answer:**
+> "For a data lake I use S3 as the storage layer with Iceberg as the table format — that gives you ACID guarantees, schema evolution, and time travel on top of raw object storage. Glue Catalog manages the Iceberg metadata. Downstream query engines — Athena, Spark on EMR, or Snowflake Spectrum — all read the same Iceberg tables without data duplication. For serving, Snowflake connects to the Iceberg tables as an external table and delivers sub-second query performance on top."
+
+---
+
+## PHASE 13 — OBSERVABILITY EXPANDED: OPENsearch + DYNATRACE
+
+### OpenSearch / Elasticsearch
+
+**What it is:** Distributed search and analytics engine. In a platform context, used for log aggregation, full-text search, and operational dashboards.
+
+**Core concepts:**
+- **Index** — like a database table; documents are stored and indexed here
+- **Document** — a JSON record
+- **Shard** — how an index is split across nodes for scale
+- **Mapping** — schema definition for fields (like column types)
+
+**Common use at Toyota Financial scale:**
+- Centralized log aggregation from ECS containers → OpenSearch (via Firehose or Logstash)
+- API request/error log search
+- Operational dashboards (OpenSearch Dashboards / Kibana)
+
+**Python query:**
+```python
+from opensearchpy import OpenSearch
+
+client = OpenSearch(hosts=[{'host': 'my-opensearch-endpoint', 'port': 443}])
+
+response = client.search(
+    index='api-logs',
+    body={
+        'query': {
+            'bool': {
+                'must': [
+                    {'match': {'status_code': '500'}},
+                    {'range': {'timestamp': {'gte': 'now-1h'}}}
+                ]
+            }
+        }
+    }
+)
+```
+
+**The architecture answer:**
+> "For log aggregation I route structured JSON logs from ECS containers to Kinesis Firehose, which delivers to OpenSearch. CloudWatch handles metrics and alarms. OpenSearch handles log search and operational dashboards. That split — metrics in CloudWatch, logs in OpenSearch — keeps each tool doing what it does best."
+
+---
+
+### Dynatrace — Your Direct Experience
+
+**You already own this from G6/FAST project. Frame it explicitly.**
+
+> "I have hands-on Dynatrace experience — at G6 Hospitality I built the FAST project, an ETL pipeline that extracted real-user performance data from Dynatrace AppMon to find the exact bottlenecks costing Brand.com revenue. I used the Dynatrace API to pull transaction traces, response times, and error rates — then applied data mining to identify the specific code paths and third-party integrations degrading checkout conversion.
+>
+> Dynatrace's strength is full-stack observability — it correlates infrastructure metrics, application traces, and user sessions in a single view. For a microservices platform like Toyota Financial, that end-to-end trace correlation across services is the critical capability."
+
+**Dynatrace vs CloudWatch — the distinction:**
+| | CloudWatch | Dynatrace |
+|--|-----------|----------|
+| Scope | AWS-native metrics + logs | Full-stack APM + infrastructure + user sessions |
+| Tracing | X-Ray | Built-in distributed tracing |
+| AI | Basic anomaly detection | Davis AI — root cause analysis |
+| Use when | AWS-native ops baseline | Deep APM, user-experience observability |
+
+---
+
+## STUDY ORDER (Updated — Toyota Technical Interview Week of April 28)
+
+| Date | Focus |
+|------|-------|
+| **Apr 24 (today)** | Ramya recruiter screen prep — opening, salary, Terraform answer |
+| **Apr 25 (post-Ramya)** | Phase 1 (Architect mindset) + Phase 2 (System design) |
+| **Apr 26** | Phase 3 (FastAPI hands-on) + Phase 4 (Docker hands-on) |
+| **Apr 27** | Phase 5 (CI/CD + GitHub Actions) + Phase 6 (AWS services review) |
+| **Apr 28** | Phase 7 (CloudFormation) + Phase 11 (MSK/Kafka concepts) |
+| **Apr 29** | Phase 8 (Terraform) + Phase 12 (Snowflake + PyIceberg concepts) |
+| **Apr 30** | Phase 9+10 (Testing + Observability) + Phase 13 (OpenSearch + Dynatrace framing) |
+| **Interview day** | Review anchor phrase, architect pattern, your 3 stories in architect format |
 
 ---
 
