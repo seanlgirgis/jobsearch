@@ -1,5 +1,5 @@
 # TOYOTA RAMYA — GLANCE SHEET
-### Thu Apr 23 · 10:00 AM CT · Teams · Ramya Ravichandran · Req 10301655
+### Thu Apr 23 · 10:00 AM CT · 📞 PHONE CALL · Ramya Ravichandran · Req 10301655
 
 ---
 
@@ -87,6 +87,6 @@
 
 ## LOGISTICS
 
-- **Teams Meeting ID:** 288 082 233 660 320
-- **Passcode:** q4y8Au75
-- Camera on. Background clean. Quiet room.
+- **Format:** Phone call — Ramya will call you
+- All notes visible — no camera, no screen share
+- Quiet room. Phone charged.
