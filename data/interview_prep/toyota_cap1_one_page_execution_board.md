@@ -10,7 +10,7 @@
 | Priority | Track | Focus | Mission |
 |---|---|---:|---|
 | 1 | **Toyota** | **70%** | Present as platform architect: design, tradeoffs, scale, delivery |
-| 2 | **Capital One** | **20%** | Keep coding sharp + explain approach clearly under time pressure |
+| 2 | **Capital One** | **20%** | Strengthen shared technical depth: data engineering, SQL, platform reliability |
 | 3 | **Extras** | **10%** | Keep reusable interview assets ready for opportunistic calls |
 
 ---
@@ -32,15 +32,15 @@
 
 ---
 
-## Capital One Secondary Plan
+## Capital One Secondary Plan (Technical Depth Only)
 
 | Order | Topic | Must Own |
 |---|---|---|
-| 1 | CodeSignal Core Patterns | arrays, hash maps, strings, two-pointers |
-| 2 | Timeboxing Strategy | solve fast, skip early, return with remaining time |
-| 3 | Clean Execution | edge cases, naming clarity, no careless syntax misses |
-| 4 | Explanation Layer | brief problem framing + complexity statement |
-| 5 | Behavioral Backup | ownership, ambiguity, impact in concise STAR form |
+| 1 | Data Engineering Architecture | ingestion -> transform -> storage -> serving, with reliability controls |
+| 2 | SQL Depth | joins, window functions, CTEs, optimization, indexing, explain-plan mindset |
+| 3 | Python for Data Platforms | modular pipelines, testing, error handling, orchestration patterns |
+| 4 | Cloud Platform Decisions | AWS service choice tradeoffs (S3/Glue/Redshift/SQS/Lambda/ECS) |
+| 5 | Observability + Data Quality | metrics/logs/alerts, data validation, dead-letter and replay strategy |
 
 ---
 
@@ -54,9 +54,9 @@
 - [ ] Practice Terraform gap answer 3 times (confident, brief)
 
 ### Capital One (Secondary)
-- [ ] Complete 2 timed coding sets (45-60 min each)
-- [ ] Review mistakes log and write 3 prevention rules
-- [ ] Rehearse 1-minute explanation template after each problem
+- [ ] Run 2 technical walkthroughs (data pipeline + API/data-serving design)
+- [ ] Complete 2 SQL drills (windowing + optimization-focused)
+- [ ] Rehearse platform tradeoff answers (service choice + scaling + reliability)
 
 ### Extras
 - [ ] Keep one polished salary/start-date/authorization script handy
@@ -68,4 +68,3 @@
 
 > "My approach is requirements first, then architecture, then implementation.  
 > I make decisions based on tradeoffs and scale constraints, not convenience."
-
