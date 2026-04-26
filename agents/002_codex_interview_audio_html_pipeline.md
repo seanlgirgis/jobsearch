@@ -22,7 +22,7 @@ Parallel tutorials workspace lives at `..\StudyBook\tutorials`.
 3. Run environment setup before Python/OpenAI pipeline calls:
    - `& .\env_setter.ps1`
 4. Keep generated binary audio outside repos:
-   - `C:\temp\studybook_audio\{slug}\...`
+   - `D:\temp\studybook_audio\{slug}\...`
 5. Keep text artifacts in repos only:
    - Script source: `..\jobsearch\data\interview_prep\audio_prep\{slug}\audio_script_{slug}.md`
    - HTML page: `..\seanlgirgis.github.io\learning\{slug}.html`
@@ -38,7 +38,7 @@ Parallel tutorials workspace lives at `..\StudyBook\tutorials`.
    - `..\jobsearch\data\interview_prep\audio_prep\{slug}\audio_script_{slug}.md`
 3. Run audio generation + stitch from StudyBook:
    - `.\scripts\run_mission_audio.ps1 "..\jobsearch\data\interview_prep\audio_prep\{slug}\audio_script_{slug}.md" -ChunkSize 750 -RequestTimeoutSeconds 120`
-4. Upload `C:\temp\studybook_audio\{slug}\final_{slug}.mp3` to R2.
+4. Upload `D:\temp\studybook_audio\{slug}\final_{slug}.mp3` to R2.
 5. Generate or refresh HTML in ChatGPT Project 2 using:
    - `prompts\codex_missions\WebsitePagesAndAudioBYCodexChatgpt\Project2_HTMl_Maker.txt`
 6. Save page to:
@@ -74,3 +74,5 @@ Key files:
 - New topic from scratch: use full triplet flow (script -> audio pipeline -> html).
 - Existing script + existing html: use provided-files mode.
 - User wants manual commands only: use runner mode.
+
+

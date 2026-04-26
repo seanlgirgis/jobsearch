@@ -30,8 +30,8 @@ Reconstruct and standardize the workflow that uses:
 - Tutorials workspace:
   - `.\tutorials\`
 - Binary audio output (outside repos):
-  - `C:\temp\studybook_audio\{slug}\audio_clips\`
-  - `C:\temp\studybook_audio\{slug}\final_{slug}.mp3`
+  - `D:\temp\studybook_audio\{slug}\audio_clips\`
+  - `D:\temp\studybook_audio\{slug}\final_{slug}.mp3`
 
 ## Prompts and Runbooks Used
 
@@ -55,7 +55,7 @@ Core files:
 5. Run audio mission runner:
    - `.\scripts\run_mission_audio.ps1 "..\jobsearch\data\interview_prep\audio_prep\{slug}\audio_script_{slug}.md" -ChunkSize 750 -RequestTimeoutSeconds 120`
 6. Confirm final audio exists:
-   - `Test-Path "C:\temp\studybook_audio\{slug}\final_{slug}.mp3"`
+   - `Test-Path "D:\temp\studybook_audio\{slug}\final_{slug}.mp3"`
 7. Upload final MP3 to R2.
 8. Use Project 2 prompt to generate/update `{slug}.html`.
 9. Save HTML in `..\seanlgirgis.github.io\learning\`.
@@ -102,3 +102,5 @@ Get-ChildItem "..\jobsearch\data\interview_prep\audio_prep" -Recurse -File |
   - `final_{slug}.mp3`
   - `{slug}.html`
 - Keep encoding UTF-8 and use HTML entities for UI glyphs in generated pages to avoid mojibake.
+
+
