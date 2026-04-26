@@ -1,14 +1,14 @@
 r"""
 generate_audio_generic.py
 Usage:
-    python temp\jobsearch\scripts\generate_audio_generic.py --script <path> [--output <dir>] [--chunk-size <chars>]
+    python scripts\generate_audio_generic.py --script <path> [--output <dir>] [--chunk-size <chars>]
 
     --script      Path to TTS-formatted .md script file (required)
     --output      Directory for MP3 clips (default: audio_clips/ next to script)
     --chunk-size  Max characters per API call (default: 500 ~ 30 seconds)
                   Splits at natural sentence boundaries — never mid-sentence.
 
-Working directory: D:\StudyBook\  (all paths relative to root)
+Working directory: any repo root (all paths may be absolute or relative).
 
 Sub-chunking strategy:
   Long blocks are split at sentence endings (. ? ! ...) into ~30-second pieces.
@@ -16,7 +16,7 @@ Sub-chunking strategy:
   The stitcher (ffmpeg) joins them in alphabetical order — seamless playback.
 
 Environment:
-  Requires OPENAI_API_KEY. Run .\env_setter.ps1 from D:\StudyBook\ first.
+  Requires OPENAI_API_KEY. If your shell does not have it, run .\env_setter.ps1 from your StudyBook repo first.
 """
 
 import os
@@ -291,3 +291,5 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+

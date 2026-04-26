@@ -16,7 +16,7 @@ def generate_audio():
 
     client = OpenAI(api_key=api_key)
 
-    script_path = Path(r"D:\StudyBook\temp\jobsearch\data\interview_prep\audio_prep\toyota_ramya_2026-04-23\Toyota_Interview_Audio_Script_v2.md")
+    script_path = Path(__file__).resolve().parents[1] / "data" / "interview_prep" / "audio_prep" / "toyota_ramya_2026-04-23" / "Toyota_Interview_Audio_Script_v2.md"
     output_dir = script_path.parent / "audio_clips"
     output_dir.mkdir(exist_ok=True)
 
@@ -107,3 +107,5 @@ def generate_audio():
 
 if __name__ == "__main__":
     generate_audio()
+
+

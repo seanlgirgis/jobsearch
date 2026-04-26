@@ -1,7 +1,7 @@
 # Job Application Pipeline — Runbook
 # Last updated: 2026-04-14
 
-Your project root: D:\StudyBook\temp\jobsearch
+Your project root: D:\Workarea\jobsearch
 Run all scripts from that folder.
 
 ===================================================================
@@ -151,3 +151,4 @@ If you already ran the pipeline but want to regenerate something:
     & $Python scripts\10_auto_pipeline.py --uuid XXXXXXXX --model grok-3 --method "LinkedIn"
 
 Replace XXXXXXXX with the 8-char ID from the folder name in data\jobs\
+
