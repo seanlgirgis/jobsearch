@@ -69,6 +69,10 @@ Key files:
 - `Existing_work_pipeline_execution_provided_files_master.md`
 - `Existing_work_pipeline_execution_provided_files_runner_mode_master.md`
 
+Persistent manuals:
+- `..\StudyBook\docs\manuals\INTERVIEW_AUDIO_HTML_MASTER_GUIDE.md`
+- `..\StudyBook\docs\manuals\WEBSITE_REMAINING_WORK_TRACKER.md`
+
 ## Execution Mode Selection
 
 - New topic from scratch: use full triplet flow (script -> audio pipeline -> html).

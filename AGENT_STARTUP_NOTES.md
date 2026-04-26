@@ -16,3 +16,7 @@ Interview prep pipeline memory:
 - `agents/002_codex_interview_audio_html_pipeline.md`
 - `docs/INTERVIEW_AUDIO_HTML_PIPELINE_RECONSTRUCTED.md`
 - Parallel tutorials path: `D:\Workarea\StudyBook\tutorials`
+- Master SOP: `..\StudyBook\docs\manuals\INTERVIEW_AUDIO_HTML_MASTER_GUIDE.md`
+- Living backlog: `..\StudyBook\docs\manuals\WEBSITE_REMAINING_WORK_TRACKER.md`
+- Website reusable rules: `..\seanlgirgis.github.io\AGENTS.md`
+- Website page template: `..\seanlgirgis.github.io\learning\_page-template.html`
