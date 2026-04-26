@@ -18,5 +18,6 @@ Interview prep pipeline memory:
 - Parallel tutorials path: `D:\Workarea\StudyBook\tutorials`
 - Master SOP: `..\StudyBook\docs\manuals\INTERVIEW_AUDIO_HTML_MASTER_GUIDE.md`
 - Living backlog: `..\StudyBook\docs\manuals\WEBSITE_REMAINING_WORK_TRACKER.md`
+- Audio playlist/sync SOP: `..\StudyBook\docs\manuals\AUDIO_PLAYLIST_SYNC_METHOD.md`
 - Website reusable rules: `..\seanlgirgis.github.io\AGENTS.md`
 - Website page template: `..\seanlgirgis.github.io\learning\_page-template.html`

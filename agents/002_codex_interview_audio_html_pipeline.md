@@ -72,6 +72,7 @@ Key files:
 Persistent manuals:
 - `..\StudyBook\docs\manuals\INTERVIEW_AUDIO_HTML_MASTER_GUIDE.md`
 - `..\StudyBook\docs\manuals\WEBSITE_REMAINING_WORK_TRACKER.md`
+- `..\StudyBook\docs\manuals\AUDIO_PLAYLIST_SYNC_METHOD.md`
 
 ## Execution Mode Selection
 
