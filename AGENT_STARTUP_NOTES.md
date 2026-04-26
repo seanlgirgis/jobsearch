@@ -15,3 +15,4 @@ Preferred pattern:
 Interview prep pipeline memory:
 - `agents/002_codex_interview_audio_html_pipeline.md`
 - `docs/INTERVIEW_AUDIO_HTML_PIPELINE_RECONSTRUCTED.md`
+- Parallel tutorials path: `D:\Workarea\StudyBook\tutorials`

@@ -17,6 +17,7 @@ Reconstruct and standardize the workflow that uses:
 - `D:\Workarea\StudyBook\`: orchestration root, env setup, mission prompts, scripts
 - `D:\Workarea\jobsearch\`: script source storage for interview prep
 - `D:\Workarea\seanlgirgis.github.io\`: website learning pages/components/projects
+- `D:\Workarea\StudyBook\tutorials\`: parallel tutorials workspace for tutorial artifacts/content
 
 ## Canonical Relative Paths (from StudyBook root)
 
@@ -26,6 +27,8 @@ Reconstruct and standardize the workflow that uses:
   - `..\seanlgirgis.github.io\learning\{slug}.html`
 - Component card updates:
   - `..\seanlgirgis.github.io\components\learning-*.html`
+- Tutorials workspace:
+  - `.\tutorials\`
 - Binary audio output (outside repos):
   - `C:\temp\studybook_audio\{slug}\audio_clips\`
   - `C:\temp\studybook_audio\{slug}\final_{slug}.mp3`

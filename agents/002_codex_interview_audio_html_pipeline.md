@@ -7,6 +7,7 @@ Last updated: 2026-04-26
 This repository (`D:\Workarea\jobsearch`) stores interview-prep script source files.
 The paired website repository is `..\seanlgirgis.github.io` (sibling to `..\StudyBook`).
 The execution root for mission commands is always `..\StudyBook`.
+Parallel tutorials workspace lives at `..\StudyBook\tutorials`.
 
 ## Path Migration (Old -> New)
 
@@ -26,6 +27,8 @@ The execution root for mission commands is always `..\StudyBook`.
    - Script source: `..\jobsearch\data\interview_prep\audio_prep\{slug}\audio_script_{slug}.md`
    - HTML page: `..\seanlgirgis.github.io\learning\{slug}.html`
    - Component wiring: `..\seanlgirgis.github.io\components\*.html`
+6. Keep tutorial assets/content in:
+   - `..\StudyBook\tutorials\`
 
 ## Reconstructed Pipeline (Project 1 + Project 2)
 
