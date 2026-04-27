@@ -1,0 +1,128 @@
+{
+  "meta": {
+    "version": "1.0",
+    "last_updated": "2026-02-02",
+    "source_files": ["sources_master1.json", "Sources_master2.json"],
+    "primary_source": "sources_master1.json"
+  },
+  "personal_info": {
+    "name": "Sean Luka Girgis",
+    "previous_name": "Emad Girgis",
+    "name_change_date": "2017",
+    "professional_title": "Senior Data Engineer & AI Architect | Enterprise ML Engineer & Time-Series Specialist",
+    "contact": {
+      "address": "424 Oriole Dr., Murphy, TX 75094",
+      "city": "Murphy",
+      "state": "TX",
+      "zip": "75094",
+      "area": "Plano/Dallas",
+      "phone": "214-315-2190",
+      "email": "seanlgirgis@gmail.com"
+    },
+    "online_presence": {
+      "github": "https://github.com/seanlgirgis",
+      "website": "https://seanlgirgis.github.io",
+      "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+      "twitter": "https://x.com/SeanLuka22249"
+    },
+    "summary": "Senior Data Engineer & AI Architect with 20+ years of enterprise experience. Specialized in migrating legacy on-prem pipelines to Serverless AWS Architectures (Glue/Athena), PySpark, GenAI Agents (Text-to-SQL), high-scale Capacity Forecasting, time-series modeling, and performance optimization. Expert in building automated ETL pipelines, ML-driven predictive models (Prophet, scikit-learn), and modern data platforms."
+  },
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology",
+      "institution": "Humber College",
+      "location": "Toronto, Canada"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt"
+    }
+  ],
+  "certifications": [
+    "Brainbench C++ Fundamentals Certified",
+    "Brainbench C++ Certified",
+    "Brainbench C Certified",
+    "Brainbench Java 2.0 Certified",
+    "Brainbench OOD Certified",
+    "Brainbench Math Certified"
+  ],
+  "skills_categorized": {
+    "data_engineering_ml_ai": [
+      "Python (Pandas, Generators, scikit-learn, Prophet)",
+      "PySpark",
+      "Time-Series Forecasting",
+      "ML-driven Capacity Prediction",
+      "GenAI Agents (Text-to-SQL, Claude 3 Sonnet / Bedrock)",
+      "ETL Pipelines",
+      "Data Warehousing (Oracle Partitioning, Parquet, Snowflake/Redshift)",
+      "Streamlit Dashboards",
+      "Airflow",
+      "Docker"
+    ],
+    "cloud_infrastructure": [
+      "AWS (S3 Lifecycle Rules, Glue, Athena, Bedrock)",
+      "Serverless Lakehouse Architectures",
+      "BMC TrueSight / TSCO",
+      "AppDynamics",
+      "CA APM (Wily Introscope, up to 10.x)",
+      "DynaTrace AppMon & Synthetics",
+      "Linux/Unix (HPUX, SunOS, Red Hat)"
+    ],
+    "development_languages": [
+      "C / C++ (POSIX Threads, STL, OCCI/OCI, Multithreading)",
+      "Java / J2EE (EJB, JMS, Servlets)",
+      "SQL / PL/SQL / Pro*C",
+      "Korn Shell / Perl / Awk / Sed",
+      "Oracle / PostgreSQL / DB2 / MySQL"
+    ],
+    "monitoring_performance": [
+      "Capacity Planning & Forecasting",
+      "Performance Bottleneck Analysis",
+      "JMX Monitoring",
+      "Thread Dumps",
+      "Custom Dashboards / Alerts / Reports"
+    ],
+    "tools_misc": [
+      "Git",
+      "Rational Rose / UML",
+      "CPPUNIT",
+      "WebLogic / WebSphere",
+      "TOAD",
+      "Syncsort / Maestro"
+    ]
+  },
+  "skills_flat": [
+    "Python", "PySpark", "Pandas", "scikit-learn", "Prophet", "ML Forecasting",
+    "AWS", "S3", "Glue", "Athena", "Bedrock", "GenAI", "Text-to-SQL",
+    "ETL", "Data Pipelines", "Streamlit", "Airflow", "Docker",
+    "Oracle", "PostgreSQL", "MySQL", "DB2", "SQL", "PL/SQL", "Pro*C",
+    "C", "C++", "Java", "J2EE", "Perl", "Korn Shell",
+    "CA APM", "AppDynamics", "DynaTrace", "BMC TrueSight",
+    "Linux", "UNIX", "HPUX", "Red Hat",
+    "Capacity Planning", "Performance Engineering", "Time-Series Analysis"
+  ],
+  "experience_summary": {
+    "total_years": "20+",
+    "recent_focus": "Data Engineering, ML/AI, Capacity Planning",
+    "industries": ["Banking/Finance", "Telecom", "Hospitality", "Technology"],
+    "companies": ["CITI", "G6 Hospitality", "CA Technologies", "AT&T", "Sabre", "Sprint/AMDOCS"]
+  },
+  "target_roles": [
+    "Senior Data Engineer",
+    "AI/ML Engineer",
+    "Staff Data Engineer",
+    "Principal Data Engineer",
+    "Data Architect",
+    "ML Platform Engineer",
+    "GenAI Engineer"
+  ],
+  "preferences": {
+    "work_type": ["remote", "hybrid"],
+    "employment_type": ["full-time", "contract", "gig"],
+    "min_rate_hourly": 85,
+    "min_salary_annual": 160000,
+    "willing_to_relocate": false,
+    "travel_percentage_max": 10
+  }
+}
