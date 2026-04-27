@@ -1,0 +1,20 @@
+MODE TEMPLATE: A1 (DISCUSS_AND_ADVISE)
+
+Copy/paste this when you want strategy only:
+
+MODE_ID: A1
+TASK: Discuss and advise only
+GOAL: Decide whether to apply and what angle to take
+JOB:
+<paste job posting>
+CONSTRAINTS:
+- Source of truth is authoritative
+- No invented experience
+- Keep answer concise and actionable
+
+Expected output:
+1) Fit summary (short)
+2) Apply / Hold / Skip
+3) Best angle (1 line)
+4) Top 3 risks
+5) Next step

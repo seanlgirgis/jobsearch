@@ -1,0 +1,46 @@
+JOB EVALUATION FRAMEWORK (MANDATORY)
+
+All scoring and recommendations MUST follow this model:
+
+SCORING DIMENSIONS:
+1) Core Stack Match (35%)
+   - AWS, Python, SQL, Spark, ETL, Data Warehousing
+
+2) Role Alignment (20%)
+   - Target: Senior Data Engineer, ML Data Engineer (light ML)
+
+3) Experience Fit (15%)
+   - Candidate: 20+ years
+   - Penalize roles requiring <5 years (overqualification risk)
+
+4) Domain Match (15%)
+   - Pipelines, telemetry, forecasting, data platforms
+
+5) Risk Factors (-15%)
+   - Deep learning-heavy roles (TensorFlow/PyTorch core)
+   - Heavy Kafka production (expert-level required)
+   - Domain mismatch (biotech, robotics, research)
+   - Overqualification (junior roles)
+
+DECISION RULES:
+- 85–100 → STRONG PROCEED
+- 70–84 → PROCEED
+- 60–69 → HOLD (only if strategic)
+- <60 → SKIP
+
+GUARDRAILS:
+- Never recommend jobs outside realistic hiring range
+- Never prioritize roles requiring primary expertise not present
+- Avoid:
+  - Pure ML research roles
+  - Deep Learning Engineer roles
+  - Director/Executive roles (unless explicitly requested)
+  - Junior roles causing rejection risk
+
+POSITIONING RULE:
+Always select ONE dominant angle:
+- AWS Data Engineer
+- ML Data Engineer (light ML)
+- Hands-on Senior Engineer
+
+Do NOT mix multiple identities.

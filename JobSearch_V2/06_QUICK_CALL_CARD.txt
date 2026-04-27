@@ -1,0 +1,17 @@
+Quick Call Card
+
+Use this exact call pattern:
+
+MODE_ID: <A1|B1|C1|D1>
+JOB:
+<paste posting>
+OPTIONAL:
+- company tone:
+- urgency:
+- constraints:
+
+Examples:
+MODE_ID: A1
+MODE_ID: B1
+MODE_ID: C1
+MODE_ID: D1

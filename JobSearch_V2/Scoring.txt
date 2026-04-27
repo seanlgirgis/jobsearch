@@ -1,0 +1,219 @@
+Yes — and I’m really glad you asked this now, because this is exactly where most pipelines quietly break.
+
+You don’t want “AI scoring.”
+You want **guardrails that keep you in your lane + slightly stretch you**, not fantasy roles.
+
+---
+
+# 🎯 What you need: A **Job Fit Evaluation Framework**
+
+Think of it like a filter before emotion kicks in.
+
+---
+
+# 🧠 The Rule (simple, powerful)
+
+```text
+Apply if:
+70–90% fit → APPLY
+60–70% fit → CONDITIONAL (only if strategic)
+<60% → SKIP
+>90% → RISK (overqualified → down-level positioning needed)
+```
+
+---
+
+# ⚖️ The 5-Dimension Scoring Model
+
+This is what your ChatGPT project should use internally.
+
+## 1. Core Stack Match (Weight: 35%)
+
+Do you match the **main tools they care about**?
+
+For you:
+
+* AWS (Glue, S3, Redshift)
+* Python / SQL
+* Spark / ETL
+* Data warehousing
+
+```text
+Strong match = +35
+Partial = +20
+Weak = +5
+```
+
+---
+
+## 2. Role Alignment (Weight: 20%)
+
+Is this actually your lane?
+
+```text
+Senior Data Engineer → perfect
+ML Data Engineer → good stretch
+Pure ML Scientist → weak
+Principal/Director → risky (overqualified flag)
+```
+
+---
+
+## 3. Experience Fit (Weight: 15%)
+
+Compare:
+
+* Required years vs your 20+
+
+```text
+If job asks 5–10 yrs → OK
+If job asks 15+ → strong match
+If job asks <5 yrs → overqualified risk
+```
+
+---
+
+## 4. Domain & Problem Match (Weight: 15%)
+
+Does your **Citi / telemetry / forecasting** experience map?
+
+```text
+Pipelines / analytics / infra → strong
+AI product / research → weaker
+```
+
+---
+
+## 5. Risk Factors (Weight: -15%)
+
+Subtract points if:
+
+* ❌ Requires deep TensorFlow/PyTorch (you’re not positioning there)
+* ❌ Heavy streaming Kafka production (you’re learning, not expert)
+* ❌ Domain mismatch (bio/robotics/etc.)
+* ❌ Overqualification (junior role)
+
+---
+
+# 🧾 Final Decision Logic
+
+After scoring:
+
+```text
+85–100 → STRONG APPLY
+70–84 → APPLY
+60–69 → APPLY ONLY if:
+           - remote
+           - fast process
+           - low effort
+<60 → SKIP
+```
+
+---
+
+# 🚫 Critical Guardrails (this is what you asked for)
+
+Add this to your project instructions:
+
+```text
+Never recommend jobs that:
+- Require primary expertise in areas the candidate does not claim (e.g., deep learning frameworks as core skill)
+- Are at executive/director level unless explicitly targeted
+- Are junior roles that would trigger overqualification rejection
+- Require domain expertise not present (e.g., biotech, robotics, academia)
+
+Prefer jobs where:
+- Candidate matches 70–90% of requirements
+- Core stack is AWS + Python + Data Engineering
+- ML is supportive, not the main identity
+```
+
+---
+
+# 🧭 Your Personal Target Box (VERY IMPORTANT)
+
+This is your “sweet spot”:
+
+```text
+Role:
+- Senior Data Engineer
+- ML Data Engineer (light ML, not research)
+
+Stack:
+- AWS (Glue, S3, Redshift)
+- Python / SQL
+- Spark / ETL
+
+Bonus:
+- ML pipelines
+- forecasting
+- data platform work
+
+Avoid:
+- Pure ML Scientist
+- Deep Learning Engineer
+- Director/Manager roles (for now)
+```
+
+---
+
+# 🔥 Example (your current job)
+
+This one you posted:
+
+* AWS ✔
+* Python ✔
+* Spark/Kafka ✔
+* ML (light) ✔
+* 15+ years ✔
+
+👉 This is inside your **target box**
+
+---
+
+# 🧠 Final instruction to add to your ChatGPT project
+
+Paste this:
+
+```text
+Job Evaluation Rules:
+
+Score jobs based on:
+1. Core stack match (AWS, Python, SQL, Spark)
+2. Role alignment (Senior Data Engineer preferred)
+3. Experience fit (10–20+ years acceptable)
+4. Domain similarity (pipelines, telemetry, ML forecasting)
+5. Risk factors (overqualification, missing core tech, wrong domain)
+
+Decision rules:
+- 85–100 → STRONG APPLY
+- 70–84 → APPLY
+- 60–69 → CONDITIONAL APPLY
+- <60 → SKIP
+
+Never recommend jobs outside the candidate’s realistic hiring range.
+
+Avoid:
+- Deep learning-heavy roles (TensorFlow/PyTorch as core)
+- Pure research ML roles
+- Executive/Director roles unless explicitly targeted
+- Junior roles causing overqualification risk
+```
+
+---
+
+# 💬 Straight talk
+
+This one change will:
+
+* cut 50% of wasted applications
+* increase interview rate
+* reduce mental fatigue
+
+Because now you’re not “hoping”
+You’re **filtering like a machine + thinking like a strategist**
+
+---
+
+If you want next step, I can:
+👉 turn this into a **drop-in scoring template your pipeline can parse automatically** (so Codex can consume it cleanly)

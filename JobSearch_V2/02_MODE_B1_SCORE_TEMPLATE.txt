@@ -1,0 +1,21 @@
+MODE TEMPLATE: B1 (SCORE_JOB)
+
+Copy/paste this when you want score report only:
+
+MODE_ID: B1
+TASK: Produce score_report.md content only
+JOB:
+<paste job posting>
+RULES:
+- Use source_of_truth.json as career truth
+- Do not invent facts
+- Use exact headings below
+
+Required output headings (exact):
+## Match Score: X%
+## Recommendation: Strong Proceed / Proceed / Hold / Skip
+## Strongest Matches
+## Gaps & Risks
+## ATS Keywords Present
+## ATS Keywords Missing
+## Advice

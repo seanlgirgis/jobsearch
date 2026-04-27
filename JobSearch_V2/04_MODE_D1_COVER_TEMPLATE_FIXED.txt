@@ -1,0 +1,58 @@
+MODE TEMPLATE: D1 (COVER_INTERMEDIATE) - STRICT
+
+What this mode does:
+- Builds pipeline intermediate cover JSON.
+- Not final cover DOCX.
+
+Copy/paste this:
+
+MODE_ID: D1
+TASK: Produce strict cover intermediate artifact as downloadable file
+JOB:
+<paste job posting>
+
+RULES:
+- Source of truth only
+- No invented claims
+- No placeholders (Your Name, Unknown, Para text, N/A, TBD)
+- Date format: Month DD, YYYY
+
+OUTPUT REQUIREMENT (STRICT):
+1) Create EXACTLY one downloadable file/attachment:
+   - cover_intermediate_v1.json
+2) Do NOT print normal narrative text.
+3) After creating file, print one line only:
+   FILES_READY: cover_intermediate_v1.json
+
+If file attachments are NOT available in this chat:
+- Output EXACT fallback block only, no extra text.
+- The file must be inside a clean, copyable code block.
+
+Format:
+
+=== FILE: cover_intermediate_v1.json ===
+<json>
+=== END FILE ===
+
+Required schema:
+{
+  "header": {
+    "name": "",
+    "address": "",
+    "phone": "",
+    "email": "",
+    "date": "",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "",
+  "body": ["", "", ""],
+  "conclusion": "",
+  "sign_off": "Sincerely,\nFull Name"
+}
+
+JSON rules:
+- Do not add extra keys.
+- All fields must exist even if empty.
+- Use only source_of_truth.json for personal data.
+- Keep tone aligned with selected job positioning.
