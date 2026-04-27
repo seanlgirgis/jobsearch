@@ -1,0 +1,54 @@
+{
+  "triage_timestamp": "2026-04-04T20:18:31",
+  "input_path": "D:\\StudyBook\\intake\\intake.md",
+  "company": "Senior Python Developer- job post",
+  "role": "",
+  "location": "",
+  "fit_score": 94,
+  "decision": "APPLY",
+  "decision_reason": "Good fit and no duplicate blockers.",
+  "exact_applied_match": null,
+  "max_similarity_applied": 0.2309,
+  "top_similar_applied": [
+    {
+      "job_id": "00042_95feaf55",
+      "company": "SoFi",
+      "role": "Senior Data Engineer",
+      "similarity": 0.2309
+    },
+    {
+      "job_id": "00009_3caadd3a",
+      "company": "RTX",
+      "role": "Data Engineer ID50062",
+      "similarity": 0.2249
+    },
+    {
+      "job_id": "00005_894db1e7",
+      "company": "Geico",
+      "role": "Senior Engineer",
+      "similarity": 0.2169
+    },
+    {
+      "job_id": "00031_1daa6ef1",
+      "company": "Keurig Dr Pepper",
+      "role": "Principal Data Engineer",
+      "similarity": 0.2156
+    },
+    {
+      "job_id": "00020_71272f0d",
+      "company": "Geico",
+      "role": "Capacity Planning and Management",
+      "similarity": 0.2146
+    }
+  ],
+  "supporting_reasons": [
+    "AWS stack match",
+    "Python match",
+    "SQL match",
+    "Pipeline/ETL match",
+    "ETL keyword match",
+    "Data lake match",
+    "Data warehouse match",
+    "Hybrid match"
+  ]
+}

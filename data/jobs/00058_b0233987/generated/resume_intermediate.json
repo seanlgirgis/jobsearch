@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Data Engineer | ETL, Cloud Data Platforms, AI-Driven Automation",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise engineering experience, including large-scale ETL pipeline design, data modeling, and cloud-focused platform optimization. Strong hands-on background in Python, SQL, AWS, and analytics-oriented data architecture, with proven delivery in fast-moving environments. Active user of AI-assisted engineering workflows (including Claude Code/Cursor) to automate implementation and accelerate delivery quality.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained ETL/ELT pipelines (Python, Pandas, SQL) ingesting telemetry from 6,000+ endpoints for enterprise analytics and operational reporting.",
+        "Designed and optimized data models and storage patterns for high-volume historical analysis, performance forecasting, and decision support.",
+        "Implemented data quality checks, cleansing, and validation workflows to improve reliability of downstream datasets and reporting.",
+        "Partnered across engineering and analytics stakeholders to deliver scalable data solutions aligned to business and platform priorities."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Supported cloud-oriented modernization and monitoring improvements for customer-facing platforms.",
+        "Used telemetry analysis to identify bottlenecks and guide data-informed optimization decisions."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built extraction and reporting workflows that improved operational visibility and actionable system metrics.",
+        "Worked with large technical organizations to improve monitoring, diagnostics, and engineering process maturity."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led large-scale data migration initiatives from 200+ MySQL nodes to Oracle RAC with focus on integrity, performance, and reliability.",
+        "Built validation/testing workflows supporting stable rollout in high-throughput production systems."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed data-driven performance diagnostics and delivered structured recommendations to improve service quality and stability."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "ETL/ELT Pipelines",
+    "Data Modeling and Architecture",
+    "AWS (Glue, Athena, S3)",
+    "Databricks (working knowledge)",
+    "Cloud Data Platform Design",
+    "Data Quality and Validation",
+    "Pipeline Performance Optimization",
+    "AI-Assisted Engineering (Claude Code, Cursor)",
+    "Cross-functional Collaboration",
+    "Production Troubleshooting"
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Telemetry ETL Platform",
+      "description": "Built scalable ETL workflows and analytics-ready datasets to support operational decision making and long-horizon forecasting.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "ETL",
+        "AWS"
+      ]
+    },
+    {
+      "name": "AI-Powered Engineering Workflow Automation",
+      "description": "Applied AI coding tools to automate repetitive engineering tasks and accelerate delivery of data and software artifacts.",
+      "technologies": [
+        "Claude Code",
+        "Cursor",
+        "Python",
+        "Automation"
+      ]
+    }
+  ]
+}

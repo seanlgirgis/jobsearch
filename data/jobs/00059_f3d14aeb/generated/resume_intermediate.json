@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Data Engineer | Python, SQL, API & Platform Data Pipelines",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Data Engineer with extensive software and data-platform experience building reliable Python/SQL pipelines and analytics-ready datasets in enterprise environments. Strong hands-on development skills across REST-based integrations, modular Python packaging, and production data workflows with a pragmatic platform-support mindset. Experienced working under tight timelines while maintaining quality, collaboration, and operational reliability.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained production data pipelines in Python, Pandas, and SQL ingesting telemetry from 6,000+ endpoints.",
+        "Developed reusable Python modules and automation scripts to streamline ETL processing, data validation, and reporting workflows.",
+        "Designed and optimized data models and queries to support efficient analytics and operational decision-making.",
+        "Collaborated across engineering and platform teams to troubleshoot issues, support operations, and improve data pipeline reliability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Integrated and analyzed multi-source telemetry data to identify bottlenecks and improve performance outcomes.",
+        "Supported cloud migration and platform modernization efforts in a fast-paced delivery environment."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Created extraction scripts and operational data artifacts for enterprise engineering teams.",
+        "Worked directly with stakeholders to support platform operations and resolve production issues efficiently."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led large-scale data migration work with emphasis on performance, integrity, and maintainable architecture.",
+        "Built testing and validation workflows to ensure stable deployment in production-like environments."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed data-driven diagnostics and authored technical analysis to support high-quality engineering outcomes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Data Engineering",
+    "REST-based Web Services",
+    "Pandas",
+    "JSON / Parquet",
+    "Data Warehousing (Snowflake and similar)",
+    "Object Storage (S3 and similar)",
+    "Git",
+    "Docker (working knowledge)",
+    "Kubernetes (working knowledge)",
+    "Platform Support and Troubleshooting"
+  ],
+  "projects": [
+    {
+      "name": "Python-Based ETL Automation Framework",
+      "description": "Built modular Python ETL components and validation workflows to improve reliability and reduce manual processing effort.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "SQL",
+        "JSON",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "Enterprise Data Pipeline Optimization",
+      "description": "Improved pipeline throughput, quality checks, and query efficiency for large-scale analytics and reporting use cases.",
+      "technologies": [
+        "SQL",
+        "AWS",
+        "ETL",
+        "Monitoring"
+      ]
+    }
+  ]
+}

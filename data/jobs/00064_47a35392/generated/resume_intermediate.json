@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Python Developer | Data Engineering & Cloud Automation",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Senior Python Developer with 20+ years of software and data engineering experience building scalable ETL pipelines, automation tooling, and cloud-oriented data solutions. Strong hands-on expertise in Python, SQL, data modeling, and analytics platform optimization, with proven success delivering data-driven outcomes in enterprise financial environments. Experienced collaborating with business stakeholders to translate requirements into practical, high-impact technical solutions.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Developed and maintained Python-based ETL and data automation pipelines across 6,000+ telemetry endpoints.",
+        "Built robust SQL transformations and optimized data flows for reporting, analytics, and operational decision support.",
+        "Partnered with finance/business stakeholders to translate requirements into scalable data solutions and actionable insights.",
+        "Implemented data quality controls, monitoring, and process optimizations to improve reliability and platform performance."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Built analysis and automation workflows supporting cloud-based monitoring and performance optimization.",
+        "Contributed to cross-functional delivery in fast-paced environments with tight technical timelines."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Developed custom scripts and data extraction tools to support enterprise monitoring, analytics, and reporting.",
+        "Led technical guidance and solution delivery with strong stakeholder communication and collaboration."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led high-volume data migration and transformation initiatives with emphasis on scalability and reliability.",
+        "Designed test and validation routines to ensure data integrity and system stability."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed data-driven diagnostics and performance tuning support for enterprise applications."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "ETL Pipelines",
+    "SQL",
+    "Data Warehousing",
+    "Data Lake Architectures",
+    "Relational and NoSQL Databases",
+    "AWS (Lambda, CloudFormation concepts)",
+    "Terraform (infrastructure-as-code exposure)",
+    "GitLab / CI-CD workflow exposure",
+    "Data Modeling and Metadata Management",
+    "API-driven architectures",
+    "Agile Team Collaboration"
+  ],
+  "projects": [
+    {
+      "name": "Python ETL and Data Platform Automation",
+      "description": "Built scalable Python and SQL automation workflows for data ingestion, transformation, and analytics platform reliability.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "ETL",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Cloud Data Delivery Optimization",
+      "description": "Improved data pipeline performance and reliability through monitoring, quality controls, and process standardization.",
+      "technologies": [
+        "AWS",
+        "Data Pipelines",
+        "Monitoring",
+        "Analytics"
+      ]
+    }
+  ]
+}

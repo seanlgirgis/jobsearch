@@ -1,0 +1,117 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Data Engineer | AWS Data Pipelines | SQL & Python",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Data Engineer with strong hands-on experience designing and operating ETL/ELT pipelines, SQL-driven data models, and analytics workflows in enterprise environments. Deep Python and SQL foundation with proven delivery of reliable data pipelines, quality checks, and performance-focused reporting. Production cloud experience in AWS (Glue, Athena, S3) with a practical, collaborative approach to cross-functional delivery.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained automated ETL/ELT pipelines (Python, Pandas, SQL) ingesting telemetry from 6,000+ endpoints for analytics and reporting use cases.",
+        "Designed and optimized data models for historical retention, trend analysis, and business reporting in a regulated enterprise environment.",
+        "Implemented data quality checks, cleansing, and anomaly validation to improve pipeline trust and downstream reliability.",
+        "Automated recurring reporting workflows and reduced manual effort through scripted pipeline/process improvements.",
+        "Collaborated with business and technical stakeholders to translate reporting needs into scalable, supportable data solutions."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Supported AWS migration efforts and monitoring modernization for business-critical systems.",
+        "Analyzed telemetry and performance data to identify bottlenecks and guide optimization decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led large-scale data migration from 200+ MySQL nodes to Oracle RAC with strong focus on integrity and performance.",
+        "Built testing and validation workflows to support safe migration cutovers and stable operations."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Designed dashboards, alerts, and extraction scripts that improved issue detection and operational response.",
+        "Partnered across teams to troubleshoot root causes and improve platform performance."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed performance analysis and capacity testing using structured SQL-based metrics and automation scripts."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL / Oracle",
+    "Pandas",
+    "ETL/ELT Pipelines",
+    "Data Modeling",
+    "Schema Design",
+    "Query Optimization",
+    "Data Quality & Monitoring",
+    "AWS (Glue, Athena, S3)",
+    "PySpark",
+    "Airflow"
+  ],
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed and optimized AWS data workflows using S3, Glue, and Athena with practical ETL improvements.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "S3",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "HorizonScale Capacity Forecasting Engine",
+      "description": "Built reliable forecasting data pipelines and reduced manual cycle time for capacity planning.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "PySpark",
+        "scikit-learn",
+        "Prophet"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+uuid: 64c2ec47-1654-4557-9a01-60074b44137c
+job_id: 00056_64c2ec47
+original_filename: intake.md
+company: Sigma
+role: Senior Software Engineer - Observability and Reliability
+company_website: ''
+location: New York, NY
+status: APPLIED
+score: 76
+recommendation: APPLY
+score_date: '2026-04-04T12:07:55'
+created_at: '2026-04-04T12:07:55'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: LinkedIn
+  application_notes: 'Applied via LinkedIn.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied via LinkedIn.

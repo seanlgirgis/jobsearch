@@ -1,0 +1,35 @@
+uuid: 56770170-ebd5-4506-8a5a-92f9336778bc
+job_id: 00052_56770170
+original_filename: intake.md
+company: Globe Life
+role: Cloud Data Engineer (Hybrid)
+company_website: ''
+location: McKinney, TX
+status: APPLIED
+score: 88
+recommendation: Strong Proceed
+score_date: '2026-04-04T00:00:00'
+created_at: '2026-04-04T00:00:00'
+notes: 'Strong AWS cloud data engineering fit; hybrid location aligned. Main gap is explicit production depth in some named AWS DB services.'
+location_preference: Plano, TX
+last_decision_at: '2026-04-04T00:00:00'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-04'
+  applied_method: Company Website
+  application_notes: ''
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Job folder created in direct mode
+  - date: '2026-04-04'
+    status: Ready
+    notes: Resume/cover prepared for review and submission
+  - date: '2026-04-04'
+    status: Ready
+    notes: Direct-mode artifacts generated (resume_intermediate.json, cover_intermediate.json, resume.md, cover.md, resume.docx, cover.docx)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Submitted on company website
+

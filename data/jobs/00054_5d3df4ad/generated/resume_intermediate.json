@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Data Engineer | Observability & Performance Engineering",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Senior Data Engineer and Performance Engineering professional with 20+ years of enterprise experience across observability, capacity analytics, and cloud modernization. Hands-on with Dynatrace, CA APM, AppDynamics, and BMC TrueSight, with a strong track record in technical customer-facing delivery, cross-functional collaboration, and translating complex telemetry insights into business outcomes.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and operated telemetry pipelines (Python, Pandas, SQL) ingesting data from 6,000+ endpoints to drive observability and capacity decisions.",
+        "Produced executive-facing dashboards and risk forecasts, translating technical performance signals into clear business recommendations.",
+        "Partnered across infrastructure and application teams to troubleshoot performance bottlenecks and improve service reliability.",
+        "Managed enterprise monitoring ecosystems including CA APM, AppDynamics, and BMC TrueSight in regulated environments."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and synthetic monitoring for customer-facing digital systems and critical business services.",
+        "Led telemetry-driven optimization work through the FAST initiative, identifying bottlenecks and recommending high-impact improvements.",
+        "Supported cloud transition initiatives and strengthened end-to-end monitoring coverage across AWS-hosted workloads."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led enterprise APM implementations and upgrades across large environments (4,000-6,000 agents).",
+        "Designed custom dashboards, alerts, and management modules to improve incident visibility and response speed.",
+        "Worked directly with client technical teams to troubleshoot issues, present recommendations, and guide rollout strategy."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed performance diagnostics for high-volume J2EE workloads and documented actionable tuning recommendations.",
+        "Instrumented and analyzed JVM/JMX metrics to identify thread, memory, and database bottlenecks."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led a large-scale platform migration from 200+ MySQL nodes to Oracle RAC with strong focus on scale and stability.",
+        "Built validation and test frameworks that improved migration confidence and production readiness."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Dynatrace (AppMon, Synthetic Monitoring)",
+    "Application Performance Monitoring (CA APM, AppDynamics)",
+    "Observability & Telemetry Analysis",
+    "Python",
+    "SQL / Oracle",
+    "AWS",
+    "Linux / Unix",
+    "Performance Troubleshooting",
+    "Executive Presentation & Technical Communication",
+    "Proof-of-Concept Support"
+  ],
+  "projects": [
+    {
+      "name": "FAST Performance Analytics Initiative",
+      "description": "Used Dynatrace telemetry and data analysis to identify user-experience bottlenecks and prioritize improvements for business-critical systems.",
+      "technologies": [
+        "Dynatrace",
+        "Data Analysis",
+        "Performance Engineering"
+      ]
+    },
+    {
+      "name": "HorizonScale Capacity Forecasting Engine",
+      "description": "Developed forecasting workflows and dashboards to predict capacity risk and support proactive infrastructure decisions.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "scikit-learn",
+        "BMC TrueSight"
+      ]
+    }
+  ]
+}

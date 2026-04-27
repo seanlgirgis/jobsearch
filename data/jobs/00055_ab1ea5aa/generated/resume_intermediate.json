@@ -1,0 +1,117 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Enterprise Solutions Engineer | Observability | Fluent Arabic & English",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Customer-facing enterprise technology professional with 20+ years of experience across observability, performance engineering, and executive advisory in complex environments. Trusted by technical and business stakeholders to turn platform insights into measurable outcomes, lead solution discussions, and drive adoption across large organizations. Fluent in Arabic and English, with a strong foundation for KSA enterprise engagement and land-and-expand growth motions.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Led cross-functional engagement with engineering and leadership teams to prioritize reliability and capacity initiatives across enterprise systems.",
+        "Developed telemetry-driven insights from 6,000+ endpoints, translating technical findings into business-impact recommendations.",
+        "Influenced platform adoption and optimization decisions through executive reporting, risk forecasting, and stakeholder alignment.",
+        "Partnered with operations and application teams to improve outcomes in regulated, high-stakes environments."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer (Dynatrace)",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Owned Dynatrace AppMon and synthetic monitoring for customer-facing digital channels and mission-critical services.",
+        "Delivered data-backed recommendations that improved performance visibility and informed roadmap priorities.",
+        "Collaborated across teams during cloud transition efforts, helping align technical execution with business goals."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Advised enterprise customers on observability strategy, implementation planning, and platform optimization.",
+        "Presented technical findings and rollout approaches to senior stakeholders and cross-functional teams.",
+        "Helped drive successful adoption of APM capabilities across large, complex organizations."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Conducted deep diagnostics and communicated actionable tuning plans for high-volume enterprise applications.",
+        "Worked with technical teams to resolve bottlenecks and improve service quality under load."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Contributed to strategic modernization projects requiring executive alignment, technical leadership, and measurable delivery outcomes.",
+        "Supported stakeholder communication across engineering and business teams during large migration programs."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Enterprise SaaS Customer Engagement",
+    "Observability and APM (Dynatrace, CA APM, AppDynamics)",
+    "Executive Communication (VP and C-level)",
+    "Land-and-Expand Support",
+    "Technical Discovery and Solution Positioning",
+    "Proof-of-Concept and Value Demonstration",
+    "Territory and Account Collaboration",
+    "Fluent Arabic and English",
+    "AWS",
+    "Python",
+    "SQL",
+    "Performance Engineering"
+  ],
+  "projects": [
+    {
+      "name": "Dynatrace FAST Performance Initiative",
+      "description": "Used observability and performance analytics to identify customer-impact bottlenecks and drive prioritized optimization plans.",
+      "technologies": [
+        "Dynatrace",
+        "Observability",
+        "Performance Analytics"
+      ]
+    },
+    {
+      "name": "Enterprise Capacity Insight Program",
+      "description": "Built telemetry-driven reporting and forecasting workflows that supported leadership decisions and platform strategy.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "BMC TrueSight",
+        "Analytics"
+      ]
+    }
+  ]
+}

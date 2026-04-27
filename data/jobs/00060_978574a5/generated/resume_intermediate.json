@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Data Analyst / Data Engineer | SQL, Snowflake, Power BI",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Data Analyst/Data Engineer with 20+ years of enterprise experience translating complex data into actionable reporting and scalable data solutions. Strong expertise in SQL, dimensional modeling, ETL pipelines, and stakeholder-facing analytics delivery, with hands-on experience in cloud data ecosystems and operational reporting. Proven ability to work cross-functionally in fast-paced environments and deliver high-quality insights with clear business impact.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Developed and optimized complex SQL workflows and Python/Pandas data pipelines for 6,000+ telemetry endpoints.",
+        "Built reporting-ready data structures and metrics supporting operational analytics and executive decision-making.",
+        "Implemented data quality validation, monitoring, and process-improvement workflows to increase trust in reporting outputs.",
+        "Partnered directly with stakeholders to gather requirements, prioritize reporting needs, and deliver scalable analytics solutions."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Produced analytics and dashboard insights from observability datasets to guide product and operations improvements.",
+        "Collaborated with cross-functional teams to improve data clarity and reliability for business-facing reporting."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Created reporting modules and extracted metrics for large enterprise teams in support of analysis and decision workflows.",
+        "Documented data/reporting patterns and enabled teams through practical training and support."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led data migration and modeling efforts with emphasis on performance, reliability, and analytical usability.",
+        "Built validation frameworks that improved data consistency and downstream confidence."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed large datasets and performance indicators to identify risks and recommend actionable improvements."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Advanced SQL",
+    "Data Analysis and Reporting",
+    "Dimensional Data Modeling",
+    "Data Extraction and Transformation",
+    "Snowflake (and similar cloud data warehouses)",
+    "Power BI (dashboard and report development)",
+    "Python",
+    "Pandas",
+    "ETL/ELT Pipelines",
+    "Spark (working knowledge)",
+    "Kafka/Streaming concepts (working knowledge)",
+    "Agile Collaboration"
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Reporting Data Model Program",
+      "description": "Designed reporting-ready data structures and metrics pipelines to support cross-functional analytics and executive dashboards.",
+      "technologies": [
+        "SQL",
+        "Python",
+        "Data Modeling",
+        "Reporting"
+      ]
+    },
+    {
+      "name": "Data Quality and Analytics Pipeline Optimization",
+      "description": "Improved data validation, query efficiency, and analytics reliability across large operational datasets.",
+      "technologies": [
+        "SQL",
+        "Pandas",
+        "ETL",
+        "Monitoring"
+      ]
+    }
+  ]
+}

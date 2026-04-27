@@ -1,0 +1,25 @@
+uuid: 6b2db598-1b3f-41b4-babd-e06ef5ad34ad
+job_id: 00063_6b2db598
+original_filename: intake.md
+company: Inclusion Cloud
+role: Data Engineer
+company_website: ''
+location: Dallas, TX
+status: APPLIED
+score: 84
+recommendation: APPLY
+score_date: '2026-04-04T14:39:54'
+created_at: '2026-04-04T14:39:54'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: Company Website
+  application_notes: 'Applied on company site. No user ID or password required.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied on company site. No login required.

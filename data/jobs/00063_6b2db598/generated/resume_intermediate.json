@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Data Engineer | Big Data Pipelines | Spark & Cloud",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Data Engineer with 20+ years of enterprise engineering experience building scalable data pipelines, optimizing data models, and delivering analytics-ready datasets. Strong hands-on expertise in Python, SQL, Spark-oriented processing, workflow automation, and cloud data architectures. Proven ability to improve data quality, automate manual processes, and collaborate across cross-functional teams in dynamic Agile environments.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained large-scale Python/SQL data pipelines ingesting and transforming telemetry from 6,000+ endpoints.",
+        "Implemented automated data validation, quality checks, and monitoring workflows to improve timeliness and trust in downstream data products.",
+        "Optimized data delivery pipelines and processing performance for analytics and operational decision support.",
+        "Collaborated with engineering, analytics, and business stakeholders to resolve data issues and improve platform outcomes."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Integrated multi-source telemetry and monitoring data to support actionable analytics and efficiency improvements.",
+        "Supported cloud modernization initiatives and contributed to data-driven process optimization."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Developed extraction and transformation scripts used for enterprise reporting and operational troubleshooting.",
+        "Worked with cross-functional teams to standardize data workflows and improve reliability of technical insights."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led high-volume data migration/transformation initiatives with focus on performance, integrity, and maintainability.",
+        "Built validation and dependency-aware workflows to improve migration reliability."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed root-cause analysis on internal application/process issues and delivered data-backed recommendations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "SQL",
+    "Data Engineering",
+    "Big Data Pipeline Architecture",
+    "Spark",
+    "Kafka / Stream Processing Concepts",
+    "Airflow",
+    "ETL/ELT",
+    "Data Modeling and Metadata Management",
+    "AWS",
+    "Azure / GCP Concepts",
+    "Relational and NoSQL Data Platforms"
+  ],
+  "projects": [
+    {
+      "name": "Scalable Hybrid-Cloud Data Pipeline Program",
+      "description": "Built and optimized data pipelines and quality controls to improve completeness, timeliness, and reliability of enterprise data flows.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Spark",
+        "Cloud Data Platform"
+      ]
+    },
+    {
+      "name": "Data Operations Automation Initiative",
+      "description": "Automated manual data handling and validation tasks, improving consistency and reducing operational bottlenecks.",
+      "technologies": [
+        "ETL",
+        "Monitoring",
+        "Automation",
+        "Analytics"
+      ]
+    }
+  ]
+}

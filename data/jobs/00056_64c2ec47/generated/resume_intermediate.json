@@ -1,0 +1,117 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Senior Software Engineer | Observability & Reliability",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Senior engineer with 20+ years building and operating high-scale software systems with deep focus on observability, reliability, and performance. Hands-on experience creating telemetry pipelines, APM instrumentation, monitoring strategy, and operational tooling used by engineering teams. Strong foundation in distributed systems troubleshooting, cloud operations, and engineering craftsmanship.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built telemetry and observability data pipelines for 6,000+ endpoints, enabling engineers to detect issues early and reduce operational risk.",
+        "Designed runtime reporting and alert-focused workflows that improved reliability planning and cloud triage across enterprise services.",
+        "Partnered with engineering teams to define measurable service behaviors and improve incident response through data-driven insights.",
+        "Developed Python-based automation and analytics tooling to support uptime, forecasting, and platform optimization initiatives."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer (Dynatrace)",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and synthetic monitoring for customer-facing applications and critical backend services.",
+        "Implemented dashboarding and end-to-end visibility patterns that improved troubleshooting speed and reliability outcomes.",
+        "Supported cloud migration and observability modernization efforts across AWS-hosted workloads."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale APM implementations and upgrades across complex environments with thousands of instrumented agents.",
+        "Created management modules, alerts, dashboards, and extraction tooling to improve system measurability and operational confidence.",
+        "Worked directly with engineering teams on performance diagnostics, root-cause analysis, and reliability improvements."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed JVM, memory, thread, and database behavior under load to identify bottlenecks and increase service stability.",
+        "Built repeatable performance analysis workflows and delivered actionable tuning recommendations to engineering teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Contributed to high-throughput platform modernization and migration initiatives with strong emphasis on performance and resilience.",
+        "Built validation/testing workflows supporting stable operations in distributed production environments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Observability and Reliability Engineering",
+    "APM (Dynatrace, CA APM, AppDynamics)",
+    "Monitoring, Logging, Alerting, Dashboarding",
+    "Distributed Systems Troubleshooting",
+    "Python",
+    "Java",
+    "C++",
+    "SQL / Oracle",
+    "Linux / Unix",
+    "AWS",
+    "Cloud Triage and Incident Diagnostics",
+    "Performance Engineering"
+  ],
+  "projects": [
+    {
+      "name": "Enterprise Telemetry Reliability Platform",
+      "description": "Built telemetry ingestion and analysis workflows used for proactive reliability planning and faster incident triage.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "APM",
+        "Monitoring"
+      ]
+    },
+    {
+      "name": "Dynatrace Monitoring Modernization",
+      "description": "Expanded end-to-end observability and synthetic monitoring coverage for customer-facing systems and cloud workloads.",
+      "technologies": [
+        "Dynatrace",
+        "AWS",
+        "Performance Engineering"
+      ]
+    }
+  ]
+}

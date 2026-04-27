@@ -1,0 +1,22 @@
+uuid: ab1ea5aa-403b-4f55-b251-4a199a29e565
+job_id: 00055_ab1ea5aa
+original_filename: intake.md
+company: Full-time
+role: Unknown
+company_website: ''
+location: Unknown
+status: READY
+score: 58
+recommendation: HOLD
+score_date: '2026-04-04T11:43:20'
+created_at: '2026-04-04T11:43:20'
+notes: 'Fit score (58) below apply threshold.'
+application:
+  applied: false
+  applied_date: null
+  applied_method: null
+  application_notes: ''
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (HOLD)

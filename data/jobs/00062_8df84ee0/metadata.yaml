@@ -1,0 +1,25 @@
+uuid: 8df84ee0-55af-4d1d-b0fa-28a28c0bb4fc
+job_id: 00062_8df84ee0
+original_filename: intake.md
+company: HUMAC INC.
+role: Dynatrace Administrator
+company_website: ''
+location: Fort Mill, SC (Onsite)
+status: APPLIED
+score: 50
+recommendation: HOLD
+score_date: '2026-04-04T14:21:48'
+created_at: '2026-04-04T14:21:48'
+notes: 'Fit score (50) below apply threshold.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: Dice
+  application_notes: 'Submitted by user.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (HOLD)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Submitted by user.

@@ -1,0 +1,18 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 4, 2026"
+  },
+  "salutation": "Dear Hiring Team,",
+  "intro": "I am excited to apply for the Dynatrace Administrator role with HUMAC INC. This role is strongly aligned with my hands-on APM and Dynatrace background supporting enterprise applications in production environments.",
+  "body": [
+    "I have direct experience administering Dynatrace AppMon and synthetic monitoring for business-critical customer-facing systems, including setup, tuning, dashboarding, and operational troubleshooting. I have also managed adjacent enterprise APM ecosystems and collaborated closely with engineering and infrastructure teams to improve performance visibility and reliability.",
+    "Across prior roles, I have led monitoring implementation and optimization efforts, developed actionable alerting/reporting, and supported incident analysis under tight timelines. My approach combines strong technical ownership with practical cross-team coordination to ensure monitoring platforms deliver measurable value.",
+    "I would welcome the opportunity to contribute this expertise to your client engagement and support reliable Dynatrace operations onsite in Fort Mill."
+  ],
+  "conclusion": "Thank you for your consideration. I look forward to discussing how I can support your APM and Dynatrace objectives.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

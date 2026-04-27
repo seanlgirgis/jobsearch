@@ -1,0 +1,116 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Dynatrace Administrator | APM Specialist | Performance Monitoring",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "APM and observability specialist with extensive enterprise experience implementing, managing, and optimizing Dynatrace and related performance-monitoring platforms. Proven track record in monitoring architecture, alerting strategy, incident diagnostics, and performance tuning across mission-critical systems. Strong operational mindset with hands-on delivery in production environments and close collaboration with engineering and infrastructure teams.",
+  "experience": [
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer (Dynatrace)",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Owned administration and support of Dynatrace AppMon and synthetic monitoring for enterprise customer-facing systems.",
+        "Implemented dashboards, monitoring coverage, and operational diagnostics improving visibility and troubleshooting efficiency.",
+        "Supported production monitoring lifecycle including onboarding, tuning, and incident response alignment."
+      ]
+    },
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Managed and integrated enterprise monitoring environments including CA APM, AppDynamics, and infrastructure telemetry systems.",
+        "Developed monitoring and analytics workflows for 6,000+ endpoints to support proactive performance and capacity management.",
+        "Collaborated with operations and engineering teams to investigate bottlenecks and improve system reliability."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Led large-scale APM implementations/upgrades and supported thousands of monitored agents in enterprise environments.",
+        "Designed management modules, alerts, and dashboards; tuned configurations for stability and actionable performance insights.",
+        "Provided troubleshooting and optimization support for application/infrastructure performance in high-pressure production contexts."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Performed performance analysis and instrumentation across J2EE applications, including JVM/JMX and system-level metrics.",
+        "Produced monitoring-based recommendations to improve throughput and application stability."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Contributed to high-scale production modernization projects with strong focus on performance, reliability, and operational readiness."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Dynatrace Administration",
+    "Application Performance Monitoring (APM)",
+    "Performance Monitoring and Tuning",
+    "Monitoring Dashboards and Alerting",
+    "Incident Diagnostics and Troubleshooting",
+    "CA APM",
+    "AppDynamics",
+    "Synthetic Monitoring",
+    "Production Support",
+    "Linux / Unix",
+    "SQL",
+    "Stakeholder Collaboration"
+  ],
+  "projects": [
+    {
+      "name": "Dynatrace Enterprise Monitoring Program",
+      "description": "Implemented and managed Dynatrace monitoring coverage, dashboards, and diagnostics processes for business-critical production systems.",
+      "technologies": [
+        "Dynatrace",
+        "APM",
+        "Synthetic Monitoring",
+        "Performance Engineering"
+      ]
+    },
+    {
+      "name": "APM Optimization and Incident Response Enablement",
+      "description": "Improved performance visibility and response workflows through monitoring design, alert tuning, and cross-team operational support.",
+      "technologies": [
+        "CA APM",
+        "AppDynamics",
+        "Monitoring",
+        "Operations"
+      ]
+    }
+  ]
+}

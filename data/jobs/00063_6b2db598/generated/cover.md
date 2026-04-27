@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 4, 2026  
+
+Dear Hiring Team,
+
+I am excited to apply for the Data Engineer position at Inclusion Cloud. The role aligns closely with my background in building and optimizing scalable data pipelines, automating data workflows, and delivering reliable analytics-ready datasets in cloud-oriented environments.
+
+In my recent role at CITI, I developed and maintained Python/SQL data pipelines across 6,000+ telemetry endpoints, implemented robust data quality checks, and optimized processing performance for analytics and operational decision support. I also worked closely with cross-functional stakeholders to resolve data issues and improve overall data reliability.
+
+I bring strong hands-on experience in data transformation, workflow automation, and root-cause analysis, with practical exposure to Spark-oriented processing, stream-processing concepts, and modern cloud data patterns. I am comfortable operating in fast-paced Agile teams and delivering maintainable, scalable solutions under tight timelines.
+
+I would value the opportunity to contribute to Inclusion Cloud's data engineering goals by helping build secure, efficient, and high-quality data pipelines for client consumption.
+
+Thank you for your consideration. I look forward to discussing how I can support your data platform and process improvement initiatives.
+
+Sincerely,
+Sean Luka Girgis

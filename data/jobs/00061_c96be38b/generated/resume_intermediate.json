@@ -1,0 +1,115 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "preferred_title": "Data Engineer | Databricks, PySpark, Azure Data Pipelines",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io"
+  },
+  "summary": "Data Engineer with 20+ years of enterprise engineering experience and strong hands-on focus on scalable ETL/ELT pipelines, Python/PySpark processing, and cloud data platforms. Proven track record building reliable data flows, implementing robust data quality checks, and optimizing pipeline performance for analytics and decision support. Experienced in modern data engineering practices across Databricks-oriented and cloud warehouse ecosystems.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained large-scale data pipelines using Python, SQL, and PySpark-style processing patterns for 6,000+ telemetry endpoints.",
+        "Implemented data validation and quality checks to ensure integrity and reliability of downstream data products.",
+        "Optimized pipeline workflows and query logic to improve processing performance and operational stability.",
+        "Partnered with engineering and analytics stakeholders to deliver scalable data models and reporting-ready datasets."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Supported cloud data and monitoring workflows while improving system observability and operational efficiency.",
+        "Collaborated across teams to troubleshoot and resolve production bottlenecks under tight timelines."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant (APM SME)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Developed extraction scripts and pipeline-support tooling for enterprise reporting and diagnostics.",
+        "Helped teams enforce reliable operational standards and process consistency in data-related workflows."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led high-scale data migration and transformation initiatives with focus on performance and data integrity.",
+        "Built robust validation/test processes supporting reliable rollout across production environments."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed large operational datasets to identify issues and improve platform stability and throughput."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": [
+    "Python",
+    "PySpark",
+    "SQL",
+    "Databricks",
+    "Delta Lake",
+    "ETL/ELT Pipeline Development",
+    "Data Quality Checks and Monitoring",
+    "Data Modeling",
+    "Azure Data Platform Concepts (ADF, ADLS, Databricks)",
+    "Data Warehouse Patterns",
+    "Pipeline Performance Tuning",
+    "Agile Delivery"
+  ],
+  "projects": [
+    {
+      "name": "Scalable Cloud Data Pipeline Modernization",
+      "description": "Designed and optimized cloud-oriented ETL pipelines with strong data quality controls and operational monitoring.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Cloud Data Platform"
+      ]
+    },
+    {
+      "name": "Enterprise Data Quality and Reliability Framework",
+      "description": "Implemented validation, auditing, and monitoring checks to improve trust and continuity in critical data processes.",
+      "technologies": [
+        "Data Quality",
+        "ETL",
+        "Monitoring",
+        "Analytics"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 4, 2026  
+
+Dear Hiring Team,
+
+I am excited to apply for the Data Engineer - Databricks role at Acunor Infotech. This position aligns closely with my experience developing and optimizing scalable data pipelines, implementing robust data checks, and delivering reliable cloud-based data workflows.
+
+In my recent role at CITI, I built and maintained production data pipelines using Python and SQL across 6,000+ telemetry endpoints, implemented data validation controls, and continuously improved data quality and pipeline reliability. I also worked closely with cross-functional teams to ensure data solutions met both operational and analytical needs.
+
+I bring strong hands-on engineering execution with PySpark-oriented processing patterns, data modeling, ETL/ELT automation, and performance tuning. I am comfortable monitoring jobs, troubleshooting bottlenecks, and driving process improvements in fast-paced Agile environments.
+
+I would welcome the opportunity to contribute this practical, quality-focused data engineering experience to your team and support successful Databricks and Azure data platform outcomes.
+
+Thank you for your consideration. I look forward to discussing how I can add value to your data modernization initiatives.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX (Dallas area)  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 4, 2026  
+
+Dear Hiring Team,
+
+I am excited to apply for the Senior Data Engineer role at Inspiren. The role aligns strongly with my background designing and operating large-scale ETL/data pipelines, optimizing cloud-based data workflows, and partnering cross-functionally to deliver reliable data products.
+
+In my recent role at CITI, I built and maintained Python/SQL-based ETL pipelines across 6,000+ telemetry endpoints, developed optimized data models, and implemented data quality and validation workflows for downstream analytics and reporting. I worked closely with engineering and business stakeholders to translate real-world requirements into scalable, production-ready data solutions.
+
+I also bring deep experience in performance-focused architecture, migration, and operational optimization from earlier enterprise roles. My approach combines hands-on engineering execution with pragmatic collaboration and continuous improvement. I actively use AI-assisted coding workflows (including Claude Code and Cursor) to automate repetitive tasks and accelerate delivery quality.
+
+Inspiren's mission at the intersection of compassionate care and technology is compelling, and I would value the opportunity to contribute to data systems that improve both operational and clinical outcomes at scale.
+
+I am a dual U.S. and Canadian citizen and fully authorized to work in both countries without sponsorship. I would welcome the opportunity to contribute to Inspiren's data platform and product roadmap.
+
+Sincerely,
+Sean Luka Girgis

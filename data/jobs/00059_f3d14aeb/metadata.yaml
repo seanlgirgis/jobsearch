@@ -1,0 +1,25 @@
+uuid: f3d14aeb-a523-45d0-81dd-6064826aaec0
+job_id: 00059_f3d14aeb
+original_filename: intake.md
+company: K Anand Corporation
+role: Data Engineer
+company_website: ''
+location: Sunnyvale, CA / Austin, TX
+status: APPLIED
+score: 72
+recommendation: APPLY
+score_date: '2026-04-04T13:42:21'
+created_at: '2026-04-04T13:42:21'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: Dice
+  application_notes: 'Applied via Dice.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied via Dice.

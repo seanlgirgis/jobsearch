@@ -1,0 +1,25 @@
+uuid: b0233987-3209-4a62-a571-f66734faf189
+job_id: 00058_b0233987
+original_filename: intake.md
+company: Inspiren
+role: Senior Data Engineer
+company_website: ''
+location: Remote, US or Canada
+status: APPLIED
+score: 88
+recommendation: APPLY
+score_date: '2026-04-04T12:29:59'
+created_at: '2026-04-04T12:29:59'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: Company Website
+  application_notes: 'Applied submitted.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied via company website.

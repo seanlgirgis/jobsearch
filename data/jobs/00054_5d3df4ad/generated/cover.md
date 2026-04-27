@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX (Dallas area)  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 4, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Solutions Engineer (Remote, Southeast US) role at Dynatrace. This opportunity aligns closely with my background in observability, performance engineering, and technical customer-facing delivery across enterprise environments.
+
+In my recent role at CITI, I built and operated telemetry data pipelines for 6,000+ endpoints and translated complex monitoring signals into actionable recommendations for engineering and leadership teams. I regularly partnered across infrastructure and application stakeholders to diagnose performance issues and improve reliability outcomes.
+
+I also bring direct Dynatrace experience from G6 Hospitality, where I managed Dynatrace AppMon and synthetic monitoring for customer-facing systems, supported cloud migration efforts, and drove data-backed optimization initiatives. Earlier consulting work as a CA APM SME strengthened my ability to lead technical discussions, support evaluations and rollouts, and communicate value clearly to diverse audiences.
+
+Dynatrace's mission around advanced observability strongly resonates with me, and I am comfortable working in fast-moving, collaborative environments that require demos, troubleshooting, and trusted technical partnership with sales and customer teams.
+
+I would value the opportunity to contribute my observability and enterprise engineering experience to Dynatrace and help customers achieve measurable technical and business outcomes.
+
+Sincerely,
+Sean Luka Girgis

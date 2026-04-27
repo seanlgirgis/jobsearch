@@ -1,0 +1,29 @@
+uuid: 235b800b-2239-4075-b12f-2b1ce776a6af
+job_id: 00053_235b800b
+original_filename: intake.md
+company: CornerStone Technology Talent Services
+role: Junior Data Engineer (AWS)
+company_website: ''
+location: Dallas, TX (Hybrid - 4 days onsite)
+status: APPLIED
+score: 81
+recommendation: APPLY
+score_date: '2026-04-03T22:17:54'
+created_at: '2026-04-03T22:17:54'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: '2026-04-04'
+  applied_method: LinkedIn
+  application_notes: ''
+  history:
+  - date: '2026-04-03'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Ready
+    notes: Direct-mode artifacts generated (resume_intermediate.json, cover_intermediate.json, resume.md, cover.md, resume.docx, cover.docx)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied on LinkedIn website; no additional website login/password was required
+

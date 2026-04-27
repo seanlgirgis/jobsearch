@@ -1,0 +1,25 @@
+uuid: 978574a5-0828-489b-a55b-cedca6dfa3e8
+job_id: 00060_978574a5
+original_filename: intake.md
+company: Openmind Technologies
+role: Data Analyst/Data Engineer
+company_website: ''
+location: Remote (Boston-based client)
+status: APPLIED
+score: 68
+recommendation: APPLY
+score_date: '2026-04-04T13:46:32'
+created_at: '2026-04-04T13:46:32'
+notes: 'Good fit and no duplicate blockers.'
+application:
+  applied: true
+  applied_date: 2026-04-04
+  applied_method: Dice
+  application_notes: 'Applied via Dice.'
+  history:
+  - date: '2026-04-04'
+    status: Created
+    notes: Created from triage gate (APPLY)
+  - date: '2026-04-04'
+    status: Applied
+    notes: Applied via Dice.
