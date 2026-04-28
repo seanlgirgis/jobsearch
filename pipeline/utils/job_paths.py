@@ -35,8 +35,9 @@ def create_job_id() -> str:
 
 
 def create_job_folder(job_id: str) -> Path:
-    """Create data/jobs/<job_id>/raw and return the job directory path."""
+    """Create standard pipeline job folders and return the job directory path."""
     job_dir = JOBS_ROOT / job_id
-    (job_dir / "raw").mkdir(parents=True, exist_ok=True)
+    for subdir in ("raw", "score", "tailored", "generated", "research"):
+        (job_dir / subdir).mkdir(parents=True, exist_ok=True)
     return job_dir
 

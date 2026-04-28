@@ -1,0 +1,77 @@
+MODE TEMPLATE: C1 (TAILOR_RESUME_INTERMEDIATE) - STRICT
+
+What this mode does:
+- Builds pipeline intermediate files for resume generation.
+- Not final resume prose and not DOCX.
+- Uses one clear positioning angle for the job.
+- Enforces POSITIONING_ANGLE exactly in the resume summary.
+
+Copy/paste this:
+
+MODE_ID: C1
+TASK: Produce strict pipeline artifacts as downloadable files
+
+JOB:
+<paste job posting>
+
+POSITIONING_ANGLE:
+<paste exact angle from A1>
+
+RULES:
+- source_of_truth.json is the only career truth.
+- No invented employers, titles, dates, metrics, tools, education, certifications, projects, or skills.
+- Deterministic, parser-safe output only.
+- Use one dominant angle only.
+- POSITIONING_ANGLE is authoritative and MUST drive summary and emphasis.
+- The resume summary MUST begin with the exact POSITIONING_ANGLE text provided.
+- Do NOT rewrite, soften, expand, rename, or reinterpret POSITIONING_ANGLE.
+- Never replace "AWS Data Engineer" with "AWS ML Data Engineer" unless explicitly provided.
+- Do NOT copy or reuse sentences from source_of_truth summaries.
+- Avoid generic phrases such as "cloud infrastructure and performance engineering" unless required by the job.
+- Do not overstate beginner/learning skills as production expertise.
+- Do not claim expert Kafka, TensorFlow, PyTorch, Databricks, Snowflake, Terraform, Kubernetes, or deep learning unless supported by source_of_truth.json.
+- Keep ML positioned as ML-enabled data engineering (forecasting, scikit-learn, Prophet, pipelines).
+
+Allowed dominant angles:
+- AWS Data Engineer
+- AWS Data Engineer specializing in ML-enabled pipelines and scalable data platforms
+- ML Data Engineer (light ML)
+- Hands-on Senior Data Engineer
+- Senior Data Engineer specializing in cloud data platforms
+
+OUTPUT REQUIREMENT (STRICT):
+1) Create EXACTLY two downloadable files/attachments:
+   - tailored_data_v1.yaml
+   - resume_intermediate_v1.json
+2) Do NOT print normal narrative text.
+3) After creating files, print one line only:
+   FILES_READY: tailored_data_v1.yaml,resume_intermediate_v1.json
+
+If file attachments are NOT available:
+- Output EXACT fallback blocks only, no extra text.
+
+=== FILE: tailored_data_v1.yaml ===
+<yaml>
+=== END FILE ===
+
+=== FILE: resume_intermediate_v1.json ===
+<json>
+=== END FILE ===
+
+JSON rules:
+- Summary MUST begin EXACTLY with POSITIONING_ANGLE.
+- First sentence must be:
+  "<POSITIONING_ANGLE>."
+- Summary length: 2–3 lines only.
+- Do NOT reuse source_of_truth summary wording.
+- Do NOT introduce "ML Data Engineer" unless explicitly given.
+- Bullets must be truthful and derived only from source_of_truth.json.
+- Prefer AWS (S3, Glue, Redshift), PySpark, ETL, forecasting evidence.
+- No invented tools, metrics, or claims.
+
+FINAL CHECK:
+- Summary starts with POSITIONING_ANGLE
+- No drift in role identity
+- No generic phrases
+- No hallucinations
+- Exactly two files output

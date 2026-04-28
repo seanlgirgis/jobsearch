@@ -16,8 +16,10 @@ Dependencies: pip install python-docx docx2pdf (optional for PDF)
 
 import argparse
 import json
+import subprocess
+import sys
 from pathlib import Path
-from typing import Dict, Any, Set
+from typing import Dict, Any, Set, Tuple
 
 from docx import Document
 from docx.shared import Pt, Inches
@@ -58,7 +60,7 @@ def resolve_job_folder(uuid_str: str) -> Path:
         raise ValueError(f"Job folder not found for '{uuid_str}'")
 
 
-def load_latest_intermediate(job_dir: Path, version: str) -> Dict[str, Any]:
+def load_latest_intermediate(job_dir: Path, version: str) -> Tuple[Dict[str, Any], Path]:
     generated_dir = job_dir / "generated"
     if not generated_dir.is_dir():
         raise FileNotFoundError(f"No generated/ folder: {generated_dir}")
@@ -67,16 +69,35 @@ def load_latest_intermediate(job_dir: Path, version: str) -> Dict[str, Any]:
     if exact.is_file():
         print(f"Using: {exact.name}")
         with open(exact, encoding="utf-8") as f:
-            return json.load(f)
+            return json.load(f), exact
 
-    files = sorted(generated_dir.glob("resume_intermediate_*.json"), reverse=True)
+    files = sorted(
+        [p for p in generated_dir.glob("resume_intermediate_*.json") if not p.name.endswith("_normalized.json")],
+        reverse=True,
+    )
     if not files:
         raise FileNotFoundError("No intermediate JSON found")
 
     latest = files[0]
     print(f"Fallback to latest: {latest.name}")
     with open(latest, encoding="utf-8") as f:
-        return json.load(f)
+        return json.load(f), latest
+
+
+def normalize_intermediate(source_path: Path, output_path: Path):
+    script_path = Path(__file__).resolve().parent / "normalize_resume_intermediate.py"
+    cmd = [
+        sys.executable,
+        str(script_path),
+        "--input",
+        str(source_path),
+        "--output",
+        str(output_path),
+    ]
+    print(f"Running normalization: {' '.join(cmd)}")
+    result = subprocess.run(cmd)
+    if result.returncode != 0:
+        raise RuntimeError("Resume normalization failed. See output above for details.")
 
 
 def load_exclusions() -> Set[str]:
@@ -356,10 +377,22 @@ def main():
     group.add_argument("--trim", action="store_true")
     group.add_argument("--all", action="store_true")
     parser.add_argument("--format", default="docx", choices=["docx", "pdf"])
+    parser.add_argument(
+        "--normalize",
+        action="store_true",
+        help="Normalize resume intermediate JSON variants before rendering.",
+    )
     args = parser.parse_args()
 
     job_folder = resolve_job_folder(args.uuid)
-    tailored = load_latest_intermediate(job_folder, args.version)
+    tailored, source_path = load_latest_intermediate(job_folder, args.version)
+    if args.normalize:
+        normalized_path = source_path.with_name(f"{source_path.stem}_normalized.json")
+        normalize_intermediate(source_path, normalized_path)
+        with open(normalized_path, encoding="utf-8") as f:
+            tailored = json.load(f)
+        print(f"Using normalized intermediate: {normalized_path.name}")
+
     exclusions = load_exclusions()
 
     to_pdf = args.format == "pdf"

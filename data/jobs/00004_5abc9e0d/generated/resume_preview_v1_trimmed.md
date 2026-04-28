@@ -60,7 +60,11 @@ Humber College, Toronto, Canada
 Zagazig University, Egypt / Cairo, Egypt
 
 ## Skills
-Python, AWS, PySpark, Java, Docker, Capacity Planning / Forecasting, Distributed Systems, Cloud Computing, SQL / Oracle, C++, Perl, Ksh / Korn Shell Scripting, PL/SQL, Prophet / Time-Series Forecasting, GenAI / LLM Agents, Pandas, scikit-learn, Dynatrace (AppMon + Synthetics), CA APM / Introscope, BMC TrueSight / TSCO, Oracle RAC, ETL Design & Optimization, Data Warehousing, Streamlit, Multiprocessing, Git, Airflow, Hive/Hadoop, Linux/Unix, OCCI / OCI, WebLogic / WebSphere, VB6 / VC++
+**Languages:** Python | Java | SQL / Oracle | C++ | Perl | Ksh / Korn Shell Scripting | PL/SQL | VB6 / VC++
+**Cloud & Data:** AWS | PySpark | ETL Design & Optimization | Data Warehousing | Airflow | Hive/Hadoop
+**AI/ML:** Prophet / Time-Series Forecasting | GenAI / LLM Agents | scikit-learn | Streamlit
+**Tools & Infra:** Docker | Dynatrace (AppMon + Synthetics) | Git | Linux/Unix
+**Legacy:** Capacity Planning / Forecasting | Distributed Systems | Cloud Computing | Pandas | CA APM / Introscope | BMC TrueSight / TSCO | Oracle RAC | Multiprocessing | OCCI / OCI | WebLogic / WebSphere
 
 ## Flagship Projects
 ### Serverless Lakehouse Platform (AWS)

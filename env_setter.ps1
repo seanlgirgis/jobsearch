@@ -19,6 +19,7 @@ $env:PYTHONPATH   = "$env:PROJECT_ROOT\src;$env:PYTHONPATH"                     
 # $env:ANTHROPIC_API_KEY   = "..."
 
 # Data / storage paths (can point to local folders or later cloud)
+$env:PYTHONUTF8='1'
 $env:JOBS_DB_DIR    = "$env:PROJECT_ROOT\data\jobs"
 $env:RESUMES_DIR    = "$env:PROJECT_ROOT\data\resumes"
 $env:VECTOR_DB_PATH = "$env:PROJECT_ROOT\data\vectorstore"
