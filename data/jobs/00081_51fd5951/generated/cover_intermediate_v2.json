@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 27, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Data Engineer (ML / AWS / Python) position at Synersys Technologies. I am drawn to the opportunity to build scalable data pipelines and enable ML use cases on cloud-based platforms, aligning perfectly with my expertise in AWS and Python.",
+  "body": [
+    "With over 20 years of experience in data engineering, including 15 years of expert-level Python and SQL development, I have architected robust ETL/ELT pipelines tailored for enterprise environments. At CITI, as a Senior Capacity & Data Engineer from 2017 to 2025, I designed automated pipelines ingesting P95 telemetry from over 6,000 endpoints, replacing manual processes and enhancing delivery reliability. My hands-on work with data pipeline orchestration and data quality validation directly supports the requirements for building scalable data pipelines and supporting advanced analytics at Synersys Technologies.",
+    "My expertise in AWS and big data tools like Apache Spark and PySpark positions me to excel in cloud-based data platforms and data lakes. Recently, I designed a serverless lakehouse platform using AWS services such as S3, Glue, and Athena, optimizing ETL processes for enterprise scale with Snappy and Parquet compression to resolve small file issues. Additionally, at CITI, I leveraged PySpark for large-scale telemetry processing, ensuring efficient handling of complex datasets. This experience aligns with your need for proficiency in AWS, Apache Spark, and data warehousing solutions.",
+    "In the realm of machine learning, I have applied advanced techniques to real-world challenges, directly addressing your focus on enabling ML use cases. In 2025, I developed the HorizonScale AI Capacity Forecasting Engine, utilizing Python, Prophet, and scikit-learn to predict capacity bottlenecks six months ahead, reducing forecasting cycles by 90%. This project demonstrates my capability to integrate machine learning concepts into data engineering workflows, ensuring actionable insights through data-driven models."
+  ],
+  "conclusion": "I am confident that my extensive background in data engineering, AWS, Python, and machine learning will contribute to the success of Synersys Technologies. I look forward to the opportunity to discuss how my skills and experiences align with your team\u2019s goals.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

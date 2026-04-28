@@ -105,6 +105,8 @@ def validate_yaml(path: Path) -> List[str]:
     errors: List[str] = []
     if not path.is_file():
         return [f"MISSING: {path}"]
+    if path.stat().st_size == 0:
+        return [f"YAML_EMPTY_FILE: {path}"]
     try:
         data = yaml.safe_load(path.read_text(encoding="utf-8")) or {}
     except Exception as exc:
@@ -130,6 +132,8 @@ def validate_json(path: Path, required_keys: set[str], label: str) -> List[str]:
     errors: List[str] = []
     if not path.is_file():
         return [f"MISSING: {path}"]
+    if path.stat().st_size == 0:
+        return [f"{label}_EMPTY_FILE: {path}"]
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
     except Exception as exc:
@@ -186,4 +190,3 @@ def main() -> None:
 
 if __name__ == "__main__":
     main()
-

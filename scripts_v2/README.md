@@ -33,6 +33,18 @@ Drop files into the new job folder:
 - `generated/resume_intermediate_v1.json`
 - `generated/cover_intermediate_v1.json`
 
+Optional (faster): import ChatGPT output blocks automatically:
+
+```powershell
+.\job-v2-import.ps1 -FromClipboard
+```
+
+or
+
+```powershell
+.\job-v2-import.ps1 -InputFile D:\path\chatgpt_output.txt
+```
+
 ## Step 3 - Validate + Render + Quality Gate
 
 ```powershell

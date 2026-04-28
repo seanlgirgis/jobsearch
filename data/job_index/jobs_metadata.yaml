@@ -302,30 +302,72 @@
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: '00052_56770170'
+  description_path: data\jobs\00052_56770170\intake.md
+  company: Globe Life
+  role: Cloud Data Engineer (Hybrid)
+  apply_date: N/A
+  status: APPLIED
+- uuid: 00053_235b800b
+  description_path: data\jobs\00053_235b800b\intake.md
+  company: CornerStone Technology Talent Services
+  role: Junior Data Engineer (AWS)
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00053_e37e8194
   description_path: data\jobs\00053_e37e8194\intake.md
   company: Inspiren
   role: Senior Data Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00054_5d3df4ad
+  description_path: data\jobs\00054_5d3df4ad\intake.md
+  company: Dynatrace
+  role: Unknown
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00055_8a28e6d5
   description_path: data\jobs\00055_8a28e6d5\intake.md
   company: Koch Industries
   role: Data Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00055_ab1ea5aa
+  description_path: data\jobs\00055_ab1ea5aa\intake.md
+  company: Full-time
+  role: Unknown
+  apply_date: N/A
+  status: READY
+- uuid: 00056_64c2ec47
+  description_path: data\jobs\00056_64c2ec47\intake.md
+  company: Sigma
+  role: Senior Software Engineer - Observability and Reliability
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00056_a51218f7
   description_path: data\jobs\00056_a51218f7\intake.md
   company: RAVIN IT SOLUTIONS, Inc
   role: Sr. Data Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00057_7ab6dd61
+  description_path: data\jobs\00057_7ab6dd61\intake.md
+  company: Datadog
+  role: Senior Product Solutions Architect - Logs
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00057_97fd22b6
   description_path: data\jobs\00057_97fd22b6\intake.md
   company: GEICO
   role: Staff Engineer - Capacity Planning and Management
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00058_b0233987
+  description_path: data\jobs\00058_b0233987\intake.md
+  company: Inspiren
+  role: Senior Data Engineer
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00058_de476853
   description_path: data\jobs\00058_de476853\intake.md
   company: Headway
@@ -338,24 +380,60 @@
   role: Capacity Planning Specialist, Capacity Planning
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00059_f3d14aeb
+  description_path: data\jobs\00059_f3d14aeb\intake.md
+  company: K Anand Corporation
+  role: Data Engineer
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00060_7c453502
   description_path: data\jobs\00060_7c453502\intake.md
   company: Samsung Semiconductor
   role: Capacity Planning Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00060_978574a5
+  description_path: data\jobs\00060_978574a5\intake.md
+  company: Openmind Technologies
+  role: Data Analyst/Data Engineer
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00061_44d67df7
   description_path: data\jobs\00061_44d67df7\intake.md
   company: Meta Platforms, Inc.
   role: Performance and Capacity Engineer
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00061_c96be38b
+  description_path: data\jobs\00061_c96be38b\intake.md
+  company: Acunor Infotech
+  role: Data Engineer - Databricks
+  apply_date: N/A
+  status: APPLIED
+- uuid: 00062_8df84ee0
+  description_path: data\jobs\00062_8df84ee0\intake.md
+  company: HUMAC INC.
+  role: Dynatrace Administrator
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00062_f29bcbdb
   description_path: data\jobs\00062_f29bcbdb\intake.md
   company: Pennymac
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00063_6b2db598
+  description_path: data\jobs\00063_6b2db598\intake.md
+  company: Inclusion Cloud
+  role: Data Engineer
+  apply_date: N/A
+  status: APPLIED
+- uuid: 00064_47a35392
+  description_path: data\jobs\00064_47a35392\intake.md
+  company: CGI Group, Inc.
+  role: Senior Python Developer
+  apply_date: N/A
+  status: APPLIED
 - uuid: 00071_46d0318a
   description_path: data\jobs\00071_46d0318a\intake.md
   company: Unknown
@@ -404,3 +482,27 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00079_1fd3ee5e
+  description_path: data\jobs\00079_1fd3ee5e\intake.md
+  company: Synersys Technologies
+  role: Unknown
+  apply_date: N/A
+  status: PENDING
+- uuid: 00080_eb4cbb08
+  description_path: data\jobs\00080_eb4cbb08\intake.md
+  company: Synersys Technologies
+  role: Unknown
+  apply_date: N/A
+  status: PENDING
+- uuid: 00081_51fd5951
+  description_path: data\jobs\00081_51fd5951\intake.md
+  company: Synersys Technologies
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: url_captures
+  description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: Unknown

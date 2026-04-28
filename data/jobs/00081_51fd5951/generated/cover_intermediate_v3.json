@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 27, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Data Engineer (ML / AWS / Python) position at Synersys Technologies. I am drawn to the opportunity to build scalable data pipelines and enable ML use cases within a forward-thinking, cloud-driven environment.",
+  "body": [
+    "With over 20 years of experience in data engineering, I have designed and implemented robust ETL/ELT pipelines tailored for enterprise-scale analytics. At CITI, as a Senior Capacity & Data Engineer from 2017 to 2025, I architected automated pipelines using Python and SQL, ingesting P95 telemetry data from over 6,000 endpoints. This replaced manual processes, significantly enhancing delivery reliability while supporting data warehousing and data lake architectures, aligning directly with your requirements for scalable data solutions and cloud-based platforms.",
+    "My expertise in AWS and big data tools like Apache Spark and PySpark positions me to contribute effectively to your team. Recently, I designed a serverless lakehouse platform using AWS services such as S3, Glue, and Athena, optimizing ETL processes with Snappy and Parquet compression to address the small file problem at enterprise scale. Additionally, my work on the HorizonScale AI Capacity Forecasting Engine in 2025, built with PySpark, reduced forecasting cycles by 90%, demonstrating my capability to handle large-scale data processing and support advanced analytics as outlined in your responsibilities.",
+    "I have also applied machine learning concepts to real-world data challenges, aligning with your focus on enabling ML use cases. At CITI, I developed forecasting models using Prophet and scikit-learn, predicting capacity bottlenecks six months ahead with improved accuracy. My hands-on experience with data pipeline orchestration using tools like Airflow further complements your needs for efficient ETL/ELT frameworks and workflow management."
+  ],
+  "conclusion": "I am confident that my extensive background in data engineering, AWS, Python, and machine learning will add significant value to Synersys Technologies. I look forward to the opportunity to contribute to your innovative projects and discuss how my skills align with your goals.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

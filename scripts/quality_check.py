@@ -19,6 +19,7 @@ Usage:
 
 import argparse
 import json
+import re
 import sys
 from pathlib import Path
 
@@ -92,12 +93,20 @@ def check_cover(generated_dir: Path, version: str) -> list:
         if pattern.lower() in full_text.lower():
             issues.append(f"COVER: {msg} (pattern: '{pattern.strip()}')")
 
+    header = cover.get("header", {}) if isinstance(cover, dict) else {}
+    address = str(header.get("address", "")).strip()
+    if address:
+        if re.search(r"\d", address):
+            issues.append("COVER: Header address contains numeric street/zip detail; use city/state only")
+        if re.search(r"\b(st|street|ave|avenue|rd|road|blvd|boulevard|dr|drive|ln|lane|apt|suite)\b", address, flags=re.IGNORECASE):
+            issues.append("COVER: Header address looks like street-level address; use city/state only")
+
     # Word count check
     word_count = len(full_text.split())
     if word_count < 80:
         issues.append(f"COVER: Too short — only {word_count} words (minimum 80)")
-    elif word_count > 600:
-        issues.append(f"COVER: Too long — {word_count} words (maximum 600)")
+    elif word_count > 450:
+        issues.append(f"COVER: Too long — {word_count} words (maximum 450)")
 
     # Check DOCX exists
     docx_path = generated_dir / "cover.docx"
@@ -118,6 +127,12 @@ def check_resume(generated_dir: Path, version: str) -> list:
 
     with open(json_path, "r", encoding="utf-8") as f:
         resume = json.load(f)
+
+    summary = str(resume.get("summary", ""))
+    if summary:
+        body = summary.split(".", 1)[1] if "." in summary else summary
+        if re.search(r"\b(I|I'm|I am|my|me)\b", body, flags=re.IGNORECASE):
+            issues.append("RESUME: Summary uses first-person language; use third-person style")
 
     # Build full text from all resume fields
     parts = []

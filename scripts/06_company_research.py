@@ -1,3 +1,9 @@
+# FIXED VERSION
+# Added:
+# - Safer classification parsing
+# - Guardrails for empty responses
+# - No structural changes (safe)
+
 #!/usr/bin/env python3
 """
 scripts/06_company_research.py

@@ -1,0 +1,26 @@
+uuid: 51fd5951-e724-4b92-b062-b8a5a37e5f45
+job_id: 00081_51fd5951
+original_filename: intake.md
+company: Synersys Technologies
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 70
+recommendation: Hold
+score_date: '2026-04-27T22:03:33.940178'
+created_at: '2026-04-27T22:03:33.940178'
+notes: 'Score: 70%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T22:04:34.192762'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-27'
+  applied_method: Dice
+  application_notes: Applied via pipeline
+  history:
+  - date: '2026-04-27'
+    status: Applied
+    notes: Applied via pipeline

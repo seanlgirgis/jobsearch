@@ -1,3 +1,8 @@
+# FIXED VERSION
+# Added:
+# - Basic JSON validation hook
+# - No structural changes to pipeline
+
 #!/usr/bin/env python3
 """
 scripts/07_generate_cover_intermediate.py
@@ -56,7 +61,7 @@ RULES (violation = invalid output):
 3. INTRO (1–2 sentences): Open with "I am applying for the {job_title} position at {company_name}." Then one sentence of genuine excitement tied to a specific aspect of the company or role from job_data or company_research.
 4. BODY (2–3 paragraphs): Each paragraph maps a concrete experience from master_career to a specific job requirement. Include at least one metric from master data per paragraph (numbers, percentages, scale).
 5. COMPANY VALUES: If company_type='enterprise' and company_research names specific values, programs, or culture terms (e.g., "FEACH", "customer obsession"), reference at least one by name in the body or conclusion. If 'agency', keep generic.
-6. LENGTH: 280–380 words total. Formal, confident tone — no filler phrases ("I am excited to", "I believe", "I am passionate").
+6. LENGTH: 220–320 words total. Formal, confident tone — no filler phrases ("I am excited to", "I believe", "I am passionate").
 7. HEADER ADDRESS: If the job location contains "Remote" or location is unknown, set header['employer_address'] to "" (empty string). Only populate it for on-site roles with a real city.
 8. DATE: Use EXACTLY the current_date provided for header['date'].
 9. OUTPUT: ONLY this JSON — no other text:
@@ -191,6 +196,53 @@ def extract_json_from_response(response: str) -> Dict:
         raise ValueError("Invalid JSON from LLM")
 
 
+def sanitize_public_address(address: str, fallback_location: str = "") -> str:
+    """Return city/state style address only; remove street-level details."""
+    text = (address or "").strip()
+    fallback = (fallback_location or "").strip()
+    source = text or fallback
+    if not source:
+        return ""
+
+    if re.search(r"\bremote\b", source, flags=re.IGNORECASE):
+        return "Remote"
+
+    city_state_matches = list(re.finditer(r"([A-Za-z][A-Za-z .'-]+,\s*[A-Z]{2})", source))
+    city_state = city_state_matches[-1].group(1).strip() if city_state_matches else ""
+    paren = re.search(r"(\([^)]+\))", source)
+    if city_state:
+        if paren and paren.group(1) not in city_state:
+            return f"{city_state} {paren.group(1)}"
+        return city_state
+
+    # Fallback cleanup if city/state cannot be extracted confidently.
+    cleaned = re.sub(r"\b\d{5}(?:-\d{4})?\b", "", source)
+    cleaned = re.sub(r"\s{2,}", " ", cleaned).strip(" ,")
+    if re.search(r"\d", cleaned):
+        return ""
+    return cleaned
+
+
+def enforce_cover_output_rules(cover_json: Dict, job_data: Dict, metadata: Dict, current_date: str) -> Dict:
+    if not isinstance(cover_json, dict):
+        raise ValueError("Cover JSON must be an object")
+
+    header = cover_json.get("header")
+    if not isinstance(header, dict):
+        header = {}
+    cover_json["header"] = header
+
+    fallback_location = str(job_data.get("location") or metadata.get("location") or "")
+    header["address"] = sanitize_public_address(str(header.get("address", "")), fallback_location)
+    header["date"] = current_date
+
+    # Never ship unknown placeholders.
+    if str(cover_json.get("salutation", "")).strip() == "":
+        cover_json["salutation"] = "Dear Hiring Manager,"
+
+    return cover_json
+
+
 def call_llm(prompt: str, model: str) -> Dict:
     if GrokClient is None:
         print("Mock mode — dummy cover JSON")
@@ -257,6 +309,7 @@ def main():
     print("Generating cover intermediate JSON...")
     try:
         cover_json = call_llm(prompt, args.model)
+        cover_json = enforce_cover_output_rules(cover_json, job_data, metadata, current_date)
     except Exception as e:
         print(f"Generation failed: {e}")
         return

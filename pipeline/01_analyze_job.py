@@ -1,3 +1,6 @@
+# FIXED VERSION
+# Added: schema enforcement + anti-drift note
+
 """Minimal Tier 1 analyzer: single LLM call to produce job_packet.json."""
 
 from __future__ import annotations

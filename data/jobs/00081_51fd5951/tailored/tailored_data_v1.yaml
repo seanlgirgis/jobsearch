@@ -1,0 +1,77 @@
+company_name: Synersys Technologies
+company_website: ''
+job_title: Data Engineer (ML / AWS / Python)
+location: Remote
+extracted_skills:
+- Data Engineer
+- Machine Learning
+- ML
+- AWS
+- Python
+- Kafka
+- TensorFlow
+- PyTorch
+- Scikit
+- SQL
+- Apache Spark
+- Hadoop
+job_summary: We are looking for a skilled Data Engineer with strong experience in
+  Machine Learning, AWS, and Python for a Southwest project. The ideal candidate will
+  be responsible for building scalable data pipelines, enabling ML use cases, and
+  working with cloud-based data platforms to support advanced analytics.
+responsibilities:
+- Building scalable data pipelines
+- Enabling ML use cases
+- Working with cloud-based data platforms to support advanced analytics
+requirements:
+- 15+ years of experience in Data Engineering
+- Strong programming skills in Python and SQL
+- Hands-on experience with AWS services (S3, Glue, Redshift, Lambda, EMR)
+- Experience with big data tools like Apache Spark, Hadoop, or Kafka
+- Knowledge of Machine Learning concepts and model lifecycle
+- Experience with ETL/ELT frameworks and data pipeline orchestration
+- Strong understanding of data warehousing and data lakes
+preferred:
+- Experience with ML frameworks (TensorFlow, PyTorch, Scikit-learn)
+- Familiarity with Airflow for workflow orchestration
+- Knowledge of Docker and Kubernetes
+- Experience in real-time streaming (Kafka, Kinesis)
+- Exposure to CI/CD and DevOps practices
+benefits: []
+must_have_skills:
+- Data Engineering
+- Python
+- SQL
+- AWS
+- Apache Spark
+- Hadoop
+- Kafka
+- Machine Learning
+- ETL/ELT frameworks
+- Data pipeline orchestration
+- Data warehousing
+- Data lakes
+nice_to_have_skills:
+- TensorFlow
+- PyTorch
+- Scikit-learn
+- Airflow
+- Docker
+- Kubernetes
+- Kafka
+- Kinesis
+- CI/CD
+- DevOps
+ats_keywords:
+- Data Engineer
+- Machine Learning
+- ML
+- AWS
+- Python
+- Kafka
+- TensorFlow
+- PyTorch
+- Scikit
+- SQL
+- Apache Spark
+- Hadoop

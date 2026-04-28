@@ -1,0 +1,92 @@
+=== FILE: tailored_data_v1.yaml ===
+company_name: "Synersys Technologies"
+company_website: ""
+job_title: "Data Engineer"
+location: "Remote"
+extracted_skills:
+- python
+- sql
+job_summary: "Role focused on cloud data engineering and analytics pipelines."
+responsibilities:
+- Build ETL pipelines
+requirements:
+- Python
+preferred:
+- Airflow
+benefits: []
+must_have_skills:
+- python
+nice_to_have_skills:
+- airflow
+ats_keywords:
+- data engineer
+=== END FILE ===
+=== FILE: resume_intermediate_v1.json ===
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer"
+  },
+  "summary": "Senior Data Engineer with strong Python, SQL, and AWS data pipeline experience.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built Python ETL pipelines for large telemetry workloads.",
+        "Designed data platform components supporting analytics and forecasting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": ""
+    }
+  ],
+  "skills": {
+    "Languages": "Python | SQL",
+    "Cloud & Data": "AWS | ETL | Data Warehousing",
+    "AI/ML": "Prophet | scikit-learn",
+    "Tools & Infra": "Airflow | Docker | Git",
+    "Legacy": "Oracle"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale",
+      "description": "Capacity forecasting and pipeline automation project.",
+      "technologies": ["Python", "PySpark", "Prophet"]
+    }
+  ]
+}
+=== END FILE ===
+=== FILE: cover_intermediate_v1.json ===
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 27, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Data Engineer position at Synersys Technologies.",
+  "body": [
+    "I bring 20+ years of enterprise data engineering experience with Python, SQL, and AWS.",
+    "At Citi, I built scalable ETL pipelines and analytics-ready data models for capacity forecasting.",
+    "I can contribute quickly to cloud data platform and pipeline reliability goals."
+  ],
+  "conclusion": "I welcome the opportunity to discuss how I can support your data engineering roadmap.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}
+=== END FILE ===
