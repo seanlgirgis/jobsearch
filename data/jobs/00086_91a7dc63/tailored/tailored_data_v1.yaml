@@ -1,0 +1,135 @@
+company_name: Apex Systems
+company_website: ''
+job_title: Monitoring Tools Engineer
+location: Plano, Texas
+extracted_skills:
+- MEAN Stack
+- Repair
+- Dashboard
+- Production Support
+- Instrumentation
+- Knowledge Sharing
+- Documentation
+- Incident Management
+- Dynatrace
+- Splunk
+- Scripting
+- Process Improvement
+- Unix
+- Operating Systems
+- Database Administration
+- Middleware
+- Software Architecture
+- Database
+- Computer Networking
+- IT Operations
+- ITIL
+- Dragon NaturallySpeaking
+- DNS
+- BIND
+- IPsec
+- Virtual Private Network
+- NAT
+- Microsoft Windows
+- VBScript
+- Windows PowerShell
+- VMware vSphere
+- PowerCLI
+- Communication
+- Attention To Detail
+- Organizational Skills
+- Management
+- IT Service Management
+- Innovation
+- Collaboration
+- Recruiting
+- Insurance
+- Finance
+- Professional Development
+- Training
+- Leadership
+- CompTIA
+- Customer Service
+- Career Counseling
+- Apex
+- Oracle Application Express
+job_summary: We are seeking an experienced Monitoring Tools Engineer to support and
+  enhance enterprise-wide monitoring platforms. This role focuses on improving operational
+  readiness by implementing accurate thresholds, alerts, and dashboards. The position
+  serves as a technical resource, ensuring issues are detected and diagnosed early
+  to reduce mean time to repair (MTTR) and prevent production incidents.
+responsibilities:
+- Implement and manage Dynatrace monitoring across a large portfolio of applications.
+- Implement and manage Dynatrace Synthetic Monitoring.
+- Implement and manage Splunk monitoring across a large portfolio of applications.
+- Design, configure, and optimize monitoring events, alerts, dashboards, and thresholds.
+- Partner with Production Support and Engineering teams to maximize the value of monitoring
+  tools.
+- Provide guidance to application teams on instrumentation and monitoring strategy.
+- Lead demos, training sessions, and knowledge-sharing forums to drive adoption.
+- Develop supporting documentation and training materials.
+- Ensure monitoring supports effective incident management and operational processes.
+requirements:
+- 3+ years of hands-on experience configuring and troubleshooting Dynatrace components.
+- 3+ years of hands-on experience configuring and troubleshooting Splunk components.
+- Experience with operational scripting and process improvement.
+- Experience with both Unix and Windows operating systems.
+- Experience supporting enterprise-scale, globally distributed environments.
+- Strong understanding of application architecture, databases, networking, and system
+  interdependencies.
+- Familiarity with IT operations processes such as ITIL.
+- General knowledge of large-scale data sets, DNS and BIND, and IPsec VPNs and NAT.
+- Knowledge of Windows Batch, VBScript, PowerShell, or vSphere PowerCLI.
+- Strong written and verbal communication skills.
+- Ability to influence, facilitate, and collaborate across teams.
+- Detail-oriented with strong organizational skills.
+- Proven ability to work independently and manage multiple priorities.
+- Team-oriented and comfortable working in a multicultural, global environment.
+preferred:
+- Background as a Systems Administrator (SA), DBA, or Middleware Engineer.
+benefits:
+- The pay rate for this position is between $68.00/hour and $73.68/hour.
+- Medical, dental, vision, life, and disability insurance.
+- ESPP and 401K program.
+- HSA on HDHP plan.
+- SupportLinc Employee Assistance Program (EAP).
+- Corporate discount savings program.
+- On-demand training program.
+- Access to certification prep and leadership courses.
+- Dedicated customer service team and certified Career Coach.
+must_have_skills:
+- Dynatrace configuration and troubleshooting
+- Splunk configuration and troubleshooting
+- Operational scripting
+- Process improvement
+- Unix and Windows operating systems
+- Supporting enterprise-scale environments
+- Application architecture understanding
+- Databases and networking knowledge
+- ITIL familiarity
+- Strong communication skills
+- Collaboration across teams
+- Organizational skills
+nice_to_have_skills:
+- Systems Administrator background
+- DBA background
+- Middleware Engineer background
+- Knowledge of Windows Batch
+- Knowledge of VBScript
+- Knowledge of PowerShell
+- Knowledge of vSphere PowerCLI
+ats_keywords:
+- Monitoring Tools Engineer
+- Dynatrace
+- Splunk
+- Scripting
+- Unix
+- Windows
+- ITIL
+- Database Administration
+- Networking
+- Incident Management
+- Production Support
+- Dashboard
+- Alerts
+- Thresholds

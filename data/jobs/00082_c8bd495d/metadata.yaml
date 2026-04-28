@@ -1,0 +1,26 @@
+uuid: c8bd495d-29c2-4050-90da-3e38e9905af6
+job_id: 00082_c8bd495d
+original_filename: intake.md
+company: Bayside Solutions
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 87
+recommendation: Strong Proceed
+score_date: '2026-04-27T22:33:04.975014'
+created_at: '2026-04-27T22:33:04.975014'
+notes: 'Score: 87%. Recommendation: Strong Proceed
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T22:33:31.217203'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

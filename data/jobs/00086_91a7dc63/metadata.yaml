@@ -1,0 +1,26 @@
+uuid: 91a7dc63-cdf5-42c9-8c93-2c844b863e2d
+job_id: 00086_91a7dc63
+original_filename: intake.md
+company: Apex Systems
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 72
+recommendation: Hold
+score_date: '2026-04-27T23:34:11.631886'
+created_at: '2026-04-27T23:34:11.631886'
+notes: 'Score: 72%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T23:34:16.407342'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

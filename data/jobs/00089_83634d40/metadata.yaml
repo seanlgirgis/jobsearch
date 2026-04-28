@@ -1,0 +1,26 @@
+uuid: 83634d40-2273-43bf-ac41-c7d3afe6e238
+job_id: 00089_83634d40
+original_filename: intake.md
+company: ''
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 60
+recommendation: Skip
+score_date: '2026-04-28T07:58:47.809796'
+created_at: '2026-04-28T07:58:47.809796'
+notes: 'Score: 60%. Recommendation: Skip
+
+  • User accepted after reviewing score (2026-04-28)'
+last_decision_at: '2026-04-28T07:58:48.095916'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

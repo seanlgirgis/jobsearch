@@ -1,0 +1,94 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer | AWS Data Platform & AI/ML Pipeline Specialist"
+  },
+  "summary": "AWS Data Engineer specializing in ML-enabled pipelines and scalable data platforms. Expert in designing ETL processes with Python and PySpark, leveraging AWS services like S3, Glue, and Redshift for high-scale data warehousing. Proven track record in building data solutions for analytics and forecasting, supporting data-driven decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines using Python and Pandas, ingesting telemetry from 6,000+ endpoints for growth analytics, replacing manual processes.",
+        "Built hybrid AWS/Oracle data platform with S3 as landing zone, AWS Glue for ETL, and Redshift for ML forecasting workloads at cloud scale.",
+        "Developed ML forecasting models with Prophet and scikit-learn, achieving 90%+ accuracy in predicting capacity bottlenecks 6 months ahead.",
+        "Designed optimized Oracle schemas and data models for historical retention, enabling seasonal risk forecasting and reporting.",
+        "Created interactive Streamlit dashboards with real-time capacity insights, supporting stakeholder decision-making and analytics."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics monitoring for critical hospitality systems, ensuring data integrity for performance analytics.",
+        "Led 'FAST' project to data-mine real-user performance metrics, providing optimization recommendations adopted by engineering teams.",
+        "Participated in cloud migration planning to AWS, evaluating tools for mobile monitoring and APM readiness."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Designed custom dashboards and alerts for CA APM, adopted as standards for performance reporting across client environments.",
+        "Built Perl/Ksh scripts for automated data extraction, streamlining weekly performance reporting processes.",
+        "Led large-scale CA APM upgrades with zero downtime, coordinating cross-functional teams for seamless data system transitions."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Java, C++, Perl, Korn Shell",
+    "Cloud & Data": "AWS (S3, Glue, Athena, Redshift), PySpark, Hive/Hadoop, Data Warehousing, ETL Design, Dimensional Modeling",
+    "AI/ML": "Prophet (Time-Series Forecasting), scikit-learn, GenAI/LLM Agents",
+    "Tools & Infra": "Airflow, Docker, Git, Streamlit, BMC TrueSight, Linux/Unix",
+    "Legacy": "Oracle RAC, PL/SQL, Dynatrace, CA APM, WebLogic/WebSphere"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, and Bedrock, optimizing ETL and data access for enterprise-scale analytics with Snappy and Parquet compression.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Developed an AI-driven forecasting engine with Python and PySpark, reducing cycles by 90% and using Prophet/scikit-learn for bottleneck prediction 6 months ahead.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    }
+  ]
+}

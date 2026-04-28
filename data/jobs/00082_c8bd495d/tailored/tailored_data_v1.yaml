@@ -1,0 +1,53 @@
+company_name: Bayside Solutions
+company_website: ''
+job_title: Sr. Data Engineer/Data Scientist (Capacity Planning & Forecasting)
+location: Cupertino, CA - Remote Role
+extracted_skills:
+- Python
+- SQL
+- forecasting
+- data modeling
+- data visualization tools
+job_summary: Build and maintain cloud cost attribution models, forecast infrastructure
+  demand, and optimize costs for AI company.
+responsibilities:
+- Build and maintain cloud cost attribution models that accurately allocate infrastructure
+  spend across teams, products, and workloads.
+- Build and maintain cost of revenue pipelines and models.
+- Partner with infrastructure, finance, and procurement stakeholders to analyze utilization
+  patterns, identify inefficiencies, and drive optimization initiatives.
+- Develop forecasting models for non-accelerator infrastructure demand, incorporating
+  business growth projections, product roadmaps, and historical spend trends.
+- Define and track unit cost metrics and identify opportunities to reduce them.
+- Develop unit cost economics for various workloads and applications.
+- Build a cost-aware culture by creating self-serve dashboards, automated reporting,
+  and accessible datasets.
+requirements:
+- 6+ years of experience in data science, analytics, or FinOps roles, with a focus
+  on cloud infrastructure cost analysis, capacity planning, or efficiency optimization.
+- Experience building spend forecasting models and large-scale cost attribution systems.
+- Deep knowledge of cloud billing systems, cost allocation methodologies, and spend
+  optimization levers.
+- A passion for the company's mission of building helpful, honest, and harmless AI.
+- Expertise in Python, SQL, forecasting, data modeling, and data visualization tools.
+- A bias for action and urgency.
+- A strong disposition to thrive in ambiguity.
+- A deep curiosity and energy for pulling the thread on hard questions.
+- Experience in turning open questions and data into concise and insightful analysis.
+- Highly effective written communication and presentation skills.
+preferred: []
+benefits: []
+must_have_skills:
+- Python
+- SQL
+- forecasting
+- data modeling
+- data visualization tools
+nice_to_have_skills: []
+ats_keywords:
+- Data Engineer
+- Data Scientist
+- Capacity Planning
+- Forecasting
+- Cloud Cost
+- FinOps

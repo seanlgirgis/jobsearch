@@ -1,0 +1,26 @@
+uuid: a092324b-4f05-423e-89c3-e8139ef5d537
+job_id: 00083_a092324b
+original_filename: intake.md
+company: TEKsystems c/o Allegis Group
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 68
+recommendation: Hold
+score_date: '2026-04-27T22:57:58.283161'
+created_at: '2026-04-27T22:57:58.283161'
+notes: 'Score: 68%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T22:58:14.785082'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

@@ -1,0 +1,26 @@
+uuid: 887817fd-94e3-4e6e-8345-5822f557a9e3
+job_id: 00087_887817fd
+original_filename: intake.md
+company: Parmesoft Inc.
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 72
+recommendation: Hold
+score_date: '2026-04-28T07:38:43.753026'
+created_at: '2026-04-28T07:38:43.753026'
+notes: 'Score: 72%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-28)'
+last_decision_at: '2026-04-28T07:39:22.261065'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

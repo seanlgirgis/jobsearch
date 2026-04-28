@@ -17,10 +17,13 @@ last_decision_at: '2026-04-27T22:04:34.192762'
 last_decision: ACCEPTED
 application:
   applied: true
-  applied_date: '2026-04-27'
+  applied_date: '2026-04-28'
   applied_method: Dice
-  application_notes: Applied via pipeline
+  application_notes: Applied via Dice bulk update
   history:
   - date: '2026-04-27'
     status: Applied
     notes: Applied via pipeline
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

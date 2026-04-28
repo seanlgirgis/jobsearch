@@ -1,0 +1,71 @@
+company_name: TEKsystems c/o Allegis Group
+company_website: ''
+job_title: Monitoring Engineer
+location: Charlotte, NC
+extracted_skills:
+- MEAN Stack
+- Repair
+- Management
+- Dashboard
+- Production Support
+- Instrumentation
+- Knowledge Sharing
+- Documentation
+- Training
+- Incident Management
+- Dynatrace
+- Splunk
+- Python
+- Network Monitoring
+- Taxes
+- Life Insurance
+- Collaboration
+- Partnership
+- Business Transformation
+- Law
+- Monitoring tools
+job_summary: We are seeking an experienced Monitoring Tools Engineer to support and
+  enhance company-wide monitoring platforms. This role focuses on improving monitoring
+  and operational readiness by implementing accurate thresholds, alerts, and dashboards.
+  You will serve as a trusted technical resource and thought leader, ensuring issues
+  can be detected and diagnosed earlier-reducing mean time to repair (MTTR) and preventing
+  incidents from reaching production. This role requires deep expertise in enterprise-class
+  monitoring tools, strong collaboration with application and production support teams,
+  and the ability to drive adoption of monitoring best practices across the organization.
+  The right candidate will be instrumental in advancing proactive monitoring capabilities
+  and enabling applications to run more reliably than ever before.
+responsibilities:
+- Implement and manage Dynatrace monitoring across a large portfolio of applications
+- Implement and manage Dynatrace Synthetic Monitoring
+- Implement and manage Splunk monitoring across the same large portfolio of applications
+- Design, configure, and optimize monitoring events, alerts, dashboards, and thresholds
+- Partner with Production Support and Engineering teams to maximize the value of monitoring
+  tools
+- Provide guidance to application teams on instrumentation and monitoring strategy
+- Lead demos, training sessions, and knowledge-sharing forums to drive adoption
+- Develop supporting documentation and training materials
+- Ensure monitoring supports effective incident management and operational processes
+requirements: []
+preferred: []
+benefits:
+- Medical, dental & vision
+- Critical Illness, Accident, and Hospital
+- 401(k) Retirement Plan - Pre-tax and Roth post-tax contributions
+- Life Insurance (Voluntary Life & AD&D for the employee and dependents)
+- Short and long-term disability
+- Health Spending Account (HSA)
+- Transportation benefits
+- Employee Assistance Program
+- Time Off/Leave (PTO, Vacation or Sick Leave)
+must_have_skills:
+- Dynatrace
+- Splunk
+- Python
+- Network monitoring
+nice_to_have_skills: []
+ats_keywords:
+- Monitoring Engineer
+- Dynatrace
+- Splunk
+- Python
+- Network Monitoring

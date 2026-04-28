@@ -1,0 +1,49 @@
+company_name: Next Gen IT Inc
+company_website: ''
+job_title: IT Project Manager with Dynatrace Observability
+location: Remote
+extracted_skills:
+- Dynatrace
+- Observability
+- Project Management
+- Linux
+- Windows
+- Kubernetes
+- ITSM
+- CMDB
+- Incident Management
+- Change Management
+job_summary: Lead the end-to-end upgrade project for Dynatrace OneAgent, coordinate
+  cross-functional stakeholders, drive operationalization, and manage global settings
+  updates across environments.
+responsibilities:
+- Independently run the OneAgent Upgrade project
+- Lead Global Settings delivery
+- Maintain artifacts like project plans and RAID logs
+- Communicate to stakeholders
+- Deliver operational handoff with runbooks
+- Provide tracking and reporting
+requirements:
+- 3+ years in technical project management
+- Experience leading observability platform upgrades
+- Strong background in Project/Program Management within Infrastructure or Operations
+- Familiarity with observability tools
+- Ability to manage multiple workstreams
+preferred:
+- Dynatrace experience
+benefits: []
+must_have_skills:
+- Project Management
+- Incident Management
+- Change Management
+- Observability Concepts
+nice_to_have_skills:
+- Dynatrace Experience
+ats_keywords:
+- Dynatrace
+- IT Project Manager
+- Observability
+- Remote
+- Linux
+- Windows
+- Kubernetes

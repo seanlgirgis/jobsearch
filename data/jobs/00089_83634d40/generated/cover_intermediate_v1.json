@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "April 28, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the IT Project Manager / Observability role focused on Dynatrace operationalization and monitoring transformation initiatives. My background aligns strongly with enterprise observability platforms, monitoring upgrades, telemetry reporting, and cross-functional operational coordination.",
+  "body": [
+    "At G6 Hospitality, I managed Dynatrace AppMon and Synthetic Monitoring across critical production systems and participated in operational monitoring improvements tied to application reliability and performance visibility. I also led a Dynatrace 6.5 to 7.0 upgrade with TLS 1.2 enforcement, coordinating rollout activities and achieving zero regression in production monitoring.",
+    "At CITI, I supported enterprise telemetry and observability initiatives across more than 6,000 monitored endpoints using BMC TrueSight and related reporting platforms. I developed automated telemetry reporting workflows, integrated monitoring feeds from multiple platforms, and created dashboards used for operational readiness and executive visibility. This work required ongoing coordination with infrastructure, operations, and application teams to support monitoring adoption and reporting consistency.",
+    "I also bring strong experience with automation and operational reporting using Python, SQL, Perl, and Korn Shell across Linux/Unix enterprise environments. My work has consistently focused on improving visibility, reducing manual operational effort, supporting incident readiness, and helping teams operationalize scalable monitoring processes."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute my Dynatrace, observability, telemetry, and operational coordination experience to your monitoring transformation initiatives.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

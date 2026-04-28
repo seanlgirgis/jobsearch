@@ -1,0 +1,28 @@
+uuid: 63b94cf3-7543-44cb-80af-a3f59b6415f0
+job_id: 00084_63b94cf3
+original_filename: intake.md
+company: Apetan Consulting
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 41
+recommendation: Skip
+score_date: '2026-04-27T23:07:47.592364'
+created_at: '2026-04-27T23:07:47.592364'
+notes: 'Score: 41%. Recommendation: Skip
+
+  • User accepted after reviewing score (2026-04-27)
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T23:08:00.054174'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

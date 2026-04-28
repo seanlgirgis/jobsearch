@@ -207,6 +207,12 @@ CONTENT RULES:
 - Do not invent new outcomes.
 - Projects must come only from master data.
 - Education must come only from master data.
+- When job_data emphasizes growth/product analytics, experimentation, funnels, retention, or user behavior:
+  - Reframe relevant telemetry/platform work as analytics-enablement and decision-support work.
+  - Include terms such as "growth analytics", "experimentation support", "behavioral/usage data", and "metrics/KPI reporting" only when grounded in source data.
+  - Do NOT claim ownership of A/B testing frameworks unless explicitly present in source_of_truth.
+- For mid-level job targets, prefer execution-oriented language (built, developed, improved, supported) over architecture-heavy wording (architected enterprise-wide strategy) unless explicitly required by the role.
+- In skills ordering for analytics/growth roles, prioritize SQL, analytics modeling/warehousing, orchestration (Airflow), and reporting/metrics tools near the top.
 
 FINAL SELF-CHECK BEFORE ANSWERING:
 - Does summary start exactly with "{positioning_angle}."?

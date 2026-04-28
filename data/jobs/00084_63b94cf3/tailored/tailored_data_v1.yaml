@@ -1,0 +1,96 @@
+company_name: Apetan Consulting
+company_website: ''
+job_title: Data Engineer – Starlink Growth
+location: Remote
+extracted_skills:
+- Python
+- SQL
+- Data pipelines
+- ETL/ELT
+- Data warehousing
+- BigQuery
+- Snowflake
+- Redshift
+- Workflow orchestration
+- Airflow
+- Prefect
+- Data modeling
+- Schema design
+- APIs
+- Data ingestion
+- Cloud platforms
+- AWS
+- Google Cloud Platform
+- Azure
+- A/B testing
+- Growth analytics
+- Marketing analytics
+- Product analytics
+job_summary: We are looking for a Data Engineer to support growth initiatives for
+  Starlink, focusing on building scalable data pipelines and analytics systems. You
+  will work closely with growth, product, and analytics teams to enable data-driven
+  decision-making across customer acquisition, retention, and market expansion.
+responsibilities:
+- Design, build, and maintain robust data pipelines for growth analytics
+- Develop scalable ETL/ELT processes to ingest and transform data from multiple sources
+- Partner with growth and product teams to define data requirements and metrics
+- Build and optimize data models for reporting and experimentation
+- Enable A/B testing frameworks and experimentation infrastructure
+- Ensure data quality, integrity, and reliability across systems
+- Monitor pipeline performance and troubleshoot issues
+- Support dashboards, reporting, and self-service analytics
+requirements:
+- Strong programming skills in Python, SQL, or similar languages
+- Experience building and maintaining data pipelines (batch and/or streaming)
+- Familiarity with data warehousing solutions (BigQuery, Snowflake, Redshift)
+- Experience with workflow orchestration tools (Airflow, Prefect, etc.)
+- Knowledge of data modeling and schema design
+- Understanding of APIs and data ingestion techniques
+- Experience with cloud platforms (AWS, Google Cloud Platform, or Azure)
+- Experience supporting marketing, growth, or product analytics use cases
+- Familiarity with metrics like CAC, LTV, retention, churn, and funnel analysis
+- Experience with experimentation (A/B testing frameworks and analysis)
+- Ability to work with large-scale user and behavioral datasets
+preferred:
+- Experience with streaming technologies (Kafka, Pub/Sub)
+- Familiarity with BI tools (Looker, Tableau, Power BI)
+- Knowledge of geospatial or telecom-related data
+- Exposure to machine learning data pipelines
+- Experience working with high-scale consumer or telecom platforms
+- Passion for space, satellite technology, or global connectivity initiatives
+benefits: []
+must_have_skills:
+- Python
+- SQL
+- Building data pipelines
+- Data warehousing
+- Workflow orchestration
+- Data modeling
+- APIs
+- Cloud platforms
+- Growth analytics
+- A/B testing
+nice_to_have_skills:
+- Kafka
+- Pub/Sub
+- BI tools
+- Geospatial data
+- Telecom-related data
+- Machine learning data pipelines
+- High-scale consumer platforms
+- Satellite technology
+ats_keywords:
+- Data Engineer
+- Starlink
+- Remote
+- Growth
+- Data pipelines
+- ETL
+- Python
+- SQL
+- BigQuery
+- Snowflake
+- Airflow
+- AWS
+- A/B testing
+- Analytics

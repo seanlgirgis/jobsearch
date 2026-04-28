@@ -482,21 +482,63 @@
   role: Unknown
   apply_date: N/A
   status: ACCEPTED
-- uuid: 00079_1fd3ee5e
-  description_path: data\jobs\00079_1fd3ee5e\intake.md
-  company: Synersys Technologies
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
-- uuid: 00080_eb4cbb08
-  description_path: data\jobs\00080_eb4cbb08\intake.md
-  company: Synersys Technologies
-  role: Unknown
-  apply_date: N/A
-  status: PENDING
 - uuid: 00081_51fd5951
   description_path: data\jobs\00081_51fd5951\intake.md
   company: Synersys Technologies
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00082_c8bd495d
+  description_path: data\jobs\00082_c8bd495d\intake.md
+  company: Bayside Solutions
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00083_a092324b
+  description_path: data\jobs\00083_a092324b\intake.md
+  company: TEKsystems c/o Allegis Group
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00084_63b94cf3
+  description_path: data\jobs\00084_63b94cf3\intake.md
+  company: Apetan Consulting
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00085_9a90c86e
+  description_path: data\jobs\00085_9a90c86e\intake.md
+  company: Booz Allen Hamilton
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00086_91a7dc63
+  description_path: data\jobs\00086_91a7dc63\intake.md
+  company: Apex Systems
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00087_887817fd
+  description_path: data\jobs\00087_887817fd\intake.md
+  company: Parmesoft Inc.
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00088_a3fd3ba9
+  description_path: data\jobs\00088_a3fd3ba9\intake.md
+  company: ''
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00089_83634d40
+  description_path: data\jobs\00089_83634d40\intake.md
+  company: ''
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00090_fb1d75da
+  description_path: data\jobs\00090_fb1d75da\intake.md
+  company: '-  Virtuous Tech Inc'
   role: ''
   apply_date: N/A
   status: ACCEPTED

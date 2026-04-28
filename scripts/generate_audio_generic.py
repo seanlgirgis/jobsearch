@@ -29,6 +29,52 @@ from dotenv import load_dotenv
 from openai import OpenAI
 
 
+# ── Voice override helpers ───────────────────────────────────────────────────
+
+def parse_mapping_entries(raw_entries: list[str], label: str) -> dict[str, str]:
+    """
+    Parse repeated CLI entries like ["SEAN=cedar", "HOST=nova"] into a dictionary.
+    """
+    mapping: dict[str, str] = {}
+    for entry in raw_entries:
+        if "=" not in entry:
+            raise ValueError(f"Invalid {label} entry '{entry}'. Expected format KEY=VALUE.")
+        key, value = entry.split("=", 1)
+        key = key.strip()
+        value = value.strip()
+        if not key or not value:
+            raise ValueError(f"Invalid {label} entry '{entry}'. Empty key/value not allowed.")
+        mapping[key] = value
+    return mapping
+
+
+def apply_voice_overrides(
+    blocks: list[dict],
+    speaker_voice_map: dict[str, str],
+    voice_replace_map: dict[str, str],
+) -> list[dict]:
+    """
+    Apply overrides in order:
+      1) voice_replace_map: by existing voice token (e.g., onyx -> cedar)
+      2) speaker_voice_map: by speaker name (e.g., SEAN -> cedar), highest priority
+    """
+    resolved = []
+    for block in blocks:
+        updated = dict(block)
+        voice = updated["voice"]
+
+        if voice in voice_replace_map:
+            voice = voice_replace_map[voice]
+
+        speaker = updated["speaker"]
+        if speaker in speaker_voice_map:
+            voice = speaker_voice_map[speaker]
+
+        updated["voice"] = voice
+        resolved.append(updated)
+    return resolved
+
+
 # ── Sentence boundary splitter ────────────────────────────────────────────────
 
 def split_at_sentences(text: str, max_chars: int) -> list[str]:
@@ -152,6 +198,9 @@ def generate_audio(
     max_chars: int,
     request_timeout_seconds: float,
     fail_fast: bool,
+    speaker_voice_map: dict[str, str],
+    voice_replace_map: dict[str, str],
+    sample_chunks: int,
 ) -> int:
     load_dotenv()
     api_key = os.getenv("OPENAI_API_KEY")
@@ -167,7 +216,16 @@ def generate_audio(
         print("ERROR: No speaker blocks found. Check format: **[SPEAKER — voice: voice_name]**")
         return 2
 
-    chunks = expand_blocks(raw_blocks, max_chars)
+    resolved_blocks = apply_voice_overrides(
+        raw_blocks,
+        speaker_voice_map=speaker_voice_map,
+        voice_replace_map=voice_replace_map,
+    )
+
+    chunks = expand_blocks(resolved_blocks, max_chars)
+    if sample_chunks > 0:
+        chunks = chunks[:sample_chunks]
+
     failed_chunks = []
 
     # Report split summary
@@ -177,6 +235,12 @@ def generate_audio(
     print(f"Raw blocks:   {len(raw_blocks)}")
     print(f"Chunks total: {len(chunks)}  ({split_count} sub-chunked blocks)")
     print(f"Chunk limit:  {max_chars} chars (~30 sec)")
+    if voice_replace_map:
+        print(f"Voice map:    {voice_replace_map}")
+    if speaker_voice_map:
+        print(f"Speaker map:  {speaker_voice_map}")
+    if sample_chunks > 0:
+        print(f"Sample mode:  first {sample_chunks} chunk(s) only")
     print()
 
     total = len(chunks)
@@ -259,7 +323,7 @@ def main():
     parser.add_argument("--script",     required=True, help="Path to audio script .md file")
     parser.add_argument("--output",     default=None,  help="Output directory for MP3 clips")
     parser.add_argument("--chunk-size", type=int, default=500,
-                        help="Max chars per API call (default 500 ≈ 30 sec). Split at sentence boundaries.")
+                        help="Max chars per API call (default 500 ~ 30 sec). Split at sentence boundaries.")
     parser.add_argument(
         "--request-timeout-seconds",
         type=float,
@@ -271,11 +335,39 @@ def main():
         action="store_true",
         help="Continue processing after failed chunks (default behavior is fail-fast).",
     )
+    parser.add_argument(
+        "--speaker-voice",
+        action="append",
+        default=[],
+        help="Override voice by speaker. Repeatable. Example: --speaker-voice SEAN=cedar",
+    )
+    parser.add_argument(
+        "--voice-replace",
+        action="append",
+        default=[],
+        help="Replace one voice token with another. Repeatable. Example: --voice-replace onyx=cedar",
+    )
+    parser.add_argument(
+        "--sample-chunks",
+        type=int,
+        default=0,
+        help="Generate only the first N chunks for quick A/B voice testing (default: 0 = full script).",
+    )
     args = parser.parse_args()
 
     script_path = Path(args.script).resolve()
     if not script_path.exists():
         print(f"ERROR: Script not found: {script_path}")
+        return
+    try:
+        speaker_voice_map = parse_mapping_entries(args.speaker_voice, "speaker-voice")
+        voice_replace_map = parse_mapping_entries(args.voice_replace, "voice-replace")
+    except ValueError as e:
+        print(f"ERROR: {e}")
+        return
+
+    if args.sample_chunks < 0:
+        print("ERROR: --sample-chunks must be >= 0")
         return
 
     output_dir = Path(args.output).resolve() if args.output else script_path.parent / "audio_clips"
@@ -285,6 +377,9 @@ def main():
         max_chars=args.chunk_size,
         request_timeout_seconds=args.request_timeout_seconds,
         fail_fast=not args.no_fail_fast,
+        speaker_voice_map=speaker_voice_map,
+        voice_replace_map=voice_replace_map,
+        sample_chunks=args.sample_chunks,
     )
     raise SystemExit(exit_code)
 

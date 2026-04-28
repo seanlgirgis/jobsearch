@@ -1,0 +1,26 @@
+uuid: 9a90c86e-2374-400c-be80-fc1d67f14b1d
+job_id: 00085_9a90c86e
+original_filename: intake.md
+company: Booz Allen Hamilton
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 74
+recommendation: Hold
+score_date: '2026-04-27T23:18:20.124687'
+created_at: '2026-04-27T23:18:20.124687'
+notes: 'Score: 74%. Recommendation: Hold
+
+  • User accepted after reviewing score (2026-04-27)'
+last_decision_at: '2026-04-27T23:18:23.433385'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update

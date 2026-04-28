@@ -1,0 +1,94 @@
+company_name: Parmesoft Inc.
+company_website: ''
+job_title: AWS Data Engineer
+location: 100% REMOTE
+extracted_skills:
+- AWS S3
+- AWS Athena
+- AWS Lambda
+- AWS Step Functions
+- AWS Redshift Serverless
+- AWS SageMaker
+- AWS Bedrock
+- AWS ECS
+- AWS API Gateway
+- Python
+- Agentic AI systems
+- multi-agent orchestration
+- tool use
+- memory management
+- autonomous task execution
+- AWS Bedrock Agents
+- Lang Chain
+- SQL
+- ETL design
+- ETL orchestration
+- ETL optimization
+- LLM integration
+- Lakehouse frameworks
+- Iceberg
+- Delta
+- DevOps
+- Terraform
+- CloudFormation
+- HTML
+- CSS
+- React
+- RAG
+- embeddings
+- vector databases
+- ReAct
+- Plan-and-Execute
+- self-correcting agent loops
+- marketing analytics
+- customer intelligence
+job_summary: 'Position: AWS Data Engineer, 100% remote, 6-12 month contract, rate
+  $72-75/hr. Requires Master''s degree in computer science, Artificial Intelligence,
+  Software Engineering, or related field, or Bachelor''s with exceptional experience.'
+responsibilities: []
+requirements:
+- At least 10+ years of hands-on experience with AWS services including S3, Athena,
+  Lambda, Step Functions, Redshift Serverless, SageMaker, Bedrock, ECS, and API Gateway
+- Strong proficiency in Python for data engineering, automation, and API integration
+- Hands-on experience designing and implementing Agentic AI systems including multi-agent
+  orchestration, tool use, memory management, and autonomous task execution
+- Experience with agent frameworks such as AWS Bedrock Agents, Lang Chain, or similar
+- Strong SQL skills and familiarity with large-scale data environments
+- Solid understanding of ETL design, orchestration, and optimization in cloud platforms
+- Master's degree in computer science, Artificial Intelligence, Software Engineering,
+  or a closely related field
+- Bachelor's degree with exceptional hands-on experience in data engineering and agentic
+  AI may be considered
+preferred:
+- Experience with LLM integration into business workflows
+- Familiarity with Lakehouse frameworks such as Iceberg or Delta
+- Experience with DevOps and Infrastructure-as-Code tools such as Terraform or CloudFormation
+- Familiarity with front-end technologies including HTML, CSS, and React
+- Experience with retrieval-augmented generation (RAG), embeddings, and vector databases
+- Exposure to emerging Agentic AI patterns such as ReAct, Plan-and-Execute, and self-correcting
+  agent loops
+- Background in marketing analytics or customer intelligence use cases
+benefits: []
+must_have_skills:
+- AWS services
+- Python
+- Agentic AI systems
+- Agent frameworks
+- SQL
+- ETL design
+nice_to_have_skills:
+- LLM integration
+- Lakehouse frameworks
+- DevOps
+- Infrastructure-as-Code
+- Front-end technologies
+- RAG
+- Emerging Agentic AI patterns
+- Marketing analytics
+ats_keywords:
+- AWS
+- Data Engineer
+- Python
+- AI
+- SQL
+- ETL

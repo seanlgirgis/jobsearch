@@ -1,0 +1,71 @@
+company_name: Virtuous Tech Inc
+company_website: ''
+job_title: System Monitoring Lead Engineer
+location: Remote
+extracted_skills:
+- Splunk
+- AWS CloudWatch
+- Azure Monitor
+- Sitescope
+- Selenium
+- Python
+- Java
+- Shell Scripting
+- PowerShell scripting
+- regular expressions
+job_summary: We are looking for Application Performance Management (APM) professional
+  to work on our Federal project. We are hiring immediately;
+responsibilities:
+- Lead a team of systems engineers to develop and maintain Cloud-based application
+  and infrastructure monitoring solutions
+- Work with government customers to derive monitoring requirements and translate them
+  into working solutions using in-house tools and techniques
+- Manages, configures and maintains Splunk, AWS CloudWatch, Azure Monitor, and other
+  APM tools
+- Maintains Splunk Cloud Firehose data stream architecture and monitoring
+- Development of dashboards, SLA Reports and custom end-user reports.
+- Provide support in developing and designing Synthetic Availability Monitoring which
+  integrates into Splunk, AWS Canaries, Python, and Selenium
+- Provide performance analysis on load testing and regression testing data
+- Provide analysis in the Application Event using Splunk
+- Instrument and perform Java/JVM s Performance analysis
+- Triage service delays and applications reliability issues hosted on AWS cloud
+requirements:
+- 8+ years strong IT experience and good working knowledge of a variety of technology
+  platforms
+- 5+ years hands-on experience on Application Performance Management (APM) Engineer
+- 3+ years Hands-on experience on design, engineering and Synthetic Availability Monitoring
+  using Sitescope, Selenium, or similar tools.
+- Strong knowledge with performance data analysis, performance tuning, and performance
+  monitoring.
+- Experience with Java, multi-tiered application architecture, Shell Scripting, PowerShell
+  scripting, regular expressions is preferable
+preferred: []
+benefits: []
+must_have_skills:
+- IT experience
+- APM Engineer
+- Synthetic Availability Monitoring
+- Performance data analysis
+- Performance tuning
+- Performance monitoring
+- Java
+- multi-tiered application architecture
+- Shell Scripting
+- PowerShell scripting
+- regular expressions
+nice_to_have_skills: []
+ats_keywords:
+- Splunk
+- AWS CloudWatch
+- Azure Monitor
+- Sitescope
+- Selenium
+- Python
+- Java
+- Shell Scripting
+- PowerShell scripting
+- regular expressions
+- APM
+- Cloud monitoring
+- Synthetic Availability Monitoring

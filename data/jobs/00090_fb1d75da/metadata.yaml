@@ -1,0 +1,26 @@
+uuid: fb1d75da-6943-410d-b1c3-2c36c804967a
+job_id: 00090_fb1d75da
+original_filename: intake.md
+company: '-  Virtuous Tech Inc'
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 60
+recommendation: Skip
+score_date: '2026-04-28T08:44:37.322730'
+created_at: '2026-04-28T08:44:37.322730'
+notes: 'Score: 60%. Recommendation: Skip
+
+  • User accepted after reviewing score (2026-04-28)'
+last_decision_at: '2026-04-28T08:44:37.541431'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-04-28'
+  applied_method: Dice
+  application_notes: Applied via Dice bulk update
+  history:
+  - date: '2026-04-28'
+    status: Applied
+    notes: Applied via Dice bulk update
