@@ -8,6 +8,39 @@ Toyota is more than a car company. It is an organization shaped by decades of di
 
 ---
 
+## The Toyota Emblem: What the Three Ovals Mean
+
+Before diving into culture, it helps to understand the symbol sitting on the hood of every Toyota on the road. That logo is not decorative. Every oval has a specific meaning, and the whole thing took five years to design.
+
+### The Three Ovals, Explained
+
+<invoke name="visualize:read_me">Toyota debuted the three-oval logo in October 1989 to commemorate its 50th anniversary. Here is what each part represents:
+
+**The Two Inner Ovals**
+These two ovals overlap at a perpendicular angle and do two things at once. First, they represent the heart of the customer and the heart of the company, joined together — a symbol of mutual trust and a relationship built on shared values. Second, their overlapping shape forms a stylized letter **T** for Toyota.
+
+**The Outer Oval**
+The large ellipse surrounding the inner ovals represents the world embracing Toyota. It signals global reach and the company's commitment to serving people everywhere, not just in Japan.
+
+**The Negative Space**
+The white space inside and around the ovals is intentional. It is designed to represent the *infinite values* Toyota strives to deliver: superb quality, value beyond expectation, the joy of driving, innovation, and integrity in safety, the environment, and social responsibility.
+
+**The Calligraphy Connection**
+Each oval is drawn with varying stroke thicknesses — thicker in some areas, thinner in others. This is a deliberate nod to Japanese brush calligraphy, grounding a global corporate symbol in Toyota's cultural heritage.
+
+**The Hidden Letters**
+As a bonus layer of design, every letter in the word T-O-Y-O-T-A can be traced within the geometry of the three ovals. This was not the primary intent, but it is a clever feature that reflects the precision and intentionality behind the design.
+
+### Symmetry as Function
+
+The logo is horizontally symmetrical on purpose. Whether you are looking at the front grille of a Toyota head-on or catching a glimpse in a rear-view mirror, the emblem reads the same. That is practical engineering applied to visual identity — very Toyota.
+
+### A Five-Year Design Process
+
+The logo debuted in October 1989 on the luxury Toyota Celsior. The development process took five years, driven by two requirements: the logo had to be recognizable from a distance, and it had to carry strong visual impact in foreign markets as Toyota expanded globally. The result has remained essentially unchanged for over 35 years.
+
+---
+
 ## The Foundation: The Toyota Way
 
 The Toyota Way is the company's formal statement of its values and operating principles. It rests on two pillars:
