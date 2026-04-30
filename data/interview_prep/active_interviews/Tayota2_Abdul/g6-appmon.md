@@ -1,7 +1,23 @@
 # G6 Hospitality — Application Performance Monitoring Platform
 
+<a id="toc"></a>
+## Table of Contents
+1. [Project Context](#sec-1)
+2. [The Monitoring Gap](#sec-2)
+3. [Dynatrace AppMon as Data Source](#sec-3)
+4. [The Extraction Pipeline](#sec-4)
+5. [Artifact Chain Analysis](#sec-5)
+6. [Geographical & Device Segmentation](#sec-6)
+7. [MySQL Data Layer](#sec-7)
+8. [Reporting & Analysis](#sec-8)
+9. [Findings & Recommendations](#sec-9)
+10. [Impact & Outcomes](#sec-10)
+11. [Lessons Learned](#sec-11)
+12. [Interview Q&A](#sec-12)
+
 ---
 
+<a id="sec-1"></a>
 ## Project Context
 
 G6 Hospitality is the parent company of Motel 6 and Studio 6. The brand.com
@@ -16,7 +32,10 @@ stakeholders and the dev team needed required a custom layer beyond what
 Dynatrace's built-in dashboards provided.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## The Monitoring Gap
 
 AppMon was doing its job — instrumented every transaction, captured response
@@ -41,7 +60,10 @@ performance monitoring proactive — giving the team a continuous, segmented vie
 before users experienced problems.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ## Dynatrace AppMon as Data Source
 
 AppMon instruments web applications at the agent level — capturing every HTTP
@@ -65,6 +87,9 @@ Data export interface — used as the extraction point for the custom analytics 
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ## The Extraction Pipeline
 
 Scripts pulled performance data out of AppMon through its data export interface
@@ -102,7 +127,10 @@ fresh performance data. Reports reflected current conditions, not a static
 snapshot.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-5"></a>
 ## Artifact Chain Analysis
 
 The artifact chain is the waterfall of individual HTTP requests a browser makes
@@ -129,6 +157,9 @@ API calls — backend response time, payload size. Fix: response caching, payloa
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-6"></a>
 ## Geographical & Device Segmentation
 
 A national hotel booking site serves customers across every US state on devices
@@ -173,6 +204,9 @@ what the slowest 5% of users experience — where the real problems live.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## MySQL Data Layer
 
 MySQL served as the aggregation and analytics database. The schema was built
@@ -223,6 +257,9 @@ drill-down investigation when a summary surfaced an anomaly worth investigating.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-8"></a>
 ## Reporting & Analysis
 
 Reports were structured around the questions the business actually needed
@@ -252,6 +289,9 @@ rather than relying on anecdote or waiting for user complaints.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-9"></a>
 ## Findings & Recommendations
 
 **JavaScript bundle weight.**
@@ -282,6 +322,9 @@ a device with less processing capacity.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-10"></a>
 ## Impact & Outcomes
 
 Following implementation of the recommended frontend changes, response times
@@ -309,6 +352,9 @@ Deployment validation — Before: manual spot-checks or waiting for alerts. Afte
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-11"></a>
 ## Lessons Learned
 
 **Monitoring tools give you data, not insight.**
@@ -343,6 +389,9 @@ actually need answered.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-12"></a>
 ## Interview Q&A
 
 **You had Dynatrace AppMon already — why build a custom pipeline on top of it?**
@@ -442,3 +491,5 @@ The specific tools change. The pattern doesn't. I've applied the same thinking
 across data engineering contexts well beyond web performance — any time a
 business has a data-generating system and needs insight from it, the problem
 structure is identical: source, extraction, modeling, analytics, reporting.
+[Back to TOC](#toc)
+

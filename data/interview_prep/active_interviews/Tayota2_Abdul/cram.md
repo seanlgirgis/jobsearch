@@ -1,8 +1,72 @@
 # Cram Sheet — Abdul Interview Answers
+<a id="toc"></a>
+## Table of Contents
+1. [Table of Contents](#sec-1)
+2. [Q: Tell me about yourself](#sec-2)
+3. [Q: Why Toyota specifically?](#sec-3)
+4. [Q: Walk me through your most complex data platform design](#sec-4)
+5. [Q: How do you handle pipeline failures at scale?](#sec-5)
+6. [Q: Tell me about a time a system failed](#sec-6)
+7. [Q: Tell me about the G6 Dynatrace project](#sec-7)
+8. [Q: CloudFormation — how would you structure stacks for a data platform?](#sec-8)
+9. [Q: Tell me about the HorizonScale forecasting platform](#sec-9)
+10. [Q: FastAPI — how do you secure and scale a data API?](#sec-10)
+11. [Q: Tell me about a time you convinced someone to change direction](#sec-11)
+12. [Q: Terraform — how familiar are you?](#sec-12)
+13. [Q: What questions do you have for me?](#sec-13)
+14. [Q: What is the Medallion Architecture?](#sec-14)
+15. [Q: Batch vs Streaming — how do you decide?](#sec-15)
+16. [Q: Why never run analytics on an OLTP database?](#sec-16)
+17. [Q: ECS Fargate or Lambda for FastAPI?](#sec-17)
+18. [Q: What is idempotency and why does it matter?](#sec-18)
+19. [Q: What is schema drift and why is it dangerous?](#sec-19)
+20. [Q: What is a Docker image vs a Docker container?](#sec-20)
+21. [Q: What triggers CI and what triggers CD?](#sec-21)
+22. [Q: Kafka vs SQS — what is the difference?](#sec-22)
+23. [Q: What is the 5-step design framework?](#sec-23)
+24. [Q: What is a JWT and what must you validate?](#sec-24)
+25. [Q: What is Kaizen and Genchi Genbutsu?](#sec-25)
+26. [Q: Why should we hire Sean Girgis?](#sec-26)
+27. [The Three Sean Principles](#sec-27)
+28. [Key One-Liners to Memorize](#sec-28)
+
+<a id="sec-1"></a>
+## Table of Contents
+1. [Q: Tell me about yourself](#sec-1)
+2. [Q: Why Toyota specifically?](#sec-2)
+3. [Q: Walk me through your most complex data platform design](#sec-3)
+4. [Q: How do you handle pipeline failures at scale?](#sec-4)
+5. [Q: Tell me about a time a system failed](#sec-5)
+6. [Q: Tell me about the G6 Dynatrace project](#sec-6)
+7. [Q: CloudFormation — how would you structure stacks for a data platform?](#sec-7)
+8. [Q: Tell me about the HorizonScale forecasting platform](#sec-8)
+9. [Q: FastAPI — how do you secure and scale a data API?](#sec-9)
+10. [Q: Tell me about a time you convinced someone to change direction](#sec-10)
+11. [Q: Terraform — how familiar are you?](#sec-11)
+12. [Q: What questions do you have for me?](#sec-12)
+13. [Q: What is the Medallion Architecture?](#sec-13)
+14. [Q: Batch vs Streaming — how do you decide?](#sec-14)
+15. [Q: Why never run analytics on an OLTP database?](#sec-15)
+16. [Q: ECS Fargate or Lambda for FastAPI?](#sec-16)
+17. [Q: What is idempotency and why does it matter?](#sec-17)
+18. [Q: What is schema drift and why is it dangerous?](#sec-18)
+19. [Q: What is a Docker image vs a Docker container?](#sec-19)
+20. [Q: What triggers CI and what triggers CD?](#sec-20)
+21. [Q: Kafka vs SQS — what is the difference?](#sec-21)
+22. [Q: What is the 5-step design framework?](#sec-22)
+23. [Q: What is a JWT and what must you validate?](#sec-23)
+24. [Q: What is Kaizen and Genchi Genbutsu?](#sec-24)
+25. [Q: Why should we hire Sean Girgis?](#sec-25)
+26. [The Three Sean Principles](#sec-26)
+27. [Key One-Liners to Memorize](#sec-27)
+
 **Retype each answer. That is the drill.**
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## Q: Tell me about yourself
 
 I am Sean Girgis — Lead Software Engineer with 12 years in Python, data engineering, and cloud-native automation.
@@ -15,12 +79,20 @@ I am drawn to Toyota because reliability at scale is where I do my best work —
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-3"></a>
 ## Q: Why Toyota specifically?
 
 I'm drawn to Toyota Financial Services because reliability at scale is exactly where I do my best work. Toyota's continuous improvement mindset — Kaizen — and Go see for yourself — Genchi Genbutsu — is exactly how I like to operate. And Toyota's Mobility for All mission resonates with me deeply. Enabling people to own vehicles they otherwise couldn't — that's where data reliability becomes a real-world equity story. That matters to me.
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ## Q: Walk me through your most complex data platform design
 
 Citi High-Scale Telemetry Pipeline. When I joined, the team was processing tens of thousands of telemetry records monthly — joining to CMDB and AppDynamics data — entirely in Excel. It took 10 days and many people. Everyone accepted it as status quo.
@@ -38,6 +110,10 @@ The team went from trusting a spreadsheet nobody wanted to touch, to a pipeline 
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-5"></a>
 ## Q: How do you handle pipeline failures at scale?
 
 A reliable pipeline treats failure as a normal operating condition, not an exception.
@@ -52,6 +128,10 @@ That combination — design for failure, prove correctness, recover fast — is 
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-6"></a>
 ## Q: Tell me about a time a system failed
 
 At Citi, a monthly capacity run completed successfully — green status, no errors. But when I inspected the output statistics, the numbers were way off.
@@ -64,6 +144,10 @@ The report was corrected in time. But the bigger result was the lesson: a pipeli
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## Q: Tell me about the G6 Dynatrace project
 
 G6's direct booking site and mobile app performance directly impacts conversion rates. Dynatrace gave good diagnosis at the transaction level but no total vision. The problem: good transactions and fast devices were masking the experience of users with low bandwidth, older devices, and different geographies. We were blind to where we were losing money.
@@ -76,6 +160,10 @@ I converted Ops from a team chasing alerts into a team making decisions. From re
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-8"></a>
 ## Q: CloudFormation — how would you structure stacks for a data platform?
 
 Think modularly. Organize by ownership, lifecycle, and blast radius.
@@ -93,6 +181,10 @@ The rule: a failed pipeline deploy should never risk the network foundation. Sta
 
 ---
 
+[Back to TOC](#toc)
+
+
+<a id="sec-9"></a>
 ## Q: Tell me about the HorizonScale forecasting platform
 
 The business needed to act in advance, not react. Monthly telemetry reporting wasn't enough — they needed forward-looking forecasts that accounted for seasonality and periodic changes across tens of thousands of servers.
@@ -113,6 +205,10 @@ The lesson: move the problem to the right platform. Don't fight the tool — rep
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-10"></a>
 ## Q: FastAPI — how do you secure and scale a data API?
 
 Security is not a feature you add later — it's the first design decision.
@@ -123,6 +219,10 @@ Scale second: keep endpoints stateless. Run multiple workers and replicas behind
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-11"></a>
 ## Q: Tell me about a time you convinced someone to change direction
 
 The team was leaning toward hourly full reloads — simpler to build under deadline pressure. I could see that at forecasted data growth, it would become cost-prohibitive and operationally fragile.
@@ -135,6 +235,10 @@ The team agreed. Months later when volume grew significantly, the pipeline staye
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-12"></a>
 ## Q: Terraform — how familiar are you?
 
 I understand the model well — state file, provider ecosystem, plan/apply cycle, modules for reuse. My hands-on production work has been more in CloudFormation, but the concepts translate directly — IaC is IaC.
@@ -147,6 +251,10 @@ I'm actively deepening my Terraform hands-on experience and would ramp quickly i
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-13"></a>
 ## Q: What questions do you have for me?
 
 1. What is the biggest data reliability or quality challenge the team is dealing with right now?
@@ -154,6 +262,10 @@ I'm actively deepening my Terraform hands-on experience and would ramp quickly i
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-14"></a>
 ## Q: What is the Medallion Architecture?
 
 Bronze preserves truth. Silver creates trust. Gold serves consumers.
@@ -166,18 +278,30 @@ Gold — business-ready. Aggregated, business logic built in, optimized for anal
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-15"></a>
 ## Q: Batch vs Streaming — how do you decide?
 
 Streaming sounds elegant but it's costly and not always needed. Use it only when latency must be in seconds — fraud detection, real-time tracking. When latency of 15 minutes or more is acceptable, batch is the right choice — easier to implement, cheaper to operate, and produces consistent results. Always justify streaming with a clear business latency requirement.
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-16"></a>
 ## Q: Why never run analytics on an OLTP database?
 
 OLTP is optimized for low-latency transactions — fast row reads and writes for live business operations. Analytics runs massive scans across huge datasets. Run both together and you get contention — analytics grinds OLTP to a halt, live transactions slow down, production suffers. You separate them for workload isolation. OLAP systems — Snowflake, Redshift, Athena — are columnar, partitioned, and built for analytical scans. Let each system do what it's designed for.
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-17"></a>
 ## Q: ECS Fargate or Lambda for FastAPI?
 
 ECS Fargate is my default for FastAPI in production. Containers stay warm, connection pools persist, VPC integration is clean for databases and private resources. Predictable and stable.
@@ -188,12 +312,20 @@ The decision rule: steady production API with DB pools → ECS Fargate. Lightwei
 
 ---
 
+[Back to TOC](#toc)
+
+
+<a id="sec-18"></a>
 ## Q: What is idempotency and why does it matter?
 
 Idempotency means running the same operation multiple times produces the same result as running it once. In pipelines this is critical because failures and retries are normal operating conditions. If your writes aren't idempotent, every retry is a corruption risk. Bronze being immutable is the foundation — you always have a safe source to replay from.
 
 ---
+[Back to TOC](#toc)
 
+
+
+<a id="sec-19"></a>
 ## Q: What is schema drift and why is it dangerous?
 
 Data schema drift is when an upstream source quietly changes its structure — renaming a field, changing a type, dropping a column. The pipeline keeps running. Often it comes out green. But the data is wrong. Green pipeline, broken output.
@@ -204,18 +336,30 @@ The rule: a pipeline that runs is not the same as a pipeline that's correct.
 
 ---
 
+[Back to TOC](#toc)
+
+
+<a id="sec-20"></a>
 ## Q: What is a Docker image vs a Docker container?
 
 Image is the blueprint. Container is the running instance — live, isolated, ephemeral.
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-21"></a>
 ## Q: What triggers CI and what triggers CD?
 
 CI fires when a PR is opened — runs tests, lint, security scan. CD fires when the PR is merged to main — builds the image, tags with commit SHA, pushes to ECR, deploys to ECS. The merge IS the deployment trigger.
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-22"></a>
 ## Q: Kafka vs SQS — what is the difference?
 
 Kafka is a distributed event streaming platform. Messages are written to a log, retained with an expiry, and multiple independent consumer groups can read the same message at their own pace. Built for replay, fan-out, and event history.
@@ -226,6 +370,10 @@ Use SQS for simple task queues. Use Kafka when you need event history, replay, o
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-23"></a>
 ## Q: What is the 5-step design framework?
 
 1. Clarify requirements first — latency, scale, retention, consumers, recovery SLA, compliance
@@ -238,6 +386,10 @@ Never draw a happy-path-only system. Interviewers listen for what breaks and how
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-24"></a>
 ## Q: What is a JWT and what must you validate?
 
 JWT is a signed self-contained token carrying identity and claims — subject, issuer, audience, scopes, expiry. Anyone can decode it. That is not security.
@@ -248,6 +400,10 @@ Decoding is free. Validation is what counts. Decode plus trust is not authentica
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-25"></a>
 ## Q: What is Kaizen and Genchi Genbutsu?
 
 Kaizen is how I think about everything — continuous improvement. It is never good enough, there is always an opportunity. I apply it professionally and personally — always asking what can be better, what is worth knowing more deeply.
@@ -256,6 +412,10 @@ Genchi Genbutsu is about reality. Never about who says what or first impressions
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-26"></a>
 ## Q: Why should we hire Sean Girgis?
 
 I'm fight-tested. Twelve years in enterprise environments — Citi, G6, HorizonScale — I've seen systems fail, rebuilt them, and made them better. I don't just fit into teams, I lift them.
@@ -266,6 +426,10 @@ What you get with me is someone who will not just perform the role but will own 
 
 ---
 
+
+[Back to TOC](#toc)
+
+<a id="sec-27"></a>
 ## The Three Sean Principles
 
 > **"Architecture is about tradeoffs, not tools."**
@@ -279,6 +443,10 @@ What you get with me is someone who will not just perform the role but will own 
 
 ---
 
+[Back to TOC](#toc)
+
+
+<a id="sec-28"></a>
 ## Key One-Liners to Memorize
 
 - "Architecture is tradeoffs, not tools."
@@ -291,3 +459,6 @@ What you get with me is someone who will not just perform the role but will own 
 - "I stay current by building."
 - "Rather break than false success."
 - "Same input, same output, always — that's idempotency."
+
+[Back to TOC](#toc)
+

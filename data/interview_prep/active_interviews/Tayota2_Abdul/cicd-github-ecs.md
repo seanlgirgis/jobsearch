@@ -1,7 +1,26 @@
 # CI/CD with GitHub Actions, Docker, and ECS
 
+<a id="toc"></a>
+## Table of Contents
+1. [What CI/CD Means in Production](#sec-1)
+2. [Reference Architecture](#sec-2)
+3. [GitHub Actions Workflow Structure](#sec-3)
+4. [Docker Multi-Stage Builds](#sec-4)
+5. [Amazon ECR Registry Strategy](#sec-5)
+6. [OIDC Authentication to AWS](#sec-6)
+7. [Pipeline Tests](#sec-7)
+8. [ECS Deployment Strategies](#sec-8)
+9. [Environment Promotion](#sec-9)
+10. [Secrets Management](#sec-10)
+11. [Infrastructure as Code](#sec-11)
+12. [Data Engineering CI/CD](#sec-12)
+13. [Rollback and Observability](#sec-13)
+14. [Silent Deployment Failures](#sec-14)
+15. [Interview Q&A](#sec-15)
+
 ---
 
+<a id="sec-1"></a>
 ## What CI/CD Means in Production
 
 CI/CD is the release control system for code, images, infrastructure, data
@@ -24,7 +43,10 @@ ECS — deploy task definition revision. Risk: task runs but app is unhealthy.
 Data — validate schema and quality. Risk: green deploy, wrong output.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## Reference Architecture
 
 GitHub as source control, GitHub Actions as the workflow engine, OIDC for
@@ -53,7 +75,10 @@ Never mix risky infrastructure mutation and routine app deployment in one
 unreviewed step.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ## GitHub Actions Workflow Structure
 
 Workflows are made from triggers, jobs, steps, runners, permissions, and
@@ -96,7 +121,10 @@ secrets, and deployment history.
 Set explicit workflow permissions. Broad defaults create a quiet security hole.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-4"></a>
 ## Docker Multi-Stage Builds
 
 Multi-stage builds separate build-time dependencies from runtime dependencies.
@@ -129,7 +157,10 @@ config belongs in ECS, Secrets Manager, or Parameter Store.
 `distroless` — low attack surface. Hard to debug interactively.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-5"></a>
 ## Amazon ECR Registry Strategy
 
 ECR stores the image artifacts ECS deploys. Use SHA-based immutable tags,
@@ -155,7 +186,10 @@ artifact instead of guessing what `latest` used to mean.
 artifact identity.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-6"></a>
 ## OIDC Authentication to AWS
 
 OIDC lets GitHub Actions assume an IAM role with short-lived credentials.
@@ -189,6 +223,9 @@ production.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## Pipeline Tests
 
 Testing should be layered: linting, unit tests, integration tests, contract
@@ -211,6 +248,9 @@ queue, cache, or secret store.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-8"></a>
 ## ECS Deployment Strategies
 
 ECS rolling updates are simple and good for many stateless services.
@@ -239,6 +279,9 @@ Bad health checks can make ECS declare victory while users see failures.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-9"></a>
 ## Environment Promotion
 
 Promotion should move one tested artifact from dev to staging to production.
@@ -266,6 +309,9 @@ production artifact.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-10"></a>
 ## Secrets Management
 
 Separate deployment credentials from runtime secrets. Use OIDC and IAM for
@@ -296,6 +342,9 @@ production data.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-11"></a>
 ## Infrastructure as Code
 
 Terraform or CloudFormation should define ECR, ECS services, IAM roles,
@@ -321,6 +370,9 @@ Never run applies against shared state without locking and least-privilege IAM.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-12"></a>
 ## Data Engineering CI/CD
 
 Data engineering releases include Glue jobs, Lambda functions, Airflow DAGs,
@@ -343,6 +395,9 @@ checks into the pipeline.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-13"></a>
 ## Rollback and Observability
 
 Rollback usually means redeploying a previous ECS task definition or letting
@@ -376,6 +431,9 @@ Metrics — CloudWatch. Latency, errors, saturation.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-14"></a>
 ## Silent Deployment Failures
 
 Silent failures happen when the pipeline is green but production behavior is
@@ -396,7 +454,10 @@ database write, or output file.
 The scariest pipeline is not red. It is green and wrong.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-15"></a>
 ## Interview Q&A
 
 **Q: Why use OIDC instead of AWS keys in GitHub Secrets?**
@@ -443,3 +504,5 @@ infrastructure changes from routine app deploys.
 ECS may only know that tasks are running. Bad environment variables, shallow
 health checks, missing IAM, dependency failures, or schema drift can still
 break the real workload.
+[Back to TOC](#toc)
+

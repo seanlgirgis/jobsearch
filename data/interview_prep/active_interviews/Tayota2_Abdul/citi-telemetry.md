@@ -1,7 +1,26 @@
 # Citi High-Scale Telemetry Pipeline
 
+<a id="toc"></a>
+## Table of Contents
+1. [Team Context & Problem](#sec-1)
+2. [The Manual Process](#sec-2)
+3. [Data Sources](#sec-3)
+4. [The Four KPIs & System Types](#sec-4)
+5. [Safety & Ceiling Factors](#sec-5)
+6. [Pipeline Architecture](#sec-6)
+7. [Data Transformation & Enrichment](#sec-7)
+8. [SQLite Data Model](#sec-8)
+9. [Two Output Directions](#sec-9)
+10. [Streamlit Internal Dashboard](#sec-10)
+11. [Impact: 5–10 Days to 1–2 Hours](#sec-11)
+12. [Engineering Practices](#sec-12)
+13. [Engineering Challenges](#sec-13)
+14. [Lessons Learned](#sec-14)
+15. [Interview Q&A](#sec-15)
+
 ---
 
+<a id="sec-1"></a>
 ## Team Context & Problem
 
 The Capacity and Planning team at Citigroup sat at the center of a global
@@ -22,7 +41,10 @@ analysis had to be timely, accurate, and actionable enough for enterprise teams
 to plan months ahead.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## The Manual Process
 
 When the pipeline was designed, the entire monthly analysis was done manually
@@ -48,7 +70,10 @@ consistency and reliability were bounded by the manual process that produced
 them.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ## Data Sources
 
 Three sources. One primary telemetry source, two enrichment sources. No single
@@ -73,6 +98,9 @@ responsible team and a geography, making it immediately actionable.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ## The Four KPIs & System Types
 
 Every monitored endpoint was analyzed across four KPIs. Together they give a
@@ -109,6 +137,9 @@ Containers — typically more dynamic, but resource limits still require plannin
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-5"></a>
 ## Safety & Ceiling Factors
 
 Raw P95 telemetry tells you the 95th percentile utilization for the measurement
@@ -154,6 +185,9 @@ acceptable operational state.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-6"></a>
 ## Pipeline Architecture
 
 Classic ETL pattern: Extract from Oracle and SQL Server, Transform with Pandas
@@ -213,6 +247,9 @@ duplicating records.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## Data Transformation & Enrichment
 
 The transformation stage was the most labor-intensive part of the initial build
@@ -254,7 +291,10 @@ df["enrichment_status"] = df["owner"].apply(
 ```
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-8"></a>
 ## SQLite Data Model
 
 Two SQLite databases. The design was driven by specific reporting requirements:
@@ -314,6 +354,9 @@ ORDER BY cpu_adjusted DESC;
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-9"></a>
 ## Two Output Directions
 
 Every endpoint resolved into one of two actionable directions based on its
@@ -351,6 +394,9 @@ Healthy + trending up — currently healthy but month-over-month utilization inc
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-10"></a>
 ## Streamlit Internal Dashboard
 
 The Excel reports remained the external deliverable — enterprise teams across
@@ -372,6 +418,9 @@ Department Health Summary — aggregate capacity health score per department for
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-11"></a>
 ## Impact: 5–10 Days to 1–2 Hours
 
 The headline impact was the time reduction: the monthly analysis that previously
@@ -400,6 +449,9 @@ Team capacity for planning work — Before: limited, majority of month on data p
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-12"></a>
 ## Engineering Practices
 
 ```python
@@ -440,6 +492,9 @@ def validate_extract(df: pd.DataFrame, source: str, min_rows: int) -> None:
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-13"></a>
 ## Engineering Challenges
 
 **Cross-system identifier normalization**
@@ -469,6 +524,9 @@ discover available history without hardcoded paths.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-14"></a>
 ## Lessons Learned
 
 **The most valuable part of a data pipeline is often the enrichment join.**
@@ -500,6 +558,9 @@ at scale.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-15"></a>
 ## Interview Q&A
 
 **Walk me through the architecture of this pipeline at a high level.**
@@ -608,3 +669,5 @@ software issue that can be fixed permanently. The lead time the pipeline created
 — by flagging systems conservatively before they hit the ceiling — was what made
 the difference between reactive hardware remediation and proactive root cause
 resolution.
+[Back to TOC](#toc)
+

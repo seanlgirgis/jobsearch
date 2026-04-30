@@ -1,5 +1,12 @@
 # HorizonScale — Time-Series ML Forecasting at Scale
 
+<a id="toc"></a>
+## Table of Contents
+1. [Facebook Prophet](#sec-1)
+2. [SARIMA](#sec-2)
+3. [Exponential Smoothing (ETS)](#sec-3)
+4. [XGBoost Challenger](#sec-4)
+
 GitHub: [seanlgirgis/horizonscale](https://github.com/seanlgirgis/horizonscale)
 
 ---
@@ -202,6 +209,7 @@ Dashboard — Streamlit. Interactive drill-down; fleet overview, per-host foreca
 
 ## Forecasting Models
 
+<a id="sec-1"></a>
 ### Facebook Prophet
 
 Prophet is the primary model across the fleet. It decomposes the time series
@@ -237,7 +245,10 @@ future['floor'] = 0.0
 forecast = model.predict(future)
 # Outputs: ds, yhat, yhat_lower, yhat_upper
 ```
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### SARIMA
 
 SARIMA — Seasonal AutoRegressive Integrated Moving Average. Configuration
@@ -247,6 +258,9 @@ tournament on series with strong regular weekly patterns and relatively low
 noise, where the statistical structure is well-defined and doesn't require
 Prophet's flexibility.
 
+[Back to TOC](#toc)
+
+<a id="sec-3"></a>
 ### Exponential Smoothing (ETS)
 
 ETS models are selected automatically via AIC minimization — the framework
@@ -255,6 +269,9 @@ selects the best-fitting specification for each series. Computationally fast,
 robust on shorter series, performs well on LOW_IDLE and STEADY_GROWTH
 scenarios where behavior is smooth and trend-dominated.
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ### XGBoost Challenger
 
 XGBoost takes a supervised ML approach rather than time-series decomposition.
@@ -665,4 +682,6 @@ right at the same time as figuring out the cloud architecture.
 Sequencing validation before scaling is a discipline that applies to any ML
 pipeline — the cloud doesn't fix a broken model, it just scales the broken
 output faster.
+
+[Back to TOC](#toc)
 

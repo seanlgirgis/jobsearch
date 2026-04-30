@@ -1,5 +1,10 @@
 # AI-Powered Job Search Pipeline
 
+<a id="toc"></a>
+## Table of Contents
+1. [Structured Output Reliability](#sec-1)
+2. [Windows Encoding in Subprocess Pipelines](#sec-2)
+
 GitHub: [seanlgirgis/jobsearch](https://github.com/seanlgirgis/jobsearch)
 
 ---
@@ -315,6 +320,7 @@ Project 2 generates HTML pages.
 
 ## Engineering Challenges
 
+<a id="sec-1"></a>
 ### Structured Output Reliability
 
 Language models don't always return the YAML or JSON structure the prompt
@@ -348,7 +354,10 @@ def extract_json(raw: str) -> dict:
 ```
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### Windows Encoding in Subprocess Pipelines
 
 The auto-pipeline script runs each stage as a Python subprocess to keep stages
@@ -516,3 +525,5 @@ models or JSON Schema for each stage's input and output — rather than letting
 YAML structures evolve organically and cause rounds of refactoring when
 downstream stages expected fields that upstream stages didn't consistently
 produce.
+[Back to TOC](#toc)
+

@@ -1,4 +1,17 @@
 # Abdul Jaleel Dudekula — HM Interview Battle Card
+<a id="toc"></a>
+## Table of Contents
+1. [SYSTEM DESIGN](#sec-1)
+2. [DATA ARCHITECTURE](#sec-2)
+3. [PIPELINE DESIGN](#sec-3)
+4. [FASTAPI](#sec-4)
+5. [Story 1 — HorizonScale: Scale Under Constraints](#sec-5)
+6. [Story 2 — Citi Telemetry Pipeline: Production at Financial Scale](#sec-6)
+7. [Story 3 — G6/Dynatrace FAST Project: Observability-First Architecture](#sec-7)
+8. [Terraform](#sec-8)
+9. [Testing](#sec-9)
+10. [CloudFormation (Abdul's likely focus — lean in)](#sec-10)
+
 **Thursday April 30, 2026 | 11:00–11:45 AM CT | Microsoft Teams**
 Meeting ID: 244798544632556 | Passcode: sU6yz9z7
 
@@ -39,6 +52,7 @@ Abdul will notice the difference immediately.
 
 ## TOPIC CHEAT SHEETS
 
+<a id="sec-1"></a>
 ### SYSTEM DESIGN
 - Requirements first — throughput, latency, regions, retention, recovery SLA, consumers
 - Architecture patterns: **Warehouse** (SQL/governance) → **Lake** (flexible/cheap) → **Lakehouse** (ACID + open storage)
@@ -46,7 +60,10 @@ Abdul will notice the difference immediately.
 - Lambda = batch + speed layers (accuracy + latency; but duplicate logic)
 - Kappa = streaming only + Kafka replay (simpler; streaming dependency)
 - **Key gotcha:** Large systems fail in small hidden ways before they fail visibly
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### DATA ARCHITECTURE
 - OLTP = operational live transactions (PostgreSQL, DynamoDB) | OLAP = analytics (Snowflake, Redshift)
 - Never run analytics directly on OLTP — contention, slow prod workloads, workload isolation
@@ -58,6 +75,9 @@ Abdul will notice the difference immediately.
 - PII: masked at Silver, never exposed in Gold
 - Performance: Parquet (columnar pruning), partitioning (scan reduction), compaction (small-file fix), materialized views (repeated aggregations)
 
+[Back to TOC](#toc)
+
+<a id="sec-3"></a>
 ### PIPELINE DESIGN
 - Requirements drive architecture: fraud detection = streaming (seconds) | finance reporting = batch (daily)
 - Source patterns & risks:
@@ -70,6 +90,9 @@ Abdul will notice the difference immediately.
 - Reliability checklist: immutable Bronze, idempotent writes, limited retries with backoff, DLQ, versioned logic, partition-scoped backfills, watermarks for late events
 - **Performance is architectural, not cleanup:** partitioning, incremental (not full reload), compaction, shuffle reduction, storage tiering (hot→warm→cold→archive)
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ### FASTAPI
 - **What it is:** Contract-first Python API layer — typed inputs, typed outputs, auto-generated OpenAPI docs, container-native deployment
 - **What it's NOT:** A data processing engine. Heavy ETL, Spark jobs, model training belong in proper backend systems
@@ -89,13 +112,19 @@ Abdul will notice the difference immediately.
 
 ## THREE FLAGSHIP STORIES (architect framing)
 
+[Back to TOC](#toc)
+
+<a id="sec-5"></a>
 ### Story 1 — HorizonScale: Scale Under Constraints
 **Situation:** tens of thousands of servers, 4 KPIs, 65,000+ metrics, needed 180-day forecasts for capacity planning  
 **Task:** Build a forecasting platform that could handle the scale without burying engineers in manual model work  
 **Action:** Phase 1 = Apache stack (Spark + Airflow + MLflow); Phase 2 = moved to AWS (Glue + S3 + Athena + Spark). Ran a model tournament across Prophet, ARIMA, Holt-Winters — selected winner per series by error metric. Built Streamlit dashboard for consumption.  
 **Result:** Reliable 180-day forecasts at scale. Enabled proactive capacity decisions.  
 **Architecture angle:** "I didn't just build a model. I built a platform that could manage models — selection, training, serving, observability — at scale. The challenge was the operational layer, not the math."
+[Back to TOC](#toc)
 
+
+<a id="sec-6"></a>
 ### Story 2 — Citi Telemetry Pipeline: Production at Financial Scale
 **Situation:** Real-time telemetry data flowing from financial infrastructure — needed to ingest, validate, and surface operational alerts  
 **Task:** Build a reliable pipeline where data quality failures had business-critical consequences  
@@ -103,6 +132,9 @@ Abdul will notice the difference immediately.
 **Result:** Operational telemetry pipeline serving financial reporting with full replay capability  
 **Architecture angle:** "In financial services, a green pipeline light is not enough. I built observability into the design — freshness checks, schema drift detection, audit trails — because the data had to be correct, not just present."
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ### Story 3 — G6/Dynatrace FAST Project: Observability-First Architecture
 **Situation:** G6 Hospitality had a large application estate with no unified observability — blind spots across hotel tech systems  
 **Task:** Architect an observability platform using Dynatrace to surface real operational signals  
@@ -113,15 +145,24 @@ Abdul will notice the difference immediately.
 ---
 
 ## GAP ANSWERS (Ramya flagged these — be honest, be crisp, move on)
+[Back to TOC](#toc)
 
+
+<a id="sec-8"></a>
 ### Terraform
 > "I've designed infrastructure with CloudFormation and worked alongside Terraform-managed infrastructure in team settings. I understand the concepts — state management, provider model, plan/apply cycle — but I've done more hands-on work in CloudFormation. I'm actively closing that gap and it's on my active study list."
 > 
 > *Then pivot:* "What I do have is deep experience thinking about infrastructure as code as a design discipline — IaC for reproducibility, drift prevention, and deployment consistency."
 
+[Back to TOC](#toc)
+
+<a id="sec-9"></a>
 ### Testing
 > "I write tests as part of delivery — unit tests for transformation logic, integration tests for pipeline stages, and I've used TestClient for FastAPI validation. Where I'm actively growing is systematic test coverage discipline — TDD-first approach and broader contract testing. I treat tests as the first consumer of my design."
+[Back to TOC](#toc)
 
+
+<a id="sec-10"></a>
 ### CloudFormation (Abdul's likely focus — lean in)
 > "CloudFormation is where I'm comfortable. I've used it for defining stacks — ECS task definitions, IAM roles, VPC resources, S3 configurations. The mental model I carry: a stack is a unit of deployment, not a unit of code. You organize stacks around lifecycle boundaries, not resource types."
 
@@ -158,3 +199,5 @@ Ramya passed you through and flagged: **end-to-end architecture, DevOps, contain
 Abdul is going to probe **how you think**, not what tools you've touched. Lead with tradeoffs. Lead with failure modes. Lead with operational ownership.
 
 **You are ready. Go get it.**
+[Back to TOC](#toc)
+

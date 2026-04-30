@@ -1,7 +1,26 @@
 # Terraform
 
+<a id="toc"></a>
+## Table of Contents
+1. [What Terraform Actually Solves](#sec-1)
+2. [HCL Syntax and Project Structure](#sec-2)
+3. [Providers, Resources, Data Sources, and Outputs](#sec-3)
+4. [State: The Real Source of Truth](#sec-4)
+5. [Remote State with S3 and DynamoDB Locking](#sec-5)
+6. [Plan, Apply, Destroy, and State Mutation](#sec-6)
+7. [Modules for Reusable Infrastructure](#sec-7)
+8. [Workspaces vs Separate State Files](#sec-8)
+9. [Importing Existing AWS Resources](#sec-9)
+10. [Terraform for Data Engineering Infrastructure](#sec-10)
+11. [Secrets, Sensitive Values, and State Exposure](#sec-11)
+12. [Drift Detection and Remediation](#sec-12)
+13. [CI/CD with GitHub Actions and OIDC](#sec-13)
+14. [Terraform vs CloudFormation](#sec-14)
+15. [Interview Q&A](#sec-15)
+
 ---
 
+<a id="sec-1"></a>
 ## What Terraform Actually Solves
 
 Terraform turns cloud infrastructure into versioned, reviewable, repeatable
@@ -31,7 +50,10 @@ handled by CI/CD, secrets and generated passwords in state, AWS-native
 services where CloudFormation features arrive first.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## HCL Syntax and Project Structure
 
 Terraform uses HCL, HashiCorp Configuration Language. Blocks define things,
@@ -88,7 +110,10 @@ conventions. They make plans hard to review and failures hard to debug.
 `terraform.tfvars` — Environment-specific values. Never secrets.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ## Providers, Resources, Data Sources, and Outputs
 
 Providers are plugins that know how to talk to APIs: AWS, GitHub, Datadog,
@@ -129,6 +154,9 @@ conflict. The result is drift, surprise changes, or destructive replacements.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ## State: The Real Source of Truth
 
 State maps configuration addresses to real provider objects.
@@ -163,7 +191,10 @@ terraform state rm aws_s3_bucket.legacy
 ```
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-5"></a>
 ## Remote State with S3 and DynamoDB Locking
 
 Local state is fine for solo labs. Production needs remote state.
@@ -199,6 +230,9 @@ admin script, or a manually approved foundation module.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-6"></a>
 ## Plan, Apply, Destroy, and State Mutation
 
 ```bash
@@ -228,6 +262,9 @@ runtime dependencies can still break the apply.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## Modules for Reusable Infrastructure
 
 Modules package resources into reusable units: an S3 data lake bucket, an
@@ -269,6 +306,9 @@ Environment module — Full dev/test/prod composition. Risk: harder to promote c
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-8"></a>
 ## Workspaces vs Separate State Files
 
 Workspaces let one config directory maintain multiple state files. Useful for
@@ -302,6 +342,9 @@ because access control and blast radius are easier to explain.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-9"></a>
 ## Importing Existing AWS Resources
 
 Import brings existing infrastructure under Terraform state. Common when a
@@ -344,6 +387,9 @@ first post-import plan carefully.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-10"></a>
 ## Terraform for Data Engineering Infrastructure
 
 Terraform is especially useful for provisioning durable infrastructure around
@@ -396,6 +442,9 @@ ECS — Manage: cluster, service, task definition baseline, IAM. Not: frequent c
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-11"></a>
 ## Secrets, Sensitive Values, and State Exposure
 
 State can contain sensitive values even when variables are marked
@@ -428,6 +477,9 @@ External rotation — Low risk. Best for production databases.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-12"></a>
 ## Drift Detection and Remediation
 
 Drift happens when real infrastructure changes outside Terraform: someone
@@ -461,6 +513,9 @@ External controller — Kubernetes or autoscaler changes a count. Use lifecycle 
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-13"></a>
 ## CI/CD with GitHub Actions and OIDC
 
 Terraform should run through a controlled pipeline for shared environments.
@@ -520,6 +575,9 @@ Policy checks — Blocks public buckets, weak IAM, missing encryption.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-14"></a>
 ## Terraform vs CloudFormation
 
 Both manage infrastructure as code. They optimize for different realities.
@@ -542,6 +600,9 @@ One resource, one infrastructure authority.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-15"></a>
 ## Interview Q&A
 
 **Q: What is Terraform state, and why is it risky in production?**
@@ -591,3 +652,5 @@ When the org is AWS-only, needs native governance, wants StackSets, or
 requires immediate support for new AWS features. Terraform wins when
 cross-provider infrastructure, reusable modules, and a wider ecosystem
 matter more.
+[Back to TOC](#toc)
+

@@ -1,4 +1,9 @@
 ## What CloudFormation Is
+<a id="toc"></a>
+## Table of Contents
+1. [What it manages](#sec-1)
+2. [Why it matters](#sec-2)
+
 
 CloudFormation is AWS's native IaC engine. You write a template declaring
 what you want. CloudFormation diffs it against the current stack and
@@ -6,13 +11,17 @@ creates, updates, replaces, or deletes resources to match.
 
 ---
 
+<a id="sec-1"></a>
 ### What it manages
 
 S3, IAM, VPCs, Glue, Athena, Redshift, EMR, ECS, RDS, Lambda.
 If it lives in AWS, CloudFormation can own it.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### Why it matters
 
 For data engineering it's a **repeatability contract** — not just a
@@ -680,4 +689,6 @@ abstraction and reuse — but always review the synthesized template,
 especially IAM policies, logical IDs, retention settings, and
 replacement-sensitive properties.
 
+
+[Back to TOC](#toc)
 

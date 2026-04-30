@@ -1,4 +1,8 @@
 **A Data pipeline: -**
+<a id="toc"></a>
+## Table of Contents
+1. [**Medallion Flow**](#sec-1)
+
 
 The pipeline moves data from producers to consumers through ingestion,
 storage, transformation, and serving. And across all of that, I care
@@ -68,6 +72,7 @@ running and recovery is isolated to the failure point.
 
 > Design assumes failure. It\'s \"when\" a stage fails, not \"if.\"
 
+<a id="sec-1"></a>
 ### **Medallion Flow**
 
 **Bronze** raw ingested data ***as received* -** Immutable relay source
@@ -332,3 +337,5 @@ Consumer-ready shaping:
 
 Correction:\
 Gold is not just waiting. Gold is **curated output for consumers**.
+[Back to TOC](#toc)
+

@@ -1,9 +1,21 @@
 # Behavioral Stories — Abdul Interview
+<a id="toc"></a>
+## Table of Contents
+1. [Story 1 — "Tell me about a time you solved a problem at a scale you hadn't seen before"](#sec-1)
+2. [Story 2 — "Tell me about a time a system failed and how you handled it"](#sec-2)
+3. [Story 3 — "Tell me about a time you delivered something that changed how a team operated"](#sec-3)
+4. [Story 4 — "Tell me about a time you had to convince a team to change direction"](#sec-4)
+5. [Story 5 — "Tell me about a time you improved a process that others had accepted as normal"](#sec-5)
+6. [The One-Line Version (for when your brain is foggy)](#sec-6)
+7. [The Opener — "Why Toyota?"](#sec-7)
+8. [Virtual Interview Reminders (Teams over computer)](#sec-8)
+
 **Toyota Way Values mapped to your real projects**
 *Read once. Sleep on it. You already know these stories.*
 
 ---
 
+<a id="sec-1"></a>
 ## Story 1 — "Tell me about a time you solved a problem at a scale you hadn't seen before"
 **Toyota Value: Drive Curiosity + Get Better and Better**
 
@@ -16,7 +28,10 @@
 **R:** We went from manual one-off forecasts to a platform that ran across the full fleet. Ops team started making proactive capacity decisions instead of reactive ones. The curiosity paid off — if I'd just picked one model and shipped it, half the fleet would have had bad forecasts.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ## Story 2 — "Tell me about a time a system failed and how you handled it"
 **Toyota Value: Observe Thoroughly + Work with Integrity**
 
@@ -29,7 +44,10 @@
 **R:** The corrected report was delivered, and future runs became much more reliable. The bigger result was process maturity: we moved from "pipeline ran" to "pipeline proved data correctness."
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ## Story 3 — "Tell me about a time you delivered something that changed how a team operated"
 **Toyota Value: Act for Others + Create Room to Grow**
 
@@ -42,7 +60,10 @@
 **R:** Alert fatigue dropped dramatically. The ops team went from ignoring dashboards to running their morning standup off them. The shift was simple: I treated ops as the customer, not the endpoint.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-4"></a>
 ## Story 4 — "Tell me about a time you had to convince a team to change direction"
 **Toyota Value: Work with Integrity + Show Respect for People**
 
@@ -57,6 +78,9 @@
 **R (Result):** The team switched to incremental processing. Months later, when volume had scaled significantly, the pipeline remained stable and cost-efficient. The key lesson: influence works best when you bring data, remove friction for others, and keep ego out of the room.
 
 
+[Back to TOC](#toc)
+
+<a id="sec-5"></a>
 ## Story 5 — "Tell me about a time you improved a process that others had accepted as normal"
 **Toyota Value: Continue the Quest for Improvement**
 
@@ -71,6 +95,9 @@
 **R (Result):** The process dropped from 5-10 days to about 1-2 hours, output consistency improved across 65,000+ endpoints, and the team shifted from manual report production to proactive capacity planning.
 
 
+[Back to TOC](#toc)
+
+<a id="sec-6"></a>
 ## The One-Line Version (for when your brain is foggy)
 
 | Story | One Line |
@@ -87,6 +114,9 @@
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-7"></a>
 ## The Opener — "Why Toyota?"
 
 > "Toyota Financial Services is enabling people to own vehicles they couldn't otherwise — that's a real equity play. I want to build the data platform that makes that run reliably at scale."
@@ -97,8 +127,13 @@
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-8"></a>
 ## Virtual Interview Reminders (Teams over computer)
 
 - **Camera on. Business casual on top. Background clean. Lighting in front of you, not behind.**
 - **The PDF said "computer skills."** For a Lead SE that's not about Excel. It means: can you communicate clearly without being in the room? Every answer you give is a demo of that. Structured. Not rushing. Eye contact with camera not screen.
 - **Smile when you join.** Abdul sees your face before you speak. First impression is frame and energy, not words.
+[Back to TOC](#toc)
+

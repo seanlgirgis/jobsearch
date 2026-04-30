@@ -1,5 +1,12 @@
 # Data Architecture
 
+<a id="toc"></a>
+## Table of Contents
+1. [OLTP](#sec-1)
+2. [OLAP](#sec-2)
+3. [ACID](#sec-3)
+4. [Scenario](#sec-4)
+
 ## Foundations
 
 Data architecture is the blueprint for how data is collected, stored,
@@ -17,11 +24,15 @@ Mental hook:
 
 "Data architecture turns raw data into trusted business decisions."
 
+<a id="sec-1"></a>
 ### OLTP
 
 Operational transactions with low latency. ***Ex: PostgreSQL, Oracle,
 DynamoDB***
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### OLAP
 
 Analytics, reporting, Aggregations, historical scan. ***Ex: snowflake,
@@ -39,6 +50,9 @@ A Lakehouse (Databricks , Apache Iceberg, Apache Hudi) raw storage with
 warehouse-like ACID transactions, schema enforcement and query
 performance on top
 
+[Back to TOC](#toc)
+
+<a id="sec-3"></a>
 ### ACID
 
 Atomicity, Consistency, Isolation, Durability
@@ -111,7 +125,10 @@ opening thousands of tiny files.
 - Materialized views - Faster dashboards
 
 ## System Design Walkthrough
+[Back to TOC](#toc)
 
+
+<a id="sec-4"></a>
 ### Scenario
 
 Design a scalable analytics platform for a large e-commerce company
@@ -296,3 +313,5 @@ workflows.*
 tradeoffs, failure modes, cost, governance, data quality, and
 operational ownership. Interviewers want to know how the design behaves
 under pressure.*
+[Back to TOC](#toc)
+

@@ -1,5 +1,12 @@
 # Interview Master — Sean Girgis
 
+<a id="toc"></a>
+## Table of Contents
+1. [AI-Powered Job Search Pipeline](#sec-1)
+2. [HorizonScale — ML Forecasting at Scale](#sec-2)
+3. [Citi High-Scale Telemetry Pipeline](#sec-3)
+4. [G6 Hospitality AppMon](#sec-4)
+
 ---
 
 ## The Elevator Pitch
@@ -711,6 +718,7 @@ persists to disk and rebuilds in seconds when a new job is accepted.
 
 ## Project Deep-Dives
 
+<a id="sec-1"></a>
 ### AI-Powered Job Search Pipeline
 
 **Walk me through the job search pipeline you built.**
@@ -734,7 +742,10 @@ Primary LLM is Grok via its OpenAI-compatible API — grok-3-mini for light task
 hiring manager.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-2"></a>
 ### HorizonScale — ML Forecasting at Scale
 
 **How did you approach the forecasting problem at 65,000+ metrics?**
@@ -756,7 +767,10 @@ six months directional — are explicit in the output design so teams know what
 they're acting on versus planning around.
 
 ---
+[Back to TOC](#toc)
 
+
+<a id="sec-3"></a>
 ### Citi High-Scale Telemetry Pipeline
 
 **What was the scale of the Citi pipeline and what were the key engineering decisions?**
@@ -780,6 +794,9 @@ openpyxl for Excel output, Streamlit for the internal team dashboard.
 
 ---
 
+[Back to TOC](#toc)
+
+<a id="sec-4"></a>
 ### G6 Hospitality AppMon
 
 **What was the engineering insight on the G6 performance project?**
@@ -966,4 +983,6 @@ for the interviewer's knowledge. Never ask about salary or PTO in technical roun
 
 10. What's the thing that would make someone in this role unusually successful —
     beyond the job description?
+
+[Back to TOC](#toc)
 
