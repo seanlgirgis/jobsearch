@@ -5,9 +5,13 @@
 
 ## Q: Tell me about yourself
 
-I'm Sean Girgis — Lead Software Engineer with about 12 years in Python, data platform engineering, and cloud-native automation. Most of my recent work has been at Citi, where I replaced a 10-day manual capacity process with a deterministic ETL pipeline that ran in under two hours — more reliable, fully auditable. I also built an ML forecasting platform on PySpark and AWS that delivered 180-day capacity forecasts across tens of thousands of servers. Before that at G6 Hospitality I built a Dynatrace telemetry pipeline that helped the team improve their Brand.com site performance — treated ops as the customer, not just the endpoint. More recently I built an AI RAG pipeline for my own job search — I stay current by building.
+I am Sean Girgis — Lead Software Engineer with 12 years in Python, data engineering, and cloud-native automation.
 
-I'm drawn to Toyota Financial Services because reliability at scale in financial services is exactly where I do my best work — and the Mobility for All mission is something I genuinely believe in.
+At Citi I converted a 10-day manual Excel process into an auditable ETL pipeline that ran in 2 hours — idempotent, documented, better reports. I also built an ML forecasting pipeline that evolved from Pandas to PySpark to AWS — producing 180-day forecasts in a fraction of the time, giving the business actionable capacity decisions.
+
+At G6 Hospitality I mined Dynatrace telemetry and created a data pipeline that gave ops a single pane of glass to understand real Brand.com performance — unmasking underserved customers whose issues were hidden by good averages. Ops introduced targeted solutions that improved conversion rate.
+
+I am drawn to Toyota because reliability at scale is where I do my best work — and the Mobility for All mission is one I would be genuinely proud to be part of.
 
 ---
 
@@ -60,6 +64,18 @@ The report was corrected in time. But the bigger result was the lesson: a pipeli
 
 ---
 
+## Q: Tell me about the G6 Dynatrace project
+
+G6's direct booking site and mobile app performance directly impacts conversion rates. Dynatrace gave good diagnosis at the transaction level but no total vision. The problem: good transactions and fast devices were masking the experience of users with low bandwidth, older devices, and different geographies. We were blind to where we were losing money.
+
+I converted that problem into an opportunity. I mined the full transaction telemetry from Dynatrace, tagged data with geography, bandwidth, device family and model, and created running P95 averages — rejecting the favorable scenarios that were hiding the real picture.
+
+This revealed weak paths we were losing revenue on. The result: the app and site were reworked with conditional loading based on the customer's actual situation. Service gaps were identified and addressed.
+
+I converted Ops from a team chasing alerts into a team making decisions. From reactive to proactive. I treated Ops as the customer, not the endpoint.
+
+---
+
 ## Q: CloudFormation — how would you structure stacks for a data platform?
 
 Think modularly. Organize by ownership, lifecycle, and blast radius.
@@ -74,6 +90,26 @@ Think modularly. Organize by ownership, lifecycle, and blast radius.
 Keep stateful resources in their own stacks, separate from frequently changing application resources.
 
 The rule: a failed pipeline deploy should never risk the network foundation. Stack boundaries are blast radius boundaries.
+
+---
+
+## Q: Tell me about the HorizonScale forecasting platform
+
+The business needed to act in advance, not react. Monthly telemetry reporting wasn't enough — they needed forward-looking forecasts that accounted for seasonality and periodic changes across tens of thousands of servers.
+
+BMC TrueSight had a forecasting component but at that scale it was a dogfight for resources — grinding to a halt. We were essentially using OLTP for OLAP. The models were limited and forecast quality was poor.
+
+I saw the opportunity. I proposed running an ML pipeline outside of TrueSight entirely.
+
+Phase 1 — Pandas. We got results but it was slow and painful — days to process.
+Phase 2 — PySpark on Hadoop. Faster, parallel, scalable.
+Phase 3 — AWS. Full cloud-native data lake with distributed processing.
+
+We modeled against Prophet, SARIMA, and XGBoost. Trained on 18 months of data, tested on 6. Competed models per series and selected the best fit automatically. Produced 6-month forecasts.
+
+Result: customers received 3 months of high-confidence, actionable forecasts — understanding what the next 90 days would look like. Processing that once took days now ran in a fraction of the time.
+
+The lesson: move the problem to the right platform. Don't fight the tool — replace it.
 
 ---
 
@@ -118,6 +154,131 @@ I'm actively deepening my Terraform hands-on experience and would ramp quickly i
 
 ---
 
+## Q: What is the Medallion Architecture?
+
+Bronze preserves truth. Silver creates trust. Gold serves consumers.
+
+Bronze — data landed as-is, immutable raw source. Never modified. Enables idempotent reprocessing and full replay when needed.
+
+Silver — clean it up, validate, normalize, join, deduplicate, mask PII. Queryable but not yet business-ready. Bad data stops here.
+
+Gold — business-ready. Aggregated, business logic built in, optimized for analytics, executive dashboards, and ML consumption.
+
+---
+
+## Q: Batch vs Streaming — how do you decide?
+
+Streaming sounds elegant but it's costly and not always needed. Use it only when latency must be in seconds — fraud detection, real-time tracking. When latency of 15 minutes or more is acceptable, batch is the right choice — easier to implement, cheaper to operate, and produces consistent results. Always justify streaming with a clear business latency requirement.
+
+---
+
+## Q: Why never run analytics on an OLTP database?
+
+OLTP is optimized for low-latency transactions — fast row reads and writes for live business operations. Analytics runs massive scans across huge datasets. Run both together and you get contention — analytics grinds OLTP to a halt, live transactions slow down, production suffers. You separate them for workload isolation. OLAP systems — Snowflake, Redshift, Athena — are columnar, partitioned, and built for analytical scans. Let each system do what it's designed for.
+
+---
+
+## Q: ECS Fargate or Lambda for FastAPI?
+
+ECS Fargate is my default for FastAPI in production. Containers stay warm, connection pools persist, VPC integration is clean for databases and private resources. Predictable and stable.
+
+Lambda with Mangum works for low-traffic, bursty, or internal APIs where cold starts are acceptable. The danger with Lambda is relational databases — every invocation opens a new connection. At burst you get connection storms. If I use Lambda with a DB I put RDS Proxy in front.
+
+The decision rule: steady production API with DB pools → ECS Fargate. Lightweight, bursty, event-driven → Lambda.
+
+---
+
+## Q: What is idempotency and why does it matter?
+
+Idempotency means running the same operation multiple times produces the same result as running it once. In pipelines this is critical because failures and retries are normal operating conditions. If your writes aren't idempotent, every retry is a corruption risk. Bronze being immutable is the foundation — you always have a safe source to replay from.
+
+---
+
+## Q: What is schema drift and why is it dangerous?
+
+Data schema drift is when an upstream source quietly changes its structure — renaming a field, changing a type, dropping a column. The pipeline keeps running. Often it comes out green. But the data is wrong. Green pipeline, broken output.
+
+To address it: schema validation at ingestion — use Pydantic contracts — rather break than false success. Send drifted records to DLQ, never let them silently reach Gold. Add drift detection alerts and audit trails. Set measurable KPI thresholds on output quality and alert on variances. Define acceptance levels for data output so you know when something crossed a line.
+
+The rule: a pipeline that runs is not the same as a pipeline that's correct.
+
+---
+
+## Q: What is a Docker image vs a Docker container?
+
+Image is the blueprint. Container is the running instance — live, isolated, ephemeral.
+
+---
+
+## Q: What triggers CI and what triggers CD?
+
+CI fires when a PR is opened — runs tests, lint, security scan. CD fires when the PR is merged to main — builds the image, tags with commit SHA, pushes to ECR, deploys to ECS. The merge IS the deployment trigger.
+
+---
+
+## Q: Kafka vs SQS — what is the difference?
+
+Kafka is a distributed event streaming platform. Messages are written to a log, retained with an expiry, and multiple independent consumer groups can read the same message at their own pace. Built for replay, fan-out, and event history.
+
+SQS is a managed message queue — simpler, serverless. Message is consumed once and deleted. One consumer per message. No replay.
+
+Use SQS for simple task queues. Use Kafka when you need event history, replay, or multiple consumers reading the same stream independently.
+
+---
+
+## Q: What is the 5-step design framework?
+
+1. Clarify requirements first — latency, scale, retention, consumers, recovery SLA, compliance
+2. State the architecture — ingestion → raw → validate → transform → serve
+3. Name the tradeoffs — why batch vs streaming, why this tool vs that tool
+4. Explain failure modes — DLQ, idempotency, replay, checkpointing, watermarks
+5. Close with observability — freshness checks, schema drift alerts, lineage, SLA monitoring
+
+Never draw a happy-path-only system. Interviewers listen for what breaks and how you recover.
+
+---
+
+## Q: What is a JWT and what must you validate?
+
+JWT is a signed self-contained token carrying identity and claims — subject, issuer, audience, scopes, expiry. Anyone can decode it. That is not security.
+
+You must validate: signature — was it signed by the right party, expiry — is it still valid, issuer — did the right authority issue it, audience — was it intended for your service.
+
+Decoding is free. Validation is what counts. Decode plus trust is not authentication. Decode plus validate is.
+
+---
+
+## Q: What is Kaizen and Genchi Genbutsu?
+
+Kaizen is how I think about everything — continuous improvement. It is never good enough, there is always an opportunity. I apply it professionally and personally — always asking what can be better, what is worth knowing more deeply.
+
+Genchi Genbutsu is about reality. Never about who says what or first impressions. Go investigate. See for yourself. Test the assumptions and theories. Arrive at the real root cause. It is a must for senior engineers and managers — never manage from the high tower. Foot on the ground, see for yourself, then decide.
+
+---
+
+## Q: Why should we hire Sean Girgis?
+
+I'm fight-tested. Twelve years in enterprise environments — Citi, G6, HorizonScale — I've seen systems fail, rebuilt them, and made them better. I don't just fit into teams, I lift them.
+
+My values match Toyota's before I even knew the names for them. Kaizen — I've always operated that way. Genchi Genbutsu — boots on the ground, root cause first, no assumptions.
+
+What you get with me is someone who will not just perform the role but will own the outcomes. Team success and company mission above everything. And Toyota's mission — Mobility for All — is one I'm genuinely proud to fight for.
+
+---
+
+## The Three Sean Principles
+
+> **"Architecture is about tradeoffs, not tools."**
+> Use when choosing any technology. Never say "I use X." Say "I chose X because of this tradeoff."
+
+> **"Design for breakage and failure — it's about when, not if."**
+> Use in any system or pipeline design. Show you think beyond the happy path.
+
+> **"Bronze preserves truth. Silver creates trust. Gold serves consumers."**
+> Use for any medallion architecture question. One sentence that says everything.
+
+---
+
 ## Key One-Liners to Memorize
 
 - "Architecture is tradeoffs, not tools."
@@ -128,3 +289,5 @@ I'm actively deepening my Terraform hands-on experience and would ramp quickly i
 - "I treated ops as the customer, not the endpoint."
 - "The merge IS the deployment trigger."
 - "I stay current by building."
+- "Rather break than false success."
+- "Same input, same output, always — that's idempotency."
