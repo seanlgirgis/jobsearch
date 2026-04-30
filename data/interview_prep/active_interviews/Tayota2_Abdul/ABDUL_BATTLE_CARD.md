@@ -90,7 +90,7 @@ Abdul will notice the difference immediately.
 ## THREE FLAGSHIP STORIES (architect framing)
 
 ### Story 1 — HorizonScale: Scale Under Constraints
-**Situation:** 2000+ servers, 4 KPIs, 8000+ time series, needed 180-day forecasts for capacity planning  
+**Situation:** tens of thousands of servers, 4 KPIs, 65,000+ metrics, needed 180-day forecasts for capacity planning  
 **Task:** Build a forecasting platform that could handle the scale without burying engineers in manual model work  
 **Action:** Phase 1 = Apache stack (Spark + Airflow + MLflow); Phase 2 = moved to AWS (Glue + S3 + Athena + Spark). Ran a model tournament across Prophet, ARIMA, Holt-Winters — selected winner per series by error metric. Built Streamlit dashboard for consumption.  
 **Result:** Reliable 180-day forecasts at scale. Enabled proactive capacity decisions.  
@@ -147,7 +147,7 @@ Abdul will notice the difference immediately.
 - [ ] Deep breath before joining — you've done the work
 
 **Opening line when Abdul asks "tell me about yourself":**
-> "I'm a Lead Software Engineer with about 12 years of experience, focused on Python, API microservices, and data platform engineering. The thread across my work has been building systems that are reliable under failure — not just on the happy path. Most recently at HorizonScale I architected a forecasting platform at the scale of 2,000+ servers, and before that at Citi I built production telemetry pipelines for financial infrastructure. I'm drawn to this role because Toyota Financial Services is exactly the kind of environment where data reliability and operational trust matter at scale."
+> "I'm a Lead Software Engineer with about 12 years of experience, focused on Python, API microservices, and data platform engineering. The thread across my work has been building systems that are reliable under failure — not just on the happy path. Most recently at HorizonScale I architected a forecasting platform at the scale of tens of thousands of servers, and before that at Citi I built production telemetry pipelines for financial infrastructure. I'm drawn to this role because Toyota Financial Services is exactly the kind of environment where data reliability and operational trust matter at scale."
 
 ---
 

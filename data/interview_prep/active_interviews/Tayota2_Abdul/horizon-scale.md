@@ -7,10 +7,10 @@ GitHub: [seanlgirgis/horizonscale](https://github.com/seanlgirgis/horizonscale)
 ## Project Overview
 
 HorizonScale is a two-phase infrastructure capacity forecasting platform.
-Input: two years of P95 utilization telemetry across 2,000+ servers and four
+Input: two years of P95 utilization telemetry across tens of thousands of servers and four
 KPIs — CPU, memory, disk, and network. Output: a six-month rolling forecast
 per server per KPI, with a model tournament selecting the best-performing
-algorithm for each of the 8,000+ individual time series, and a risk report
+algorithm for each of the 65,000+ metrics, and a risk report
 surfacing every system projected to breach capacity thresholds within the
 forecast window.
 
@@ -22,7 +22,7 @@ Prove the approach works before committing to cloud infrastructure.
 Map UDFs for distributed Prophet execution across the full fleet, and Amazon
 Athena for ad-hoc querying of forecast outputs.
 
-Scale: 2,000+ servers · 4 KPIs · 8,000+ time series · 180-day forecast
+Scale: tens of thousands of servers · 4 KPIs · 65,000+ metrics · 180-day forecast
 horizon · Champion model selected per series via backtest tournament.
 
 ---
@@ -127,7 +127,7 @@ server that barely moves adds noise rather than signal.
 Before modeling, every server-resource series is classified into one of five
 behavioral scenarios based on its historical pattern. This drives model
 selection hints, alert thresholds, and reporting priority. It also makes the
-fleet analytically tractable — instead of treating 8,000+ series as
+fleet analytically tractable — instead of treating 65,000+ metrics as
 individually unique, the classification creates groups with shared
 characteristics that can be analyzed and validated as cohorts.
 
@@ -260,7 +260,7 @@ scenarios where behavior is smooth and trend-dominated.
 XGBoost takes a supervised ML approach rather than time-series decomposition.
 Features are engineered from the time index: an ordinal trend variable
 capturing overall growth direction, and month-of-year capturing annual
-seasonality. GPU acceleration via CUDA (`device='cuda'`) enables the 8,000+
+seasonality. GPU acceleration via CUDA (`device='cuda'`) enables the 65,000+
 series to process rapidly. XGBoost wins the tournament on series with strong
 trend and weak periodicity — particularly STEADY_GROWTH and CAPACITY_BREACH
 scenarios — where its gradient boosting on simple features outperforms
@@ -319,7 +319,7 @@ improves the reliability of the capacity risk report.
 ## Phase 2 — AWS Migration
 
 With the forecasting approach validated in Phase 1, Phase 2 migrated to AWS
-for production-scale throughput. Running 8,000+ time-series models sequentially
+for production-scale throughput. Running 65,000+ metrics sequentially
 hits a throughput ceiling. AWS Glue with 10 G.2X worker nodes running Spark
 3.3 distributes the workload across the fleet in parallel, dramatically
 reducing wall-clock time for a full fleet forecast run.
@@ -563,7 +563,7 @@ scales linearly with the number of workers.
 
 **Why did you choose a model tournament rather than a single forecasting algorithm?**
 
-A fleet of 2,000+ servers has behavioral heterogeneity that no single model
+A fleet of tens of thousands of servers has behavioral heterogeneity that no single model
 fits well across all series. Prophet is excellent on seasonal systems with
 structured weekly and annual cycles. SARIMA is precise on series with clean
 weekly periodicity and low noise. XGBoost wins on trend-dominated series where
@@ -608,7 +608,7 @@ generates the 180-day forecast, and returns the result. Spark collects all
 results into a distributed DataFrame that's then written to S3 as Parquet.
 
 No cross-partition communication, no shared state, no coordination overhead.
-With 10 G.2X workers, 8,000+ series are processed in parallel — the wall-clock
+With 10 G.2X workers, 65,000+ metrics are processed in parallel — the wall-clock
 time is a fraction of sequential execution.
 
 ---
@@ -665,3 +665,4 @@ right at the same time as figuring out the cloud architecture.
 Sequencing validation before scaling is a discipline that applies to any ML
 pipeline — the cloud doesn't fix a broken model, it just scales the broken
 output faster.
+

@@ -33,7 +33,7 @@ pipeline jobs. I also built the analytics layer on top — Streamlit and
 Plotly dashboards used by senior stakeholders for infrastructure decisions.
 
 In parallel, I've been building my own practice projects — HorizonScale, a
-time-series ML forecasting engine that runs 8,000-plus series through a
+time-series ML forecasting engine that runs 65,000+ metrics through a
 model tournament on Spark, and an AI-powered job search pipeline using
 Grok, RAG, and FAISS to automate the entire application workflow. Both are
 public on GitHub.
@@ -591,7 +591,7 @@ with no cross-partition communication. Zero shuffles in the forecasting stage.
 
 ---
 
-**You have 8,000+ time-series models to run. How do you parallelize that in Spark?**
+**You have 65,000+ metrics to run. How do you parallelize that in Spark?**
 
 The PySpark Grouped Map UDF pattern. This is the right approach when you have
 a Python ML function like Prophet that can't natively distribute across a Spark
@@ -603,7 +603,7 @@ receives a Pandas DataFrame for one partition, runs the complete model fit,
 generates the forecast, and returns the results. Spark automatically
 distributes partitions across the worker fleet. No cross-partition
 communication, no shared state, no coordination overhead — embarrassingly
-parallel. With 10 Glue G.2X workers processing 8,000-plus partitions, the
+parallel. With 10 Glue G.2X workers processing 65,000+ partitions, the
 throughput difference over sequential or local multiprocessing is dramatic.
 
 Key operational detail: reduce Prophet's uncertainty_samples from 1,000 to 100
@@ -737,7 +737,7 @@ hiring manager.
 
 ### HorizonScale — ML Forecasting at Scale
 
-**How did you approach the forecasting problem at 8,000+ series?**
+**How did you approach the forecasting problem at 65,000+ metrics?**
 
 Two phases. Phase one was local: DuckDB and Polars for data processing, Prophet
 with logistic growth as the primary model, SARIMA and ETS as alternatives, a
@@ -966,3 +966,4 @@ for the interviewer's knowledge. Never ask about salary or PTO in technical roun
 
 10. What's the thing that would make someone in this role unusually successful —
     beyond the job description?
+
