@@ -1,7 +1,6 @@
 # Cram Sheet — Abdul Interview Answers
 <a id="toc"></a>
 ## Table of Contents
-1. [Table of Contents](#sec-1)
 2. [Q: Tell me about yourself](#sec-2)
 3. [Q: Why Toyota specifically?](#sec-3)
 4. [Q: Walk me through your most complex data platform design](#sec-4)
@@ -29,42 +28,6 @@
 26. [Q: Why should we hire Sean Girgis?](#sec-26)
 27. [The Three Sean Principles](#sec-27)
 28. [Key One-Liners to Memorize](#sec-28)
-
-<a id="sec-1"></a>
-## Table of Contents
-1. [Q: Tell me about yourself](#sec-1)
-2. [Q: Why Toyota specifically?](#sec-2)
-3. [Q: Walk me through your most complex data platform design](#sec-3)
-4. [Q: How do you handle pipeline failures at scale?](#sec-4)
-5. [Q: Tell me about a time a system failed](#sec-5)
-6. [Q: Tell me about the G6 Dynatrace project](#sec-6)
-7. [Q: CloudFormation — how would you structure stacks for a data platform?](#sec-7)
-8. [Q: Tell me about the HorizonScale forecasting platform](#sec-8)
-9. [Q: FastAPI — how do you secure and scale a data API?](#sec-9)
-10. [Q: Tell me about a time you convinced someone to change direction](#sec-10)
-11. [Q: Terraform — how familiar are you?](#sec-11)
-12. [Q: What questions do you have for me?](#sec-12)
-13. [Q: What is the Medallion Architecture?](#sec-13)
-14. [Q: Batch vs Streaming — how do you decide?](#sec-14)
-15. [Q: Why never run analytics on an OLTP database?](#sec-15)
-16. [Q: ECS Fargate or Lambda for FastAPI?](#sec-16)
-17. [Q: What is idempotency and why does it matter?](#sec-17)
-18. [Q: What is schema drift and why is it dangerous?](#sec-18)
-19. [Q: What is a Docker image vs a Docker container?](#sec-19)
-20. [Q: What triggers CI and what triggers CD?](#sec-20)
-21. [Q: Kafka vs SQS — what is the difference?](#sec-21)
-22. [Q: What is the 5-step design framework?](#sec-22)
-23. [Q: What is a JWT and what must you validate?](#sec-23)
-24. [Q: What is Kaizen and Genchi Genbutsu?](#sec-24)
-25. [Q: Why should we hire Sean Girgis?](#sec-25)
-26. [The Three Sean Principles](#sec-26)
-27. [Key One-Liners to Memorize](#sec-27)
-
-**Retype each answer. That is the drill.**
-
----
-[Back to TOC](#toc)
-
 
 <a id="sec-2"></a>
 ## Q: Tell me about yourself
