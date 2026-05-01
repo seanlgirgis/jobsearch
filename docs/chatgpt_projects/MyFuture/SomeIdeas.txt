@@ -1,0 +1,42 @@
+Real talk — here's where I think you actually have a shot, fast.
+
+---
+
+**Your unfair advantage**
+
+You're not a prompt jockey. You're a 20-year engineer who *also* knows Gen AI. That combo is rare. Most people selling "AI services" can't debug a pipeline. You can.
+
+---
+
+**Fastest paths to cash**
+
+**1. Fractional Data Engineer / AI Consultant**
+Small and mid-size companies desperately need someone to set up their data stack but can't afford a full-time hire. You come in, scope it, build it, leave. $75-150/hr is realistic. Find them on LinkedIn, not Fiverr.
+
+**2. AI Implementation for Non-Tech Businesses**
+Local businesses — law firms, clinics, real estate offices — want AI but have nobody to set it up. You build them a simple RAG chatbot on their documents, automate their reporting, connect their tools. They pay well because you're solving a real pain, not competing in a race to the bottom.
+
+**3. Upwork (not Fiverr)**
+Different clientele. Filter for $50+/hr jobs only. Your profile should lead with "AI-augmented data engineering" not just "data engineer." One good client can turn into recurring work.
+
+**4. LinkedIn Direct Outreach**
+Post one case study — CloudSage, the forecaster, anything real. Tag it with AI, AWS, data engineering. Inbound is slow but compounding. Direct outreach to CTOs of 50-200 person companies is faster.
+
+**5. Contract/Corp-to-Corp via Staffing Agencies**
+W2 contract roles, 3-6 months. Less sexy but fast to start and often $60-90/hr. Robert Half Technology, Insight Global, TEKsystems all place DE contractors in Dallas regularly.
+
+---
+
+**What to avoid**
+
+Fiverr, Guru, any platform where the buyer's first question is "can you do it cheaper." Your profile dies there.
+
+---
+
+**The Uber parallel**
+
+Drive while you build the consulting pipeline. It's not a step back — it's runway. Two months of Uber income buys you time to land one good contract client. Then you stop driving.
+
+---
+
+What sounds most realistic to you right now — the fractional consulting angle, or the contract staffing route?

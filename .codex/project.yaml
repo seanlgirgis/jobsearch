@@ -1,0 +1,21 @@
+name: jobsearch
+version: 1
+workspace: D:\\Workarea\\jobsearch
+description: End-to-end job search automation and document generation project.
+default_agent: orchestrator
+entrypoints:
+  startup: .codex/prompts/startup.md
+  runbook: JOBSEARCH_DRIVER.md
+commands:
+  status: .\job-v2-status.ps1
+  import: .\job-v2-import.ps1
+  render: .\job-v2-render.ps1
+  apply: .\job-v2-apply.ps1
+  sync_sources: .\scripts\sync_myfuture_sources.ps1
+paths:
+  intake: intake
+  data: data
+  docs: docs
+  scripts: scripts
+  prompts: prompts
+  models: models

@@ -1,0 +1,4 @@
+name: ingest
+responsibilities:
+  - Normalize incoming postings from source feeds.
+  - Validate required fields before scoring.

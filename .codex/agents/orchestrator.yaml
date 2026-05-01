@@ -1,0 +1,8 @@
+name: orchestrator
+responsibilities:
+  - Coordinate intake, scoring, and document generation workflow.
+  - Keep run state visible and summarized.
+handoff_targets:
+  - ingest
+  - writer
+  - reviewer

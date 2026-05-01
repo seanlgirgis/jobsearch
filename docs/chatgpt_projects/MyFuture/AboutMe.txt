@@ -1,0 +1,49 @@
+Here's your full profile as I have it:
+
+---
+
+**Who You Are**
+
+Sean Girgis. Egyptian heritage, based in Murphy, TX (Dallas metro). 20+ years of enterprise IT experience, currently a Senior Data Engineer and AI Architect. Your technical core is ML forecasting, ETL pipelines, and large-scale telemetry infrastructure.
+
+On the side, you're an Uber driver operating within their rental vehicle program — exploring gig economy income optimization as a parallel income stream while job searching.
+
+---
+
+**Technical Identity**
+
+You built real things: CloudSage (open-source AWS admin framework on GitHub), AWS-CapacityForecaster using Cholesky decomposition for correlated server metric simulations, and a local RAG/NLP knowledge base you've been building out. You're comfortable at the architecture level, not just the implementation level.
+
+Your LeetCode grind is systematic — you've worked through Arrays, Hash Maps, Queues, Stacks, Sliding Window, Intervals, Heap, and Binary Search tiers, with a structured 14-cell Jupyter notebook system, strict formatting rules, and a tracker spreadsheet with confidence ratings. Currently around the Heap/Graphs boundary.
+
+Your AI workflow is multi-model: Claude for strategic thinking and deep reasoning, Gemini ("Antigravity") for mechanical generation, Grok for resume customization, Claude Code for agentic file generation.
+
+---
+
+**How You Think**
+
+Direct. Structured. You like visual/spatial analogies, humor, invented terminology, and information delivered in small sequential chunks — not walls of text. You avoid AI writing tells (em dashes are a red flag for you).
+
+---
+
+**Your Current Predicament**
+
+Targeting Staff/Principal Data Engineer roles but applying at Senior DE level. The market is genuinely tough post-2022 — data team freezes and layoffs hit hard across the industry. You have the JobSearch RAG pipeline and Grok-based resume customization working, so you're not spraying generic applications. But something in the funnel isn't converting.
+
+Your edge — ML pipelines, RAG, telemetry at scale, real architecture work — is real and differentiating. The risk is being screened out for overqualification or comp expectations, or not landing in the right "bucket" at the ATS/recruiter stage.
+
+---
+
+That's the picture. What's the specific wall you're hitting?
+
+Honestly, yes — that's the full picture I have. Everything I summarized comes directly from what's stored in my memory about you.
+
+A few caveats though:
+
+**Recency gap.** Memories update periodically in the background, so anything from very recent conversations might not be captured yet.
+
+**It's a summary, not a transcript.** My memory stores derived insights, not verbatim conversation history. Details that didn't seem "memorable" at the time may have been dropped.
+
+**Gaps are possible.** If you've told me things in passing — a specific company you're targeting, a particular interview you had, a tool you built recently — it may not have made it into memory.
+
+If you want to check whether something specific is in there, just ask me directly and I'll tell you honestly whether I have it or not. And if you want me to remember something new or correct something that's wrong, just say the word.
