@@ -542,6 +542,24 @@
   role: ''
   apply_date: N/A
   status: ACCEPTED
+- uuid: 00091_322a4347
+  description_path: data\jobs\00091_322a4347\intake.md
+  company: '-  Lincoln Softtech LLC'
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00092_af5240b5
+  description_path: data\jobs\00092_af5240b5\intake.md
+  company: '-  Solugenix Corporation'
+  role: ''
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00093_0035525d
+  description_path: data\jobs\00093_0035525d\intake.md
+  company: '-  Boston Associate Software Systems'
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
 - uuid: url_captures
   description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md
   company: Unknown

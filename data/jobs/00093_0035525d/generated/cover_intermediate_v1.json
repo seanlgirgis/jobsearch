@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Instrumentation Engineer (Dynatrace) position with Boston Associate Software Systems. My background aligns closely with Dynatrace monitoring, APM, synthetic monitoring, end-user monitoring, dashboards, telemetry trend analysis, and technical support for enterprise monitoring solutions.",
+  "body": [
+    "At G6 Hospitality, I managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and other critical hospitality systems. I implemented End-User Monitoring and end-to-end transaction tracing across web and mobile platforms, giving engineering teams better visibility into application behavior, user experience, and performance issues. I also upgraded Dynatrace from 6.5 to 7.0 with TLS 1.2 enforcement and zero regression in production monitoring.",
+    "At CITI, I worked with large-scale telemetry and observability environments supporting more than 6,000 monitored endpoints. I built Python/Pandas automation pipelines to ingest and process monitoring data, integrated feeds from TrueSight, CA Wily, and AppDynamics, and created reporting layers and dashboards used for operational visibility, capacity insights, and data trend analysis.",
+    "My earlier CA APM work also maps well to this role's focus on technical input, dashboards, performance monitoring, and system integration. At CA Technologies / TIAA-CREF, I supported enterprise APM environments with 50+ Enterprise Managers and 4,000-6,000 instrumented agents, led major CA APM upgrades, built SLA thresholds and dashboards, and automated telemetry reporting with Perl and Korn Shell scripts. I have also used ServiceNow at the user level for incident/change workflow tracking and operational reporting."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute my Dynatrace, APM, telemetry analysis, dashboarding, and monitoring support experience to your remote instrumentation engineering work.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,59 @@
+company_name: Lincoln Softtech LLC
+company_website: ''
+job_title: Dynatrace Observability Engineer
+location: Remote
+extracted_skills:
+- Ansible
+- Dynatrace
+- Python
+- Terraform
+- Windows PowerShell
+- Dynatrace Administration
+- Dynatrace APIs
+- scripting
+job_summary: Dynatrace platform administration and advanced configuration aligned
+  to best practices. Application and infrastructure onboarding, including APM, RUM,
+  tracing, and dependency mapping. Alerting, event, and problem management design
+  to reduce noise and improve signal quality. Development of automation using Dynatrace
+  APIs, Terraform, Ansible, and scripting (Python, PowerShell, shell). Standardized
+  monitoring intake and lifecycle processes for new systems and applications. Dashboarding
+  and reporting across applications, infrastructure, cloud, and key platforms (including
+  database, storage, network, and SAP workloads). High availability design and monitoring
+  for Dynatrace agents, extensions, and synthetic tests. Proactive application and
+  performance analysis including stack traces, RUM insights, and network flows. Definition
+  of observability standards, access models, and operating procedures. Enablement
+  of client teams through documentation, working sessions, and periodic value reviews.
+responsibilities:
+- Dynatrace platform administration and advanced configuration aligned to best practices
+- Application and infrastructure onboarding, including APM, RUM, tracing, and dependency
+  mapping
+- Alerting, event, and problem management design to reduce noise and improve signal
+  quality
+- Development of automation using Dynatrace APIs, Terraform, Ansible, and scripting
+  (Python, PowerShell, shell)
+- Standardized monitoring intake and lifecycle processes for new systems and applications
+- Dashboarding and reporting across applications, infrastructure, cloud, and key platforms
+  (including database, storage, network, and SAP workloads)
+- High availability design and monitoring for Dynatrace agents, extensions, and synthetic
+  tests
+- Proactive application and performance analysis including stack traces, RUM insights,
+  and network flows
+- Definition of observability standards, access models, and operating procedures
+- Enablement of client teams through documentation, working sessions, and periodic
+  value reviews
+requirements: []
+preferred: []
+benefits: []
+must_have_skills:
+- Dynatrace Administration
+- Dynatrace APIs
+- Terraform
+- Ansible
+- scripting (Python, PowerShell, shell)
+nice_to_have_skills: []
+ats_keywords:
+- Ansible
+- Dynatrace
+- Python
+- Terraform
+- Windows PowerShell

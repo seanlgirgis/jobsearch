@@ -1,37 +1,71 @@
 Site: Dice
 
-Company : -  Virtuous Tech Inc
+Company : -  Odyssey Information Services
 
-System Monitoring Lead Engineer
-Remote • Posted 11 days ago • Updated 3 days ago
+Remote • Posted 7 days ago • Updated 7 days ago
+Contract W2
+Remote
+$60 - $75/hr
+
 
 Job Details
+
 Skills
-Splunk
+Cloud data engineer
+data engineer
+ETL
+AWS
+Lambda
+Glue
+Redshift
+tableau
+Power BI
+Cloudformation
+data pipelines
+SQL
+Snowflake
+Python
+Data warehousing
+Amazon S3
 Summary
-We are looking for Application Performance Management (APM) professional to work on our Federal project. We are hiring immediately;
- 
- 
-Job responsibilities:
-Lead a team of systems engineers to develop and maintain Cloud-based application and infrastructure monitoring solutions
-Work with government customers to derive monitoring requirements and translate them into working solutions using in-house tools and techniques
-Manages, configures and maintains Splunk, AWS CloudWatch, Azure Monitor, and other APM tools
-Maintains Splunk Cloud Firehose data stream architecture and monitoring
-Development of dashboards, SLA Reports and custom end-user reports.
-Provide support in developing and designing Synthetic Availability Monitoring which integrates into Splunk, AWS Canaries, Python, and Selenium
-Provide performance analysis on load testing and regression testing data
-Provide analysis in the Application Event using Splunk
-Instrument and perform Java/JVM s Performance analysis
-Triage service delays and applications reliability issues hosted on AWS cloud
-Required Skills:
-8+ years strong IT experience and good working knowledge of a variety of technology platforms
-5+ years hands-on experience on Application Performance Management (APM) Engineer
-3+ years Hands-on experience on design, engineering and Synthetic Availability Monitoring using Sitescope, Selenium, or similar tools.
-Strong knowledge with performance data analysis, performance tuning, and performance monitoring.
-Experience with Java, multi-tiered application architecture, Shell Scripting, PowerShell scripting, regular expressions is preferable
+Cloud Data Engineer (Contract | Remote | 2nd Shift)
 
+Seeking a hands-on Cloud Data Engineer to support a fast-paced data and analytics environment. This role focuses on building and maintaining data pipelines, optimizing cloud data platforms, and ensuring reliability, performance, and security across the data ecosystem.
+
+This is a 4 6 month contract working directly with the client s data team.
+
+Work Schedule (Important)
+
+Fully remote
+Must be available for meetings 4:00 PM Midnight (ET), Sunday Thursday
+No meetings on Friday or Saturday
+Key Responsibilities
+
+Design, build, and maintain data pipelines using AWS (S3, Lambda, Glue, Redshift, EMR)
+Develop and optimize data models and warehouses in Snowflake
+Build and manage ETL/ELT processes across multiple data sources
+Ensure data quality, integrity, and governance
+Support reporting and analytics by delivering clean, usable datasets
+Integrate BI tools (Tableau, Power BI, Looker) with data platforms
+Monitor and troubleshoot pipelines for performance and scalability
+Automate workflows and infrastructure using Terraform or CloudFormation
+Apply best practices for security, cost optimization, and performance tuning
+Required Experience
+
+3+ years of data engineering experience
+Strong hands-on experience with AWS data services
+Direct experience with Snowflake (data modeling, performance tuning)
+Solid SQL skills and proficiency in Python (or similar)
+Experience building and maintaining ETL/ELT pipelines
+Familiarity with BI/reporting tools (Tableau, Power BI, Looker)
+Understanding of data warehousing concepts and best practices
+What We re Looking For
+
+Hands-on, problem-solving mindset in a fast-paced environment
+Ability to move quickly and troubleshoot issues independently
+Strong collaboration skills across technical and business teams
+Comfortable working with globally distributed teams
 Employers have access to artificial intelligence language tools (“AI”) that help generate and enhance job descriptions and AI may have been used to create this description. The position description has been reviewed for accuracy and Dice believes it to correctly reflect the job opportunity.
-
-Company Info
-About Virtuous Tech Inc
-Established in 2021, VIRTUOUS TECH INC. is a global IT, consulting, and outsourcing firm operating in the USA. We specialize in helping clients grow efficiently through deep technology expertise and a robust offshore delivery model. Committed to continuous improvement, innovation, and quality service, our dedicated team undergoes constant training to meet specific client needs. Our energetic professionals differentiate us, delivering value and solving business challenges to aid growth.
+Dice Id: odysseyi
+Position Id: 8951803
+Posted 7 days ago

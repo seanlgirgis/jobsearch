@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX (Plano area)  
+214-315-2190 | seanlgirgis@gmail.com  
+
+April 30, 2026  
+
+Dear Hiring Manager,
+
+I am applying for the Dynatrace Observability Engineer position at Lincoln Softtech LLC. I am drawn to the opportunity to leverage my expertise in Dynatrace administration and observability to contribute to advanced platform configuration and automation.
+
+With over eight years of hands-on experience in Dynatrace AppMon and Synthetics, I have developed deep expertise in application performance monitoring (APM) and observability. During my tenure at G6 Hospitality LLC as a Performance Engineer in 2017, I managed Dynatrace for critical systems like Brand.com, leading the 'FAST' project to data-mine real-user performance metrics for optimization. This effort directly improved system performance by identifying key bottlenecks, aligning with responsibilities such as application onboarding, tracing, and proactive performance analysis.
+
+My background in scripting and automation complements the need for development using Dynatrace APIs, Python, and other tools like Terraform and Ansible. At CITI, from 2017 to 2025, I built automated ETL pipelines with Python and Pandas, processing telemetry data from over 6,000 endpoints. This automation replaced manual processes, enhancing reliability and aligning with your focus on standardized monitoring intake and lifecycle processes. My 15 years of Python expertise ensures I can deliver robust scripting solutions for alerting, event, and problem management design.
+
+Additionally, my experience in dashboarding and reporting aligns with your requirements for observability standards and client enablement. At CITI, I developed interactive dashboards using Python libraries like Matplotlib and Plotly, supporting executive decision-making with clear, data-driven insights. This skill set directly supports your need for comprehensive reporting across applications, infrastructure, and cloud platforms, ensuring high-quality signal over noise in monitoring practices.
+
+I am confident that my extensive experience with Dynatrace administration, scripting in Python, and performance optimization positions me to contribute effectively to Lincoln Softtech LLC. I look forward to the opportunity to apply my skills in enhancing observability and automation for your team.
+
+Sincerely,
+Sean Luka Girgis

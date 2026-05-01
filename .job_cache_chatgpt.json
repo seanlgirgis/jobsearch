@@ -1,0 +1,14 @@
+{
+  "uuid_short": "0035525d",
+  "accepted": true,
+  "created_at": "2026-05-01T07:43:01.922258",
+  "uuid": "0035525d-52e7-4f56-a155-a34442042729",
+  "applied": true,
+  "intake_file": "intake\\intake.md",
+  "pipeline": "chatgpt",
+  "duplicate_checked_at": "2026-05-01T07:43:08",
+  "job_folder": "D:\\Workarea\\jobsearch\\data\\jobs\\00093_0035525d",
+  "job_id": "00093_0035525d",
+  "duplicate_checked": true,
+  "documents_ready": true
+}

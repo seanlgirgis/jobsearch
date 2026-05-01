@@ -1,0 +1,63 @@
+{
+  "personal": {
+    "full_name": "<FULL_NAME>",
+    "phone": "<PHONE>",
+    "email": "<EMAIL>",
+    "linkedin": "<LINKEDIN_URL>",
+    "github": "<GITHUB_URL>",
+    "personal_website": "<PERSONAL_WEBSITE_URL>",
+    "preferred_title": "<TARGET_ROLE_TITLE>"
+  },
+  "summary": "<2-4 sentence role-targeted summary aligned to the job posting and source_of_truth.json>",
+  "experience": [
+    {
+      "company": "<COMPANY_1>",
+      "title": "<TITLE_1>",
+      "start_date": "<YYYY-MM>",
+      "end_date": "<YYYY-MM | Present>",
+      "bullets": [
+        "<Impact-first bullet aligned to job requirements>",
+        "<Impact-first bullet aligned to job requirements>",
+        "<Impact-first bullet aligned to job requirements>",
+        "<Impact-first bullet aligned to job requirements>"
+      ]
+    },
+    {
+      "company": "<COMPANY_2>",
+      "title": "<TITLE_2>",
+      "start_date": "<YYYY-MM>",
+      "end_date": "<YYYY-MM | Present>",
+      "bullets": [
+        "<Impact-first bullet aligned to job requirements>",
+        "<Impact-first bullet aligned to job requirements>",
+        "<Impact-first bullet aligned to job requirements>"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "<DEGREE>",
+      "institution": "<INSTITUTION>",
+      "location": "<CITY, COUNTRY>",
+      "dates": "<YYYY-YYYY | Not specified>"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting",
+    "Cloud & Data": "AWS (Glue, Athena, S3, Redshift), PySpark, Apache Spark, Hive/Hadoop, Data Warehousing, ETL Design & Optimization",
+    "AI/ML": "Capacity Forecasting, Prophet, scikit-learn, Telemetry Analysis",
+    "Tools & Infra": "Dynatrace (AppMon, Synthetics, EUM/RUM, Transaction Tracing), BMC TrueSight / TSCO, CA APM / Introscope, AppDynamics, Docker, Git, Airflow, Streamlit, Linux/Unix",
+    "Legacy": "C++, Java, PL/SQL, Oracle RAC, WebLogic / WebSphere, VB6 / VC++"
+  },
+  "projects": [
+    {
+      "name": "<PROJECT_NAME_1>",
+      "description": "<Project description mapped to role needs and truthful source data>",
+      "technologies": [
+        "<TECH_1>",
+        "<TECH_2>",
+        "<TECH_3>"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "<FULL_NAME>",
+    "address": "<CITY, STATE>",
+    "phone": "<PHONE>",
+    "email": "<EMAIL>",
+    "date": "<MONTH DD, YYYY>",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "<1-2 sentence role-specific opening aligned with the job posting and source_of_truth.json>",
+  "body": [
+    "<Paragraph 1: strongest role-aligned experience with concrete, truthful details>",
+    "<Paragraph 2: additional matching experience, tools, and impact>",
+    "<Paragraph 3: fit summary and why this background maps to the role>"
+  ],
+  "conclusion": "<1 sentence close expressing interest and value alignment>",
+  "sign_off": "Sincerely,\n<FULL_NAME>"
+}

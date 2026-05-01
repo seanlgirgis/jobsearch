@@ -31,3 +31,10 @@ Goal: RAG architecture using local embeddings + LLM calls (xAI/Grok API preferre
    ```powershell
    C:\pyver\py312\python -m venv C:\py_venv\JobSearch
    .\C:\py_venv\JobSearch\env_setter.ps1   # or manual activation
+
+## ChatGpt Manual Pipeline
+
+If you want to skip Grok scoring/content generation and provide JSON artifacts manually:
+
+- See `CHATGPT_PIPELINE.md`
+- Scripts: `job-chatgpt-check.ps1`, `job-chatgpt-accept.ps1`, `job-chatgpt-render.ps1`, `job-chatgpt-apply.ps1`
