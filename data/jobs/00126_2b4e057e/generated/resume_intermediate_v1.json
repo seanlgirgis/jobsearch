@@ -1,0 +1,164 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Data Warehouse Engineer | SQL, Redshift, ETL/ELT & Data Modeling"
+  },
+  "summary": "Senior Data Engineer and Data Warehouse Engineer with 20+ years of enterprise IT experience designing ETL/ELT pipelines, warehouse schemas, reporting datasets, validation routines, and cloud data platform patterns. Strong hands-on background in SQL, Python, Pandas, PySpark, AWS Redshift, S3, Glue, Oracle, data modeling, dimensional reporting structures, data quality, and production troubleshooting. Experienced translating raw operational data into clean, governed, analytics-ready datasets for BI, forecasting, dashboards, and decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ enterprise endpoints, replacing manual extraction and standardization workflows.",
+        "Designed historical schemas, reporting datasets, and warehouse structures in Oracle and Redshift to support capacity analysis, retention, seasonal forecasting, and executive reporting.",
+        "Built AWS-oriented data platform patterns using S3 landing zones, AWS Glue for ETL, Athena-style lake access, and Redshift for analytics and ML forecasting workloads.",
+        "Developed SQL transformations, validation routines, reconciliation checks, and troubleshooting workflows to improve accuracy, completeness, and reliability of production datasets.",
+        "Optimized query patterns, storage structures, and data preparation workflows for recurring analytics, reporting, and forecasting use cases.",
+        "Created dashboards and reporting workflows using Streamlit, matplotlib, seaborn, plotly, and enterprise telemetry datasets to surface utilization risks and operational insights.",
+        "Supported governance and compliance expectations in a regulated banking environment through documentation, access awareness, data retention logic, and production support discipline."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led the FAST project, data-mining Gomez Synthetic Monitoring metrics to identify optimization opportunities for revenue-generating hospitality systems.",
+        "Built analytics and reporting workflows that converted raw performance measurements into actionable recommendations for engineering teams.",
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and critical hospitality systems, supporting dashboarding, transaction tracing, and performance analysis.",
+        "Collaborated with technical teams during production monitoring upgrades and maintained reporting continuity through a Dynatrace 6.5 to 7.0 cutover."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl and Korn Shell data-extraction scripts for automated performance reporting, replacing manual weekly export processes.",
+        "Designed dashboards, alerts, SLA thresholds, and operational reports adopted by client teams for application performance visibility.",
+        "Worked with stakeholders and application teams to define monitoring requirements, validate production behavior, and document technical procedures.",
+        "Supported a large enterprise monitoring environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications under load to identify throughput limits, database bottlenecks, thread pressure, heap memory issues, CPU usage, and garbage collection impact.",
+        "Documented performance baselines and regression thresholds used by engineering teams for release gate decisions.",
+        "Configured JMX Monitoring, Wily Introscope, and thread dump automation to improve visibility during performance testing and troubleshooting."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster supporting large transaction volumes.",
+        "Built validation tooling in C++/OCCI/OCI to verify migration correctness across large transaction datasets.",
+        "Automated schema conversion and data validation workflows to ensure integrity during phased migration cutover.",
+        "Optimized database access and transaction processing, reducing physical hardware footprint by 95% while maintaining sub-second query latency."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for the IRS CADE modernization project.",
+        "Built CICS, MQ Series, XML, VC++, and DB2 integration components in a structured government modernization environment.",
+        "Created technical documentation and supported disciplined delivery practices for a regulated modernization program."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, EDI, invoicing, settlement, and reporting modules across full telecom billing lifecycle workflows.",
+        "Improved C/C++/Pro*C/PL/SQL billing process performance, reducing memory usage 75%, improving throughput 20%, and achieving 10x database performance via sequence optimization.",
+        "Automated WebLogic/WebSphere administration tasks using Korn Shell scripting to reduce manual deployment and support effort.",
+        "Supervised QA cycles and production bug triage using Mercury Test Director, supporting test case execution and defect resolution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Data Warehousing": "Data Warehouse Design, Redshift, Oracle, Dimensional Modeling, Star Schema, Snowflake Schema, Fact and Dimension Tables, SCD Concepts, Data Architecture",
+    "ETL/ELT": "ETL/ELT Pipelines, Data Ingestion, Data Transformation, Data Cleansing, Data Validation, Reconciliation, Data Quality Rules, Production Troubleshooting",
+    "Programming & Querying": "Advanced SQL, Python, Pandas, PySpark, Apache Spark, PL/SQL, Perl, Korn Shell Scripting, C++, Java",
+    "Cloud Data Platforms": "AWS S3, AWS Glue, Amazon Redshift, Athena, AWS EC2, AWS ECS, Data Lake Patterns, Serverless Data Platform Design",
+    "Governance & Quality": "Data Governance, Data Definitions, Documentation, Data Lineage Concepts, Access Control Awareness, Compliance-Aware Delivery, Regulated Banking Environments",
+    "Orchestration & DevOps": "Apache Airflow, Docker, Git, CI/CD Pipeline Design, Linux/Unix, Monitoring, Alerting, Technical Documentation",
+    "BI & Reporting": "Streamlit, matplotlib, seaborn, plotly, Power BI Concepts, Tableau/Looker Concepts, Executive Reporting, KPI Reporting, Dashboard Data Preparation",
+    "Modern Stack / Learning": "Snowflake, Databricks, Delta Lake, dbt, Terraform fundamentals, BigQuery concepts, Fivetran/Prefect concepts",
+    "Observability": "BMC TrueSight / TSCO, CA APM / Introscope, Dynatrace AppMon, AppDynamics, Synthetic Monitoring, Transaction Tracing, Performance Reporting"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform using S3, Glue, Athena, Bedrock, and PySpark. Built optimized ETL patterns, Parquet/Snappy storage layouts, and analytics access patterns for enterprise-scale reporting and AI-enabled consumption.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "AWS Bedrock",
+        "PySpark",
+        "Parquet",
+        "Data Lake"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python and PySpark forecasting engine using Prophet, scikit-learn, and Streamlit to reduce manual forecasting cycles by 90% and predict capacity bottlenecks 6 months ahead.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end Python automation pipeline with semantic duplicate detection, LLM-powered scoring, resume tailoring, cover generation, quality gates, and application tracking using FAISS, sentence-transformers, and Grok API.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "Grok API",
+        "RAG",
+        "JSON",
+        "YAML"
+      ]
+    }
+  ]
+}

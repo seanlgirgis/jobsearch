@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Data Engineer contract role with iSpace. The role’s focus on AWS, Python, PySpark, Redshift, data quality, automation, and scalable data platforms aligns closely with the data engineering work I have delivered in enterprise environments.
+
+At Citi, I built and optimized Python-based ETL pipelines ingesting telemetry from 6,000+ endpoints and developed AWS-based data workflows using S3, Glue, and Redshift for forecasting and analytics. My background combines hands-on pipeline development, SQL performance tuning, dimensional modeling, data validation, and production troubleshooting across large regulated systems.
+
+I bring strong experience building reliable reporting and analytics platforms from raw operational data, including schema design, reconciliation, automated data quality checks, and stakeholder-facing dashboards. I have also worked heavily with PySpark/Spark concepts, Parquet, warehouse optimization, and large-scale telemetry processing, which maps well to the role’s emphasis on high-quality big data pipelines and data platform engineering.
+
+The role also asks for modern platform exposure such as Snowflake, dbt, Snowpark, streaming, and CI/CD. My strongest production depth is AWS, Redshift, Python, SQL, PySpark, ETL, observability, and data quality automation, and I am actively expanding my Snowflake, dbt, Databricks, Delta Lake, and streaming knowledge to bridge into modern lakehouse and real-time data platform work.
+
+I would welcome the opportunity to bring my AWS data engineering, pipeline automation, and production troubleshooting experience to this long-term contract role.
+
+Sincerely,
+Sean Luka Girgis

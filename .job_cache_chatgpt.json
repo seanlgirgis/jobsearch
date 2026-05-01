@@ -1,14 +1,16 @@
 {
-  "uuid_short": "0035525d",
+  "uuid_short": "cf5c00b3",
   "accepted": true,
-  "created_at": "2026-05-01T07:43:01.922258",
-  "uuid": "0035525d-52e7-4f56-a155-a34442042729",
-  "applied": true,
+  "created_at": "2026-05-01T12:46:36.294744",
+  "uuid": "cf5c00b3-be79-48e2-823b-50945e345802",
   "intake_file": "intake\\intake.md",
   "pipeline": "chatgpt",
-  "duplicate_checked_at": "2026-05-01T07:43:08",
-  "job_folder": "D:\\Workarea\\jobsearch\\data\\jobs\\00093_0035525d",
-  "job_id": "00093_0035525d",
+  "duplicate_checked_at": "2026-05-01T12:46:43",
+  "job_folder": "D:\\Workarea\\jobsearch\\data\\jobs\\00137_cf5c00b3",
+  "job_id": "00137_cf5c00b3",
   "duplicate_checked": true,
-  "documents_ready": true
+  "documents_ready": true,
+  "render_version": "v1",
+  "applied": true,
+  "applied_date": "2026-05-01"
 }

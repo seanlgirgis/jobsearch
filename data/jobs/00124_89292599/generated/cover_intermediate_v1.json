@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote Sr. Data Engineer role supporting Widescope's Optum Serve Technology Product Organization. My background aligns strongly with AWS data engineering, Redshift, Glue, S3, SQL, ETL, data warehousing, documentation, monitoring, and secure enterprise delivery.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. I also designed AWS-oriented data platform patterns using S3 landing zones, Glue-based ETL, Athena-style lake access, and Redshift analytics to support forecasting, reporting, and operational decision-making.",
+    "Your role's focus on scalable AWS pipelines, Redshift, Glue, S3, Athena, CloudWatch-style observability, security, cost efficiency, documentation, and reporting-team enablement maps well to my strongest recent experience. I have built data validation routines, optimized SQL and storage patterns, containerized Python ETL jobs, and supported production troubleshooting in regulated enterprise environments.",
+    "I would bring a practical senior-engineer mindset to this modernization effort: build reliable pipelines, document data definitions and transformations, make data usable for analytics teams, support governance and security expectations, and mentor or review with care. My federal modernization experience from the IRS CADE project and my banking compliance background also give me a strong foundation for mission-driven health technology work."
+  ],
+  "conclusion": "I would welcome the opportunity to help Widescope deliver secure, scalable AWS data engineering solutions in support of service members, Veterans, and federal healthcare modernization.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

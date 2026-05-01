@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 01, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the AWS Data Engineer contract role with Arbor Tek Systems. My background aligns closely with the role's focus on AWS Glue, Redshift, S3, Lambda, Python, SQL, ETL/ELT pipelines, automated testing, and production monitoring.
+
+At Citi, I built and maintained enterprise data pipelines using Python, Pandas, PySpark, S3 landing zones, AWS Glue, and Redshift for large-scale telemetry and forecasting workloads. These pipelines ingested data from 6,000+ endpoints and replaced manual reporting processes with repeatable ingestion, transformation, validation, and analytics workflows.
+
+The role's focus on scalable, secure data pipelines, data quality, and observability is a strong match for my experience. I have built validation and reconciliation routines for pipeline outputs, designed historical retention schemas, and worked heavily with operational monitoring platforms including BMC TrueSight, CA APM, AppDynamics, and Dynatrace. That gives me a practical production mindset around pipeline failures, custom metrics, alerts, and stakeholder visibility.
+
+I also bring hands-on scripting and delivery discipline through Python, SQL, shell scripting, Git, Docker, and CI/CD pipeline design patterns. My Terraform experience is currently foundational, but I understand the AWS infrastructure workflow and can work effectively with architects and DevOps teams to deliver reliable data products.
+
+I would welcome the opportunity to contribute as a senior AWS Data Engineer who can combine pipeline implementation, data quality, observability, and practical delivery experience.
+
+Sincerely,
+Sean Luka Girgis

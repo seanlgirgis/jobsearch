@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Monitoring Engineer position in Charlotte. My background aligns closely with the role’s focus on Dynatrace monitoring, synthetic monitoring, dashboards, alerts, thresholds, operational readiness, and production-support collaboration.",
+  "body": [
+    "At G6 Hospitality, I managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and other critical production systems. I also implemented End-User Monitoring and transaction tracing across web and mobile platforms, supported performance visibility, and led a Dynatrace 6.5 to 7.0 upgrade with TLS 1.2 enforcement and zero production regression.",
+    "At CITI, I supported enterprise observability and telemetry initiatives across more than 6,000 monitored endpoints. I built Python/Pandas telemetry pipelines, integrated monitoring feeds from BMC TrueSight, CA Wily, and AppDynamics, and developed dashboards and reporting layers used for capacity analysis, performance visibility, and operational decision-making.",
+    "Earlier at CA Technologies/TIAA-CREF, I managed large-scale CA APM environments with 50+ Enterprise Managers and 4,000–6,000 instrumented agents. I designed dashboards, alerts, SLA thresholds, and automated reporting scripts, while coordinating with application and infrastructure teams to improve monitoring adoption and operational consistency."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute my Dynatrace, APM, telemetry, dashboarding, and production-support experience to help improve monitoring effectiveness and operational readiness.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

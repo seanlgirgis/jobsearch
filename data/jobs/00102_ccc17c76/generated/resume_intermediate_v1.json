@@ -1,0 +1,97 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "AWS Lakehouse Migration Data Engineer"
+  },
+  "summary": "AWS Data Engineer with deep experience building Python, SQL, and PySpark data pipelines for large-scale enterprise platforms. Strong background migrating legacy/on-prem workloads into AWS-based data environments using S3, Glue, Athena, Redshift, Spark, Hadoop/Hive, Parquet, and data validation practices. Experienced translating business and operational requirements into analytics-ready datasets while supporting stakeholder handoff, reporting accuracy, and pipeline reliability.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Data Engineer / AWS Migration Platform Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built hybrid AWS/Oracle data platform using S3 landing zones, AWS Glue ETL, Athena access patterns, and Redshift-backed workloads to support large-scale telemetry and forecasting datasets.",
+        "Developed Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints, replacing legacy manual processing with repeatable data workflows for reporting and analytics.",
+        "Migrated heavy forecasting and analytics workloads from on-prem Oracle systems into AWS-based processing environments, improving scalability for parallel data processing.",
+        "Built PySpark and Spark-oriented processing patterns for large structured telemetry datasets, supporting transformation, reporting, and downstream analytics needs.",
+        "Worked with Parquet-based data structures and optimized storage/reporting patterns to improve query performance and reduce small-file processing issues.",
+        "Applied data quality, validation, and reconciliation checks to maintain reporting consistency and confidence across production-facing data flows."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer / Cloud Migration Support",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Participated in AWS cloud migration planning by assessing monitoring, data collection, and operational readiness needs for critical hospitality systems.",
+        "Mined real-user performance metrics from Gomez Synthetic Monitoring to identify optimization opportunities and support engineering decision-making.",
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and other critical systems, supporting reliable operational visibility during platform changes."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "Senior Consultant / Enterprise Monitoring Data Engineer",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl/Ksh automation scripts for recurring performance data extraction and operational reporting across enterprise monitoring environments.",
+        "Managed CA APM environments supporting 4,000\u20136,000 instrumented agents, producing standardized telemetry and reporting views for application and infrastructure teams.",
+        "Collaborated with J2EE/WebLogic teams to analyze bottlenecks identified through telemetry and support reliable production operations."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Java, Perl, Ksh / Korn Shell Scripting",
+    "AWS & Cloud Data": "AWS S3, AWS Glue, Athena, Redshift, ECS, EC2",
+    "Big Data & Lakehouse": "PySpark, Apache Spark, Hadoop, Hive/HDFS, Parquet, Snappy, Data Lake, Lakehouse Patterns",
+    "Data Engineering": "ETL/ELT, Data Pipeline Migration, Data Warehousing, Data Modeling, Data Quality, Data Reconciliation, Data Transfer, Reporting Pipelines",
+    "Tools & Infra": "Airflow, Docker, Git, Linux/Unix, Streamlit, BMC TrueSight, AppDynamics, CA APM, Dynatrace",
+    "Learning / Exposure": "Kafka, Snowflake, Apache Iceberg, Databricks, Delta Lake, Terraform"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Built AWS-based lakehouse patterns using S3, Glue, Athena, PySpark, Parquet, and Snappy for scalable ETL processing and analytics-ready datasets. Focused on optimized storage layouts, small-file reduction, and reliable access patterns for enterprise-scale reporting workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "PySpark",
+        "Parquet",
+        "Snappy"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Developed Python and PySpark data pipelines that transformed large-scale telemetry data into forecasting-ready datasets and dashboards, reducing forecasting cycles by 90% and supporting capacity planning decisions.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    }
+  ]
+}

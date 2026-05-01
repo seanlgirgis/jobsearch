@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote AI Data Engineer role with Rose IT Corp. My background fits the data infrastructure side of AI: Python, SQL, ETL/ELT pipelines, data quality, ML-ready datasets, Spark/PySpark, AWS data platforms, and production pipeline support.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. I used Python, SQL, PySpark, Spark, AWS S3, Glue, and Redshift patterns to prepare clean datasets for analytics, reporting, forecasting, and ML-enabled capacity planning.",
+    "The role's focus on AI/ML data pipelines, data preprocessing, data lakes, data warehouses, validation, governance, batch and real-time processing concepts, and collaboration with AI engineers maps well to my practical experience. I developed Prophet and scikit-learn forecasting workflows, prepared validated telemetry datasets, and built repeatable pipeline patterns that supported model-driven decision-making.",
+    "I would position myself as an AI Data Engineer rather than a deep ML researcher. My strongest value is making data usable for AI and analytics: ingest it, clean it, standardize it, validate it, structure it, monitor it, and keep it reliable in production. I also bring hands-on Docker, Airflow, Git, RAG/vector workflow experience, and a long enterprise background in troubleshooting complex data and performance issues."
+  ],
+  "conclusion": "I would welcome the opportunity to help Rose IT Corp build reliable data foundations for AI and machine learning systems.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

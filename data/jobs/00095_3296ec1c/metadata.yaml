@@ -1,0 +1,17 @@
+uuid: 3296ec1c-6f70-42d0-a0b3-dd2d19aac428
+job_id: 00095_3296ec1c
+original_filename: intake.md
+company: '-  Vaarida Technologies llc'
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-01T08:47:21.685249'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)'
+last_decision_at: '2026-05-01T08:47:21.765583'
+last_decision: ACCEPTED

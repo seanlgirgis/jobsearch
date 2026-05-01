@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote Scientist III, Data Engineer role with Thermo Fisher Scientific. My background aligns strongly with AWS data engineering, PySpark, SQL, S3, Glue, Redshift, Athena, ETL/data solutions, performance tuning, production support, and regulated enterprise delivery.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. I also designed AWS-oriented data platform patterns using S3 landing zones, Glue-based ETL, Athena-style lake access, and Redshift analytics to support forecasting, reporting, and operational decision-making.",
+    "Your role's focus on PySpark/EMR-style processing, AWS Athena, S3, Redshift, Glue, SQL optimization, APIs, data lake patterns, CI/CD, governance, security, production support, and cross-functional delivery maps well to my strongest recent experience. I have built validation routines, optimized SQL and storage patterns, containerized Python ETL jobs, and supported production troubleshooting in regulated enterprise environments.",
+    "I would bring senior data engineering discipline to Thermo Fisher's data platform work: automate manual processes, produce clean and reliable data, improve scalability, document transformations, monitor failures, and collaborate with scientific, laboratory, business, and technical stakeholders. I am actively building deeper Databricks, Delta Lake, Unity Catalog, Terraform, Jenkins, and streaming fluency, while my strongest production base is AWS, Python, SQL, PySpark, Redshift, Glue, data quality, and operational reliability."
+  ],
+  "conclusion": "I would welcome the opportunity to help Thermo Fisher Scientific deliver scalable, secure, and reliable data platform solutions that support scientific and business outcomes.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

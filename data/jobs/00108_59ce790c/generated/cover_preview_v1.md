@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am applying for the Principal Data Engineer role with UnitedHealth Group. My background aligns with the need for governed, scalable data pipelines, reusable engineering patterns, and enterprise data platforms that support analytics, AI, and operational decision-making.
+
+At CITI, I built Python-based ETL pipelines ingesting telemetry from more than 6,000 endpoints and transforming large operational datasets into analytics-ready reporting layers. I also developed AWS-based data workflows using S3, Glue, Athena, and Redshift to support scalable data processing, forecasting, and executive reporting.
+
+My work has focused heavily on data quality, validation, pipeline reliability, and governed access to data in a regulated financial services environment. I designed historical reporting structures, supported reconciliation and cleansing practices, and partnered with infrastructure, application, and operations teams to convert business and product needs into reliable data solutions.
+
+I also bring hands-on experience with PySpark, Python, SQL, data lake patterns, parallel processing, documentation, and stakeholder collaboration. While my healthcare domain experience is limited, my regulated enterprise background, data governance experience, and platform-oriented engineering approach map well to building secure, reusable, and high-quality data capabilities across complex business domains.
+
+I would welcome the opportunity to contribute my data engineering, PySpark, governance, and enterprise platform experience to UnitedHealth Group’s data modernization and enablement work.
+
+Sincerely,
+Sean Luka Girgis

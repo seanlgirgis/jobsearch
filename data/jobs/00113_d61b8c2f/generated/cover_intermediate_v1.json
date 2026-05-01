@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 01, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the AWS Data Engineer role with Unisys. My background aligns closely with the need for a remote data engineer who can design, build, optimize, and document AWS-based data pipelines across ingestion, transformation, storage, analytics, and operational use cases.",
+  "body": [
+    "In my recent role at Citi, I architected automated Python and Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints and built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue, Redshift workloads, and structured historical retention. That work required the same practical focus described in this role: reliable ingestion, data cleansing, standardization, schema design, SQL optimization, and production-ready delivery for business and technical stakeholders.",
+    "I also bring strong experience in pipeline performance, operational reliability, and scalable processing. I migrated heavy ML forecasting workloads from on-prem Oracle to Redshift, containerized Python ETL jobs on EC2/ECS, and worked with PySpark, Spark, Parquet, data warehousing, dimensional modeling, and validation patterns. My background in BMC TrueSight, CA APM, AppDynamics, and Dynatrace also gives me a strong telemetry and observability foundation for building pipelines that are measurable, supportable, and fault-aware.",
+    "The areas I would position transparently are Databricks, Terraform, and streaming tools such as MSK/Kafka: I have been actively learning these areas and can connect them to my existing AWS, PySpark, Docker, CI/CD, and enterprise data engineering background. I am a U.S. Citizen and authorized to work without sponsorship, and I am comfortable supporting federal/client environments where documentation, maintainability, and training core staff are important."
+  ],
+  "conclusion": "I would welcome the opportunity to bring my AWS, Python, SQL, ETL, and production data platform experience to this role.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

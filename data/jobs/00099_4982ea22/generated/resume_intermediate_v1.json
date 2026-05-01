@@ -1,0 +1,96 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Dynatrace Observability Lead | APM, Dashboards & Operational Readiness"
+  },
+  "summary": "Dynatrace and APM observability lead with enterprise experience supporting monitoring platforms, telemetry pipelines, dashboards, alert thresholds, and operational reporting across financial-services and compliance-heavy environments. Hands-on background with Dynatrace AppMon/Synthetics, CA APM, BMC TrueSight, AppDynamics, EUM/RUM, transaction tracing, and Python/shell automation. Experienced coordinating monitoring upgrades, standardizing dashboards and alerts, and enabling application and infrastructure teams through documentation, training, and cross-team collaboration.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Observability & Capacity Engineering Lead",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Supported enterprise observability and capacity monitoring across 6,000+ endpoints using BMC TrueSight/TSCO telemetry, reporting workflows, and operational dashboards.",
+        "Integrated monitoring feeds from TrueSight, CA Wily, and AppDynamics into unified reporting layers that improved operational visibility and stakeholder decision-making.",
+        "Built Python/Pandas telemetry pipelines to automate ingestion, transformation, and reporting of performance data, reducing manual operational effort.",
+        "Developed dashboards, capacity reports, and baseline trend analysis used by infrastructure, operations, and leadership teams to monitor reliability and plan remediation.",
+        "Partnered with application, infrastructure, and operations teams to support monitoring adoption, reporting consistency, and operational readiness in a regulated financial-services environment."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer / Dynatrace Monitoring Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and other critical production systems.",
+        "Implemented End-User Monitoring (EUM) and transaction tracing across web and mobile platforms to improve application visibility and issue diagnosis.",
+        "Led Dynatrace 6.5 to 7.0 upgrade with TLS 1.2 enforcement and zero production monitoring regression.",
+        "Analyzed Gomez Synthetic Monitoring and real-user performance metrics through the FAST project, delivering optimization recommendations adopted by engineering teams."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "CA APM SME / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed enterprise CA APM environments with 50+ Enterprise Managers and 4,000–6,000 instrumented agents across distributed systems.",
+        "Led major CA APM upgrade initiatives from 9.1 to 10.1 with zero unplanned downtime while coordinating across cross-functional IT teams.",
+        "Designed dashboards, alerts, SLA thresholds, and Management Modules that became monitoring standards across client environments.",
+        "Built Perl/Korn Shell automation scripts for recurring telemetry extraction, reporting, and operational documentation."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Observability & APM": "Dynatrace AppMon, Dynatrace Synthetics, EUM/RUM, Transaction Tracing, CA APM/Introscope, BMC TrueSight/TSCO, AppDynamics",
+    "Dashboards & Operations": "Custom Dashboards, Alert Thresholds, SLA Reporting, Telemetry Analysis, Operational Reporting, Monitoring Standards, Runbooks, Knowledge Transfer",
+    "Leadership & Enablement": "Monitoring Adoption, Cross-Team Coordination, Stakeholder Communication, Application Team Enablement, Documentation, Training Sessions",
+    "Languages & Automation": "Python, SQL, Perl, Korn Shell Scripting, Java, C++",
+    "Platforms & Infrastructure": "Linux/Unix, AWS S3, AWS Glue, Athena, Redshift, Docker, Git, Airflow",
+    "Data & Analytics": "Telemetry Pipelines, ETL Automation, PySpark, Data Warehousing, Capacity Forecasting, Streamlit"
+  },
+  "projects": [
+    {
+      "name": "FAST Project",
+      "description": "Led telemetry analysis using Dynatrace and Gomez Synthetic Monitoring to identify performance optimization opportunities for critical production systems and improve operational visibility for engineering teams.",
+      "technologies": [
+        "Dynatrace",
+        "Gomez Synthetic Monitoring",
+        "Telemetry Analysis",
+        "Performance Optimization"
+      ]
+    },
+    {
+      "name": "HorizonScale — Capacity & Telemetry Analytics Platform",
+      "description": "Developed telemetry analytics workflows and dashboards supporting capacity forecasting, operational reporting, and infrastructure visibility across large-scale enterprise systems.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Streamlit",
+        "Prophet",
+        "scikit-learn"
+      ]
+    }
+  ]
+}

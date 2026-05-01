@@ -1,0 +1,97 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Cloud Data Engineer | AWS, Python, SQL & ETL Pipelines"
+  },
+  "summary": "Cloud Data Engineer with deep hands-on experience building Python and SQL-based ETL pipelines, AWS data workflows, and analytics-ready datasets. Strong background with AWS S3, Glue, Athena, Redshift, PySpark, data warehousing, pipeline troubleshooting, data quality, and reporting enablement. Experienced supporting fast-moving enterprise teams with reliable, scalable data platforms and clean datasets for downstream analytics and decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints, transforming raw operational data into reporting-ready datasets.",
+        "Developed AWS-based data workflows using S3 landing zones, AWS Glue for ETL, Athena querying, and Redshift-backed forecasting and analytics workloads.",
+        "Designed optimized Oracle schemas and historical data models to support retention, trend analysis, executive reporting, and downstream analytics.",
+        "Implemented data quality, cleansing, and validation checks across telemetry pipelines to improve reporting trust and operational reliability.",
+        "Built Streamlit, matplotlib, seaborn, and plotly dashboards that surfaced capacity trends and performance insights for senior stakeholders.",
+        "Containerized Python ETL jobs on EC2/ECS to support scalable on-demand batch processing for capacity and forecasting workloads."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and critical hospitality systems, supporting operational reporting and performance analytics.",
+        "Led the FAST project to data-mine real-user performance metrics from Gomez Synthetic Monitoring and provide optimization recommendations adopted by engineering teams.",
+        "Participated in AWS cloud migration planning by evaluating monitoring tools, data collection needs, and application performance readiness."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl/Korn Shell automation scripts for data extraction and recurring performance reporting, reducing manual weekly export effort.",
+        "Managed large-scale CA APM environments with 50+ Enterprise Managers and 4,000–6,000 instrumented agents across enterprise systems.",
+        "Designed dashboards, alerts, and SLA thresholds adopted as reporting and monitoring standards across client environments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting, Java, C++",
+    "AWS & Cloud Data": "AWS S3, AWS Glue, Athena, Redshift, ECS, EC2, Cloud Data Platforms",
+    "Data Engineering": "ETL/ELT, Data Pipelines, Data Warehousing, Data Modeling, Data Quality, Pipeline Troubleshooting, Pandas, PySpark, Apache Spark",
+    "Analytics & Reporting": "BI-Ready Datasets, Executive Reporting, Dashboarding, Streamlit, matplotlib, seaborn, plotly",
+    "Tools & Infra": "Airflow, Docker, Git, Linux/Unix, BMC TrueSight / TSCO, AppDynamics, Dynatrace, CA APM / Introscope",
+    "Learning / Exposure": "Snowflake, Databricks, dbt, Terraform, Delta Lake, Apache Iceberg, Kafka"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS data platform using S3, Glue, Athena, Bedrock, and PySpark for scalable ETL processing, analytics-ready datasets, and optimized data access. Addressed small-file processing challenges using Parquet and Snappy compression patterns for enterprise-scale reporting workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "PySpark",
+        "Parquet",
+        "Snappy"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built Python and PySpark data pipelines feeding forecasting workflows and Streamlit dashboards for infrastructure capacity analysis. Reduced forecasting cycles by 90% while producing reliable datasets for reporting and planning.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    }
+  ]
+}

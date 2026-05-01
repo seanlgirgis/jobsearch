@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Data Engineer role with GEI Consultants. My background fits the core of this position: building reliable data pipelines, preparing governed data foundations for analytics and AI workflows, and operating production data systems with strong attention to quality, security, and performance.
+
+At Citi, I built Python and Pandas ETL pipelines that ingested telemetry from more than 6,000 endpoints and turned it into trusted reporting and forecasting outputs. I worked across AWS, Oracle, Redshift, S3, Glue, PySpark patterns, data quality checks, schema design, and operational reporting, which maps closely to GEI's need for pipelines that feed AI solutions and business applications.
+
+I also bring strong experience with the operational side of data engineering. My work included monitoring, alerting, performance analysis, executive dashboards, data validation, compliance-aware controls, and infrastructure risk visibility. That combination is important for AI data foundations because the pipeline has to be reliable, observable, secure, and trusted before the AI layer can scale.
+
+Your posting also calls out RAG, indexing infrastructure, governed data stores, Power BI analytics, Databricks, Delta Lake, Unity Catalog, CI/CD, and infrastructure-as-code. My strongest production foundation is AWS, Python, SQL, PySpark, ETL, telemetry, and governance, and I am actively building modern lakehouse fluency around Databricks, Delta Lake, Unity Catalog, dbt, Snowflake, Terraform, and CI/CD patterns. I would position myself as a practical data engineer who can help bridge enterprise data, AI consumption patterns, and production reliability.
+
+I would welcome the opportunity to bring my data engineering, AI pipeline, and operational reliability background to GEI's digital and AI initiatives.
+
+Sincerely,
+Sean Luka Girgis

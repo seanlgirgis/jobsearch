@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data Engineer contract role supporting Player and Data Analytics. My background fits the core need for Python, SQL, Spark-oriented data pipelines, data modeling, and turning high-volume signals into reliable analytics products.",
+  "body": [
+    "At Citi, I architected Python and Pandas ETL pipelines that ingested P95 telemetry from 6,000+ enterprise endpoints and converted operational signals into trusted reporting and forecasting datasets. I also worked with AWS S3, Glue, Redshift, Oracle, and PySpark to support large-scale analytics, historical retention, and executive reporting. That experience maps well to building robust pipelines for logs, events, and behavioral signals.",
+    "The role emphasizes data quality, reliability, usability, and stakeholder confidence. Those are areas where I have strong hands-on experience: validation checks, reconciliation, data cleansing, repeatable reporting pipelines, metric definitions, and collaboration with business and engineering stakeholders. In prior performance and observability roles, I worked closely with teams to align on metrics, thresholds, dashboards, and actionable insights from telemetry data.",
+    "While my direct domain is banking, hospitality, telecom, and enterprise infrastructure rather than video games, the underlying data problem is familiar: high-volume event signals, business-facing analytics, reliable pipelines, and clear definitions that help teams make decisions. I can bring senior data engineering judgment, strong Python and SQL skills, and practical analytics delivery to a fast-moving player analytics environment."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my data engineering, telemetry analytics, and business-facing pipeline experience can support this team.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

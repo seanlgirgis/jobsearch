@@ -1,0 +1,111 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Principal Data Engineer | PySpark, Data Lake & Enterprise Data Platforms"
+  },
+  "summary": "Principal/Senior Data Engineer with deep enterprise experience building governed, analytics-ready data platforms using Python, SQL, PySpark, AWS, and data lake patterns. Experienced designing reusable ETL pipelines, telemetry-scale processing frameworks, data quality controls, reporting layers, and operational standards in regulated financial services environments. Strong background translating product and stakeholder requirements into scalable data solutions that support analytics, forecasting, governance, and executive decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints, transforming large operational datasets into governed, analytics-ready reporting layers.",
+        "Designed AWS-based data workflows using S3 landing zones, AWS Glue ETL, Athena, and Redshift to support scalable data processing, forecasting, and executive analytics.",
+        "Developed PySpark and parallel processing workflows for large-scale telemetry transformation, reporting, and capacity forecasting use cases.",
+        "Implemented data quality, validation, cleansing, and reconciliation practices across telemetry pipelines to improve trust in downstream analytics and operational reporting.",
+        "Created dimensional and historical reporting structures for capacity analysis, trend detection, seasonal risk forecasting, and stakeholder decision support.",
+        "Partnered with infrastructure, application, and operations teams to define requirements, troubleshoot data issues, and deliver reliable data products in a regulated banking environment."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetic Monitoring for critical hospitality systems, providing operational telemetry for reliability and performance analysis.",
+        "Led the FAST project, data-mining real-user performance metrics from Gomez Synthetic Monitoring to identify optimization opportunities adopted by engineering teams.",
+        "Supported AWS migration planning by assessing monitoring readiness, data collection needs, and operational reporting gaps across production systems."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed enterprise CA APM environments supporting 4,000–6,000 instrumented agents and 50+ Enterprise Managers across distributed systems.",
+        "Designed dashboards, alerts, thresholds, and operational reporting standards adopted across client environments.",
+        "Built Perl/Ksh automation scripts for recurring telemetry extraction and performance reporting, replacing manual weekly export processes.",
+        "Delivered technical documentation, knowledge transfer, and client training for monitoring standards and operational support teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting, Java, C++",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "Airflow, Docker, Git, Streamlit, BMC TrueSight / TSCO, CA APM / Introscope, AppDynamics, Dynatrace",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting pipeline that transformed enterprise telemetry into governed analytics and predictive capacity insights. Reduced forecasting cycles by 90% and surfaced infrastructure bottleneck predictions through Streamlit dashboards.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Quality",
+        "Telemetry Analytics"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS-based lakehouse platform using S3, Glue, Athena, PySpark, and Parquet for scalable ETL processing, analytics-ready datasets, and optimized reporting access patterns.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "PySpark",
+        "Parquet",
+        "Snappy"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an agentic data workflow using Python, FAISS, sentence-transformers, Claude Code, and Grok/xAI API to score jobs, detect semantic duplicates, generate tailored documents, run quality gates, and track application status.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "RAG",
+        "Agentic AI Workflows",
+        "Grok / xAI API"
+      ]
+    }
+  ]
+}

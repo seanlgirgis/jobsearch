@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am applying for the Data Engineer role with Travelers. My background aligns closely with the need to build and operationalize governed, analytics-ready data pipelines that support BI, AI, and ML use cases.
+
+At CITI, I built Python/Pandas ETL pipelines ingesting telemetry from more than 6,000 endpoints and transforming raw operational data into reliable datasets for reporting, analytics, and decision support. I also developed AWS-based data workflows using S3, Glue, Athena, and Redshift to support scalable data processing and forecasting workloads.
+
+My experience maps well to the role’s focus on data quality, governance, and data products. I have designed data models and Oracle schemas for historical retention and trend analysis, applied validation and cleansing practices to improve reporting trust, and worked in a regulated financial environment where data security, access control, and reliability mattered.
+
+I also bring hands-on PySpark, AWS, SQL, data warehousing, and analytics experience, along with a practical approach to debugging pipelines, testing transformations, and collaborating with technical and business stakeholders. My recent work has focused on turning complex infrastructure and telemetry data into trusted products that support BI and ML-enabled insights.
+
+I would welcome the opportunity to bring this AWS, PySpark, data quality, and governed data pipeline experience to Travelers’ data engineering team.
+
+Sincerely,
+Sean Luka Girgis

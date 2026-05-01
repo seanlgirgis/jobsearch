@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote AWS Data Engineer role with Unisys. My background aligns strongly with AWS-based data engineering, Python, SQL, ETL/ELT pipelines, data quality, Redshift-backed analytics, and production data workflow support.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. I also designed AWS-oriented data platform patterns using S3 landing zones, Glue-based ETL, and Redshift analytics to support forecasting, reporting, and operational decision-making.",
+    "Your role's focus on S3, Glue, Redshift, Lake Formation-style data governance, Lambda/Step Functions patterns, batch and streaming architectures, SQL optimization, data modeling, and documentation maps well to my practical experience. I have built large-scale data workflows with Python, SQL, PySpark, Spark, AWS services, data validation routines, and production troubleshooting discipline.",
+    "I would bring a senior delivery mindset to this engagement: reliable ingestion, clean transformations, well-structured data assets, performance-aware storage design, and maintainable documentation for the teams who will operate the platform. I have not worked directly in utility-domain IEC CIM standards, but my experience with regulated banking data, infrastructure telemetry, and enterprise integration gives me a strong foundation for learning that domain quickly."
+  ],
+  "conclusion": "I would welcome the opportunity to support Unisys and its federal client with reliable AWS data engineering delivery.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

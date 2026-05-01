@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Sr. Data Engineer contract role in Dallas. My background fits the core of this position: Python, SQL, AWS data pipelines, data warehousing, data modeling, Spark/PySpark, governance, and production operations.",
+  "body": [
+    "At Citi, I built and operated enterprise data pipelines that ingested telemetry from more than 6,000 endpoints and turned it into forecasting, analytics, and executive reporting. That work required the same practical skills this role calls for: ETL design, schema design, SQL optimization, data validation, reconciliation, operational monitoring, and reliable delivery of data products to downstream teams.",
+    "I have strong hands-on experience with AWS-based data engineering patterns including S3 landing zones, AWS Glue ETL, Redshift analytics workloads, and PySpark/Spark processing. I also bring deep Oracle, SQL, data warehouse, and performance tuning experience from large enterprise environments, including a major Sabre migration from 200+ MySQL nodes to Oracle RAC.",
+    "The Staff/Senior nature of this role also matches how I work. I am comfortable designing pipelines, documenting processes, troubleshooting production issues, improving runbooks, mentoring others, and working directly with analysts, data scientists, product teams, and platform teams. For newer platform areas such as Snowflake, Databricks, Terraform, and Kafka, I can speak honestly from active study and adjacent AWS/Spark/data platform experience without overstating production ownership."
+  ],
+  "conclusion": "I would welcome the opportunity to bring practical senior data engineering, AWS, SQL, Python, and pipeline architecture experience to this team.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

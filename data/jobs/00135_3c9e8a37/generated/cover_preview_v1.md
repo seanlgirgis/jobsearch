@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the remote Staff Data Engineer role supporting technology cost and usage data. My background aligns strongly with AWS infrastructure usage analytics, Python, SQL, scalable ETL pipelines, data modeling, dashboards, optimization, and stakeholder-facing technology reporting.
+
+At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. That work turned infrastructure usage and performance data into reliable datasets for capacity forecasting, utilization analysis, optimization decisions, dashboards, and executive reporting.
+
+Your role's focus on technology cost and usage dashboards, monthly business reviews, financial technology attribution, scalable data models, workflow automation, data quality, and query performance maps closely to the strongest parts of my recent experience. I have built AWS-oriented data platform patterns using S3, Glue, Athena-style lake access, Redshift, PySpark, and SQL to support analytics and forecasting at enterprise scale.
+
+I would bring a staff-level individual contributor mindset: understand the financial and technology use case, design maintainable data models, automate manual work, validate outputs, tune pipelines, document decisions, and mentor other engineers through practical standards and code review. I am actively expanding Databricks, dbt, and modern lakehouse tooling, while my strongest production base is AWS, Python, SQL, ETL, telemetry, usage analytics, and cost/capacity optimization.
+
+I would welcome the opportunity to help Calance's client build trusted cost and usage data products that improve technology efficiency and business decision-making.
+
+Sincerely,
+Sean Luka Girgis

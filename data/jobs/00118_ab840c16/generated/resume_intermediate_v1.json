@@ -1,0 +1,163 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer | AWS / Python / PySpark Data Platform Specialist"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise IT experience and strong recent focus on AWS data platforms, Python ETL, SQL, PySpark, telemetry pipelines, data quality, and production reporting. Built and operated large-scale data pipelines supporting 6,000+ infrastructure endpoints, migrated forecasting workloads to AWS and Redshift, and designed governed data foundations for analytics and AI-enabled workflows. Brings hands-on experience in Spark/PySpark, data modeling, observability, automation, CI/CD concepts, Docker, Airflow, and regulated enterprise data environments.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints across BMC TrueSight/TSCO, replacing manual capacity reporting with repeatable, governed data workflows.",
+        "Built a hybrid AWS and Oracle data platform using S3 landing zones, AWS Glue ETL, Redshift, and Oracle schemas to support analytics, forecasting, executive reporting, and historical retention.",
+        "Developed PySpark and Python processing patterns for large-scale telemetry and ML forecasting workloads, improving scalability and reducing reliance on manual batch processes.",
+        "Designed optimized schemas, partitioning approaches, and SQL reporting layers for capacity, utilization, and seasonal risk analysis across enterprise banking infrastructure.",
+        "Implemented data quality checks, reconciliation logic, monitoring, and operational reporting to improve trust in pipeline outputs used by engineering and leadership teams.",
+        "Partnered with infrastructure, application, and analytics teams to translate capacity, performance, and risk questions into reliable data models, dashboards, and automated reporting flows."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and critical hospitality systems, supporting observability and data-driven performance optimization.",
+        "Led the FAST project, mining real-user and synthetic performance data to identify optimization opportunities adopted by engineering teams.",
+        "Built operational analytics and dashboarding workflows using Dynatrace, Gomez Synthetic Monitoring, QLIK, Linux, Oracle, PostgreSQL, and AWS planning inputs.",
+        "Upgraded Dynatrace from 6.5 to 7.0 and enforced TLS 1.2 security with no production monitoring regression during cutover."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large financial services client, managing 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents across enterprise platforms.",
+        "Built Perl and Korn Shell extraction scripts to automate performance reporting, reducing manual weekly exports and improving consistency of operational data delivery.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules that standardized operational visibility across client environments.",
+        "Collaborated with J2EE, WebLogic, WebSphere, Oracle, SQL, Linux, HPUX, and SunOS teams to investigate performance issues and improve production reliability."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications under load to identify throughput limits, JDBC bottlenecks, thread contention, heap pressure, CPU constraints, and garbage collection issues.",
+        "Configured JMX Monitoring, Wily Introscope, and thread dump automation scripts to improve real-time visibility during performance testing cycles.",
+        "Documented baselines and regression thresholds used by engineering teams as release gate inputs."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while supporting transaction volumes at large enterprise scale.",
+        "Optimized C++/OCCI transaction processing and Oracle access patterns, reducing physical hardware footprint by 95% while maintaining sub-second query latency.",
+        "Built C++/OCCI/OCI validation and testing frameworks to verify migration correctness across millions of transaction records.",
+        "Automated schema conversion and data validation workflows to maintain integrity during phased cutover."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for a government mainframe modernization program.",
+        "Built CICS, MQ Series, XML, VC++, and DB2 interfaces aligned with enterprise architecture and reliability standards."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ billing interfaces using POSIX threads, mutex locks, semaphores, socket programming, and Marconi APIs for telecom billing systems.",
+        "Delivered C/C++/Pro*C/PL/SQL performance improvements that reduced memory usage 75%, improved throughput 20%, and achieved 10x database performance through sequence optimization.",
+        "Maintained AMDOCS billing, EDI, Enabler, CSM, and EMS modules across invoicing, settlement, reporting, and production support workflows.",
+        "Automated WebLogic and WebSphere administration using Korn Shell scripting and operated across HPUX, SunOS, Linux, CVS, and ClearCase environments."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, C++, Java, Perl, Ksh / Korn Shell Scripting",
+    "Cloud & Data Platforms": "AWS S3, AWS Glue, Amazon Redshift, AWS EC2, AWS ECS, Athena, Data Lakes, Data Warehousing, Hive/Hadoop, Apache Spark, PySpark",
+    "Data Engineering": "ETL/ELT Pipeline Design, Data Modeling, Schema Design, Data Quality, Reconciliation, Batch Processing, Data Governance, Operational Reporting, Performance Tuning",
+    "Warehousing & Modeling": "Oracle, Oracle RAC, PL/SQL, MySQL, PostgreSQL, Dimensional Modeling, Star Schema, Snowflake Schema, Redshift, Data Warehouse Optimization",
+    "AI/ML & Analytics": "Capacity Forecasting, Prophet, scikit-learn, ML Data Pipelines, Telemetry Analysis, Streamlit, matplotlib, seaborn, plotly",
+    "DevOps & Orchestration": "Airflow, Docker, Git, CI/CD Pipeline Design, Linux/Unix, Monitoring, Alerting, Incident Response",
+    "Observability": "Dynatrace AppMon, Synthetic Monitoring, CA APM / Introscope, BMC TrueSight / TSCO, AppDynamics, JMX Monitoring, Dashboards, Alerts, Thresholds",
+    "Currently Learning / Adjacent": "Databricks, Delta Lake, Unity Catalog, Snowflake, Terraform, AWS MSK / Apache Kafka, FastAPI, Kubernetes"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end agentic job application pipeline using Python, Claude Code, Grok/xAI, FAISS vector embeddings, and sentence-transformers. The system performs semantic duplicate detection, job scoring, tailoring, resume and cover letter generation, quality gates, and application tracking with structured artifacts and reproducible pipeline steps.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "Grok / xAI API",
+        "RAG",
+        "Agentic AI Workflows",
+        "JSON",
+        "YAML"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built an AI-driven capacity forecasting engine using Python, PySpark, Prophet, scikit-learn, and Streamlit to replace manual forecasting cycles and predict capacity bottlenecks six months ahead from enterprise telemetry data.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Pipelines",
+        "Capacity Planning"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform using S3, Glue, Athena, Bedrock, and PySpark patterns for governed data processing, AI-ready analytics, Text-to-SQL exploration, and optimized Parquet-based data access.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Bedrock",
+        "PySpark",
+        "Parquet",
+        "Data Lake"
+      ]
+    }
+  ]
+}

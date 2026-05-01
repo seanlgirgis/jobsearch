@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 01, 2026  
+
+Dear Hiring Manager,
+
+I am applying for the Dynatrace Observability Engineer contract role with Vaarida Technologies. My background aligns closely with Dynatrace administration, synthetic monitoring, RUM/EUM, transaction tracing, dashboards, telemetry analysis, and observability enablement.
+
+At G6 Hospitality, I managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and other critical production systems. I implemented end-user monitoring and transaction tracing across web and mobile platforms, upgraded Dynatrace from 6.5 to 7.0 with TLS 1.2 enforcement and zero production regression, and used Gomez Synthetic Monitoring data to identify performance optimization opportunities.
+
+At CITI, I supported enterprise observability and telemetry initiatives across more than 6,000 monitored endpoints. I built Python/Pandas telemetry ingestion and reporting workflows, integrated monitoring feeds from BMC TrueSight, CA Wily, and AppDynamics, and developed dashboards used for capacity analysis, operational readiness, and stakeholder visibility.
+
+I also bring strong scripting and operational reporting experience with Python, SQL, Perl, and Korn Shell in Linux/Unix enterprise environments. While I would not overstate unsupported Terraform, Ansible, PowerShell, or Dynatrace API ownership, I can contribute immediately in Dynatrace monitoring operations, onboarding support, dashboarding, documentation, performance analysis, and client enablement.
+
+I would welcome the opportunity to support Vaarida Technologies with practical Dynatrace, APM, telemetry, and observability engineering experience.
+
+Sincerely
+Sean Luka Girgis

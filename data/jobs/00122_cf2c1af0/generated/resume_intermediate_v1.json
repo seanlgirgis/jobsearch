@@ -1,0 +1,161 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Data Analyst & ETL Developer | Python, SQL, Pandas & Reporting"
+  },
+  "summary": "Data engineering and analytics professional with 20+ years of enterprise IT experience building ETL pipelines, reporting workflows, dashboards, data validation routines, and stakeholder-facing analytics. Strong hands-on background in Python, SQL, Pandas, data modeling, automation, performance reporting, and operational data quality. Experienced translating business and technical requirements into reliable datasets, KPI reporting, and actionable insights for decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ enterprise endpoints, replacing manual extraction and standardization workflows.",
+        "Designed reporting datasets and historical schemas in Oracle and Redshift to support capacity analysis, seasonal forecasting, executive reporting, and KPI-style operational dashboards.",
+        "Translated infrastructure and application performance requirements into data models, validation rules, reporting outputs, and recurring analytics workflows.",
+        "Developed data quality, reconciliation, and troubleshooting routines to validate accuracy of telemetry feeds before reporting and forecasting consumption.",
+        "Created interactive Streamlit, matplotlib, seaborn, and plotly dashboards to surface capacity trends, utilization risks, and operational insights for senior stakeholders.",
+        "Automated repetitive reporting and data preparation steps using Python, SQL, Pandas, PySpark, and scripting to improve consistency and reduce manual effort."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led the FAST project, data-mining Gomez Synthetic Monitoring metrics to identify optimization opportunities for Brand.com and other revenue-generating systems.",
+        "Built analytics and operational reporting workflows that converted raw user performance measurements into actionable recommendations for engineering teams.",
+        "Managed Dynatrace AppMon and Synthetic Monitoring for critical hospitality systems, supporting dashboarding, transaction tracing, and performance analysis.",
+        "Collaborated with technical teams during production monitoring upgrades and ensured continuity of reporting and visibility through a Dynatrace 6.5 to 7.0 cutover."
+      ]
+    },
+    {
+      "company": "CA Technologies/ TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl and Korn Shell data-extraction scripts for automated performance reporting, replacing manual weekly export processes.",
+        "Designed dashboards, alerts, SLA thresholds, and operational reports adopted by client teams for application performance visibility.",
+        "Worked with stakeholders and application teams to define monitoring requirements, validate production behavior, and document technical procedures.",
+        "Supported 50+ Enterprise Managers and 4,000–6,000 instrumented agents across a large enterprise monitoring environment."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications under load to identify throughput limits, database bottlenecks, thread pressure, heap memory issues, CPU usage, and garbage collection impact.",
+        "Documented performance baselines and regression thresholds used by engineering teams for release gate decisions.",
+        "Configured JMX Monitoring, Wily Introscope, and thread dump automation to improve visibility during performance testing and troubleshooting."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster supporting large transaction volumes.",
+        "Built validation tooling in C++/OCCI/OCI to verify migration correctness across large transaction datasets.",
+        "Automated schema conversion and data validation workflows to ensure integrity during phased migration cutover.",
+        "Optimized database access and transaction processing, reducing physical hardware footprint by 95% while maintaining sub-second query latency."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect/Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for the IRS CADE modernization project.",
+        "Built CICS, MQ Series, XML, VC++, and DB2 integration components in a structured government modernization environment.",
+        "Created technical documentation and supported disciplined delivery practices for a regulated modernization program."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, EDI, invoicing, settlement, and reporting modules across full telecom billing lifecycle workflows.",
+        "Improved C/C++/Pro*C/PL/SQL billing process performance, reducing memory usage 75%, improving throughput 20%, and achieving 10x database performance via sequence optimization.",
+        "Automated WebLogic/WebSphere administration tasks using Korn Shell scripting to reduce manual deployment and support effort.",
+        "Supervised QA cycles and production bug triage using Mercury Test Director, supporting test case execution and defect resolution."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Data Analysis & Reporting": "Data Analysis, KPI Reporting, Dashboarding, Data Storytelling, Operational Reporting, Executive Reporting, Business Requirements Translation",
+    "ETL & Data Engineering": "ETL, Data Modeling, Data Quality, Data Validation, Data Profiling, Data Wrangling, Workflow Automation, Data Integration, Data Warehousing",
+    "Programming & Analytics": "Python, SQL, Pandas, NumPy, PySpark, Spark, PL/SQL, Perl, Korn Shell Scripting",
+    "Databases & Platforms": "Oracle, Oracle RAC, Redshift, PostgreSQL, MySQL, DB2, Snowflake Concepts, Data Warehouse Concepts",
+    "Visualization & BI": "Streamlit, matplotlib, seaborn, plotly, Power BI Concepts, Dashboards, Performance Reports",
+    "Testing & Delivery": "Test Cases, Integration Testing, Data Reconciliation, QA Support, Documentation, Git, Collaborative Development",
+    "Cloud & Automation": "AWS S3, AWS Glue, AWS EC2, AWS ECS, Athena, Docker, Airflow, Scripting Automation",
+    "Observability & Performance": "Dynatrace AppMon, Gomez Synthetic Monitoring, BMC TrueSight / TSCO, CA APM / Introscope, AppDynamics, Transaction Tracing, Synthetic Monitoring"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python, PySpark, Prophet, scikit-learn, and Streamlit forecasting platform that reduced manual forecasting cycles by 90% and delivered capacity bottleneck predictions 6 months ahead.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Dashboards"
+      ]
+    },
+    {
+      "name": "FAST Project",
+      "description": "Data-mined synthetic monitoring and user performance metrics to identify optimization opportunities for critical revenue-generating hospitality systems.",
+      "technologies": [
+        "Dynatrace",
+        "Gomez Synthetic Monitoring",
+        "Data Mining",
+        "Performance Reporting",
+        "Analytics"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built a Python automation pipeline for semantic duplicate detection, LLM-based scoring, resume tailoring, cover generation, quality checks, and application tracking.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "Grok API",
+        "JSON",
+        "YAML",
+        "Automation"
+      ]
+    }
+  ]
+}

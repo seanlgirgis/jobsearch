@@ -1,0 +1,17 @@
+uuid: 105ff104-d8f7-4732-9d7f-9c907c085f20
+job_id: 00096_105ff104
+original_filename: intake.md
+company: '-  PMonitoring Engineer'
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-01T09:00:21.744165'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)'
+last_decision_at: '2026-05-01T09:00:21.825912'
+last_decision: ACCEPTED

@@ -38,6 +38,41 @@ $generated = Join-Path $jobDir.FullName "generated"
 $resumeJson = Join-Path $generated "resume_intermediate_$Version.json"
 $coverJson = Join-Path $generated "cover_intermediate_$Version.json"
 
+$DownloadsPath = "D:\users\shareuser\Downloads"
+
+if (-not (Test-Path -LiteralPath $DownloadsPath)) {
+    Write-Host "ERROR: Downloads path not found: $DownloadsPath" -ForegroundColor Red
+    exit 1
+}
+
+# Import latest ChatGPT intermediates from Downloads before validation/render.
+$resumeCandidate = Get-ChildItem -LiteralPath $DownloadsPath -File |
+    Where-Object { $_.Name -match "^resume_intermediate_${Version}.*\.json$" } |
+    Sort-Object LastWriteTime -Descending |
+    Select-Object -First 1
+
+$coverCandidate = Get-ChildItem -LiteralPath $DownloadsPath -File |
+    Where-Object { $_.Name -match "^cover_intermediate_${Version}.*\.json$" } |
+    Sort-Object LastWriteTime -Descending |
+    Select-Object -First 1
+
+if (-not $resumeCandidate) {
+    Write-Host "ERROR: No resume_intermediate_${Version}*.json found in $DownloadsPath" -ForegroundColor Red
+    exit 1
+}
+if (-not $coverCandidate) {
+    Write-Host "ERROR: No cover_intermediate_${Version}*.json found in $DownloadsPath" -ForegroundColor Red
+    exit 1
+}
+
+Move-Item -LiteralPath $resumeCandidate.FullName -Destination $resumeJson -Force
+Move-Item -LiteralPath $coverCandidate.FullName -Destination $coverJson -Force
+
+Write-Host ""
+Write-Host "Imported from Downloads:" -ForegroundColor Yellow
+Write-Host "- $($resumeCandidate.Name) -> $resumeJson"
+Write-Host "- $($coverCandidate.Name) -> $coverJson"
+
 if (-not (Test-Path -LiteralPath $resumeJson)) {
     Write-Host "ERROR: Missing $resumeJson" -ForegroundColor Red
     exit 1
