@@ -1,0 +1,98 @@
+Career.io
+
+OakTruss Group logo
+OakTruss Group
+Data Engineer
+Dallas, TX, US
+4 days ago
+
+Summary
+Data Engineer (AI & Cloud Platforms)
+
+Location: Hybrid
+
+Travel: 20% or less
+
+
+
+About the job
+
+OakTruss Group is seeking a Data Engineer (AI & Cloud Platforms) to support the design, development, and maintenance of scalable data systems across internal and client-facing initiatives. This role may be assigned across a variety of projects based on business needs, priorities, and areas of focus.
+
+
+
+This position is ideal for a data engineering professional with a strong engineering mindset and hands-on experience building modern data pipelines, cloud-based platforms, and AI-ready data architectures. The role contributes at both the engineering and solutioning levels, with a strong emphasis on performance, reliability, governance, and secure deployment.
+
+
+
+Externally, this individual may engage with clients as a technical contributor, helping translate business and data requirements into practical engineering solutions. Internally, this role will partner with leadership, PMO, and cross-functional teams to support data-driven capabilities aligned with company strategy.
+
+
+
+Key responsibilities
+
+Design, build, and maintain scalable data pipelines and ETL/ELT workflows for large-scale structured and unstructured datasets
+Develop and manage data warehouses, data lakes, and lakehouse environments
+Build and optimize serverless query solutions using AWS Athena to support cost-effective analysis of data stored in S3
+Help ensure data quality, lineage, and governance across data assets
+Optimize query performance and storage for cost and speed
+Collaborate with data scientists and ML engineers to build and deploy production-ready ML pipelines
+Build feature engineering pipelines and support maintenance of feature stores to enable AI/ML model development
+Integrate LLM-based tools, vector databases, or AI APIs into data workflows where applicable
+Support model monitoring, retraining pipelines, and data drift detection
+Support the architecture and management of cloud-based data infrastructure on AWS, GCP, or Azure
+Leverage AWS services including Athena, Glue, S3, and Redshift to build end-to-end data solutions
+Implement infrastructure-as-code practices using tools such as Terraform, dbt, or similar technologies
+Build and maintain orchestration workflows using Airflow, Prefect, or similar tools
+Partner cross-functionally with analytics, product, and engineering teams to define data requirements
+Document data models, pipeline architecture, and best practices for internal knowledge sharing
+Contribute to engineering standards, code reviews, and continuous improvement efforts
+Support and mentor junior engineers as appropriate
+Support technical execution of data-related engagements in alignment with Statements of Work
+Help ensure timely delivery of data solutions, documentation, and supporting materials
+Collaborate with PMO and leadership to manage priorities, timelines, and deliverables
+Identify and escalate technical risks across projects
+Contribute to internal tools, accelerators, reusable assets, and knowledge sharing
+Stay current with advancements in data engineering, cloud platforms, AI/ML operations, and related technologies
+
+
+Qualifications
+
+Bachelor’s degree in computer science, engineering, data science, information systems, or a related technical field
+5+ years of professional experience in data engineering or related technical roles, including:
+Experience designing and maintaining scalable data pipelines and modern data platforms
+1–2 years supporting AI/ML-adjacent workflows, ML pipelines, or model enablement
+Consulting or client-facing technical experience preferred
+
+
+Preferred technical experience
+
+Proficiency in Python and SQL
+Experience with Spark or distributed computing is a plus
+Hands-on experience with AWS, including Athena, Glue, S3, and Redshift
+Experience building and managing data warehouses, data lakes, or lakehouse environments
+Familiarity with cloud platforms such as AWS, Azure, or GCP and scalable deployment concepts
+Experience with orchestration tools such as Airflow, Prefect, or similar platforms
+Familiarity with infrastructure-as-code and transformation tooling such as Terraform, dbt, or similar technologies
+Familiarity with MLOps tools and concepts such as MLflow, Kubeflow, SageMaker, or similar platforms
+Understanding of data quality, governance, lineage, and storage optimization principles
+Exposure to LLM-based tools, vector databases, or AI APIs within data workflows is a plus
+
+
+Professional attributes
+
+Ability to contribute at both technical and advisory levels with credibility in both spaces
+Strong collaboration skills and the ability to work effectively across technical and business teams
+Strong communication skills, with the ability to translate technical concepts into clear, actionable insights
+Strong problem-solving and systems-thinking capabilities
+High level of ownership, accountability, and attention to detail
+Ability to work independently while contributing to initiatives under guidance and deadlines
+Commitment to delivering high-quality, scalable, and efficient solutions
+
+
+Why join us
+
+Opportunity to work across modern data engineering, cloud platform, analytics, and AI-adjacent initiatives
+Exposure to meaningful internal and client-facing work
+Collaborative environment with cross-functional partnership
+Strong opportunity to contribute to scalable, high-quality technical so

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Data Engineer / Database Support contract role with Computer Enterprises Inc. My background aligns strongly with Oracle, MySQL, high-volume transaction systems, advanced SQL, performance tuning, production support, monitoring, runbooks, and operational data engineering.
+
+At Sabre, I led a high-volume migration from 200+ MySQL nodes to a 6-node Oracle RAC cluster, built validation tooling, automated schema conversion, and optimized transaction processing while maintaining sub-second query latency. That experience maps directly to the role's focus on enterprise OLTP databases, Oracle/MySQL, performance remediation, operational readiness, and mission-critical transaction support.
+
+At Citi and earlier enterprise roles, I built SQL, Python, Oracle, Redshift, and reporting workflows that collected, normalized, validated, and analyzed large operational datasets. I also improved runbooks, troubleshooting procedures, monitoring-driven reporting, reconciliation checks, and production support processes for recurring data and performance workflows.
+
+I would bring a practical operational mindset: own schemas/domains carefully, tune SQL, validate restore and replication assumptions, document runbooks, automate repeatable checks, communicate clearly across engineering and operations, and drive technical workstreams to closure. I would be transparent that Data Guard, GoldenGate, Exadata, and enterprise MySQL replication are areas where I have adjacent experience and can ramp, while my strongest production base is Oracle RAC, MySQL migration, advanced SQL, performance analysis, scripting, and incident-oriented support.
+
+I would welcome the opportunity to help CEI's client strengthen database platform reliability, performance, automation, and operational readiness.
+
+Sincerely,
+Sean Luka Girgis

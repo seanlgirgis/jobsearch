@@ -39,6 +39,7 @@ def load_job_data(job_folder: Path) -> dict:
         'company': 'Unknown',
         'role': 'Unknown',
         'status': 'Unknown',
+        'applied_date': 'N/A',
         'description': '',
         'path': job_folder
     }
@@ -54,6 +55,12 @@ def load_job_data(job_folder: Path) -> dict:
                 # Prioritize application status, fall back to root status
                 app_status = meta.get('application', {}).get('last_status')
                 data['status'] = app_status if app_status else meta.get('status', 'Unknown')
+                data['applied_date'] = (
+                    meta.get('application', {}).get('applied_date')
+                    or meta.get('apply_date')
+                    or meta.get('applied_date')
+                    or 'N/A'
+                )
         except Exception:
             pass
 
@@ -411,14 +418,15 @@ It performs a fuzzy search on Company, Role, Status, and UUID.
                 table.add_column("Company", style="cyan")
                 table.add_column("Role", style="green")
                 table.add_column("Status")
+                table.add_column("Applied", style="magenta")
                 table.add_column("Path", style="yellow")
                 
                 for idx, m in enumerate(matches):
-                    table.add_row(str(idx+1), m['company'], m['role'], m['status'], str(m['path'].absolute()))
+                    table.add_row(str(idx+1), m['company'], m['role'], m['status'], str(m.get('applied_date', 'N/A')), str(m['path'].absolute()))
                 console.print(table)
             else:
                 for idx, m in enumerate(matches):
-                    print(f"{idx+1}. {m['company']} - {m['role']} ({m['status']})")
+                    print(f"{idx+1}. {m['company']} - {m['role']} ({m['status']}) | Applied: {m.get('applied_date', 'N/A')}")
                     print(f"   Path: {m['path'].absolute()}")
             
             if args.search_only:

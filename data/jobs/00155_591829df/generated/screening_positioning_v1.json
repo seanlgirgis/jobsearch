@@ -1,0 +1,22 @@
+{
+  "role": "Data Engineer (AI & Cloud Platforms) - OakTruss Group",
+  "fit": "Strong fit for AWS, Python, SQL, Athena/S3/Glue/Redshift, lakehouse concepts, AI/ML-adjacent datasets, RAG/vector workflows, documentation, consulting, and production troubleshooting.",
+  "core_pitch": "I bring senior AWS data engineering experience with S3, Glue, Redshift, Athena-style querying, Python, SQL, PySpark, data quality, and production support, plus current hands-on AI/RAG workflow work. I can contribute to both engineering execution and client-facing solutioning.",
+  "honest_ramp_areas": [
+    "Terraform production ownership",
+    "dbt production ownership",
+    "MLflow/Kubeflow/SageMaker production ownership",
+    "formal feature store management",
+    "Prefect production ownership"
+  ],
+  "interview_focus": [
+    "Athena over S3, partitions, file formats, cost control",
+    "Glue catalog and ETL patterns",
+    "Lakehouse architecture and table formats",
+    "Data quality, lineage, governance",
+    "Airflow/Prefect orchestration concepts",
+    "RAG/vector database architecture",
+    "Feature engineering pipelines and model monitoring concepts",
+    "Consulting communication and SOW-aligned delivery"
+  ]
+}

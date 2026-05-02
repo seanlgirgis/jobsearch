@@ -1,0 +1,162 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data / Database Platform Engineer"
+  },
+  "summary": "Senior Data Engineer and database platform specialist with 20+ years of enterprise IT experience across high-volume OLTP systems, Oracle/SQL performance tuning, data infrastructure, automation, monitoring, and production operational readiness. Strong background designing schemas, improving query and platform performance, validating data movement, building runbooks, and collaborating across engineering, operations, and support teams in mission-critical environments.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python/Pandas data pipelines ingesting P95 telemetry from 6,000+ infrastructure endpoints, replacing manual operational reporting processes and improving reliability of production capacity data.",
+        "Designed and optimized Oracle schemas for historical retention, trend analysis, and seasonal risk forecasting across enterprise infrastructure datasets.",
+        "Improved operational readiness by integrating monitoring feeds from BMC TrueSight/TSCO, CA Wily, and AppDynamics into unified reporting used for capacity, performance, and incident-prevention analysis.",
+        "Built repeatable reporting and automation workflows to support infrastructure risk reviews, performance remediation, and executive-level operational visibility.",
+        "Partnered with engineering and operations teams to identify underutilized infrastructure, performance bottlenecks, and capacity risks before they became production incidents.",
+        "Supported data quality, reconciliation, and validation practices across telemetry ingestion, transformation, aggregation, and reporting layers."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Synthetic Monitoring for Brand.com and critical hospitality systems, supporting production monitoring, alerting, and performance analysis.",
+        "Led the FAST project, mining real-user and synthetic performance metrics to surface optimization recommendations adopted by engineering teams.",
+        "Upgraded Dynatrace from 6.5 to 7.0 and enforced TLS 1.2 security with zero regression in production monitoring during cutover.",
+        "Integrated HP Performance Center with Dynatrace to correlate load testing results with application and infrastructure telemetry."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large financial-services environment, managing 50+ Enterprise Managers and 4,000-6,000 instrumented agents across mission-critical applications.",
+        "Led large-scale CA APM upgrades from 9.1 to 10.1 with zero unplanned downtime, coordinating implementation, validation, and operational handoff across teams.",
+        "Designed dashboards, alerts, SLA thresholds, and Management Modules that became standards across client monitoring environments.",
+        "Built Perl and Ksh automation scripts for repeatable performance reporting, reducing manual weekly exports and improving operational consistency.",
+        "Provided sizing recommendations, onboarding guidance, technical documentation, and troubleshooting support for enterprise application monitoring."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications under load to identify throughput limits and bottlenecks in JDBC connections, threads, heap memory, CPU, and garbage collection.",
+        "Installed and configured JMX Monitoring, Wily Introscope, and thread-dump automation scripts for real-time visibility during performance testing.",
+        "Documented performance baselines and regression thresholds used by engineering teams for release-gate decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster supporting transaction volume at extreme scale.",
+        "Optimized core transaction processing using C++ and OCCI, reducing physical hardware footprint by 95% while maintaining sub-second query latency.",
+        "Built C++/OCCI/OCI validation tooling to test migration correctness across millions of transaction records.",
+        "Automated schema conversion and data validation workflows to ensure data integrity throughout phased migration cutover."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for the IRS CADE mainframe modernization project.",
+        "Built CICS, MQ Series, and XML messaging interfaces in VC++ with DB2 backend, following government system architecture standards."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS Projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability multithreaded C++ billing interfaces using POSIX threads, mutex locks, semaphores, socket programming, and Marconi APIs for telecom billing workloads.",
+        "Delivered performance improvements in C/C++/Pro*C/PL/SQL billing processes, reducing memory usage 75%, improving throughput 20%, and achieving 10x database performance through sequence optimization.",
+        "Maintained and enhanced AMDOCS billing, invoicing, settlement, and reporting modules across the full production billing lifecycle.",
+        "Automated WebLogic/WebSphere system administration using Korn Shell scripting, reducing manual deployment and support effort.",
+        "Supported QA cycles and production bug triage using Mercury Test Director, coordinating fixes across development and test teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Databases & SQL": "Oracle, Oracle RAC, SQL, PL/SQL, Pro*C, MySQL, PostgreSQL, DB2, schema design, partitioning, query optimization, performance tuning",
+    "Data Engineering": "Python, Pandas, ETL design, data validation, data quality, reconciliation, data warehousing, telemetry pipelines, operational reporting",
+    "Production Operations": "Monitoring, alerting, runbooks, incident response support, operational readiness, performance remediation, capacity planning, SLA/SLO reporting",
+    "Monitoring & Performance": "BMC TrueSight / TSCO, CA APM / Introscope, Dynatrace AppMon, AppDynamics, JMX Monitoring, synthetic monitoring, transaction tracing",
+    "Automation & Platforms": "Ksh / Korn Shell, Perl, Linux/Unix, Docker, Git, Airflow, AWS S3, AWS Glue, Amazon Redshift",
+    "Programming": "Python, SQL, C++, C, Java, PL/SQL, Pro*C"
+  },
+  "projects": [
+    {
+      "name": "Enterprise Telemetry and Capacity Data Platform",
+      "description": "Built and maintained Python/Pandas data pipelines that normalized infrastructure telemetry from 6,000+ endpoints into Oracle-backed reporting structures for capacity analysis, performance remediation, and operational readiness.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "Oracle",
+        "SQL",
+        "BMC TrueSight",
+        "CA APM",
+        "AppDynamics"
+      ]
+    },
+    {
+      "name": "High-Volume MySQL to Oracle RAC Migration",
+      "description": "Led data and system migration from 200+ MySQL nodes to a 6-node Oracle RAC cluster, using C++/OCCI/OCI validation tooling and schema conversion workflows to protect correctness and performance during cutover.",
+      "technologies": [
+        "MySQL",
+        "Oracle RAC",
+        "SQL",
+        "C++",
+        "OCCI",
+        "OCI",
+        "Data Validation"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an automated Python pipeline with semantic duplicate detection, structured quality gates, document generation, and application tracking, demonstrating practical automation, workflow design, and data validation patterns.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "Grok API",
+        "YAML",
+        "JSON",
+        "Automation"
+      ]
+    }
+  ]
+}

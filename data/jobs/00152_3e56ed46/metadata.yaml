@@ -1,0 +1,26 @@
+uuid: 3e56ed46-74ef-4348-9f72-3a299e793fcb
+job_id: 00152_3e56ed46
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-01T16:24:59.896760'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)'
+last_decision_at: '2026-05-01T16:24:59.990265'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-05-01'
+  applied_method: Direct Client TIM
+  application_notes: Applied via chatGpt pipeline
+  history:
+  - date: '2026-05-01'
+    status: Applied
+    notes: Applied via chatGpt pipeline

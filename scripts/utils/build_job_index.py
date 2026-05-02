@@ -136,7 +136,11 @@ def collect_job_data() -> Tuple[List[str], List[Dict[str, str]]]:
             "description_path": description_path,
             "company": meta.get("company", "Unknown"),
             "role": meta.get("role", "Unknown"),
-            "apply_date": meta.get("application", {}).get("date", "N/A"),
+            "apply_date": (
+                meta.get("application", {}).get("applied_date")
+                or meta.get("application", {}).get("date")
+                or "N/A"
+            ),
             "status": meta.get("status", "Unknown"),
         })
 

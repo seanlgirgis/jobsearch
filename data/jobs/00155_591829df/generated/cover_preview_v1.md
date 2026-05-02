@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear OakTruss Group Hiring Team,
+
+I am interested in the Data Engineer (AI & Cloud Platforms) role. My background aligns strongly with AWS data engineering, Python, SQL, scalable ETL/ELT pipelines, Athena/S3/Glue/Redshift patterns, AI-ready datasets, governance, documentation, and client-facing technical delivery.
+
+At Citi, I built automated Python and Pandas ETL pipelines that standardized telemetry from 6,000+ enterprise endpoints and supported forecasting, executive reporting, and operational decision-making. I also designed AWS-oriented data platform patterns using S3 landing zones, Glue-based ETL, Athena-style querying, Redshift analytics, PySpark, and Spark to support curated datasets and scalable reporting.
+
+OakTruss' focus on modern data pipelines, cloud platforms, lakehouse environments, Athena cost-effective querying, data quality, lineage, governance, ML pipeline support, LLM/vector/API integration, orchestration, documentation, and reusable assets maps closely to my practical experience and current work. I have built validation routines, forecasting datasets, dashboard-ready data products, AI/RAG-style workflows, and repeatable engineering artifacts.
+
+I would bring both the engineering and solutioning mindset this role needs: clarify requirements, design reliable data flows, optimize storage and query patterns, document architecture, support technical delivery, communicate risks early, and help teams turn data into usable internal or client-facing capabilities. I am strongest in AWS, Python, SQL, PySpark, data quality, and production troubleshooting, with active ramp areas in Terraform, dbt, Prefect, MLflow/SageMaker, and formal feature-store tooling.
+
+I would welcome the opportunity to help OakTruss deliver scalable, secure, AI-ready cloud data solutions for internal and client-facing initiatives.
+
+Sincerely,
+Sean Luka Girgis

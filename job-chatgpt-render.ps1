@@ -45,33 +45,22 @@ if (-not (Test-Path -LiteralPath $DownloadsPath)) {
     exit 1
 }
 
-# Import latest ChatGPT intermediates from Downloads before validation/render.
-$resumeCandidate = Get-ChildItem -LiteralPath $DownloadsPath -File |
-    Where-Object { $_.Name -match "^resume_intermediate_${Version}.*\.json$" } |
-    Sort-Object LastWriteTime -Descending |
-    Select-Object -First 1
+# Import all ChatGPT JSON artifacts from Downloads before validation/render.
+$jsonCandidates = Get-ChildItem -LiteralPath $DownloadsPath -File -Filter "*.json" |
+    Sort-Object LastWriteTime
 
-$coverCandidate = Get-ChildItem -LiteralPath $DownloadsPath -File |
-    Where-Object { $_.Name -match "^cover_intermediate_${Version}.*\.json$" } |
-    Sort-Object LastWriteTime -Descending |
-    Select-Object -First 1
-
-if (-not $resumeCandidate) {
-    Write-Host "ERROR: No resume_intermediate_${Version}*.json found in $DownloadsPath" -ForegroundColor Red
+if (-not $jsonCandidates) {
+    Write-Host "ERROR: No .json files found in $DownloadsPath" -ForegroundColor Red
     exit 1
 }
-if (-not $coverCandidate) {
-    Write-Host "ERROR: No cover_intermediate_${Version}*.json found in $DownloadsPath" -ForegroundColor Red
-    exit 1
-}
-
-Move-Item -LiteralPath $resumeCandidate.FullName -Destination $resumeJson -Force
-Move-Item -LiteralPath $coverCandidate.FullName -Destination $coverJson -Force
 
 Write-Host ""
 Write-Host "Imported from Downloads:" -ForegroundColor Yellow
-Write-Host "- $($resumeCandidate.Name) -> $resumeJson"
-Write-Host "- $($coverCandidate.Name) -> $coverJson"
+foreach ($jsonFile in $jsonCandidates) {
+    $dest = Join-Path $generated $jsonFile.Name
+    Move-Item -LiteralPath $jsonFile.FullName -Destination $dest -Force
+    Write-Host "- $($jsonFile.Name) -> $dest"
+}
 
 if (-not (Test-Path -LiteralPath $resumeJson)) {
     Write-Host "ERROR: Missing $resumeJson" -ForegroundColor Red
@@ -108,6 +97,55 @@ python scripts\08_render_cover_letter.py --uuid $uuid --version $Version
 if ($LASTEXITCODE -ne 0) {
     Write-Host "Cover render failed." -ForegroundColor Red
     exit $LASTEXITCODE
+}
+
+# Optional PDF conversion for sites that require PDF uploads.
+$docxTargets = @()
+$resumeDocx = Join-Path $generated "resume.docx"
+$resumeVersionedDocx = Join-Path $generated ("resume_{0}.docx" -f $Version)
+$coverDocx = Join-Path $generated "cover.docx"
+
+if (Test-Path -LiteralPath $resumeDocx) { $docxTargets += $resumeDocx }
+if (Test-Path -LiteralPath $resumeVersionedDocx) { $docxTargets += $resumeVersionedDocx }
+if (Test-Path -LiteralPath $coverDocx) { $docxTargets += $coverDocx }
+
+if ($docxTargets.Count -gt 0) {
+    $pdfTargets = @()
+    foreach ($docxPath in $docxTargets) {
+        $pdfTargets += [System.IO.Path]::ChangeExtension($docxPath, ".pdf")
+    }
+
+    python -c "import importlib.util,sys; sys.exit(0 if importlib.util.find_spec('docx2pdf') else 1)"
+    $hasDocx2Pdf = ($LASTEXITCODE -eq 0)
+
+    if ($hasDocx2Pdf) {
+        Write-Host ""
+        Write-Host "Converting DOCX to PDF..." -ForegroundColor Yellow
+        foreach ($docxPath in $docxTargets) {
+            $pdfPath = [System.IO.Path]::ChangeExtension($docxPath, ".pdf")
+            $pyCmd = "from docx2pdf import convert; convert(r'''{0}''', r'''{1}''')" -f $docxPath, $pdfPath
+            python -c $pyCmd
+            if ($LASTEXITCODE -ne 0) {
+                Write-Host "WARNING: PDF conversion failed for $docxPath" -ForegroundColor Yellow
+            } else {
+                Write-Host "PDF -> $pdfPath"
+            }
+        }
+    } else {
+        Write-Host ""
+        Write-Host "WARNING: docx2pdf not installed; skipping PDF conversion." -ForegroundColor Yellow
+        Write-Host "Install with: pip install docx2pdf" -ForegroundColor Yellow
+    }
+
+    Write-Host ""
+    Write-Host "PDF output status:" -ForegroundColor Yellow
+    foreach ($pdfPath in $pdfTargets) {
+        if (Test-Path -LiteralPath $pdfPath) {
+            Write-Host "OK      $pdfPath"
+        } else {
+            Write-Host "MISSING $pdfPath" -ForegroundColor Yellow
+        }
+    }
 }
 
 $qualityArgs = @("scripts\quality_check.py", "--uuid", $uuid, "--version", $Version)

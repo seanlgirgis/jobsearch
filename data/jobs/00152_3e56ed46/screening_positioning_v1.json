@@ -1,0 +1,17 @@
+{
+  "role": "Lead Data Engineer - Nobilis Group",
+  "recruiter": "Tim McKelvey, NSR USA",
+  "hiring_manager": "Dan Huls, Director of Data and Analytics",
+  "core_pitch": "I am a hands-on Lead Data Engineer with deep SQL, Python, ETL, database design, reporting automation, and production troubleshooting experience. My strongest background is enterprise SQL/Oracle/Redshift/AWS data platforms, and I can transfer that into Azure Data Factory and the Microsoft reporting stack quickly.",
+  "how_to_explain_azure_gap": "My deepest production cloud data work has been AWS and Oracle/Redshift-style warehousing, but the engineering patterns transfer directly: source integration, pipeline orchestration, data flows, schema design, validation, monitoring, and reporting enablement. I have been actively preparing for Azure Data Factory / Fabric concepts and can ramp fast because the core work is ETL architecture and SQL-first data engineering.",
+  "interview_focus": [
+    "SQL CTEs, joins, window functions, query tuning",
+    "ETL architecture and source-to-target mapping",
+    "How to design ADF-style pipelines, triggers, linked services, datasets, integration runtimes",
+    "Dimensional modeling for Power BI reporting",
+    "Data quality checks: reconciliation, row counts, duplicate checks, null checks, anomaly checks",
+    "API ingestion design",
+    "Migration playbook from legacy/manual/SSRS-style reporting into Power BI-ready datasets",
+    "How to mentor a 5-person data team while staying hands-on"
+  ]
+}

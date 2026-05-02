@@ -1,0 +1,21 @@
+{
+  "role": "Data Engineer - ManpowerGroup",
+  "fit": "Good broad fit for Python, SQL, data modeling, Spark/PySpark, ETL, relational databases, workflow automation, visualization support, and cross-functional delivery.",
+  "core_pitch": "I bring senior enterprise data engineering experience with Python, SQL, data modeling, ETL automation, Spark/PySpark, relational databases, AWS data services, data quality, and production troubleshooting. I have repeatedly replaced manual reporting and data preparation with reliable automated pipelines.",
+  "honest_ramp_areas": [
+    "Direct production Hadoop ownership",
+    "Direct production Kafka ownership",
+    "Direct production MongoDB ownership",
+    "Hands-on Tableau/Power BI report development if required beyond data enablement"
+  ],
+  "interview_focus": [
+    "Conceptual vs logical vs physical data models",
+    "ETL pipeline design",
+    "Spark basics and PySpark transformations",
+    "Kafka basics",
+    "SQL tuning and relational modeling",
+    "Data quality checks",
+    "Workflow orchestration",
+    "How to automate manual reporting processes"
+  ]
+}

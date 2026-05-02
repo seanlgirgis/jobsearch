@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote Data Engineer role with IEM. My background aligns well with SQL, Python, ELT pipeline development, data modeling, analytics-ready datasets, documentation, Git-based workflows, and AI-assisted data engineering.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints. I also designed warehouse-style datasets, validation routines, reporting structures, and AWS/Redshift-oriented data platform patterns that supported forecasting, dashboards, and operational decision-making.",
+    "IEM's focus on Snowflake, dbt, Fivetran, Tableau-ready models, data quality tests, documentation, source integration, and stakeholder collaboration maps closely to the analytics engineering direction of my work. I have repeatedly turned raw operational data into reliable, modeled datasets, documented transformation logic, tuned queries, investigated data issues, and supported production reporting workflows.",
+    "I would be transparent that my deepest production experience is Oracle, Redshift, AWS, Python, SQL, and PySpark rather than Snowflake/dbt/Fivetran as the primary stack. However, I am actively building those modern data-stack skills, and the core patterns are familiar: ingest data reliably, model it clearly, test it, document it, optimize it, and make it useful for business teams. I also bring hands-on AI-assisted development experience using Claude Code and agentic workflows to accelerate structured data engineering tasks."
+  ],
+  "conclusion": "I would welcome the opportunity to help IEM build trusted analytics-ready datasets that support Finance, Production, Supply Chain, Engineering, and operational decision-making.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

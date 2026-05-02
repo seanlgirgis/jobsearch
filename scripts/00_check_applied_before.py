@@ -20,6 +20,7 @@ Exit codes:
 import argparse
 import re
 import sys
+from datetime import datetime, date
 from pathlib import Path
 from difflib import SequenceMatcher
 from typing import Any, Dict, List, Optional, Tuple
@@ -29,6 +30,55 @@ from scripts.utils.vector_ops import get_embedding, load_index_and_metadata
 
 DEFAULT_THRESHOLD = 0.82
 DEFAULT_TOP_K    = 5
+
+
+def _safe_text(value: Any) -> str:
+    if value is None:
+        return ""
+    return str(value).strip()
+
+
+def _extract_apply_date(meta: Dict[str, Any]) -> str:
+    """Best-effort extraction of applied date from indexed metadata shape(s)."""
+    application = meta.get("application", {}) if isinstance(meta.get("application"), dict) else {}
+    candidates = [
+        meta.get("apply_date"),
+        meta.get("applied_date"),
+        application.get("applied_date"),
+        application.get("date"),
+        application.get("last_status_date"),
+    ]
+    for candidate in candidates:
+        txt = _safe_text(candidate)
+        if txt and txt.lower() not in {"n/a", "na", "none", "null", "unknown"}:
+            return txt
+    return "N/A"
+
+
+def _parse_date(value: str) -> Optional[date]:
+    txt = _safe_text(value)
+    if not txt or txt == "N/A":
+        return None
+    # Common formats: YYYY-MM-DD and ISO timestamps.
+    for fmt in ("%Y-%m-%d", "%Y/%m/%d"):
+        try:
+            return datetime.strptime(txt[:10], fmt).date()
+        except ValueError:
+            pass
+    try:
+        return datetime.fromisoformat(txt.replace("Z", "+00:00")).date()
+    except ValueError:
+        return None
+
+
+def _days_ago_label(value: str) -> str:
+    d = _parse_date(value)
+    if d is None:
+        return "N/A"
+    delta = (date.today() - d).days
+    if delta < 0:
+        return f"in {-delta}d"
+    return f"{delta}d"
 
 
 def load_intake_text(file_path: str) -> str:
@@ -54,8 +104,8 @@ def check_duplicates_semantic(
     distances, indices = index.search(emb, top_k)
 
     print(f"\n[INFO] Query against {index.ntotal} past jobs (threshold {threshold:.2f}, showing top {top_k})")
-    print(f"{'Sim':<8} | {'Apply Date':<12} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
-    print("-" * 100)
+    print(f"{'Sim':<8} | {'Applied':<12} | {'Age':<7} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
+    print("-" * 112)
 
     found_duplicate = False
     for i in range(top_k):
@@ -74,12 +124,13 @@ def check_duplicates_semantic(
         company = (meta.get("company", "Unknown"))[:18]
         role    = (meta.get("role",    "Unknown"))[:28]
         uuid    = meta.get("uuid",     "????")[:8]
-        date    = meta.get("apply_date", "N/A")
+        date_applied = _extract_apply_date(meta)
+        age_days = _days_ago_label(date_applied)
         status  = meta.get("status",   "Unknown")[:8]
 
-        print(f"{score:.4f} | {date:<12} | {company:<20} | {role:<30} | {uuid} | {status} {flag}")
+        print(f"{score:.4f} | {date_applied[:12]:<12} | {age_days:<7} | {company:<20} | {role:<30} | {uuid} | {status} {flag}")
 
-    print("-" * 100)
+    print("-" * 112)
 
     if found_duplicate:
         print(f"\n[FLAGGED] Semantic duplicate likely (>= {threshold:.2f})")
@@ -146,8 +197,8 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
     top = scored[:max(1, top_k)]
 
     print("\n[INFO] Lexical fallback duplicate check (company/title/location similarity)")
-    print(f"{'Score':<8} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
-    print("-" * 95)
+    print(f"{'Score':<8} | {'Applied':<12} | {'Age':<7} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
+    print("-" * 112)
 
     flagged = False
     for score, meta in top:
@@ -155,13 +206,15 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
         role = str(meta.get("role", "Unknown"))[:28]
         uuid = str(meta.get("uuid", "????"))[:8]
         status = str(meta.get("status", "Unknown"))[:8]
+        date_applied = _extract_apply_date(meta)
+        age_days = _days_ago_label(date_applied)
         is_dupe = score >= 0.78
         if is_dupe:
             flagged = True
         flag = "DUPE" if is_dupe else ""
-        print(f"{score:.4f} | {company:<20} | {role:<30} | {uuid} | {status:<10} {flag}")
+        print(f"{score:.4f} | {date_applied[:12]:<12} | {age_days:<7} | {company:<20} | {role:<30} | {uuid} | {status:<10} {flag}")
 
-    print("-" * 95)
+    print("-" * 112)
     if flagged:
         return True, "lexical fallback flagged likely duplicate"
     return False, "lexical fallback found no likely duplicate"

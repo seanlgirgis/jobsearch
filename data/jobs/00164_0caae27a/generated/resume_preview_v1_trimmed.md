@@ -1,0 +1,73 @@
+# Tailored Resume Preview
+
+**Sean Luka Girgis**  
+Big Data Platform Engineer | Hadoop, Spark, Linux Automation & Platform Reliability  
+214-315-2190 | seanlgirgis@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/sean-girgis-43bb1b5/) | [GitHub](https://github.com/seanlgirgis) | [Portfolio](https://seanlgirgis.github.io)  
+
+## Professional Summary
+Senior Data Engineer and platform-oriented technologist with 20+ years of enterprise experience across big data processing, Hadoop/Hive, Spark/PySpark, Linux/Unix automation, telemetry platforms, performance engineering, monitoring, and production reliability. Experienced acting as a bridge between operations, engineering, infrastructure, and application teams to improve platform stability, resource utilization, observability, documentation, and operational readiness. Strong fit for Hadoop/Spark platform strategy roles requiring technical leadership, cluster health awareness, capacity optimization, scripting automation, and production support discipline.
+
+## Professional Experience
+### Senior Capacity & Data Engineer at CITI
+2017-11 – 2025-12
+- Built and supported large-scale telemetry data pipelines using Python, Pandas, PySpark, AWS Glue, S3, Athena, Redshift, and Oracle to process infrastructure metrics from 6,000+ endpoints.
+- Applied Hadoop/Hive, Spark, and distributed data processing concepts to large telemetry and forecasting workloads, improving scalable transformation and analytics readiness.
+- Served as a liaison across infrastructure, application, monitoring, and stakeholder teams to translate operational needs into reliable data workflows, reporting layers, and platform improvements.
+- Monitored production data pipelines, investigated failures, reconciled source feeds, and improved reliability across BMC TrueSight, CA Wily, AppDynamics, and Oracle reporting environments.
+- Optimized resource usage and capacity planning through data mining, utilization analysis, forecasting, and infrastructure trend reporting across enterprise banking systems.
+- Designed historical retention and schema strategies for large operational datasets, supporting seasonal forecasting, reporting, and performance analysis.
+- Created documentation, runbooks, support patterns, and operational reporting to improve maintainability and reduce manual handoffs.
+- Used Python, SQL, Linux/Unix scripting, and automation patterns to reduce repetitive reporting work and support production data operations.
+
+### Performance Engineer at G6 Hospitality LLC
+2017-03 – 2017-11
+- Managed Dynatrace AppMon and Gomez Synthetic Monitoring platforms for Brand.com and critical hospitality systems, supporting platform health, transaction visibility, and production troubleshooting.
+- Led the FAST project, mining real-user and synthetic performance data to identify optimization opportunities and communicate findings to engineering stakeholders.
+- Supported monitoring platform upgrades and TLS 1.2 security enforcement with zero production monitoring regression during cutover.
+- Built operational dashboards and reporting outputs that improved visibility into performance trends, service behavior, and reliability risks.
+
+### SME for CA APM (Senior Consultant) at CA Technologies / TIAA-CREF
+2011 – 2016
+- Served as enterprise APM SME managing 50+ Enterprise Managers and 4,000–6,000 instrumented agents, supporting large-scale telemetry operations and production visibility.
+- Led major platform upgrades from CA APM 9.1 to 10.1 with zero unplanned downtime, coordinating technical impacts across cross-functional IT teams.
+- Built Perl and Korn shell automation for telemetry extraction and reporting, replacing manual exports with repeatable operational workflows.
+- Defined dashboards, alerts, SLA thresholds, documentation, and operational practices adopted as standards across client environments.
+- Collaborated with J2EE/WebLogic, infrastructure, and operations teams to troubleshoot complex platform and application performance issues.
+
+### Performance Test Engineer at AT&T
+2010-08 – 2011-07
+- Analyzed large J2EE telecom systems under load to identify throughput limits, JDBC bottlenecks, memory pressure, CPU behavior, and thread contention.
+- Installed and configured JMX Monitoring, Wily Introscope, and thread-dump automation to improve runtime visibility during performance testing.
+- Documented performance baselines, operational thresholds, and regression findings used by engineering teams for release decisions.
+
+### Senior Systems & Data Migration Engineer at Sabre
+2008-05 – 2010
+- Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while maintaining data integrity and transaction performance.
+- Optimized C++/OCCI transaction processing and Oracle access patterns, reducing hardware footprint by 95% while supporting high-volume workloads.
+- Built validation and regression testing utilities to verify migration correctness across millions of transaction records.
+- Automated schema conversion, data validation, and phased cutover activities for a mission-critical enterprise platform migration.
+
+## Education
+**Post-Graduate Diploma in Computer Engineering Technology / Computer Science**  
+Humber College, Toronto, Canada
+
+**Bachelor of Science in Civil Engineering**  
+Zagazig University, Egypt
+
+## Skills
+
+
+## Flagship Projects
+### HorizonScale — AI Capacity Forecasting Engine
+Built a capacity forecasting and telemetry analytics workflow using Python, PySpark, Prophet, scikit-learn, and Streamlit to process infrastructure metrics, identify utilization trends, and support proactive capacity planning.
+**Technologies:** Python, PySpark, Spark, Prophet, scikit-learn, Streamlit
+
+### Serverless Lakehouse Platform (AWS)
+Designed a cloud data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet for raw ingestion, transformation, curated analytics datasets, and scalable querying.
+**Technologies:** AWS S3, AWS Glue, Athena, Redshift, PySpark, Parquet
+
+### AI-Powered Job Search Pipeline
+Built a Python-based automation pipeline with semantic duplicate detection, LLM-based job scoring, resume/cover generation, quality gates, and status tracking using FAISS, sentence-transformers, and LLM APIs.
+**Technologies:** Python, FAISS, Sentence Transformers, LLM APIs, Automation, JSON
+

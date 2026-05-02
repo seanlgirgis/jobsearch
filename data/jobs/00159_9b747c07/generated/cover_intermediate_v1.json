@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": "Coca-Cola Southwest Beverages LLC\nDallas, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Lead Data Engineer role with Coca-Cola Southwest Beverages in Dallas. My background combines senior data engineering, production ETL ownership, data quality reporting, cloud data platforms, and hands-on operational reliability across large enterprise environments.",
+  "body": [
+    "At Citi, I architected Python and Pandas ETL pipelines ingesting telemetry from more than 6,000 endpoints and built reporting workflows used for capacity, risk, and executive decision-making. I also built a hybrid AWS and Oracle data platform using S3 landing zones, AWS Glue ETL, Redshift, and optimized Oracle schemas to support historical analysis, forecasting, and stakeholder-facing reporting.",
+    "The strongest match for this role is the combination of pipeline performance, data integrity, cost-aware cloud processing, and automatic quality reporting. I have repeatedly worked at the point where data engineering meets operations: validating feeds, identifying missing or inconsistent data, improving dashboards and alerts, and communicating deviations to technical and business stakeholders. That maps closely to the need for reliable ETL pipelines, quality reporting, and continuous improvement of cloud data infrastructure.",
+    "I also bring technical leadership from enterprise modernization and platform work, including large APM upgrades, cross-team coordination, migration validation, roadmap-style delivery, and mentoring through standards, documentation, and reusable automation. My strongest cloud depth is AWS, while I can transfer the same data engineering principles to Azure-centered infrastructure without overstating unsupported experience."
+  ],
+  "conclusion": "I would welcome the opportunity to help Coca-Cola Southwest Beverages improve data platform reliability, pipeline quality, performance, and delivery discipline for its data engineering team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

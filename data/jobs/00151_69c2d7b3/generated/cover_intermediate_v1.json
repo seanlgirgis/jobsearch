@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": "Hilltop Securities\n717 N Harwood St\nDallas, TX 75201"
+  },
+  "salutation": "Dear Tim McKelvey and Hilltop Securities Hiring Team,",
+  "intro": "I am interested in the Data Engineer – Risk Analytics contract role with Hilltop Securities. My background is a strong fit for building a risk management database, automating manual reporting, and translating financial/risk requirements into scalable data models, SQL/Python pipelines, and stakeholder-ready dashboards.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints, replacing manual reporting workflows with repeatable, auditable data flows. I also designed Oracle schemas, Redshift-backed reporting structures, validation checks, and forecasting workflows used for capacity risk analysis, executive reporting, and operational decision-making in a regulated banking environment.",
+    "The Hilltop role's focus on risk analytics, financial data, trading activity, automated reporting, scalable infrastructure, and single-source-of-truth data flows maps closely to my strongest experience. I have deep hands-on experience with SQL, Python, Oracle, Redshift, AWS S3/Glue patterns, data modeling, data quality, and turning complex stakeholder requirements into technical models, dashboards, and operational reporting outputs.",
+    "I would bring a senior, practical data engineering approach: understand the risk reporting objective, design the database and data model, build auditable ETL/ELT flows, validate data integrity, automate reporting, and communicate clearly with Risk Managers and business users. I am prepared to ramp quickly on Microsoft Fabric Lakehouse/Warehouse, Data Factory, and Power BI as the target platform, while bringing strong transferable production experience from AWS, Oracle/Redshift-style warehousing, Python/SQL, and financial services data."
+  ],
+  "conclusion": "I would welcome the opportunity to help Hilltop Securities build a reliable risk analytics data foundation that improves transparency, reporting speed, and data-driven decision-making.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

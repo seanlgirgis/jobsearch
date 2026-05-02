@@ -1,0 +1,34 @@
+{
+  "role": "Data Engineer Quality Engineer - Tekfortune",
+  "fit": "Good fit for SQL validation, Python automation, data quality, ETL testing, AWS data services, PySpark/Spark, production troubleshooting, observability, and incident response. Main gaps are direct Databricks and Kafka production ownership.",
+  "core_pitch": "I bring senior data engineering and production data quality experience with SQL, Python, validation, reconciliation, AWS S3/Glue/Redshift/Athena patterns, PySpark/Spark, and root-cause troubleshooting. I have built automated checks and validation workflows for production datasets and high-volume migrations.",
+  "strongest_matches": [
+    "SQL-based data validation",
+    "Python data validation scripts",
+    "ETL/ELT testing",
+    "Source-to-target reconciliation",
+    "Data quality checks",
+    "AWS data platform patterns",
+    "PySpark/Spark",
+    "Production troubleshooting and incident response",
+    "Runbooks and documentation"
+  ],
+  "honest_ramp_areas": [
+    "Direct Databricks production ownership",
+    "Hands-on Kafka production testing",
+    "Protobuf/Avro schema registry implementation",
+    "CloudWatch/Prometheus/Grafana dashboard ownership",
+    "Formal CI/CD data test framework ownership"
+  ],
+  "interview_focus": [
+    "Data quality dimensions: completeness, accuracy, consistency, timeliness, uniqueness",
+    "SQL validation patterns",
+    "Python automated testing with pytest-style utilities",
+    "Source-to-target reconciliation",
+    "PySpark transformation testing",
+    "Kafka basics: topics, partitions, offsets, consumer groups",
+    "Backfill/reprocessing/idempotency",
+    "AWS Glue/S3/Redshift/Athena testing patterns",
+    "Pipeline observability: metrics, logs, alerts, SLAs/SLOs"
+  ]
+}

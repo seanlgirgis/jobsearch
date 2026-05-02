@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": "Nobilis Group\n5001 North O’Connor Blvd.\nIrving, TX 75039"
+  },
+  "salutation": "Dear Tim McKelvey and Dan Huls,",
+  "intro": "I am interested in the Lead Data Engineer contract-to-hire role with Nobilis Group. My background fits the need for a hands-on data leader who can mentor a team while still building SQL-driven pipelines, data models, integrations, migrations, and reporting-ready datasets.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines that ingested and standardized telemetry from 6,000+ enterprise endpoints, replacing manual reporting workflows with repeatable data flows. I also designed Oracle schemas, Redshift-backed reporting structures, validation checks, and executive reporting workflows used for operational decision-making in a regulated banking environment.",
+    "The Nobilis role’s focus on SQL, Azure Data Factory-style pipelines, ETL process design, API integrations, enterprise data migrations, Power BI reporting support, dimensional modeling, governance, and production troubleshooting maps strongly to my practical experience. I have deep hands-on experience with SQL, Python, Oracle, Redshift, AWS S3/Glue, data quality, database design, reporting enablement, and stakeholder-facing analytics.",
+    "I would bring the leadership layer this role needs: mentoring engineers, documenting standards, partnering with analysts and report developers, clarifying business requirements, prioritizing production issues, and building practical data architecture that supports financial, sales, production, and operational reporting. I am prepared to ramp quickly on Azure Data Factory, integration runtimes, Azure Data Lake, Microsoft Fabric, and Power BI distribution as the target stack, while bringing strong transferable production experience from enterprise SQL, cloud data platforms, data migrations, and regulated reporting environments."
+  ],
+  "conclusion": "I would welcome the opportunity to help Nobilis Group scale its data platform, strengthen reporting reliability, and provide hands-on technical leadership to the data team from day one.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Machine Learning Engineer (AWS) role with CCT. My best fit is at the intersection of AWS data engineering, Python, time-series forecasting, production monitoring, data quality, cost-aware processing, and MLOps foundations.",
+  "body": [
+    "At Citi, I built ML-enabled forecasting workflows using Python, Prophet, scikit-learn, and enterprise telemetry to predict capacity bottlenecks 6 months ahead. I also built automated data pipelines that standardized telemetry from 6,000+ endpoints and prepared validated model-ready datasets for forecasting, reporting, and operational decision-making.",
+    "Your role's focus on AWS-based ML workflows, time-series data, retraining discipline, monitoring, drift/error visibility, model lineage, cost control, and regulated-industry auditability maps well to my strongest experience in capacity forecasting and production telemetry. I have worked deeply with data quality, monitoring, root-cause analysis, scalability, and cost/capacity optimization in regulated banking environments.",
+    "I would be transparent that I have not owned SageMaker endpoints, SageMaker Pipelines, or a full formal MLOps platform in production. My strongest production foundation is AWS data engineering, Python, SQL, scikit-learn/Prophet forecasting, telemetry analysis, Dockerized pipelines, and production troubleshooting. From that base, I can ramp into SageMaker, model registry, feature store, and deployment-specific patterns with discipline."
+  ],
+  "conclusion": "I would welcome the opportunity to help CCT build reliable, observable, and cost-effective ML systems that support Casino Insight and regulated gaming analytics.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

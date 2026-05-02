@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Data Engineer Quality Engineer role in Dallas. My background aligns strongly with SQL-based data validation, Python automation, ETL/ELT testing, data reconciliation, AWS data services, PySpark/Spark, pipeline observability, and production data reliability.
+
+At Citi, I built and supported production Python/Pandas data pipelines that standardized telemetry from 6,000+ enterprise endpoints. A major part of that work was making the data trusted: validation checks, reconciliation routines, freshness-style controls, logging, troubleshooting procedures, and documentation for recurring production datasets.
+
+The role's focus on validating ingestion, processing, streaming, analytics workflows, SQL and Python transformations, AWS Glue/S3/Redshift/Athena patterns, Databricks/PySpark, Kafka concepts, CI/CD-integrated data tests, and pipeline observability maps closely to my data quality and production support experience. I have also led source-to-target validation for a high-volume MySQL-to-Oracle RAC migration where correctness and data integrity were critical.
+
+I would bring a reliability-first mindset: define what correctness means, build reusable SQL and Python checks, validate source-to-target lineage, test backfills and reprocessing, monitor logs and alerts, participate in incident response, and help data engineering teams ship production-ready pipelines. My strongest production base is SQL, Python, Oracle, Redshift, AWS data services, PySpark/Spark, data validation, reconciliation, and root-cause troubleshooting, with Databricks, Kafka, and some AWS service-specific testing patterns as active ramp areas.
+
+I would welcome the opportunity to help Tekfortune's client strengthen data platform quality, reliability, and production confidence across AWS, Databricks, SQL, Kafka, and Python-based pipelines.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 1, 2026",
+    "employer_address": "Full Circle Group & The Leadership Circle\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data and Analytics Engineer role with Leadership Circle. The opportunity to build a data foundation from the ground up while using AI-assisted development tools such as Claude Code maps unusually well to my data engineering, analytics, and AI workflow background.",
+  "body": [
+    "At Citi, I built Python, SQL, and PySpark data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated datasets for reporting, dashboards, and forecasting. I also designed AWS-based data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable analytics and model-ready data workflows.",
+    "Your role emphasizes data pipelines, warehouse architecture, data modeling, data quality, observability, documentation, analytics features, and close partnership with product, engineering, design, and data science. My experience fits that pattern through stakeholder-facing reporting layers, SQL views, dashboard tools, metric documentation, pipeline validation, production monitoring, and data products that make technical data usable for business decisions.",
+    "The AI-assisted development expectation is also a strong match. I use Claude Code, ChatGPT, and LLM APIs as a daily part of my engineering workflow, including code generation, debugging, schema design, JSON artifact generation, semantic retrieval, quality gates, and validation of AI-generated outputs. I have also built an AI-powered job search pipeline using FAISS, sentence-transformers, LLM scoring, and structured document generation, which gives me practical experience using AI as a force multiplier while still applying engineering discipline."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, SQL, AWS/Redshift, Spark, analytics engineering, and AI-assisted development background can help Leadership Circle build a reliable and scalable data foundation.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

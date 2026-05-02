@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 1, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the remote Data Engineer role. My background aligns well with Python, SQL, data modeling, ETL/ELT pipelines, relational databases, Spark/PySpark, data quality, workflow automation, and cross-functional analytics delivery.
+
+At Citi, I built automated Python and Pandas ETL pipelines that standardized telemetry from 6,000+ enterprise endpoints and supported forecasting, reporting, and operational decision-making. I also designed Oracle and Redshift-backed reporting structures, validation routines, and repeatable data workflows that replaced manual reporting processes.
+
+Your role's focus on conceptual and logical database models, dataset processes, data modeling and mining, system integration, manual process automation, scalable infrastructure, and collaboration with data scientists and business stakeholders maps closely to my practical experience. I have worked with Python, SQL, PySpark/Spark, relational databases, data validation, workflow automation, and dashboard-ready datasets across large enterprise systems.
+
+I would bring a practical engineering approach: understand the business data need, design reliable models and pipelines, automate repetitive work, validate data quality, optimize delivery, document the process, and communicate clearly with technical and business teams. My strongest production base is Python, SQL, Oracle, Redshift, AWS data services, PySpark, ETL, data quality, and production troubleshooting.
+
+I would welcome the opportunity to help ManpowerGroup's client build reliable data pipelines and models that support analytics, business decisions, and scalable data operations.
+
+Sincerely,
+Sean Luka Girgis

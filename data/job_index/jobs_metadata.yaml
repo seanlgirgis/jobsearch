@@ -2,329 +2,329 @@
   description_path: data\jobs\00001_cdb9a3fa\00001.Collective_Health.02052026.1328.md
   company: Collective Health
   role: Unknown Role
-  apply_date: N/A
+  apply_date: '2026-02-05'
   status: ACCEPTED
 - uuid: 00002_402a89d6
   description_path: data\jobs\00002_402a89d6\00002.PostScript.02052026.2243.md
   company: PostScript
   role: Staff Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: REJECTED
 - uuid: 00003_e4648120
   description_path: data\jobs\00003_e4648120\00003.FisherInvestements.02062026.1311.md
   company: FisherInvestments
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-05'
   status: ACCEPTED
 - uuid: 00004_5abc9e0d
   description_path: data\jobs\00004_5abc9e0d\00004.Geico.StaffEngineer.02062026.1122.md
   company: Geico
   role: Senior Staff Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: REJECTED
 - uuid: 00005_894db1e7
   description_path: data\jobs\00005_894db1e7\00005.Geico.SeniorEngineer.02062026.1146.md
   company: Geico
   role: Senior Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00006_714f7c73
   description_path: data\jobs\00006_714f7c73\00006.CapitalOne.SeniorEngineer.02062026.1201.md
   company: CapitalOne
   role: Lead Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: REJECTED
 - uuid: '00007_31466164'
   description_path: data\jobs\00007_31466164\00007.AgileEngine.DataEngineer.1303.md
   company: Agile Engine
   role: Data Engineer ID50062
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00008_6dbaa234
   description_path: data\jobs\00008_6dbaa234\00008.OdenTechnologies.MLEngineer.02062026.1326.md
   company: Oden Technologies
   role: Machine Learning Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00009_3caadd3a
   description_path: data\jobs\00009_3caadd3a\00009.RTX.DataEngineer.02062026.1344.md
   company: RTX
   role: Data Engineer ID50062
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: REJECTED
 - uuid: '00010_61453370'
   description_path: data\jobs\00010_61453370\00010.Stefanini.DataEngineer.02062026.1414.md
   company: Stefanni Group
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00011_d9e6c90b
   description_path: data\jobs\00011_d9e6c90b\00011.Sephora.Lead_Engineer_Performance.02062026.1506.md
   company: SEPHORA
   role: Lead Engineer, Performance Engineering
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00012_cd22375a
   description_path: data\jobs\00012_cd22375a\00012.ClickUp.Senior_Performance_Engineer.02062026.1523.md
   company: ClickUp
   role: Senior Performance Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00013_3f4d5336
   description_path: data\jobs\00013_3f4d5336\00013.TheHershyCompany.SeniorDataEngineer.02062026.15.52.md
   company: Hershey
   role: Senior Data Engineer, Data Products
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00014_2c4f7d37
   description_path: data\jobs\00014_2c4f7d37\00014.thehartford.LeadAIDataEngineer02062026.1950.md
   company: TheHartford
   role: Lead AI Data Engineer - Hybrid
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00015_9b310437
   description_path: data\jobs\00015_9b310437\00015.SCRIBD.StaffDataEngineer.02062026.2041.md
   company: SCRIBD
   role: Staff Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00016_5407d0d2
   description_path: data\jobs\00016_5407d0d2\00016.ATT.LeadData.AIEngineering.02062026.2102.md
   company: AT&T
   role: Lead Data/AI Engineering
-  apply_date: N/A
+  apply_date: '2026-02-06'
   status: ACCEPTED
 - uuid: 00017_d8259ebc
   description_path: data\jobs\00017_d8259ebc\00017.Anthropic.CapacityEngineerCompute.02072026.1945.md
   company: Anthropic
   role: Capacity Engineer Compute
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00018_539f6ba7
   description_path: data\jobs\00018_539f6ba7\00018.Google.Incentives Technical Analyst.02072026.2031.md
   company: Google
   role: Incentives Technical Analyst, Infrastructure and Development, YouTube
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: GHOSTED
 - uuid: 00019_d5eaebef
   description_path: data\jobs\00019_d5eaebef\00019.DBT Labs. Staff Sales Engineer.
     02072026. 2121.md
   company: dbt Labs
   role: Staff Sales Engineer, Texas
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00020_71272f0d
   description_path: data\jobs\00020_71272f0d\00020 Geico Staff Engineer - Capacity
     Planning and Management 02072026 2137.md
   company: Geico
   role: Capacity Planning and Management
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00021_eb57eb40
   description_path: data\jobs\00021_eb57eb40\00021 DTCC Lead Database Engineer 02072026
     2238.md
   company: DTCC
   role: Lead Database Engineer
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00022_338f7341
   description_path: data\jobs\00022_338f7341\00022 CVS Data Engineer.md
   company: CVS
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00023_2afe66f8
   description_path: data\jobs\00023_2afe66f8\00023 Qode Sr Data Engineer 02092026
     1037.md
   company: Qode
   role: Sr Data Engineer
-  apply_date: N/A
+  apply_date: '2026-02-09'
   status: ACCEPTED
 - uuid: 00024_c269be7a
   description_path: data\jobs\00024_c269be7a\00024.monet.dataEngineer.031120261512.md
   company: Monet
   role: Dataengineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00025_06b4caf5
   description_path: data\jobs\00025_06b4caf5\00024.Stefanni.DataEngineer.031120260339.md
   company: Stefanni
   role: Dataengineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00026_3b4b8d7b
   description_path: data\jobs\00026_3b4b8d7b\RandstandDigital.03112026.0414.md
   company: Randstad Digital
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00027_179fdabd
   description_path: data\jobs\00027_179fdabd\PETADATA.031120260424.md
   company: PETADATA
   role: AWS Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00028_58bf8e8c
   description_path: data\jobs\00028_58bf8e8c\clifyx.DE.03112026.0437.md
   company: ClifyX
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00029_e1c101b7
   description_path: data\jobs\00029_e1c101b7\rh.03062026.0446.md
   company: Robert Half
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00030_5e4bc3bd
   description_path: data\jobs\00030_5e4bc3bd\randstand.03112026.0435.md
   company: Randstad Digital
   role: AI Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00031_1daa6ef1
   description_path: data\jobs\00031_1daa6ef1\Keurig.031120260500.md
   company: Keurig Dr Pepper
   role: Principal Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00032_bfaeb440
   description_path: data\jobs\00032_bfaeb440\payton.03112026.517.md
   company: Peyton Resource Group
   role: Performance Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00035_15267e92
   description_path: data\jobs\00035_15267e92\GovTact.03112026.5.55.md
   company: Government Tactical Solutions
   role: Senior Performance Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00036_35afb27d
   description_path: data\jobs\00036_35afb27d\Apex.03112026.0619.md
   company: Apex Systems
   role: Performance Lead Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00037_21d049e9
   description_path: data\jobs\00037_21d049e9\intake.3112026.0713.md
   company: CTC
   role: Performance Architect
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00038_fe151a85
   description_path: data\jobs\00038_fe151a85\intake.md
   company: McAfee
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00039_76829368
   description_path: data\jobs\00039_76829368\intake.md
   company: Toyota North America
   role: Lead Python Developer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00040_a390effb
   description_path: data\jobs\00040_a390effb\intake.md
   company: Meta
   role: Performance & Capacity Engineer - Planning Optimization
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00042_95feaf55
   description_path: data\jobs\00042_95feaf55\SoFi.SeniorDataEngineer.03112026.md
   company: SoFi
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: '00043_02035075'
   description_path: data\jobs\00043_02035075\intake.md
   company: Thomson Reuters
   role: Staff Software Engineer - AI II
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00044_8c605523
   description_path: data\jobs\00044_8c605523\intake.md
   company: BCG Platinion
   role: Senior IT Architect - AI Platforms
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00045_cbe95f28
   description_path: data\jobs\00045_cbe95f28\intake.md
   company: Bank of America
   role: Senior Engineer-AI Inference
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00046_f877b3d0
   description_path: data\jobs\00046_f877b3d0\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00047_96bc145f
   description_path: data\jobs\00047_96bc145f\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00048_7042ee48
   description_path: data\jobs\00048_7042ee48\intake.md
   company: Kyndryl
   role: Agentic AI - Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00049_287cd3cb
   description_path: data\jobs\00049_287cd3cb\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00050_57128a10
   description_path: data\jobs\00050_57128a10\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-03-11'
   status: ACCEPTED
 - uuid: 00051_5ade9538
   description_path: data\jobs\00051_5ade9538\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-03'
   status: ACCEPTED
 - uuid: 00051_98db0f64
   description_path: data\jobs\00051_98db0f64\00051.Koch_Industries.03302026.md
   company: Koch Industries
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: '2026-03-30'
   status: ACCEPTED
 - uuid: 00051_d7c3a912
   description_path: data\jobs\00051_d7c3a912\intake.md
   company: Ekman Associates, Inc.
   role: Data Engineer
-  apply_date: N/A
+  apply_date: '2026-04-13'
   status: ACCEPTED
 - uuid: '00052_56770170'
   description_path: data\jobs\00052_56770170\intake.md
   company: Globe Life
   role: Cloud Data Engineer (Hybrid)
-  apply_date: N/A
+  apply_date: '2026-04-04'
   status: APPLIED
 - uuid: 00053_235b800b
   description_path: data\jobs\00053_235b800b\intake.md
   company: CornerStone Technology Talent Services
   role: Junior Data Engineer (AWS)
-  apply_date: N/A
+  apply_date: '2026-04-04'
   status: APPLIED
 - uuid: 00053_e37e8194
   description_path: data\jobs\00053_e37e8194\intake.md
   company: Inspiren
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: '2026-04-13'
   status: ACCEPTED
 - uuid: 00054_5d3df4ad
   description_path: data\jobs\00054_5d3df4ad\intake.md
   company: Dynatrace
   role: Unknown
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00055_8a28e6d5
   description_path: data\jobs\00055_8a28e6d5\intake.md
@@ -342,115 +342,115 @@
   description_path: data\jobs\00056_64c2ec47\intake.md
   company: Sigma
   role: Senior Software Engineer - Observability and Reliability
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00056_a51218f7
   description_path: data\jobs\00056_a51218f7\intake.md
   company: RAVIN IT SOLUTIONS, Inc
   role: Sr. Data Engineer
-  apply_date: N/A
+  apply_date: '2026-04-13'
   status: ACCEPTED
 - uuid: 00057_7ab6dd61
   description_path: data\jobs\00057_7ab6dd61\intake.md
   company: Datadog
   role: Senior Product Solutions Architect - Logs
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00057_97fd22b6
   description_path: data\jobs\00057_97fd22b6\intake.md
   company: GEICO
   role: Staff Engineer - Capacity Planning and Management
-  apply_date: N/A
+  apply_date: '2026-02-07'
   status: ACCEPTED
 - uuid: 00058_b0233987
   description_path: data\jobs\00058_b0233987\intake.md
   company: Inspiren
   role: Senior Data Engineer
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00058_de476853
   description_path: data\jobs\00058_de476853\intake.md
   company: Headway
   role: Capacity Planning Analyst
-  apply_date: N/A
+  apply_date: '2026-04-13'
   status: ACCEPTED
 - uuid: 00059_b0939046
   description_path: data\jobs\00059_b0939046\intake.md
   company: Amazon.com LLC
   role: Capacity Planning Specialist, Capacity Planning
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00059_f3d14aeb
   description_path: data\jobs\00059_f3d14aeb\intake.md
   company: K Anand Corporation
   role: Data Engineer
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00060_7c453502
   description_path: data\jobs\00060_7c453502\intake.md
   company: Samsung Semiconductor
   role: Capacity Planning Engineer
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00060_978574a5
   description_path: data\jobs\00060_978574a5\intake.md
   company: Openmind Technologies
   role: Data Analyst/Data Engineer
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00061_44d67df7
   description_path: data\jobs\00061_44d67df7\intake.md
   company: Meta Platforms, Inc.
   role: Performance and Capacity Engineer
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00061_c96be38b
   description_path: data\jobs\00061_c96be38b\intake.md
   company: Acunor Infotech
   role: Data Engineer - Databricks
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00062_8df84ee0
   description_path: data\jobs\00062_8df84ee0\intake.md
   company: HUMAC INC.
   role: Dynatrace Administrator
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00062_f29bcbdb
   description_path: data\jobs\00062_f29bcbdb\intake.md
   company: Pennymac
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00063_6b2db598
   description_path: data\jobs\00063_6b2db598\intake.md
   company: Inclusion Cloud
   role: Data Engineer
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00064_47a35392
   description_path: data\jobs\00064_47a35392\intake.md
   company: CGI Group, Inc.
   role: Senior Python Developer
-  apply_date: N/A
+  apply_date: 2026-04-04
   status: APPLIED
 - uuid: 00071_46d0318a
   description_path: data\jobs\00071_46d0318a\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00072_92dbecdd
   description_path: data\jobs\00072_92dbecdd\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00073_e6043c0f
   description_path: data\jobs\00073_e6043c0f\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00074_8a65740b
   description_path: data\jobs\00074_8a65740b\intake.md
@@ -474,79 +474,79 @@
   description_path: data\jobs\00077_1fdebba2\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-14'
   status: ACCEPTED
 - uuid: 00078_5ca49264
   description_path: data\jobs\00078_5ca49264\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-04-17'
   status: ACCEPTED
 - uuid: 00081_51fd5951
   description_path: data\jobs\00081_51fd5951\intake.md
   company: Synersys Technologies
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00082_c8bd495d
   description_path: data\jobs\00082_c8bd495d\intake.md
   company: Bayside Solutions
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00083_a092324b
   description_path: data\jobs\00083_a092324b\intake.md
   company: TEKsystems c/o Allegis Group
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00084_63b94cf3
   description_path: data\jobs\00084_63b94cf3\intake.md
   company: Apetan Consulting
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00085_9a90c86e
   description_path: data\jobs\00085_9a90c86e\intake.md
   company: Booz Allen Hamilton
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00086_91a7dc63
   description_path: data\jobs\00086_91a7dc63\intake.md
   company: Apex Systems
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00087_887817fd
   description_path: data\jobs\00087_887817fd\intake.md
   company: Parmesoft Inc.
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00088_a3fd3ba9
   description_path: data\jobs\00088_a3fd3ba9\intake.md
   company: ''
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00089_83634d40
   description_path: data\jobs\00089_83634d40\intake.md
   company: ''
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00090_fb1d75da
   description_path: data\jobs\00090_fb1d75da\intake.md
   company: '-  Virtuous Tech Inc'
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00091_322a4347
   description_path: data\jobs\00091_322a4347\intake.md
   company: '-  Lincoln Softtech LLC'
   role: ''
-  apply_date: N/A
+  apply_date: '2026-04-30'
   status: ACCEPTED
 - uuid: 00092_af5240b5
   description_path: data\jobs\00092_af5240b5\intake.md
@@ -558,13 +558,13 @@
   description_path: data\jobs\00093_0035525d\intake.md
   company: '-  Boston Associate Software Systems'
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00094_d4ee792a
   description_path: data\jobs\00094_d4ee792a\intake.md
   company: '-  Odyssey Information Services'
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00095_3296ec1c
   description_path: data\jobs\00095_3296ec1c\intake.md
@@ -594,235 +594,403 @@
   description_path: data\jobs\00099_4982ea22\intake.md
   company: '- Okaya Inc'
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00100_88bc524c
   description_path: data\jobs\00100_88bc524c\intake.md
   company: '-'
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00101_c763a7d8
   description_path: data\jobs\00101_c763a7d8\intake.md
   company: Centraprise Corp
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00102_ccc17c76
   description_path: data\jobs\00102_ccc17c76\intake.md
   company: Systems Management Group, Inc
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00103_4b79845c
   description_path: data\jobs\00103_4b79845c\intake.md
   company: Photon
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00104_cec88c05
   description_path: data\jobs\00104_cec88c05\intake.md
   company: Digipulse Technologies, Inc
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00105_54070f7f
   description_path: data\jobs\00105_54070f7f\intake.md
   company: The Travelers Indemnity Company
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00106_bfb36a31
   description_path: data\jobs\00106_bfb36a31\intake.md
   company: The Travelers Indemnity Company
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00107_fbf000be
   description_path: data\jobs\00107_fbf000be\intake.md
   company: Cynet Systems
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00108_59ce790c
   description_path: data\jobs\00108_59ce790c\intake.md
   company: UnitedHealth Group
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00109_b4026d3d
   description_path: data\jobs\00109_b4026d3d\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00110_7b3d9162
   description_path: data\jobs\00110_7b3d9162\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00111_c450cd96
   description_path: data\jobs\00111_c450cd96\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00112_2d603b49
   description_path: data\jobs\00112_2d603b49\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00113_d61b8c2f
   description_path: data\jobs\00113_d61b8c2f\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00114_79744855
   description_path: data\jobs\00114_79744855\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00115_f9aa76ec
   description_path: data\jobs\00115_f9aa76ec\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00116_6bf83518
   description_path: data\jobs\00116_6bf83518\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00117_5ccb3bdc
   description_path: data\jobs\00117_5ccb3bdc\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00118_ab840c16
   description_path: data\jobs\00118_ab840c16\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00119_de0375f1
   description_path: data\jobs\00119_de0375f1\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00120_b581611b
   description_path: data\jobs\00120_b581611b\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00121_64e10be6
   description_path: data\jobs\00121_64e10be6\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00122_cf2c1af0
   description_path: data\jobs\00122_cf2c1af0\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00123_cda945d7
   description_path: data\jobs\00123_cda945d7\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00124_89292599
   description_path: data\jobs\00124_89292599\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00125_4606ceea
   description_path: data\jobs\00125_4606ceea\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00126_2b4e057e
   description_path: data\jobs\00126_2b4e057e\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00127_f9b7d1de
   description_path: data\jobs\00127_f9b7d1de\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00128_d0421a0f
   description_path: data\jobs\00128_d0421a0f\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00129_29ad69af
   description_path: data\jobs\00129_29ad69af\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00130_ca79d011
   description_path: data\jobs\00130_ca79d011\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00131_5951a55f
   description_path: data\jobs\00131_5951a55f\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00132_68e06a1e
   description_path: data\jobs\00132_68e06a1e\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00133_a074c9cd
   description_path: data\jobs\00133_a074c9cd\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00134_dfe09b0a
   description_path: data\jobs\00134_dfe09b0a\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00135_3c9e8a37
   description_path: data\jobs\00135_3c9e8a37\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00136_5d0d942c
   description_path: data\jobs\00136_5d0d942c\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: 00137_cf5c00b3
   description_path: data\jobs\00137_cf5c00b3\intake.md
   company: Unknown
   role: Unknown
-  apply_date: N/A
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00138_69833f52
+  description_path: data\jobs\00138_69833f52\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00139_2ef0d389
+  description_path: data\jobs\00139_2ef0d389\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00140_0a9c4ed4
+  description_path: data\jobs\00140_0a9c4ed4\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00141_e6c6175a
+  description_path: data\jobs\00141_e6c6175a\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00142_2c650011
+  description_path: data\jobs\00142_2c650011\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00143_1050cbd2
+  description_path: data\jobs\00143_1050cbd2\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00144_f0789095
+  description_path: data\jobs\00144_f0789095\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00145_fa059e93
+  description_path: data\jobs\00145_fa059e93\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00146_fe7ab9f3
+  description_path: data\jobs\00146_fe7ab9f3\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00147_bf015425
+  description_path: data\jobs\00147_bf015425\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00148_05f3742e
+  description_path: data\jobs\00148_05f3742e\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00149_c6ab126f
+  description_path: data\jobs\00149_c6ab126f\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00150_a03c5437
+  description_path: data\jobs\00150_a03c5437\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00151_69c2d7b3
+  description_path: data\jobs\00151_69c2d7b3\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00152_3e56ed46
+  description_path: data\jobs\00152_3e56ed46\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00153_f97fb988
+  description_path: data\jobs\00153_f97fb988\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00154_21c3c7cd
+  description_path: data\jobs\00154_21c3c7cd\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00155_591829df
+  description_path: data\jobs\00155_591829df\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00156_bfda80e1
+  description_path: data\jobs\00156_bfda80e1\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00157_d00b49b8
+  description_path: data\jobs\00157_d00b49b8\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00158_52dfcbb9
+  description_path: data\jobs\00158_52dfcbb9\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00159_9b747c07
+  description_path: data\jobs\00159_9b747c07\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00160_98802051
+  description_path: data\jobs\00160_98802051\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00161_ed0f5fb9
+  description_path: data\jobs\00161_ed0f5fb9\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00162_eeabb023
+  description_path: data\jobs\00162_eeabb023\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00163_598e0c3e
+  description_path: data\jobs\00163_598e0c3e\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00164_0caae27a
+  description_path: data\jobs\00164_0caae27a\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
+  status: ACCEPTED
+- uuid: 00165_ee15349f
+  description_path: data\jobs\00165_ee15349f\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-01'
   status: ACCEPTED
 - uuid: url_captures
   description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md

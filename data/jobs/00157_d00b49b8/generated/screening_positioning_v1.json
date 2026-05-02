@@ -1,0 +1,31 @@
+{
+  "role": "Data Engineer - Manpower Dallas",
+  "fit": "Strong fit for production ETL, Python, SQL, data models, AWS/cloud, large-scale data, data quality, logging, and production support. Good onsite Dallas opportunity.",
+  "core_pitch": "I bring senior enterprise data engineering experience with Python, SQL, production ETL pipelines, data modeling, AWS S3/Glue/Redshift, PySpark/Spark, data quality, logging, and troubleshooting. I have repeatedly replaced manual reporting with production-ready automated workflows.",
+  "strongest_matches": [
+    "Independently building ETL/ELT workflows",
+    "Python and SQL",
+    "Large enterprise datasets",
+    "Data modeling and SQL database design",
+    "Production support and troubleshooting",
+    "Logging, validation, privacy/security/compliance-aware controls",
+    "AWS cloud data platform patterns"
+  ],
+  "honest_ramp_areas": [
+    "Direct Databricks production ownership",
+    "Direct EMR production ownership",
+    "Direct Kafka production ownership",
+    "Hands-on Scala production coding",
+    "Direct MongoDB production ownership"
+  ],
+  "interview_focus": [
+    "Production ETL lifecycle",
+    "Logging and pipeline observability",
+    "Data controls for privacy/security/compliance",
+    "Conceptual/logical data modeling",
+    "SQL database design",
+    "PySpark/Spark transformations",
+    "Databricks/EMR/Hadoop/Kafka basics",
+    "How to support production data processes with limited guidance"
+  ]
+}

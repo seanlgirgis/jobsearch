@@ -26,6 +26,7 @@ def load_job_data(job_folder):
         'role': 'Unknown',
         'status': 'Unknown',
         'submission_status': 'Unknown',
+        'applied_date': 'N/A',
         'metadata_text': '',
         'description': '',
         'path': str(job_folder)
@@ -46,6 +47,13 @@ def load_job_data(job_folder):
                 data['role'] = meta.get('role', 'Unknown')
                 data['status'] = meta.get('status', 'Unknown')
                 data['submission_status'] = meta.get('submission_status', 'Unknown')
+                application = meta.get('application', {}) if isinstance(meta.get('application', {}), dict) else {}
+                data['applied_date'] = (
+                    application.get('applied_date')
+                    or meta.get('apply_date')
+                    or meta.get('applied_date')
+                    or 'N/A'
+                )
         except Exception:
             pass # Keep defaults if read fails
 
@@ -125,6 +133,10 @@ def search_jobs(query, jobs_dir):
                     match_found = True
                     fields_matched.append("Submission Status")
                     score += 10
+                if query_lower and query_lower in str(job_data['applied_date']).lower():
+                    match_found = True
+                    fields_matched.append("Applied Date")
+                    score += 10
 
                 # Check full metadata text
                 if query_lower and query_lower in job_data['metadata_text'].lower():
@@ -146,6 +158,7 @@ def search_jobs(query, jobs_dir):
                     'role': job_data['role'],
                     'status': job_data['status'],
                     'submission_status': job_data['submission_status'],
+                    'applied_date': job_data['applied_date'],
                     'score': score,
                     'matched_in': ", ".join(fields_matched)
                 })
@@ -169,6 +182,7 @@ def print_results(results, query):
         table.add_column("UUID", style="dim", width=10)
         table.add_column("Company", style="cyan", width=20)
         table.add_column("Role", style="green")
+        table.add_column("Applied", style="magenta", width=12)
         table.add_column("Status", justify="center")
         table.add_column("Matched In", style="yellow")
 
@@ -181,17 +195,18 @@ def print_results(results, query):
                 r['uuid_short'],
                 r['company'],
                 r['role'],
+                str(r.get('applied_date', 'N/A')),
                 status_text,
                 r['matched_in']
             )
         console.print(table)
     else:
         # Fallback for standard terminal
-        header = f"{'Job ID':<15} | {'UUID':<10} | {'Company':<20} | {'Role':<30} | {'Status':<10} | {'Matched In'}"
+        header = f"{'Job ID':<15} | {'UUID':<10} | {'Company':<20} | {'Role':<30} | {'Applied':<12} | {'Status':<10} | {'Matched In'}"
         print(header)
         print("-" * len(header))
         for r in results:
-            print(f"{r['job_id']:<15} | {r['uuid_short']:<10} | {r['company']:<20} | {r['role']:<30} | {r['status']:<10} | {r['matched_in']}")
+            print(f"{r['job_id']:<15} | {r['uuid_short']:<10} | {r['company']:<20} | {r['role']:<30} | {str(r.get('applied_date', 'N/A')):<12} | {r['status']:<10} | {r['matched_in']}")
 
 def main():
     parser = argparse.ArgumentParser(description="Search job applications by keyword.")

@@ -1,0 +1,156 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data & Analytics Engineer | Python, SQL, AWS, Spark & AI-Assisted Development"
+  },
+  "summary": "Senior Data and Analytics Engineer with 20+ years of enterprise technology experience building data pipelines, analytics-ready datasets, reporting layers, data models, and production data platforms. Strong background in Python, SQL, AWS Redshift, S3, Glue, Athena, PySpark/Spark, dimensional modeling, data quality, observability, documentation, and stakeholder-facing analytics. Daily user of Claude Code and AI-assisted development workflows, with hands-on experience building agentic automation, RAG-style retrieval, quality gates, JSON artifacts, and reproducible engineering pipelines.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained Python/Pandas/PySpark ETL pipelines ingesting telemetry from 6,000+ infrastructure endpoints, producing curated datasets for analytics, reporting, forecasting, and stakeholder decision-making.",
+        "Designed hybrid AWS/Oracle data platform components using S3 landing zones, AWS Glue, Athena, Redshift, Oracle schemas, SQL, and PySpark to support scalable analytics and model-ready data workflows.",
+        "Developed reusable reporting layers, SQL views, dashboards, and dimensional-style datasets that converted raw infrastructure telemetry into business-ready capacity and performance insights.",
+        "Prepared clean, documented datasets for Prophet and scikit-learn forecasting workflows, supporting capacity planning and proactive bottleneck prediction.",
+        "Implemented data validation, reconciliation, monitoring, and operational review patterns across data feeds from BMC TrueSight, CA Wily, AppDynamics, and Oracle reporting systems.",
+        "Optimized SQL queries, historical retention models, Oracle schemas, and Redshift-backed workloads to improve performance, maintainability, and downstream analytics usability.",
+        "Created stakeholder-facing dashboards and tools using Streamlit, matplotlib, seaborn, and plotly to support internal reporting and executive-level visibility.",
+        "Documented pipeline logic, metric definitions, data processing assumptions, operational support steps, and handoff procedures to improve governance and long-term maintainability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Developed analytics and reporting outputs from Dynatrace AppMon and Gomez Synthetic Monitoring data for Brand.com and critical hospitality systems.",
+        "Led the FAST project, mining real-user and synthetic performance metrics to identify optimization opportunities and translate monitoring data into actionable insights.",
+        "Built dashboards and operational reporting views that improved visibility into transaction behavior, performance trends, and reliability risks.",
+        "Partnered with development and business stakeholders to define reporting needs, validate metrics, and communicate performance findings clearly."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed enterprise-scale telemetry environments with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents, supporting operational analytics, dashboards, and executive reporting.",
+        "Built Perl and Korn shell automation for extracting, transforming, and distributing performance data, replacing manual exports with repeatable reporting workflows.",
+        "Designed standardized dashboards, alerts, SLA thresholds, documentation, and reusable reporting structures adopted across client environments.",
+        "Collaborated with J2EE, WebLogic, infrastructure, and operations teams to interpret data, troubleshoot bottlenecks, and improve production visibility."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed enterprise telecom application data under load to identify throughput limits, SQL/JDBC bottlenecks, memory pressure, CPU behavior, and thread contention.",
+        "Configured JMX Monitoring, Wily Introscope, and thread-dump automation to improve runtime visibility during performance and regression testing.",
+        "Documented baseline metrics, regression thresholds, and technical findings used by engineering teams for release-readiness decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving data integrity and transaction performance.",
+        "Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Built validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Automated schema conversion, data validation, and phased cutover support for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability C++/Pro*C/PL/SQL billing interfaces and reporting processes for telecom-scale transaction systems.",
+        "Improved database performance by 10x through SQL, sequence, and process optimization while reducing memory usage by 75%.",
+        "Built automation scripts in Korn shell, Perl, Awk, Syncsort, and SQL to support operational data processing, reporting, deployment, and housekeeping workflows.",
+        "Supported QA cycles, production issue triage, release support, documentation, and cross-team troubleshooting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Data Engineering": "ETL/ELT pipelines, data pipelines, data modeling, dimensional modeling, star schemas, data lakes, data warehouses, curated datasets",
+    "Languages": "Python, SQL, PySpark, PL/SQL, Perl, Korn Shell, C++",
+    "Cloud Data Platforms": "AWS Redshift, S3, Glue, Athena, EC2, ECS; Snowflake, Databricks, BigQuery concepts",
+    "Big Data / Processing": "Apache Spark, PySpark, Hadoop/Hive, Pandas, Parquet, distributed data processing",
+    "Analytics Engineering": "Reporting layers, business-ready datasets, semantic-style models, metric definitions, KPI documentation, dashboard support",
+    "Orchestration / Delivery": "Airflow, batch workflows, CI/CD concepts, version-controlled transformations, code reviews, release discipline",
+    "Data Quality / Governance": "Data validation, reconciliation, monitoring, alerting, lineage documentation, data dictionaries, access-control awareness",
+    "Databases": "Oracle, Oracle RAC, Redshift, MySQL, PostgreSQL, SQL performance tuning, schema design",
+    "BI / Visualization": "Streamlit, matplotlib, plotly, operational dashboards, executive reporting, Looker/Metabase/Tableau concepts",
+    "AI-Assisted Development": "Claude Code, ChatGPT, GitHub Copilot concepts, agentic workflows, RAG-style retrieval, LLM APIs, quality gates, AI-generated output validation"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end Python and AI-assisted automation pipeline using Claude Code and Grok/xAI APIs. The system performs semantic duplicate detection, LLM-based job scoring, tailored JSON resume and cover generation, quality gates, document rendering, and application tracking.",
+      "technologies": [
+        "Python",
+        "Claude Code",
+        "Grok / xAI API",
+        "FAISS",
+        "Sentence Transformers",
+        "RAG",
+        "JSON",
+        "Automation"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built a forecasting-oriented analytics workflow using Python, PySpark, Prophet, scikit-learn, and Streamlit to process telemetry data, prepare model-ready datasets, and deliver capacity insights.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Spark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a scalable AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet for raw ingestion, transformation, curated analytics datasets, and query optimization.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    }
+  ]
+}

@@ -4,12 +4,14 @@
 # Usage:
 #   .\job-chatgpt-apply.ps1 -Method "Dice"
 #   .\job-chatgpt-apply.ps1 -Method "Company Site" -Notes "Applied with ChatGPT-tailored docs"
+#   .\job-chatgpt-apply.ps1 -Method "Dice" -SkipIndexRefresh
 
 param(
     [string]$Method = "LinkedIn",
     [string]$Notes = "Applied via chatGpt pipeline",
     [string]$Date = (Get-Date).ToString("yyyy-MM-dd"),
-    [switch]$ClearCache
+    [switch]$ClearCache,
+    [switch]$SkipIndexRefresh
 )
 
 Set-Location $PSScriptRoot
@@ -49,8 +51,23 @@ if ($LASTEXITCODE -ne 0) {
     exit $LASTEXITCODE
 }
 
+$indexRefreshOk = $true
+if (-not $SkipIndexRefresh) {
+    Write-Host ""
+    Write-Host "Refreshing duplicate-check index..." -ForegroundColor Yellow
+    python scripts\utils\build_job_index.py --rebuild
+    if ($LASTEXITCODE -ne 0) {
+        $indexRefreshOk = $false
+        Write-Host "WARNING: Application saved, but index refresh failed. Run manually:" -ForegroundColor Yellow
+        Write-Host "python scripts\utils\build_job_index.py --rebuild" -ForegroundColor Yellow
+    } else {
+        Write-Host "Index refreshed successfully." -ForegroundColor Green
+    }
+}
+
 $cache | Add-Member -NotePropertyName applied -NotePropertyValue $true -Force
 $cache | Add-Member -NotePropertyName applied_date -NotePropertyValue $Date -Force
+$cache | Add-Member -NotePropertyName index_refreshed_after_apply -NotePropertyValue $indexRefreshOk -Force
 
 if ($ClearCache) {
     Remove-Item -LiteralPath $chatCachePath -ErrorAction SilentlyContinue
