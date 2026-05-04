@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Financial Services Data Engineer"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise technology experience and strong financial-services background. Deep experience building SQL/Python data pipelines, data models, data quality controls, reporting datasets, and operational analytics platforms in regulated banking environments. Hands-on background with Spark/PySpark, AWS data services, Oracle/SQL, data warehousing, and stakeholder-facing analytics delivery; currently expanding modern platform skills across Snowflake, dbt, and lakehouse patterns.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Designed and operated Python/Pandas ETL pipelines ingesting telemetry and infrastructure data from 6,000+ endpoints, producing trusted datasets for forecasting, reporting, and operational decision-making.",
+        "Built and optimized Oracle schemas, historical retention models, and SQL reporting layers that supported capacity planning, executive reporting, and financial-services technology operations.",
+        "Implemented data quality, validation, reconciliation, and monitoring practices to improve reliability of recurring reporting cycles and reduce manual data preparation effort.",
+        "Developed Python-based forecasting and analytics workflows using Prophet, scikit-learn, pandas, and visualization libraries to support infrastructure risk analysis and leadership-facing insights.",
+        "Built hybrid AWS/Oracle data platform patterns using S3, AWS Glue, Redshift, and Python ETL concepts to support scalable cloud-based data processing and reporting workloads.",
+        "Collaborated with architecture, operations, analytics, and business stakeholders to translate requirements into maintainable datasets, documented processes, and production-ready reporting outputs."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring data used to analyze customer-facing system performance, reliability, and business impact.",
+        "Led the FAST project, mining real-user and synthetic performance datasets to identify optimization opportunities adopted by engineering teams.",
+        "Created analytics and reporting outputs using monitoring, QLIK, Oracle, PostgreSQL, and performance test data to support stakeholder decision-making.",
+        "Partnered with engineering and operations teams during AWS migration planning, providing data-driven readiness and performance insights."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as senior APM and performance engineering consultant in a financial-services environment, supporting large-scale monitoring, reporting, and operational analytics needs.",
+        "Built Perl/Korn Shell data extraction and reporting automation to replace manual weekly exports and improve consistency of performance reporting.",
+        "Designed dashboards, alert thresholds, SLA views, and technical documentation adopted across client environments.",
+        "Collaborated with WebLogic, WebSphere, Oracle, and J2EE teams to investigate performance issues and communicate root-cause findings to technical stakeholders."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, validating correctness and preserving low-latency transaction performance.",
+        "Designed automated schema conversion and data validation workflows to support phased migration cutover and data integrity across millions of records.",
+        "Optimized SQL, C++/OCCI, and Oracle data access patterns to reduce hardware footprint while maintaining production service performance."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Java, Perl, Korn Shell, XML, JSON",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, transformation logic, data marts, data warehousing, reporting datasets, metadata documentation, data flow documentation",
+    "Big Data & Cloud": "Apache Spark, PySpark, Hadoop/Hive, Parquet, AWS S3, AWS Glue, Athena, Amazon Redshift, cloud data platform concepts",
+    "Data Modeling & Quality": "Dimensional modeling, schema design, data validation, reconciliation, data quality controls, performance tuning, historical data retention, reporting layer design",
+    "Financial Services & Governance": "Regulated banking environments, data governance, access controls, audit-aware documentation, operational reporting, risk and capacity analytics",
+    "Analytics & Reporting": "Executive reporting, stakeholder analytics, Streamlit, matplotlib, seaborn, plotly, QLIK, dashboard data preparation",
+    "Delivery & Reliability": "Git, GitHub workflows, CI/CD concepts, Agile/Scrum, production support, monitoring, logging, incident troubleshooting, runbooks, technical documentation",
+    "Developing Knowledge": "Snowflake, dbt, Databricks, Delta Lake, medallion architecture, Data Vault concepts"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting and analytics platform that transformed infrastructure telemetry into trusted planning datasets, executive dashboards, and capacity risk insights for a banking-scale environment.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "SQL",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed AWS data platform patterns using S3, Glue, Athena, Redshift, Parquet, and PySpark concepts to support scalable ETL, analytics-ready datasets, and GenAI/Text-to-SQL exploration.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an agentic Python automation pipeline with semantic duplicate detection, LLM-based scoring and tailoring, JSON quality gates, and application tracking, demonstrating production-style AI workflow orchestration and data validation.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "RAG",
+        "JSON",
+        "Automation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 3, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Data Engineer role with Micro1. The position’s focus on Python, SQL, ETL/ELT pipelines, data quality, dataset preparation, and AI research support aligns closely with my background building practical data pipelines and analytics-ready datasets for enterprise environments.
+
+At Citi, I built and supported automated Python/Pandas data pipelines that ingested telemetry from thousands of endpoints, transformed raw operational data into structured datasets, and supported forecasting, reporting, and executive decision-making. That work required careful data validation, repeatable transformation logic, SQL-based analysis, and strong attention to data quality and reliability.
+
+I also bring hands-on experience with SQL, relational databases, structured and semi-structured data, data modeling, dashboards, and Python analytics workflows. Earlier work at Sabre included migration and validation of large transactional datasets from MySQL to Oracle RAC, while my performance engineering roles strengthened my ability to analyze noisy data, document findings, and collaborate with technical teams to improve systems based on evidence.
+
+The AI research environment is especially interesting because my recent projects have focused on AI-assisted data workflows, RAG-style retrieval, embeddings-based matching, structured JSON artifacts, and quality gates. I would position myself as a practical data engineer who can help researchers and data scientists turn raw datasets into clean, reliable, experiment-ready data without overstating the work as deep ML research.
+
+I would welcome the opportunity to help Micro1 build reliable data pipelines and structured datasets that support AI experimentation and model development.
+
+Sincerely,
+Sean Luka Girgis

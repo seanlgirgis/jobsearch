@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Lead Product Engineer - Observability role with Allstate. The focus on enterprise application monitoring, observability platforms, dashboards, alerting, integrations, reliability engineering, documentation, and stakeholder communication aligns strongly with my APM and telemetry analytics background.
+
+At Citi, I built and supported telemetry analytics pipelines that transformed operational data from thousands of endpoints into curated datasets for monitoring, capacity planning, forecasting, and executive reporting. My work included Python and SQL automation, validation, reconciliation, dashboards, alerting inputs, runbooks, KPI-style reporting, and production support in a regulated enterprise environment.
+
+My observability background includes Dynatrace AppMon and Gomez Synthetic Monitoring at G6, CA APM SME work for TIAA-CREF environments with thousands of instrumented agents, and integration of BMC TrueSight, CA APM, and AppDynamics telemetry into operational reporting and capacity analytics at Citi. I have designed dashboards, thresholds, monitoring documentation, onboarding guidance, and support processes used across application, infrastructure, and operations teams.
+
+I would be transparent that Kubernetes, Datadog, New Relic, OpenTelemetry, React, and Node are not my deepest production claims. However, the core mission of this role—configuring and supporting enterprise application monitoring, improving reliability, shaping monitoring patterns, communicating designs, and aligning observability with business and technology strategy—is directly aligned with work I have delivered.
+
+I would welcome the opportunity to bring senior APM, observability, telemetry analytics, documentation, and enterprise stakeholder communication experience to Allstate's observability product team.
+
+Sincerely,
+Sean Luka Girgis

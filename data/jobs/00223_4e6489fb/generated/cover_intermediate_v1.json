@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data Engineer role with UnitedHealth Group. The role's focus on SQL, ETL, reporting, production troubleshooting, environment health, and AI-assisted automation aligns well with my background supporting enterprise data and reporting systems in regulated environments.",
+  "body": [
+    "At Citi, I built and supported production data pipelines and reporting workflows using Python, SQL, Pandas, Oracle, and AWS data services. My work involved loading and validating operational telemetry, building curated reporting layers, troubleshooting production issues, creating repeatable automation, and documenting runbooks and data flows for ongoing support.",
+    "Earlier roles strengthened my database and production-support foundation. At Sabre, I helped migrate a high-throughput platform from many MySQL nodes to Oracle RAC and built validation utilities to protect data correctness during cutover. In telecom billing environments, I worked with PL/SQL, Pro*C, Oracle, UNIX scripting, XML, and legacy interfaces where accuracy, repeatability, and timely support were critical.",
+    "I would be transparent that my deepest production experience is Oracle/PLSQL/Python/AWS rather than SQL Server/SSIS ownership. However, the core patterns are highly transferable: database objects, stored-procedure-style logic, scheduled jobs, ETL monitoring, data validation, permissions awareness, operational support, and disciplined troubleshooting. I also actively use AI-assisted development tools to speed up code, documentation, and workflow automation while maintaining human review and quality control."
+  ],
+  "conclusion": "I would welcome the opportunity to bring senior SQL/ETL judgment, production reliability, and practical automation discipline to your data environment.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

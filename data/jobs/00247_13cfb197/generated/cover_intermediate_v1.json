@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Programmer Analyst / Data Migration Oracle-AWS role. The focus on Oracle PL/SQL, legacy application logic, SQL tuning, ETL/schema transformation, reporting modernization, AWS migration, documentation, and vendor collaboration aligns strongly with my background.",
+  "body": [
+    "At Sabre, I led migration of a high-throughput data platform from more than 200 MySQL nodes to Oracle RAC, building validation utilities, optimizing SQL/database access patterns, and documenting migration behavior to protect correctness and performance during cutover. Earlier in my career, I supported Oracle, PL/SQL, Pro*C, C/C++, Java/J2EE, XML, Perl, Korn Shell, billing workflows, reporting workflows, and legacy integration logic.",
+    "At Citi, I built Python and SQL data pipelines that transformed enterprise operational data into curated reporting and analytics outputs. My work included Oracle-backed reporting structures, validation and reconciliation checks, exception handling, data dictionaries, runbooks, production troubleshooting, and AWS-aligned patterns using S3, Glue, Athena, Redshift, IAM concepts, and CloudWatch-style monitoring concepts.",
+    "I would be transparent that Crystal Reports, AWS QuickSight, PowerShell, DHTML conversion, and justice/offender-management domain experience are not my deepest production claims. However, the core needs of this role\u2014understanding legacy business logic, refactoring SQL/PLSQL-style database logic, documenting workflows, validating transformed data, supporting reporting migration, and collaborating with vendors on modernization\u2014are directly aligned with work I have delivered."
+  ],
+  "conclusion": "I would welcome the opportunity to bring senior Oracle migration, SQL tuning, ETL validation, reporting modernization, and AWS data-platform experience to this remote modernization effort.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,134 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Software / Data Engineer"
+  },
+  "summary": "Senior enterprise software and data engineer with 20+ years of experience building, supporting, and modernizing production systems in regulated environments. Strong background in Python, SQL, APIs, database-driven applications, production support, documentation, automation, and operational reliability. Experienced partnering with cross-functional teams, troubleshooting complex issues, writing maintainable code, and supporting secure, scalable applications and data workflows.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Designed and supported Python and SQL-based production data workflows that ingested, validated, transformed, and reported telemetry from 6,000+ enterprise endpoints in a regulated financial-services environment.",
+        "Built automation utilities and reporting processes to reduce manual operational work, improve repeatability, and support timely decision-making for infrastructure and application stakeholders.",
+        "Troubleshot production data and reporting issues through root-cause analysis, validation checks, log review, and close collaboration with operations, application, and architecture teams.",
+        "Developed and maintained dashboards and analytical outputs for senior stakeholders using Python, SQL, Streamlit, matplotlib, seaborn, and plotly, emphasizing accuracy, clarity, and operational usefulness.",
+        "Supported cloud and data-platform modernization using AWS services including S3, Glue, Redshift, EC2, and ECS, while applying security, governance, access-control, and production-readiness practices.",
+        "Documented data flows, operational processes, validation logic, and support procedures to improve maintainability, handoffs, and long-term system reliability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Supported production-facing monitoring and performance workflows for critical hospitality systems, partnering with engineering teams to diagnose application behavior and improve operational visibility.",
+        "Used Dynatrace AppMon, Gomez Synthetic Monitoring, QLIK, SQL, and analytics techniques to identify performance trends and provide actionable recommendations to technical stakeholders.",
+        "Participated in AWS cloud migration planning and monitoring readiness reviews, helping teams evaluate application supportability and performance validation needs."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as a senior technical consultant for enterprise application monitoring environments, supporting J2EE/WebLogic/WebSphere applications, production diagnostics, and operational reporting.",
+        "Built Perl and Korn Shell automation scripts for data extraction and recurring reporting, replacing manual exports and improving consistency for operational teams.",
+        "Led upgrades, technical documentation, stakeholder training, troubleshooting, and cross-team support for large-scale monitoring systems with thousands of instrumented agents."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from distributed MySQL infrastructure to Oracle RAC, validating correctness and maintaining performance for mission-critical transaction processing.",
+        "Developed C++/OCCI/OCI and SQL-based validation and testing routines to compare migrated records, verify data integrity, and support production cutover confidence.",
+        "Optimized database access patterns and transaction processing logic to reduce infrastructure footprint while maintaining sub-second query performance."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported enterprise telecom billing interfaces and application components using C, C++, Pro*C, PL/SQL, SQL, Java/J2EE, XML, and Korn Shell across Unix/Linux environments.",
+        "Performed production support, troubleshooting, testing, documentation, and defect resolution for billing, reporting, and customer-management workflows.",
+        "Built and maintained database scripts, integration interfaces, and support utilities while collaborating with QA, operations, and business teams through structured SDLC processes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built a Python-based automation pipeline for job intake, duplicate detection, LLM-assisted scoring, artifact generation, quality gates, and application tracking. The project emphasizes structured JSON artifacts, validation, workflow automation, and repeatable delivery.",
+      "technologies": [
+        "Python",
+        "JSON",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "Git",
+        "Automation",
+        "Quality Gates"
+      ]
+    },
+    {
+      "name": "HorizonScale — Capacity Forecasting and Analytics Engine",
+      "description": "Built Python and PySpark-based forecasting and reporting workflows for enterprise telemetry, including data preparation, validation, analytics dashboards, and operational insights for infrastructure planning.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed AWS data-platform patterns using S3, Glue, Athena, Redshift, and Bedrock concepts to support ETL, data access, text-to-SQL experimentation, and cost-aware analytics workflows.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "Python",
+        "PySpark"
+      ]
+    }
+  ]
+}

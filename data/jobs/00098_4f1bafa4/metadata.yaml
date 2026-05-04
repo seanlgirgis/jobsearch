@@ -15,3 +15,4 @@ notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
   • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)'
 last_decision_at: '2026-05-01T09:05:43.037962'
 last_decision: ACCEPTED
+job_hash: c046d9fb45bb5f1b499f25e3046a276067827ed02f48bdaa5e5fae696bf83105

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Software Engineer - Data Engineering IV role with V-Soft Consulting. The focus on Python, SQL, ETL/ELT, large-scale datasets, JSON transformation, schema design, and data migration aligns well with my enterprise data engineering background.",
+  "body": [
+    "At Citi, I built and supported Python and SQL data pipelines that transformed large operational telemetry datasets into curated reporting and analytics outputs. My work included ingestion, transformation, validation, reconciliation, exception handling, production troubleshooting, data quality checks, and documentation for stakeholders and support teams.",
+    "I also bring strong migration and relational database experience. At Sabre, I helped migrate a high-throughput data platform from many MySQL nodes to Oracle RAC and built validation utilities to compare source and target records across millions of transactions. Earlier telecom billing work included Oracle, PL/SQL, XML, Java/J2EE exposure, Perl, Korn Shell, and data interface support in production environments.",
+    "I would be transparent that my strongest warehouse experience is Oracle, Redshift, and Athena rather than production Snowflake ownership. However, the core requirements of this role\u2014Python transformation, SQL optimization, JSON/schema mapping, data migration, validation, documentation, secure handling, and cross-team delivery\u2014are directly aligned with the work I have delivered across large enterprise systems."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute senior Python/SQL data engineering discipline to V-Soft's migration and data transformation work.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

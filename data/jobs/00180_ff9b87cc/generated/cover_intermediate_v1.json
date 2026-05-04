@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Remote Senior Data Engineer role with Motion Recruitment's media and advertising technology client. My background combines Python, SQL, ETL/ELT pipeline development, data modeling, AWS-oriented data platforms, and production analytics reliability for large enterprise environments.",
+  "body": [
+    "At Citi, I designed and supported Python-based data pipelines that ingested telemetry from more than 6,000 endpoints and transformed it into reporting-ready datasets for capacity, cost, utilization, and operational risk decisions. That work required strong SQL, schema design, data validation, performance troubleshooting, documentation, and stakeholder-facing analytics—the same foundation needed to build reliable data products for advertising, retail partnership, and business decision-making use cases.",
+    "I have hands-on experience with AWS data platform patterns including S3, Glue, Athena-style query access, Redshift workloads, EC2/ECS execution, and CloudWatch concepts. I also bring deep experience in Oracle SQL, data migration, query optimization, production support, monitoring, and operational reporting. While Snowflake and BigQuery are newer areas I am actively strengthening, my background in SQL, warehouse design, Parquet/S3 patterns, Spark/PySpark, and cloud data architecture transfers directly to modern warehouse and lakehouse environments.",
+    "This role's mix of pipeline development, cloud infrastructure, data quality, monitoring, mentorship, and cross-functional collaboration fits the way I work: practical engineering, reliable operations, and clear communication with product, analytics, architecture, and business stakeholders. I would bring a senior ownership mindset focused on scalable pipelines, trusted datasets, performance, and maintainable delivery."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute to a cloud data platform that supports analytics, reporting, and decision-making across the organization.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

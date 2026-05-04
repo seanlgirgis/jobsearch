@@ -10,7 +10,7 @@ score: 81
 recommendation: APPLY
 score_date: '2026-04-03T22:17:54'
 created_at: '2026-04-03T22:17:54'
-notes: 'Good fit and no duplicate blockers.'
+notes: Good fit and no duplicate blockers.
 application:
   applied: true
   applied_date: '2026-04-04'
@@ -22,8 +22,9 @@ application:
     notes: Created from triage gate (APPLY)
   - date: '2026-04-04'
     status: Ready
-    notes: Direct-mode artifacts generated (resume_intermediate.json, cover_intermediate.json, resume.md, cover.md, resume.docx, cover.docx)
+    notes: Direct-mode artifacts generated (resume_intermediate.json, cover_intermediate.json,
+      resume.md, cover.md, resume.docx, cover.docx)
   - date: '2026-04-04'
     status: Applied
     notes: Applied on LinkedIn website; no additional website login/password was required
-
+job_hash: 70fff5b5beef475073de2d44d3dd3744a1bf759e01d4934d34cd94cbb3d3adfa

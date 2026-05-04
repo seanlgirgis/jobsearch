@@ -1,0 +1,63 @@
+# Tailored Resume Preview
+
+**Sean Luka Girgis**  
+Lead Data Platform Engineer  
+214-315-2190 | seanlgirgis@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/sean-girgis-43bb1b5/) | [GitHub](https://github.com/seanlgirgis) | [Portfolio](https://seanlgirgis.github.io)  
+
+## Professional Summary
+Lead/Senior Data Platform Engineer with 20+ years of enterprise technology experience and strong hands-on background in Python, SQL, PySpark, ETL/ELT, Airflow, data quality, and production analytics platforms. Built and supported regulated financial-services data pipelines that integrated telemetry from thousands of endpoints, enabled forecasting and executive reporting, and emphasized reliability, validation, observability, and operational documentation. Strong fit for data platform teams supporting AI/ML and analytics workloads, with active lakehouse upskilling in Databricks, Delta Lake, dbt, Snowflake, medallion architecture, and governance patterns.
+
+## Professional Experience
+### Senior Capacity & Data Engineer at CITI
+2017-11 – 2025-12
+- Architected and maintained automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ enterprise endpoints into governed reporting and forecasting datasets.
+- Designed data integration, transformation, validation, and reconciliation workflows that improved consistency across monitoring feeds from BMC TrueSight, CA Wily, AppDynamics, and enterprise source systems.
+- Built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue ETL concepts, Redshift forecasting workloads, and optimized relational schemas for historical retention and analytics.
+- Developed ML forecasting datasets and Prophet/scikit-learn models predicting capacity bottlenecks months ahead, supporting AI/ML-style platform enablement for infrastructure planning teams.
+- Implemented observability-oriented reporting, troubleshooting, and operational dashboards to identify failed loads, degraded data quality, and infrastructure risk across high-scale banking environments.
+- Partnered with stakeholders, engineers, and operations teams to translate business requirements into reliable data products, documented workflows, and repeatable production support processes.
+
+### Performance Engineer at G6 Hospitality LLC
+2017-03 – 2017-11
+- Managed Dynatrace AppMon and Gomez Synthetic Monitoring data flows for Brand.com and other critical hospitality systems, turning operational telemetry into actionable performance insights.
+- Led the FAST project, mining real-user and synthetic monitoring data to identify optimization opportunities adopted by engineering teams.
+- Supported AWS migration planning by assessing monitoring readiness, application behavior, and performance instrumentation requirements.
+- Created reporting and analysis workflows that connected technical telemetry to concrete operational decisions for web and mobile platforms.
+
+### SME for CA APM (Senior Consultant) at CA Technologies / TIAA-CREF
+2011 – 2016
+- Served as CA APM SME for a large financial-services environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.
+- Built Perl/Korn Shell data-extraction and reporting automation that replaced manual exports and improved repeatability of operational analytics.
+- Designed dashboards, alerts, SLA thresholds, and operational documentation used by application and infrastructure teams.
+- Collaborated with J2EE, WebLogic, database, and performance teams to troubleshoot bottlenecks using production telemetry and transaction traces.
+
+### Senior Systems & Data Migration Engineer at Sabre
+2008-05 – 2010
+- Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving transaction correctness and performance at scale.
+- Built C++/OCCI/OCI validation and test frameworks to verify data migration accuracy across large transactional datasets.
+- Optimized query and transaction processing paths, reducing infrastructure footprint while maintaining sub-second performance requirements.
+
+## Education
+**High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science**  
+Humber College, Toronto, Canada
+
+**Bachelor of Science in Civil Engineering**  
+Zagazig University, Egypt / Cairo, Egypt
+
+## Skills
+**Languages:** Python, SQL, PySpark, PL/SQL, Perl, Korn Shell, C++, Java, XML, JSON
+
+## Flagship Projects
+### Serverless Lakehouse Platform (AWS)
+Designed a serverless data platform pattern using S3, Glue, Athena, Bedrock, and PySpark concepts to support curated datasets, Text-to-SQL experimentation, and cost-aware analytical access.
+**Technologies:** AWS S3, AWS Glue, Athena, Amazon Bedrock, PySpark, Parquet
+
+### HorizonScale — AI Capacity Forecasting Engine
+Built an AI-assisted capacity forecasting platform using Python, PySpark, Prophet, scikit-learn, and Streamlit to transform infrastructure telemetry into predictive capacity insights.
+**Technologies:** Python, PySpark, Prophet, scikit-learn, Pandas, Streamlit
+
+### Databricks / Lakehouse Learning Track
+Hands-on self-study and local practice with Delta Lake, medallion architecture, Unity Catalog concepts, schema enforcement, MERGE/upsert patterns, and lakehouse reliability practices; positioned as active upskilling rather than production ownership.
+**Technologies:** Databricks concepts, Delta Lake, Medallion Architecture, Unity Catalog concepts, PySpark, Data Quality
+

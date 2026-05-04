@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Data Engineer, Vice President role at Citi. My background aligns closely with the need for a senior data engineer who can deliver Python automation, SQL-driven integration, ETL/ELT pipelines, data quality controls, production support, and governed analytics delivery in a regulated financial-services environment.
+
+At Citi, I built and operated production data pipelines that ingested telemetry from more than 6,000 enterprise endpoints, replacing manual processes with repeatable Python/Pandas workflows, optimized Oracle schemas, validation routines, and executive reporting outputs. That work required the same discipline this role emphasizes: reliable data integration, operational ownership, release support, reconciliation, performance tuning, and communication across architecture, application, analytics, and business teams.
+
+My strongest fit is in the practical engineering layer behind large-scale data integration: Python utilities for data loads and validation, advanced SQL and PL/SQL, data warehouse design, schema and retention planning, ETL/ELT optimization, logging, error handling, root-cause analysis, and production runbook-style documentation. I have also worked with AWS S3, Glue, Redshift, and analytics pipelines, and I am comfortable mapping requirements into secure, governed, maintainable data delivery patterns.
+
+While my deepest experience is custom Python/SQL/AWS and Oracle-based data platforms rather than named ETL suites alone, I bring the enterprise delivery habits Citi needs: regulated-environment judgment, auditability, access-control awareness, data quality, stakeholder partnership, and accountability for production outcomes. I would bring a former Citi operator's understanding of financial-services reliability and a hands-on data engineer's ability to build and improve the pipelines that support CRM, analytics, reporting, and downstream integration.
+
+I would welcome the opportunity to bring my Citi data engineering background, Python/SQL depth, and production delivery mindset back into a VP-level data integration role.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,138 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior AWS Data Engineer"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise technology experience and strong financial-services background. Specialized in Python, SQL, PySpark/Spark, AWS data pipelines, data warehouse/lake architecture, production reliability, monitoring, and cost-aware data processing. Built and supported large-scale telemetry and forecasting pipelines, migrated workloads toward AWS services including S3, Glue, Redshift, and ECS, and delivered executive-facing analytics with strong data quality, documentation, and operational support discipline.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Designed and operated Python/Pandas ETL pipelines ingesting P95 infrastructure telemetry from 6,000+ endpoints, transforming raw operational data into reliable analytics datasets for capacity, cost, and risk reporting.",
+        "Built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue ETL concepts, Redshift forecasting workloads, and ECS/EC2-hosted Python processing to support scalable cloud data operations.",
+        "Developed Spark/PySpark and Python-based processing workflows for high-volume telemetry analysis, with attention to partitioning, file formats, performance tuning, and production data reliability.",
+        "Implemented data quality, reconciliation, monitoring, and troubleshooting practices for recurring reporting cycles, reducing manual investigation and improving confidence in downstream analytics outputs.",
+        "Partnered with finance, technology, and operations stakeholders to translate capacity and usage questions into reporting datasets, executive dashboards, and actionable optimization recommendations.",
+        "Created documentation, runbooks, and repeatable operating procedures for production data workflows, incident response, validation, and support handoffs."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring data used to analyze application performance, reliability, and transaction behavior across business-critical hospitality systems.",
+        "Led the FAST analytics initiative, mining real-user and synthetic performance data to surface optimization recommendations for engineering teams and business stakeholders.",
+        "Integrated performance and operational datasets into reporting views that improved visibility into service health, system behavior, and production readiness."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as enterprise CA APM SME supporting 50+ Enterprise Managers and 4,000–6,000 instrumented agents across a large financial-services environment.",
+        "Built Perl and Korn Shell data-extraction scripts to automate performance reporting and reduce manual weekly export work.",
+        "Designed monitoring dashboards, alert thresholds, and technical documentation used by operations and application teams to improve production observability and issue resolution."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC platform while preserving transaction performance and data correctness.",
+        "Built automated schema conversion and data validation routines to support phased migration, reconciliation, and production cutover readiness.",
+        "Optimized SQL, Oracle access patterns, and C++/OCCI transaction processing to reduce hardware footprint while maintaining sub-second query latency."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability telecom billing interfaces using C/C++, Pro*C, PL/SQL, Oracle, Korn Shell, Perl, and XML across Unix/Linux environments.",
+        "Improved billing-process performance through SQL, PL/SQL, and sequence optimization, including 10x database performance gains in targeted processing flows.",
+        "Maintained production integration workflows, test cycles, documentation, and issue triage for large-scale billing and reporting systems."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Java, C++, Perl, Korn Shell, JSON, XML",
+    "AWS Data Platform": "Amazon S3, AWS Glue, Amazon Redshift, AWS Athena concepts, AWS Step Functions concepts, AWS Lambda concepts, AWS ECS/EC2, CloudWatch concepts, IAM/security concepts",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, batch processing, data warehousing, OLTP/OLAP concepts, data marts, data lakes, metadata management, data flow documentation",
+    "Big Data & Processing": "Apache Spark, PySpark, Hadoop/Hive, Parquet, distributed processing, partitioning, compression, high-volume telemetry processing",
+    "Databases": "Oracle, PL/SQL, Oracle RAC, MySQL, PostgreSQL exposure, DynamoDB concepts, relational modeling, schema design, SQL tuning",
+    "Orchestration & Delivery": "Airflow, workflow scheduling concepts, Git, GitHub workflows, CI/CD concepts, Docker, Agile/Scrum, technical documentation, runbooks",
+    "Reliability & Observability": "Monitoring, alerting, CloudWatch concepts, Dynatrace AppMon, AppDynamics, BMC TrueSight/TSCO, CA APM, incident support, troubleshooting, root-cause analysis",
+    "Governance & Quality": "Data quality validation, reconciliation, access-control concepts, data lineage documentation, change management, regulated financial-services delivery",
+    "Analytics & Optimization": "Technology cost and usage analysis, capacity forecasting, performance/cost optimization, executive reporting, stakeholder-facing analytics"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS-oriented data platform pattern using S3, Glue, Athena, Redshift, and Bedrock concepts to support analytics-ready data, optimized file formats, and AI-assisted data access.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built Python/PySpark forecasting workflows and Streamlit reporting to turn enterprise telemetry into capacity, usage, and optimization insights for infrastructure stakeholders.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Pandas",
+        "SQL"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built a Python-based agentic workflow for job intake, semantic duplicate detection, scoring, JSON artifact generation, quality gates, and application tracking using LLM APIs and vector similarity.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "Grok API",
+        "Claude Code",
+        "JSON",
+        "Agentic Workflows"
+      ]
+    }
+  ]
+}

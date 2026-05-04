@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Staff Data Engineer, Data Platform role with Milliman IntelliScript. My background combines senior data engineering, AWS/PySpark pipelines, enterprise data warehousing, telemetry analytics, governance-minded delivery, and production reliability across regulated environments.
+
+At Citi, I architected automated Python and PySpark-oriented ETL pipelines ingesting telemetry from 6,000+ enterprise endpoints, replacing manual processes with repeatable data flows used for forecasting, reporting, and stakeholder decisions. I also built AWS-enabled platform patterns using S3, Glue, Athena, Redshift, and Oracle-backed historical stores, with attention to data quality, performance, traceability, and operational support.
+
+Your role’s focus on data platform architecture, lakehouse solutions, governance, security, batch and near-real-time processing, pipeline monitoring, APIs, and cost-aware delivery maps well to the work I have done across enterprise data and performance engineering. I have deep hands-on strength in Python, SQL, ETL, data modeling, large-scale telemetry datasets, monitoring, stakeholder collaboration, and production troubleshooting, and I am actively building modern lakehouse fluency in Databricks, Delta Lake, Delta Live Tables, Unity Catalog, medallion architecture, and Terraform without overstating them as production ownership.
+
+I also bring a long history of turning ambiguous technical requirements into reliable systems: integrating disparate monitoring feeds, building executive reporting layers, automating manual reporting, designing migration validation, and communicating complex platform behavior to technical and non-technical teams. While my healthcare standards background is developing, my experience with regulated banking data, sensitive access patterns, auditability, and enterprise governance gives me a strong foundation for IntelliScript’s privacy-focused healthcare data platform work.
+
+I would welcome the opportunity to bring my senior AWS/PySpark data-platform experience and practical architecture mindset to Milliman IntelliScript’s growing Data Platform team.
+
+Sincerely
+Sean Luka Girgis

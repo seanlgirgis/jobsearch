@@ -1,0 +1,80 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Cloud Data Analytics / AWS Data Engineer"
+  },
+  "summary": "Senior Cloud Data Analytics professional with 20+ years in enterprise data engineering. Expert in AWS Glue/S3/Redshift, PySpark ETL pipelines, Power BI dashboards, and data quality validation. Skilled in building scalable cloud data solutions for analytics and reporting.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines (Python/Pandas) for telemetry from 6,000+ endpoints, supporting analytics and reporting.",
+        "Built hybrid AWS/Oracle data platform: S3 landing zone, Glue ETL, Redshift analytics, improving cloud forecasting workloads.",
+        "Developed and optimized SQL-based reporting layers and Power BI dashboards for executive metrics.",
+        "Implemented data validation and reconciliation processes to ensure pipeline accuracy and compliance."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics monitoring and real-time dashboarding.",
+        "Performed data analysis to optimize performance metrics and supported cloud readiness."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME CA APM / Senior Consultant",
+      "start_date": "2011-01",
+      "end_date": "2016-12",
+      "bullets": [
+        "Led enterprise-scale CA APM upgrades, dashboards, and alerts across 4,000+ agents.",
+        "Automated reporting using Perl/Ksh scripts, integrated with monitoring telemetry."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Cairo, Egypt",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Perl, Korn Shell",
+    "Cloud & Data": "AWS Glue, S3, Redshift, Athena, ETL/ELT pipelines, Data Warehousing, Data Modeling, Data Quality",
+    "Visualization": "Power BI, Streamlit, matplotlib, seaborn, plotly",
+    "Monitoring / APM": "Dynatrace AppMon/Synthetics, CA APM, BMC TrueSight, AppDynamics, Transaction Tracing",
+    "Orchestration": "Airflow, ETL scheduling, data validation",
+    "DevOps / Tools": "Git, Docker, CI/CD concepts, CloudWatch metrics"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed full serverless data platform with S3, Glue, Athena; implemented ETL pipelines and reporting dashboards, optimized data access and quality.",
+      "technologies": ["AWS Glue", "Athena", "S3", "PySpark", "Power BI"]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "End-to-end agentic pipeline orchestrating job scoring, resume/cover generation, and quality gating.",
+      "technologies": ["Python", "Claude Code", "Grok API", "FAISS", "Streamlit"]
+    }
+  ]
+}

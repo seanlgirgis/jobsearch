@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the SQL Data Quality Test Engineer contract role. My background combines senior data engineering, SQL-heavy validation, ETL/data migration support, production troubleshooting, and documentation for business-critical reporting environments.",
+  "body": [
+    "At Citi, I built and supported Python/Pandas ETL pipelines that normalized telemetry from more than 6,000 endpoints into trusted analytics and forecasting datasets. That work required complex SQL, data cleansing, reconciliation, repeatable quality checks, production issue analysis, and clear documentation so stakeholders could rely on the reporting outputs.",
+    "Earlier at Sabre, I led a major migration from a large MySQL environment to Oracle RAC and built validation utilities to confirm migration correctness across transaction records. That experience maps directly to source-to-target validation, data integrity checks, regression-style verification, and migration testing responsibilities in this role.",
+    "I bring a practical quality mindset: understand the business rules, validate the data movement, document the flow, investigate defects with engineering partners, and keep improving the testing process. I am strongest in SQL, Oracle, Python automation, ETL validation, reconciliation, and production data reliability, with working knowledge of Redshift/MPP warehouse concepts and analytics reporting needs."
+  ],
+  "conclusion": "I would welcome the opportunity to help strengthen data quality, ETL testing, and migration validation practices for your analytics and data architecture teams.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

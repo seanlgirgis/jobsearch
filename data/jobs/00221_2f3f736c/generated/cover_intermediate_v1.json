@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Engineer role focused on cloud data integration and transformation. My strongest fit is the combination of legacy-system experience, SQL/Python/PySpark data engineering, migration validation, and production pipeline discipline.",
+  "body": [
+    "At Citi, I built and supported Python/Pandas and PySpark-oriented ETL pipelines that transformed telemetry from thousands of endpoints into curated datasets for analytics, forecasting, and executive reporting. I also worked with AWS data services including S3, Glue, Athena, Redshift, EC2/ECS, and IAM concepts, with strong emphasis on data quality, validation, reconciliation, logging, documentation, and production support.",
+    "Earlier in my career, I worked deeply with legacy and migration-heavy environments. At Sabre, I helped migrate a high-volume shopping-engine platform from many MySQL nodes into Oracle RAC, building validation utilities and repeatable migration checks. At Sprint/AMDOCS, I supported COBOL, C/C++, Pro*C, PL/SQL, XML, Korn Shell, batch processing, and telecom billing interfaces, which gives me practical familiarity with the kinds of legacy source systems and data-shape issues that appear in modernization programs.",
+    "I would be careful and transparent on the Azure side: my strongest production cloud work is AWS, while I am actively building fluency in Databricks, Delta Lake, medallion architecture, Unity Catalog, and Azure lakehouse patterns. What I can bring immediately is senior migration judgment, SQL/PySpark engineering, validation discipline, production troubleshooting, and the ability to work with analysts, architects, and SMEs to turn messy legacy data into governed, reliable analytics layers."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute to a legacy-to-cloud migration effort where data correctness, repeatable pipelines, and disciplined validation matter.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

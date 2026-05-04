@@ -1,0 +1,126 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior SQL / ETL Data Engineer | Data Migration | Production Support"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise IT experience across SQL, PL/SQL, Python, ETL/data integration, data migration, curated reporting models, production support, data quality, monitoring, and technical documentation. Strong background designing and supporting reliable data pipelines and reporting datasets in regulated enterprise environments. Deepest production experience is Oracle/PLSQL/Python/AWS, with transferable SQL Server, ADF, Azure, and C#/.NET concepts.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained SQL/Python ETL pipelines that transformed operational telemetry into curated datasets for analytics, reporting, forecasting, and production decision support.",
+        "Designed Oracle-backed reporting tables, historical retention structures, validation routines, and data quality checks to improve consistency and reliability of stakeholder-facing outputs.",
+        "Developed Python/Pandas automation for ingestion, transformation, reconciliation, exception handling, recurring reporting, and production support workflows.",
+        "Troubleshot missing, incorrect, and inconsistent data by tracing source feeds, transformation logic, SQL behavior, schema changes, and downstream reporting expectations.",
+        "Built cloud-aligned data workflows using AWS S3, Glue, Athena, Redshift, EC2/ECS, IAM concepts, and monitoring concepts to support scalable analytics workloads.",
+        "Created operational runbooks, data dictionaries, validation notes, and technical documentation to support maintainability, handoff, and compliance-oriented delivery.",
+        "Collaborated with cross-functional teams to translate requirements into technical data solutions, prioritize support needs, and improve pipeline reliability."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving data correctness and performance.",
+        "Built C++/OCCI/OCI validation utilities to compare source and target records across millions of transactions during phased migration cutovers.",
+        "Optimized SQL/database access patterns, data structures, and migration routines to maintain performance and reduce production risk.",
+        "Automated schema conversion, data validation, and migration-support processes to improve repeatability and production cutover confidence."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built SQL, Perl, and Korn Shell reporting scripts that automated recurring data extraction and improved repeatability of operational reports.",
+        "Designed dashboards, alert thresholds, reporting standards, and documentation used across enterprise monitoring and support teams.",
+        "Partnered with application, middleware, and operations teams to diagnose production performance issues and improve support workflows.",
+        "Provided knowledge sharing, technical guidance, and documentation for client teams supporting large-scale enterprise systems."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer, Billing Interfaces and Data Workflows",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, invoicing, settlement, EDI, and reporting workflows using Oracle, PL/SQL, Pro*C, C/C++, Java/J2EE, XML, Perl, Korn Shell, and UNIX/Linux.",
+        "Maintained production data integration interfaces and reporting workflows where accuracy, reliability, and repeatable support were critical.",
+        "Improved data-processing performance through SQL/database optimization, memory reduction, throughput improvements, and production defect triage.",
+        "Created technical documentation and support notes for legacy systems, data interfaces, and operational processes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "SQL & Databases": "SQL, PL/SQL, Oracle, Oracle RAC, SQL Server transferable concepts, T-SQL concepts, stored procedure concepts, views, data modeling, query tuning, schema design, MySQL, PostgreSQL",
+    "ETL & Data Pipelines": "ETL/data integration, data ingestion, transformation, loading, data migration, source-to-target mapping, curated reporting models, pipeline support, operational readiness",
+    "Data Quality & Reliability": "Data validation, reconciliation, data quality checks, pipeline health monitoring, root-cause analysis, alerting concepts, runbooks, production support, troubleshooting",
+    "Programming & Automation": "Python, Pandas, PySpark, Perl, Korn Shell, C, C++, Java, XML, JSON, YAML, automation scripts, exception handling, repeatable operational workflows",
+    "Cloud & Platforms": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts; Azure Data Factory concepts, Azure SQL concepts, Azure Storage concepts",
+    "Delivery & Tools": "Git, GitHub workflows, Azure DevOps transferable concepts, CI/CD concepts, code reviews, Agile/Scrum/Kanban, technical documentation, knowledge sharing, mentoring",
+    "Adjacent / Learning": "Azure, Azure Data Factory, SQL Server, .NET/C# legacy exposure, data governance and lineage concepts, financial services and banking data awareness"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns to support curated analytics, query optimization, and reliable downstream reporting.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Data Pipeline",
+      "description": "Built an analytics pipeline that transformed operational telemetry into curated datasets for forecasting, capacity risk analysis, dashboarding, KPI-style reporting, and stakeholder decision-making.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Legacy Data Migration and Validation Framework",
+      "description": "Supported high-volume database migration and validation work involving source/target comparison, schema conversion, SQL optimization, and repeatable cutover checks for enterprise transaction systems.",
+      "technologies": [
+        "Oracle RAC",
+        "SQL",
+        "C++",
+        "OCCI/OCI",
+        "MySQL",
+        "Validation Utilities"
+      ]
+    }
+  ]
+}

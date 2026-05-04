@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Lead Infrastructure Engineer - Capacity Management role with JPMorgan Chase. The role's focus on capacity forecasting, infrastructure analytics, observability platforms, Python, time-series modeling, reporting, and financial-services technology aligns unusually well with my background.",
+  "body": [
+    "At Citi, I built and supported capacity analytics pipelines that transformed telemetry from thousands of endpoints into curated datasets for forecasting, risk analysis, operational reporting, and executive decision-making. My work combined Python, SQL, Pandas, PySpark-oriented processing, BMC TrueSight/TSCO, CA APM, AppDynamics, Oracle data structures, validation routines, and production support.",
+    "I also bring deep observability and performance-engineering experience. I managed Dynatrace AppMon and Gomez Synthetic Monitoring at G6, implemented EUM and transaction tracing, and served as a CA APM SME for TIAA-CREF environments with thousands of instrumented agents. Across these roles, I used telemetry to identify bottlenecks, create dashboards and reports, and communicate recommendations to technical and non-technical stakeholders.",
+    "I would be transparent that Kubernetes and Pivotal Cloud Foundry are not my strongest production claims, and my visualization depth is stronger in Python, Streamlit, Plotly, and operational dashboards than Tableau or Grafana specifically. However, the core mission of this role\u2014capacity modeling, infrastructure risk analysis, observability data interpretation, automation, and clear recommendations in a banking environment\u2014is directly aligned with work I have delivered."
+  ],
+  "conclusion": "I would welcome the opportunity to bring senior capacity management, observability analytics, and AI-assisted automation experience to JPMorgan Chase's infrastructure engineering team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Analytics Engineer / Data Engineer"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise experience building SQL/Python data pipelines, governed reporting layers, data quality controls, and analytics datasets for business and technical stakeholders. Strong background in data modeling, ETL/ELT, production reliability, documentation, and stakeholder-facing reporting, with recent AWS/PySpark pipeline work and active learning in dbt, BigQuery, Snowflake, and modern analytics engineering patterns. Experienced bridging engineering, analytics, and leadership teams to turn complex operational data into trusted, usable insights.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected and supported Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints, replacing manual reporting workflows with repeatable analytics datasets for technology and leadership stakeholders.",
+        "Designed optimized Oracle data models and historical retention structures used for capacity analysis, seasonal forecasting, executive reporting, and operational decision support.",
+        "Built data quality, validation, and reconciliation checks across monitoring feeds to improve confidence in downstream reporting, dashboards, and analytics outputs.",
+        "Integrated BMC TrueSight, CA Wily, AppDynamics, and other operational data sources into unified reporting layers, enabling cross-platform insight into infrastructure health, performance, and usage trends.",
+        "Developed Streamlit and Python visualization/reporting workflows using matplotlib, seaborn, and plotly to communicate capacity, risk, and utilization insights to senior stakeholders.",
+        "Documented pipeline logic, data definitions, operational runbooks, and reporting assumptions so analytics consumers could understand and trust the data products."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring data for critical hospitality systems, turning performance telemetry into actionable insights for engineering teams.",
+        "Led the FAST project, data-mining real-user and synthetic performance metrics to identify optimization opportunities for customer-facing digital platforms.",
+        "Implemented End-User Monitoring and transaction tracing to improve visibility into user experience, application bottlenecks, and system performance trends.",
+        "Collaborated with technical and non-technical stakeholders to explain performance findings, prioritize improvements, and support cloud migration readiness discussions."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large financial-services environment, supporting enterprise monitoring, reporting, and performance analytics across thousands of instrumented agents.",
+        "Built Perl and Korn Shell data-extraction scripts that automated weekly performance reporting and reduced manual operational effort.",
+        "Designed dashboards, alerts, SLA thresholds, and technical documentation adopted across client environments to standardize observability and reporting practices.",
+        "Partnered with J2EE/WebLogic, database, and operations teams to diagnose bottlenecks, interpret telemetry, and communicate technical tradeoffs clearly."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, validating correctness and preserving high-volume transactional performance.",
+        "Optimized SQL and Oracle access patterns using C++/OCCI/OCI, reducing infrastructure footprint while maintaining sub-second query latency.",
+        "Built automated data validation and testing utilities to compare migration outputs and support reliable cutover of business-critical data assets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "SQL, Python, PySpark, PL/SQL, Perl, Korn Shell, Java, C++",
+    "Analytics Engineering": "Data modeling, dimensional modeling, reporting layers, KPI datasets, data marts, analytics-ready datasets, stakeholder-facing data products",
+    "Data Engineering": "ETL/ELT pipelines, data warehouse design, data integration, data quality validation, reconciliation, metadata documentation, data flow documentation",
+    "Cloud & Big Data": "AWS S3, AWS Glue, Athena, Amazon Redshift, PySpark, Apache Spark, Hadoop/Hive, Parquet, cloud data platform concepts",
+    "Modern Data Stack Exposure": "dbt concepts and local practice, BigQuery concepts, Snowflake self-study, Fivetran/Segment awareness, lakehouse and medallion architecture concepts",
+    "Reporting & Visualization": "Streamlit, matplotlib, seaborn, plotly, operational dashboards, executive reporting; Tableau/Power BI concepts",
+    "Governance & Reliability": "Data governance, access controls, compliance-aware data handling, monitoring, logging, runbooks, production support, performance tuning",
+    "Delivery": "Git, GitHub workflows, CI/CD concepts, Agile/Scrum, technical documentation, code review, stakeholder communication"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark and Streamlit forecasting platform that transformed infrastructure telemetry into reliable capacity insights, executive dashboards, and predictive risk signals. The project emphasized governed datasets, repeatable transformation logic, and stakeholder-friendly analytics outputs.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Streamlit",
+        "Prophet",
+        "scikit-learn",
+        "Data Pipelines",
+        "Analytics Dashboards"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform using S3, Glue, Athena, Redshift, and Parquet patterns to support scalable analytics, metadata-aware data access, and AI-assisted querying through a Text-to-SQL GenAI workflow.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an agentic Python pipeline that uses semantic matching, structured JSON artifacts, quality gates, and automation to evaluate job postings, generate tailored application materials, and track application workflow state.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "RAG",
+        "JSON Contracts",
+        "Automation"
+      ]
+    }
+  ]
+}

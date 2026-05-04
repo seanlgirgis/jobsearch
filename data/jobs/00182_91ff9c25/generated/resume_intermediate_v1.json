@@ -1,0 +1,133 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Migration Engineer | AWS / Python / SQL / Spark"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise experience across data migration, SQL engineering, Python automation, Spark/PySpark pipelines, and production data reliability. Strong background translating legacy data patterns into scalable cloud data platforms, validating migrated datasets, building reconciliation controls, and documenting hand-off criteria for business and technical stakeholders. Experienced in AWS data services, Hadoop/Hive concepts, Parquet-based data lakes, performance tuning, data quality, and operational support in regulated financial-services environments.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected Python/Pandas and PySpark-oriented telemetry data pipelines ingesting high-volume infrastructure data from 6,000+ endpoints, replacing manual processes with repeatable automated workflows.",
+        "Built a hybrid AWS/Oracle data platform using S3 landing patterns, AWS Glue ETL, Athena-style query access, and Redshift-oriented forecasting workloads to modernize legacy reporting and analytics flows.",
+        "Designed validation and reconciliation logic for production reporting datasets, improving confidence in transformed data used for capacity planning, executive reporting, and operational decisions.",
+        "Optimized SQL schemas, partitioning approaches, and historical-retention models to support reliable analysis of large time-series and telemetry datasets.",
+        "Documented pipeline behavior, data flows, quality checks, and operational procedures so migrated or redesigned processes could be supported by production and stakeholder teams.",
+        "Partnered with engineering, operations, and leadership stakeholders to translate business reporting needs into stable data products, dashboards, and recurring decision-support datasets."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led the FAST project, mining real-user and synthetic monitoring data to produce actionable performance insights for high-visibility hospitality systems.",
+        "Integrated monitoring and performance datasets from Dynatrace AppMon, Gomez Synthetic Monitoring, and related tooling to support engineering analysis and stakeholder reporting.",
+        "Supported AWS migration planning by assessing application monitoring readiness, data collection needs, and operational visibility requirements for migrated workloads."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl and Korn Shell extraction scripts that automated weekly performance reporting from enterprise APM environments, replacing manual export workflows.",
+        "Supported large-scale enterprise monitoring environments with 50+ Enterprise Managers and 4,000-6,000 instrumented agents, emphasizing reliability, standardization, and production supportability.",
+        "Created dashboards, alert thresholds, technical documentation, and operational standards adopted by customer teams for performance and availability analysis."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving transaction integrity and sub-second query behavior.",
+        "Automated schema conversion and data validation pipelines to verify migration correctness across large transaction datasets during phased cutover.",
+        "Optimized C++/OCCI and SQL data access patterns to reduce hardware footprint while maintaining high-volume production performance."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability billing interfaces using C, C++, Pro*C, PL/SQL, XML, Korn Shell, and UNIX across telecom-scale production systems.",
+        "Improved database and batch-processing performance through SQL, PL/SQL, sequence optimization, memory reduction, and automated operational scripts.",
+        "Reverse-engineered undocumented vendor APIs and documented integration behavior to support maintainable interface migration and production troubleshooting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Java, C++, Perl, Korn Shell, XML, JSON",
+    "Data Migration & Reconciliation": "legacy-to-cloud migration, source-to-target validation, data reconciliation, schema conversion, data quality checks, production cutover support, stakeholder hand-off/sign-off documentation",
+    "AWS & Cloud Data": "Amazon S3, AWS Glue, Athena concepts, Amazon Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, cloud migration planning",
+    "Big Data & Lakehouse Concepts": "Apache Spark, PySpark, Hadoop/Hive, Parquet, Avro concepts, partitioning, schema evolution concepts, Apache Iceberg concepts, Snowflake concepts",
+    "Data Engineering": "ETL/ELT pipelines, data modeling, data warehousing, batch processing, scheduling/orchestration concepts, data integration, metadata and lineage documentation",
+    "Reliability & Delivery": "performance tuning, query optimization, monitoring, alerting, incident response, runbooks, CI/CD concepts, Git, Agile/Scrum, technical documentation",
+    "Databases": "Oracle, PL/SQL, Oracle RAC, MySQL, PostgreSQL, DB2, SQL Server concepts, Sybase IQ awareness"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS data platform pattern using S3, Glue, Athena, Bedrock, and PySpark-oriented processing, with emphasis on Parquet storage, small-file mitigation, query optimization, and governed data access for analytics and AI use cases.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting and analytics pipeline over telemetry datasets, emphasizing repeatable ingestion, validation, transformation, dashboarding, and stakeholder-ready reporting.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an agentic automation pipeline with semantic duplicate detection, JSON artifact generation, quality gates, and application tracking, demonstrating practical RAG-style retrieval, validation, and reproducible workflow design.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "sentence-transformers",
+        "LLM APIs",
+        "RAG",
+        "JSON"
+      ]
+    }
+  ]
+}

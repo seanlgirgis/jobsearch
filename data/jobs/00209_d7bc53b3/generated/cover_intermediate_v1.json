@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Dallas-Fort Worth area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": "CBTS"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Engineer role with CBTS in Irving. My background aligns well with the role's need for hands-on Python, SQL, Spark/PySpark, cloud data engineering, ETL, data modeling, analytics workflows, and clear communication with technical and non-technical teams.",
+  "body": [
+    "At Citi, I built and maintained Python and SQL-driven ETL pipelines that ingested telemetry from more than 6,000 enterprise endpoints and transformed disparate operational feeds into trusted datasets for reporting, forecasting, and analytics consumers. I also designed database schemas, reporting tables, validation routines, and historical data structures that supported metrics development, trend analysis, and business-facing reporting.",
+    "The CBTS role maps closely to my hands-on strengths in data engineering fundamentals: ETL/ELT design, database architecture, data warehousing, analytics datasets, data quality, and stakeholder collaboration. I have used PySpark/Spark patterns for large-scale telemetry processing, worked with AWS S3, Glue, Athena, and Redshift-oriented architectures, and used Git-based workflows, documentation, and production support practices to keep data solutions reliable and maintainable.",
+    "I can also contribute beyond individual delivery by mentoring engineers, leading design discussions, and communicating clearly across analytics, engineering, and business audiences. While Databricks and CDP platforms such as HighTouch are areas I am actively building around rather than overstating as long-term production ownership, my Python, SQL, Spark, cloud, ETL, and analytics background gives me a strong foundation to ramp quickly and contribute practical value."
+  ],
+  "conclusion": "I would welcome the opportunity to bring my data engineering, analytics delivery, and senior execution discipline to CBTS and its clients.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

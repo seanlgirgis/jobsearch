@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the remote Data Engineer contract role with Resource 1. The role’s focus on scalable data pipelines, ETL, data warehousing, data quality, documentation, cloud data services, and stakeholder support aligns well with my background building reliable enterprise data and analytics workflows.
+
+At Citi, I built and supported Python and SQL-driven ETL pipelines for large-scale telemetry and operational datasets, helping replace manual processes with repeatable, maintainable data workflows. My work included data ingestion, transformation, schema design, data integrity checks, troubleshooting, and reporting support for stakeholders who depended on trusted analytics outputs.
+
+I also bring strong experience with relational databases, SQL optimization, Oracle data platforms, data warehouse concepts, and cloud-oriented data engineering on AWS. I have worked with S3, Glue, Athena, Redshift-aligned analytics patterns, and production support practices such as monitoring, documentation, runbooks, and issue resolution. Earlier migration work at Sabre further strengthened my experience validating data correctness across source and target systems during complex platform transitions.
+
+This role appears to need a practical engineer who can work independently, integrate data from multiple systems, improve data processing efficiency, maintain documentation, and collaborate with analysts and business stakeholders. That is the kind of data engineering work I have repeatedly delivered across banking, hospitality, and enterprise technology environments.
+
+I would welcome the opportunity to bring my SQL, Python, ETL, data quality, and cloud data platform experience to Resource 1’s client environment.
+
+Sincerely,
+Sean Luka Girgis

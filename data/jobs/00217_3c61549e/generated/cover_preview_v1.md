@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Software Engineer role with UnitedHealth Group / Optum. My background combines enterprise software support, Python and SQL automation, production troubleshooting, documentation, and regulated-environment delivery, which aligns well with the role's focus on reliable, secure, maintainable application solutions.
+
+At Citi, I built and supported production Python and SQL data workflows used for enterprise reporting, infrastructure analytics, and operational decision-making. This work required clean scripting, database-driven processing, validation, troubleshooting, documentation, and collaboration with application, operations, architecture, and business stakeholders.
+
+Earlier in my career, I developed and supported enterprise applications and integrations using Java/J2EE, C++, SQL, PL/SQL, XML, and Unix scripting across telecom, travel, and financial-services environments. I have repeatedly worked through the full SDLC: requirements analysis, design, coding, testing, debugging, production support, documentation, and change/release coordination.
+
+I would bring Optum a practical engineering profile: strong Python and SQL, mature production-support judgment, regulated-enterprise experience, cloud exposure through AWS, and a habit of documenting systems so teams can maintain and improve them. I am comfortable working cross-functionally and focusing on operational readiness, data governance, application reliability, and supportability.
+
+I would welcome the opportunity to contribute to software and data systems that support Optum's mission of improving health outcomes through reliable technology.
+
+Sincerely,
+Sean Luka Girgis

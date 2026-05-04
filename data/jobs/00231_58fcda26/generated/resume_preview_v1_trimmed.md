@@ -1,0 +1,67 @@
+# Tailored Resume Preview
+
+**Sean Luka Girgis**  
+Observability Data Infrastructure Engineer | Telemetry Pipelines | Python / SQL / AWS  
+214-315-2190 | seanlgirgis@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/sean-girgis-43bb1b5/) | [GitHub](https://github.com/seanlgirgis) | [Portfolio](https://seanlgirgis.github.io)  
+
+## Professional Summary
+Senior Data Engineer and Observability/Performance Engineer with 20+ years of enterprise IT experience across telemetry pipelines, APM platforms, Python, SQL, Spark/PySpark, ETL/ELT, data quality, production support, and regulated enterprise environments. Deep background transforming high-volume operational telemetry into trusted reporting, analytics, forecasting, and executive visibility. Hands-on experience with Dynatrace AppMon/Synthetics, CA APM, BMC TrueSight/TSCO, AppDynamics, Python automation, AWS data services, and production reliability workflows; actively building Databricks, Delta Lake, Unity Catalog, OpenTelemetry, Kafka/MSK, and security-data lakehouse fluency.
+
+## Professional Experience
+### Senior Capacity & Data Engineer at Citi
+2017-11 – 2025-12
+- Architected Python/Pandas and PySpark-oriented ETL pipelines that ingested telemetry from 6,000+ infrastructure endpoints into curated datasets for capacity analytics, forecasting, and executive reporting.
+- Integrated operational telemetry from BMC TrueSight/TSCO, CA APM/Wily, AppDynamics, and infrastructure sources into unified reporting layers used by engineering, capacity, and leadership stakeholders.
+- Built data quality, validation, reconciliation, exception handling, and monitoring routines to improve trust in high-volume operational datasets and reduce manual reporting risk.
+- Designed Oracle-backed historical retention structures, reporting tables, and query patterns for large-scale time-series telemetry analysis and infrastructure risk visibility.
+- Built hybrid AWS/Oracle data-platform patterns using S3 landing zones, AWS Glue ETL, Athena, Redshift, EC2/ECS, and IAM concepts to modernize analytics and forecasting workloads.
+- Developed forecasting workflows using Python, Prophet, scikit-learn, and PySpark-oriented processing to identify capacity bottlenecks months ahead and support proactive infrastructure planning.
+- Troubleshot production data and monitoring issues by tracing source telemetry feeds, transformation logic, SQL behavior, missing data, reporting defects, and downstream consumer expectations.
+- Created runbooks, data dictionaries, dashboard narratives, operational documentation, and stakeholder reports to support incident workflows, auditability, and knowledge sharing.
+
+### Performance Engineer at G6 Hospitality LLC
+2017-03 – 2017-11
+- Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, improving visibility into web and mobile performance.
+- Implemented End User Monitoring and end-to-end transaction tracing to expose user-experience issues and application dependency behavior.
+- Led the FAST project, mining real-user and synthetic performance telemetry to surface optimization recommendations adopted by engineering teams.
+- Upgraded Dynatrace from 6.5 to 7.0 and enforced TLS 1.2 security while maintaining production monitoring continuity.
+- Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and support performance engineering decisions.
+
+### Senior Consultant / CA APM SME at CA Technologies / TIAA-CREF
+2011 – 2016
+- Served as CA APM SME for a regulated financial-services environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.
+- Designed dashboards, alerts, SLA thresholds, management modules, and reporting standards adopted across enterprise monitoring environments.
+- Built Perl/Korn Shell and SQL-driven extraction scripts that automated recurring telemetry reporting and replaced manual weekly exports.
+- Partnered with J2EE/WebLogic, middleware, database, and operations teams to diagnose bottlenecks using APM telemetry, transaction traces, and production evidence.
+- Delivered technical documentation, onboarding guidance, and knowledge-sharing materials for monitoring operations and application teams.
+
+### Senior Systems & Data Migration Engineer at Sabre
+2008-05 – 2010-01
+- Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving data correctness and performance expectations.
+- Built validation utilities to compare source and target records across millions of transactions during phased migration cutovers.
+- Optimized SQL/database access patterns, data structures, and migration routines to maintain sub-second query latency and reduce production risk.
+
+## Education
+**Post-Graduate Diploma in Computer Engineering Technology / Computer Science**  
+Humber College, Toronto, Canada
+
+**Bachelor of Science in Civil Engineering**  
+Zagazig University, Egypt
+
+## Skills
+**Languages:** Python, SQL, PL/SQL, PySpark, Perl, Korn Shell, Java, C, C++, XML, JSON, YAML
+
+## Flagship Projects
+### HorizonScale — Telemetry Forecasting Data Platform
+Built an analytics and forecasting pipeline that transformed operational telemetry into curated datasets, capacity-risk forecasts, dashboards, and stakeholder reports for proactive infrastructure planning.
+**Technologies:** Python, PySpark, SQL, Prophet, scikit-learn, Streamlit, Operational Telemetry
+
+### Serverless Lakehouse Platform on AWS
+Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns to support curated analytics, query optimization, small-file mitigation, and reliable downstream reporting.
+**Technologies:** AWS S3, AWS Glue, Athena, Redshift, PySpark, Parquet
+
+### Observability and APM Telemetry Analytics
+Built and supported monitoring dashboards, telemetry extraction scripts, transaction tracing workflows, alert thresholds, and operational reports across Dynatrace, CA APM, BMC TrueSight, and AppDynamics environments.
+**Technologies:** Dynatrace, CA APM, BMC TrueSight, AppDynamics, SQL, Perl, Korn Shell
+

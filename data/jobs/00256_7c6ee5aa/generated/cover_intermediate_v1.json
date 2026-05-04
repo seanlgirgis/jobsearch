@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 04, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Software Development Engineer, AI Data Platform role with Oracle's Forward Deployed Engineer team. My background combines enterprise data engineering, Python/PySpark platform delivery, production telemetry analytics, RAG/agentic workflow projects, and practical experience helping teams adopt reliable data and AI-enabled systems.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, Pandas, and PySpark-oriented data pipelines that ingested telemetry from 6,000+ endpoints and transformed it into curated datasets for forecasting, reporting, and operational decision-making. That work required scalable data processing, schema design, validation, reconciliation, monitoring, root-cause analysis, and documentation in a regulated financial-services environment.",
+    "I bring strong data engineering experience with Spark/PySpark, Parquet, AWS S3, Glue, Redshift, Oracle data platforms, ML forecasting workflows, and REST/API-oriented automation concepts. I also have recent hands-on project experience with RAG-style retrieval, FAISS, sentence-transformers, LLM APIs, structured JSON artifacts, agentic workflow design, and AI-assisted development. I would position OCI, Oracle AI Data Platform, Flink, Kafka, and formal MLOps tooling as areas where I can ramp quickly from adjacent experience rather than as inflated production claims.",
+    "Oracle's role appeals to me because it sits at the intersection of data engineering, AI platform adoption, customer-facing technical guidance, and practical implementation. My strength is taking complex enterprise data environments, making them observable and reliable, and turning them into usable platforms for analytics, forecasting, and AI-enabled workflows while communicating clearly with technical and non-technical stakeholders."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my enterprise data platform and AI workflow background can support Oracle customers adopting modern AI data platforms.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

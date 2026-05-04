@@ -1,0 +1,18 @@
+uuid: 65914f65-b377-4d47-98c8-1a46acf8f6d0
+job_id: 00224_65914f65
+original_filename: clipboard_intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-03T23:19:42.510535'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-03)'
+last_decision_at: '2026-05-03T23:19:42.623676'
+last_decision: ACCEPTED
+job_hash: c2acd7d482609c17b259aaf5df9d33cd69782727f7484153568c5567a6d4b649

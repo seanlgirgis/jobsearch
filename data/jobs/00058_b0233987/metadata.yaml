@@ -10,12 +10,12 @@ score: 88
 recommendation: APPLY
 score_date: '2026-04-04T12:29:59'
 created_at: '2026-04-04T12:29:59'
-notes: 'Good fit and no duplicate blockers.'
+notes: Good fit and no duplicate blockers.
 application:
   applied: true
   applied_date: 2026-04-04
   applied_method: Company Website
-  application_notes: 'Applied submitted.'
+  application_notes: Applied submitted.
   history:
   - date: '2026-04-04'
     status: Created
@@ -23,3 +23,4 @@ application:
   - date: '2026-04-04'
     status: Applied
     notes: Applied via company website.
+job_hash: a0b3ff53d811121cfa3014223a3433b33283ee5ee937a916334db3175b14adb4

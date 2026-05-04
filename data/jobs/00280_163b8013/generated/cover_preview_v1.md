@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the ETL Developer role in Houston. My background aligns strongly with AWS data engineering, ETL pipeline delivery, SQL, Python, AWS Glue/S3/Redshift patterns, production troubleshooting, and clear stakeholder communication.
+
+At Citi, I built and supported production ETL and reporting pipelines that ingested telemetry from 6,000+ endpoints and transformed it into trusted datasets for forecasting, reporting, and operational decision-making. That work involved Python, SQL, AWS Glue, S3 landing-zone patterns, Redshift analytics workloads, data validation, reconciliation, documentation, and issue investigation in a regulated financial-services environment.
+
+I bring strong experience with pipeline reliability, production support, data quality, ticket-driven prioritization, and communication across technical and business stakeholders. I have worked with ServiceNow-style incident/change/reporting workflows at a user level, Agile/JIRA-style delivery practices, and operational documentation/runbooks that help teams maintain reliable data processes.
+
+For this role, I would position Snowflake and dbt as current modern data platform upskilling that builds on my SQL, warehouse, Redshift, and ETL foundation. Matillion is not a tool I would overstate, but the underlying work of building reliable ETL flows, managing transformations, validating data, and supporting cloud data platforms maps well to my background.
+
+I would welcome the opportunity to bring my AWS, Python, SQL, ETL, and production data engineering experience to Astir IT Solutions' client data platform work.
+
+Sincerely,
+Sean Luka Girgis

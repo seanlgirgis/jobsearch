@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Sr. Data Ops Engineer contract role with Randstad Digital. My strongest fit is the combination of senior data engineering, Python/PySpark pipelines, lakehouse-style architecture, production data operations, and recent hands-on work with RAG, MCP, and AI-assisted workflow automation.",
+  "body": [
+    "At Citi, I built and supported enterprise data pipelines that ingested telemetry from 6,000+ endpoints, transformed it through Python/Pandas and cloud data workflows, and delivered trusted reporting and forecasting outputs for leadership. That work required end-to-end ownership across ingestion, transformation, validation, data quality, troubleshooting, runbooks, and stakeholder-facing analytics in a regulated environment.",
+    "The role's focus on Spark-based ingestion, cloud data platforms, lakehouse architecture, governance-aware pipelines, and AI-enabled data capabilities aligns with the direction of my recent work. I have strong hands-on experience with Python, SQL, PySpark, AWS Glue, S3, Redshift, Airflow, data quality, and production support, and I have been actively building AI-assisted data workflows using RAG, FAISS/vector embeddings, MCP tooling, Claude Code, and Grok API integration.",
+    "I want to be careful and truthful on fit: my deepest production cloud background is AWS, while the posted role is centered on Google Cloud technologies such as BigQuery, DataProc, Cloud Composer, and GCS. I also treat Kafka, Flink, LangChain, LangGraph, and GraphRAG as current learning or adjacent areas rather than long-term production ownership. Where I can add immediate value is senior data engineering execution, PySpark-oriented pipeline design, operational reliability, AI-assisted automation patterns, and the ability to learn and translate cloud data patterns quickly."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my enterprise data engineering and AI pipeline background can help deliver reliable, governed, AI-enabled data capabilities for this team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

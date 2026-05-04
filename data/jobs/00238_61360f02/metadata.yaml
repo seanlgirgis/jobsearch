@@ -1,0 +1,29 @@
+uuid: 61360f02-1152-4404-8c5e-0a690a3d835c
+job_id: 00238_61360f02
+original_filename: clipboard_intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-04T00:33:09.635439'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-04)'
+last_decision_at: '2026-05-04T00:33:09.744823'
+last_decision: ACCEPTED
+application:
+  applied: true
+  applied_date: '2026-05-04'
+  applied_method: Dice
+  application_notes: Applied via chatGpt pipeline
+  history:
+  - date: '2026-05-04'
+    status: Applied
+    notes: Applied via chatGpt pipeline
+  - date: '2026-05-04'
+    status: APPLIED
+    notes: Corrected apply method to Dice (source detection fix).

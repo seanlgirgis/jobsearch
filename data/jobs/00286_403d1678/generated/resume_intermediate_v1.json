@@ -1,0 +1,67 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer | AWS Data Platform & AI/ML Pipeline Specialist"
+  },
+  "summary": "Senior Python and Cloud Data Engineer with deep experience building high-volume ETL pipelines, real-time data workflows, and AI-assisted integration using FastAPI and PySpark. Skilled in GCP/AWS cloud platforms, data orchestration, and GenAI/LLM automation pipelines.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and optimized Python/PySpark ETL pipelines for telemetry ingestion from 6,000+ endpoints.",
+        "Developed real-time streaming and batch workflows in AWS S3/Glue/Redshift supporting forecasting and analytics.",
+        "Implemented GenAI Text-to-SQL agents using Claude 3 Sonnet and automated data processing pipelines.",
+        "Designed dashboards and reports using Streamlit, matplotlib, and plotly to deliver actionable insights."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Python-based monitoring pipelines with Dynatrace AppMon/Synthetics and EUM integration.",
+        "Optimized ETL and data validation workflows for accurate performance analytics.",
+        "Collaborated with engineers to streamline real-time data processing and reporting."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Cairo, Egypt",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting",
+    "Cloud & Data": "AWS (Glue, Athena, S3, Redshift), GCP concepts, PySpark, ETL/ELT pipelines, Data Modeling, Data Warehousing",
+    "Big Data": "Streaming, real-time processing, batch pipelines, PySpark, Hadoop/Hive",
+    "AI/ML": "GenAI, Claude Code, Text-to-SQL agents, Machine Learning libraries (scikit-learn, PyTorch, TensorFlow)",
+    "Orchestration & Tools": "FastAPI, Airflow, Git, Docker, CI/CD, automation pipelines",
+    "Visualization & Reporting": "Streamlit, matplotlib, seaborn, plotly, dashboards",
+    "Monitoring / Observability": "Dynatrace, CA APM, AppDynamics"
+  },
+  "projects": [
+    {
+      "name": "Python Cloud Integration Pipelines",
+      "description": "Designed and implemented high-volume ETL and real-time pipelines using Python, PySpark, FastAPI, and cloud platforms (AWS/GCP). Integrated GenAI agents for automated data processing and analytics.",
+      "technologies": ["Python", "PySpark", "FastAPI", "AWS Glue", "S3", "Redshift", "GCP", "Claude Code"]
+    }
+  ]
+}

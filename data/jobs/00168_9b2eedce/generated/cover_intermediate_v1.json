@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": "ALSAC / St. Jude Children's Research Hospital"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am excited to apply for the Data Engineer III - Information Architecture role with ALSAC / St. Jude Children's Research Hospital. My background combines senior enterprise data engineering, AWS-centered data platform work, SQL and Python pipeline development, dimensional modeling, observability, and governance-aware reporting in regulated environments.",
+  "body": [
+    "At Citi, I built and maintained Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints and converted manual operational reporting into repeatable data products for analytics, forecasting, and executive decision-making. I designed optimized Oracle schemas, supported historical retention and reporting models, and built AWS data platform patterns using S3 landing zones, AWS Glue, Redshift workloads, and reporting-ready datasets.",
+    "The ALSAC role's focus on AWS data services, SQL-based ETL/ELT, data lakes, dimensional modeling, root-cause analysis, documentation, and stakeholder collaboration maps closely to my strongest experience. I have also worked deeply with telemetry and observability systems including BMC TrueSight, CA APM, AppDynamics, Dynatrace, and synthetic monitoring, which gives me a practical lens for data quality, performance troubleshooting, monitoring, and operational reliability.",
+    "I bring senior technical judgment, strong SQL and Python foundations, experience mentoring and documenting standards, and a careful approach to compliance-aware enterprise data. While I would frame Kafka, MuleSoft, and some platform-specific services as adjacent rather than primary production strengths, I have repeatedly learned new platforms by grounding them in durable data engineering patterns: ingestion, modeling, validation, orchestration, observability, and stakeholder-ready delivery."
+  ],
+  "conclusion": "I would welcome the opportunity to help ALSAC strengthen scalable, well-documented data platforms that support analytics, operational insight, and the mission of St. Jude.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

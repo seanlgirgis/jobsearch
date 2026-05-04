@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Migration Engineer | AWS / Python / SQL / Spark"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise technology experience and strong depth in Python, SQL, Oracle, ETL pipeline design, data migration, reconciliation, and production data reliability. Experienced building and supporting AWS-oriented data platforms using S3, Glue, Athena, Redshift, PySpark/Spark concepts, data quality controls, and cloud migration patterns. Strong fit for legacy-to-lakehouse migration work involving SQL translation, pipeline validation, data transfer, scheduling, and reconciliation; currently expanding hands-on lakehouse depth around Apache Iceberg and Snowflake concepts.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected and supported automated Python/Pandas ETL pipelines ingesting enterprise telemetry from 6,000+ endpoints, replacing manual data preparation with repeatable, validated data workflows.",
+        "Built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue ETL, Redshift workloads, and structured reporting outputs for forecasting and operational analytics.",
+        "Designed and optimized Oracle schemas and historical data structures to support retention, trend analysis, reporting, and seasonal forecasting use cases.",
+        "Migrated heavy forecasting workloads from on-prem Oracle processing toward AWS/Redshift-oriented execution patterns, improving scale and supporting parallel analytics workflows.",
+        "Implemented data quality, validation, reconciliation, and troubleshooting practices across recurring data pipelines used for executive reporting and infrastructure decision-making.",
+        "Worked with monitoring and operational data feeds from BMC TrueSight, CA Wily, and AppDynamics, integrating heterogeneous source data into normalized reporting datasets and dashboards.",
+        "Supported production reliability through runbooks, incident analysis, performance troubleshooting, and automation of recurring operational data processes."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Led the FAST project, data-mining real-user and synthetic monitoring datasets to identify optimization opportunities for critical revenue-facing systems.",
+        "Managed Dynatrace AppMon/Synthetics monitoring for Brand.com and critical hospitality systems, supporting production visibility and performance analysis.",
+        "Upgraded Dynatrace environments and supported security modernization with TLS 1.2 while maintaining continuity of production monitoring.",
+        "Partnered with engineering teams on AWS migration readiness and analytics requirements for web and mobile monitoring data."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC platform while maintaining transaction performance and data correctness.",
+        "Built validation and test automation in C++/OCCI/OCI to verify migration correctness across large transaction datasets.",
+        "Optimized SQL and database access patterns for a mission-critical transaction platform, reducing infrastructure footprint while preserving low-latency query performance.",
+        "Supported phased cutover planning, schema conversion, reconciliation, and production readiness activities for a complex data store migration."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl and Korn Shell extraction scripts to automate performance reporting and reduce manual weekly data collection.",
+        "Managed enterprise APM environments with thousands of instrumented agents, dashboards, alert thresholds, and operational reporting standards.",
+        "Partnered with WebLogic, WebSphere, J2EE, Oracle, and Linux teams to diagnose bottlenecks and improve operational reliability.",
+        "Created technical documentation, training material, and reusable standards for monitoring, onboarding, and production support."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Java, C++, Perl, Korn Shell, JSON, XML",
+    "Cloud & Lakehouse": "AWS S3, AWS Glue, Athena, Amazon Redshift, EC2, ECS, AWS lakehouse patterns, Apache Iceberg concepts, Snowflake concepts, cloud migration patterns",
+    "Big Data & File Formats": "Apache Spark, PySpark, Hadoop/Hive, Parquet, JSON, Avro concepts, distributed data processing, partitioning, schema evolution concepts",
+    "Data Engineering": "ETL/ELT pipelines, pipeline migration, data transfer, data reconciliation, data validation, source-to-target mapping, data quality checks, scheduling concepts, data modeling, data warehousing",
+    "Database & Migration": "Oracle, Oracle RAC, MySQL, PostgreSQL, SQL optimization, legacy SQL translation, schema design, migration validation, performance tuning, cutover support",
+    "Reliability & Delivery": "CI/CD concepts, Git, Docker, Linux/Unix, runbooks, monitoring, troubleshooting, production support, incident response, documentation, Agile collaboration",
+    "Adjacent / Learning": "Snowflake, Apache Iceberg, Databricks, Delta Lake, Kafka, Terraform, dbt"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform pattern using S3, Glue, Athena, Redshift-oriented analytics, PySpark concepts, Parquet optimization, and Bedrock-based Text-to-SQL concepts. Focused on migration from raw data to curated analytics-ready datasets with data quality, cataloging, and query optimization concerns.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark-based capacity forecasting and reporting pipeline using telemetry data, validation workflows, and Streamlit dashboards to replace manual forecasting processes and support infrastructure optimization decisions.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "ETL",
+        "Data Quality"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end Python automation pipeline with semantic duplicate detection, LLM-based scoring, JSON artifact generation, quality gates, and application tracking. Uses structured data contracts, validation, and reproducible outputs.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "JSON",
+        "Automation",
+        "Quality Gates"
+      ]
+    }
+  ]
+}

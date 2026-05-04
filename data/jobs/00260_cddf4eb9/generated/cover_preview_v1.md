@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Software Engineer role focused on production-grade AI agents and orchestration workflows at Visa. My background combines Python engineering, financial-services production support, data platform automation, observability, and hands-on GenAI/RAG workflow development.
+
+At Citi, I built and supported Python-based data and automation workflows in a regulated financial-services environment, working with telemetry from 6,000+ endpoints and turning it into reliable datasets, dashboards, and forecasting outputs. That experience maps well to Visa's need for engineers who can build production-quality systems, support releases, troubleshoot issues, document designs, and collaborate across product, platform, data science, and DevOps teams.
+
+My recent AI engineering work includes agentic job-search workflows, semantic duplicate detection with FAISS and sentence-transformers, structured JSON output contracts, quality gates, and RAG-style proof-of-concepts. While I would not overstate production ownership of LangChain, Azure OpenAI, React, or Kubernetes, I bring the core Python, data, automation, testing, documentation, and responsible-output mindset needed to build and mature GenAI tools safely in an enterprise environment.
+
+Visa's emphasis on secure AI agents, orchestration, prompt workflows, observability, CI/CD, and payments-scale reliability is a strong strategic fit for my financial-services background. I would bring a practical engineering style: start with clear use cases, build clean and testable components, validate outputs, document behavior, support production users, and continuously improve reliability and developer experience.
+
+I would welcome the opportunity to discuss how my Python, financial-services, AI workflow, and production-support experience can contribute to Visa's GenAI engineering initiatives.
+
+Sincerely
+Sean Luka Girgis

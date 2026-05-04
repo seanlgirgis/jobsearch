@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Data Engineer | Python / Spark / Cloud Data Pipelines"
+  },
+  "summary": "Data Engineer with 20+ years of enterprise IT experience and strong hands-on background in Python, SQL, PySpark/Spark, ETL/ELT pipelines, cloud data platforms, data quality, reporting datasets, and production troubleshooting. Experienced building and operating reusable data pipelines that serve analytics, data science, and business stakeholders. Strongest production cloud background is AWS with S3, Glue, Athena, Redshift, EC2/ECS, and IAM concepts; actively building fluency in Azure Databricks, streaming, and cloud-native data platform patterns.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and supported production Python, SQL, Pandas, and PySpark-oriented ETL pipelines that transformed telemetry from 6,000+ endpoints into curated datasets for analytics, forecasting, and reporting.",
+        "Designed reusable reporting datasets, historical retention structures, validation routines, and data quality checks to support reliable downstream analytics and operational decision-making.",
+        "Developed Python automation for ingestion, transformation, reconciliation, exception handling, recurring reporting, and production support workflows.",
+        "Built AWS-aligned data workflows using S3 landing zones, AWS Glue ETL patterns, Athena, Redshift, EC2/ECS, IAM concepts, and CloudWatch-style monitoring concepts.",
+        "Troubleshot missing, incorrect, and inconsistent data by tracing source feeds, transformation logic, SQL behavior, schema changes, pipeline failures, and downstream reporting expectations.",
+        "Integrated operational data from BMC TrueSight, CA APM, AppDynamics, and infrastructure sources into unified reporting layers for engineering, capacity, and leadership consumers.",
+        "Created technical documentation, runbooks, data dictionaries, and stakeholder-facing reporting notes to support production ownership, handoff, and knowledge sharing.",
+        "Collaborated with engineering, operations, and management stakeholders to refine requirements, validate outputs, prioritize data work, and improve pipeline reliability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for critical hospitality systems, improving operational visibility into web and mobile performance.",
+        "Implemented end-user monitoring and end-to-end transaction tracing to expose user-experience issues and application dependency behavior.",
+        "Mined real-user and synthetic telemetry to identify performance trends, anomalies, and optimization recommendations for engineering teams.",
+        "Supported AWS migration planning by evaluating monitoring readiness and operational visibility requirements."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as SME for enterprise APM environments supporting regulated financial-services systems with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Built SQL, Perl, and Korn Shell extraction/reporting scripts that automated recurring telemetry exports and improved repeatability of operational reporting.",
+        "Designed dashboards, alerts, SLA thresholds, reporting standards, and technical documentation used across application and operations support teams.",
+        "Partnered with application, middleware, and operations teams to debug production bottlenecks, improve system visibility, and support release readiness."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving correctness and performance.",
+        "Built validation utilities to compare source and target records across millions of transactions during phased migration cutovers.",
+        "Optimized SQL/database access patterns, data structures, and migration routines to maintain sub-second query latency and reduce production risk."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, PySpark, Java, C, C++, Perl, Korn Shell, XML, JSON, YAML",
+    "Data Engineering": "Production data pipelines, ETL/ELT, data ingestion, transformation, validation, reconciliation, data quality, schema design, data modeling, reusable reporting datasets",
+    "Distributed Processing": "Apache Spark, PySpark, Hadoop/Hive, Parquet, partitioning concepts, compression, distributed data processing, Databricks concepts, SparkSQL concepts",
+    "Cloud Platforms": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts; Azure Databricks, Azure Functions, Cosmos DB, and Event Hubs concepts/active learning",
+    "Streaming / Messaging": "Kafka/MSK awareness, Kinesis concepts, event-driven ingestion concepts, streaming data pipeline patterns, latency troubleshooting concepts, schema management concepts",
+    "Databases & Storage": "Oracle, Oracle RAC, PL/SQL, MySQL, PostgreSQL, DynamoDB concepts, Cassandra concepts, NoSQL concepts, data warehouse and data lake patterns",
+    "Reliability & Governance": "Pipeline monitoring, production troubleshooting, data governance, data security awareness, runbooks, operational support, root-cause analysis, access-control awareness",
+    "Delivery": "Git/GitHub workflows, CI/CD concepts, automated deployment concepts, Agile/Scrum/Kanban, technical documentation, code review, stakeholder collaboration",
+    "Adjacent / Learning": "Azure-native data services, Databricks, Kafka/Confluent, Cosmos DB, Azure Functions, Kubernetes concepts, Terraform beginner"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns to support curated analytics, query optimization, small-file mitigation, and reliable downstream reporting.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Data Pipeline",
+      "description": "Built an analytics pipeline that transformed operational telemetry into curated datasets for forecasting, capacity risk analysis, dashboarding, KPI-style reporting, and stakeholder decision-making.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Observability and Telemetry Data Pipelines",
+      "description": "Built and supported monitoring dashboards, telemetry extraction scripts, transaction tracing workflows, alert thresholds, and operational reports across Dynatrace, CA APM, BMC TrueSight, and AppDynamics environments.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Dynatrace",
+        "CA APM",
+        "BMC TrueSight",
+        "AppDynamics"
+      ]
+    }
+  ]
+}

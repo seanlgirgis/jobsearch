@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Asset & Wealth Management AI Solutions Engineer role in Dallas. My background combines financial-services data engineering, AWS/Python/SQL platform work, production pipeline support, and recent hands-on AI workflow automation using LLM APIs, MCP-enabled tool integration, RAG-style retrieval, and structured quality gates.
+
+At Citi, I built and supported production data pipelines that transformed infrastructure telemetry from 6,000+ endpoints into governed datasets for forecasting, reporting, and operational decision-making. That experience maps directly to the data engineering foundation behind this role: ETL/ELT pipelines, schema design, data quality, validation, reconciliation, stakeholder requirements, and reliable support for sensitive financial-services data.
+
+My recent AI work is especially aligned with Goldman's focus on LLM-powered data engineering tools. I built an AI-assisted job-search and artifact-generation pipeline that uses Python automation, LLM APIs, semantic duplicate detection, vector embeddings, MCP-enabled workflows, structured JSON outputs, and quality gates to evaluate, tailor, validate, and render application artifacts. While I would frame LangChain, LangSmith, RAGAS, PromptFoo, and SageMaker as adjacent or learning areas rather than production ownership, the core patterns of tool use, structured output, evaluation, guardrails, and workflow automation are directly familiar.
+
+I would bring a senior delivery mindset to the team: clean Python and SQL, financial-services judgment, clear documentation, production support discipline, and a practical understanding of how AI tooling must be governed when it operates near real data platforms. The opportunity to help build AI agents for schema mapping, data quality analysis, migration, and pipeline automation within Goldman Sachs' AWS data ecosystem is strongly aligned with the direction of my current work.
+
+I would welcome the opportunity to discuss how my financial-services data engineering and AI workflow automation experience can support Goldman's Wealth Management data platform initiatives.
+
+Sincerely
+Sean Luka Girgis

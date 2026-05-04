@@ -24,3 +24,4 @@ application:
   - date: '2026-05-01'
     status: Applied
     notes: Applied via chatGpt pipeline
+job_hash: ae8d25bffa7636da72704476a77436d9e27945e2ad83f9f713d05b2379ce3b27

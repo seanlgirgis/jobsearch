@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Data Engineer role supporting Guidehouse data modernization and cloud analytics initiatives. My background combines Python, SQL, PySpark, ETL pipeline development, database modernization, AWS data services, documentation, and production support in regulated enterprise environments.
+
+At Citi, I built and supported Python-based ETL pipelines that ingested telemetry from thousands of infrastructure endpoints, standardized the data, and delivered reliable reporting and forecasting datasets for operational teams and leadership. That work required SQL optimization, schema design, data quality validation, incident troubleshooting, monitoring, and clear runbook-style documentation—directly aligned with the role's focus on reliable pipelines, production support, and knowledge sharing.
+
+I also bring strong data migration and integration experience from earlier enterprise roles. At Sabre, I led a high-volume migration from MySQL-based architecture into Oracle RAC, including schema conversion, validation tooling, data integrity checks, and performance optimization. Across Citi, G6, and CA Technologies, I integrated data from monitoring, infrastructure, and application platforms and translated complex technical findings into practical actions for engineering, operations, and business stakeholders.
+
+The Guidehouse role's AWS, API integration, CI/CD, monitoring, and modernization expectations fit my strongest direction. I have hands-on AWS data engineering experience with S3, Glue, Athena, Redshift, EC2/ECS patterns, and CloudWatch concepts, plus Docker and CI/CD-aware delivery experience. For tools such as Kubernetes, Jenkins/Maven, Azure services, Splunk, Kibana, and Elasticsearch, I would bring adjacent production support experience, strong learning velocity, and a disciplined approach to not overstating tool depth while ramping quickly.
+
+I would welcome the opportunity to help Guidehouse deliver secure, reliable, well-documented data pipelines and modernization solutions for mission-focused clients.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,67 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior AWS Data Engineer | Cloud/ETL Specialist"
+  },
+  "summary": "Senior AWS Data Engineer with extensive experience in Python, SQL, PySpark, and ETL/ELT pipeline development. Skilled in cloud automation, API integrations, and AI-assisted data workflows, with hands-on experience in AWS Glue, Lambda, Step Functions, S3, and Amazon Textract.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built large-scale Python/PySpark ETL pipelines ingesting telemetry from 6,000+ endpoints into AWS S3/Glue/Redshift.",
+        "Developed event-driven and batch data workflows leveraging AWS Lambda and Step Functions for orchestration.",
+        "Implemented GenAI Text-to-SQL agents and automated pipeline orchestration to ensure data quality and reliability.",
+        "Designed dashboards and reporting pipelines using Streamlit, matplotlib, and plotly for operational and executive insights."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Python-based telemetry pipelines with API integrations and real-time data processing.",
+        "Performed ETL validation, automated testing, and monitoring for production-grade data workflows.",
+        "Collaborated with engineering and analytics teams to optimize pipeline performance and data quality."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Cairo, Egypt",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting",
+    "Cloud & Data": "AWS (Glue, Lambda, Step Functions, S3, Redshift, Textract), PySpark, ETL/ELT pipelines, Data Modeling, Data Warehousing",
+    "Big Data": "Event-driven pipelines, batch processing, streaming pipelines, PySpark",
+    "Orchestration & Tools": "Airflow, Git/GitHub Actions, CI/CD pipelines, FastAPI, Docker",
+    "Monitoring / Observability": "Dynatrace, CA APM, AppDynamics, data validation frameworks",
+    "AI/ML": "GenAI / LLM pipelines, Text-to-SQL automation, Python AI-assisted pipelines",
+    "Visualization & Reporting": "Streamlit, matplotlib, seaborn, plotly dashboards, Power BI concepts"
+  },
+  "projects": [
+    {
+      "name": "AWS Cloud Data Pipeline & API Integration",
+      "description": "Designed and implemented ETL pipelines, API connectors, and event-driven workflows using AWS Glue, Lambda, Step Functions, and Amazon Textract. Automated monitoring and validation for AI-powered analytics and ERP integration pipelines.",
+      "technologies": ["Python", "AWS Glue", "Lambda", "Step Functions", "S3", "Redshift", "Amazon Textract", "PySpark", "Claude Code"]
+    }
+  ]
+}

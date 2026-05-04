@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer / Data Architect | Citi VP-Level Data Platforms"
+  },
+  "summary": "Senior Data Engineer and Data Architect with 20+ years of enterprise IT experience, including recent Citi experience building regulated financial-services data pipelines, analytics datasets, reporting layers, and forecasting platforms. Strong hands-on background in SQL, PL/SQL, Python, PySpark, ETL/ELT, data warehousing, dimensional modeling, SQL tuning, data quality, documentation, and production support. Experienced translating complex operational and risk/capacity data into reliable analytics, dashboards, and executive reporting for large-scale enterprise stakeholders.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Designed and operated Python, SQL, Pandas, and PySpark-oriented ETL pipelines ingesting telemetry from 6,000+ endpoints into curated datasets for analytics, forecasting, operational reporting, and senior stakeholder decision-making.",
+        "Built optimized Oracle-backed data models, historical retention structures, reporting tables, and query patterns to support large-scale time-series analysis, capacity planning, and enterprise infrastructure risk visibility.",
+        "Developed ML forecasting and analytics workflows using Prophet, scikit-learn, Python, and PySpark to identify capacity bottlenecks up to 6 months ahead and improve infrastructure planning cycles.",
+        "Built hybrid AWS/Oracle data-platform patterns using S3 landing zones, AWS Glue ETL, Athena, Redshift, EC2/ECS, and IAM concepts to modernize reporting and forecasting workloads.",
+        "Migrated heavy analytics and forecasting workloads from on-prem Oracle patterns toward cloud-scale Redshift processing, enabling more scalable parallel analysis and reducing operational friction.",
+        "Implemented data validation, reconciliation, cleansing, quality-control checks, and exception-handling routines to improve reliability and trust in executive reporting datasets.",
+        "Integrated data from multiple enterprise monitoring sources including BMC TrueSight, CA Wily/APM, and AppDynamics into unified reporting layers for engineering, capacity, and leadership consumers.",
+        "Produced technical documentation, runbooks, data dictionaries, operational reports, and dashboard narratives to support production support, handoff, auditability, and stakeholder communication.",
+        "Collaborated with infrastructure, application, and operations teams to troubleshoot production issues, optimize SQL/reporting logic, and continuously improve data pipeline reliability."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as SME for enterprise APM environments supporting regulated financial-services systems with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.",
+        "Built Perl/Korn Shell and SQL-driven data extraction and reporting scripts that replaced manual performance reporting exports and improved repeatability.",
+        "Designed dashboards, alerts, SLA thresholds, and technical documentation standards adopted across client environments.",
+        "Partnered with application, middleware, and operations teams to resolve performance bottlenecks and improve production support workflows."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving transaction correctness and performance expectations.",
+        "Built C++/OCCI/OCI validation utilities to compare source and target records across millions of transactions during phased migration cutovers.",
+        "Optimized SQL/database access patterns and migration routines to maintain sub-second query latency and reduce infrastructure footprint.",
+        "Automated schema conversion, data validation, and cutover support processes to reduce manual effort and improve migration reliability."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer, Billing Interfaces and Data Workflows",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, invoicing, settlement, EDI, and reporting workflows using C, C++, Pro*C, PL/SQL, Oracle, COBOL exposure, XML, Perl, Korn Shell, and UNIX/Linux.",
+        "Improved billing data-processing performance through SQL/database tuning, memory reduction, throughput optimization, and sequence-related database improvements.",
+        "Reverse-engineered undocumented vendor APIs and legacy data interfaces to support integration, troubleshooting, and maintainable technical documentation.",
+        "Supported QA cycles, production bug triage, and release readiness for high-volume telecom billing systems."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, PySpark, Perl, Korn Shell, C, C++, Java, XML, JSON, YAML",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — Capacity Forecasting Data Platform",
+      "description": "Built an AI-assisted capacity forecasting and analytics platform transforming operational telemetry into curated datasets, forecasting outputs, dashboards, and stakeholder reports for infrastructure risk planning.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Plotly"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented patterns for curated analytics, query optimization, small-file mitigation, and reliable downstream reporting.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "AI-Assisted Job Search and Data Automation Pipeline",
+      "description": "Built a Python automation workflow using LLM APIs, JSON artifacts, semantic duplicate checks, quality gates, and repeatable rendering steps to support structured job evaluation, document generation, and application tracking.",
+      "technologies": [
+        "Python",
+        "JSON",
+        "LLM APIs",
+        "FAISS",
+        "sentence-transformers",
+        "Git",
+        "AI-assisted development"
+      ]
+    }
+  ]
+}

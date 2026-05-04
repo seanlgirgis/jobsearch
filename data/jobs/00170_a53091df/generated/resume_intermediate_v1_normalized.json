@@ -1,0 +1,123 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise technology experience across SQL, Python, ETL/data pipelines, data migration, analytics, performance engineering, and production operations. Strong background designing and supporting data solutions across multiple platforms, including AWS S3, Glue, Redshift, Oracle, PySpark/Spark, Pandas, and reporting/forecasting datasets. Known for improving automation, operational readiness, runbooks, monitoring, data quality, and scalable platform support in regulated enterprise environments.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints, replacing manual data preparation processes and improving repeatability for analytics and forecasting.",
+        "Designed and maintained Oracle schemas and reporting structures for historical telemetry retention, seasonal analysis, and capacity risk forecasting across enterprise infrastructure.",
+        "Built a hybrid AWS/Oracle data platform using S3 landing zones, AWS Glue ETL, Redshift workloads, and Python automation to support large-scale capacity analytics and data transformation.",
+        "Integrated monitoring and operational feeds from BMC TrueSight, CA Wily, and AppDynamics into unified reporting pipelines and executive dashboards.",
+        "Improved production support through automation, validation checks, troubleshooting workflows, and operational reporting used for incident prevention and infrastructure planning.",
+        "Developed forecasting models with Prophet and scikit-learn to identify capacity bottlenecks months ahead, translating raw operational datasets into actionable planning insights."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for critical hospitality systems, supporting operational visibility, transaction tracing, and performance analytics.",
+        "Led the FAST project, mining real-user and synthetic performance data to surface optimization recommendations adopted by engineering teams.",
+        "Upgraded Dynatrace AppMon from 6.5 to 7.0 and enforced TLS 1.2 security with no regression in production monitoring during cutover.",
+        "Integrated load testing and APM visibility through HP Performance Center and Dynatrace, enabling better diagnosis of application bottlenecks."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large financial services environment, supporting 50+ Enterprise Managers and 4,000–6,000 instrumented agents.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules used as standards across client monitoring environments.",
+        "Built Perl and Korn Shell data-extraction scripts for automated performance reporting, reducing manual weekly exports and improving data availability.",
+        "Delivered sizing recommendations, onboarding guidance, documentation, and cross-team technical support for enterprise monitoring and performance engineering teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while maintaining transaction performance and data integrity.",
+        "Built C++/OCCI/OCI validation and testing utilities to verify migration correctness across large transaction datasets.",
+        "Automated schema conversion and data validation processes during phased migration, reducing risk across platform transition workstreams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, Perl, Ksh / Korn Shell, C++, C, Java, XML, JSON",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting engine and Streamlit analytics dashboard for enterprise telemetry data, replacing manual forecasting cycles and supporting capacity risk analysis.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Pandas",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform pattern using S3, Glue, Athena, Redshift, Parquet, and PySpark to support scalable ingestion, transformation, and analytics workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built a Python-based agentic workflow for job intake, semantic duplicate detection, scoring, resume/cover generation, quality gates, and application tracking using structured JSON artifacts.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "JSON",
+        "Automation Pipelines"
+      ]
+    }
+  ]
+}

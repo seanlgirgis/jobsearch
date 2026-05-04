@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Observability Engineer / SRE Data Visualization role. My background combines enterprise APM, telemetry analytics, SQL/Python data engineering, operational dashboards, and executive-facing reporting for large production environments.
+
+At Citi, I built Python/Pandas telemetry pipelines and reporting datasets from thousands of monitored endpoints, integrating sources such as BMC TrueSight, CA APM, and AppDynamics into operational reporting used for capacity planning, reliability analysis, and senior stakeholder visibility. That work required strong data quality checks, reconciliation, metric interpretation, documentation, and the ability to explain complex operational patterns clearly to both technical and leadership audiences.
+
+Earlier, at G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, implemented EUM and transaction tracing, and mined performance data to produce actionable optimization recommendations. At CA Technologies/TIAA-CREF, I designed dashboards, alerts, SLA thresholds, and automated reporting around CA APM environments with thousands of instrumented agents. These experiences map directly to SRE scorecards, telemetry analytics, operational metrics, and leadership-facing reliability dashboards.
+
+While my strongest hands-on dashboarding background is with APM platforms, SQL/Python reporting, Streamlit, QLIK, and custom telemetry analytics rather than deep Grafana or ServiceNow Performance Analytics ownership, I bring the core foundation this role needs: observability domain experience, metric definition, data modeling, validation, operational storytelling, and the discipline to turn raw telemetry into trusted executive and engineering insights.
+
+I would welcome the opportunity to help build reliable, intuitive SRE scorecards and telemetry dashboards that improve operational decision-making and service stability.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,132 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior AWS Data Engineer | Glue / S3 / Athena / Python ETL"
+  },
+  "summary": "Senior AWS Data Engineer with 20+ years of enterprise IT experience and deep hands-on background in Python, SQL, AWS Glue, S3, Athena, Redshift, ETL/ELT pipelines, data lakes, data quality, governance, reporting datasets, and production support. Experienced building scalable data pipelines and analytics-ready datasets for finance, operations, capacity planning, and executive reporting. Strongest production background is AWS/Python/SQL/PySpark/Oracle/Redshift, with active learning in Apache Iceberg, AWS catalog patterns, dbt, Snowflake, and modern lakehouse governance.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Designed and supported Python, SQL, Pandas, and PySpark-oriented ETL pipelines that transformed telemetry from 6,000+ endpoints into curated datasets for finance-adjacent capacity planning, analytics, forecasting, and executive reporting.",
+        "Built AWS-aligned data workflows using S3 landing zones, AWS Glue ETL patterns, Athena, Redshift, EC2/ECS, IAM concepts, and CloudWatch-style monitoring concepts to modernize analytics workloads.",
+        "Developed reusable ingestion, transformation, validation, reconciliation, exception-handling, and recurring reporting automation to improve pipeline reliability and reduce manual effort.",
+        "Created reporting-ready datasets, Oracle-backed historical retention models, SQL views/tables, and query patterns for operational analytics and stakeholder decision support.",
+        "Implemented data quality checks, validation rules, reconciliation logic, and issue investigation workflows to improve confidence in downstream reporting and analytics outputs.",
+        "Partnered with infrastructure, technology, operations, and management stakeholders to translate reporting and capacity requirements into scalable data solutions.",
+        "Produced data dictionaries, runbooks, validation notes, dashboard narratives, and process documentation to support governance, auditability, lineage-style traceability, and production handoff.",
+        "Troubleshot data issues by tracing source feeds, schema changes, transformation logic, SQL behavior, missing data, and downstream reporting expectations.",
+        "Built forecasting workflows with Prophet and scikit-learn on curated datasets to identify future capacity risks and support proactive planning."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving correctness, performance, and production reliability.",
+        "Built validation utilities to compare source and target records across millions of transactions during phased migration cutovers.",
+        "Optimized SQL/database access patterns, data structures, and migration routines to maintain sub-second query latency and reduce production risk.",
+        "Automated schema conversion, data validation, and migration-support processes to improve repeatability and cutover confidence."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built SQL, Perl, and Korn Shell extraction/reporting scripts that automated recurring telemetry exports and improved repeatability of operational reports.",
+        "Designed dashboards, alert thresholds, reporting standards, and documentation used across regulated financial-services monitoring and operations teams.",
+        "Partnered with application, middleware, database, and operations teams to diagnose production bottlenecks using telemetry, SQL, and system evidence.",
+        "Delivered technical documentation, onboarding guidance, and knowledge-sharing materials for application and support teams."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer, Billing Interfaces and Data Workflows",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, invoicing, settlement, EDI, and reporting workflows using Oracle, PL/SQL, Pro*C, C/C++, Java/J2EE, XML, Perl, Korn Shell, and UNIX/Linux.",
+        "Maintained production data integration interfaces and reporting workflows where accuracy, repeatability, secure processing, and timely support were critical.",
+        "Improved data-processing performance through SQL/database optimization, memory reduction, throughput improvements, and production defect triage.",
+        "Created technical documentation and support notes for legacy systems, data interfaces, and operational processes."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "AWS Data Platform": "Amazon S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, Lambda concepts, Step Functions concepts, AWS data lake patterns",
+    "Languages": "Python, SQL, PL/SQL, PySpark, Java, C, C++, Perl, Korn Shell, XML, JSON, YAML",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, transformation, cleansing, enrichment, data lakes, data warehouses, reporting-ready datasets, source-to-target mapping, recurring reporting cycles",
+    "Analytics Engineering": "Analytical dataset design, SQL views/tables, dimensional modeling concepts, reporting layers, stakeholder requirements, business metrics, operational analytics, finance reporting support",
+    "Data Quality & Governance": "Validation rules, reconciliation checks, anomaly detection concepts, data dictionaries, runbooks, lineage-style documentation, access-control awareness, change management, auditability",
+    "Big Data / Lakehouse": "Apache Spark, PySpark, Parquet, partitioning, compression, schema evolution concepts, metadata catalog concepts, Apache Iceberg learning, medallion/lakehouse concepts",
+    "Databases & Warehouses": "Oracle, Oracle RAC, PL/SQL, MySQL, PostgreSQL, Redshift, Athena, SQL tuning, relational modeling, Snowflake concepts/self-study",
+    "BI / Reporting": "Executive reporting, operational dashboards, Streamlit, Plotly, matplotlib, seaborn, Amazon QuickSight concepts, Tableau/Power BI awareness",
+    "Orchestration / Integration": "Airflow, scheduled ETL concepts, Step Functions concepts, AWS Glue workflows concepts, API ingestion concepts, SaaS/enterprise system integration patterns, SnapLogic awareness",
+    "Reliability & Operations": "Pipeline monitoring, production support, root-cause analysis, troubleshooting, exception handling, performance tuning, cost-aware processing, stakeholder communication",
+    "Modern Tools / Learning": "dbt self-study, Apache Iceberg self-study, AWS Unified Data Catalog concepts, Databricks/Delta Lake learning, PyIceberg learning"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns to support curated analytics, query optimization, small-file mitigation, and reliable downstream reporting.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Data Pipeline",
+      "description": "Built an analytics pipeline that transformed operational telemetry into curated datasets for forecasting, capacity risk analysis, dashboarding, KPI-style reporting, and stakeholder decision-making.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "AWS Data Lakehouse Learning Track",
+      "description": "Built focused learning projects around Parquet, Delta Lake, PySpark, AWS-style lakehouse layers, schema enforcement, time travel concepts, partitioning, compaction, and open table format concepts to extend production AWS Glue/S3/Athena experience.",
+      "technologies": [
+        "PySpark",
+        "Parquet",
+        "Delta Lake",
+        "Apache Iceberg concepts",
+        "AWS Glue concepts",
+        "Athena concepts"
+      ]
+    }
+  ]
+}

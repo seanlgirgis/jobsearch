@@ -1,0 +1,133 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Cloud Data Engineer"
+  },
+  "summary": "Senior Cloud Data Engineer with 20+ years of enterprise technology experience and strong hands-on depth in Python, SQL, ETL pipeline design, Oracle data platforms, AWS data services, and production support. Experienced building automated data pipelines, reporting datasets, monitoring workflows, and performance/capacity analytics in regulated financial-services environments. Strong fit for cloud data engineering roles requiring AWS S3/Glue/Athena/Redshift, data quality, governance, monitoring, documentation, disaster-recovery awareness, and stakeholder-facing delivery. Currently expanding multi-cloud and Kubernetes knowledge while grounding delivery in proven AWS, Python, SQL, data modeling, and operational reliability experience.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints, replacing manual reporting processes with repeatable data workflows for capacity, risk, and technology-usage analysis.",
+        "Built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue ETL concepts, Athena-style query access, and Redshift migration patterns to support scalable forecasting and analytics workloads.",
+        "Designed optimized Oracle schemas, historical retention structures, and reporting datasets to support seasonal capacity forecasting, executive reporting, and long-term infrastructure analysis.",
+        "Implemented data quality, reconciliation, and validation logic across telemetry and capacity datasets to improve trust in reporting outputs used by senior stakeholders.",
+        "Monitored production data workflows, investigated pipeline failures and data anomalies, and contributed to operational readiness through automation, troubleshooting, runbooks, and stakeholder communication.",
+        "Integrated monitoring feeds from BMC TrueSight/TSCO, CA Wily APM, and AppDynamics into unified reporting layers, enabling trend analysis, performance optimization, and cost-aware infrastructure decisions.",
+        "Containerized Python ETL jobs on EC2/ECS and worked with CI/CD-aware deployment patterns, supporting repeatable delivery of data-processing and forecasting workloads.",
+        "Developed Streamlit, matplotlib, seaborn, and plotly dashboards that surfaced capacity, utilization, performance, and cost-optimization insights for technical and executive audiences."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, supporting performance visibility and operational reporting for revenue-impacting applications.",
+        "Led the FAST project, data-mining real-user and synthetic performance metrics to generate actionable optimization recommendations for engineering teams.",
+        "Implemented End-User Monitoring and transaction tracing across web and mobile experiences, improving visibility into performance bottlenecks and user-impacting issues.",
+        "Participated in AWS cloud migration planning and APM readiness assessment, translating operational telemetry into infrastructure and application recommendations."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large financial-services environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents across production systems.",
+        "Built Perl and Korn Shell extraction scripts that automated performance reporting and reduced manual weekly export effort.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules adopted as standards across client environments.",
+        "Partnered with J2EE/WebLogic performance teams to troubleshoot production bottlenecks and document operational procedures for support teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving performance while reducing infrastructure footprint.",
+        "Automated schema conversion and data validation pipelines to ensure data integrity throughout phased migration and cutover activities.",
+        "Optimized C++/OCCI/OCI transaction processing and SQL access patterns to maintain sub-second query latency under high-volume workloads.",
+        "Built validation and test automation to verify migration correctness across large transaction datasets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Java, Scala concepts, Perl, Korn Shell, JSON, XML",
+    "AWS & Cloud Data": "Amazon S3, AWS Glue, Athena, Amazon Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, AWS data lake patterns, cloud-first data architecture; GCP/Azure concepts",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, data transformation, data modeling, data warehousing, data lakes, metadata management, data lineage, data-flow documentation, reporting datasets",
+    "Big Data & Storage": "Apache Spark, PySpark, Hadoop/Hive, Parquet, cloud storage, Oracle, MySQL, PostgreSQL concepts, NoSQL concepts, columnar storage, partitioning, schema design",
+    "Data Quality & Governance": "Data validation, reconciliation, anomaly detection concepts, access control concepts, encryption concepts, compliance-aware reporting, data governance, quality checks",
+    "Operations & Reliability": "Monitoring, alerting, troubleshooting, production support, incident response, runbooks, performance tuning, disaster recovery concepts, operational readiness, CloudWatch concepts",
+    "Delivery & DevOps": "Git, GitHub workflows, CI/CD concepts, Docker, ECS, automated deployment concepts, Agile/Scrum, technical documentation, stakeholder collaboration",
+    "Analytics & Visualization": "Streamlit, matplotlib, seaborn, plotly, executive dashboards, capacity analytics, cost optimization analysis, technology usage reporting",
+    "Carefully Positioned Stretch Areas": "Kubernetes concepts, Terraform beginner knowledge, Databricks self-study, Delta Lake self-study, Snowflake self-study, Iceberg learning, Kafka/MSK learning"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting and analytics platform for banking-scale infrastructure telemetry. The system transformed raw monitoring data into trusted reporting datasets, capacity insights, utilization scores, and forecasting outputs for infrastructure and technology stakeholders.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "SQL",
+        "Data Pipelines",
+        "Capacity Planning"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a serverless AWS data platform pattern using S3, Glue, Athena, Redshift, and Bedrock concepts. Focused on ingestion, transformation, columnar storage, metadata/catalog thinking, data access, and AI-enabled analytics patterns.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end Python automation pipeline using LLM APIs, semantic duplicate detection, JSON artifacts, quality gates, and application tracking. Demonstrates CI/CD-aware automation, pipeline orchestration, data validation, and AI-assisted workflow design.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "RAG",
+        "JSON",
+        "Automation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Software Engineer, Data Ingestion Platform role at Block. My background combines financial-services data platform delivery, Python/SQL/Spark pipeline engineering, production telemetry ingestion, AWS data platform work, and practical lakehouse/AI data enablement.
+
+At Citi, I built and supported production data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed it into curated datasets for forecasting, analytics, reporting, and operational decision-making. That work required reliable ingestion, schema discipline, data validation, reconciliation, production support, and root-cause analysis when feeds failed, data was incomplete, or reporting outputs drifted.
+
+I bring strong hands-on experience with Python, SQL, Pandas, PySpark/Spark-oriented processing, AWS S3, Glue, Redshift, Oracle, Linux, Docker, and operational monitoring. I also understand the importance of observability, self-service troubleshooting, documentation, and cost-aware platform design for ingestion systems that serve many downstream analytics and machine learning users.
+
+Block's focus on CDC modernization, Kafka/Iceberg connectors, Databricks, Snowflake, and privacy-compliant ingestion is a stretch in some specific tools, and I would not overstate that experience. My strongest value is the adjacent platform engineering foundation: building reliable production data flows, learning new platform technologies quickly, applying data quality controls, and bringing financial-services discipline to governed data systems that support analytics, AI, and business-critical decisions.
+
+I would welcome the opportunity to discuss how my data ingestion, reliability, and financial-services platform experience could contribute to Block's next-generation data ingestion platform.
+
+Sincerely
+Sean Luka Girgis

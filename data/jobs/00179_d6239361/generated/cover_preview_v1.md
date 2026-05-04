@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Sr. Cloud Data Engineer role with MARS Solutions Group. The position’s focus on AWS cloud data engineering, Python/SQL pipelines, S3 data lakes, governance, monitoring, data quality, and financial-services reliability aligns closely with my background building production data and capacity analytics platforms.
+
+At Citi, I built automated Python/Pandas ETL pipelines ingesting telemetry from more than 6,000 endpoints and transforming it into trusted datasets for capacity forecasting, executive reporting, and technology-usage analysis. I also worked with AWS-oriented data platform patterns including S3 landing zones, Glue-style ETL, Athena query access, Redshift migration, containerized processing on EC2/ECS, and operational support for recurring analytics workflows.
+
+Your role emphasizes scalable cloud storage, ETL pipelines, data quality, governance, CloudWatch-style monitoring, disaster recovery planning, documentation, metadata, and collaboration with architects and analysts. Those responsibilities map well to my experience designing data models, improving data quality and reconciliation, troubleshooting production data issues, documenting data flows, and turning monitoring and capacity data into actionable reporting for financial-services stakeholders.
+
+I would position myself strongest around AWS, Python, SQL, ETL/ELT, Spark/PySpark, S3 data lake patterns, Oracle/data warehouse experience, monitoring, and operational reliability. For broader areas such as Kubernetes, GCP, Azure, and some NoSQL tooling, I would bring adjacent cloud engineering understanding and active learning while staying grounded in my proven AWS/data engineering delivery strengths.
+
+I would welcome the opportunity to contribute hands-on cloud data engineering, production reliability, and financial-services data platform experience to this engagement.
+
+Sincerely,
+Sean Luka Girgis

@@ -1,0 +1,71 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior AWS Data Engineer"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise experience. Expert in AWS Glue, S3, Athena, Redshift, PySpark, SQL, and Python. Skilled in ETL/ELT pipelines, data modeling, data quality, and building scalable reporting layers.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated ETL pipelines ingesting telemetry from 6,000+ endpoints using Python/Pandas and AWS Glue/Redshift.",
+        "Designed optimized Oracle schemas and built ML forecasting models (Prophet, scikit-learn) predicting capacity bottlenecks 6 months ahead.",
+        "Integrated monitoring feeds (TrueSight, CA Wily, AppDynamics) into unified reporting dashboards with Streamlit/matplotlib/seaborn/plotly.",
+        "Managed large-scale PySpark distributed data pipelines, ensuring data quality and operational reliability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics monitoring and implemented End-User Monitoring (EUM) with transaction tracing.",
+        "Led data analysis project for real-user performance metrics to optimize system performance.",
+        "Participated in cloud migration planning to AWS, evaluating monitoring tools and APM readiness."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, Perl, Ksh / Korn Shell Scripting",
+    "Cloud & Data": "AWS Glue, Athena, S3, Redshift, PySpark, Apache Spark, Hive/Hadoop, Data Warehousing, ETL Design & Optimization",
+    "AI/ML": "Capacity Forecasting, Prophet, scikit-learn, Telemetry Analysis",
+    "Tools & Infra": "Dynatrace (AppMon, Synthetics, EUM/RUM, Transaction Tracing), BMC TrueSight / TSCO, CA APM / Introscope, AppDynamics, Docker, Git, Airflow, Streamlit, Linux/Unix",
+    "Legacy": "C++, Java, PL/SQL, Oracle RAC, WebLogic / WebSphere, VB6 / VC++"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed serverless AWS data platform with S3, Glue, Athena, and PySpark. Built Text-to-SQL GenAI agents and optimized ETL/data access at scale.",
+      "technologies": [
+        "AWS Glue",
+        "Athena",
+        "Bedrock (GenAI)",
+        "S3",
+        "PySpark"
+      ]
+    }
+  ]
+}

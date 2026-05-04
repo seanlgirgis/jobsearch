@@ -10,12 +10,12 @@ score: 72
 recommendation: APPLY
 score_date: '2026-04-04T13:42:21'
 created_at: '2026-04-04T13:42:21'
-notes: 'Good fit and no duplicate blockers.'
+notes: Good fit and no duplicate blockers.
 application:
   applied: true
   applied_date: 2026-04-04
   applied_method: Dice
-  application_notes: 'Applied via Dice.'
+  application_notes: Applied via Dice.
   history:
   - date: '2026-04-04'
     status: Created
@@ -23,3 +23,4 @@ application:
   - date: '2026-04-04'
     status: Applied
     notes: Applied via Dice.
+job_hash: 9e52f4ac9dbc010c0706913b6e64dd0376a7c3065db2c5a73c9a2e405dc16df6

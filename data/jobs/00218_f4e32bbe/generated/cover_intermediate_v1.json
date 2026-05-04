@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 03, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Engineer - Data Analyst role with Kellton. The role's focus on secure report delivery, SQL and Python analysis, data validation, workflow health, and stakeholder support aligns well with my background delivering reliable reporting and data-quality workflows in enterprise environments.",
+  "body": [
+    "At Citi, I built and supported Python and SQL-driven data pipelines that converted operational telemetry into validated reporting datasets for analytics, infrastructure, and leadership stakeholders. I regularly worked through data quality issues, reconciled outputs, monitored workflow health, documented logic, and supported production reporting processes where accuracy and timeliness mattered.",
+    "My experience also includes operational analytics, dashboarding, ad hoc reporting support, and root-cause analysis across regulated enterprise systems. I have used Python, SQL, Oracle, reporting layers, Git-based development habits, and AWS data platform concepts, and I am comfortable translating business requirements into practical data outputs that technical and non-technical stakeholders can use.",
+    "Although my background is more senior than the minimum requirements, this role is a good practical fit because it values reliable execution: validating outputs, supporting stakeholders, improving repeatable workflows, and troubleshooting reporting issues before they affect the customer experience. I can bring mature engineering discipline while staying hands-on with the day-to-day SQL, Python, reporting, and data-quality work the team needs."
+  ],
+  "conclusion": "I would welcome the opportunity to help Kellton's client deliver accurate, timely, and well-supported reporting workflows in this remote contract-to-hire role.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

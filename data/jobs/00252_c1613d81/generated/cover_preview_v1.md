@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Lead, Data Platform Engineer role with Johnson & Johnson. My background combines enterprise data platform engineering, Python/PySpark and SQL pipeline development, data quality, observability, and production support for regulated financial-services environments.
+
+At Citi, I built and supported automated data pipelines that ingested telemetry from more than 6,000 enterprise endpoints and transformed it into governed reporting, forecasting, and operational decision datasets. That work required the same practical platform mindset described in your posting: reliable ingestion, transformation, validation, performance tuning, scalability, and timely troubleshooting when production data flows failed or degraded.
+
+I bring strong hands-on experience with Python, SQL, Pandas, PySpark/Spark concepts, AWS data platform services, Airflow-oriented orchestration patterns, data modeling, data quality, and observability. I have also supported AI/ML-style platform use cases through forecasting datasets and Prophet/scikit-learn models, giving me a strong foundation for partnering with data scientists, analysts, and product owners who depend on trusted platform data.
+
+Johnson & Johnson's role is especially interesting because it is a builder role focused on turning data architecture into production-grade systems for AI, machine learning, GenAI, and data science teams. My strongest production depth is in AWS and financial-services data platforms, while Snowflake, dbt, Databricks, Delta Lake, and modern lakehouse governance are areas I am actively strengthening through hands-on study and project work. I would bring senior execution discipline while continuing to ramp quickly on the specific Janssen platform stack.
+
+I would welcome the opportunity to discuss how my data platform, pipeline reliability, and AI/ML enablement background can support Johnson & Johnson's research and development data products.
+
+Sincerely,
+Sean Luka Girgis

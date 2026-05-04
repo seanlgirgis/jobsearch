@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 3, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Sr. Data Engineer: Cloud & Executive Insights contract role with Bayside Solutions. My background aligns strongly with the need for a senior data engineer who can own SQL-heavy pipelines, build trusted analytics, and deliver executive-facing reporting with minimal oversight.",
+  "body": [
+    "At Citi, I built Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints and transformed that data into reporting and forecasting workflows used for operational and leadership decision-making. This work required strong SQL, data validation, performance tuning, documentation, and the ability to convert business and infrastructure needs into reliable data products.",
+    "I also bring deep experience with data quality, dimensional-style reporting, dashboarding, and stakeholder analytics. My work across Citi, G6 Hospitality, CA Technologies, and Sabre included executive reporting, telemetry analytics, large-scale database migration, SQL optimization, and production troubleshooting under time-sensitive conditions.",
+    "The role mentions Snowflake, Kubernetes/Kueue, Trino, and lakehouse architectures. My strongest production experience is in SQL, Python, Oracle, AWS S3/Glue/Redshift patterns, PySpark, and executive analytics; I also have current self-study and project exposure to Snowflake, lakehouse concepts, Docker/ECS, and modern cloud data architectures. I would position those areas honestly while leaning on the data engineering fundamentals this role requires."
+  ],
+  "conclusion": "I would welcome the opportunity to help deliver reliable cloud data pipelines and executive insights for this team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

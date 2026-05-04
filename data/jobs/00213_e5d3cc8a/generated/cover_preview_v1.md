@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Lead Data Platform Engineer role with IDR supporting AWS multi-cloud modernization. My background aligns strongly with AWS data platforms, Python automation, Spark/PySpark data processing, Redshift/S3-based analytics, production support, and migration of enterprise data workloads.
+
+At Citi, I built and supported production Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints and helped move forecasting workloads toward AWS-backed data platform patterns using S3, Glue, and Redshift. That work required the same operating mindset this role emphasizes: reliable cloud data platforms, repeatable automation, troubleshooting, data quality, performance awareness, and close partnership with engineering and operations teams.
+
+I bring deep SQL, Python, PySpark/Spark, Oracle, Redshift, data warehousing, data lake, and production support experience, along with Docker, Git, CI/CD concepts, technical documentation, and mentoring. I have also built containerized Python ETL execution patterns and dashboards that helped stakeholders understand capacity risk, operational health, and optimization opportunities across large enterprise environments.
+
+I would position myself honestly for this role as a strong AWS data platform and production data engineering lead. Terraform is an area I am actively building hands-on fluency in, while Ansible and Alibaba Cloud are not areas I would overstate. My value is strongest where AWS, Python automation, Spark, Redshift, S3, production reliability, and cloud migration meet.
+
+I would welcome the opportunity to support IDR's client with practical AWS data platform engineering, modernization, and production support discipline.
+
+Sincerely,
+Sean Luka Girgis

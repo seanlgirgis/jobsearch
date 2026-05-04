@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am excited to apply for the Data Engineer role with NRMP. The role's focus on Python, SQL/PLSQL, AWS Glue, S3, Lambda, Airflow, ETL/ELT, data quality, governance, and production analytics pipelines aligns strongly with my background building enterprise data platforms for regulated environments.
+
+At Citi, I architected and maintained Python-based ETL pipelines that ingested telemetry from more than 6,000 endpoints and transformed raw operational data into curated datasets for forecasting, analytics, and executive reporting. I also built hybrid AWS/Oracle data-platform patterns using S3, Glue, Athena/Redshift-style analytics, optimized SQL/PLSQL models, and validation controls to improve reliability, reuse, and production readiness.
+
+My experience maps closely to NRMP's need for a data engineer who can move pipelines from development into production while supporting analysts, research teams, executives, and internal departments. I have worked across data integration, modeling, data quality, warehouse structures, automation, metadata-aware workflows, stakeholder requirements, and production support in environments where governance, security, auditability, and business trust mattered.
+
+I would bring NRMP a practical blend of hands-on Python and SQL engineering, AWS data-platform experience, Airflow/DataOps awareness, strong documentation habits, and the ability to collaborate with technical and non-technical teams. While my domain background is financial services and infrastructure analytics rather than graduate medical education, the core data-engineering responsibilities in this role are a strong match for the way I have delivered production analytics platforms.
+
+I would welcome the opportunity to help NRMP build reliable, governed, reusable data pipelines that accelerate analytics and support organizational outcomes.
+
+Sincerely,
+Sean Luka Girgis

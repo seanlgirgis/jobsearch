@@ -1,0 +1,120 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Analyst / Data Validation Engineer"
+  },
+  "summary": "Senior data professional with 20+ years of enterprise experience across SQL, Python, data validation, reporting automation, data quality, and production analytics support. Strong background analyzing complex datasets, validating pipeline outputs, documenting data structures, and troubleshooting reliability issues for downstream reporting and business users. Experienced in regulated enterprise environments with a practical focus on accurate, consistent, and usable data for analytics and operational decision-making.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Used Python, SQL, and pandas to validate, cleanse, and analyze large operational telemetry datasets supporting enterprise reporting and capacity analytics.",
+        "Built repeatable data quality checks and reconciliation routines to identify missing, inconsistent, or anomalous records before data reached downstream dashboards and stakeholder reports.",
+        "Analyzed data structures, historical patterns, and relationships across infrastructure and application monitoring sources to support reliable operational insights and trend analysis.",
+        "Produced stakeholder-facing reporting outputs and dashboards that translated complex telemetry and capacity data into actionable findings for technical and business leadership.",
+        "Performed root-cause analysis on data quality and reporting issues, improving the reliability of recurring analytics workflows and reducing manual investigation effort."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Analyzed real-user and synthetic monitoring data to identify trends, anomalies, and performance issues affecting customer-facing digital systems.",
+        "Validated performance and monitoring data from Dynatrace AppMon, Gomez Synthetic Monitoring, and related sources to support reporting accuracy and engineering decisions.",
+        "Documented findings, dashboards, and recommendations for engineering teams, connecting data analysis to practical system improvement opportunities."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Created automated reporting scripts using Perl, Korn Shell, Oracle, and SQL to extract and validate performance data across large enterprise monitoring environments.",
+        "Designed dashboards, alerts, and reporting standards used by client teams to monitor application health, service behavior, and operational thresholds.",
+        "Produced technical documentation and training materials to help support teams understand data outputs, monitoring workflows, and repeatable troubleshooting practices."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Supported large-scale data migration and validation work across MySQL and Oracle systems, ensuring data integrity during phased cutover activities.",
+        "Built validation and test routines to compare source and target datasets, confirm migration correctness, and identify data discrepancies before production release."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Data Analysis & Validation": "Exploratory data analysis, data validation, data quality checks, anomaly detection, lineage review, reconciliation, data profiling, reporting support",
+    "Languages & Querying": "SQL, Python, pandas, PL/SQL, Perl, Korn Shell, R concepts",
+    "Data Platforms": "Relational databases, Oracle, PostgreSQL, MySQL, SQL Server concepts, data warehouses, data marts, large structured datasets",
+    "Reporting & BI": "Operational reporting, dashboard support, stakeholder reporting, Power BI concepts, Tableau concepts, Qlik exposure, Excel reporting workflows",
+    "Data Engineering Adjacent": "ETL/ELT concepts, pipeline validation, batch processing, PySpark/Spark, AWS S3, AWS Glue, Athena, Redshift, Airflow",
+    "Quality & Delivery": "Root-cause analysis, documentation, QA/testing, technical writing, Agile collaboration, Git, production support, incident analysis"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale Capacity Analytics & Forecasting",
+      "description": "Built Python-based analytics and forecasting workflows to validate telemetry data, identify utilization trends, and surface actionable capacity insights for enterprise stakeholders.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "pandas",
+        "Streamlit",
+        "Plotly",
+        "scikit-learn",
+        "Prophet"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Data Pipeline",
+      "description": "Built a local automation pipeline with structured inputs, validation gates, semantic duplicate detection, JSON artifact generation, and application tracking to improve consistency and quality of job-search outputs.",
+      "technologies": [
+        "Python",
+        "JSON",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "Quality Gates"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Learning Platform",
+      "description": "Designed AWS data platform patterns using S3, Glue, Athena, and Redshift concepts, with emphasis on structured data preparation, validation, documentation, and analytics readiness.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    }
+  ]
+}

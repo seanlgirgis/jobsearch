@@ -28,3 +28,4 @@ application:
   - date: '2026-04-14'
     status: Applied
     notes: Applied via pipeline
+job_hash: 0a1166aedf225ea394395157ef071ad1489b1fef5868592675f05dbc1fd5f69a

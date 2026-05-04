@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Data Engineer role supporting Salesforce data migrations through repeatable ETL workflows, SQL/Python automation, data quality controls, reconciliation, and migration runbooks. My background combines enterprise data engineering, regulated production support, database migration, SQL performance tuning, and business-facing reporting.
+
+At Citi, I built and supported Python/Pandas ETL pipelines ingesting telemetry from 6,000+ endpoints, integrating multiple source systems into validated reporting and forecasting datasets. The work required source analysis, transformation logic, quality checks, reconciliation, root-cause investigation, and reliable production delivery for enterprise stakeholders.
+
+I also bring direct migration and validation experience from Sabre, where I helped migrate a high-throughput platform from 200+ MySQL nodes to Oracle RAC and built validation routines to confirm correctness across large transaction datasets. That experience maps well to source-to-target mapping, data profiling, mock loads, remediation, cutover validation, and runbook-driven migration execution.
+
+While my strongest production background is Oracle, SQL/PLSQL, Python, AWS, and enterprise ETL rather than IBM DataStage or Salesforce administration, I can bring the disciplined migration engineering foundation this role needs: SQL performance tuning, data cleansing, audit-ready validation, governance awareness, and careful documentation of load schedules, controls, rollback, and support procedures.
+
+I would welcome the opportunity to support Eliassen Group's client with reliable, auditable, and well-documented data migration delivery.
+
+Sincerely,
+Sean Luka Girgis

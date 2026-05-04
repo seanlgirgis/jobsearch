@@ -1,0 +1,135 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Lead Capacity Management / Observability Analytics Engineer"
+  },
+  "summary": "Lead Capacity Management and Observability Analytics Engineer with 20+ years of enterprise IT experience across infrastructure capacity forecasting, telemetry analytics, performance engineering, Python automation, and regulated financial-services environments. Deep hands-on background with BMC TrueSight/TSCO, Dynatrace AppMon/Synthetics, AppDynamics, CA APM, time-series forecasting with Prophet/scikit-learn, capacity risk analysis, operational reporting, and executive-facing recommendations. Strong newer experience with AI-assisted development, RAG-style workflows, and agentic automation pipelines.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Led capacity analytics and forecasting work for enterprise infrastructure, transforming telemetry from 6,000+ endpoints into curated datasets for risk analysis, capacity planning, and leadership reporting.",
+        "Built Python, Pandas, SQL, and PySpark-oriented pipelines to ingest and normalize performance/capacity data from BMC TrueSight/TSCO, CA APM/Wily, AppDynamics, and infrastructure sources.",
+        "Developed time-series forecasting models using Prophet and scikit-learn to identify potential capacity bottlenecks months ahead and support upgrade, downgrade, and remediation decisions.",
+        "Created analytical models and operational reports that identified infrastructure hotspots, underutilized systems, and capacity risks across banking technology environments.",
+        "Built automation for recurring capacity reporting, data validation, reconciliation, exception handling, and production support workflows, reducing manual reporting effort and improving repeatability.",
+        "Designed Oracle-backed historical retention structures and reporting tables to support large-scale time-series telemetry analysis and infrastructure risk visibility.",
+        "Produced executive-facing dashboards, reports, and narratives using Python visualization libraries and Streamlit-style reporting to communicate technical findings to varied audiences.",
+        "Partnered with infrastructure, application, operations, and management teams to gather capacity requirements, explain forecasting outputs, and recommend practical remediation options.",
+        "Applied regulated banking controls, operational runbooks, documentation, monitoring, and support practices to maintain reliable and auditable capacity analytics workflows."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, improving visibility into web and mobile performance.",
+        "Implemented End User Monitoring and end-to-end transaction tracing to expose user-experience issues, application dependencies, and performance bottlenecks.",
+        "Led the FAST project, mining real-user and synthetic performance telemetry to surface optimization recommendations adopted by engineering teams.",
+        "Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and support performance engineering decisions.",
+        "Participated in AWS migration planning by evaluating monitoring readiness and operational visibility requirements."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a regulated financial-services environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Designed dashboards, alerts, SLA thresholds, management modules, and reporting standards adopted across enterprise monitoring environments.",
+        "Built Perl/Korn Shell and SQL-driven extraction scripts that automated recurring telemetry reporting and replaced manual weekly exports.",
+        "Partnered with J2EE/WebLogic, middleware, database, and operations teams to diagnose bottlenecks using APM telemetry, transaction traces, and production evidence.",
+        "Delivered technical documentation, onboarding guidance, and knowledge-sharing materials for monitoring operations and application teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Optimized high-throughput transaction systems by analyzing database and application performance, tuning SQL/database access patterns, and improving system efficiency.",
+        "Led migration of a high-volume shopping-engine data platform from 200+ MySQL nodes to Oracle RAC while preserving correctness and performance expectations.",
+        "Built validation utilities to compare source and target records across millions of transactions during phased migration cutovers."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Capacity Management": "Capacity forecasting, infrastructure risk analysis, hotspot detection, upgrade/downgrade recommendations, performance trend analysis, capacity models, resource optimization",
+    "Observability / APM": "BMC TrueSight / TSCO, Dynatrace AppMon, Gomez Synthetic Monitoring, AppDynamics, CA APM / Introscope, EUM/RUM, transaction tracing, dashboards, alerts, SLA thresholds",
+    "Analytics & Forecasting": "Time-series forecasting, Prophet, scikit-learn, statistical analysis, trend analysis, anomaly detection concepts, operational analytics, executive reporting, modeling recommendations",
+    "Languages": "Python, SQL, PL/SQL, PySpark, Perl, Korn Shell, Java, C, C++, XML, JSON, YAML",
+    "Data Engineering": "Telemetry pipelines, ETL/ELT, data ingestion, normalization concepts, data validation, reconciliation, data quality checks, reporting datasets, schema design, operational data models",
+    "Visualization & Reporting": "Streamlit, Plotly, matplotlib, seaborn, operational dashboards, executive reports, Tableau/Grafana transferable concepts, technical and non-technical presentations",
+    "Cloud & Infrastructure": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, Linux/Unix, virtualized infrastructure concepts, Kubernetes/PCF awareness",
+    "AI / Automation": "AI-assisted development, Claude Code, Copilot-style workflows, Grok/xAI API, RAG concepts, FAISS, sentence-transformers, agentic workflow automation, LangChain/LangGraph awareness",
+    "Financial Services": "Regulated banking environments, investment/corporate banking technology exposure, operational controls, auditability, risk-aware decision-making, production support",
+    "Delivery": "Git/GitHub workflows, Agile/Scrum/Kanban, technical documentation, runbooks, stakeholder collaboration, knowledge sharing, mentoring, incident support"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Engine",
+      "description": "Built a capacity forecasting platform that transformed infrastructure telemetry into curated datasets, Prophet/scikit-learn forecasts, capacity-risk indicators, dashboards, and stakeholder reports for proactive resource planning.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "BMC TrueSight telemetry"
+      ]
+    },
+    {
+      "name": "Observability and APM Telemetry Analytics",
+      "description": "Built and supported monitoring dashboards, telemetry extraction scripts, transaction tracing workflows, alert thresholds, and operational reports across Dynatrace, CA APM, BMC TrueSight, and AppDynamics environments.",
+      "technologies": [
+        "Dynatrace",
+        "CA APM",
+        "BMC TrueSight",
+        "AppDynamics",
+        "SQL",
+        "Perl",
+        "Korn Shell"
+      ]
+    },
+    {
+      "name": "AI-Assisted Job Search and Data Automation Pipeline",
+      "description": "Built a Python automation workflow using LLM APIs, RAG-style semantic similarity, JSON artifacts, quality gates, and agentic orchestration to automate scoring, tailoring, document generation, and tracking.",
+      "technologies": [
+        "Python",
+        "Claude Code",
+        "Grok/xAI API",
+        "FAISS",
+        "sentence-transformers",
+        "RAG",
+        "Agentic Workflows"
+      ]
+    }
+  ]
+}

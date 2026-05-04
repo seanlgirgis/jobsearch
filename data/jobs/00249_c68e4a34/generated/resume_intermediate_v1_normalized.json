@@ -1,0 +1,123 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "AWS / PySpark Data Platform Engineer"
+  },
+  "summary": "Senior Data Engineer and platform-focused AWS practitioner with 20+ years of enterprise IT experience and deep hands-on strength in Python, SQL, PySpark, ETL/ELT, telemetry pipelines, monitoring, operational validation, and governed reporting platforms. Experienced building reliable data ingestion and forecasting pipelines across AWS S3, Glue, Athena, Redshift, Oracle, and large-scale monitoring feeds, with strong emphasis on data quality, schema discipline, observability, runbooks, and production support. Actively upskilling in Databricks, Delta Lake, Unity Catalog, Delta Live Tables, and lakehouse platform patterns to extend an AWS/PySpark foundation into Databricks platform engineering.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected Python and Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints, replacing manual processes with reusable, repeatable data ingestion and reporting workflows.",
+        "Built a hybrid AWS and Oracle data platform using S3 landing zones, AWS Glue ETL, Redshift, and optimized historical schemas to support capacity forecasting and executive reporting.",
+        "Developed PySpark-based and parallelized data processing workflows for large-scale telemetry and forecasting workloads, emphasizing partitioning, validation, and operational reliability.",
+        "Implemented data quality, reconciliation, and validation patterns across capacity and monitoring datasets to catch data issues before they reached downstream reports and forecasting outputs.",
+        "Integrated monitoring feeds from BMC TrueSight, CA Wily, and AppDynamics into unified operational reporting, improving observability across infrastructure capacity and application performance signals.",
+        "Created runbooks, technical documentation, dashboards, and stakeholder-ready reporting outputs to support production operations, failure triage, and platform handoff."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, supporting operational visibility across customer-facing platforms.",
+        "Led the FAST project, mining real-user and synthetic performance data to identify optimization opportunities adopted by engineering teams.",
+        "Upgraded Dynatrace AppMon from 6.5 to 7.0 and supported TLS 1.2 security enforcement with no production monitoring regression during cutover.",
+        "Implemented End-User Monitoring and transaction tracing across web and mobile systems, strengthening troubleshooting, alerting, and performance analysis workflows."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a large enterprise environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules that became standardized operational monitoring patterns across client environments.",
+        "Built Perl and Korn Shell data-extraction scripts for automated performance reporting, reducing reliance on manual weekly exports.",
+        "Delivered technical documentation, client training, onboarding guidance, and operational handoff materials for monitoring and performance engineering teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, supporting major transaction-volume growth with a smaller infrastructure footprint.",
+        "Automated schema conversion, validation, and migration checks to preserve data integrity throughout phased cutover activities.",
+        "Built C++/OCCI/OCI testing utilities and validation workflows to verify migration correctness across large transactional datasets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Perl, Korn Shell, C++, Java, XML, JSON",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and Bedrock patterns, emphasizing reliable ingestion, query optimization, schema discipline, and governed analytical access.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python, PySpark, and Streamlit forecasting engine for capacity planning, replacing manual forecasting cycles with automated telemetry ingestion, validation, modeling, and dashboarding.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Telemetry Pipelines"
+      ]
+    },
+    {
+      "name": "Databricks Lakehouse Upskilling Lab",
+      "description": "Self-study and project-level Databricks work covering Delta Lake, Unity Catalog, Delta Live Tables, Workflows, medallion architecture, schema enforcement, and governed ingestion design patterns.",
+      "technologies": [
+        "Databricks",
+        "Delta Lake",
+        "Unity Catalog",
+        "Delta Live Tables",
+        "PySpark",
+        "Medallion Architecture"
+      ]
+    }
+  ]
+}

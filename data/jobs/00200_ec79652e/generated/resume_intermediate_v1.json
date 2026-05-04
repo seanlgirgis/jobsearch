@@ -1,0 +1,129 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Python / AWS Data Platform Engineer"
+  },
+  "summary": "Senior data and software engineering professional with 20+ years of enterprise experience building Python, SQL, cloud, and automation solutions for data-intensive platforms. Strong background in AWS data engineering, ETL/ELT pipelines, telemetry analytics, observability, documentation, and production-quality operational workflows. Hands-on experience with Python, SQL, AWS Glue, S3, Redshift, EC2/ECS, PySpark/Spark, data quality, and GenAI/agentic workflows; actively building Terraform, FastAPI, CI/CD, and API platform depth to support modern data science and AI engineering teams.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected and maintained Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ enterprise endpoints, replacing manual workflows with repeatable, auditable, and operations-ready data processing.",
+        "Built a hybrid AWS/Oracle data platform using S3 landing zones, AWS Glue ETL, Redshift, EC2/ECS containerized processing, and optimized Oracle schemas to support forecasting, reporting, and executive analytics.",
+        "Migrated heavy forecasting workloads using Prophet and scikit-learn from on-prem Oracle processing toward Redshift/cloud-scale execution, improving scalability for parallel capacity analysis.",
+        "Developed SQL-heavy reporting and analytics layers integrating TrueSight, CA Wily, and AppDynamics telemetry into unified datasets for operational decision-making and risk visibility.",
+        "Partnered with engineering, infrastructure, and stakeholder teams to define requirements, troubleshoot production issues, document workflows, and improve monitoring, alerting, and remediation practices.",
+        "Built GenAI Text-to-SQL and agentic workflow prototypes using Claude/Grok APIs and AWS Bedrock concepts, focusing on safe automation, structured JSON artifacts, quality gates, and human-reviewable outputs."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality platforms, improving visibility into user-facing performance and production reliability.",
+        "Led the FAST performance analytics initiative, mining real-user and synthetic monitoring data to generate optimization recommendations adopted by engineering teams.",
+        "Upgraded Dynatrace AppMon from 6.5 to 7.0 and enforced TLS 1.2 security with zero regression in production monitoring coverage.",
+        "Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM evidence, supporting more reliable release and performance decisions."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME across a large enterprise estate with 50+ Enterprise Managers and 4,000–6,000 instrumented agents, supporting high-scale monitoring and operational visibility.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules that became standards across customer environments.",
+        "Automated performance reporting with Perl and Korn Shell scripts, reducing manual exports and improving repeatability of operational reporting.",
+        "Produced technical documentation, runbooks, training material, and operational guidance for engineering and client teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving data correctness and transaction performance.",
+        "Built C++/OCCI/OCI validation and testing frameworks to verify migration correctness across large transaction datasets.",
+        "Optimized core transaction processing and database access patterns, reducing physical hardware footprint while maintaining low-latency query behavior."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Perl, Korn Shell, Java, C++, JSON, XML",
+    "AWS & Cloud Data": "Amazon S3, AWS Glue, Amazon Redshift, Amazon EC2, Amazon ECS, Athena concepts, AWS Bedrock concepts, CloudWatch concepts, Azure concepts",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, data processing, data warehousing, data modeling, data quality, reconciliation, reporting layers, metadata and documentation",
+    "AI / Data Science Enablement": "GenAI workflows, Text-to-SQL agents, Claude/Grok API integration, Bedrock concepts, Prophet, scikit-learn, forecasting pipelines, model-support datasets",
+    "Backend / Platform Engineering": "REST API design concepts, FastAPI learning projects, Pydantic contracts, reusable components, operational workflows, vulnerability/remediation awareness",
+    "Infrastructure & Delivery": "Docker, Git, GitHub Actions concepts, CI/CD pipeline design, Terraform beginner/actively learning, Agile/Scrum, technical documentation, runbooks",
+    "Observability & Operations": "Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM/Introscope, BMC TrueSight/TSCO, AppDynamics, monitoring, alerting, troubleshooting, production support",
+    "Databases": "Oracle, MySQL, PostgreSQL, Redshift, Oracle RAC, dimensional modeling, schema design, query optimization"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end agentic automation pipeline using Python, Claude Code, Grok API, FAISS, sentence-transformers, structured JSON artifacts, quality gates, and application tracking. The system uses semantic duplicate detection, LLM-powered scoring, tailored artifact generation, and reproducible local scripts.",
+      "technologies": [
+        "Python",
+        "Claude Code",
+        "Grok API",
+        "FAISS",
+        "Sentence Transformers",
+        "RAG",
+        "JSON",
+        "Automation"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform Prototype",
+      "description": "Designed and implemented a serverless data platform pattern using S3, Glue, Athena, Bedrock concepts, Parquet, and PySpark to support query-ready datasets, Text-to-SQL exploration, and data engineering learning artifacts.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "AWS Bedrock",
+        "PySpark",
+        "Parquet",
+        "Python"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Created a forecasting engine using Python, PySpark, Prophet, scikit-learn, and Streamlit to transform infrastructure telemetry into forward-looking capacity insights and stakeholder-facing analytics.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "SQL",
+        "Telemetry Analytics"
+      ]
+    }
+  ]
+}

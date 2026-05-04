@@ -25,3 +25,4 @@ application:
   - date: '2026-04-17'
     status: Applied
     notes: Reapplied via force pipeline
+job_hash: 4ca115dc8253557c834705b90acb6caeb514690af82117e7d04954fdd987d518

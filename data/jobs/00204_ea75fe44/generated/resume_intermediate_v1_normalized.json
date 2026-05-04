@@ -1,0 +1,134 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer | Python, SQL, Spark & Financial Services Data Platforms"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise technology experience, including recent financial-services data engineering work at Citi. Strong background designing Python, SQL, PySpark/Spark, and cloud-oriented data pipelines for telemetry, forecasting, reporting, and analytics use cases. Experienced in reusable pipeline patterns, data quality, performance optimization, production troubleshooting, documentation, and stakeholder collaboration. Actively building Databricks, dbt, Delta Lake, and modern lakehouse fluency on top of a strong Spark, AWS, data warehousing, and regulated-enterprise foundation.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python and Pandas ETL pipelines ingesting P95 telemetry from 6,000+ enterprise endpoints, replacing manual data preparation with repeatable data engineering workflows.",
+        "Developed PySpark and distributed-processing workflows for large-scale telemetry, forecasting, and executive reporting use cases in a regulated financial-services environment.",
+        "Built hybrid AWS/Oracle data platform patterns using S3 landing zones, AWS Glue-oriented ETL, and Redshift analytics workloads to modernize capacity forecasting and reporting pipelines.",
+        "Designed reusable pipeline logic, validation steps, and reporting structures to improve maintainability, auditability, and data consistency across infrastructure analytics outputs.",
+        "Partnered with infrastructure, application, analytics, and leadership stakeholders to translate ambiguous operational needs into reliable datasets, dashboards, and decision-support reporting.",
+        "Troubleshot production data issues, performance bottlenecks, and pipeline failures, applying SQL optimization, data reconciliation, monitoring, and documentation practices."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring data flows for Brand.com and critical hospitality systems, turning telemetry into actionable performance recommendations.",
+        "Led the FAST project by mining real-user and synthetic monitoring data to identify optimization opportunities adopted by engineering teams.",
+        "Supported AWS migration planning by evaluating monitoring readiness, production performance signals, and operational requirements.",
+        "Produced technical documentation for monitoring processes, platform upgrades, production cutovers, and support workflows."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as enterprise APM SME across 50+ Enterprise Managers and 4,000–6,000 instrumented agents, supporting large-scale telemetry, dashboards, alerts, and operational reporting.",
+        "Built Perl and Korn Shell extraction scripts that automated recurring performance reporting and reduced manual data collection effort.",
+        "Designed reusable monitoring modules, dashboards, thresholds, and standards adopted across client environments.",
+        "Collaborated with J2EE/WebLogic and infrastructure teams to diagnose performance bottlenecks using telemetry-driven root cause analysis."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while maintaining sub-second query latency.",
+        "Automated schema conversion and validation pipelines to ensure data integrity during phased migration cutover.",
+        "Optimized C++/OCCI transaction processing and database access patterns, reducing physical hardware footprint by 95%.",
+        "Built test and validation frameworks to verify migration correctness across large transaction datasets."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, Perl, Korn Shell, JSON",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting and analytics pipeline for enterprise telemetry, using scalable processing and data quality checks to support capacity risk analysis and reporting.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed serverless data platform patterns using S3, Glue, Athena, Redshift, Parquet, and PySpark concepts for scalable ETL, query-ready storage, and cost-aware analytics.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "Databricks / Delta Lake Learning Lab",
+      "description": "Built hands-on local learning examples for Delta Lake, schema enforcement, time travel, MERGE/upsert patterns, compaction, and medallion-style data pipeline concepts.",
+      "technologies": [
+        "Databricks concepts",
+        "Delta Lake",
+        "PySpark",
+        "Medallion Architecture",
+        "Data Quality"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an AI-assisted automation pipeline with structured JSON artifacts, semantic duplicate detection, quality gates, and reproducible workflow steps.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "JSON",
+        "Automation"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the remote Engineer, Big Data role with Molina Healthcare. The role’s focus on SQL, Python, Spark, Hadoop/Hive, ETL, data modeling, data quality, metadata management, governance, and production troubleshooting aligns well with my enterprise data engineering background.
+
+At Citi, I built and supported large-scale data pipelines that ingested telemetry from thousands of enterprise endpoints and transformed it into forecasting, reporting, and decision-support datasets. My work used Python, SQL, PySpark, AWS data platform patterns, data validation, and optimized data models to deliver reliable analytics outputs in a regulated enterprise environment.
+
+I bring a strong foundation in batch data processing, data warehousing, operational reporting, production troubleshooting, and cross-team collaboration. I have worked with Hadoop/Hive and Spark-oriented processing concepts, integrated heterogeneous monitoring and infrastructure data sources, and maintained documentation and quality controls that helped teams trust and operate the resulting data products.
+
+The Molina role includes healthcare, Power BI, Databricks, Kafka/Storm, HBase, and deeper Hadoop cluster components. My strongest production depth is in Python, SQL, Spark/PySpark, ETL, data modeling, data quality, AWS-oriented data platforms, and enterprise troubleshooting, while I am actively expanding Databricks and modern lakehouse fluency. I would bring strong engineering fundamentals and a careful, evidence-based approach to learning domain-specific systems.
+
+I would welcome the opportunity to bring my big data engineering, Python/SQL/Spark, data quality, modeling, and production reliability experience to Molina Healthcare.
+
+Sincerely
+Sean Luka Girgis

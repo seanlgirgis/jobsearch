@@ -24,3 +24,4 @@ application:
   - date: '2026-04-28'
     status: Applied
     notes: Applied via Dice bulk update
+job_hash: 1cb0c930cf8ad7ff67ec2090a44baf8da8edbbd2b212587795f5163482d3ed2f

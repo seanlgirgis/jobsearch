@@ -1,0 +1,126 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior AWS ETL / Data Engineer"
+  },
+  "summary": "Senior AWS Data Engineer with 20+ years of enterprise technology experience and strong hands-on background in ETL/ELT, SQL, Python, AWS Glue, S3, Redshift, Lambda-adjacent serverless patterns, and production data pipeline support. Experienced building and maintaining reliable data pipelines, validating data quality, optimizing SQL/reporting workloads, documenting technical processes, and supporting ticket-driven production environments. Strong fit for AWS ETL delivery, Glue-based data processing, SQL troubleshooting, stakeholder communication, and operational support. Currently expanding modern ELT/lakehouse tool fluency across Snowflake, dbt, Databricks, and related cloud data platform patterns; Matillion should be treated as adjacent/upskilling rather than deep production ownership.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and supported production ETL/reporting pipelines using Python, Pandas, SQL, and AWS-oriented data platform patterns to ingest telemetry from 6,000+ endpoints and transform it into trusted analytics and forecasting datasets.",
+        "Designed AWS data platform components using S3 landing zones, AWS Glue for ETL, Amazon Redshift for analytics/forecasting workloads, and EC2/ECS-based Python processing for scalable data pipeline execution.",
+        "Developed and optimized SQL-backed reporting structures for historical retention, operational analytics, and capacity forecasting, applying validation checks and reconciliation to improve dataset trust.",
+        "Integrated BMC TrueSight/TSCO, CA APM, and AppDynamics feeds into unified reporting pipelines, supporting data quality, source alignment, and root-cause investigation for data/interface issues.",
+        "Created repeatable pipeline processes that reduced manual data preparation, improved reliability, and supported executive-level reporting in a regulated financial-services environment.",
+        "Supported production troubleshooting, incident-style investigation, operational documentation, and stakeholder communication across pipeline outputs, dashboards, and source-system data quality issues.",
+        "Worked in ticket-driven enterprise environments with Agile/Kanban practices, coordinating with technical and business teams to prioritize requests, resolve issues, and communicate delivery status."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Converted Dynatrace AppMon/Synthetics and Gomez performance telemetry into analytics-ready datasets and reports used by engineering teams to improve digital-system performance.",
+        "Led the FAST project, mining real-user and synthetic monitoring data to identify optimization opportunities for revenue-critical web and mobile platforms.",
+        "Participated in AWS migration planning by providing observability, performance, and operational-readiness input for cloud transition decisions.",
+        "Documented monitoring, data interpretation, and operational procedures for technical teams and stakeholders."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl and Korn Shell extraction scripts to automate performance reporting and replace manual weekly exports with repeatable data processing routines.",
+        "Worked with Oracle, SQL, WebLogic, WebSphere, Linux/Unix, and J2EE teams to troubleshoot production issues and document root-cause findings from enterprise monitoring data.",
+        "Designed dashboards, alerts, thresholds, and reporting structures used by operations teams to support service reliability and issue resolution.",
+        "Produced technical documentation and knowledge-transfer materials adopted by client operations and engineering teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while maintaining data correctness and performance.",
+        "Built C++/OCCI/OCI and SQL validation routines to verify migration accuracy across high-volume transactional datasets.",
+        "Optimized database access patterns and transaction logic, reducing hardware footprint while preserving mission-critical throughput.",
+        "Supported phased migration cutover, source-to-target validation, and production-readiness testing for a major platform modernization effort."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet to support scalable analytics and AI data access workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "PySpark",
+        "Apache Parquet",
+        "Python"
+      ]
+    },
+    {
+      "name": "Enterprise Telemetry ETL and Forecasting Platform",
+      "description": "Built repeatable ETL/reporting workflows that ingested infrastructure telemetry and produced trusted forecasting, dashboard, and executive reporting datasets.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "Pandas",
+        "Oracle",
+        "Redshift",
+        "ETL",
+        "Data Quality"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an automated pipeline using Python, semantic duplicate detection, LLM scoring, JSON quality gates, and local render/tracking workflows.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "JSON Contracts",
+        "Automation"
+      ]
+    }
+  ]
+}

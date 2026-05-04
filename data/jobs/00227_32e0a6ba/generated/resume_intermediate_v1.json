@@ -1,0 +1,128 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Python / SQL Data Engineer | ETL / JSON / Data Migration"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise IT experience and deep hands-on background in Python, SQL, PL/SQL, ETL/ELT pipelines, relational data modeling, JSON/XML data structures, data migration, validation, and production support. Strong experience building repeatable data transformation workflows, troubleshooting data quality issues, documenting schemas and data flows, and supporting regulated enterprise environments where accuracy, security, and reliability matter.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and maintained Python, SQL, Pandas, and PySpark-oriented ETL pipelines that transformed large operational telemetry datasets into curated reporting and analytics outputs.",
+        "Designed Oracle-backed data models, reporting tables, historical retention structures, validation logic, and data quality checks for enterprise analytics consumers.",
+        "Developed Python automation for ingestion, transformation, reconciliation, exception handling, recurring reporting, and production support workflows.",
+        "Built cloud-aligned data workflows using AWS S3, Glue, Athena, Redshift, EC2/ECS, and IAM concepts to support scalable analytics and forecasting workloads.",
+        "Processed structured and semi-structured operational data from multiple sources, including monitoring platforms and service/infrastructure datasets, into reliable downstream reporting layers.",
+        "Troubleshot missing, inconsistent, or incorrect data by tracing source feeds, schema changes, transformation logic, SQL behavior, and downstream reporting expectations.",
+        "Created documentation, runbooks, data dictionaries, validation notes, and stakeholder-facing summaries to support maintainability, migration support, and production handoff.",
+        "Applied regulated-enterprise practices around secure data handling, access-control awareness, auditability, and operational reliability."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving data correctness and performance.",
+        "Built C++/OCCI/OCI validation utilities to compare source and target records across millions of transaction records during phased migration cutovers.",
+        "Optimized SQL/database access patterns, transaction-processing logic, and migration routines to maintain sub-second query latency.",
+        "Automated schema conversion, data validation, and migration-support processes to reduce manual effort and improve production cutover reliability."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer, Billing Interfaces and Data Workflows",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, invoicing, settlement, EDI, and reporting workflows using Oracle, PL/SQL, Pro*C, C/C++, Java/J2EE, XML, Perl, Korn Shell, and UNIX/Linux.",
+        "Worked with XML and interface payloads for enterprise billing and provisioning-adjacent workflows where data correctness and repeatability were critical.",
+        "Improved data-processing performance through SQL/database optimization, memory reduction, throughput improvements, and production defect triage.",
+        "Reverse-engineered and documented undocumented vendor APIs and legacy data interfaces to support integration, troubleshooting, and future maintenance."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built SQL, Perl, and Korn Shell extraction/reporting scripts that automated recurring operational data exports and improved reporting repeatability.",
+        "Designed dashboards, alert thresholds, reporting standards, and documentation used across enterprise monitoring and production support teams.",
+        "Partnered with application, middleware, and operations teams to diagnose data/performance issues and improve support workflows."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, PySpark, Perl, Korn Shell, Java, C, C++, XML, JSON, YAML",
+    "Data Engineering": "ETL/ELT pipelines, data migration, source-to-target mapping, schema design, data modeling, data cleansing, data validation, reconciliation, data quality checks, large-scale dataset processing",
+    "JSON / Semi-Structured Data": "JSON parsing concepts, XML processing, schema design, payload transformation, mapping rules, validation rules, structured and semi-structured data transformation",
+    "Databases & Warehouses": "Oracle, Oracle RAC, PL/SQL, MySQL, PostgreSQL, Redshift, Athena, relational modeling, query tuning, stored procedure concepts, Snowflake concepts/self-study",
+    "Cloud & Platforms": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, PySpark, Apache Spark, Hadoop/Hive, Parquet",
+    "Security & Provisioning Awareness": "Access-control awareness, role/permission concepts, regulated enterprise controls, auditability, secure data handling, entitlement/provisioning workflow awareness",
+    "Delivery & Support": "Git, GitHub workflows, CI/CD concepts, Agile/Scrum/Kanban, technical documentation, runbooks, production support, troubleshooting, stakeholder collaboration",
+    "Adjacent / Learning": "Snowflake, dbt, Databricks, Delta Lake, Kafka/MSK awareness, payments domain awareness, entitlement and provisioning domain concepts"
+  },
+  "projects": [
+    {
+      "name": "AI-Assisted Job Search and Data Automation Pipeline",
+      "description": "Built a Python-based automation workflow that uses structured JSON artifacts, LLM APIs, semantic duplicate detection, validation gates, and repeatable rendering steps to support high-volume job evaluation, tailoring, document generation, and tracking.",
+      "technologies": [
+        "Python",
+        "JSON",
+        "LLM APIs",
+        "FAISS",
+        "sentence-transformers",
+        "Git",
+        "Quality Gates"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns to support curated analytics, query optimization, and reliable downstream reporting.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "Legacy Data Migration and Validation Framework",
+      "description": "Supported high-volume database migration and validation work involving source/target comparison, schema conversion, SQL optimization, and repeatable cutover checks for enterprise transaction systems.",
+      "technologies": [
+        "Oracle RAC",
+        "SQL",
+        "C++",
+        "OCCI/OCI",
+        "MySQL",
+        "Validation Utilities"
+      ]
+    }
+  ]
+}

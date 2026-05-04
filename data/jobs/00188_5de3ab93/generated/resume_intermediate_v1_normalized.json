@@ -1,0 +1,135 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer / Database Platform Engineer"
+  },
+  "summary": "Senior Data Engineer and database platform engineer with 20+ years of enterprise IT experience across Python, SQL, Oracle, data warehousing, ETL pipelines, automation, and production support. Experienced designing data models, optimizing database performance, improving data quality, documenting technical solutions, and supporting operationally reliable analytics platforms. Strong fit for roles combining data engineering, database optimization, automation, and infrastructure-facing production reliability.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected automated Python/Pandas ETL pipelines ingesting P95 telemetry from 6,000+ endpoints, replacing manual data preparation workflows and improving repeatability for enterprise reporting.",
+        "Designed optimized Oracle schemas for historical retention, query performance, and seasonal forecasting use cases supporting infrastructure capacity decisions.",
+        "Integrated monitoring and capacity datasets from BMC TrueSight, CA Wily, and AppDynamics into unified reporting structures used by technical and leadership stakeholders.",
+        "Built data quality, validation, and reconciliation practices around telemetry pipelines to improve trust in operational reports and capacity analytics.",
+        "Developed dashboards and reporting outputs using Python visualization libraries to surface capacity risk, usage trends, and operational insights for senior stakeholders.",
+        "Supported production troubleshooting, incident analysis, documentation, and runbook-style operational improvements for data and monitoring workflows."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring data for critical hospitality systems, supporting operational visibility and performance reporting.",
+        "Led the FAST project to data-mine real-user and synthetic performance metrics and translate findings into actionable engineering recommendations.",
+        "Supported monitoring platform upgrades and integrations while maintaining production visibility and minimizing operational disruption.",
+        "Collaborated with infrastructure and application teams to interpret performance data, diagnose issues, and document technical findings."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as enterprise CA APM SME for large financial-services environments with thousands of instrumented agents and dozens of Enterprise Managers.",
+        "Designed dashboards, alert thresholds, management modules, and operational reporting practices adopted across client environments.",
+        "Built Perl and Korn Shell data-extraction scripts to automate performance reporting and reduce recurring manual exports.",
+        "Delivered technical documentation, training, and standards for monitoring operations and application performance support."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from distributed MySQL infrastructure to Oracle RAC while validating transaction correctness and performance.",
+        "Optimized database access patterns using C++, OCCI, OCI, SQL, and schema design techniques to improve latency and reduce infrastructure footprint.",
+        "Built validation and testing utilities to verify migration integrity across large transaction datasets.",
+        "Documented migration logic, testing results, and operational considerations for phased production cutover."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability telecom billing interfaces using C, C++, Pro*C, PL/SQL, Oracle, XML, and Unix scripting.",
+        "Improved billing and reporting process performance through SQL, PL/SQL, and system-level optimization across Unix environments.",
+        "Automated WebLogic/WebSphere administration and operational tasks using Korn Shell scripting.",
+        "Supported production triage, QA cycles, technical documentation, and interface integration for mission-critical billing systems."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, Java, C, C++, Perl, Korn Shell, JSON, XML",
+    "Cloud & Data": "",
+    "AI/ML": "",
+    "Tools & Infra": "",
+    "Legacy": ""
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a Python/PySpark forecasting and analytics pipeline for enterprise telemetry data, replacing manual forecasting cycles with automated data preparation, modeling, and stakeholder-facing insights.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Data Pipelines"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS data platform pattern using S3, Glue, Athena, Bedrock, PySpark, and Parquet-oriented lakehouse concepts for scalable ETL and analytics workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "PySpark",
+        "Parquet",
+        "Bedrock"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an agentic Python pipeline with semantic duplicate detection, LLM-assisted scoring, JSON artifact generation, quality gates, and application tracking.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "sentence-transformers",
+        "LLM APIs",
+        "RAG",
+        "Streamlit"
+      ]
+    }
+  ]
+}

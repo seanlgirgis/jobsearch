@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Data Engineering - Data, Lakehouse and AI Data Platform Engineer, Vice President role in Dallas. My background combines financial-services data engineering, Python/SQL/Spark pipeline delivery, production telemetry platforms, and practical lakehouse/AI data platform enablement.
+
+At Citi, I built and supported production data pipelines that ingested telemetry from 6,000+ endpoints and transformed it into governed datasets for forecasting, reporting, and operational decision-making. That work required the same practical engineering discipline described in this role: SQL troubleshooting, schema design, historical retention, data validation, reconciliation, monitoring, and root-cause analysis when production outputs broke or drifted.
+
+I bring strong hands-on Python, SQL, Pandas, PySpark/Spark, AWS S3, Glue, Redshift, Oracle, and reporting-platform experience, with current project work extending that foundation into lakehouse patterns such as Parquet, Delta Lake, Iceberg concepts, Databricks concepts, partitioning, and medallion-style curation. I am careful not to overstate weaker tools, but I learn quickly and have repeatedly adapted across enterprise platforms while keeping delivery grounded in correctness, reliability, documentation, and stakeholder value.
+
+Goldman Sachs' focus on building data foundations for AI and analytics aligns closely with my recent work connecting curated data products to ML forecasting and GenAI/Text-to-SQL use cases. I would bring a senior, delivery-focused mindset: building production-ready pipelines, improving data quality and reconciliation, communicating risks clearly, and helping teams turn platform standards into reliable operating practices.
+
+I would welcome the opportunity to discuss how my financial-services data platform experience can support Goldman's lakehouse and AI data platform initiatives.
+
+Sincerely
+Sean Luka Girgis

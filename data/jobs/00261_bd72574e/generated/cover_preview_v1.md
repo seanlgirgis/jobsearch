@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 04, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Software Engineer III - Data, AWS, ETL, Java/Python role in Plano. My background combines financial-services production engineering, AWS data platform modernization, Python/SQL ETL, Spark/PySpark-oriented processing, and operationally reliable data delivery.
+
+At Citi, I built and supported production data pipelines that ingested telemetry from 6,000+ infrastructure endpoints and transformed it into governed datasets for forecasting, reporting, and operational decision-making. That work maps closely to this role's focus on transforming ETL logic to cloud data platforms, supporting upstream and downstream systems, troubleshooting production issues, and improving the consistency, quality, and completeness of data assets.
+
+I bring strong hands-on experience with Python, SQL, AWS S3, Glue, Redshift, EC2/ECS, Oracle, data modeling, validation, reconciliation, and production support in regulated financial-services environments. I also have Spark/PySpark-oriented pipeline experience and am actively extending that foundation into Databricks, Delta Lake, Snowflake, Kafka/Flink concepts, and Terraform so I can work effectively across modern data lake and data mesh patterns without overstating unsupported depth.
+
+Beyond the tools, I offer the engineering habits JPMorgan Chase emphasizes: secure and stable delivery, debugging discipline, documentation, Agile collaboration, operational stability, and practical decision-making with large and diverse datasets. I would welcome the chance to bring that mix of data engineering, cloud modernization, and financial-services production experience to the Consumer & Community Banking technology team.
+
+I would appreciate the opportunity to discuss how my AWS, ETL, Python/SQL, Spark, and financial-services data platform experience can support this Plano team.
+
+Sincerely
+Sean Luka Girgis

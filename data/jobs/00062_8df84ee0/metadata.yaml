@@ -10,12 +10,12 @@ score: 50
 recommendation: HOLD
 score_date: '2026-04-04T14:21:48'
 created_at: '2026-04-04T14:21:48'
-notes: 'Fit score (50) below apply threshold.'
+notes: Fit score (50) below apply threshold.
 application:
   applied: true
   applied_date: 2026-04-04
   applied_method: Dice
-  application_notes: 'Submitted by user.'
+  application_notes: Submitted by user.
   history:
   - date: '2026-04-04'
     status: Created
@@ -23,3 +23,4 @@ application:
   - date: '2026-04-04'
     status: Applied
     notes: Submitted by user.
+job_hash: 1ea920d56adc759bc8db51ff9a1c239ac517f0e3f84f63cbb58b9db42da924bb

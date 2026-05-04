@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 04, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Associate Engineer - Software Engineer role with Maximus. Although my background is more senior than the minimum requirement, the remote nature of the role and its focus on SDLC execution, database scripting, documentation, testing, and production support make it a practical match for my current search.",
+  "body": [
+    "My experience includes building and supporting enterprise software and data workflows using SQL, Python, PL/SQL, C/C++, Java/J2EE concepts, Unix scripting, and relational databases. At Citi, I developed SQL/Python reporting and monitoring processes, supported production data workflows, documented requirements and system behavior, and worked with technical and non-technical stakeholders to resolve operational issues.",
+    "Earlier in my career, I worked directly in application development and support environments, including telecom billing interfaces, Oracle-backed systems, C/C++ and Pro*C components, XML interfaces, shell automation, QA cycles, defect resolution, and structured SDLC/change-management processes. That background maps well to creating scripts, modifying database objects, preparing technical documentation, developing test scenarios, and supporting enterprise applications after deployment.",
+    "I would bring strong ownership, careful documentation, attention to detail, and a calm production-support mindset to the team. I am comfortable working under established team direction, contributing to design and code reviews, helping peers troubleshoot technical issues, and delivering maintainable work in Agile or structured SDLC environments."
+  ],
+  "conclusion": "I would welcome the opportunity to support Maximus with reliable application development, SQL/RDBMS support, testing, documentation, and production operations.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

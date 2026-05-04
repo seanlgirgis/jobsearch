@@ -1,0 +1,146 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "AWS Data Engineer | AI Solutions Engineer | RAG & Agentic Workflow Builder"
+  },
+  "summary": "Senior data engineer and AI solutions practitioner with 20+ years of enterprise technology experience across financial services, performance engineering, automation, and cloud data platforms. Strong hands-on experience with Python, SQL, PySpark/Spark concepts, AWS data services, ETL/ELT pipelines, telemetry analytics, RAG-style retrieval, vector embeddings, LLM APIs, MCP/tool integration, JSON quality gates, and agentic workflow automation. Experienced building proof-of-concept systems, demos, documentation, runbooks, and production-oriented troubleshooting workflows for complex enterprise teams. Positioned for AI engineering consulting roles that need practical cloud data engineering, GenAI application delivery, responsible implementation, and clear client-facing communication.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and supported Python/Pandas and PySpark-oriented ETL pipelines ingesting telemetry from 6,000+ endpoints, transforming raw operational data into governed datasets for forecasting, reporting, and executive decision support.",
+        "Designed AWS-oriented data platform components using S3 landing zones, AWS Glue, Redshift, EC2/ECS, and cloud migration patterns to modernize on-premise data processing workloads.",
+        "Developed ML forecasting workflows with Prophet and scikit-learn to predict infrastructure capacity bottlenecks months ahead, linking data engineering pipelines to AI/ML decision-support use cases.",
+        "Integrated monitoring feeds from BMC TrueSight/TSCO, CA APM, and AppDynamics into unified reporting pipelines with validation, reconciliation, issue investigation, and operational support practices.",
+        "Created Streamlit, matplotlib, seaborn, plotly, and SQL-backed dashboards to make complex infrastructure and capacity data understandable for senior stakeholders.",
+        "Collaborated with platform, operations, and leadership teams to gather requirements, explain technical tradeoffs, document workflows, and troubleshoot production data and reporting issues.",
+        "Applied data quality, schema design, historical retention, and pipeline reliability practices in a regulated banking environment where correctness, auditability, and stakeholder trust mattered."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics monitoring for critical digital systems and converted real-user and synthetic telemetry into actionable engineering recommendations.",
+        "Led the FAST project, data-mining Gomez Synthetic Monitoring metrics to surface optimization opportunities for business-critical web and mobile experiences.",
+        "Implemented End-User Monitoring and transaction tracing, improving visibility into application behavior, user experience, and production performance patterns.",
+        "Contributed to AWS migration readiness discussions by evaluating monitoring coverage, observability gaps, and operational support requirements."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM / Senior Consultant",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME in a large financial-services environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents across enterprise applications.",
+        "Designed dashboards, alerts, thresholds, and management modules adopted as standards for monitoring, troubleshooting, and operational support workflows.",
+        "Built Perl and Korn Shell extraction scripts to automate weekly performance reporting, replacing manual exports with repeatable data processing routines.",
+        "Produced technical documentation, training materials, and knowledge-sharing content for engineering and operations teams supporting complex platform environments."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving transaction correctness and performance.",
+        "Built C++/OCCI/OCI validation and testing routines to verify migration accuracy across high-volume transactional datasets.",
+        "Optimized database access and transaction-processing logic for mission-critical systems, reducing hardware footprint while maintaining low-latency behavior."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "AI Engineering": "RAG concepts, vector embeddings, FAISS, sentence-transformers, LLM APIs, Claude/Grok API integration, prompt engineering, structured output generation, agentic workflows, MCP tool integration, JSON quality gates, responsible AI awareness",
+    "Cloud & Data Platforms": "AWS S3, AWS Glue, Athena, Amazon Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, Bedrock concepts, Databricks concepts, Delta Lake concepts, Azure/GCP awareness",
+    "Data Engineering": "ETL/ELT pipelines, data ingestion, transformation, data validation, reconciliation, data modeling, data warehousing, telemetry pipelines, reporting layers, schema design, pipeline troubleshooting",
+    "Programming & APIs": "Python, SQL, PySpark, Apache Spark concepts, Pandas, PL/SQL, Perl, Korn Shell, REST API consumption, FastAPI concepts, JSON contracts, XML",
+    "DevOps & Delivery": "Git, GitHub workflows, CI/CD concepts, Docker, Linux/Unix, pytest, documentation, runbooks, demos, proof-of-concept delivery, stakeholder communication",
+    "Observability & Support": "Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM, BMC TrueSight/TSCO, AppDynamics, dashboards, alerts, thresholds, logs/metrics/traces concepts, production troubleshooting",
+    "Consulting & Enterprise": "Requirements gathering, technical writing, client-facing communication, cross-functional collaboration, regulated financial-services environments, operational reporting, knowledge sharing"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built an end-to-end agentic automation pipeline using Python, Claude Code, Grok APIs, semantic duplicate detection, LLM scoring, resume/cover tailoring, JSON quality gates, and application tracking. The system demonstrates RAG-style retrieval, vector embeddings, tool-assisted workflows, structured outputs, and practical AI application orchestration.",
+      "technologies": [
+        "Python",
+        "LLM APIs",
+        "Claude Code",
+        "Grok API",
+        "FAISS",
+        "Sentence Transformers",
+        "MCP",
+        "RAG Concepts",
+        "JSON Contracts",
+        "Automation"
+      ]
+    },
+    {
+      "name": "RAG / Answer Contract Proof-of-Concept Series",
+      "description": "Designed iterative RAG learning POCs covering document loading, chunking, retrieval, hybrid search, retrieval evaluation, answer contracts, citation traceability, and schema-driven quality gates for safer AI outputs.",
+      "technologies": [
+        "Python",
+        "Pydantic",
+        "TF-IDF",
+        "Vector Retrieval",
+        "RAG",
+        "Schema Contracts",
+        "Testing",
+        "Documentation"
+      ]
+    },
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Built a forecasting and decision-support workflow that transforms infrastructure telemetry into capacity insights using Python, PySpark-oriented processing, Prophet, scikit-learn, Streamlit dashboards, and data validation practices.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Pandas",
+        "Data Quality"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless AWS data platform pattern using S3, Glue, Athena, Redshift, Parquet, and Bedrock concepts to support analytics, AI data access, and cost-aware query patterns.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "Apache Parquet",
+        "PySpark",
+        "Amazon Bedrock"
+      ]
+    }
+  ]
+}

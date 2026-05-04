@@ -1,0 +1,138 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Infrastructure Monitoring / Observability Platform Engineer"
+  },
+  "summary": "Senior Infrastructure Monitoring and Observability Engineer with 20+ years of enterprise IT experience across APM platforms, telemetry analytics, infrastructure monitoring, capacity forecasting, Python automation, SQL/Oracle reporting, runbooks, incident support, and regulated financial-services production environments. Deep background with Dynatrace AppMon/Synthetics, CA APM/Introscope, BMC TrueSight/TSCO, AppDynamics, Linux/Windows monitoring, dashboards, alerting, root-cause analysis, and operational reporting. Strong fit for enterprise monitoring modernization roles that need telemetry quality, noise reduction, onboarding patterns, production reliability, stakeholder alignment, and practical AIOps adoption.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built and supported telemetry analytics pipelines that ingested operational data from 6,000+ infrastructure endpoints into curated datasets for monitoring, capacity planning, forecasting, and executive reporting.",
+        "Integrated BMC TrueSight/TSCO, CA APM/Wily, AppDynamics, and infrastructure telemetry into unified reporting layers used by engineering, operations, and leadership teams.",
+        "Analyzed performance and capacity data to identify infrastructure hotspots, anomalies, underutilized systems, signal-quality gaps, and operational risks across regulated banking technology environments.",
+        "Developed Python, SQL, Pandas, and PySpark-oriented automation for telemetry extraction, validation, reconciliation, exception handling, recurring reporting, and production support workflows.",
+        "Created dashboards, operational reports, alerting inputs, runbooks, data dictionaries, metadata-style documentation, and stakeholder narratives to support incident review, troubleshooting, and operational decision-making.",
+        "Troubleshot missing, inconsistent, or delayed telemetry by tracing source feeds, transformation logic, database behavior, reporting defects, and downstream consumer expectations.",
+        "Built forecasting workflows using Prophet and scikit-learn to identify capacity bottlenecks months ahead and support proactive infrastructure planning and remediation.",
+        "Partnered with infrastructure, application, operations, and management teams to explain risks, recommend corrective actions, and improve monitoring and support processes.",
+        "Applied regulated-enterprise practices around access controls, auditability, documentation, secure data handling, incident support, and production reliability."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, improving visibility into web, mobile, and service performance.",
+        "Implemented End User Monitoring and end-to-end transaction tracing to expose user-experience issues, application dependencies, and production bottlenecks.",
+        "Upgraded Dynatrace from 6.5 to 7.0 and enforced TLS 1.2 security while maintaining production monitoring continuity and avoiding monitoring regressions.",
+        "Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and support performance engineering decisions.",
+        "Led the FAST project, mining real-user and synthetic performance telemetry to identify trends, anomalies, and optimization recommendations adopted by engineering teams.",
+        "Maintained monitoring documentation and supported troubleshooting across application, infrastructure, and operations teams."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM SME for a regulated financial-services environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Designed dashboards, alerts, SLA thresholds, management modules, and reporting standards adopted across enterprise monitoring environments.",
+        "Built Perl/Korn Shell and SQL-driven extraction scripts that automated recurring telemetry reporting and replaced manual weekly exports.",
+        "Partnered with J2EE/WebLogic, middleware, database, and operations teams to diagnose bottlenecks using APM telemetry, transaction traces, and production evidence.",
+        "Delivered monitoring onboarding guidance, operational documentation, technical training, and knowledge-sharing materials for application and support teams.",
+        "Supported monitoring standards, onboarding patterns, and operational procedures across large application estates."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications under load to identify throughput limits, thread contention, JDBC constraints, heap pressure, CPU usage, and garbage-collection risks.",
+        "Installed and configured JMX monitoring, Wily Introscope, and thread dump automation scripts for real-time visibility during performance tests.",
+        "Documented performance baselines, regression thresholds, and release-readiness evidence used by engineering teams."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Monitoring / Observability": "Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM / Introscope, CA CEM, CA ADA, BMC TrueSight / TSCO, AppDynamics, JMX Monitoring, EUM/RUM, transaction tracing, synthetic monitoring",
+    "Telemetry Platform Operations": "Metrics/logs/events/traces concepts, telemetry collection, platform onboarding patterns, dashboard baselines, alerting standards, metadata/runbook documentation, signal-quality improvement, noise-reduction concepts",
+    "Infrastructure": "Linux/Unix, Windows fundamentals, webserver/middleware/database monitoring, compute/network/storage concepts, hybrid infrastructure operations, enterprise monitoring estates, lifecycle/upgrade support",
+    "Automation & Scripting": "Python, SQL, PL/SQL, Perl, Korn Shell, Bash concepts, Pandas, PySpark, telemetry extraction, validation, reconciliation, report automation, exception handling",
+    "Databases": "Oracle, Oracle RAC, SQL Server concepts, Cassandra concepts, relational data analysis, query tuning, reporting tables, time-series retention structures, database-adjacent performance analysis",
+    "Incident / Reliability": "Incident triage, root-cause analysis, corrective/preventive action support, operational readiness, runbooks, production health, availability/performance monitoring, MTTR reduction concepts",
+    "AIOps / Analytics": "Capacity forecasting, Prophet, scikit-learn, anomaly detection concepts, event correlation concepts, probable root-cause concepts, guided remediation awareness, infrastructure risk analysis",
+    "Cloud / DevOps Adjacent": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, Git/GitHub workflows, CI/CD concepts, Terraform awareness, Ansible awareness, Kubernetes/EKS awareness",
+    "Tools Adjacent": "Splunk concepts, Grafana concepts, Prometheus concepts, OpenTelemetry concepts, Netcool/Tivoli/Instana awareness, Elastic/OpenSearch concepts",
+    "Financial Services": "Regulated banking environments, audit-driven operations, access-control awareness, secure data handling, production reliability, compliance-minded documentation",
+    "Delivery": "Technical documentation, runbooks, stakeholder communication, mentoring, knowledge sharing, Agile/Scrum/Kanban, cross-team collaboration"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Engine",
+      "description": "Built a capacity forecasting platform that transformed infrastructure telemetry into curated datasets, Prophet/scikit-learn forecasts, capacity-risk indicators, dashboards, and stakeholder reports for proactive resource planning.",
+      "technologies": [
+        "Python",
+        "SQL",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "BMC TrueSight telemetry"
+      ]
+    },
+    {
+      "name": "Observability and APM Telemetry Analytics",
+      "description": "Built and supported monitoring dashboards, telemetry extraction scripts, transaction tracing workflows, alert thresholds, and operational reports across Dynatrace, CA APM, BMC TrueSight, and AppDynamics environments.",
+      "technologies": [
+        "Dynatrace",
+        "CA APM",
+        "BMC TrueSight",
+        "AppDynamics",
+        "SQL",
+        "Perl",
+        "Korn Shell"
+      ]
+    },
+    {
+      "name": "AI-Assisted Monitoring / Data Automation Workflow",
+      "description": "Built Python automation patterns using structured JSON artifacts, validation gates, LLM assistance, semantic similarity, and repeatable workflows, reinforcing disciplined automation and quality-control patterns useful for observability operations.",
+      "technologies": [
+        "Python",
+        "JSON",
+        "LLM APIs",
+        "FAISS",
+        "sentence-transformers",
+        "Git",
+        "Quality Gates"
+      ]
+    }
+  ]
+}

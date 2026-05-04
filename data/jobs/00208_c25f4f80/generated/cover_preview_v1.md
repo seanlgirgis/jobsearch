@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Principal Data Engineer role with DTCC. My background aligns strongly with enterprise data engineering, SQL-heavy data warehouse work, production support, data quality, release governance, and financial-services reporting.
+
+At Citi, I built and operated production data pipelines that ingested telemetry from more than 6,000 endpoints and transformed it into governed historical datasets, executive reporting, forecasting, and operational analytics. This work required strong SQL, Python, schema design, validation, reconciliation, production support, and close partnership with architecture, operations, and business stakeholders in a regulated banking environment.
+
+I also bring hands-on experience modernizing legacy data processes, improving reliability, and building warehouse-style reporting platforms across Oracle, AWS S3, Glue, Redshift, and Python/PySpark workflows. While my strongest production background is Oracle/AWS rather than Snowflake/Talend specifically, the underlying patterns—data modeling, ETL/ELT design, release controls, incident readiness, and data quality—map directly to the needs of DTCC's enterprise data platform environment.
+
+The role's focus on technical leadership, mentoring engineers, supporting distributed teams, embedding controls into data workflows, and delivering reliable analytics for financial-services users is a strong fit for how I have worked across Citi, CA Technologies/TIAA-CREF, Sabre, and other production-critical environments.
+
+I would welcome the opportunity to bring my financial-services data engineering, production reliability, and enterprise reporting background to DTCC's IT Architecture & Enterprise Services team.
+
+Sincerely,
+Sean Luka Girgis

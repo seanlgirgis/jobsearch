@@ -30,6 +30,7 @@ from scripts.utils.vector_ops import get_embedding, load_index_and_metadata
 
 DEFAULT_THRESHOLD = 0.82
 DEFAULT_TOP_K    = 5
+DEFAULT_MAX_AGE_DAYS = 45
 
 
 def _safe_text(value: Any) -> str:
@@ -81,6 +82,19 @@ def _days_ago_label(value: str) -> str:
     return f"{delta}d"
 
 
+def _within_age_window(meta: Dict[str, Any], max_age_days: int) -> bool:
+    """True if job is recent enough to be considered a blocking duplicate."""
+    if max_age_days <= 0:
+        return True
+    applied = _extract_apply_date(meta)
+    d = _parse_date(applied)
+    if d is None:
+        # Keep undated rows as candidates (safer default).
+        return True
+    age_days = (date.today() - d).days
+    return age_days <= max_age_days
+
+
 def load_intake_text(file_path: str) -> str:
     path = Path(file_path)
     if not path.is_file():
@@ -98,16 +112,18 @@ def check_duplicates_semantic(
     index: Any,
     metadata: List[Dict],
     threshold: float,
-    top_k: int
+    top_k: int,
+    max_age_days: int,
 ) -> bool:
     emb = get_embedding(new_text)
     distances, indices = index.search(emb, top_k)
 
-    print(f"\n[INFO] Query against {index.ntotal} past jobs (threshold {threshold:.2f}, showing top {top_k})")
+    print(f"\n[INFO] Query against {index.ntotal} past jobs (threshold {threshold:.2f}, showing top {top_k}, age<= {max_age_days}d)")
     print(f"{'Sim':<8} | {'Applied':<12} | {'Age':<7} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
     print("-" * 112)
 
     found_duplicate = False
+    skipped_old = 0
     for i in range(top_k):
         score = distances[0][i]
         idx = indices[0][i]
@@ -115,6 +131,10 @@ def check_duplicates_semantic(
             continue
 
         meta = metadata[idx]
+        if not _within_age_window(meta, max_age_days):
+            skipped_old += 1
+            continue
+
         is_dupe = score >= threshold
         flag = "DUPE" if is_dupe else ""
 
@@ -131,6 +151,8 @@ def check_duplicates_semantic(
         print(f"{score:.4f} | {date_applied[:12]:<12} | {age_days:<7} | {company:<20} | {role:<30} | {uuid} | {status} {flag}")
 
     print("-" * 112)
+    if skipped_old:
+        print(f"[INFO] Skipped {skipped_old} old match(es) older than {max_age_days} days.")
 
     if found_duplicate:
         print(f"\n[FLAGGED] Semantic duplicate likely (>= {threshold:.2f})")
@@ -168,7 +190,7 @@ def _sim(a: str, b: str) -> float:
     return SequenceMatcher(None, a_n, b_n).ratio()
 
 
-def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) -> Tuple[bool, str]:
+def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int, max_age_days: int) -> Tuple[bool, str]:
     if not metadata:
         return False, "no metadata available for lexical fallback"
 
@@ -181,7 +203,11 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
         return False, "intake missing Title/Company fields for lexical comparison"
 
     scored: List[Tuple[float, Dict[str, Any]]] = []
+    skipped_old = 0
     for meta in metadata:
+        if not _within_age_window(meta, max_age_days):
+            skipped_old += 1
+            continue
         company = str(meta.get("company", ""))
         role = str(meta.get("role", ""))
         m_loc = str(meta.get("location", ""))
@@ -196,9 +222,11 @@ def check_duplicates_lexical(new_text: str, metadata: List[Dict], top_k: int) ->
     scored.sort(key=lambda x: x[0], reverse=True)
     top = scored[:max(1, top_k)]
 
-    print("\n[INFO] Lexical fallback duplicate check (company/title/location similarity)")
+    print(f"\n[INFO] Lexical fallback duplicate check (company/title/location similarity, age<= {max_age_days}d)")
     print(f"{'Score':<8} | {'Applied':<12} | {'Age':<7} | {'Company':<20} | {'Role':<30} | {'UUID':<10} | {'Status':<10}")
     print("-" * 112)
+    if skipped_old:
+        print(f"[INFO] Skipped {skipped_old} old candidate(s) older than {max_age_days} days.")
 
     flagged = False
     for score, meta in top:
@@ -227,6 +255,8 @@ def main():
                         help=f"Similarity threshold (default: {DEFAULT_THRESHOLD})")
     parser.add_argument("--top-k", type=int, default=DEFAULT_TOP_K,
                         help=f"Number of top matches to show (default: {DEFAULT_TOP_K})")
+    parser.add_argument("--max-age-days", type=int, default=DEFAULT_MAX_AGE_DAYS,
+                        help=f"Ignore duplicate matches older than this many days (default: {DEFAULT_MAX_AGE_DAYS})")
 
     args = parser.parse_args()
 
@@ -235,7 +265,14 @@ def main():
     # 1) Try semantic check first when index is available.
     if index is not None:
         try:
-            is_duplicate = check_duplicates_semantic(text, index, metadata, args.threshold, args.top_k)
+            is_duplicate = check_duplicates_semantic(
+                text,
+                index,
+                metadata,
+                args.threshold,
+                args.top_k,
+                args.max_age_days,
+            )
             if is_duplicate:
                 print("duplicate_check: flagged (semantic)")
                 sys.exit(1)
@@ -245,7 +282,7 @@ def main():
             print(f"[WARN] Semantic duplicate check unavailable: {e}")
 
     # 2) Fall back to lexical check if metadata exists.
-    is_duplicate_lex, reason = check_duplicates_lexical(text, metadata, args.top_k)
+    is_duplicate_lex, reason = check_duplicates_lexical(text, metadata, args.top_k, args.max_age_days)
     if is_duplicate_lex:
         print(f"duplicate_check: flagged (lexical) | reason: {reason}")
         sys.exit(1)

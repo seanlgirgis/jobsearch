@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 03, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the SDET Engineer / Data Quality role supporting customer data platform quality. My background combines senior data engineering, Python/SQL automation, PySpark-based data processing, production validation, reconciliation, monitoring, and stakeholder reporting for enterprise data environments.
+
+At Citi, I built and supported Python-based ETL and analytics pipelines for large-scale telemetry data across thousands of endpoints. A major part of that work was making the data trusted: validating completeness and consistency, investigating anomalies, tuning SQL and data models, and producing reporting that business and technology stakeholders could rely on for operational decisions.
+
+The role’s focus on pipeline validation, reconciliation, data freshness, quality scorecards, root-cause analysis, and quality gates maps well to my experience in regulated production environments. I have worked across monitoring feeds, operational reporting pipelines, and performance datasets where correctness, repeatability, traceability, and fast issue diagnosis were essential to maintaining stakeholder trust.
+
+While my strongest production platform background is AWS, Oracle, Redshift, Python, SQL, and PySpark rather than Azure CDP tooling specifically, I bring the core engineering discipline needed for this position: data-quality thinking, testable pipeline design, automation, observability, documentation, and collaboration with data engineering, analytics, and platform teams. I am comfortable bridging into Azure/Databricks/Snowflake environments from that foundation.
+
+I would welcome the opportunity to help VDart’s client strengthen the reliability, trustworthiness, and quality automation of its customer data platform.
+
+Sincerely,
+Sean Luka Girgis

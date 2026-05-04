@@ -1,0 +1,125 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Data Engineer | Legacy-to-Cloud Data Migration | PySpark / SQL / AWS"
+  },
+  "summary": "Senior Data Engineer with 20+ years of enterprise IT experience across legacy systems, SQL/PLSQL, Python, PySpark, ETL/ELT pipelines, data quality, and cloud data platforms. Strong background modernizing legacy data workflows, validating large migrations, designing warehouse/reporting layers, and building repeatable data pipelines for regulated financial-services environments. Hands-on AWS data engineering experience with S3, Glue, Athena, Redshift, EC2/ECS, and PySpark; actively building Databricks, Delta Lake, Unity Catalog, dbt, and Azure lakehouse fluency to bridge legacy-to-modern cloud migration roles.",
+  "experience": [
+    {
+      "company": "Citi",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Architected Python/Pandas and PySpark-oriented ETL pipelines that ingested and transformed telemetry from 6,000+ endpoints into curated datasets for capacity planning, analytics, and executive reporting.",
+        "Built a hybrid AWS/Oracle data platform using S3 landing zones, AWS Glue ETL patterns, Athena/Redshift analytics, and Oracle warehouse structures to support scalable reporting and forecasting workloads.",
+        "Designed data validation, reconciliation, cleansing, and quality-control routines to improve trust in operational datasets used by engineering, capacity, and infrastructure stakeholders.",
+        "Migrated heavy forecasting and analytics workloads from on-premise Oracle patterns toward cloud-scale Redshift processing, improving parallelism and reducing operational friction.",
+        "Implemented reusable Python automation for data loading, transformation, exception handling, operational reporting, and repeatable pipeline execution across production support workflows.",
+        "Documented data flows, schemas, validation logic, operational runbooks, and stakeholder-facing reports to support maintainability, troubleshooting, and handoff across teams.",
+        "Applied regulated-enterprise governance practices around data access, retention, auditability, and secure operational reporting in a financial-services environment."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010-01",
+      "bullets": [
+        "Led migration of a high-throughput shopping-engine data platform from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving transaction correctness and sub-second query expectations.",
+        "Built C++/OCCI/OCI validation and testing utilities to compare source and target records across millions of transactions during phased migration cutovers.",
+        "Automated schema conversion, data validation, and migration support routines to improve repeatability and reduce production cutover risk.",
+        "Partnered with architecture and operations teams to optimize SQL, database access patterns, and migration design for high-volume enterprise workloads."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer, Billing Interfaces and Legacy Systems",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported telecom billing interfaces across COBOL, C, C++, Pro*C, PL/SQL, Oracle, XML, Korn Shell, Syncsort, and mainframe-adjacent batch processing environments.",
+        "Maintained and enhanced AMDOCS billing, EDI, invoicing, settlement, and reporting components across legacy data and integration workflows.",
+        "Delivered performance improvements in billing processes, including memory reduction, throughput improvement, and SQL/database sequence optimization.",
+        "Reverse-engineered and documented undocumented vendor APIs and legacy interfaces to support integration, troubleshooting, and future maintenance.",
+        "Automated deployment and administration tasks using Korn Shell scripts across UNIX/Linux environments, reducing manual operational effort."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "Senior Consultant / CA APM SME",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Built Perl/Korn Shell and SQL-driven extraction/reporting scripts that replaced manual performance data exports and improved repeatability of weekly reporting.",
+        "Designed dashboards, alerts, thresholds, and documentation standards used across enterprise monitoring environments.",
+        "Collaborated with application, middleware, and operations teams to resolve performance bottlenecks and improve production support workflows."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PL/SQL, PySpark, Perl, Korn Shell, C, C++, Java, COBOL concepts/exposure, XML, JSON, YAML",
+    "Data Engineering": "ETL/ELT pipelines, source-to-target mapping, cleansing, standardization, deduplication, enrichment, incremental loads, batch processing, data validation, reconciliation, data quality checks",
+    "Big Data & Lakehouse": "Apache Spark, PySpark, Hadoop/Hive, Parquet, data lakes, medallion architecture concepts, Delta Lake concepts, Databricks concepts, Unity Catalog concepts",
+    "Cloud Platforms": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, IAM concepts, CloudWatch concepts; Azure Databricks, ADLS Gen2, ADF, Azure DevOps, Key Vault, Purview concepts/active learning",
+    "Databases & Legacy": "Oracle, Oracle RAC, PL/SQL, MySQL, PostgreSQL, DB2 concepts/exposure, VSAM/EBCDIC/COBOL migration awareness, high-volume migration validation",
+    "Governance & Reliability": "Metadata management, lineage concepts, data dictionaries, auditability, secure data access, operational runbooks, logging, exception handling, production troubleshooting",
+    "Delivery": "Git, GitHub workflows, CI/CD concepts, Agile/Scrum/Kanban, technical documentation, peer review, stakeholder collaboration, production support"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform on AWS",
+      "description": "Designed a serverless data platform using S3, Glue, Athena, Redshift, Parquet, and PySpark-oriented processing patterns. Focused on raw-to-curated data movement, compression, query optimization, and reliable analytics consumption.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Data Pipeline",
+      "description": "Built a forecasting and analytics pipeline that transformed operational telemetry into curated datasets for capacity risk analysis, dashboarding, and stakeholder reporting.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "Databricks / Delta Lake Learning Track",
+      "description": "Hands-on self-study and project work covering Delta Lake ACID patterns, time travel, schema enforcement, MERGE/upsert concepts, medallion architecture, Unity Catalog governance concepts, and Databricks workflow patterns.",
+      "technologies": [
+        "Databricks concepts",
+        "Delta Lake",
+        "PySpark",
+        "Unity Catalog concepts",
+        "Medallion Architecture"
+      ]
+    }
+  ]
+}
