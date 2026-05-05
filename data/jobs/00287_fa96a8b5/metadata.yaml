@@ -28,3 +28,6 @@ application:
   - date: '2026-05-04'
     status: APPLIED
     notes: Corrected apply method to Indeed (intake first-line signal).
+  - date: '2026-05-04'
+    status: APPLIED
+    notes: Corrected apply method/source to Indeed based on intake first-line signal.

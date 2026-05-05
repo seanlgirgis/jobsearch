@@ -35,6 +35,7 @@ function Resolve-JobSourceFromIntake {
 
     $probe = ($firstLine + "`n" + $text).ToLowerInvariant()
     if ($probe -match "dice") { return "Dice" }
+    if ($probe -match "indeed") { return "Indeed" }
     if ($probe -match "linkedin") { return "LinkedIn" }
     if ($probe -match "greenhouse|myworkdayjobs|workday|company site|company website") { return "Company Site" }
     return ""
@@ -65,9 +66,6 @@ if (-not $PSBoundParameters.ContainsKey("IntakeFile") -or [string]::IsNullOrWhit
         if (-not $IntakeFile -and (Test-IsSafeIntakePath -CandidatePath $existing.intake_file)) {
             $IntakeFile = $existing.intake_file
         }
-        if ($existing.PSObject.Properties.Name -contains "source_hint") {
-            $sourceHint = [string]$existing.source_hint
-        }
     }
 }
 
@@ -84,10 +82,8 @@ if (-not (Test-IsSafeIntakePath -CandidatePath $IntakeFile)) {
 
 # Parse intake and cache source in env var for step 3.
 $parsedSource = Resolve-JobSourceFromIntake -FilePath $IntakeFile
-if (-not [string]::IsNullOrWhiteSpace($parsedSource)) {
-    $env:JOB_SOURCE = $parsedSource
-    $sourceHint = $parsedSource
-}
+$sourceHint = $parsedSource
+if (-not [string]::IsNullOrWhiteSpace($sourceHint)) { $env:JOB_SOURCE = $sourceHint } else { $env:JOB_SOURCE = "" }
 
 if (-not $SkipCheckRequirement) {
     if (-not (Test-Path -LiteralPath $chatCachePath)) {
@@ -98,9 +94,6 @@ if (-not $SkipCheckRequirement) {
     if (-not $pre.duplicate_checked) {
         Write-Host "ERROR: duplicate_checked=false. Run .\job-chatgpt-check.ps1 first." -ForegroundColor Red
         exit 1
-    }
-    if ($pre.PSObject.Properties.Name -contains "source_hint") {
-        $sourceHint = [string]$pre.source_hint
     }
 }
 
