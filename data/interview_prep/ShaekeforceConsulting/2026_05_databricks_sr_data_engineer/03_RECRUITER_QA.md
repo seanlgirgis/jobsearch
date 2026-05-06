@@ -118,7 +118,9 @@ Question:
 What is your Databricks experience?
 
 Short Answer:
-I have about 1 year of practical exposure and focused study in Databricks. My stronger foundation is Python, SQL, AWS, and PySpark-style ETL, and I am comfortable with notebooks, Spark DataFrames, SQL, Delta tables, jobs/workflows, and lakehouse patterns.
+I have about one year of practical exposure and focused study in Databricks. My stronger production foundation is Python, SQL, AWS, and PySpark-style ETL.
+
+I’m comfortable with the core Databricks data engineering concepts: notebooks, Spark DataFrames, SQL, Delta tables, jobs and workflows, and lakehouse patterns. I would not present myself as a long-time Databricks platform administrator, but I can build on my Spark and data pipeline background quickly.
 
 Expanded Answer:
 I position my Databricks experience as about 1 year of practical exposure and focused study. My strongest production foundation is Python, SQL, AWS, and PySpark-style pipeline engineering, which transfers well into Databricks workflows. I am comfortable with notebook-based development, Spark DataFrame transformations, SQL usage, Delta table concepts, jobs and workflows, and lakehouse patterns like medallion-style layering. I do not position myself as a long-time Databricks platform administrator.
