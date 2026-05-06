@@ -1,21 +1,23 @@
-# Interview Prep Packet - Sean Girgis
+# Sharkforce Interview Prep README
 
-## Purpose
-This folder is a compact prep packet for a preliminary interview for the Sr. Data Engineer role at Sharkforce Consulting LLC.
+## Source of Truth
+This folder is the source of truth for the Sharkforce Consulting LLC Sr. Data Engineer interview prep:
+`D:\Workarea\jobsearch\data\interview_prep\ShaekeforceConsulting\2026_05_databricks_sr_data_engineer`
 
-## Interview Placeholder
-- Date: TBD
-- Time (CT): TBD
-- Interviewer: TBD
-- Meeting link: TBD
+## Primary Files
+- `01_JOB_BRIEF.md`
+- `02_MATCH_AND_RISKS.md`
+- `03_RECRUITER_QA.md`
+- `04_CLIENT_TECHNICAL_QA.md`
+- `05_DATABRICKS_CRASH_GUIDE.md`
+- `06_STORIES_BANK.md`
 
-## Practice Accounts (Personal Notes)
-- Databricks Free Edition login: `sean.girgis@gmail.com` (Google sign-in)
-- AWS account email: `sean.l.girgis@gmail.com`
+## Use Order
+- Before recruiter call: `01_JOB_BRIEF.md`, `03_RECRUITER_QA.md`, `02_MATCH_AND_RISKS.md`, `05_DATABRICKS_CRASH_GUIDE.md`
+- Before client call: `04_CLIENT_TECHNICAL_QA.md`, `05_DATABRICKS_CRASH_GUIDE.md`, `06_STORIES_BANK.md`
 
-## 10-Minute Prep Order
-1. Read `JOB_MATCH.md` (alignment + risk framing).
-2. Read `INTERVIEW_ANSWERS.md` out loud once.
-3. Review `DATABRICKS_CRASH_NOTES.md` key terms.
-4. Skim `MOCK_QA.md` and hit all `RISK` questions.
-5. Open `labs/01_databricks_entity_resolution_demo.md` and rehearse notebook flow.
+## Path Correction Note
+Earlier files were generated under:
+`D:\Workarea\StudyBook\interview_prep\2026_05_databricks_sr_data_engineer`
+
+For this job-specific Sharkforce Consulting prep, the corrected and authoritative location is this `jobsearch` folder.

@@ -9,7 +9,9 @@ Question:
 Tell me about yourself.
 
 Short Answer:
-I am a senior data engineer with strong production depth in Python, SQL, AWS, and Spark-style ETL pipelines. At Citi, I supported telemetry and capacity data pipelines at enterprise scale, including ingestion from 6,000+ endpoints, quality checks, and operational monitoring. I focus on reliable delivery and clean handoff to analytics and forecasting teams.
+I’m a senior data engineer with strong production depth in Python, SQL, AWS, Spark-style ETL, and large-scale data pipeline operations. I also have practical Databricks exposure built on that Spark and data engineering foundation.
+
+At Citi, I built and supported telemetry and capacity data pipelines at enterprise scale, including ingestion from thousands of endpoints and tens of thousands of metrics. My focus has been reliable delivery: ingestion, transformation, quality checks, monitoring, and clean handoff to analytics, forecasting, and business teams.
 
 Expanded Answer:
 I bring 20+ years in enterprise IT, with my recent years focused on senior data engineering work. From 2017 to 2025 at Citi, I built and supported Python and SQL data pipelines for telemetry and capacity use cases, including high-volume ingestion, transformation, validation, and reporting support. I have strong AWS and PySpark-style ETL foundations, and I am comfortable owning day-to-day pipeline reliability, data quality, and operational follow-through. I work well with both technical and business stakeholders, and I keep communication clear and practical.
