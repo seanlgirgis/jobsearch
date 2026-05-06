@@ -14,6 +14,17 @@
 - [Things not to say](#things-not-to-say)
 - [Final memorized close](#final-memorized-close)
 - [Best quick answer for Sarah (right now)](#best-quick-answer-for-sarah-right-now)
+- [HorizonScale / Horizon telemetry forecasting (Apple interview focus)](#horizonscale--horizon-telemetry-forecasting-apple-interview-focus)
+- [HorizonScale: 60-second deeper answer](#horizonscale-60-second-deeper-answer)
+- [HorizonScale model explanation (plain English)](#horizonscale-model-explanation-plain-english)
+- [Best answer: "What models did you use?"](#best-answer-what-models-did-you-use)
+- [Best answer: "What did the input data look like?"](#best-answer-what-did-the-input-data-look-like)
+- [Best answer: "How did you validate forecasts?"](#best-answer-how-did-you-validate-forecasts)
+- [Best answer: "How did this support cloud capacity or cost efficiency?"](#best-answer-how-did-this-support-cloud-capacity-or-cost-efficiency)
+- [HorizonScale STAR story](#horizonscale-star-story)
+- [HorizonScale whiteboard architecture](#horizonscale-whiteboard-architecture)
+- [HorizonScale words to use / avoid](#horizonscale-words-to-use--avoid)
+- [HorizonScale final memorized answer](#horizonscale-final-memorized-answer)
 
 ## 30-second opening answer
 
@@ -243,4 +254,206 @@ My strongest hands-on cloud depth is AWS. For GCP, I would position myself as
 transferable rather than claiming deep production ownership. The capacity
 concepts are the same: utilization, allocation, forecasting, rightsizing,
 committed usage, and efficiency reporting.
+```
+
+
+## HorizonScale / Horizon telemetry forecasting (Apple interview focus)
+
+[Back to TOC](#toc)
+
+```text
+HorizonScale was a telemetry-driven capacity forecasting engine I built to
+replace manual, reactive planning. It used signals like CPU, memory,
+P95 utilization, and historical trend data from infrastructure monitoring
+sources.
+
+I used SQL and Python for extraction, cleaning, aggregation, and feature prep,
+with PySpark for larger telemetry volumes. For forecasting, I used Prophet and
+scikit-learn depending on the pattern. The goal was to identify capacity risks
+before they became incidents and support planning decisions.
+```
+
+## HorizonScale: 60-second deeper answer
+
+[Back to TOC](#toc)
+
+```text
+The business problem was manual capacity planning and reactive infrastructure
+decisions.
+
+The data came from telemetry across thousands of endpoints, including CPU,
+memory, P95 utilization, trend history, and monitoring/capacity feeds.
+
+The pipeline was practical: SQL extraction and historical aggregation,
+Python/Pandas cleanup and validation, PySpark processing when scale demanded
+it, then feature preparation and forecast output generation.
+
+For models, I used Prophet when time-series trend and seasonality were
+important, scikit-learn for feature-based prediction/risk scoring, and
+statistical baselines/thresholds for explainable risk flags.
+
+Outputs included forecasted bottlenecks, utilization insights,
+underutilization detection, and planning recommendations delivered through
+stakeholder dashboards and reporting.
+```
+
+## HorizonScale model explanation (plain English)
+
+[Back to TOC](#toc)
+
+```text
+Prophet:
+Used for time-series forecasting when trend/seasonality mattered.
+Helpful for questions like: "When will this cross a capacity threshold?"
+
+scikit-learn:
+Used for feature-driven prediction/risk scoring using signals like growth rate,
+historical peaks, headroom, and threshold behavior.
+
+Statistical baselines/thresholds:
+Used for explainability (for example P95 utilization, growth trend, headroom,
+threshold-breach risk), so planning decisions are trusted.
+
+SQL/Python/Pandas/PySpark:
+SQL prepared historical aggregates; Python cleaned data, calculated trends,
+trained models, and generated outputs; Pandas handled shaping/validation;
+PySpark handled larger telemetry volumes.
+```
+
+## Best answer: "What models did you use?"
+
+[Back to TOC](#toc)
+
+```text
+I used Prophet for time-series forecasting where trend and seasonality mattered,
+scikit-learn for feature-based prediction and risk scoring, and simpler
+statistical baselines for explainable threshold/headroom analysis.
+
+I did not treat the model as the product by itself; the value was turning
+telemetry into planning actions.
+```
+
+## Best answer: "What did the input data look like?"
+
+[Back to TOC](#toc)
+
+```text
+Typical fields included:
+- endpoint/server/application identifier
+- timestamp/date
+- CPU utilization
+- memory utilization
+- P95 metric
+- historical peak/trend
+- capacity threshold
+- environment/application grouping (when available)
+- monitoring/capacity source (for example TrueSight/TSCO, CA Wily, AppDynamics)
+- optional cloud/platform mapping (when available)
+```
+
+## Best answer: "How did you validate forecasts?"
+
+[Back to TOC](#toc)
+
+```text
+I validated forecasts with practical checks:
+- back-testing against historical windows
+- comparing forecasted risk vs. later actual utilization
+- checking output against known incidents/capacity reviews where available
+- reviewing false positives/false negatives with SMEs
+
+I preferred explainable forecasts because capacity decisions need trust.
+```
+
+## Best answer: "How did this support cloud capacity or cost efficiency?"
+
+[Back to TOC](#toc)
+
+```text
+Forecasting reduced reactive over-provisioning.
+Underutilization detection supported rightsizing/consolidation conversations.
+Trend forecasting helped teams plan future demand.
+
+Reports helped stakeholders decide where to add capacity, tune workloads, or
+reclaim unused resources. Even when telemetry originated in enterprise
+infrastructure, the same method applies to cloud resources: utilization,
+allocation, forecasted demand, rightsizing, and efficiency.
+```
+
+## HorizonScale STAR story
+
+[Back to TOC](#toc)
+
+```text
+Situation:
+Manual capacity planning was slow and reactive.
+
+Task:
+Build a repeatable forecasting process from infrastructure telemetry.
+
+Action:
+Used SQL, Python/Pandas, PySpark, Prophet, scikit-learn, P95 utilization, and
+historical telemetry feeds to generate forecasts and capacity-risk outputs.
+
+Result:
+Improved visibility into future bottlenecks, supported planning conversations,
+surfaced underutilized resources, and gave leadership clearer capacity
+reporting.
+```
+
+## HorizonScale whiteboard architecture
+
+[Back to TOC](#toc)
+
+```text
+Telemetry Sources
+  -> SQL extraction / historical store
+  -> Python/Pandas cleanup
+  -> PySpark processing for large telemetry sets
+  -> Feature engineering: P95, trend, growth rate, headroom, thresholds
+  -> Forecasting models: Prophet + scikit-learn + baselines
+  -> Outputs: risk list, bottleneck forecast, underutilization report,
+     dashboard/executive summary
+```
+
+## HorizonScale words to use / avoid
+
+[Back to TOC](#toc)
+
+```text
+Use:
+telemetry-driven forecasting, P95 utilization, headroom, demand trend,
+seasonal pattern, bottleneck prediction, forecast horizon,
+rightsizing candidate, underutilized resource, explainable threshold,
+stakeholder reporting, capacity risk score, planning recommendation
+
+Avoid:
+"I built deep learning models"
+"I owned GCP production forecasting"
+"It was just a dashboard"
+"I only did physical servers"
+"The model was perfect"
+"Finance owned it so I did not touch cost"
+"I don't remember the details"
+```
+
+## HorizonScale final memorized answer
+
+[Back to TOC](#toc)
+
+```text
+My forecasting work was telemetry-driven capacity planning. I used SQL and
+Python to turn historical CPU, memory, and P95 utilization into clean
+time-series datasets, then used Prophet, scikit-learn, and explainable
+threshold logic to forecast bottlenecks and identify underutilized resources.
+
+Prophet was useful when the pattern had trend or seasonality. scikit-learn was
+useful when I wanted to combine multiple features like growth rate, historical
+peaks, headroom, and threshold behavior. I also kept simple baselines like P95
+utilization and headroom because capacity planning needs to be explainable to
+infrastructure and leadership teams.
+
+The purpose was not just prediction; it was to give teams enough lead time to
+plan capacity, improve utilization, and make cost-aware infrastructure
+decisions.
 ```
