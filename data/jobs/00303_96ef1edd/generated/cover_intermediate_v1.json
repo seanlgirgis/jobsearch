@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 06, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Lead Infrastructure Engineer - Capacity Management role with JPMorgan Chase. My background aligns strongly with enterprise capacity management, observability, Python automation, infrastructure analytics, executive reporting, and banking-scale governance.",
+  "body": [
+    "At Citi, I worked as a Senior Capacity & Data Engineer building automated capacity and telemetry workflows for large-scale banking infrastructure. I developed Python and Pandas ETL pipelines ingesting P95 telemetry from more than 6,000 endpoints, integrated BMC TrueSight/TSCO, CA APM, and AppDynamics data, and transformed those signals into reconciled reporting, dashboards, and actionable capacity-risk insight.",
+    "The role's focus on capacity strategy, KPIs, governance, dashboards, forecasts, event planning, and executive-ready risk reporting maps directly to my strongest experience. I have built forecasting models with Prophet and scikit-learn, designed Oracle retention schemas for capacity history, produced stakeholder-facing dashboards, and partnered with infrastructure, application, and operations teams to identify bottlenecks, underutilized assets, and remediation opportunities.",
+    "I also bring deep performance and observability experience from CA Technologies, G6 Hospitality, AT&T, and earlier high-volume systems work. I have designed APM dashboards and thresholds, automated reporting scripts, supported load-test analysis, documented production baselines, and communicated technical findings in business terms. For tools such as Grafana, ELK, Power BI, and Tableau, I would position my experience carefully around adjacent dashboarding and analytics platforms while leaning on my proven Dynatrace, CA APM, BMC TrueSight, AppDynamics, Python, SQL, and executive-reporting strengths."
+  ],
+  "conclusion": "I would welcome the opportunity to help JPMorgan Chase strengthen capacity governance, modernize infrastructure analytics, and deliver reliable executive visibility into application and platform capacity risk.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

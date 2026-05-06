@@ -113,17 +113,20 @@ def collect_job_data() -> Tuple[List[str], List[Dict[str, str]]]:
     metadatas: List[Dict[str, str]] = []
 
     for job_dir in job_folders:
-        text: Optional[str] = get_job_description_text(job_dir)
-        if text is None or len(text) < MIN_TEXT_LENGTH:
-            continue  # Skip invalid/short entries
-
-        texts.append(text)
-
         meta_file: Path = job_dir / "metadata.yaml"
         meta: Dict = {}
         if meta_file.is_file():
             with meta_file.open(encoding="utf-8") as f:
                 meta = yaml.safe_load(f) or {}
+        # Allow explicit quarantine of known-bad/cloned entries.
+        if bool(meta.get("index_exclude", False)):
+            continue
+
+        text: Optional[str] = get_job_description_text(job_dir)
+        if text is None or len(text) < MIN_TEXT_LENGTH:
+            continue  # Skip invalid/short entries
+
+        texts.append(text)
 
         description_path: str = "unknown"
         if (job_dir / "raw" / "job_description.md").exists():
@@ -135,7 +138,11 @@ def collect_job_data() -> Tuple[List[str], List[Dict[str, str]]]:
             "uuid": job_dir.name,
             "description_path": description_path,
             "company": meta.get("company", "Unknown"),
-            "role": meta.get("role", "Unknown"),
+            "role": (
+                meta.get("role")
+                or meta.get("job_title")
+                or "Unknown"
+            ),
             "apply_date": (
                 meta.get("application", {}).get("applied_date")
                 or meta.get("application", {}).get("date")

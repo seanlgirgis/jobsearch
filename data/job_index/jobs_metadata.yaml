@@ -485,73 +485,73 @@
 - uuid: 00081_51fd5951
   description_path: data\jobs\00081_51fd5951\intake.md
   company: Synersys Technologies
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00082_c8bd495d
   description_path: data\jobs\00082_c8bd495d\intake.md
   company: Bayside Solutions
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00083_a092324b
   description_path: data\jobs\00083_a092324b\intake.md
   company: TEKsystems c/o Allegis Group
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00084_63b94cf3
   description_path: data\jobs\00084_63b94cf3\intake.md
   company: Apetan Consulting
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00085_9a90c86e
   description_path: data\jobs\00085_9a90c86e\intake.md
   company: Booz Allen Hamilton
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00086_91a7dc63
   description_path: data\jobs\00086_91a7dc63\intake.md
   company: Apex Systems
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00087_887817fd
   description_path: data\jobs\00087_887817fd\intake.md
   company: Parmesoft Inc.
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00088_a3fd3ba9
   description_path: data\jobs\00088_a3fd3ba9\intake.md
   company: ''
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00089_83634d40
   description_path: data\jobs\00089_83634d40\intake.md
   company: ''
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00090_fb1d75da
   description_path: data\jobs\00090_fb1d75da\intake.md
   company: '-  Virtuous Tech Inc'
-  role: ''
+  role: Unknown
   apply_date: '2026-04-28'
   status: ACCEPTED
 - uuid: 00091_322a4347
   description_path: data\jobs\00091_322a4347\intake.md
   company: '-  Lincoln Softtech LLC'
-  role: ''
+  role: Unknown
   apply_date: '2026-04-30'
   status: ACCEPTED
 - uuid: 00092_af5240b5
   description_path: data\jobs\00092_af5240b5\intake.md
   company: '-  Solugenix Corporation'
-  role: ''
+  role: Unknown
   apply_date: N/A
   status: ACCEPTED
 - uuid: 00093_0035525d
@@ -1436,276 +1436,6 @@
   role: Unknown
   apply_date: '2026-05-04'
   status: ACCEPTED
-- uuid: 00240_56282c32
-  description_path: data\jobs\00240_56282c32\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00241_49facd76
-  description_path: data\jobs\00241_49facd76\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00242_73dccdd0
-  description_path: data\jobs\00242_73dccdd0\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00243_092c4b00
-  description_path: data\jobs\00243_092c4b00\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00244_1e5222ff
-  description_path: data\jobs\00244_1e5222ff\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00245_e1986c45
-  description_path: data\jobs\00245_e1986c45\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00246_210a0bdb
-  description_path: data\jobs\00246_210a0bdb\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00247_13cfb197
-  description_path: data\jobs\00247_13cfb197\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00248_fe813979
-  description_path: data\jobs\00248_fe813979\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00249_c68e4a34
-  description_path: data\jobs\00249_c68e4a34\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00250_5f308998
-  description_path: data\jobs\00250_5f308998\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00251_51d641f6
-  description_path: data\jobs\00251_51d641f6\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00252_c1613d81
-  description_path: data\jobs\00252_c1613d81\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00253_c59692e3
-  description_path: data\jobs\00253_c59692e3\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00254_9b840a5a
-  description_path: data\jobs\00254_9b840a5a\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00255_b902f64b
-  description_path: data\jobs\00255_b902f64b\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00256_7c6ee5aa
-  description_path: data\jobs\00256_7c6ee5aa\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00257_ef0f18db
-  description_path: data\jobs\00257_ef0f18db\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00258_eebe3be6
-  description_path: data\jobs\00258_eebe3be6\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00259_873c2ed2
-  description_path: data\jobs\00259_873c2ed2\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00260_cddf4eb9
-  description_path: data\jobs\00260_cddf4eb9\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00261_bd72574e
-  description_path: data\jobs\00261_bd72574e\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00262_864baad9
-  description_path: data\jobs\00262_864baad9\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00263_d57d77f1
-  description_path: data\jobs\00263_d57d77f1\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00264_36f2e493
-  description_path: data\jobs\00264_36f2e493\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00265_d916ec40
-  description_path: data\jobs\00265_d916ec40\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00266_51c34382
-  description_path: data\jobs\00266_51c34382\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00267_342d8147
-  description_path: data\jobs\00267_342d8147\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00268_b114faec
-  description_path: data\jobs\00268_b114faec\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00269_ba006d1c
-  description_path: data\jobs\00269_ba006d1c\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00270_5c875abb
-  description_path: data\jobs\00270_5c875abb\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00271_21fe817b
-  description_path: data\jobs\00271_21fe817b\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00272_41a4f96d
-  description_path: data\jobs\00272_41a4f96d\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00273_2d04bc28
-  description_path: data\jobs\00273_2d04bc28\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00274_dd5eadbd
-  description_path: data\jobs\00274_dd5eadbd\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00275_37cda6bc
-  description_path: data\jobs\00275_37cda6bc\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00276_a462bb33
-  description_path: data\jobs\00276_a462bb33\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00277_e2908e7b
-  description_path: data\jobs\00277_e2908e7b\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00278_af5043a0
-  description_path: data\jobs\00278_af5043a0\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00279_4be73217
-  description_path: data\jobs\00279_4be73217\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00280_163b8013
-  description_path: data\jobs\00280_163b8013\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00281_45378568
-  description_path: data\jobs\00281_45378568\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00282_3b1bac2d
-  description_path: data\jobs\00282_3b1bac2d\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00283_bea26da9
-  description_path: data\jobs\00283_bea26da9\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
-- uuid: 00284_ed0ecb9c
-  description_path: data\jobs\00284_ed0ecb9c\clipboard_intake.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-04'
-  status: ACCEPTED
 - uuid: 00285_bccb4fa3
   description_path: data\jobs\00285_bccb4fa3\intake.md
   company: Unknown
@@ -1807,6 +1537,84 @@
   company: Unknown
   role: Unknown
   apply_date: '2026-05-04'
+  status: ACCEPTED
+- uuid: 00302_c5a50eab
+  description_path: data\jobs\00302_c5a50eab\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00303_96ef1edd
+  description_path: data\jobs\00303_96ef1edd\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00304_fc8c9a5c
+  description_path: data\jobs\00304_fc8c9a5c\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00305_6d73851e
+  description_path: data\jobs\00305_6d73851e\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00306_e7d6e57a
+  description_path: data\jobs\00306_e7d6e57a\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00307_730a69b4
+  description_path: data\jobs\00307_730a69b4\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00308_bac2e90b
+  description_path: data\jobs\00308_bac2e90b\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00309_ed8db68f
+  description_path: data\jobs\00309_ed8db68f\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00310_396e22ec
+  description_path: data\jobs\00310_396e22ec\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00311_f943d758
+  description_path: data\jobs\00311_f943d758\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00312_84ce84a1
+  description_path: data\jobs\00312_84ce84a1\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00313_1786abc1
+  description_path: data\jobs\00313_1786abc1\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
+  status: ACCEPTED
+- uuid: 00314_9152b9ba
+  description_path: data\jobs\00314_9152b9ba\intake.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-06'
   status: ACCEPTED
 - uuid: url_captures
   description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md

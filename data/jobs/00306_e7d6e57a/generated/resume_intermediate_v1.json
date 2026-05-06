@@ -1,0 +1,164 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Performance Testing Engineer"
+  },
+  "summary": "Senior Performance Engineer with 20+ years of enterprise IT experience spanning performance testing, APM/observability, capacity planning, data analysis, and production diagnostics. Strong fit for performance testing and engineering roles requiring HP LoadRunner-style testing, Dynatrace/AppDynamics/APM analysis, Python and Java/J2EE troubleshooting, stakeholder reporting, and performance bottleneck identification across application, database, and infrastructure layers. Experienced building dashboards, reports, baselines, and tuning recommendations for large enterprise systems while partnering with engineering, infrastructure, and business stakeholders.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built automated Python and Pandas pipelines ingesting P95 telemetry from 6,000+ infrastructure endpoints, replacing manual reporting with repeatable performance and capacity analytics workflows.",
+        "Developed executive dashboards and performance reports using Streamlit, matplotlib, seaborn, and plotly to surface utilization, bottleneck risk, capacity trends, and operational efficiency metrics.",
+        "Performed infrastructure and application capacity analysis using BMC TrueSight/TSCO, CA APM, AppDynamics, Oracle, Python, and statistical models to identify risks and recommend optimization actions.",
+        "Created forecasting models with Prophet and scikit-learn to predict capacity bottlenecks months ahead, improving planning discipline and helping stakeholders act before performance degradation.",
+        "Integrated monitoring feeds from TrueSight, CA Wily/APM, and AppDynamics into unified reporting datasets with validation, reconciliation, and data quality checks.",
+        "Translated technical telemetry into business-facing findings, recommendations, and recurring reporting for senior stakeholders in a regulated financial-services environment.",
+        "Supported production troubleshooting and root-cause analysis by correlating infrastructure metrics, application telemetry, historical trends, and operational events.",
+        "Maintained documentation, runbook-style notes, and repeatable reporting procedures to support governance, knowledge sharing, and consistent stakeholder communication."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, strengthening visibility into production performance and user experience.",
+        "Led the FAST project, mining real-user and synthetic performance metrics to identify optimization opportunities and provide actionable recommendations to engineering teams.",
+        "Implemented End-User Monitoring and end-to-end transaction tracing across web and mobile systems to support performance diagnostics and release readiness.",
+        "Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and help engineering teams isolate bottlenecks.",
+        "Upgraded Dynatrace AppMon and enforced TLS 1.2 security with no regression in production monitoring coverage during cutover."
+      ]
+    },
+    {
+      "company": "HCL / Entergy",
+      "title": "APM Consultant",
+      "start_date": "2017-01",
+      "end_date": "2017-03",
+      "bullets": [
+        "Supported enterprise CA APM, CA CEM, and CA ADA monitoring solutions for utility systems, helping teams maintain visibility into application and network performance.",
+        "Assisted with monitoring operations, performance analysis, and APM support activities across enterprise application environments."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM subject matter expert for a large enterprise environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.",
+        "Designed dashboards, alerts, SLA thresholds, and management modules that improved performance visibility and became standards across client environments.",
+        "Built Perl and Korn Shell data-extraction scripts to automate performance reporting and reduce manual weekly export work.",
+        "Partnered with J2EE/WebLogic teams to diagnose bottlenecks using APM telemetry, SQL/Oracle signals, thread behavior, JVM symptoms, and infrastructure metrics.",
+        "Provided sizing recommendations, monitoring onboarding guidance, technical documentation, and client training for production troubleshooting and performance operations."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom web applications under load to identify throughput limits and resource bottlenecks across JDBC connections, threads, heap memory, CPU, and garbage collection.",
+        "Installed and configured JMX Monitoring, Wily Introscope, and thread-dump automation scripts for real-time visibility during performance test execution.",
+        "Documented performance baselines, regression thresholds, and tuning findings used by engineering teams for release-gate decisions.",
+        "Supported performance test analysis and optimization for enterprise applications using LoadRunner-era performance engineering practices and APM correlation."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving strict transaction performance expectations.",
+        "Optimized core transaction processing using C++, OCCI, OCI, SQL, and Oracle, reducing hardware footprint while maintaining sub-second query latency.",
+        "Built C++/OCCI/OCI validation tooling to verify migration correctness and performance behavior across large transaction datasets.",
+        "Automated schema conversion and data validation workflows to protect data integrity through phased cutover."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint (AMDOCS projects)",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed high-availability telecom billing interfaces using C, C++, Pro*C, PL/SQL, Oracle, XML, socket programming, POSIX threads, and production Unix environments.",
+        "Delivered performance improvements in billing processes through SQL tuning, memory reduction, throughput optimization, and interface-level analysis.",
+        "Maintained reporting, invoicing, settlement, and integration components across large-scale telecom billing operations.",
+        "Automated WebLogic/WebSphere administration and deployment support with Korn Shell scripting, reducing manual operational effort."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt / Cairo, Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Performance Testing": "HP Performance Center, LoadRunner-era performance engineering, workload analysis, load/performance test analysis, baselines, regression thresholds, bottleneck diagnosis, tuning recommendations; JMeter concepts",
+    "APM & Observability": "Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM/Introscope, CA CEM, CA ADA, BMC TrueSight/TSCO, AppDynamics, JMX monitoring, EUM/RUM, transaction tracing, alerts, dashboards",
+    "Performance Engineering": "Capacity planning, scalability analysis, reliability analysis, SLA/SLO-style thresholds, performance KPIs, root-cause analysis, JVM/J2EE diagnostics, database and infrastructure performance analysis",
+    "Languages & Scripting": "Python, Java/J2EE, SQL, PL/SQL, C++, C, Perl, Korn Shell, XML, JSON",
+    "Cloud & Data": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, PySpark, Apache Spark, Oracle, Oracle RAC, PostgreSQL, MySQL, SQL Server concepts",
+    "Automation & Delivery": "Git, Docker, CI/CD concepts, Agile/Scrum/Kanban, JIRA-style defect tracking, technical documentation, runbooks, stakeholder reporting",
+    "Analytics & Reporting": "Python/Pandas, Streamlit, matplotlib, seaborn, plotly, executive dashboards, performance reports, capacity forecasting, data quality checks",
+    "Adjacent / Learning": "NeoLoad awareness, chaos/resiliency engineering concepts, Kubernetes/Kafka awareness, Cyara/IVR awareness, healthcare-domain terminology awareness"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale — AI Capacity Forecasting Engine",
+      "description": "Designed a capacity forecasting engine using Python, PySpark, Prophet, scikit-learn, and Streamlit to convert enterprise telemetry into bottleneck predictions, utilization dashboards, and operational decision support.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Telemetry Analytics",
+        "Capacity Forecasting"
+      ]
+    },
+    {
+      "name": "FAST Project",
+      "description": "Mined real-user and synthetic performance metrics from Dynatrace and Gomez Synthetic Monitoring to identify performance improvements for critical revenue-generating systems.",
+      "technologies": [
+        "Dynatrace",
+        "Gomez Synthetic Monitoring",
+        "EUM/RUM",
+        "Performance Analytics",
+        "APM"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed an AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, Parquet, and compression concepts for cloud-scale ingestion, transformation, query, and analytics workloads.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Amazon Redshift",
+        "PySpark",
+        "Parquet"
+      ]
+    }
+  ]
+}

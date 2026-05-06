@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 06, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data Engineer role with Kellton focused on AWS data pipeline quality, ETL/ELT testing, validation, and AI-oriented analytics delivery. My background aligns strongly with AWS data platform patterns, Python, SQL, PySpark, data quality, reconciliation, schema validation, telemetry analytics, and pipeline reliability.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines ingesting telemetry from more than 6,000 infrastructure endpoints and integrated multiple monitoring sources into validated Oracle reporting datasets. That work required transformation checks, reconciliation, data quality validation, SQL optimization, documentation, and stakeholder-ready reporting for operational and executive decision-making.",
+    "The Kellton role's focus on Redshift, Glue, DMS, S3, Step Functions, PySpark, ETL/ELT testing, schema validation, anomaly detection, and pipeline reliability maps well to my AWS data engineering and data-quality experience. I have designed AWS-oriented data patterns using S3 landing zones, Glue-style transformations, Athena/Redshift analytics access, PySpark/Spark processing, and governed reporting datasets.",
+    "I would bring a practical quality-focused data engineering profile: defining validation scope, reviewing data models and solution architecture for test readiness, building checks for ingestion and transformation quality, documenting data workflows, and collaborating with engineering, BI, DevOps, and product teams. For dbt, PySpark Deequ, Redshift Serverless, and DMS, I would be transparent: I bring strong adjacent AWS/Python/PySpark/data-quality experience and active learning in the specific tools."
+  ],
+  "conclusion": "I would welcome the opportunity to help Kellton's client strengthen AWS data pipeline reliability, validation coverage, and trust in analytics-ready data.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

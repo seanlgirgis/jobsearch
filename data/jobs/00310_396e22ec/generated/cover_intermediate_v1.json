@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 06, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Quality/Performance Engineer contract role with Vaco by Highspring. My background aligns strongly with senior performance engineering, LoadRunner and JMeter-style testing, Dynatrace/AppDynamics observability, capacity planning, root-cause analysis, and regulated enterprise performance reporting.",
+  "body": [
+    "At Citi, I built Python and SQL-driven telemetry pipelines and reporting workflows for performance and capacity data from more than 6,000 infrastructure endpoints. That work involved defining performance indicators, analyzing peak trends, forecasting capacity risk, building dashboards, and translating complex operational signals into executive-ready recommendations.",
+    "Earlier in my career, I worked directly in performance testing and APM. At AT&T, I analyzed J2EE applications under load, identifying bottlenecks across JDBC connections, threads, heap memory, CPU, and garbage collection using LoadRunner/Performance Center-style practices, JMX monitoring, Wily Introscope, and thread-dump analysis. At G6, I managed Dynatrace AppMon and integrated HP Performance Center with Dynatrace to correlate load-test behavior, APM traces, infrastructure metrics, and user-experience indicators.",
+    "For this Vaco role, I would bring a senior individual-contributor profile: workload modeling, KPI/SLA/SLO thinking, load and stress testing, RCA, observability dashboards, capacity models, performance documentation, and practical tuning recommendations. For newer tools such as Gatling, Locust, K6, Datadog, New Relic, Grafana, and deep cloud-native container performance, I would be careful and transparent: I bring adjacent performance, APM, AWS, and distributed-systems experience and can ramp quickly on the client’s selected tools."
+  ],
+  "conclusion": "I would welcome the opportunity to help Vaco's client improve performance reliability, scalability, observability, and release confidence for mission-critical enterprise applications.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

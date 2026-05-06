@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 06, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Engineer role with Cutsforth. My background aligns strongly with Python data engineering, telemetry and machine-health-style data, time-series forecasting, operational analytics, stakeholder reporting, and ML-supporting pipeline workflows.",
+  "body": [
+    "At Citi, I built automated Python and Pandas pipelines ingesting telemetry from more than 6,000 infrastructure endpoints and developed time-series forecasting models using Prophet and scikit-learn to predict capacity bottlenecks months ahead. That work involved feature preparation, historical data retention, validation checks, SQL/Oracle reporting structures, dashboards, and clear recommendations for technical and non-technical stakeholders.",
+    "The Cutsforth role's focus on complex datasets, machine health, time-series analysis, forecasting, anomaly detection, data pipelines, and operational outcomes maps well to my capacity forecasting and telemetry analytics background. I have worked extensively with infrastructure and application health signals through BMC TrueSight, CA APM, AppDynamics, Dynatrace, and related reporting workflows, turning raw monitoring data into actionable operational insight.",
+    "For production AI/ML deployment and Azure ML platform depth, I would be careful and transparent: I bring strong Python, forecasting, data pipeline, model-support, and monitoring experience, plus active cloud/AI learning, but I would not overstate deep Azure ML platform ownership. I can contribute immediately on pipeline design, feature engineering, forecasting datasets, monitoring, documentation, cross-functional communication, and operational analytics."
+  ],
+  "conclusion": "I would welcome the opportunity to help Cutsforth turn industrial and operational time-series data into reliable pipelines, models, and insights that improve decision-making.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

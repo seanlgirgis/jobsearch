@@ -1,0 +1,27 @@
+uuid: ed8db68f-33e6-46e7-b353-7216d5df6a0f
+job_id: 00309_ed8db68f
+original_filename: intake.md
+company: Unknown
+role: Unknown
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-06T15:46:06.925326'
+notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
+
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-06)'
+last_decision_at: '2026-05-06T15:46:06.993263'
+last_decision: ACCEPTED
+source: Dice
+application:
+  applied: true
+  applied_date: '2026-05-06'
+  applied_method: Dice
+  application_notes: Applied via chatGpt pipeline
+  history:
+  - date: '2026-05-06'
+    status: Applied
+    notes: Applied via chatGpt pipeline

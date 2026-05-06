@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 06, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Sr. Software Engineer role with Innovative IT Solutions. My background aligns most strongly with the role's Python, PySpark/Spark, Hadoop/Hive, ETL, distributed data processing, SQL databases, performance/scalability, documentation, and AI/LLM integration themes.",
+  "body": [
+    "At Citi, I built automated Python and Pandas ETL pipelines ingesting telemetry from more than 6,000 infrastructure endpoints and used PySpark/Spark patterns to process large-scale datasets for forecasting and analytics. That work included SQL/Oracle data modeling, validation, reporting layers, AWS data platform patterns, and documentation for data definitions, transformations, and operational workflows.",
+    "Earlier roles add software engineering depth that fits the backend and distributed systems aspects of this position. At Sabre, I led migration and validation work for a high-throughput shopping engine moving from MySQL to Oracle RAC, using C++, OCCI/OCI, SQL, and performance-sensitive validation tooling. Across Sprint/AMDOCS, AT&T, CA Technologies, and G6, I worked with Java/J2EE systems, WebLogic/WebSphere, MQ-style integrations, XML workflows, APIs, monitoring, and performance troubleshooting.",
+    "For the AI/LLM side, I bring practical project experience with LLM APIs, RAG concepts, vector embeddings, prompt workflow design, and JSON-based quality gates through my AI-powered job search pipeline and AWS/Bedrock-oriented learning projects. For areas like Spring Boot, Hibernate, Struts, Elasticsearch, Kubernetes/OpenShift, and healthcare analytics, I would be transparent: I bring adjacent backend, data, cloud, and AI pipeline experience and can ramp quickly on the specific stack."
+  ],
+  "conclusion": "I would welcome the opportunity to contribute as a senior engineer focused on scalable data processing, backend integration, performance, documentation, and practical AI-enabled product capabilities.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

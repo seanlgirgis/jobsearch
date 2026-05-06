@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 06, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Performance Tester remote contract opportunity with Genesis10. My background aligns strongly with end-to-end performance testing, LoadRunner/Performance Center, Dynatrace/APM monitoring, Java/J2EE diagnostics, Python scripting, MQ/WebSphere-style enterprise systems, and financial-services performance reporting.
+
+At AT&T, I worked as a Performance Test Engineer analyzing J2EE telecom applications under load, identifying throughput limits and bottlenecks across JDBC connections, threads, heap memory, CPU, and garbage collection. I used LoadRunner/Performance Center-style testing practices, JMX monitoring, Wily Introscope, and thread-dump automation to support test execution, baseline documentation, and release-gate decisions.
+
+My later performance and observability work expanded that foundation. At G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring, integrated HP Performance Center with Dynatrace, and produced performance findings for engineering teams. At Citi and CA Technologies/TIAA-CREF, I worked heavily with enterprise monitoring, APM telemetry, scripting, SQL/Oracle reporting, dashboards, thresholds, and stakeholder-ready analysis in banking and financial-services environments.
+
+For this Genesis10 role, I would bring a practical, execution-focused performance-testing profile: requirements gathering, workload modeling, scripting support, test execution, bottleneck analysis, server monitoring, API and integration-performance awareness, and clear reporting to technical and product teams. I also bring relevant AWS exposure, Java/WebLogic/WebSphere background, MQ experience, Python automation, and strong cross-team collaboration from large enterprise environments.
+
+I would welcome the opportunity to support Genesis10's client by delivering disciplined performance testing, clear analysis, and actionable recommendations for large-scale financial-services systems.
+
+Sincerely
+Sean Luka Girgis
