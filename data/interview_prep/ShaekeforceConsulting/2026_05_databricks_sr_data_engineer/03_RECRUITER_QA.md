@@ -245,3 +245,31 @@ Risk Level: MEDIUM
 5. Have you used Databricks in production?
 6. What is your AWS experience?
 7. How do you ensure data quality and testing?
+
+## Questions to Ask the Recruiter
+
+Do not answer "Nope" when asked if you have questions. Always ask at least one.
+
+Option 1:
+- Yes, thank you. Is this expected to go to a client technical round, and if so, what areas should I prepare to discuss in more depth?
+
+Option 2:
+- Yes. What characteristics or behaviors would make someone highly successful in this role beyond simply meeting the listed requirements?
+
+For tomorrow, ask these two:
+1. Is this expected to go to a client technical round, and if so, what areas should I prepare to discuss in more depth?
+2. What characteristics or behaviors would make someone highly successful in this role beyond simply meeting the listed requirements?
+
+## Additional Recruiter Fit Question
+
+Question:
+Why should we send you to the client?
+
+Polished Answer:
+Because I can contribute immediately in the core areas this role needs most: Python, SQL, AWS, and Spark-style data pipeline delivery, with strong data quality and operational reliability.
+
+I’m also transparent about Databricks being newer for me, with practical exposure built on those foundations. That creates low risk in execution and clear upside as I ramp into your client’s specific Databricks environment.
+
+Shorter Recruiter Version:
+Because I match the core needs: Python, SQL, AWS, Spark-style data pipelines, data quality, and operational reliability. I’m honest about Databricks being newer for me, but it builds directly on my Spark and data engineering foundation, so I can ramp quickly in the client environment.
+

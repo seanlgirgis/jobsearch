@@ -299,7 +299,11 @@ Question:
 Why use Delta Lake and Delta tables?
 
 Best Answer:
-Delta adds reliability features like ACID behavior, schema controls, and versioned table operations over lake storage. That helps teams handle updates, merges, and reprocessing with better confidence. It is a practical fit for production-grade data engineering.
+Delta Lake is a storage layer that brings database-like reliability to data lake files, usually Parquet files. It uses a transaction log to support reliable writes, schema enforcement, time travel, and MERGE or upsert patterns.
+
+The practical value is that it helps prevent a data lake from becoming messy or inconsistent. If a job fails, you have better protection against partial or unreliable writes. You can also query previous versions for auditing, recovery, or debugging.
+
+For data engineering, Delta Lake is useful because it supports bronze, silver, and gold pipeline layers where raw data can be cleaned, validated, and prepared for analytics or ML use cases.
 
 Deepening Points:
 - ACID improves trust in table updates.
@@ -318,7 +322,15 @@ Question:
 How do you apply medallion architecture?
 
 Best Answer:
-I use bronze for raw landing, silver for cleaned and standardized data, and gold for business-ready consumption. The key is controlled progression with validation at each layer. This structure improves traceability and quality enforcement.
+Medallion architecture is a layered data design: bronze, silver, and gold.
+
+Bronze preserves the raw source data as-is. It is useful for replay, auditability, and recovery.
+
+Silver is where data becomes trusted. You clean, validate, normalize, deduplicate, join, and apply protections like masking if needed.
+
+Gold is business-ready data. It has business logic, aggregations, and optimized structures for reporting, analytics, dashboards, or ML consumption.
+
+The simple way I remember it is: bronze preserves truth, silver builds trust, and gold delivers business value.
 
 Deepening Points:
 - Bronze preserves raw lineage.
@@ -337,7 +349,9 @@ Question:
 How do Jobs and Workflows improve data engineering delivery?
 
 Best Answer:
-They make pipeline orchestration repeatable with dependencies, scheduling, retries, and clearer run visibility. This reduces manual execution risk and supports operational discipline. It fits my focus on reliable pipeline operations.
+Databricks Jobs and Workflows are used to orchestrate repeatable data pipeline runs. A job can run a notebook, Python script, SQL task, or other task, and a workflow can connect multiple tasks with dependencies.
+
+The value is scheduling, retries, parameters, alerts, and run visibility. For example, a workflow might load raw data, transform it into a silver Delta table, run data quality checks, then publish a gold table for analytics. That reduces manual execution risk and gives the team better operational control.
 
 Deepening Points:
 - Dependency control avoids out-of-order runs.
@@ -510,7 +524,17 @@ Question:
 How do you handle pipeline incidents in production?
 
 Best Answer:
-I triage quickly, contain impact, restore service safely, then document root cause and prevention actions. I rely on runbooks, clear communication, and disciplined follow-up. Strong operational support is a core part of senior data engineering.
+Short version:
+
+I triage impact first, contain the issue, restore safely, then fix root cause. After that, I improve monitoring, validation, and documentation so the same issue does not repeat or go unnoticed.
+
+Long version:
+
+For a production pipeline failure, I triage first: identify what failed, what data is affected, what downstream reports or systems are impacted, and whether the issue is still active.
+
+Then I contain the impact and restore safely. That may mean pausing downstream consumption, rerunning a failed step, replaying from a checkpoint or raw source, or applying a controlled short-term fix.
+
+After service is stable, I focus on root cause and prevention: fix the underlying issue, improve monitoring or validation, document the incident, and add checks so the same failure does not repeat or go unnoticed.
 
 Deepening Points:
 - Separate immediate recovery from long-term fix.
@@ -679,6 +703,82 @@ Long-running enterprise delivery with operational support focus.
 Risk / Guardrail:
 Avoid saying process is perfect. Emphasize continuous improvement.
 
+
+### Q36. Supporting AI/ML Teams as a Data Engineer
+
+![AI/ML Support Reference](licensed-image.jpg)
+
+Question:
+How do you support AI/ML teams as a data engineer?
+
+Best Answer:
+As a data engineer, I support AI and ML teams by making sure the data pipeline produces reliable features, not just raw data. Usually that means building trusted silver and gold layers where features are calculated consistently.
+
+One important point is keeping training and inference aligned. The logic used to create features for model training should match the logic used when the model runs on new data. I also watch for data leakage, where training accidentally uses information that would not have been available in the real world at prediction time.
+
+I also think about point-in-time correctness, data drift, monitoring, and feedback loops. Once the actual outcome becomes available, that ground truth should flow back into the pipeline so the model can be evaluated and improved.
+
+Deepening Points:
+- Keep training and inference feature logic aligned.
+- Prevent leakage and validate point-in-time correctness.
+- Monitor drift and feed outcomes back for model evaluation.
+
+Sean Story Anchor:
+Capacity forecasting and ML pipeline support.
+
+Risk / Guardrail:
+Position this as data pipeline and feature reliability support, not lead model scientist ownership.
+
+
+### Q37. How would you connect Databricks with AWS S3?
+
+Question:
+How would you connect Databricks with AWS S3?
+
+Best Answer:
+Short version: I would use IAM role-based access, preferably through Unity Catalog storage credentials and external locations. AWS controls the S3 permissions, Databricks assumes the role securely, and the external location maps the S3 path into the Databricks governance model.
+
+Long version: A common secure pattern is to connect Databricks to S3 through Unity Catalog using an IAM role, rather than hardcoded access keys.
+
+At a high level, AWS has an IAM policy that grants access to the target S3 bucket, then an IAM role with a trust relationship that allows Databricks to assume that role. In Databricks, you create a storage credential using the role ARN, then define an external location that maps to the S3 path.
+
+The value is security and governance: Databricks can read and write to S3 through controlled permissions, without passing around long-lived secrets. After that, pipelines can read raw data from S3, transform it with Spark, and write managed or external Delta tables depending on the design.
+
+Deepening Points:
+- Use IAM role assumption, not hardcoded access keys.
+- Use Unity Catalog storage credentials and external locations for governed access.
+- Keep S3 access controlled and auditable while supporting Spark-to-Delta pipeline flows.
+
+Sean Story Anchor:
+AWS S3/Glue/Redshift migration pattern plus Databricks governance ramp.
+
+Risk / Guardrail:
+Do not claim long production ownership of Unity Catalog administration. Frame this as secure architecture knowledge and practical implementation approach.
+
+### Q38. How would you implement data quality checks in Databricks?
+
+Question:
+How would you implement data quality checks in Databricks?
+
+Best Answer:
+Short -> I would put quality checks directly into the Databricks workflow: schema checks, null checks, duplicate checks, row counts, reconciliation, and business-rule validation before data moves from bronze to silver to gold.
+
+Long-> I would implement data quality checks at each layer of the pipeline: schema validation, completeness checks, null checks, duplicate detection, business rule checks, and reconciliation.
+
+In Databricks, those checks can run inside notebooks or jobs as part of the workflow. For example, before promoting data from bronze to silver or silver to gold, I would validate expected columns, row counts, duplicate keys, and business rules. Each check should have pass/fail criteria, logging, and ownership for remediation.
+
+The goal is to make quality measurable and operationally actionable, not just something people inspect manually after the fact.
+
+Deepening Points:
+- Enforce quality gates at each promotion step (bronze to silver to gold).
+- Define pass/fail criteria with clear logging and ownership.
+- Make checks actionable through workflow integration, not manual review.
+
+Sean Story Anchor:
+Data Quality and Validation Framework.
+
+Risk / Guardrail:
+Do not claim perfect data quality outcomes. Emphasize measurable controls and fast remediation.
 ## Client Round Priority List
 
 ### Top 10 questions to rehearse first
@@ -706,3 +806,11 @@ Avoid saying process is perfect. Emphasize continuous improvement.
 3. Capacity forecasting support (Prophet and scikit-learn)
 4. Data quality and validation framework
 5. Operational monitoring and incident support background
+
+
+
+
+
+
+
+
