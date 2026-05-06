@@ -138,7 +138,7 @@ if ($LASTEXITCODE -ne 0) {
 
 # Persist source hint into metadata so later steps can resolve apply method correctly.
 if (-not [string]::IsNullOrWhiteSpace($sourceHint)) {
-    python -c "from pathlib import Path; import yaml; p=Path(r'$($v2.job_folder)')/'metadata.yaml'; d=yaml.safe_load(p.read_text(encoding='utf-8')) or {}; d['source']=d.get('source') or r'$sourceHint'; p.write_text(yaml.safe_dump(d, sort_keys=False, allow_unicode=True), encoding='utf-8')"
+    python -c "from pathlib import Path; import yaml; p=Path(r'$($v2.job_folder)')/'metadata.yaml'; d=yaml.safe_load(p.read_text(encoding='utf-8')) or {}; d['source']=r'$sourceHint'; p.write_text(yaml.safe_dump(d, sort_keys=False, allow_unicode=True), encoding='utf-8')"
 }
 
 $chatCache = @{
