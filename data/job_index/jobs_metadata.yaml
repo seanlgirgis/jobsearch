@@ -892,10 +892,10 @@
   status: ACCEPTED
 - uuid: 00149_c6ab126f
   description_path: data\jobs\00149_c6ab126f\intake.md
-  company: Unknown
-  role: Unknown
+  company: Sharkforce Consulting
+  role: Sr. Data Engineer (Databricks)
   apply_date: '2026-05-01'
-  status: ACCEPTED
+  status: INTERVIEW_COMPLETED
 - uuid: 00150_a03c5437
   description_path: data\jobs\00150_a03c5437\intake.md
   company: Unknown

@@ -1,20 +1,32 @@
 uuid: c6ab126f-0cae-426d-b81e-f169c9df2e62
 job_id: 00149_c6ab126f
 original_filename: intake.md
-company: Unknown
-role: Unknown
+company: Sharkforce Consulting
+role: Sr. Data Engineer (Databricks)
 company_website: ''
-location: ''
-status: ACCEPTED
+location: United States (Remote)
+status: INTERVIEW_COMPLETED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
 created_at: '2026-05-01T15:00:09.992825'
 notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
 
-  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)'
-last_decision_at: '2026-05-01T15:00:10.085369'
-last_decision: ACCEPTED
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-01)
+  • Interview completed with Adam Butt; waiting for HackerRank link (2026-05-08)
+  • Follow-up email sent to Adam (cc Nahal) re: HackerRank instructions (2026-05-09 12:05 AM America/Chicago)'
+last_decision_at: '2026-05-09T00:00:00'
+last_decision: INTERVIEW_COMPLETED
+contacts:
+- name: Nahal Ghahramani
+  email: nahal.ghahramani@sharkforceconsulting.com
+  role_context: Organizer / Sharkforce contact
+- name: Adam Butt
+  email: adam@sharkforceconsulting.com
+  role_context: Interviewer / Sharkforce contact
+- name: Maysem Mohessin
+  email: ''
+  role_context: Participant listed on calendar invite
 application:
   applied: true
   applied_date: '2026-05-01'
@@ -24,4 +36,74 @@ application:
   - date: '2026-05-01'
     status: Applied
     notes: Applied via chatGpt pipeline
+  - date: '2026-05-06'
+    status: Interview Completed
+    notes: Completed Microsoft Teams interview with Adam Butt (organized by Nahal Ghahramani)
+  - date: '2026-05-08'
+    status: Follow-up Sent
+    notes: Thank-you/follow-up email sent to Adam; waiting for HackerRank link
+  - date: '2026-05-09'
+    status: Follow-up Sent
+    notes: Email sent to Adam (cc Nahal) asking for HackerRank testing instructions/link; no link received yet
+interview_tracking:
+  meeting_title: Sharkforce Sr. Data Engineer Interview - Sean Luka Girgis
+  meeting_type: Microsoft Teams
+  interview_date: '2026-05-06'
+  interview_day: Wednesday
+  interview_time_local: 3:30 PM - 4:00 PM
+  timezone: America/Chicago
+  organizer: Nahal Ghahramani
+  participants:
+  - Adam Butt
+  - Maysem Mohessin
+  source_evidence: Gmail / Google Calendar invite screenshot
+  related_calendar_note: Next event after this was "2nd Screening - Cloud Capacity Engineer @ Apple" at 5:45 PM - 6:00 PM
+  summary:
+  - Completed interview with Adam Butt.
+  - Tone was friendly.
+  - Discussed Sr. Data Engineer / Databricks opportunity.
+  - HackerRank testing was mentioned (Python, SQL, AWS DynamoDB).
+  - Topics mentioned included UCIS / USCIS, machine learning, pipelines, Delta Lake, and data lake.
+follow_up:
+  thank_you_email_sent: true
+  linkedin_note_sent: true
+  follow_up_status: Waiting for HackerRank link from Adam / Sharkforce
+  follow_up_note: Thanked Adam, expressed appreciation for the discussion, and noted interest in next steps and the HackerRank link.
+  latest_email:
+    sent: true
+    sent_at_local: '2026-05-09 12:05 AM'
+    timezone: America/Chicago
+    from: seanlgirgis@gmail.com
+    to: adam@sharkforceconsulting.com
+    cc:
+    - nahal.ghahramani@sharkforceconsulting.com
+    subject: Following Up on HackerRank Testing Instructions
+    summary: Confirmed no HackerRank instructions/link received yet; requested next-step details and noted continued interest.
+assessment_tracking:
+  hackerrank_test_link_received: false
+  pending_assessment: HackerRank
+  pending_topics:
+  - Python
+  - SQL
+  - AWS DynamoDB
+  proactive_certifications:
+  - name: HackerRank Python (Basic)
+    status: Passed / earned
+    certificate_name: Sean Girgis
+    earned_date: '2026-05-08'
+    certificate_id: 89C1C7CCD54A
+    context: Completed proactively after Adam mentioned HackerRank testing topics.
+prep_tags:
+- Python
+- SQL
+- AWS DynamoDB
+- Databricks
+- Delta Lake
+- Data Lake
+- Machine Learning
+- Pipeline
+- UCIS / USCIS
+next_actions:
+- Wait for HackerRank test link from Adam / Sharkforce.
+- Prepare for Python, SQL, AWS DynamoDB, Delta Lake/Data Lake, and ML pipeline discussion.
 job_hash: 119be9198954c49c535ec4a205086ae0e589ec56d9f840cd2ff9ce2c2c0d65e2
