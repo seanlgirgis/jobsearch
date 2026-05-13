@@ -1,12 +1,12 @@
 # Tailored Resume Preview
 
 **Sean Luka Girgis**  
-Observability / APM Platform Engineer | Telemetry, Performance, Python & Reliability  
+Observability Platform Engineer | OpenTelemetry, Grafana, Prometheus, Python & Cloud Automation  
 214-315-2190 | seanlgirgis@gmail.com  
 [LinkedIn](https://www.linkedin.com/in/sean-girgis-43bb1b5/) | [GitHub](https://github.com/seanlgirgis) | [Portfolio](https://seanlgirgis.github.io)  
 
 ## Professional Summary
-Senior observability, APM, telemetry, and performance engineering professional with 20+ years of enterprise experience across Dynatrace AppMon/Synthetics, CA APM/Introscope, AppDynamics, BMC TrueSight/TSCO, telemetry analysis, dashboards, alerting, production troubleshooting, Python scripting, SQL, cloud data workflows, and system reliability. Strong background supporting large-scale monitoring environments, transforming infrastructure and application telemetry into actionable reliability insights, defining monitoring standards, troubleshooting production issues, and documenting support/runbook practices. Best aligned to observability platform roles requiring telemetry pipelines, metrics/logs/traces concepts, APM platforms, dashboarding, alerting, performance engineering, Python automation, cloud exposure, and production reliability; Prometheus, Grafana, OpenTelemetry, Kubernetes, GPU-cluster observability, and IaC/deployment automation are positioned carefully as adjacent or learning areas rather than overstated production ownership.
+Senior observability, APM, telemetry, and performance engineering professional with 20+ years of enterprise experience across Dynatrace AppMon/Synthetics, CA APM/Introscope, AppDynamics, BMC TrueSight/TSCO, telemetry analysis, dashboards, alerting, production troubleshooting, Python scripting, SQL, AWS/cloud data workflows, and system reliability. Strong background supporting large-scale monitoring environments, transforming infrastructure and application telemetry into actionable reliability insights, defining monitoring standards, troubleshooting production issues, and documenting support/runbook practices. Best aligned to observability platform roles requiring metrics/logs/traces thinking, OpenTelemetry/Grafana/Prometheus ramp-up, Python and shell automation, cloud-first operations, IaC awareness, platform reliability, and stakeholder communication; Kubernetes and GPU/HPC workload monitoring are adjacent platform contexts rather than overstated production ownership.
 
 ## Professional Experience
 ### Senior Capacity & Data Engineer at CITI
@@ -56,7 +56,14 @@ Humber College, Toronto, Canada
 Zagazig University, Egypt
 
 ## Skills
-
+**Observability / APM:** Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM / Introscope, AppDynamics, BMC TrueSight / TSCO, JMX Monitoring, transaction tracing concepts
+**Modern Observability Ramp-Up:** OpenTelemetry awareness, Prometheus awareness, Grafana awareness, metrics/logs/traces concepts, cloud-native observability concepts, telemetry pipeline design concepts
+**Python / Automation:** Python, Pandas, PySpark, SQL automation, Perl, KornShell/ksh, Unix/Linux scripting, validation automation, reporting automation, cloud-first automation concepts
+**Cloud / Platform:** AWS S3, Glue, Athena, Redshift, EC2/ECS concepts, CloudWatch concepts, cloud monitoring concepts, PaaS/platform reliability concepts
+**IaC / Deployment Adjacent:** Terraform/IaC active ramp-up, deployment automation awareness, Docker concepts, CI/CD concepts, environment automation concepts
+**Kubernetes / HPC Adjacent:** Kubernetes-aware platform environments, containerized service awareness, GPU/HPC workload observability concepts, distributed systems awareness
+**Performance / Reliability:** Performance engineering, bottleneck analysis, capacity planning, production troubleshooting, reliability improvement, incident analysis, SLO/SLA awareness
+**Dashboards / Alerting:** Dashboard design, alert rules, SLA thresholds, operational reporting, KPI reporting, metric definitions, stakeholder-ready reliability views
 
 ## Flagship Projects
 ### Enterprise APM Reporting Automation

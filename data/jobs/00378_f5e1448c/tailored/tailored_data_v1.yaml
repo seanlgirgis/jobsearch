@@ -1,0 +1,66 @@
+job_id: 00378_f5e1448c
+interview_contact: David
+interview_date: 2026-05-13
+target_role: Observability Platform Engineer (Monitoring)
+location_context: Dallas hybrid (3 days/week)
+
+post_interview_signal:
+  summary: Interviewer reacted to GPU and Kubernetes content as heavy; reduce emphasis to avoid over-inviting deep cloud-native platform ownership questions.
+
+primary_positioning:
+- Enterprise observability and APM practitioner with strong production support depth.
+- Strongest tools: Dynatrace AppMon, CA APM/Introscope, AppDynamics, BMC TrueSight/TSCO.
+- Core outcomes: telemetry analysis, dashboarding, alert/threshold tuning, production troubleshooting, RCA, performance engineering.
+- Automation strength: Python and shell scripting for telemetry quality checks, reporting, and operational workflows.
+
+emphasize_keywords:
+- observability
+- monitoring
+- apm
+- dynatrace
+- ca apm
+- introscope
+- appdynamics
+- bmc truesight
+- tsco
+- telemetry analysis
+- dashboards
+- alerting
+- thresholds
+- production troubleshooting
+- root cause analysis
+- performance engineering
+- python
+- shell scripting
+- sql
+- cloud monitoring concepts
+
+de_emphasize_keywords:
+- gpu monitoring
+- kubernetes production ownership
+- heavy cloud-native platform engineering ownership
+- deep prometheus ownership
+- deep grafana ownership
+- deep opentelemetry ownership
+- sre platform ownership claims
+
+truthful_positioning_for_modern_stack:
+- Prometheus/Grafana/OpenTelemetry should be presented as conceptual alignment, interview prep, or adjacent learning unless directly evidenced by production ownership.
+- Cloud platforms should be framed as exposure/support context tied to observability and telemetry workflows.
+
+summary_line_recommendation: >
+  Enterprise observability and APM engineer with deep production experience in Dynatrace,
+  CA APM/Introscope, AppDynamics, and BMC TrueSight, focused on telemetry analysis,
+  dashboards, alerting, troubleshooting, RCA, and Python automation; modern cloud-native
+  observability tools are positioned as adjacent and actively developing.
+
+experience_edit_guidance:
+- Replace broad claims of platform ownership with production support and observability operations language.
+- Keep metrics/logs/traces language, but anchor examples in APM and telemetry investigation outcomes.
+- Use verbs like supported, analyzed, built dashboards, tuned thresholds, investigated, correlated, remediated.
+- Avoid verbs like architected platform, owned Kubernetes observability stack, built GPU telemetry platform unless strictly proven.
+
+interview_answer_guardrail: >
+  Be transparent: strongest hands-on depth is enterprise APM/observability (Dynatrace,
+  CA APM, AppDynamics, BMC TrueSight). For Grafana/OpenTelemetry/Prometheus, present
+  conceptual fluency and active ramp-up without overstating production ownership.
