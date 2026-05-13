@@ -145,7 +145,7 @@ def create_job_shell(intake_path: Path, move_intake: bool) -> Dict[str, Any]:
     company = front_matter.get("company_name", front_matter.get("company", meta_from_filename["company"]))
     role = front_matter.get("title", front_matter.get("job_title", meta_from_filename["role"]))
 
-    job_root_copy = job_dir / intake_path.name
+    job_root_copy = job_dir / f"intake.{job_uuid[:8]}.md"
     if move_intake:
         intake_path.replace(job_root_copy)
         source_label = "moved"

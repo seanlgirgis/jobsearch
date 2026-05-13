@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Indotronix International Corp\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Java Application Support Engineer role with Indotronix International Corp. The position aligns with my background in application support, production troubleshooting, defect resolution, SQL, Python/Perl scripting, Linux/Unix environments, technical documentation, deployments, and legacy enterprise systems.",
+  "body": [
+    "At Citi, I supported production monitoring, reporting, and data reliability workflows across large-scale banking infrastructure using BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, SQL, Python, and AWS-backed reporting layers. I regularly investigated production issues by tracing application telemetry, source feeds, SQL behavior, Python processing, failed outputs, latency symptoms, and downstream reporting discrepancies.",
+    "Earlier in my career, I developed and supported billing, customer-management, and enterprise interface applications using Oracle, PL/SQL, C/C++, Pro*C, SQL scripts, XML, Java/J2EE concepts, WebLogic/WebSphere, MQ Series, Unix/Linux, Perl, and KornShell automation. That experience maps well to supporting legacy and modern applications, resolving defects, writing support tools, documenting technical behavior, and collaborating across development, QA, infrastructure, and business teams.",
+    "I want to be direct about fit: my strongest background is production support, SQL, Python/Perl/KornShell scripting, legacy enterprise systems, monitoring/APM, documentation, and troubleshooting. Java support is part of my broader enterprise background, while NodeJS/React, .NET, MongoDB, media asset management, and Aspera/Signiant are adjacent or learning areas rather than deep production ownership. Where I would bring immediate value is application support, defect investigation, support automation, deployment coordination, technical documentation, and reliable communication."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my application support, production troubleshooting, SQL, Python/Perl scripting, documentation, and enterprise support background can help maximize uptime for this application portfolio.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Aptino\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the IT Developer / Senior Site Reliability Engineer role with Aptino. The role aligns with my background in enterprise observability, Dynatrace/APM, production support, incident analysis, telemetry reporting, Python/shell automation, documentation, and AI-assisted workflow interest.",
+  "body": [
+    "At Citi, I supported production monitoring, capacity, and reliability workflows across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and large-scale infrastructure telemetry sources. I built Python, Pandas, PySpark, and SQL pipelines that transformed telemetry from more than 6,000 infrastructure endpoints into dashboards, forecasting datasets, KPI reports, and operational insights used by technical and business stakeholders.",
+    "Across Citi, G6 Hospitality, CA Technologies/TIAA-CREF, and AT&T, I worked with Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM/Introscope, AppDynamics, JMX monitoring, runbooks, dashboards, threshold design, troubleshooting, RCA-style investigation, and production-readiness documentation. That experience maps well to observability, incident triage, telemetry signal interpretation, operational communication, and practical reliability support.",
+    "I want to be direct about fit: my strongest production background is observability, APM, capacity/performance engineering, Python/shell automation, telemetry reporting, and enterprise production support. Deep Azure platform ownership, Kubernetes administration, Java production-system ownership, GitHub Actions production pipelines, Ansible, and hands-on multi-agent operations architecture are adjacent or active-learning areas for me. Where I would bring immediate value is Dynatrace/APM-based operational insight, incident analysis, documentation, human-reviewed automation thinking, and Python-driven reliability workflows."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss whether my observability, production reliability, Dynatrace/APM, Python automation, and AI-assisted operations background can support Aptino's remote SRE initiative.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

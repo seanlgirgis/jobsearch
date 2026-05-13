@@ -654,3 +654,11 @@ platform ownership from transferable capacity principles. What I bring is the
 ability to automate the decision loop: collect telemetry, calculate utilization
 and headroom, identify risk or waste, and produce recommendations that
 engineering and leadership can act on.
+
+## 16. Interview Debrief - 2026-05-11
+
+- Status: Interview completed; waiting on recruiter feedback.
+- Interviewer: LinkedIn: https://www.linkedin.com/in/rm365/ (name/title not confirmed in local notes).
+- No SQL/Python coding was asked.
+- Discussion focused on Citi capacity work, especially telemetry/operational data, infrastructure usage, forecasting/trend analysis, and stakeholder reporting for planning decisions.
+- Sean's read: Positive/friendly conversation with focus on validating capacity engineering experience rather than coding.

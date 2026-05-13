@@ -5,16 +5,17 @@ company: Unknown
 role: Unknown
 company_website: ''
 location: ''
-status: ACCEPTED
+status: CLOSED - PASSED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
 created_at: '2026-05-06T14:02:27.927072'
-notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
-
-  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-06)'
-last_decision_at: '2026-05-06T14:02:28.000080'
-last_decision: ACCEPTED
+notes: |-
+  Manual-v2 shell created. Awaiting ChatGPT artifacts.
+  - Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-06)
+  - Closed - passed after interview feedback: insufficient direct AI experience; banking/Citi systems were valuable but not close enough to Apple target team systems (2026-05-12)
+last_decision_at: '2026-05-12T09:00:00'
+last_decision: CLOSED - PASSED
 application:
   applied: true
   applied_date: '2026-05-06'
@@ -24,3 +25,10 @@ application:
   - date: '2026-05-06'
     status: Applied
     notes: Applied via chatGpt pipeline
+  - date: '2026-05-12'
+    status: CLOSED - PASSED
+    notes: >-
+      Confirmed by feedback. Role-specific mismatch: insufficient direct AI
+      experience and systems/domain alignment gap versus target Apple team.
+  last_status: CLOSED - PASSED
+  last_status_date: '2026-05-12'

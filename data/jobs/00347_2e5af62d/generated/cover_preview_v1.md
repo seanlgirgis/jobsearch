@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Dynatrace Observability Engineer role with DevApps IT. The position aligns strongly with my background in enterprise APM, Dynatrace AppMon, synthetic monitoring, CA APM, AppDynamics, infrastructure telemetry, dashboards, reporting, performance analysis, documentation, and Python/shell automation.
+
+At G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical systems, supporting application visibility, synthetic monitoring, transaction analysis, dashboarding, and performance optimization. I also integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and improve issue diagnosis.
+
+At Citi and CA Technologies/TIAA-CREF, I worked across large enterprise monitoring environments involving BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, and CA APM/Introscope. I supported dashboards, alerting, telemetry extraction, runbooks, threshold design, reporting standards, troubleshooting guidance, and knowledge-sharing documentation across application, infrastructure, and operations teams.
+
+Your role emphasizes Dynatrace administration, application and infrastructure onboarding, APM, RUM, tracing, dependency mapping, event management, dashboarding, reporting, synthetic monitoring, proactive performance analysis, observability standards, documentation, and automation. My strongest fit is hands-on APM/observability delivery with Dynatrace and adjacent enterprise monitoring platforms. Dynatrace APIs, Terraform, Ansible, and PowerShell are adjacent or active-learning areas for me rather than my deepest production ownership; Python, Perl, KornShell, SQL, and shell automation are my strongest automation base.
+
+I would welcome the opportunity to discuss how my Dynatrace, CA APM, AppDynamics, synthetic monitoring, telemetry, documentation, and observability delivery background can support DevApps IT's remote monitoring initiative.
+
+Sincerely,
+Sean Luka Girgis

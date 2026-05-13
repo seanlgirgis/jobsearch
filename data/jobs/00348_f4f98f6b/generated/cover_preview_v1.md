@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Dynatrace Engineer role with Lumen Solutions Group. The position aligns with my background in enterprise APM, Dynatrace AppMon, synthetic monitoring, CA APM, AppDynamics, infrastructure telemetry, dashboards, performance analysis, incident troubleshooting, documentation, and Python/shell automation.
+
+At G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical systems, supporting application visibility, synthetic monitoring, transaction analysis, dashboarding, and performance optimization. I also integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and improve issue diagnosis.
+
+At Citi and CA Technologies/TIAA-CREF, I worked across large enterprise monitoring environments involving BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, and CA APM/Introscope. I supported dashboards, alerting, telemetry extraction, runbooks, threshold design, reporting standards, troubleshooting guidance, capacity analytics, and knowledge-sharing documentation across application, infrastructure, and operations teams.
+
+Your role emphasizes Dynatrace SaaS implementation, distributed tracing, Smartscape, Davis AI, Grail/log management, RUM, synthetic monitoring, tagging/governance, DevOps automation, SRE practices, ITSM integration, and AWS/Azure environments. My strongest fit is broader enterprise APM/observability delivery with Dynatrace AppMon and adjacent monitoring platforms. Modern Dynatrace SaaS features, Grail, Davis AI, OTel, ServiceNow/PagerDuty integrations, Terraform/CDK, GitHub Actions/Jenkins, and formal SLI/SLO practices are adjacent or active-learning areas for me rather than deep production ownership.
+
+I would welcome the opportunity to discuss whether my Dynatrace AppMon, CA APM, AppDynamics, synthetic monitoring, telemetry, documentation, and observability delivery background can support Lumen Solutions Group's remote monitoring initiative.
+
+Sincerely,
+Sean Luka Girgis

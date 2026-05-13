@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior PySpark Developer / Engineer role with Programmers.io in Dallas. The position aligns strongly with my background in PySpark, SQL, Unix/Linux scripting, ETL workflows, production data troubleshooting, scheduling concepts, and financial-services technology.
+
+At Citi, I built Python, SQL, Pandas, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, forecasting, and validation datasets. I also supported production troubleshooting by tracing source feeds, SQL logic, PySpark transformations, failed outputs, missing or late data, latency symptoms, and downstream reporting issues.
+
+Your role emphasizes PySpark architecture understanding, reading and enhancing PySpark scripts and configurations, strong SQL, Unix shell scripting, backend scripts supporting PySpark workflows, ETL knowledge, and scheduling or automation tools. My experience maps strongly through PySpark DataFrame workflows, SQL-heavy transformations, Unix/KornShell and Perl automation, validation and reconciliation practices, production runbooks, Airflow-style orchestration awareness, and financial-services delivery.
+
+I want to be direct about fit: my strongest production orchestration experience is production workflow support and Airflow-style scheduling concepts, while Autosys and Control-M are awareness areas rather than my deepest hands-on tools. Where I would bring immediate value is PySpark/SQL data engineering, Unix script analysis, ETL reliability, production troubleshooting, and practical communication with technical and business teams.
+
+I would welcome the opportunity to discuss how my PySpark, SQL, Unix scripting, ETL, data quality, and financial-services data engineering background can support Programmers.io's Dallas client work.
+
+Sincerely,
+Sean Luka Girgis

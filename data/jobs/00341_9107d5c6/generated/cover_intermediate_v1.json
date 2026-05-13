@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Quadrant Technologies\nIrving, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Python Developer with Unix Shell Scripting role with Quadrant Technologies in Irving. The role aligns well with my long background in Python automation, Unix/Linux scripting, KornShell/ksh, data feed handling, validation, logging, monitoring, performance troubleshooting, and enterprise production support.",
+  "body": [
+    "At Citi, I built Python and Pandas automation pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational feeds into validated reporting, analytics, and forecasting datasets. I also created validation checks, diagnostic workflows, logging-oriented support practices, and runbooks to make recurring data processing reliable and easier to troubleshoot.",
+    "Earlier in my career, I used KornShell/ksh, Perl, Awk, SQL, and Unix/Linux automation heavily across enterprise monitoring, telecom billing, deployment, reporting, and operational support workflows. Those scripts handled data extraction, feed processing, transformation logic, validation, reporting, performance diagnostics, and production housekeeping in large Unix-based environments.",
+    "Your role emphasizes Python development, Unix shell scripting, Bash/ksh, data feed handling, task automation, business logic in scripts, logging and monitoring for diagnostics, performance optimization, Git, security-conscious scripting, Docker, and Kubernetes familiarity. My strongest fit is Python plus KornShell/ksh automation, production diagnostics, validation, data feed processing, Git, Docker familiarity, and cross-functional delivery. Kubernetes and frontend work are adjacent areas for me rather than my deepest production background."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, Unix shell scripting, data validation, automation, monitoring, and production support experience can support Quadrant Technologies' Irving team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

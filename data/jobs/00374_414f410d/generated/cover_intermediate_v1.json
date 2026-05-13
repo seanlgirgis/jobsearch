@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Tradeweb Markets LLC\nJersey City, NJ"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the C++ Developer role with Tradeweb Markets. The position aligns with my enterprise engineering background in C++, object-oriented design, multithreading, Linux/Unix, Windows concepts, backend production systems, performance tuning, and financial-services technology.",
+  "body": [
+    "Earlier in my career, I developed and supported high-availability telecom billing and enterprise interface systems using C, C++, Pro*C, Oracle, PL/SQL, SQL scripts, XML, POSIX threads, mutexes, semaphores, socket programming, Unix/Linux, and production support practices. I designed reusable threading and socket utility libraries, reverse-engineered undocumented APIs, supported QA cycles, resolved defects, and documented system behavior for mission-critical applications.",
+    "At Sabre, I led validation and production-readiness support for a high-throughput shopping-engine migration from more than 200 MySQL nodes to a 6-node Oracle RAC cluster. I built C++/OCCI/OCI validation utilities, optimized Oracle access patterns, supported schema conversion and cutover activities, and helped preserve transaction correctness and performance at enterprise scale.",
+    "I want to be direct about fit: my deepest C++ production work is older, while my recent work has focused more on Python, SQL, production reliability, telemetry, and data engineering. However, the underlying strengths remain relevant to Tradeweb: multithreaded backend systems, performance tuning, production issue ownership, financial/enterprise environments, QA/support collaboration, documentation, and disciplined troubleshooting across Windows/Linux-style platforms."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my C++ systems, multithreading, high-throughput performance, SQL/RDBMS, and production support background can contribute to Tradeweb's next-generation trading platform services.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

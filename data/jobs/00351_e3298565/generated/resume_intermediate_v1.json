@@ -1,0 +1,165 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Lead Application Support / Observability Engineer | Financial Services, Dynatrace, Scripting & Middleware"
+  },
+  "summary": "Senior application support, observability, performance, and production reliability professional with 20+ years of enterprise technology experience across financial services, production monitoring, incident triage, Dynatrace/AppMon, CA APM/Introscope, AppDynamics, BMC TrueSight, Python, Shell/KornShell, Perl, Oracle, DB2, middleware, messaging, disaster-recovery support, and operational runbooks. Strong background supporting client-facing and enterprise systems, reading logs and telemetry, automating operational workflows, troubleshooting distributed applications, coordinating with infrastructure and development teams, and improving monitoring/reporting practices. Best aligned to application support and observability roles requiring production incident response, scripting automation, middleware/database support, APM, financial-services reliability, DR test support, and operational excellence; Snowflake, Splunk, Grafana, Selenium, Azure/OpenShift/RDS Aurora/Postgres, RabbitMQ/Kafka, and newer tooling are positioned carefully as adjacent or transferable areas rather than overstated production ownership.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Supported production monitoring and reliability workflows across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and large-scale infrastructure telemetry sources in a regulated banking environment.",
+        "Built Python/Pandas/PySpark and SQL pipelines ingesting telemetry from 6,000+ infrastructure endpoints and transforming performance signals into validated dashboards, reports, forecasting datasets, and executive insights.",
+        "Partnered with infrastructure, application, analytics, and engineering teams to triage production issues, investigate abnormal metrics, and translate monitoring signals into practical remediation recommendations.",
+        "Created KPI-based dashboards and reporting models that converted utilization, application performance, and infrastructure telemetry into actionable views for technical teams and senior stakeholders.",
+        "Troubleshot production reporting and monitoring issues by tracing logs, source feeds, transformation logic, metric behavior, failed outputs, latency symptoms, and downstream reporting discrepancies.",
+        "Developed runbooks, metric definitions, validation checkpoints, reporting logic, support procedures, and operational documentation to improve repeatability and team onboarding.",
+        "Applied scripting and automation patterns using Python, SQL, Unix/Linux-style workflows, and Git-based discipline to support recurring reporting, data validation, and production troubleshooting.",
+        "Supported capacity planning and operational risk mitigation through forecasting workflows with Prophet and scikit-learn, bottleneck analysis, and proactive infrastructure reporting."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems, supporting application performance visibility and operational readiness.",
+        "Supported monitoring workflows by configuring dashboards, analyzing synthetic monitoring behavior, and correlating user-facing symptoms with application performance signals.",
+        "Led the FAST project, mining real-user and synthetic monitoring metrics to surface optimization opportunities adopted by engineering teams.",
+        "Integrated HP Performance Center with Dynatrace to correlate load-test behavior with APM telemetry and improve issue diagnosis."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Served as CA APM/Introscope SME for a large financial-services environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Led and coordinated CA APM upgrades, monitoring standards, dashboard rollouts, threshold design, alerting practices, and operational reporting adoption across technical teams.",
+        "Designed custom Management Modules, dashboards, alerts, SLA thresholds, and documentation standards used by application, middleware, infrastructure, and operations teams.",
+        "Built Perl and KornShell automation for extracting, validating, transforming, and distributing APM telemetry, replacing manual performance-reporting workflows.",
+        "Provided technical training, onboarding support, troubleshooting guidance, and documentation to improve adoption of monitoring standards and operational playbooks."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed J2EE telecom applications under load to identify throughput limits, JDBC bottlenecks, thread contention, heap pressure, CPU constraints, and garbage-collection symptoms.",
+        "Configured JMX Monitoring, Wily Introscope, and thread-dump automation scripts to improve runtime visibility during performance and regression testing.",
+        "Documented baseline metrics, regression thresholds, test findings, and release-readiness notes used by engineering teams for production decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving transaction performance and data integrity.",
+        "Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Built C++/OCCI/OCI validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Supported performance-focused cutover planning, validation, troubleshooting, and production-readiness activities for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.",
+        "Built CICS, MQ Series, XML messaging interfaces, and DB2-backed components in a government modernization environment.",
+        "Supported technical design documentation and integration patterns for structured data exchange across modernization components."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability C++/Pro*C/PL/SQL billing interfaces and data feed processes for telecom-scale transaction systems.",
+        "Supported telecom billing and customer-management systems using Oracle, PL/SQL, C/C++, Pro*C, XML, messaging interfaces, shell automation, and operational troubleshooting.",
+        "Built automation scripts in KornShell/ksh, Perl, Awk, Syncsort, and SQL to support data extraction, transformation, reporting, deployments, and production housekeeping.",
+        "Improved database performance by 10x through SQL, sequence, and process optimization while reducing memory usage by 75%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Application Support": "Production application support, incident triage, log reading, distributed application troubleshooting, client-facing environment support, escalation support",
+    "Monitoring / Observability": "Dynatrace AppMon, CA APM / Introscope, AppDynamics, BMC TrueSight / TSCO, Gomez Synthetic Monitoring, JMX Monitoring, Splunk/Grafana concepts",
+    "Scripting / Automation": "Python, Bash/Shell concepts, KornShell/ksh, Perl, SQL, PySpark, automation scripts, validation workflows, reporting automation",
+    "Databases": "Oracle, DB2, MySQL, PostgreSQL concepts, Amazon Redshift, SQL optimization, PL/SQL, stored procedure concepts, relational database troubleshooting",
+    "Middleware / Messaging": "WebLogic, WebSphere concepts, Tomcat concepts, CICS, MQ Series, IBM MQ concepts, ActiveMQ/RabbitMQ/Kafka concepts, XML messaging",
+    "Cloud / Infrastructure": "AWS S3, EC2, Lambda concepts, SQS concepts, IAM concepts, Azure concepts, RDS/Aurora/Postgres concepts, OpenShift concepts",
+    "ITSM / Operations": "ServiceNow workflow exposure, BMC Remedy exposure, incident management, change/release support, disaster recovery test support, operational runbooks",
+    "Mainframe Adjacent": "COBOL/JCL/DB2/CICS/SPUFI/File-AID awareness, IRS CADE modernization exposure, mainframe integration concepts",
+    "Quality / Testing": "DR test planning support, environment verification, regression review, Selenium concepts, monitoring validation, production readiness checks",
+    "Financial Services": "Banking technology, securities/capital markets awareness, regulated production environments, risk/control awareness, stakeholder communication"
+  },
+  "projects": [
+    {
+      "name": "Enterprise APM Reporting Automation",
+      "description": "Built Perl and KornShell/ksh automation for extracting, transforming, validating, and distributing performance telemetry across large CA APM enterprise monitoring environments.",
+      "technologies": [
+        "CA APM",
+        "KornShell/ksh",
+        "Perl",
+        "SQL",
+        "Unix/Linux",
+        "Monitoring",
+        "Automation"
+      ]
+    },
+    {
+      "name": "FAST Performance Analytics Project",
+      "description": "Mined Dynatrace and Gomez Synthetic Monitoring data to identify optimization opportunities, improve transaction visibility, and communicate actionable findings to engineering teams.",
+      "technologies": [
+        "Dynatrace AppMon",
+        "Gomez Synthetic Monitoring",
+        "Performance Analytics",
+        "Dashboards",
+        "APM"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting Engine",
+      "description": "Built Python/PySpark forecasting workflows to process infrastructure telemetry, prepare forecasting datasets, validate pipeline outputs, and deliver capacity and bottleneck insights.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "Prophet",
+        "scikit-learn",
+        "BMC TrueSight",
+        "Telemetry"
+      ]
+    }
+  ]
+}

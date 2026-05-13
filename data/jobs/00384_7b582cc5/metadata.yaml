@@ -1,0 +1,28 @@
+uuid: 7b582cc5-9f6a-4e61-8336-552998534e5a
+job_id: 00384_7b582cc5
+original_filename: intake.md
+company: CarMax
+role: Sr Software Engineer - Backend
+company_website: ''
+location: ''
+status: ACCEPTED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-13T04:15:11.205505'
+notes: |-
+  Manual-v2 shell created. Awaiting ChatGPT artifacts.
+  - Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-13)
+  - Added backend AI/ML serving scalability prep for interview readiness: p99 latency, 500 RPS, horizontal scaling, load balancing, warm model replicas, and avoiding per-request model loading (2026-05-13)
+last_decision_at: '2026-05-13T04:15:11.390437'
+last_decision: ACCEPTED
+source: LinkedIn
+application:
+  applied: true
+  applied_date: '2026-05-13'
+  applied_method: LinkedIn
+  application_notes: Applied via chatGpt pipeline
+  history:
+  - date: '2026-05-13'
+    status: Applied
+    notes: Applied via chatGpt pipeline

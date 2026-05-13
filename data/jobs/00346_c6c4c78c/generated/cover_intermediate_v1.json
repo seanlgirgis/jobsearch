@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Zillion Technologies\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the APM and Observability Manager role with Zillion Technologies. The position aligns strongly with my background in enterprise APM, Dynatrace, CA APM, AppDynamics, infrastructure telemetry, synthetic monitoring, incident reduction, operational reporting, and cross-functional monitoring delivery.",
+  "body": [
+    "At Citi, I managed and integrated telemetry from BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, and AWS-backed reporting layers across thousands of infrastructure endpoints. I built Python/Pandas/PySpark pipelines that transformed performance and capacity telemetry into validated dashboards, forecasting datasets, KPI reports, and executive-facing insights used for operational decision-making.",
+    "Earlier, I served as a CA APM/Introscope SME for a large financial-services environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents. I coordinated monitoring standards, dashboard rollouts, threshold design, alerting practices, technical documentation, troubleshooting guidance, and automation for telemetry extraction and reporting. At G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical systems, supporting transaction visibility, synthetic monitoring, EUM-style analysis, and performance optimization.",
+    "Your role emphasizes observability and monitoring initiatives across cloud, infrastructure, and application environments; APM, infrastructure monitoring, log management, distributed tracing, synthetic monitoring, incident management, Agile/Scrum delivery, stakeholder communication, and platforms such as Dynatrace. My strongest fit is technical observability delivery and coordination rather than formal PMP-style project management. Cribl, Splunk Observability Cloud, Datadog, New Relic, and Grafana are adjacent platforms for me, but the monitoring concepts and enterprise delivery patterns are directly familiar."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Dynatrace, CA APM, AppDynamics, telemetry, monitoring modernization, and operational excellence background can support Zillion Technologies' remote observability initiative.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

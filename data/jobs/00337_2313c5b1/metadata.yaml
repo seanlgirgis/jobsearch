@@ -1,0 +1,35 @@
+uuid: 2313c5b1-4461-4821-a2be-13c81c5df9d9
+job_id: 00337_2313c5b1
+original_filename: intake.md
+company: Sparks Group
+role: Data Engineer
+company_website: ''
+location: ''
+status: ACTIVE - INTERVIEW COMPLETED
+score: null
+recommendation: null
+pipeline_mode: chatgpt
+created_at: '2026-05-12T05:13:09.678284'
+notes: |-
+  Manual-v2 shell created. Awaiting ChatGPT artifacts.
+  - Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-12)
+  - Progressed to AI chat interview / recruiter-screen style interview with Sparks Group / Taylor AI; interview completed and pending recruiter review (2026-05-12)
+last_decision_at: '2026-05-12T10:00:00'
+last_decision: ACTIVE - INTERVIEW COMPLETED
+application:
+  applied: true
+  applied_date: '2026-05-12'
+  applied_method: Dice
+  application_notes: Applied via chatGpt pipeline
+  history:
+  - date: '2026-05-12'
+    status: Applied
+    notes: Applied via chatGpt pipeline
+  - date: '2026-05-12'
+    status: INTERVIEW COMPLETED - WAITING FOR RECRUITER REVIEW
+    notes: >-
+      Interview completed through Sparks Group / Taylor AI interviewer chat.
+      Application ID: 1108295. Outcome message indicated recruiter team will
+      review and may follow up.
+  last_status: INTERVIEW COMPLETED - WAITING FOR RECRUITER REVIEW
+  last_status_date: '2026-05-12'

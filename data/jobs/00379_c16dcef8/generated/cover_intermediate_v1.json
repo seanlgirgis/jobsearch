@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 13, 2026",
+    "employer_address": "Net2Source (N2S)\nPlano, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Dynatrace Splunk Observability Engineer role with Net2Source in Plano. The position aligns strongly with my background in Dynatrace/APM, dashboards, KPIs, telemetry analysis, RCA, production support, performance troubleshooting, and Python/shell scripting.",
+  "body": [
+    "At G6 Hospitality, I managed Dynatrace AppMon and Gomez Synthetic Monitoring for Brand.com and critical hospitality systems. I created dashboards and reporting views, correlated real-user and synthetic transaction data, analyzed performance symptoms, and translated monitoring signals into actionable recommendations for engineering teams.",
+    "At Citi and CA Technologies/TIAA-CREF, I supported enterprise observability and production reliability across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, CA APM/Introscope, Oracle, AWS-backed reporting layers, and large-scale telemetry feeds. I built Python, SQL, Perl, and KornShell automation to extract, validate, transform, and report APM and infrastructure telemetry, while documenting dashboards, metrics, runbooks, and troubleshooting procedures.",
+    "I want to be direct about fit: my strongest hands-on observability background is Dynatrace, CA APM, AppDynamics, BMC TrueSight, dashboards, KPIs, telemetry analysis, RCA, and production support. Splunk dashboards, searches, and visualizations are adjacent unless deeper hands-on Splunk work is confirmed. Where I would bring immediate value is Dynatrace dashboarding, translating monitoring data into operational insight, proactive troubleshooting, RCA support, Python/shell automation, and clear communication with application, infrastructure, operations, and leadership teams."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Dynatrace/APM, telemetry, dashboarding, Python/shell scripting, and production reliability background can support Net2Source's Plano observability needs.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

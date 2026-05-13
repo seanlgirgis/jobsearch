@@ -1,0 +1,166 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Senior Performance & Capacity Engineer | Forecasting, Telemetry Pipelines & Executive Reporting"
+  },
+  "summary": "Senior Performance and Capacity Engineer with 20+ years of enterprise technology experience and deep Citi-scale background in infrastructure telemetry, predictive capacity forecasting, KPI reporting, performance analytics, operational playbooks, and executive-facing insights. Built Python/Pandas/PySpark data pipelines ingesting telemetry from 6,000+ endpoints and transforming it into validated reporting, forecasting, and decision-support datasets. Strong fit for capacity engineering roles requiring large-scale infrastructure analysis, resource optimization, risk mitigation, budgeting support, operational readiness, stakeholder communication, and data-driven forecasting models.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Owned capacity and performance analytics workflows for large-scale banking infrastructure, transforming telemetry from 6,000+ endpoints into executive-ready insights for planning, risk reduction, and resource optimization.",
+        "Built Python/Pandas/PySpark pipelines ingesting BMC TrueSight/TSCO, CA Wily, AppDynamics, Oracle, and AWS-backed telemetry into curated reporting and forecasting datasets.",
+        "Developed ML forecasting workflows using Prophet and scikit-learn to project capacity trends, identify bottleneck risk, and support proactive infrastructure planning.",
+        "Designed KPI-based reporting models and dashboards that converted raw utilization, performance, and capacity telemetry into actionable decision-support views for senior stakeholders.",
+        "Supported capital planning and resource-allocation decisions by analyzing utilization patterns, underused infrastructure, seasonal demand, growth trends, and provisioning risk.",
+        "Created operational runbooks, metric definitions, data flow notes, validation checkpoints, and support procedures to improve repeatability, team onboarding, and knowledge sharing.",
+        "Troubleshot production data and reporting issues by tracing source feeds, transformation logic, SQL behavior, failed outputs, latency symptoms, and downstream reporting discrepancies.",
+        "Partnered with infrastructure, application, analytics, and business teams to translate capacity and performance signals into practical recommendations for operational stability and service delivery."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon and Gomez Synthetic Monitoring analytics for Brand.com and critical hospitality systems.",
+        "Led the FAST project, mining real-user and synthetic performance metrics to identify optimization opportunities and communicate findings to engineering teams.",
+        "Built operational dashboards and reporting views that converted raw monitoring data into actionable reliability and performance insights.",
+        "Supported AWS cloud migration planning by evaluating monitoring readiness, transaction visibility, and performance reporting needs."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed enterprise CA APM telemetry environments with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents across large financial-services infrastructure.",
+        "Built Perl and KornShell/ksh automation for extracting, transforming, validating, and distributing performance telemetry, replacing manual exports with repeatable reporting workflows.",
+        "Established dashboard, alert, SLA threshold, reporting, and technical documentation standards adopted across client environments.",
+        "Mentored technical teams and partnered with J2EE, WebLogic, infrastructure, database, and operations groups to analyze telemetry, troubleshoot bottlenecks, and resolve production issues."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed enterprise telecom applications under load to identify throughput limits, SQL/JDBC bottlenecks, CPU, memory, thread, and garbage-collection constraints.",
+        "Configured JMX Monitoring, Wily Introscope, and thread-dump automation scripts to improve runtime visibility during performance and regression testing.",
+        "Documented baseline metrics, regression thresholds, test findings, and release-readiness notes used by engineering teams for production decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving transaction performance and data integrity.",
+        "Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Built C++/OCCI/OCI validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Automated schema conversion, data validation, and phased cutover support for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.",
+        "Built CICS, MQ Series, XML messaging interfaces, and DB2-backed components in a government modernization environment.",
+        "Supported technical design documentation and integration patterns for structured data exchange across modernization components."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability C++/Pro*C/PL/SQL billing interfaces and data feed processes for telecom-scale transaction systems.",
+        "Built automation scripts in KornShell/ksh, Perl, Awk, Syncsort, and SQL to support data extraction, transformation, reporting, deployments, and operational housekeeping.",
+        "Implemented business logic in billing and integration workflows using C/C++, Pro*C, PL/SQL, SQL scripts, XML, shell automation, and enterprise messaging interfaces.",
+        "Improved database performance by 10x through SQL, sequence, and process optimization while reducing memory usage by 75%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Capacity & Performance": "Capacity planning, performance engineering, resource utilization analysis, bottleneck detection, KPI reporting, infrastructure optimization, risk analysis",
+    "Forecasting & Analytics": "Prophet, scikit-learn, time-series forecasting, trend analysis, seasonal analysis, predictive capacity models, executive dashboards",
+    "Telemetry / APM": "BMC TrueSight / TSCO, CA APM / Introscope, AppDynamics, Dynatrace AppMon, Gomez Synthetic Monitoring, JMX Monitoring, telemetry analysis",
+    "Data Engineering": "Python, Pandas, PySpark, SQL, ETL/ELT pipelines, data ingestion, transformation, validation, reconciliation, reporting datasets",
+    "Databases / Warehousing": "Oracle, Amazon Redshift, MySQL, PostgreSQL, DB2, PL/SQL, SQL optimization, schema design, historical retention, reporting layers",
+    "Cloud / Infrastructure": "AWS S3, AWS Glue, Athena, Redshift, EC2, ECS, hybrid infrastructure analytics, cloud migration readiness, operational reporting",
+    "Automation / Scripting": "Python automation, KornShell/ksh, Perl, Awk, Unix/Linux scripting, operational runbooks, data extraction automation",
+    "Operations": "Monitoring, alerting concepts, incident analysis, production troubleshooting, runbooks, operational playbooks, knowledge sharing, documentation",
+    "Leadership / Delivery": "Stakeholder communication, executive reporting, cross-functional collaboration, mentoring, requirements translation, strategic planning support"
+  },
+  "projects": [
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built a forecasting-oriented analytics workflow using Python, PySpark, Prophet, scikit-learn, and Streamlit to process infrastructure telemetry, prepare model-ready datasets, validate pipeline outputs, and deliver capacity insights.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit",
+        "Capacity Forecasting"
+      ]
+    },
+    {
+      "name": "Enterprise APM Reporting Automation",
+      "description": "Built Perl and KornShell/ksh automation for extracting, transforming, validating, and distributing performance telemetry across large CA APM enterprise monitoring environments.",
+      "technologies": [
+        "KornShell/ksh",
+        "Perl",
+        "Unix/Linux",
+        "CA APM",
+        "SQL",
+        "Automation",
+        "Monitoring"
+      ]
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a scalable AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet for raw infrastructure telemetry ingestion, transformation, curated analytics datasets, query optimization, and validation checkpoints.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "SQL"
+      ]
+    }
+  ]
+}

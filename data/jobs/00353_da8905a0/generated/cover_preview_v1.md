@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Data Engineer role with Syndesus in Frisco. The position aligns with my background in Python, SQL, PySpark/Spark, AWS data platforms, ETL/ELT pipelines, data quality, analytics datasets, forecasting, governance-aware documentation, troubleshooting, and mentoring.
+
+At Citi, I built Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, forecasting, and validation datasets. I used AWS services such as S3, Glue, Athena, and Redshift, built stakeholder-facing dashboards, documented operational workflows, and supported reliable production reporting in a regulated enterprise environment.
+
+Your role emphasizes data architecture, resilient ETL/ELT pipelines, structured and unstructured data, data lakes and warehouses, data quality frameworks, validation, monitoring, automated recovery strategies, ML/AI enablement, governance, PII handling, troubleshooting, performance optimization, stakeholder collaboration, and mentoring. My experience maps strongly through AWS/Python/PySpark data engineering, SQL optimization, validation and reconciliation workflows, ML-ready forecasting datasets, lineage-style documentation, observability, and production troubleshooting.
+
+I want to be direct about fit: my strongest production background is AWS Glue/S3/Athena/Redshift, Python, SQL, PySpark, data quality, and enterprise telemetry pipelines. Snowflake, Databricks, Kafka, Airflow, Kubernetes, DataOps/MLOps, and MCP are adjacent or active-learning areas for me rather than deep production ownership. Where I would bring immediate value is scalable pipeline delivery, data quality, governance-aware documentation, analytics enablement, troubleshooting, and mentoring.
+
+I would welcome the opportunity to discuss how my Python, AWS, PySpark, ETL/ELT, data quality, ML-ready dataset, and production troubleshooting background can support Syndesus and its data innovation work.
+
+Sincerely,
+Sean Luka Girgis

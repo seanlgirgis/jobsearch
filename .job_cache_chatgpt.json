@@ -1,10 +1,19 @@
 {
-    "documents_ready":  false,
-    "duplicate_checked_at":  "2026-05-06T17:03:45",
-    "applied":  false,
-    "accepted":  false,
-    "source_hint":  "Dice",
-    "pipeline":  "chatgpt",
-    "intake_file":  "intake\\intake.md",
-    "duplicate_checked":  true
+  "duplicate_checked_at": "2026-05-13T04:24:13",
+  "source_hint": "LinkedIn",
+  "uuid_short": "84348b41",
+  "uuid": "84348b41-6b3b-4f86-86e1-9eda48dce830",
+  "pipeline": "chatgpt",
+  "intake_file": "intake\\intake.md",
+  "accepted": true,
+  "job_id": "00385_84348b41",
+  "duplicate_checked": true,
+  "job_folder": "D:\\Workarea\\jobsearch\\data\\jobs\\00385_84348b41",
+  "created_at": "2026-05-13T04:23:57.901897",
+  "documents_ready": true,
+  "render_version": "v1",
+  "applied": true,
+  "applied_date": "2026-05-13",
+  "applied_method": "LinkedIn",
+  "index_refreshed_after_apply": true
 }

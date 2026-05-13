@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Alpha Business Solutions LLC\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data Engineer contract role with Alpha Business Solutions. The position aligns strongly with my background in Python, AWS S3, Airflow-style orchestration, ETL/ELT pipelines, structured and semi-structured data processing, data quality, and downstream analytics support.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable extraction, transformation, validation, querying, and stakeholder-facing reporting.",
+    "Your role emphasizes end-to-end data pipelines using Python, extracting data and documents from enterprise data stores, loading data into AWS S3 and Snowflake, processing structured and unstructured data, building tables and models for business applications, orchestrating workflows with Apache Airflow, and ensuring quality, scalability, and performance. My experience maps strongly through Python data pipeline development, AWS S3/Glue/Redshift patterns, SQL optimization, validation and reconciliation, workflow documentation, and support for downstream reporting consumers.",
+    "I want to be direct about fit: my strongest production warehouse experience is Redshift and Oracle, while Snowflake is transferable warehouse experience and active learning rather than deep production ownership. Where I would bring immediate value is Python/AWS data pipeline delivery, S3-based processing, ETL/ELT reliability, Airflow-style orchestration, data quality, performance troubleshooting, and practical support for business-facing analytics."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, AWS, S3, ETL/ELT, data quality, and orchestration background can support this remote data engineering engagement.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

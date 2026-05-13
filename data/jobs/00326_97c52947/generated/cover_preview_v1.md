@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Sr. AWS Data Engineer / Architect role with NetStrive Consulting. The position aligns strongly with my background in AWS data engineering, Glue/PySpark, S3 lakehouse patterns, SQL, data quality, metadata documentation, production troubleshooting, and AI-assisted engineering delivery.
+
+At Citi, I designed and supported AWS-oriented data platform components using S3, Glue, Athena, Redshift, Oracle, SQL, Python, and PySpark to transform telemetry from more than 6,000 infrastructure endpoints into curated reporting, analytics, and forecasting datasets. I also migrated heavier analytics workloads from on-prem Oracle patterns toward Redshift-backed processing and built validation, reconciliation, and operational support practices around those pipelines.
+
+Your role emphasizes production AWS lakehouse pipelines, Glue/PySpark or EMR Spark, S3-based architecture, SQL, data quality, metadata, governance, CI/CD-aware deployment, architecture validation, and use of AI tools to accelerate delivery. My experience maps well through AWS data platform design, PySpark ETL, SQL optimization, Parquet and partition-aware lakehouse patterns, data validation, metadata documentation, production troubleshooting, stakeholder collaboration, and AI-assisted development workflows.
+
+I want to be direct about fit: my strongest production background is AWS Glue/S3/Athena/Redshift with Python, SQL, and PySpark. CDK, dbt Core, Lake Formation, and event-driven AWS services such as Lambda, EventBridge, SQS, and Kinesis are active-learning or adjacent areas for me rather than deep production ownership. Where I would bring immediate value is hands-on AWS/PySpark data engineering, architecture-to-implementation translation, data quality and metadata discipline, production reliability, and using AI responsibly to increase delivery speed.
+
+I would welcome the opportunity to discuss how my AWS, Glue/PySpark, SQL, lakehouse, data quality, and AI-assisted engineering background can support NetStrive's modern AWS lakehouse buildout.
+
+Sincerely,
+Sean Luka Girgis

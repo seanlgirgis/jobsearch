@@ -1,0 +1,164 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Banking Data Analyst | SQL, Python, Data Profiling, MIS Reporting & Controls"
+  },
+  "summary": "Senior banking technology and data professional with 20+ years of enterprise experience across SQL, Python, data profiling, data management, MIS-style reporting, Excel-based analysis, production data validation, risk/control awareness, audit-style documentation, automation, and stakeholder communication. Strong background analyzing complex operational datasets, identifying data quality gaps, validating reporting outputs, automating repetitive checks, and translating technical findings into clear business insights for financial-services teams. Best aligned to banking data analyst and reporting roles requiring SQL, Python, data profiling, MIS reporting, process improvement, control-gap identification, Excel/PowerPoint communication, and production data validation; SAS, Teradata, VBA, Tableau, and Cognos are positioned carefully as adjacent or learning areas rather than overstated production ownership.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Analyzed large banking infrastructure datasets using SQL, Python, Pandas, and PySpark to generate reporting outputs, business insights, forecasting views, and operational recommendations.",
+        "Built data profiling and validation workflows across 6,000+ infrastructure endpoints to identify missing feeds, inconsistent metrics, unmatched records, abnormal trends, and reporting discrepancies.",
+        "Developed MIS-style capacity and performance reports that translated complex utilization, risk, and trend data into clear views for technical teams and senior stakeholders.",
+        "Implemented data quality, reconciliation, and control-style checks across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, and AWS-backed reporting layers.",
+        "Identified process gaps and automated redundant manual reporting checks using SQL, Python, Pandas, and repeatable validation workflows.",
+        "Optimized SQL queries, Oracle schemas, Redshift workloads, indexes, views, and reporting data models for performance, accuracy, and maintainability.",
+        "Documented data flows, metric definitions, validation checkpoints, control notes, issue findings, and support procedures to improve auditability and knowledge transfer.",
+        "Partnered with infrastructure, analytics, application, engineering, and business teams to explain findings, resolve data issues, and improve reporting accuracy."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Analyzed Dynatrace AppMon and Gomez Synthetic Monitoring datasets to identify trends, data quality issues, and performance improvement opportunities.",
+        "Built dashboards and reporting views that converted raw monitoring data into actionable insights for business and engineering stakeholders.",
+        "Led the FAST project, using real-user and synthetic monitoring data to identify optimization opportunities and communicate findings to technical teams.",
+        "Collaborated with application and infrastructure teams to validate findings, document issues, and support practical performance improvements."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Supported a large financial-services monitoring environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Built Perl and KornShell automation for extracting, profiling, validating, transforming, and distributing performance data, replacing manual reporting workflows with repeatable processes.",
+        "Designed dashboards, alert rules, SLA thresholds, reporting standards, and technical documentation used by support, infrastructure, and application teams.",
+        "Provided troubleshooting guidance, training material, onboarding support, and knowledge sharing to improve monitoring and reporting adoption."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Developed and executed performance test plans for enterprise telecom applications, including baseline comparisons, regression review, and release-readiness analysis.",
+        "Analyzed application behavior under load to identify throughput limits, SQL/JDBC bottlenecks, CPU, memory, thread, and garbage-collection issues.",
+        "Documented test results, expected behavior, defects, risks, and recommendations for engineering and release teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration validation for a high-throughput shopping engine moving from 200+ MySQL nodes to a 6-node Oracle RAC cluster.",
+        "Built validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Supported phased cutover, troubleshooting, documentation, and production-readiness activities for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.",
+        "Built CICS, MQ Series, XML messaging interfaces, and DB2-backed components in a government modernization environment.",
+        "Supported technical design documentation, integration patterns, and structured data exchange across modernization components."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, customer-management, and financial-style operational interfaces using Oracle, PL/SQL, C/C++, Pro*C, SQL scripts, XML, and messaging patterns.",
+        "Built automation scripts in KornShell/ksh, Perl, Awk, Syncsort, and SQL to support data extraction, transformation, reporting, deployments, and production housekeeping.",
+        "Provided production support, defect investigation, data maintenance, issue escalation, and troubleshooting for telecom billing and customer-management applications.",
+        "Improved database performance by 10x through SQL, sequence, and process optimization while reducing memory usage by 75%."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Data Analysis": "Data profiling, data management, data validation, trend analysis, issue identification, business insight generation, MIS-style reporting",
+    "SQL / Databases": "Advanced SQL, Oracle, Amazon Redshift, MySQL, PostgreSQL concepts, DB2, RDBMS concepts, query optimization, Teradata awareness",
+    "Python / Automation": "Python, Pandas, PySpark, scripting, automated validation checks, reporting automation, redundancy reduction, false-positive reduction",
+    "Banking / Controls": "Banking technology, risk/control awareness, audit-style documentation, control-gap identification, operational reporting, regulated environments",
+    "Reporting / Office": "Excel, pivot table concepts, VLOOKUP concepts, PowerPoint, dashboard-ready datasets, executive reporting, structured management communication",
+    "Data Quality": "Completeness checks, consistency checks, correctness checks, reconciliation, source-to-target validation, anomaly detection, data issue RCA",
+    "Tools / Collaboration": "Jira concepts, Bitbucket/Git concepts, SharePoint concepts, Tableau/Cognos awareness, documentation, stakeholder communication",
+    "Unix / Scripting": "Unix/Linux, KornShell/ksh, Perl, Awk, shell scripting, data extraction automation, operational housekeeping",
+    "Big Data Adjacent": "PySpark, Spark concepts, AWS S3/Glue/Athena/Redshift, big-data exposure, ETL/ELT pipelines",
+    "Soft Skills": "Clear communication, process management, problem solving, stakeholder collaboration, management-ready presentation, interpersonal communication"
+  },
+  "projects": [
+    {
+      "name": "Production Data Quality and RCA Workflow",
+      "description": "Built validation and reconciliation workflows for production reporting datasets, including row-count checks, null checks, missing feed diagnosis, unmatched join checks, and issue documentation.",
+      "technologies": [
+        "SQL",
+        "Python",
+        "Pandas",
+        "Data Profiling",
+        "Data Validation",
+        "RCA"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Capacity Forecasting and MIS Reporting",
+      "description": "Built Python/Pandas/PySpark workflows to process infrastructure telemetry, validate outputs, prepare forecasting datasets, and produce actionable reporting for capacity and risk discussions.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "PySpark",
+        "SQL",
+        "Forecasting",
+        "Reporting"
+      ]
+    },
+    {
+      "name": "Enterprise APM Reporting Automation",
+      "description": "Built Perl and KornShell automation for extracting, profiling, validating, and distributing performance telemetry across large financial-services monitoring environments.",
+      "technologies": [
+        "KornShell/ksh",
+        "Perl",
+        "Unix/Linux",
+        "CA APM",
+        "SQL",
+        "Automation"
+      ]
+    }
+  ]
+}

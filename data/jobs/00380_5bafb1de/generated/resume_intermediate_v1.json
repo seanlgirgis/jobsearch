@@ -1,0 +1,173 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Analytics / Forecasting Manager | Dashboards, KPIs, Capacity Planning & Executive Insights"
+  },
+  "summary": "Senior analytics, forecasting, and enterprise reporting professional with 20+ years of experience turning operational data into trusted dashboards, KPIs, forecasts, and executive-ready insights. Strong background building reporting logic, validating data quality, analyzing performance trends, identifying bottlenecks and root causes, and partnering with technical and business stakeholders to guide planning and decision-making. Best aligned to analytics leadership roles requiring dashboard ownership, KPI governance, trusted reporting, forecasting models, capacity planning, root-cause analysis, automation, self-service reporting, and clear communication; Growth, Marketing, Sales funnel analytics, demand generation, lead conversion, demo rates, and revenue funnel ownership are positioned as transferable business analytics areas rather than direct prior domain ownership.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built enterprise dashboards and reporting workflows that transformed telemetry from 6,000+ infrastructure endpoints into trusted KPIs, forecasts, capacity views, and decision-support datasets.",
+        "Partnered with infrastructure, application, analytics, engineering, and business stakeholders to translate operational questions into metrics, data requirements, reporting logic, and actionable insights.",
+        "Developed Python/Pandas/PySpark and SQL workflows to analyze performance trends, identify capacity constraints, surface risks, and support planning conversations with technical and senior stakeholders.",
+        "Built forecasting-ready datasets and models using Prophet, scikit-learn, Python, SQL, and telemetry data to support forward-looking capacity planning and risk discussions.",
+        "Created validation and reconciliation checks for row counts, nulls, duplicates, freshness, abnormal deltas, and output comparisons to ensure reporting was accurate, timely, and trusted.",
+        "Analyzed underperformance, bottlenecks, utilization patterns, and trend changes to identify root causes and recommend practical operational improvements.",
+        "Documented metric definitions, reporting logic, data flows, validation rules, runbooks, and stakeholder notes to improve transparency and repeatability.",
+        "Presented complex technical findings in clear business language, helping stakeholders understand trends, risks, tradeoffs, and recommended actions."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Built dashboards and reporting views from Dynatrace AppMon and Gomez Synthetic Monitoring data for Brand.com and critical hospitality systems.",
+        "Led the FAST project, analyzing real-user and synthetic monitoring metrics to identify customer-impacting performance trends and optimization opportunities.",
+        "Translated monitoring and performance data into actionable insights for business, application, and infrastructure stakeholders.",
+        "Collaborated with engineering teams to validate findings, document issues, and support practical improvements to customer-facing performance."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Supported a large financial-services monitoring and reporting environment with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents.",
+        "Designed dashboards, alert rules, SLA thresholds, reporting standards, and documentation used by support, infrastructure, application, and operations teams.",
+        "Built Perl and KornShell automation for extracting, validating, transforming, and distributing performance data, replacing manual reporting workflows with repeatable analytics processes.",
+        "Provided training, onboarding, knowledge transfer, and stakeholder support to improve adoption of reporting and monitoring standards."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Developed and executed performance test plans for enterprise telecom applications, including baseline comparisons, regression review, and release-readiness analysis.",
+        "Analyzed application behavior under load to identify throughput limits, SQL/JDBC bottlenecks, CPU, memory, thread, and garbage-collection issues.",
+        "Documented test results, expected behavior, defects, risks, and recommendations for engineering and release teams."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration validation and reporting analysis for a high-throughput shopping engine moving from 200+ MySQL nodes to a 6-node Oracle RAC cluster.",
+        "Built validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Supported phased cutover, troubleshooting, documentation, and production-readiness activities for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.",
+        "Built CICS, MQ Series, XML messaging interfaces, and DB2-backed components in a government modernization environment.",
+        "Supported technical design documentation, integration patterns, and structured data exchange across modernization components."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported billing, customer-management, and financial-style operational interfaces using Oracle, PL/SQL, C/C++, Pro*C, SQL scripts, XML, and messaging patterns.",
+        "Built automation scripts in KornShell/ksh, Perl, Awk, Syncsort, and SQL to support data extraction, transformation, reporting, deployments, and production housekeeping.",
+        "Provided production support, defect investigation, data maintenance, issue escalation, and troubleshooting for telecom billing and customer-management applications."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Analytics Leadership": "KPI definition, performance reporting, trend analysis, root-cause analysis, operational insights, executive storytelling, stakeholder alignment",
+    "Dashboards / Reporting": "Dashboard ownership, reporting logic, trusted reporting, self-service reporting concepts, automation, KPI views, stakeholder-ready summaries",
+    "Forecasting / Planning": "Capacity planning, demand forecasting concepts, scenario modeling, trend forecasting, re-forecasting support, forward-looking risk analysis",
+    "Data Quality / Governance": "Data validation, reconciliation, metric definitions, source-of-truth reporting, reporting controls, data quality checks, auditability",
+    "Technical Analytics": "SQL, Python, Pandas, PySpark, Oracle, Amazon Redshift, data modeling, query optimization, reporting datasets",
+    "Business Translation": "Technical-to-business communication, leadership reporting, requirements clarification, cross-functional collaboration, decision-support analytics",
+    "Operations Analytics": "Performance trends, capacity constraints, bottleneck analysis, risk surfacing, process improvement, operational performance measurement",
+    "Growth Analytics Adjacent": "Lead funnel awareness, conversion-rate concepts, sales capacity concepts, appointment/demo funnel awareness, revenue forecasting awareness",
+    "Tools / Platforms": "Dynatrace, Gomez Synthetic Monitoring, CA APM, BMC TrueSight/TSCO, AppDynamics, Excel concepts, BI/dashboarding concepts",
+    "Delivery": "Documentation, stakeholder workshops, Agile concepts, roadmap/enhancement support, defect prioritization, training, mentoring"
+  },
+  "projects": [
+    {
+      "name": "Enterprise Capacity Analytics Dashboarding",
+      "description": "Built stakeholder-facing dashboards and reporting datasets that translated infrastructure telemetry into capacity, performance, trend, and risk insights for business and technology teams.",
+      "technologies": [
+        "SQL",
+        "Python",
+        "Pandas",
+        "PySpark",
+        "Dashboards",
+        "Forecasting"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 Forecasting and Planning Engine",
+      "description": "Built Python/Pandas/PySpark workflows to process telemetry, validate outputs, prepare forecasting datasets, and produce trusted capacity and risk reporting.",
+      "technologies": [
+        "Python",
+        "Pandas",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn"
+      ]
+    },
+    {
+      "name": "Production Data Quality and Reporting Controls",
+      "description": "Built validation and reconciliation workflows for reporting datasets, including row-count checks, null checks, missing feed diagnosis, unmatched join checks, and prior-run comparisons.",
+      "technologies": [
+        "SQL",
+        "Python",
+        "Pandas",
+        "Data Validation",
+        "Reporting",
+        "RCA"
+      ]
+    },
+    {
+      "name": "FAST Performance Analytics Project",
+      "description": "Analyzed real-user and synthetic monitoring data to identify optimization opportunities and communicate actionable performance findings to engineering teams.",
+      "technologies": [
+        "Dynatrace AppMon",
+        "Gomez Synthetic Monitoring",
+        "Performance Analytics",
+        "Dashboards"
+      ]
+    }
+  ]
+}

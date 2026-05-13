@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 11, 2026",
+    "employer_address": "Motion Recruitment Partners, LLC\nIrving, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Engineer contract role in Irving. The position aligns with my background in Python, SQL, PySpark, data lake and data warehouse pipelines, SQL optimization, performance tuning, data modeling, and stakeholder-facing delivery.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and cloud-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation, querying, and business-facing reporting.",
+    "Your role emphasizes data lake infrastructure, data warehousing, Azure cloud data engineering, SQL/Python/PySpark, distributed ingestion and processing, pipeline tuning, data modeling, and collaboration with product managers, analysts, architects, and business stakeholders. My experience maps well through ETL modernization, SQL optimization, performance-oriented schemas, validation workflows, production troubleshooting, documentation, and translating business needs into practical technical specifications.",
+    "I want to be direct about fit: my strongest production cloud background is AWS rather than Azure, and my Databricks, Data Factory, Azure ML, Power BI, and Dataiku exposure is adjacent or learning-level. Where I would bring immediate value is Python/PySpark and SQL data engineering, data lake and warehouse delivery, pipeline optimization, data modeling, stakeholder communication, and reliable execution for enterprise data workflows."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, SQL, PySpark, data warehousing, pipeline tuning, and data modeling background can support this Irving data engineering engagement.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Infosys\nIrving, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Hadoop and PySpark Lead Developer role with Infosys in Irving, TX. The position aligns with my background in PySpark/Spark, SQL, Python, shell scripting, batch data pipelines, performance troubleshooting, data quality, dimensional modeling, and enterprise-scale delivery.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also developed repeatable validation, reconciliation, SQL optimization, and operational support practices to keep pipeline outputs reliable and trusted.",
+    "Your role emphasizes Big Data, Spark/PySpark, SQL, Python, shell scripting, Hadoop/HDFS architecture, Hive-style processing, batch pipelines, performance troubleshooting, data integration, data quality, data architecture, dimensional modeling, and governance. My experience maps strongly to PySpark data engineering, SQL-heavy transformation work, Unix/Linux automation, large-scale telemetry processing, pipeline troubleshooting, data quality controls, and stakeholder-facing delivery.",
+    "I want to be direct about fit: my strongest recent production lane is AWS/PySpark/SQL data engineering and enterprise telemetry pipelines, not deep Cloudera platform administration. Confluent Kafka, HBase, Impala, AutoSys, Elasticsearch, and Cloudera cluster configuration are adjacent or learning areas for me rather than deep production ownership. Where I would bring immediate value is PySpark/SQL/Python delivery, batch pipeline reliability, performance analysis, data quality, documentation, and leading practical enterprise data engineering work."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my PySpark, SQL, Python, shell scripting, data quality, and enterprise data engineering background can support Infosys client delivery in Irving.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

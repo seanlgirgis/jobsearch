@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Python AWS Developer / Technology Consultant role with Infosys Financial Services in Richardson. The position aligns with my background in Python, AWS data workflows, financial-services production environments, SDLC delivery, database development, testing, documentation, production issue resolution, and AI-assisted development.
+
+At Citi, I built and supported Python, SQL, Pandas, PySpark, and AWS-oriented workflows that ingested telemetry from more than 6,000 infrastructure endpoints and transformed operational data into curated reporting, analytics, forecasting, and validation datasets. I worked with AWS S3, Glue, Athena, Redshift, Oracle, SQL, and production monitoring tools to support scalable data workflows, query optimization, troubleshooting, and reliable business-facing reporting.
+
+Your role emphasizes requirements documentation, application design discussions, coding, integration, code reviews, testing, production issue resolution, user/support documentation, Python, AWS cloud development, AI-assisted development tools, database development with Oracle/MySQL/Sybase, and SOAP/RESTful integrations. My experience maps strongly through Python/AWS delivery, financial-services production support, SQL/database work, technical documentation, validation, troubleshooting, and cross-functional communication.
+
+I want to be direct about fit: my strongest production background is Python, SQL, AWS data/platform workflows, Oracle/Redshift, production reliability, testing, documentation, and financial-services environments. Modern web technologies, Java, JavaScript, and broad full-stack application ownership are adjacent or earlier-career/working-knowledge areas rather than my deepest recent ownership. Where I would bring immediate value is Python/AWS development, production support, SDLC discipline, database troubleshooting, documentation, and AI-assisted engineering practices.
+
+I would welcome the opportunity to discuss how my Python, AWS, financial-services, SDLC, testing, and production support background can support Infosys Financial Services clients.
+
+Sincerely,
+Sean Luka Girgis

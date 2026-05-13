@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Senior Data Engineer role with LanceSoft. The position aligns strongly with my background in AWS Redshift, Glue, S3, Python, PySpark, ETL/ELT validation, data quality, reconciliation, production troubleshooting, and pipeline reliability.
+
+At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation, validation, and stakeholder-facing reporting.
+
+Your role emphasizes end-to-end data validation, ingestion accuracy, transformation integrity, Redshift serverless testing, Glue, DMS, PySpark Deequ, Airflow, dbt validation, Python-based pipelines, and data quality across AWS data engineering workflows. My experience maps strongly to ETL validation, SQL optimization, reconciliation, production issue investigation, transformation documentation, test coverage thinking, and collaboration across data engineering, BI, DevOps, product, and architecture teams.
+
+I want to be direct about fit: my strongest production background is AWS Glue/S3/Athena/Redshift with Python, SQL, PySpark, and data validation. dbt, CDK, DMS, PySpark Deequ, EventBridge, Step Functions, SNS/SQS, QuickSight, Node.js, and GenAI are adjacent or active-learning areas for me rather than deep production ownership. Where I would bring immediate value is practical data QA, ETL validation, automated checks, pipeline reliability, SQL troubleshooting, and high-quality data deliverables.
+
+I would welcome the opportunity to discuss how my AWS, Python, PySpark, SQL, ETL validation, data quality, and production support background can support LanceSoft's Redshift and data platform testing work.
+
+Sincerely,
+Sean Luka Girgis

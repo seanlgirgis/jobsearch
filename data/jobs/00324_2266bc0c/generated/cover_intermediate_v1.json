@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Randstad Digital\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the remote PySpark/Data Engineer role with Randstad Digital for the healthcare analytics client. The position aligns with my background in Python, SQL, PySpark, ETL, high-volume data processing, data validation, statistical reporting, testing support, and production issue resolution.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and cloud-oriented ETL pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also created validation checks, reconciliation workflows, SQL reporting structures, and production support documentation to improve trust and maintainability across data products.",
+    "Your role emphasizes ETL scripts, tools, queries, healthcare data management, data validation, statistical report generation, unit and integration testing, SQL performance tuning, Hadoop/Spark/Hive/Python, and large-volume data processing. My experience maps well through high-volume ETL delivery, SQL optimization, PySpark processing, validation workflows, reporting datasets, production troubleshooting, requirements analysis, and detailed design documentation.",
+    "I want to be direct about fit: my strongest domain background is regulated banking infrastructure telemetry rather than healthcare claims, and my Cloudera ecosystem exposure is stronger around Hadoop/Hive/Spark concepts than hands-on Impala, Hue, Oozie, Yarn, Sqoop, and Kafka production ownership. Where I would bring immediate value is Python/PySpark and SQL data engineering, ETL maintainability, high-volume processing, validation, testing discipline, and reliable issue resolution for internal and external customers."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, SQL, PySpark, ETL, data validation, and production support background can support this healthcare analytics data engineering engagement.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

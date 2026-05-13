@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Sr. Data Engineer role with HCL Global System in Westlake, TX. The position aligns with my background in AWS, S3, Glue, Lambda concepts, SQL, Python, data pipelines, data migration, data quality, validation testing, CI/CD concepts, Agile delivery, and financial services technology.
+
+At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation, validation, and stakeholder-facing reporting.
+
+Your role emphasizes Snowflake data migration, SQL, Python, AWS S3, Lambda, Glue, robust data pipelines, data quality, validation testing, CI/CD, Agile delivery, and financial services experience. My experience maps strongly to the AWS, SQL, Python, data migration, pipeline validation, financial services, and stakeholder collaboration portions of the role.
+
+I want to be direct about fit: my strongest production warehouse background is Redshift, Oracle, and AWS lakehouse-style processing rather than deep production Snowflake ownership. Snowflake is an active self-study and transferable warehouse area for me. Where I would bring immediate value is AWS/Python/SQL data engineering, pipeline reliability, data quality, validation, migration discipline, and practical delivery in a financial services environment.
+
+I would welcome the opportunity to discuss how my AWS, SQL, Python, data migration, data quality, and financial services data engineering background can support this Westlake data analytics team.
+
+Sincerely,
+Sean Luka Girgis

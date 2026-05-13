@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 11, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Lead Data Engineer W2 contract role with ConnectedX in Plano. The position aligns with my background in AWS data platforms, Spark/PySpark, SQL, ETL modernization, data modeling, data quality, stakeholder delivery, and technical leadership.
+
+At Citi, I led and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation and business-facing reporting.
+
+Your role emphasizes scalable data pipelines, Spark, AWS, ETL migration, data quality, governance, performance optimization, stakeholder communication, and technical leadership. My experience maps well to those areas through ETL modernization, SQL optimization, data validation, reporting-layer design, production troubleshooting, runbook creation, and cross-functional delivery across infrastructure, application, analytics, and stakeholder teams.
+
+I want to be direct about fit: my strongest Spark background is PySpark and Spark SQL concepts rather than Scala-heavy production development, and my Databricks, Workday HCM, and Informatica exposure is adjacent or learning-level. Where I would bring immediate value is in AWS/Spark data engineering, SQL, ETL modernization, data quality, documentation, production reliability, and leading practical delivery for business-facing data pipelines.
+
+I would welcome the opportunity to discuss how my AWS, Spark/PySpark, SQL, ETL, data quality, and technical leadership background can support ConnectedX's Plano data engineering initiative.
+
+Sincerely
+Sean Luka Girgis

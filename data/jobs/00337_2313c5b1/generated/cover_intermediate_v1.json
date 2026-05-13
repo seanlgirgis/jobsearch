@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Sparks Group\nDallas, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Engineer (AI & Cloud Platforms) role with Sparks Group in Dallas. The position aligns with my background in AWS data platforms, Python, SQL, PySpark, ETL/ELT pipelines, data lakes and warehouses, forecasting datasets, and AI-ready data workflows.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation, validation, and stakeholder-facing reporting.",
+    "Your role emphasizes modern cloud data platforms, ETL/ELT, data lakes, warehouses, lakehouses, AWS services such as S3, Glue, Athena, and Redshift, AI/ML integration, feature pipelines, LLM/vector database exposure, orchestration, automation, and stakeholder communication. My experience maps strongly through AWS/Python/SQL data engineering, PySpark pipelines, data quality, model-ready forecasting datasets, RAG-style project work, and practical delivery for technical and business teams.",
+    "I want to be direct about fit: my strongest production background is AWS Glue/S3/Athena/Redshift with Python, SQL, and PySpark. Terraform, dbt, Snowflake, Databricks, BigQuery, and broader multi-cloud are adjacent or active-learning areas for me rather than deep production ownership. Where I would bring immediate value is AWS data pipeline delivery, ETL reliability, SQL and Python transformation work, data quality, AI-ready data foundations, and client-facing communication."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my AWS, Python, SQL, PySpark, ETL/ELT, forecasting, and AI-ready data engineering background can support Sparks Group's cloud and AI platform initiatives.",
+  "sign_off": "Sincerely\nSean Luka Girgis"
+}

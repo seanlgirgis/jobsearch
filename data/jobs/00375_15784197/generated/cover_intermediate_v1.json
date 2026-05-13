@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Experion Technologies\nPlano, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Data Engineer contract role with Experion Technologies in Plano. The position aligns well with my background in Python, SQL, ETL/ELT, data lake and warehouse patterns, Airflow/orchestration concepts, API-based data workflows, data modeling, query performance tuning, production pipelines, and technical mentorship.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, Pandas, PySpark, and AWS-oriented pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw data into curated reporting, analytics, forecasting, and validation datasets. I designed warehouse-backed reporting structures using Oracle, Redshift, AWS S3, Glue, and Athena, with strong emphasis on data quality, reconciliation, performance tuning, documentation, and production reliability.",
+    "Your role emphasizes backend data engineering, production-grade pipelines, data lakes, data warehouses, data marts, APIs, REST, XML/JSON formats, ETL/ELT, Airflow, dbt, cloud-native data warehouses, strong SQL, data modeling, CI/CD practices, testing, rapid POCs, architecture/design, and mentorship. My experience maps strongly through scalable Python/SQL pipelines, PySpark/Spark processing, data quality controls, API/data integration concepts, warehouse design, performance optimization, documentation, and cross-functional technical leadership.",
+    "I want to be direct about fit: my strongest production stack is AWS, Python, SQL, PySpark, Oracle, Redshift, ETL, and production reporting reliability. Azure ADF/ADLS, Microsoft SQL Server, dbt, Snowflake, Databricks, BigQuery, SSAS/SSRS, Power BI, Tableau, and proptech domain data are adjacent or transferable areas for me rather than long-term production ownership. Where I would bring immediate value is data pipeline delivery, SQL performance tuning, data architecture, validation, documentation, and mentoring junior engineers."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my senior data engineering, Python/SQL, ETL/ELT, data modeling, production pipeline, and technical mentorship background can support Experion's client work.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

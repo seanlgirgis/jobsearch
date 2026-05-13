@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Hudson Data LLC\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Python Developer role with Hudson Data. The position aligns with my background in Python, Pandas, SQL, Unix/Linux, data ingestion, data integration, troubleshooting, production support, and regulated financial-services technology.",
+  "body": [
+    "At Citi, I built Python, Pandas, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational feeds into curated reporting, analytics, forecasting, and validation datasets. I also supported production stability through validation checks, reconciliation, runbooks, troubleshooting, documentation, and collaboration with infrastructure, application, analytics, and business teams.",
+    "Your role emphasizes production Python, NumPy/Pandas, SQL, REST APIs, data structures and algorithms, Unix environments, data ingestion and integration platforms, system stability, release support, version control, and financial industry experience. My experience maps strongly to Python/Pandas data workflows, SQL-heavy processing, Unix/KornShell automation, financial-services delivery, production troubleshooting, and maintaining reliable data systems.",
+    "I want to be direct about fit: my deepest production background is data engineering, automation, and financial-services data platforms rather than dedicated quantitative-investing infrastructure. FastAPI, async/await, and microservice architecture are active-learning or adjacent areas for me. Where I would bring immediate value is Python/SQL data processing, ingestion reliability, Unix-based support, troubleshooting, documentation, release discipline, and practical problem solving in a financial environment."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, Pandas, SQL, Unix, data ingestion, and financial-services production support background can support Hudson Data's remote engineering needs.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

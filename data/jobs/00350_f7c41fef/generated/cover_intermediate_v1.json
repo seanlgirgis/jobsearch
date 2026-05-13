@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Toyota Financial Services\nPlano, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Senior Software Engineer role with Toyota Financial Services in Plano. The role aligns with my background in Python, AWS data platforms, SQL, data engineering, GenAI/RAG project work, Streamlit dashboards, observability, documentation, and regulated financial-services delivery.",
+  "body": [
+    "At Citi, I built Python, SQL, PySpark, and AWS-oriented pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, forecasting, and validation datasets. I used AWS services such as S3, Glue, Athena, and Redshift, built stakeholder-facing dashboards, documented operational workflows, and supported reliable production reporting for financial-services technology teams.",
+    "Your role emphasizes Python, AWS, RESTful APIs, FastAPI/OpenAPI, GenAI and RAG integration, vector search, AWS services, CI/CD, testing, observability, documentation, and collaboration with data scientists, architects, business stakeholders, and governance teams. My experience maps strongly through Python data workflows, AWS-based data engineering, SQL, telemetry and observability, Streamlit dashboards, RAG/vector-search project work, quality gates, documentation, and practical delivery in a regulated finance environment.",
+    "I want to be direct about fit: my strongest production background is Python/AWS data engineering, observability, analytics, and reporting rather than long-term production ownership of FastAPI microservices, ECS Fargate, API Gateway, Terraform/CloudFormation, OAuth/JWT, or Bedrock SDK integrations. Those areas are active-learning and adjacent to recent project work. Where I would bring immediate value is Python/AWS delivery, AI-ready data foundations, RAG support, dashboarding, observability, documentation, and disciplined collaboration with engineering and data teams."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, AWS, SQL, GenAI/RAG project exposure, observability, and financial-services data engineering background can support Toyota Financial Services' AI-powered platform initiatives.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 13, 2026",
+    "employer_address": "CarMax\nPlano, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Sr. Software Engineer - Backend role with CarMax in Plano. The position aligns with my background in Python backend/data workflows, APIs and integrations, AWS cloud patterns, relational databases, production support, system reliability, mentoring, and collaboration with data and AI/ML teams.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, Pandas, PySpark, and AWS-oriented workflows that ingested telemetry from more than 6,000 infrastructure endpoints and transformed operational data into curated reporting, analytics, forecasting, and validation datasets. These systems integrated multiple internal platforms and monitoring feeds, required reliable production behavior, and supported stakeholders who depended on accurate outputs for operational decisions.",
+    "Your role emphasizes backend services and APIs, object-oriented backend engineering, scalable and reliable system design, distributed systems, cloud platforms, databases, production troubleshooting, code quality, performance, security, mentoring, and collaboration with AI/ML and data teams. My experience maps strongly through Python-driven platform workflows, API/data integration concepts, AWS data workflows, SQL/database-backed systems, production support, reliability-minded delivery, documentation, and AI/ML-adjacent forecasting work.",
+    "I want to be direct about fit: my strongest recent production work is Python data/platform engineering, API-style system integration, SQL, AWS, PySpark, production reliability, and troubleshooting rather than pure Java/.NET product-service ownership. Where I would bring immediate value is backend/data system reliability, Python development, complex-system debugging, database-aware design, cross-team communication, and practical support for data-driven and AI/ML-enabled business capabilities."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, APIs, AWS, databases, production support, and data/AI workflow background can support CarMax's backend engineering team.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

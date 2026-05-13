@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "AVA Consulting\nPlano, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Production Engineer / Site Reliability Engineer role with AVA Consulting in Plano. The position aligns with my background in production support, monitoring, incident response, RCA, capacity planning, Python automation, Oracle/SQL, data pipeline reliability, and operational documentation.",
+  "body": [
+    "At Citi, I supported production monitoring, capacity, and data reliability workflows across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and large-scale infrastructure telemetry sources. I built Python, SQL, Pandas, and PySpark pipelines that transformed telemetry from more than 6,000 infrastructure endpoints into validated dashboards, reports, forecasting datasets, and executive insights.",
+    "Your role emphasizes end-to-end operational ownership, monitoring, incident response, root cause analysis, capacity planning, automation, Oracle, Python, SQL/PLSQL, data pipelines, validation, query performance, database health, CI/CD collaboration, and production reliability. My experience maps strongly through Python/SQL production workflows, Oracle/Redshift query optimization, data validation, pipeline troubleshooting, monitoring/APM, capacity forecasting, runbooks, and cross-functional production support.",
+    "I want to be direct about fit: my strongest production background is Python, Oracle/SQL, data reliability, observability, capacity/performance, and production troubleshooting. Snowflake Developer depth, Java/Spring Boot microservices, SAP FI/CO, ABAP, SAP Solution Manager, and deep Jenkins/Azure DevOps ownership are adjacent or learning areas for me rather than long-term production ownership. Where I would bring immediate value is monitoring, RCA, data pipeline support, SQL/PLSQL analysis, automation, documentation, and practical operational reliability."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my production engineering, Python, Oracle/SQL, monitoring, RCA, capacity planning, and data pipeline reliability background can support AVA Consulting's Plano client.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

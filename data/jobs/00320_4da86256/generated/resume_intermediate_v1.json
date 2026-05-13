@@ -1,0 +1,164 @@
+{
+  "personal": {
+    "full_name": "Sean Luka Girgis",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "linkedin": "https://www.linkedin.com/in/sean-girgis-43bb1b5/",
+    "github": "https://github.com/seanlgirgis",
+    "personal_website": "https://seanlgirgis.github.io",
+    "preferred_title": "Lead Data Engineer | AWS Lakehouse Migration, Spark/PySpark, SQL & Data Quality"
+  },
+  "summary": "Lead Data Engineer with 20+ years of enterprise technology experience and strong hands-on background in AWS data platforms, Python, SQL, Spark/PySpark, ETL/ELT, on-prem to cloud migration, data reconciliation, data quality validation, Hadoop/Hive concepts, Parquet-based lakehouse patterns, and production reporting systems. Experienced refactoring legacy reporting and data workflows into scalable cloud analytics patterns using S3, Glue, Athena, Redshift, Oracle, SQL optimization, partition-aware design, and documented validation processes. Best aligned to AWS lakehouse migration roles requiring practical delivery, stakeholder validation, pipeline troubleshooting, and trustworthy data products; Snowflake, Apache Iceberg, Kafka, Kubernetes, Avro, and Sybase IQ are positioned as adjacent or learning areas rather than overstated production ownership.",
+  "experience": [
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built Python/Pandas/PySpark ETL pipelines ingesting telemetry from 6,000+ infrastructure endpoints and transforming raw operational data into curated datasets for reporting, analytics, and forecasting.",
+        "Designed AWS-based data platform components using S3 landing zones, AWS Glue, Athena, Redshift, Oracle, SQL, and PySpark to support scalable transformation, querying, and stakeholder-facing data products.",
+        "Migrated heavy forecasting and analytics workloads from on-prem Oracle patterns toward AWS/Redshift-backed processing, improving scalability and enabling cloud-based reporting workflows.",
+        "Refactored legacy manual reporting workflows into repeatable ETL processes with documented extraction logic, validation checkpoints, and operational support steps.",
+        "Built data reconciliation and quality validation practices across BMC TrueSight, CA Wily, AppDynamics, Oracle, and AWS-backed reporting layers to improve trust in pipeline outputs.",
+        "Applied Parquet, partitioning concepts, historical retention, schema design, and SQL optimization patterns to improve large-scale data processing and reporting access.",
+        "Translated business and infrastructure requirements into technical designs, SQL reporting structures, dashboards, and curated data layers for technical and non-technical stakeholders.",
+        "Troubleshot production data pipeline issues, validated outputs, documented runbooks, and coordinated with cross-functional teams for sign-off and operational readiness."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Developed analytics and reporting outputs from Dynatrace AppMon and Gomez Synthetic Monitoring data for Brand.com and critical hospitality systems.",
+        "Led the FAST project, mining real-user and synthetic performance metrics to identify optimization opportunities and communicate findings to engineering teams.",
+        "Built dashboards and operational reporting views that converted raw monitoring data into actionable performance and reliability insights.",
+        "Supported AWS cloud migration planning by evaluating monitoring readiness, transaction visibility, and data/reporting needs."
+      ]
+    },
+    {
+      "company": "CA Technologies / TIAA-CREF",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Managed enterprise telemetry environments with 50+ Enterprise Managers and 4,000\u20136,000 instrumented agents, supporting reporting, monitoring, and operational analytics.",
+        "Built Perl and Korn shell automation for extracting, transforming, and distributing performance data, replacing manual exports with repeatable reporting workflows.",
+        "Designed dashboards, alert logic, SLA thresholds, technical documentation, and reusable reporting standards adopted across client environments.",
+        "Partnered with J2EE, WebLogic, infrastructure, database, and operations teams to interpret data, troubleshoot bottlenecks, and improve production visibility."
+      ]
+    },
+    {
+      "company": "AT&T",
+      "title": "Performance Test Engineer",
+      "start_date": "2010-08",
+      "end_date": "2011-07",
+      "bullets": [
+        "Analyzed enterprise telecom applications under load to identify throughput limits, SQL/JDBC bottlenecks, CPU, memory, thread, and garbage-collection constraints.",
+        "Configured JMX Monitoring, Wily Introscope, and thread-dump automation to improve runtime visibility during performance and regression testing.",
+        "Documented baseline metrics, design findings, and release-readiness thresholds used by engineering teams for production decisions."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster, preserving transaction performance and data integrity.",
+        "Designed and optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.",
+        "Built C++/OCCI/OCI validation and regression testing utilities to verify correctness across millions of migrated transaction records.",
+        "Automated schema conversion, data validation, and phased cutover support for a mission-critical enterprise migration."
+      ]
+    },
+    {
+      "company": "Computer Science Corporation (CSC)",
+      "title": "Architect / Developer (IRS CADE Project)",
+      "start_date": "2007-10",
+      "end_date": "2008-05",
+      "bullets": [
+        "Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.",
+        "Built CICS, MQ Series, XML messaging interfaces, and DB2-backed components in a government modernization environment.",
+        "Supported technical design documentation and integration patterns for structured data exchange across modernization components."
+      ]
+    },
+    {
+      "company": "Corpus Inc. / Sprint",
+      "title": "Developer / Support Engineer (Billing, Interfaces, CSM/PRMS)",
+      "start_date": "2001",
+      "end_date": "2007",
+      "bullets": [
+        "Developed and supported high-availability C++/Pro*C/PL/SQL billing interfaces and reporting processes for telecom-scale transaction systems.",
+        "Worked with XML, SQL, Oracle, PL/SQL, messaging, and integration interfaces supporting billing, customer-management, and operational reporting workflows.",
+        "Improved database performance by 10x through SQL, sequence, and process optimization while reducing memory usage by 75%.",
+        "Built automation scripts in Korn shell, Perl, Awk, Syncsort, and SQL to support data processing, reporting, deployments, and operational housekeeping."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "location": "Toronto, Canada",
+      "dates": "Not specified"
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "location": "Egypt",
+      "dates": "Not specified"
+    }
+  ],
+  "skills": {
+    "Languages": "Python, SQL, PySpark, PL/SQL, XML, JSON, Perl, Korn Shell, C++, Java",
+    "AWS Lakehouse / Data Platform": "Amazon S3, AWS Glue, Athena, Amazon Redshift, EC2, ECS, IAM concepts, CloudWatch concepts, AWS data migration patterns",
+    "Big Data / Spark": "Apache Spark, PySpark, Spark SQL concepts, Hadoop/Hive, Parquet, distributed data processing, large-scale telemetry pipelines",
+    "Data Migration": "On-prem to cloud migration, legacy pipeline refactoring, data transfer validation, data reconciliation, data quality validation, schema conversion, phased cutover support",
+    "Data Modeling": "Dimensional modeling, SCD Type 2 concepts, temporal/history tracking patterns, normalization vs. denormalization, natural vs. surrogate key concepts, schema design",
+    "Query & Performance": "Advanced SQL, SQL troubleshooting, SQL optimization, partitioning concepts, clustering concepts, schema evolution concepts, file formats, compression, Redshift/Oracle tuning",
+    "Data Quality / Governance": "Validation checks, reconciliation frameworks, metadata documentation, pipeline monitoring, operational runbooks, stakeholder validation and sign-off",
+    "Delivery / SDLC": "Git, CI/CD concepts, SDLC familiarity, Agile/Scrum concepts, stakeholder communication, technical liaison work, global team collaboration",
+    "Adjacent / Learning": "Snowflake, Apache Iceberg, Kafka concepts, Kubernetes exposure, Avro concepts, Sybase IQ concepts, Terraform basics"
+  },
+  "projects": [
+    {
+      "name": "Serverless Lakehouse Platform (AWS)",
+      "description": "Designed a scalable AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet for raw ingestion, transformation, curated analytics datasets, query optimization, and reporting access.",
+      "technologies": [
+        "AWS S3",
+        "AWS Glue",
+        "Athena",
+        "Redshift",
+        "PySpark",
+        "Parquet",
+        "SQL"
+      ]
+    },
+    {
+      "name": "HorizonScale \u2014 AI Capacity Forecasting Engine",
+      "description": "Built a forecasting-oriented analytics workflow using Python, PySpark, Prophet, scikit-learn, and Streamlit to process infrastructure telemetry, prepare model-ready datasets, and deliver capacity insights.",
+      "technologies": [
+        "Python",
+        "PySpark",
+        "SQL",
+        "Prophet",
+        "scikit-learn",
+        "Streamlit"
+      ]
+    },
+    {
+      "name": "AI-Powered Job Search Pipeline",
+      "description": "Built a Python automation pipeline with semantic duplicate detection, LLM-based job scoring, JSON artifact generation, quality gates, document rendering, and application tracking using FAISS, sentence-transformers, and LLM APIs.",
+      "technologies": [
+        "Python",
+        "FAISS",
+        "Sentence Transformers",
+        "LLM APIs",
+        "JSON",
+        "Automation"
+      ]
+    }
+  ]
+}

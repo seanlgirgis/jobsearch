@@ -1,0 +1,86 @@
+# Tailored Resume Preview
+
+**Sean Luka Girgis**  
+Senior Python / AWS Data Platform Engineer | PySpark, SQL, Redshift & GenAI  
+214-315-2190 | seanlgirgis@gmail.com  
+[LinkedIn](https://www.linkedin.com/in/sean-girgis-43bb1b5/) | [GitHub](https://github.com/seanlgirgis) | [Portfolio](https://seanlgirgis.github.io)  
+
+## Professional Summary
+Senior Python and AWS Data Platform Engineer with 20+ years of enterprise technology experience across Python, PySpark/Spark, SQL, AWS S3, Glue, Athena, Redshift, EC2/ECS concepts, data modeling, query optimization, Docker, Git, CI/CD concepts, GenAI tools, Bedrock exposure, and financial-services production environments. Strong background building and supporting scalable data pipelines, warehouse-backed reporting structures, forecasting datasets, production validation workflows, and operational dashboards for regulated banking infrastructure. Best aligned to Python/AWS/PySpark data platform roles requiring SDLC discipline, backend/data workflow development, SQL optimization, cloud-native data architecture, GenAI-assisted development, documentation, and cross-functional delivery; NodeJS, DynamoDB, PostgreSQL, Lambda, Step Functions, EventBridge, SNS/SQS, GitLab, Terraform, Postman, and mortgage/bond/trading-domain depth are positioned carefully as adjacent or learning areas rather than overstated production ownership.
+
+## Professional Experience
+### Senior Capacity & Data Engineer at CITI
+2017-11 – 2025-12
+- Designed and supported Python/Pandas/PySpark and SQL workflows ingesting telemetry from 6,000+ infrastructure endpoints into curated datasets for reporting, analytics, forecasting, validation, and decision support.
+- Built AWS and warehouse-backed data platform components using S3 landing patterns, AWS Glue, Athena, Amazon Redshift, Oracle, SQL, and PySpark to support scalable ingestion, transformation, querying, and analytics.
+- Used complex SQL across Oracle, Amazon Redshift, and reporting structures to validate transformations, troubleshoot discrepancies, tune queries, and improve downstream reporting performance.
+- Prepared forecasting-ready datasets for Prophet and scikit-learn workflows, supporting capacity planning, trend analysis, financial-services infrastructure risk review, and bottleneck prediction.
+- Implemented data quality and reconciliation checks for row counts, nulls, duplicates, unmatched joins, freshness, abnormal deltas, and output comparisons against trusted prior runs.
+- Supported production monitoring and reliability workflows using BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and operational telemetry feeds.
+- Created runbooks, source mappings, conceptual data flows, metric definitions, validation checkpoints, support procedures, and technical documentation to improve maintainability and handoff.
+- Used AI-assisted development tools including ChatGPT/Copilot-style workflows and built GenAI/Text-to-SQL and RAG-oriented project work to accelerate documentation, code review, test generation, and data workflow development.
+
+### Performance Engineer at G6 Hospitality LLC
+2017-03 – 2017-11
+- Built analytics and reporting outputs from Dynatrace AppMon and Gomez Synthetic Monitoring data for Brand.com and critical hospitality systems.
+- Analyzed real-user and synthetic monitoring datasets to identify data quality issues, performance trends, and optimization opportunities.
+- Created dashboards and reporting views that converted raw monitoring data into actionable performance, reliability, and stakeholder insights.
+- Supported AWS cloud migration planning by evaluating monitoring readiness, transaction visibility, and performance reporting needs.
+
+### SME for CA APM (Senior Consultant) at CA Technologies / TIAA-CREF
+2011 – 2016
+- Supported a large financial-services monitoring and reporting environment with 50+ Enterprise Managers and 4,000–6,000 instrumented agents.
+- Built Perl and KornShell automation for extracting, validating, transforming, and distributing APM telemetry, replacing manual reporting workflows with repeatable data-processing pipelines.
+- Designed dashboards, alert rules, SLA thresholds, reporting standards, and documentation used by application, middleware, infrastructure, and operations teams.
+- Provided technical guidance, onboarding support, training material, and knowledge sharing to improve adoption of monitoring, reporting, and operational standards.
+
+### Performance Test Engineer at AT&T
+2010-08 – 2011-07
+- Developed and executed performance test plans for enterprise telecom applications, including baseline comparisons, regression review, and release-readiness analysis.
+- Analyzed application behavior under load to identify throughput limits, SQL/JDBC bottlenecks, CPU, memory, thread, and garbage-collection issues.
+- Documented test results, expected behavior, defects, risks, and remediation recommendations for engineering and release teams.
+
+### Senior Systems & Data Migration Engineer at Sabre
+2008-05 – 2010
+- Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a 6-node Oracle RAC cluster while preserving transaction performance and data integrity.
+- Built C++/OCCI/OCI validation and regression testing utilities to verify correctness across millions of migrated transaction records.
+- Optimized SQL and Oracle access patterns for high-volume workloads while reducing physical hardware footprint by 95%.
+
+### Architect / Developer (IRS CADE Project) at Computer Science Corporation (CSC)
+2007-10 – 2008-05
+- Designed UML class and sequence diagrams and developed modules for IRS CADE mainframe modernization.
+- Built CICS, MQ Series, XML messaging interfaces, VC++ components, and DB2-backed integration modules in a government modernization environment.
+
+### Developer / Support Engineer (Billing, Interfaces, CSM/PRMS) at Corpus Inc. / Sprint
+2001 – 2007
+- Developed and supported billing, customer-management, and financial-style operational interfaces using C, C++, Pro*C, Oracle, PL/SQL, SQL scripts, XML, Java/J2EE concepts, and enterprise messaging patterns.
+- Built automation scripts in KornShell/ksh, Perl, Awk, Syncsort, and SQL to support data extraction, transformation, reporting, deployments, validation, and production housekeeping.
+- Provided production support, defect investigation, data maintenance, issue escalation, troubleshooting, and release support for telecom billing and customer-management applications.
+
+## Education
+**Post-Graduate Diploma in Computer Engineering Technology / Computer Science**  
+Humber College, Toronto, Canada
+
+**Bachelor of Science in Civil Engineering**  
+Zagazig University, Egypt
+
+## Skills
+
+
+## Flagship Projects
+### Serverless Lakehouse Platform (AWS)
+Designed an AWS data platform pattern using S3, Glue, Athena, Redshift, PySpark, and Parquet for raw ingestion, curated transformations, analytics datasets, query optimization, and validation checkpoints.
+**Technologies:** AWS S3, AWS Glue, Athena, Redshift, PySpark, Parquet, SQL
+
+### ServiceCall AI RAG Demo
+Built staged Python proof-of-concepts with document loading, chunking, TF-IDF retrieval, hybrid retrieval, Pydantic schemas, FastAPI service layers, Docker-first smoke tests, and deterministic API endpoints.
+**Technologies:** Python, FastAPI, Docker, Pydantic, pytest, RAG, TF-IDF
+
+### HorizonScale — Capacity Forecasting and Data Platform
+Built Python/Pandas/PySpark workflows to process telemetry, validate outputs, prepare forecasting datasets, and produce trusted capacity and risk reporting for financial-services infrastructure.
+**Technologies:** Python, Pandas, PySpark, SQL, Prophet, scikit-learn, Data Validation
+
+### AI-Powered Job Search Pipeline
+Built an agentic Python pipeline with semantic duplicate detection, LLM job scoring, tailored resume/cover generation, JSON quality gates, and local application tracking.
+**Technologies:** Python, Grok API, FAISS, Sentence Transformers, RAG, JSON, Automation
+

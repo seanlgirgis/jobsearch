@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Atomic Insights\nRemote"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Data Platform Engineer role with Atomic Insights. The role aligns strongly with my background in Python, SQL, data ingestion, data quality, observability, schema ownership, production support, financial-services technology, and cross-functional stakeholder delivery.",
+  "body": [
+    "At Citi, I built Python, SQL, Pandas, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational feeds into curated reporting, analytics, forecasting, and validation datasets. I also owned the practical production concerns around those datasets: source investigation, data quality checks, reconciliation, missing or late feed analysis, schema-aware reporting structures, documentation, and stakeholder support.",
+    "Your role emphasizes building ingestion pipelines from APIs, data files, and partner-exposed sources; improving pipeline reliability and observability; designing freshness, completeness, and correctness checks; owning data from schema design to production support; and operating well in ambiguous early-stage environments. My experience maps strongly through Python/SQL data workflows, source-to-target mapping, validation frameworks, telemetry-driven observability, production troubleshooting, and translating unclear source data into trusted reporting models.",
+    "I am comfortable working closely with product and engineering teams to clarify tradeoffs and evolve data architecture as usage grows. Where I would bring immediate value is building reliable ingestion workflows, creating practical data quality checks, documenting source behavior and mappings, supporting production datasets, and helping turn messy financial/operational data into useful product and decision-making assets."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my Python, SQL, data ingestion, data quality, observability, and financial-services data platform background can support Atomic Insights as the platform grows.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

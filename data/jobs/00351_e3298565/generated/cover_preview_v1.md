@@ -1,0 +1,22 @@
+# Tailored Cover Letter Preview
+
+**Sean Luka Girgis**  
+Murphy, TX  
+214-315-2190 | seanlgirgis@gmail.com  
+
+May 12, 2026  
+
+Dear Hiring Manager,
+
+I am interested in the Lead Application Support Engineer role with DTCC in Coppell. The position aligns strongly with my financial-services production support, application monitoring, Dynatrace/APM, scripting, middleware, database, incident triage, and operational reliability background.
+
+At Citi, I supported enterprise monitoring and reliability workflows across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and large-scale infrastructure telemetry sources. I built Python, SQL, Pandas, and PySpark pipelines that transformed telemetry from more than 6,000 infrastructure endpoints into validated dashboards, forecasting datasets, KPI reports, and executive insights used for operational decision-making.
+
+Your role emphasizes production application support, monitoring, incident triage, 24x7 event support, automation through scripting, disaster recovery test planning, relational databases, Splunk/Dynatrace/Grafana-style tooling, middleware, messaging systems, cloud technologies, and financial-services reliability. My experience maps strongly through Dynatrace AppMon, CA APM, AppDynamics, BMC TrueSight, Python/Shell/Perl automation, Oracle/DB2-style database work, WebLogic/WebSphere/Tomcat exposure, MQ/message-interface history, runbooks, troubleshooting, and regulated production support.
+
+I want to be direct about fit: my strongest background is application support, APM/observability, middleware/database-adjacent troubleshooting, scripting, and financial-services production reliability. Snowflake, Splunk, Grafana, Selenium, Azure/OpenShift/RDS Aurora/Postgres, RabbitMQ/Kafka, and mainframe tooling are adjacent or transferable areas rather than my deepest production ownership. I am comfortable with the 2pm-10pm CT shift and hybrid Coppell model if selected.
+
+I would welcome the opportunity to discuss how my financial-services support, Dynatrace/APM, scripting, middleware, database, monitoring, and production reliability background can support DTCC's application services environment.
+
+Sincerely,
+Sean Luka Girgis

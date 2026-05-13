@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 12, 2026",
+    "employer_address": "Citi\nIrving, TX"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Applications Development Senior Programmer Analyst - Assistant Vice President role with Citi in Irving. As a former Citi Senior Capacity & Data Engineer, I bring direct experience in Citi-style regulated technology delivery, Python, PySpark, SQL, AWS/Redshift, ETL/ELT pipelines, data quality, governance-aware reporting, and stakeholder-focused analytics.",
+  "body": [
+    "At Citi, I built and supported Python, SQL, PySpark, and AWS-oriented data pipelines that ingested telemetry from more than 6,000 infrastructure endpoints and transformed raw operational data into curated reporting, analytics, and forecasting datasets. I also designed AWS data platform components using S3, Glue, Athena, Redshift, Oracle, and PySpark to support scalable transformation, validation, and stakeholder-facing reporting.",
+    "Your role emphasizes PySpark, Spark SQL, ETL/ELT, lakehouse implementation, performance tuning, data quality, lineage, metadata management, governance, access control, reporting, AI/ML and RAG-supporting pipelines, and Agile stakeholder delivery. My experience maps strongly to those needs through Citi production data engineering, SQL optimization, PySpark processing, validation and reconciliation workflows, metadata-style documentation, regulated data handling, production troubleshooting, and collaboration with cross-functional technology teams.",
+    "I want to be direct about fit: my strongest production background is Citi AWS/Oracle/Redshift/PySpark telemetry and analytics pipelines. Databricks, Delta Lake, Snowflake, Starburst/Trino, Apache Iceberg, and Ab Initio are adjacent or active-learning areas for me rather than deep production ownership. Where I would bring immediate value is Citi context, Python/PySpark and SQL delivery, ETL reliability, data quality, governance-aware documentation, performance tuning, and practical analytics pipeline execution."
+  ],
+  "conclusion": "I would welcome the opportunity to bring my Citi data engineering experience back into a role focused on scalable PySpark, ETL/ELT, governance, analytics, and AI/ML-ready data platforms.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}
