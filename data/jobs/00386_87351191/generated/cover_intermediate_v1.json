@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 13, 2026",
+    "employer_address": "NorthMark Compute Cloud / NM2.com\nDallas-Fort Worth Metroplex"
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Observability Platform Engineer opportunity supporting NorthMark Compute Cloud / NM2.com. The role aligns strongly with my background in enterprise observability, telemetry analysis, APM platforms, dashboards, alerting, production troubleshooting, Python automation, and cloud-oriented reliability operations.",
+  "body": [
+    "At Citi, I supported observability, capacity, and production reliability workflows across BMC TrueSight/TSCO, CA Wily/APM, AppDynamics, Oracle, AWS-backed reporting layers, and infrastructure telemetry feeds from more than 6,000 endpoints. I built Python, SQL, Pandas, and PySpark workflows that transformed telemetry into validated dashboards, reports, forecasting datasets, and operational insights.",
+    "Earlier, at G6 Hospitality and CA Technologies/TIAA-CREF, I worked directly with Dynatrace AppMon, Gomez Synthetic Monitoring, CA APM/Introscope, JMX monitoring, dashboards, alerts, transaction visibility, and performance-analysis workflows. I partnered with engineering and operations teams to identify bottlenecks, improve telemetry visibility, and document repeatable troubleshooting practices.",
+    "For NM2, my immediate value is enterprise observability depth, telemetry interpretation, Python and shell automation, platform reliability thinking, and strong production troubleshooting discipline. I also bring active ramp-up in OpenTelemetry, Grafana, Prometheus, and IaC-adjacent cloud-native observability practices aligned to modern PaaS environments."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my observability, APM, telemetry, automation, and reliability background can support NM2's cloud-first platform objectives.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

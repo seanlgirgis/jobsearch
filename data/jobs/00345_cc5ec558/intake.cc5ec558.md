@@ -58,3 +58,14 @@ View Sean’s profileSean Girgis, #OPEN_TO_WORK
 Sean Girgis   2:46 PM
 2143152190
 
+
+
+Hi Sean, Please find the below JD shared by the client.
+
+IT Capacity Engineer 8+ years of experience optimizing large-scale on-premises and hybrid cloud infrastructures. Proven expert in developing automated forecasting models that align technical performance with strategic business goals. A trusted advisor to executive leadership and product teams, delivering critical data insights that drive high-stakes, business-critical decisions and best-in-class service delivery.
+
+Drive large-scale projects from strategy to execution, key phases—comprehensive analysis, capital investment strategies, budgeting, system design, risk mitigation, and reporting—to ensure seamless implementation and maximize business outcomes.
+
+Engineered and documented best-in-class operational playbooks, streamlining team integration and boosting overall job performance metrics through improved technical collaboration and knowledge sharing.
+
+Drive high-performance infrastructure outcomes by implementing data-driven forecasting models and KPI-based decision frameworks to optimize resource allocation.

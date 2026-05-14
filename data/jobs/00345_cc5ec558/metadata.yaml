@@ -1,18 +1,22 @@
 uuid: cc5ec558-03e4-4d19-8d07-5b26fba3453b
 job_id: 00345_cc5ec558
 original_filename: intake.md
-company: Unknown
-role: Unknown
+company: LTIMindtree / LTM
+role: IT Capacity Engineer / Performance and Capacity Engineer
 company_website: ''
-location: ''
-status: ACCEPTED
+location: Plano, TX (onsite)
+status: SCREENING COMPLETED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
 created_at: '2026-05-12T14:50:30.024028'
 notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
 
-  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-12)'
+  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-12)
+
+
+  • Screening call completed on 2026-05-13. LTIMindtree follow-up requested candidate
+  login/details update and self-identification form completion.'
 last_decision_at: '2026-05-12T14:50:30.101651'
 last_decision: ACCEPTED
 source: LinkedIn
@@ -25,3 +29,15 @@ application:
   - date: '2026-05-12'
     status: Applied
     notes: Applied via chatGpt pipeline
+  - date: '2026-05-13'
+    status: SCREENING COMPLETED
+    notes: 'Completed LTIMindtree screening call for Bank of America IT Capacity Engineer/Performance
+      and Capacity Engineer. Discussed runbooks/operational playbooks, forecasting
+      and ML forecasting approach, KPI definition, translating metrics for management,
+      predictive capacity pipelines, and large-server capacity optimization. Follow-up
+      received: LTIMindtree requested login/details update and self-identification
+      form completion.'
+  last_status: SCREENING COMPLETED
+  last_status_date: '2026-05-13'
+client: Bank of America
+recruiter_contact: Uthaya Kumar

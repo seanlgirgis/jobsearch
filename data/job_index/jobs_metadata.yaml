@@ -1988,12 +1988,6 @@
   role: Unknown
   apply_date: '2026-05-13'
   status: ACCEPTED
-- uuid: 00378_f5e1448c
-  description_path: data\jobs\00378_f5e1448c\intake.f5e1448c.md
-  company: Unknown
-  role: Unknown
-  apply_date: '2026-05-13'
-  status: ACCEPTED
 - uuid: 00379_c16dcef8
   description_path: data\jobs\00379_c16dcef8\intake.c16dcef8.md
   company: Unknown
@@ -2032,6 +2026,18 @@
   status: ACCEPTED
 - uuid: 00385_84348b41
   description_path: data\jobs\00385_84348b41\intake.84348b41.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-13'
+  status: ACCEPTED
+- uuid: 00386_87351191
+  description_path: data\jobs\00386_87351191\intake.87351191.md
+  company: Unknown
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
+- uuid: 00387_93aaf11c
+  description_path: data\jobs\00387_93aaf11c\intake.93aaf11c.md
   company: Unknown
   role: Unknown
   apply_date: '2026-05-13'
