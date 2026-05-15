@@ -5,16 +5,19 @@ company: Unknown
 role: Unknown
 company_website: ''
 location: ''
-status: ACCEPTED
+status: CLOSED - PASSED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
 created_at: '2026-05-13T03:26:18.526209'
-notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
-
-  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-13)'
-last_decision_at: '2026-05-13T03:26:19.203344'
-last_decision: ACCEPTED
+notes: "Manual-v2 shell created. Awaiting ChatGPT artifacts.\n\n  • Accepted in chatGpt\
+  \ pipeline (manual artifacts, no Grok scoring) (2026-05-13)\n  • Closed - passed\
+  \ before client interview. Recruiter/client passed on resume during resume/client\
+  \ screen (not a failed interview). Role treated as stretch/springboard; likely\
+  \ gap was insufficient direct production evidence for stronger platform observability\
+  \ stack requirements. (2026-05-14)"
+last_decision_at: '2026-05-14T00:00:00'
+last_decision: CLOSED - PASSED
 source: LinkedIn
 application:
   applied: true
@@ -25,3 +28,6 @@ application:
   - date: '2026-05-13'
     status: Applied
     notes: Applied via chatGpt pipeline
+  - date: '2026-05-14'
+    status: Closed - Passed (Resume Screen)
+    notes: Recruiter/client passed on resume before client interview; not an interview failure.

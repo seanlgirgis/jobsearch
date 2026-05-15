@@ -4,7 +4,7 @@ Employer_Name: NorthMark Compute Cloud / NM2.com
 Client: NorthMark Compute Cloud / NM2.com
 Role_Title: Observability Platform Engineer
 Location: Dallas-Fort Worth Metroplex (Hybrid, 3 days onsite)
-Status: Fresh submission prep after initial screen
+Status: Closed - passed at resume/client screen (no client interview)
 
 Company/Platform Context:
 NorthMark Compute Cloud (NM2) is building a cloud-first PaaS platform for fintech, hedge funds, HPC centers, and stealth research firms.

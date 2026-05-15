@@ -5,16 +5,19 @@ company: Unknown
 role: Unknown
 company_website: ''
 location: Dallas-Fort Worth Metroplex (Hybrid, 3 days onsite)
-status: ACCEPTED
+status: CLOSED - PASSED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
 created_at: '2026-05-13T11:43:09.111734'
-notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
-
-  • Accepted in chatGpt pipeline (manual artifacts, no Grok scoring) (2026-05-13)'
-last_decision_at: '2026-05-13T11:43:09.213003'
-last_decision: ACCEPTED
+notes: "Manual-v2 shell created. Awaiting ChatGPT artifacts.\n\n  • Accepted in chatGpt\
+  \ pipeline (manual artifacts, no Grok scoring) (2026-05-13)\n  • Closed - passed\
+  \ before client interview. Recruiter/client passed on resume at resume-screen stage\
+  \ (not an interview failure). Likely gap: insufficient direct production evidence\
+  \ for OpenTelemetry, Prometheus, Grafana, Kubernetes, GPU monitoring, Terraform/CloudFormation,\
+  \ and cloud-monitoring runbooks. Treated as stretch/springboard lane. (2026-05-14)"
+last_decision_at: '2026-05-14T00:00:00'
+last_decision: CLOSED - PASSED
 source: LinkedIn
 application:
   applied: true
@@ -25,6 +28,9 @@ application:
   - date: '2026-05-13'
     status: Applied
     notes: Applied via chatGpt pipeline
+  - date: '2026-05-14'
+    status: Closed - Passed (Resume Screen)
+    notes: Recruiter/client passed on resume before client interview; not an interview failure.
   - date: '2026-05-13'
     status: Applied
     notes: Applied via chatGpt pipeline

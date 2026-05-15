@@ -7,7 +7,7 @@ Client: NorthMark Compute Cloud / NM2.com
 Title: Observability Platform Engineer
 Location: Dallas-Fort Worth Metroplex / Hybrid
 Source: Recruiter conversation after LinkedIn observability role
-Status: Post-screen / preparing resume for client submission
+Status: Closed - passed at resume/client screen (no client interview)
 
 Contents:
 

@@ -1798,10 +1798,10 @@
   status: ACCEPTED
 - uuid: 00345_cc5ec558
   description_path: data\jobs\00345_cc5ec558\intake.cc5ec558.md
-  company: Unknown
-  role: Unknown
+  company: LTIMindtree / LTM
+  role: IT Capacity Engineer / Performance and Capacity Engineer
   apply_date: '2026-05-12'
-  status: ACCEPTED
+  status: SCREENING COMPLETED
 - uuid: 00346_c6c4c78c
   description_path: data\jobs\00346_c6c4c78c\intake.c6c4c78c.md
   company: Unknown
@@ -2035,12 +2035,36 @@
   company: Unknown
   role: Unknown
   apply_date: N/A
-  status: ACCEPTED
+  status: CLOSED - PASSED
 - uuid: 00387_93aaf11c
   description_path: data\jobs\00387_93aaf11c\intake.93aaf11c.md
   company: Unknown
   role: Unknown
   apply_date: '2026-05-13'
+  status: CLOSED - PASSED
+- uuid: 00388_67f15a2d
+  description_path: data\jobs\00388_67f15a2d\intake.67f15a2d.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-14'
+  status: ACCEPTED
+- uuid: 00389_7a0bd3da
+  description_path: data\jobs\00389_7a0bd3da\intake.7a0bd3da.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-14'
+  status: ACCEPTED
+- uuid: 00390_0a918864
+  description_path: data\jobs\00390_0a918864\intake.0a918864.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-14'
+  status: ACCEPTED
+- uuid: 00391_86ae520d
+  description_path: data\jobs\00391_86ae520d\intake.86ae520d.md
+  company: Unknown
+  role: Unknown
+  apply_date: '2026-05-14'
   status: ACCEPTED
 - uuid: url_captures
   description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md

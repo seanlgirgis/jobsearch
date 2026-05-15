@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "May 14, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am interested in the Hadoop Developer \u2013 Production Support opportunity with Akkodis for the Plano, TX hybrid contract role. My background combines financial-services production support, Hadoop/Hive/Spark and PySpark exposure, Linux/Unix troubleshooting, SQL/PLSQL analysis, ETL/data validation, and enterprise incident/RCA workflows.",
+  "body": [
+    "At Citi, I supported enterprise data and infrastructure workflows in a regulated banking environment, building and maintaining telemetry and capacity analytics pipelines using Python, SQL, Pandas, PySpark, Hadoop/Hive patterns, and Linux/Unix-based troubleshooting. I worked across ingestion, cleansing, normalization, validation, reporting, and operational risk summaries, which maps closely to supporting critical data pipelines in a high-availability environment.",
+    "I have strong experience investigating data and production issues by reviewing logs, validating upstream and downstream data, using SQL and Oracle/PLSQL-style analysis, coordinating with application and infrastructure teams, and documenting runbooks, RCA notes, and operational procedures. Earlier roles also gave me deep Linux/Unix, Korn shell, Perl, Oracle, PL/SQL, batch, interface, and production troubleshooting experience across telecom, travel, and financial-services environments.",
+    "This role looks like a strong fit because it needs a practical engineer who can support Hadoop/Big Data pipelines, analyze failures, validate data, communicate clearly during incidents, and improve monitoring and automation over time. I am comfortable with support-heavy enterprise environments and would bring a steady, hands-on approach to keeping production data workflows stable."
+  ],
+  "conclusion": "I would welcome the opportunity to discuss how my data engineering, production support, Linux/Unix, SQL/PLSQL, and financial-services experience can help support this client\u2019s Hadoop production environment.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}
