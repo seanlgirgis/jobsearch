@@ -5,7 +5,7 @@ company: LTIMindtree / LTM
 role: IT Capacity Engineer / Performance and Capacity Engineer
 company_website: ''
 location: Plano, TX (onsite)
-status: SCREENING COMPLETED
+status: INTERVIEW COMPLETED
 score: null
 recommendation: null
 pipeline_mode: chatgpt
@@ -16,7 +16,13 @@ notes: 'Manual-v2 shell created. Awaiting ChatGPT artifacts.
 
 
   • Screening call completed on 2026-05-13. LTIMindtree follow-up requested candidate
-  login/details update and self-identification form completion.'
+  login/details update and self-identification form completion.
+
+
+  • Capacity interview completed on 2026-05-15 with BOA/LTIMindtree panel (Scott,
+  Rajesh, Kumar, and manager). Strong signals: CBFR naming alignment and failover
+  go/no-go math confirmed as correct by Scott. Interview focused on practical
+  mid-range distributed capacity management scope.'
 last_decision_at: '2026-05-12T14:50:30.101651'
 last_decision: ACCEPTED
 source: LinkedIn
@@ -37,7 +43,14 @@ application:
       predictive capacity pipelines, and large-server capacity optimization. Follow-up
       received: LTIMindtree requested login/details update and self-identification
       form completion.'
-  last_status: SCREENING COMPLETED
-  last_status_date: '2026-05-13'
+  - date: '2026-05-15'
+    status: INTERVIEW COMPLETED
+    notes: 'Completed BOA/LTIMindtree capacity interview. Discussion covered CBFR,
+      P95/thresholds, functional tiers, failover math, audit/BAU/project intake,
+      telemetry pipelines, forecasting, and cloud/container capacity context.
+      Positive signal: Scott confirmed failover recommendation was correct after
+      go/no-go clarification.'
+  last_status: INTERVIEW COMPLETED
+  last_status_date: '2026-05-15'
 client: Bank of America
 recruiter_contact: Uthaya Kumar
