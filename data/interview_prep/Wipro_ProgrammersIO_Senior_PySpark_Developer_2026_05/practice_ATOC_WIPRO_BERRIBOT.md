@@ -23,55 +23,34 @@ ATOC means:
   - [If I get stuck](#if-i-get-stuck)
 - [01 — Story and Role Fit](#01--story-and-role-fit)
   - [Q01 Tell me about yourself and why you are a good fit for this Senior PySpark Developer role?](#q01-tell-me-about-yourself-and-why-you-are-a-good-fit-for-this-senior-pyspark-developer-role)
-    - [Punchline](#punchline)
+  - [Q01 — Tell me about yourself and why you are a good fit for this Senior PySpark Developer role?](#q01--tell-me-about-yourself-and-why-you-are-a-good-fit-for-this-senior-pyspark-developer-role)
 - [02 — PySpark](#02--pyspark)
   - [Q02 Explain your PySpark experience and how you used it in production-style data pipelines.](#q02-explain-your-pyspark-experience-and-how-you-used-it-in-production-style-data-pipelines)
-    - [Punchline](#punchline-1)
   - [Q03 How does a PySpark job execute in the background?](#q03-how-does-a-pyspark-job-execute-in-the-background)
-    - [Punchline](#punchline-2)
   - [Q04 What is the difference between a transformation and an action in PySpark?](#q04-what-is-the-difference-between-a-transformation-and-an-action-in-pyspark)
-    - [Punchline](#punchline-3)
   - [Q05 What is shuffle in Spark, and why is it expensive?](#q05-what-is-shuffle-in-spark-and-why-is-it-expensive)
-    - [Punchline](#punchline-4)
   - [Q06 How would you troubleshoot a slow PySpark job?](#q06-how-would-you-troubleshoot-a-slow-pyspark-job)
-    - [Punchline](#punchline-5)
   - [Q07 How do you handle duplicates in PySpark?](#q07-how-do-you-handle-duplicates-in-pyspark)
-    - [Punchline](#punchline-6)
   - [Q08 How do you join two DataFrames in PySpark, and what can go wrong?](#q08-how-do-you-join-two-dataframes-in-pyspark-and-what-can-go-wrong)
-    - [Punchline](#punchline-7)
   - [Q09 How do you handle nulls in PySpark?](#q09-how-do-you-handle-nulls-in-pyspark)
-    - [Punchline](#punchline-8)
   - [Q10 How do you use window functions in PySpark?](#q10-how-do-you-use-window-functions-in-pyspark)
-    - [Punchline](#punchline-9)
   - [Q11 How do you read and write files in PySpark?](#q11-how-do-you-read-and-write-files-in-pyspark)
-    - [Punchline](#punchline-10)
 - [03 — Tomorrow Review Path](#03--tomorrow-review-path)
   - [Best review order](#best-review-order)
   - [20-minute rapid review](#20-minute-rapid-review)
   - [60-minute review](#60-minute-review)
   - [Final confidence script](#final-confidence-script)
   - [H01 — Tell me about yourself and how your background fits this role?](#h01--tell-me-about-yourself-and-how-your-background-fits-this-role)
-    - [Punchline](#punchline-11)
   - [H02 — Walk me through a production PySpark or ETL issue you troubleshot.](#h02--walk-me-through-a-production-pyspark-or-etl-issue-you-troubleshot)
-    - [Punchline](#punchline-12)
   - [H03 — How strong are you in PySpark, and where are you still growing?](#h03--how-strong-are-you-in-pyspark-and-where-are-you-still-growing)
-    - [Punchline](#punchline-13)
   - [H04 — What would you do if a PySpark job failed during a production run?](#h04--what-would-you-do-if-a-pyspark-job-failed-during-a-production-run)
-    - [Punchline](#punchline-14)
   - [H05 — How have you used Unix shell scripting in data or ETL workflows?](#h05--how-have-you-used-unix-shell-scripting-in-data-or-etl-workflows)
-    - [Punchline](#punchline-15)
   - [H06 — What is your experience with scheduling tools like Airflow, Autosys, or Control-M?](#h06--what-is-your-experience-with-scheduling-tools-like-airflow-autosys-or-control-m)
-    - [Punchline](#punchline-16)
   - [H07 — How strong are you in SQL, and how have you used it with data pipelines?](#h07--how-strong-are-you-in-sql-and-how-have-you-used-it-with-data-pipelines)
-    - [Punchline](#punchline-17)
   - [H08 — How would you troubleshoot an ETL pipeline from source to final output?](#h08--how-would-you-troubleshoot-an-etl-pipeline-from-source-to-final-output)
-    - [Punchline](#punchline-18)
   - [H09 — What questions would you ask the interviewer?](#h09--what-questions-would-you-ask-the-interviewer)
-    - [Punchline](#punchline-19)
   - [H10 — Before we finish, is there anything else you would like us to know?](#h10--before-we-finish-is-there-anything-else-you-would-like-us-to-know)
-    - [Punchline](#punchline-20)
   - [H11 — What Unix commands do you commonly use when troubleshooting data jobs?](#h11--what-unix-commands-do-you-commonly-use-when-troubleshooting-data-jobs)
-    - [Punchline](#punchline-21)
   
   
   
@@ -198,7 +177,7 @@ workflows, production troubleshooting, and financial-services data
 pipeline experience.
 
 
-### Punchline
+ Punchline
 
 My fit is PySpark, SQL, Unix, ETL, and production troubleshooting
 from a financial-services data pipeline background.
@@ -269,7 +248,7 @@ clean_df.write.mode("overwrite").partitionBy("process_date").parquet(output_path
 
 
 
-### Punchline
+ Punchline
 
 My PySpark experience is practical production ETL: large telemetry
 datasets, DataFrame transformations, SQL-style aggregation, validation,
@@ -333,7 +312,7 @@ grouped_df.write.mode("overwrite").parquet(output_path)
 ```
 
 
-### Punchline
+ Punchline
 
 Transformations build the plan, actions trigger execution, executors
 process partitions in parallel, and shuffle is usually the expensive
@@ -403,7 +382,7 @@ enriched_df.write.mode("overwrite").parquet(output_path)
 
 
 
-### Punchline
+ Punchline
 
 Transformations build the plan; actions trigger the plan to run.
 
@@ -446,7 +425,7 @@ shuffle is necessary. But I watch for unnecessary shuffle, repeated
 shuffle, skewed shuffle, or shuffle caused by poor partitioning or join
 strategy.
 
-### Punchline
+ Punchline
 
 Shuffle is expensive data movement across executors so matching keys
 can meet for joins, grouping, distinct, or repartition.
@@ -498,7 +477,7 @@ bad partitioning, repeated actions, file layout, or resource pressure.
 Then I would fix the smallest thing that gives the biggest improvement.
 
 
-### Punchline
+ Punchline
 
 I troubleshoot slow PySpark jobs by checking row counts, schema,
 execution plan, logs, shuffle, joins, skew, partitions, repeated actions,
@@ -555,7 +534,7 @@ latest_df = (
 )
 ```
 
-### Punchline
+ Punchline
 
 For duplicates, first define the business key; use dropDuplicates
 for simple cases, and use a window function when the surviving row matters.
@@ -605,7 +584,7 @@ To protect the pipeline, I validate row counts before and after the join,
 check null and duplicate key counts, rename ambiguous columns, confirm
 the join type, and compare the output against expected business logic.
 
-### Punchline
+ Punchline
 
 For joins, I validate the key, join type, row counts, nulls, duplicates,
 schema, shuffle risk, and possible row explosion.
@@ -633,7 +612,7 @@ without understanding the data can change row counts, skew metrics, or
 break downstream reporting and forecasting.
 
 
-### Punchline
+ Punchline
 
 I handle nulls by first understanding the business rule, then using
 `isNull`, `isNotNull`, `dropna`, or `fillna` without blindly dropping data.
@@ -679,7 +658,7 @@ They calculate within a group while preserving row-level detail.
  
 
 
-### Punchline
+ Punchline
 
 Window functions let me calculate within a business-key group, such as
 latest record, rank, or rolling metric, without losing row-level detail.
@@ -739,7 +718,7 @@ append when I am adding new records. In production, I validate row
 counts, schema, partition columns, and output paths after the write.
 
 
-### Punchline
+ Punchline
 
 For file handling, I use explicit schemas, choose the right format,
 write mode, and partitioning strategy, and validate the output.
@@ -843,7 +822,7 @@ SQL, Unix shell scripting, ETL understanding, and production
 troubleshooting. Those are the areas where my background is strongest.
 
 
-### Punchline
+ Punchline
 
 My fit is PySpark, SQL, Unix, ETL, and production troubleshooting
 from a financial-services data pipeline background.
@@ -903,7 +882,7 @@ expected groups, and business-level output.
  
 
 
-### Punchline
+ Punchline
 
 For ETL troubleshooting, I trace the monthly processing cycle from
 source telemetry to final reporting, validate counts and schema at each
@@ -946,7 +925,7 @@ enhance, analyze, and troubleshoot PySpark scripts with SQL, Unix,
 ETL workflows, and scheduling concepts.
 
 
-### Punchline
+ Punchline
 
 My PySpark strength is practical ETL and production troubleshooting;
 I can read, analyze, validate, and improve PySpark pipelines, while
@@ -970,7 +949,7 @@ Before rerunning, confirm whether the job overwrites, appends, uses checkpoints 
 Check affected reports, tables, business users and whether a clean rerun, partial rerun, partial rerun, or manual validation is needed.
 
 
-### Punchline
+ Punchline
 
 When a PySpark job fails, I check logs, failed stages, parameters,
 dependencies, data quality, downstream impact, and rerun safety before
@@ -997,7 +976,7 @@ Shell keeps the workflow repeatable and operationally safe. Python, SQL, and PyS
 Shell is a helper solution it is a tool .. solution for orchestration are systems like Apache Airflow/ Broadcom Autosys/ BMC ControlM ..  When any of these solutions exist, then shell can help enabling automation, investigation and troubleshooting.
 
 
-### Punchline
+ Punchline
 
 Unix shell scripting is the workflow glue: file checks, environment
 setup, job calls, logging, exit codes, archives, and rerun support,
@@ -1019,7 +998,7 @@ At CITI, the pattern was similar: Confirm inputs are ready, run steps in the rig
 I am not claiming to be administrator for any of the said system, But I understand scheduling concepts and DAG philosophy in scheduling. I understand production workflow discipline and how to use it for smooth operations and troubleshooting of data pipelines. I can ramp quickly on the specific scheduler that the project/ team uses. 
 
 
-### Punchline
+ Punchline
 
 My scheduling strength is production workflow thinking: dependencies,
 calendars, retries, logs, reruns, validation, and downstream impact.
@@ -1042,7 +1021,7 @@ I used CASE expressions, CTEs, joins, aggregations and window functions to creat
 SQl is one of stronger tools in my toolset when it comes to troubleshooting. In SQL I can check counts, filtered counts, duplicate keys, null spikes, date ranges and aggregation logic to find where the mismatch starts. 
 
 
-### Punchline
+ Punchline
 
 SQL is one of my strongest tools for joining, aggregating, validating,
 reconciling, reporting, and troubleshooting pipeline data.
@@ -1066,7 +1045,7 @@ Before rerunning, make sure issues are resolved. Make sure that rerunning will n
 After the fix, add checks and early failure and alerts so that that error will not happen next time or be handled in a safer way.  Persist changes that are legitimate if concerned parties approve of. Provide full documentation on the situation, RCA and solution provided. 
 
 
-### Punchline
+ Punchline
 
 For ETL troubleshooting, I trace source to transform to output, compare
 counts to known good runs, find where the mismatch starts, check rerun
@@ -1095,7 +1074,7 @@ safety, and add guards for next time.
 5. What scheduling or automation tools are currently used for these
    workflows, such as Airflow, Autosys, or Control-M?
 
-### Punchline
+ Punchline
 
 I want to understand the real production workflow, the success criteria,
 and where PySpark, SQL, Unix scripting, and troubleshooting fit day to day.
@@ -1123,7 +1102,7 @@ I also understand this is a hybrid Dallas/Wipro role, and I am comfortable
 with that. I would be excited to contribute as a Senior PySpark Developer
 and help support reliable data pipelines for the client.
 
-### Punchline
+ Punchline
 
 I bring PySpark, SQL, Unix, ETL, and production troubleshooting experience,
 and I am ready to contribute in a hybrid Dallas/Wipro role.
@@ -1163,7 +1142,7 @@ In a data pipeline, these commands help me confirm input and output files,
 validate record counts and intermediate steps, search logs for errors and
 stats, compare against known good runs, and support rerun analysis.
 
-### Punchline
+ Punchline
 
 Unix commands are my first-line troubleshooting tools for checking files,
 logs, counts, errors, permissions, and rerun readiness around ETL jobs.
