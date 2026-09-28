@@ -1,15 +1,17 @@
-# env_setter.ps1 - portable repo bootstrap with one allowed absolute path: C:\pyenv
+# env_setter.ps1 - repository-local Python environment bootstrap
 
 # Repo root = folder containing this script
 $env:PROJECT_ROOT = Convert-Path (Split-Path -Parent $MyInvocation.MyCommand.Path)
 
-# Canonical shared venv location across machines
+# Canonical venv location for this repository
 # Priority:
 # 1) JOBSEARCH_VENV (explicit override)
-# 2) C:\pyenv\JobSearch
-# 3) C:\py_venv\JobSearch (legacy fallback)
+# 2) .venv inside this repository
+# 3) C:\pyenv\JobSearch (legacy fallback)
+# 4) C:\py_venv\JobSearch (legacy fallback)
 $venvCandidates = @()
 if ($env:JOBSEARCH_VENV) { $venvCandidates += $env:JOBSEARCH_VENV }
+$venvCandidates += (Join-Path $env:PROJECT_ROOT ".venv")
 $venvCandidates += "C:\pyenv\JobSearch"
 $venvCandidates += "C:\py_venv\JobSearch"
 
@@ -25,7 +27,7 @@ if (-not $venvPath) {
     Write-Host "ERROR: No venv found. Expected one of:" -ForegroundColor Red
     $venvCandidates | ForEach-Object { Write-Host "- $_" -ForegroundColor Red }
     Write-Host "Create it once, e.g.:" -ForegroundColor Yellow
-    Write-Host "python -m venv C:\pyenv\JobSearch" -ForegroundColor Yellow
+    Write-Host "python -m venv .venv" -ForegroundColor Yellow
     exit 1
 }
 

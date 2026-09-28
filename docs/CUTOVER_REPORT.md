@@ -71,8 +71,9 @@ without rewriting master files.
 - `tests/test_canonical_pipeline.py`: 25 integration/regression checks replacing
   the earlier five cache-mocked checks.
 - `docs/PIPELINE_OPERATOR.md`, `docs/PIPELINE_ARCHITECTURE.md`,
-  `docs/RUNTIME_PROFILE.md`, `CLINE_JOBSEARCH_RUNNER.md`, `config/README.md`,
-  `CURRENT_STATE.md`: current commands, behavior, status and remaining limitations.
+  `docs/RUNTIME_PROFILE.md`, `_agent/README.md`, `_agent/STATE.md`,
+  `config/README.md`: current commands, behavior, status and remaining
+  limitations.
 - `docs/CUTOVER_REPORT.md`: this report and the first-real-test checklist.
 
 Before/after audit covered **7,522 files** across `data/jobs`, `data/applied_jobs`,
@@ -96,7 +97,7 @@ retain their deprecation notices; AGENTS/driver redirect to the operator runbook
 | `src/ai/grok_client.py` | Legacy grok-3/grok-3-mini defaults; its executable smoke example makes requests |
 | `03.job-chatgpt-render.ps1` | Legacy render flow invokes application-status update |
 | `00.job-chatgpt-check.ps1`, `01.job-chatgpt-check.ps1`, `02.job-chatgpt-accept.ps1`, `ps1_keep/` | Older state/cache conventions; no canonical cutover guarantees |
-| `AGENTS_CONTEXT.md`, `PIPELINE_RUNBOOK.md`, `PIPELINE_SELF_RUN.md`, old driver/MyFuture/canonical overview | Historical instructions with explicit redirects |
+| Archived root compatibility guides, old driver/MyFuture/canonical overview | Historical instructions preserved under `archive/2026-09-28/root_cleanup/compatibility/` or `docs/` |
 
 Legacy code is preserved. The canonical adapter reuses pure local renderer
 functions from 05/08 and quality_check.py, not their old generation wrappers.

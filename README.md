@@ -1,40 +1,38 @@
-# JobSearch – Personal RAG-powered Job Application Assistant
+# JobSearch workspace
 
-Personal pipeline / second brain for job hunting:
+Sean's job-market workspace for job intake, fit analysis, tailored resumes and
+covers, application tracking, gigs, and application interview preparation.
 
-- Store & manage job listings
-- Semantic search over past applications/jobs
-- Auto-generate tailored resumes + cover letters
-- Eventually: website updates, interview prep, tracking
+## Start here
 
-Goal: RAG architecture using local embeddings + LLM calls (xAI/Grok API preferred, fallbacks possible)
+1. Read [AGENTS.md](AGENTS.md).
+2. Read the shared control plane in [`_agent/`](<./_agent/README.md>).
+3. For a new job, use [the canonical operator guide](docs/PIPELINE_OPERATOR.md)
+   and `job-runner.ps1`.
 
-## Status (early 2026)
+```powershell
+Set-Location D:\Workarea\jobsearch
+. .\env_setter.ps1
+.\job-runner.ps1 .\intake\new_job.md -Mode gate
+```
 
-- Setting up base environment & structure
-- Next: data models, job ingestion, basic RAG retrieval, resume/cover generation
+Run one stage at a time and inspect its result before continuing.
 
-## Tech stack (planned)
+## Current routes
 
-- Python 3.12
-- LangChain (or LlamaIndex) for RAG
-- Sentence-Transformers / local embeddings
-- FAISS / Chroma for vector store
-- xAI Grok API (or OpenAI-compatible endpoint)
-- Streamlit for quick UI
-- Local JSON/TinyDB for jobs/resumes
+- Agent rules, memory, state, and handoff: `_agent/`
+- Canonical pipeline: `job-runner.ps1` → `scripts/canonical_runner.py`
+- Script allowlist: `scripts/README.md`
+- Search bots: `search_bots/agent_work/` and `search_bots/documentation/`
+- Career truth: `data/master/` and `docs/RUNTIME_PROFILE.md`
+- Workspace and archive audits: `docs/WORKSPACE_CONTROL_AUDIT.md` and
+  `archive/ARCHIVE_MAP.md`
 
-## Quick Start
+## Directory discipline
 
-1. Python at `C:\pyver\py312`
-2. Create & activate venv:
-   ```powershell
-   C:\pyver\py312\python -m venv C:\py_venv\JobSearch
-   .\C:\py_venv\JobSearch\env_setter.ps1   # or manual activation
-
-## ChatGpt Manual Pipeline
-
-If you want to skip Grok scoring/content generation and provide JSON artifacts manually:
-
-- See `CHATGPT_PIPELINE.md`
-- Scripts: `job-chatgpt-check.ps1`, `job-chatgpt-accept.ps1`, `job-chatgpt-render.ps1`, `job-chatgpt-apply.ps1`
+- Put new job postings in `intake/`, not the repository root.
+- Put active job records and generated packages under `data/jobs/`.
+- Put durable operating policy in `_agent/` and technical documentation in
+  `docs/`.
+- Treat legacy wrappers, historical guides, scratch material, and archives as
+  reference only unless a task explicitly names them.

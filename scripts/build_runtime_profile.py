@@ -24,7 +24,7 @@ REQUIRED = {
     "skills": "data/master/skills.yaml",
     "current_work": "data/master/bofa_stated_ai_work.md",
     "positioning": "outbox/sean_girgis_searchable_profile.md",
-    "guardrails": "PROJECT_MEMORY.md",
+    "guardrails": "_agent/RULES.md",
     "rules": "config/runtime_profile_rules.json",
 }
 FOUNDATIONS = [

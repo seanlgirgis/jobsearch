@@ -21,7 +21,7 @@ Do not hand-edit it; rebuild it from the reviewed sources and projection rules.
   copied. An unexpected employer change requires review.
 - Optional Director `SEAN_NOW.md`: current-focus context, recorded in provenance;
   its private notes are not copied or treated as new employment evidence.
-- `PROJECT_MEMORY.md`: required durable guardrail reference. Safety policy is
+- `_agent/RULES.md`: required operating-guardrail reference. Safety policy is
   encoded in the builder; changed prose does not automatically rewrite policy.
 - `config/runtime_profile_rules.json`: reviewed selection and summarization
   recipe, not independent career evidence. It specifies positioning, selected

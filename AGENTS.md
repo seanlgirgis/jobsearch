@@ -1,29 +1,38 @@
-# AGENTS.md
+# Agent instructions
 
-Start here. Any coding agent: read this file first, then the list below.
+This is Sean's job-market workspace: job intake, scoring, resumes, applications,
+gigs, and application interview preparation.
 
-This is Sean’s job-market room (pipeline, resumes, applied jobs, gigs, application interview prep).
+This file is the vendor-neutral entry point for every coding or agentic tool.
+Read it first, then follow the control plane below.
 
-## Read at session start (in order)
+## Startup
 
-1. `BOOTSTRAP.md`
-2. `PROFILE.md` (boundaries)
-3. `PROJECT_MEMORY.md` (durable decisions only)
-4. `CURRENT_STATE.md` (status only)
-5. Task paths only — `JOBSEARCH_DRIVER.md`, intake, pipeline scripts
-6. **Search bots:** read `search_bots/agent_work/README.md` then `HANDOFF.md`. Do not crawl the whole `search_bots/` or `data/jobs/` tree.
+1. Read `_agent/README.md`.
+2. Read `_agent/CONSTITUTION.md`, `_agent/RULES.md`, `_agent/MEMORY.md`,
+   `_agent/STATE.md`, and `_agent/HANDOFF.md`.
+3. Follow the route map in `_agent/README.md` and read only the files needed for
+   the requested step.
 
-Before Python: `. .\env_setter.ps1`
+Do not crawl all of `data/jobs/`, `data/search_bots/`, or `search_bots/`.
 
-Launch: `start_grok jobsearch`
+Before running Python, activate the project environment:
 
-## Operator identity (optional)
+```powershell
+. .\env_setter.ps1
+```
 
-If `D:\Workarea\Grok_DIRECTOR` exists: `SEAN.md` then `SEAN_NOW.md`. If missing: do not invent biography.
+## Non-negotiable boundaries
 
-## Hard rules
+- Do not invent employment history, metrics, dates, titles, or production depth.
+- Use `data/master/` and the runtime-profile rules for career facts.
+- Keep the current employer as LTIMindtree only; never name its client in public
+  artifacts. Treat CAPTAIN as research, not production.
+- Do not write ALOK, learning, python_dsa, or local_memory work here.
+- Do not submit applications or mark them applied without Sean's explicit
+  confirmation.
+- Preserve historical records and user changes. Do not delete, bulk-move, reset,
+  push, or rewrite Git history unless Sean explicitly delegates it.
 
-- One job or one pipeline step unless Sean asks otherwise
-- Do not invent employment history; use `data/master/` (BofA AI work Sean stated: `data/master/bofa_stated_ai_work.md` until merged into `master_career_data`)
-- Sean manages Git unless he delegates
-- Do not write ALOK / learning / python_dsa / local_memory work here
+The old agent-specific filenames are preserved under the dated archive. They
+are not separate policy sources.

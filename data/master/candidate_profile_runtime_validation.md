@@ -14,7 +14,7 @@
 - `data/master/skills.yaml` (skills): 10,730 bytes; SHA-256 `acf5d684ac74964228e4d84af51e6a5f06f1903435c8704d0c0f0cb1420d3dcf`.
 - `data/master/bofa_stated_ai_work.md` (current_work): 3,427 bytes; SHA-256 `724dd62c5cfd05679acd8dff4675a6945563c02ae02d776561c1fcf5e6e8a987`.
 - `outbox/sean_girgis_searchable_profile.md` (positioning): 10,294 bytes; SHA-256 `8e944297b7fee0c69eebc6588e8ea2732a08b9a18e5eba1b7bf0d3f00195ae0c`.
-- `PROJECT_MEMORY.md` (guardrails): 3,245 bytes; SHA-256 `5b5a036714099c6d9f0ed8c3ef46e0050eda9620b391eefa9ea86ee6de2c6300`.
+- `_agent/RULES.md` (guardrails): 2,437 bytes; SHA-256 `2e01e5e95716a601d19bcd4b8cee613f39a29929d05a6d58745a3819b70afe0e`.
 - `config/runtime_profile_rules.json` (rules): 6,883 bytes; SHA-256 `504c5b300696948c22e0154d5d5c1d5f8b8487271a4acc95946f42afcc83b63a`.
 - `SEAN.md` (director_identity): 2,484 bytes; SHA-256 `3876601ac38589e9b022a53fa2bf9eeac0b9395f6108218a6d2083fb0ce0aa44`.
 - `SEAN_NOW.md` (director_now): 2,140 bytes; SHA-256 `2ea8e730033a6017ef115c62490f1177c71f73dc89313d3e1a8a8a7cb5ad22b9`.

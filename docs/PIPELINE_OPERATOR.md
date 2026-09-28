@@ -1,10 +1,9 @@
 # Pipeline operator
 
-Authoritative commands for Sean and Cline. Start with [AGENTS.md](../AGENTS.md).
-Use the [Cline runner](../CLINE_JOBSEARCH_RUNNER.md) for execution and the
-[reasoner](../CLINE_JOBSEARCH_REASONER.md) for discussion/maintenance. Technical
-details are in [architecture](PIPELINE_ARCHITECTURE.md); verification and first
-paid-test conditions are in [CUTOVER_REPORT.md](CUTOVER_REPORT.md).
+Authoritative current commands for Sean and any coding agent. Start with
+[_agent/README.md](../_agent/README.md) and [AGENTS.md](../AGENTS.md).
+Technical details are in [architecture](PIPELINE_ARCHITECTURE.md); verification
+and first paid-test conditions are in [CUTOVER_REPORT.md](CUTOVER_REPORT.md).
 
 ## One job, one step
 
@@ -73,7 +72,7 @@ python scripts\model_profile.py use economy
 
 The active selection affects clients that omit a profile name. This runner defaults
 Tier 1 to `economy` and Tier 2 to `quality`, but either stage can use any configured
-named profile. Cline's own model is separate.
+named profile. The agent's own model is separate.
 Configure actual primary IDs in config/model_profiles.local.json using
 [model setup](../config/README.md); never store keys there. Use schema-capable
 primaries and no fallbacks; the selected generation profile must also set
