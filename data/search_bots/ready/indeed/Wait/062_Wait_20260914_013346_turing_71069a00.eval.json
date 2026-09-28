@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "71069a008c6887203cf4149af0384566b99e3fdb8fab7ee4e9359c56ae7e6d08",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:33:46Z",
+  "indeed_jk": "8f8374e805026019",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3115,
+    "completion_tokens": 688,
+    "total_tokens": 3803,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0004835
+  },
+  "analysis": {
+    "company": "Turing",
+    "title": "Remote Software Engineer - Python/Typescript",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "Strong Python skills and extensive experience building pipelines and infrastructure for capacity/performance engineering map well to the core engineering requirements. Hands-on AI/LLM projects (job-search pipeline, lakehouse with Text-to-SQL) show practical experience with AI workflows and preference data (e.g., rubric creation for job tailoring). Strong communication and clear technical writing are evidenced by summaries and project documentation. However, direct professional experience with preference data collection or rubric creation is not confirmed; the candidate has not shown explicit work on preference data or evaluation criteria. Also, the role expects a deep focus on data quality and labeling, which is adjacent to the candidate's data quality work but not identical.",
+    "strengths": [
+      "Expert-level Python with proven ETL, pipeline, and infrastructure design",
+      "Hands-on experience building AI agentic pipelines and LLM scoring (job search pipeline, lakehouse) including quality gates and rubric-like criteria",
+      "Strong data quality and validation skills from telemetry ETL work",
+      "Clear written communication and technical synthesize",
+      "Comfortable in ambiguous, fast-moving environments (demonstrated by multi-domain projects)",
+      "Remote work space and ability to work with Pacific overlap (Murphy, TX supports"
+    ],
+    "gaps": [
+      "No explicit professional experience with preference data collection or rubric creation at scale (only personal/LLM projects)",
+      "Limited TypeScript experience compared to Python; VSCode codebase experience not noted",
+      "No demonstrated history of labeling or data curation for LLM training",
+      "Deeper AI/LLM integration is project-based, not production at an AI lab"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "Typescript",
+      "preference data",
+      "rubric",
+      "data labeling",
+      "data quality",
+      "pipelines",
+      "infrastructure",
+      "LLM",
+      "AI",
+      "remote",
+      "contract",
+      "evaluation",
+      "high-taste",
+      "communication"
+    ],
+    "tailoring_plan": [
+      "Update resume to highlight Python pipeline and infrastructure work (capacity ETL, dashboards) and detail the AI job-search pipeline, especially how it uses LLM scoring and tailoring with rubric-like criteria. Explicitly list data cleaning, validation, and anomaly detection as 'data quality' experience. Reframe the lakehouse Text-to-SQL agent as work on LLM evaluation and quality. Prepare to discuss a method for creating and refining rubrics for preference data, using your own quality-gate criteria. Show a strong open-source or project example of evaluating LLM outputs. Emphasize clear communic"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "2d56e94c9ae96fd605ce07c861958594e1c633a2131bb1ee43321e7c8ab4230f",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:21:05Z",
+  "indeed_jk": "3eb334a6aebbd60d",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2629,
+    "completion_tokens": 613,
+    "total_tokens": 3242,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00098296
+  },
+  "analysis": {
+    "company": "Cyborg Mobile",
+    "title": "Data & AI Program Manager",
+    "location": null,
+    "score": 62,
+    "fit_rationale": "The role requires NLP data strategy, annotation program management, and LLM fine-tuning experience. The candidate has strong data engineering, Python automation, and practical AI skills, including LLM-based projects and data quality pipelines, but lacks direct NLP annotation or program management experience. The role's must-haves (customer centric, follow-through, building agents, PowerBI dashboards, SharePoint list management, coding agents) align with the candidate's current work and projects.",
+    "strengths": [
+      "Strong Python and data engineering skills (ETL, data quality, validation) from professional roles.",
+      "Practical AI experience: built agentic pipelines, used LLM scoring, RAG, and AI-assisted development.",
+      "Experience with Power BI (cataloging, migration) and building dashboards.",
+      "Experience with coding agents like Claude Code and GitHub Copilot (AI-assisted development).",
+      "Analytical mindset with experience in forecasting and data quality metrics.",
+      "Experience in large corporate environments (CITI, CA Technologies, Sabre)."
+    ],
+    "gaps": [
+      "No direct NLP data strategy or annotation program management experience.",
+      "No explicit experience with LLM fine-tuning pipelines or data annotation guidelines.",
+      "No demonstrated experience managing end-to-end data annotation processes or inter-annotator quality control.",
+      "Limited experience with SharePoint list management (not mentioned in profile).",
+      "Role requires customer-centric focus and follow-through; candidate's profile emphasizes technical execution more than program management."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "NLP data strategy",
+      "annotation program management",
+      "data quality metrics",
+      "LLM fine-tuning",
+      "data annotation workflows",
+      "guideline design",
+      "inter-annotator quality control",
+      "PowerBI dashboards",
+      "SharePoint list management",
+      "coding agents",
+      "Claude Code",
+      "GitHub Copilot",
+      "Python",
+      "data engineering",
+      "stakeholder communication"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize data quality and pipeline automation experience. Highlight any experience with data labeling or annotation (even if not NLP-specific). Showcase Power BI dashboard creation and SharePoint list management if applicable. Emphasize ability to build agents and use coding agents like Claude Code and GitHub Copilot. Frame current AI projects as evidence of practical AI implementation. Address the gap in NLP by emphasizing quick learning and foundational understanding of LLM pipelines."
+    ]
+  }
+}

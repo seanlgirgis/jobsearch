@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "dfe633fda8d56d95cc73550741702b7a54e96c5ec2d80fc77afe3f4ae693e2e9",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:18:48Z",
+  "indeed_jk": "ecc80d3561796d48",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2571,
+    "completion_tokens": 687,
+    "total_tokens": 3258,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000365355
+  },
+  "analysis": {
+    "company": "Matlen Silver",
+    "title": "Data Engineer [remote]",
+    "location": "Virginia • Remote",
+    "score": 68,
+    "fit_rationale": "The candidate has strong Python, SQL, ETL, and data modeling experience, plus AWS project evidence and practical AI tooling (Claude Code, Copilot). However, the job requires 5+ years in distributed data/computing tools (MapReduce, Hadoop, EMR, Kafka, Spark), real-time streaming, and data warehouses (Snowflake, Databricks, Redshift). The candidate's professional experience is more in capacity/performance engineering with some data engineering, and foundational-only skills in Snowflake/Databricks. The candidate has a personal project with PySpark and AWS lakehouse, but not enterprise production depth.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive ETL design and optimization (e.g., Python/Pandas ETL for 6,000+ endpoints).",
+      "Advanced AWS skills from a lakehouse project (S3, Glue, Athena, Bedrock) and AWS migration support.",
+      "Practical AI tooling experience: Claude Code, Copilot, and AI-assisted development.",
+      "Data modeling for warehousing: experience with Oracle, MySQL, and data migration projects.",
+      "Strong data quality, testing, and pipeline monitoring skills."
+    ],
+    "gaps": [
+      "No professional production experience with distributed data/computing tools (MapReduce, Hadoop, EMR, Kafka, Spark) - only a personal project with PySpark.",
+      "No professional experience with real-time data and streaming applications.",
+      "Snowflake and Databricks are foundational-only skills, not professional production expertise.",
+      "No professional experience with Redshift or other data warehouses beyond Oracle/MySQL.",
+      "5+ years requirement for public cloud (AWS, GCP, Azure) is not fully met; AWS is advanced but GCP/Azure are not evidenced."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "AWS",
+      "ETL",
+      "Data Modeling",
+      "Claude Code",
+      "Copilot",
+      "PySpark",
+      "Data Quality",
+      "Streaming",
+      "Kafka",
+      "Spark",
+      "Snowflake",
+      "Databricks",
+      "Redshift"
+    ],
+    "tailoring_plan": [
+      "Highlight the Python/Pandas ETL project and AWS lakehouse project to demonstrate data engineering skills. Emphasize the use of Claude Code and Copilot to meet the AI tooling requirement. Address the gap in distributed computing by mentioning the PySpark project and any relevant coursework or self-study. For streaming, note any exposure to real-time data in capacity monitoring (e.g., telemetry) and express willingness to learn. Tailor the resume to use keywords like 'data pipeline', 'data warehouse', 'streaming', and 'distributed computing' where applicable."
+    ]
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "bf98f0604bfcfce5cf00e733f5efc63614e9c9a2a226065333b65e1617927032",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:34:45Z",
+  "indeed_jk": "b683d56d1d6fabba",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3968,
+    "completion_tokens": 665,
+    "total_tokens": 4633,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00056305
+  },
+  "analysis": {
+    "company": "Raytheon",
+    "title": "Systems Engineering & Test Capabilities Operations Analyst (Remote)",
+    "location": "Sacramento, CA",
+    "score": 62,
+    "fit_rationale": "Strong alignment in analytical and data skills (Python/SQL, dashboarding, reporting, forecasting) and experience with automation and process improvement. However, the role is more operations-focused (HR, hiring, L&D) and requires a STEM bachelor's degree plus 8 years relevant experience, which the candidate's background partially covers but with heavier emphasis on technical capacity engineering than organizational operations. Security clearance requirement is an unknown and potential gap.",
+    "strengths": [
+      "Advanced data analytics and reporting: Python, SQL, Pandas, forecasting (Prophet/scikit-learn), and dashboard development (Power BI experience).",
+      "Process automation: Built AI-assisted ETL pipelines and automated capacity reports, aligning with the role's emphasis on streamlining through automation.",
+      "Operational metrics: Experience managing enterprise capacity requests, monthly reporting, and seasonal analysis in a large enterprise.",
+      "Cross-functional collaboration: Worked with engineering teams, business leaders, and provided consulting and training to clients, demonstrating ability to translate complex information.",
+      "Problem-solving and analytical skills: Proven ability to identify trends and drive informed decisions from telemetry and forecasting."
+    ],
+    "gaps": [
+      "Security clearance: The role requires an active or obtainable U.S. security clearance; candidate status unknown.",
+      "Domain-specific ops: limited exposure to HR, recruiting, workforce planning, learning and development, or organizational operations; the candidate's focus is capacity engineering, not people operations.",
+      "Potential overqualification: candidate has 15+ years of technical engineering experience, which might be beyond the 'operations analyst' level, though salary range is senior.",
+      "Degree: has a bachelor's in civil engineering, but not STEM? It is considered STEM; however, the role prefers STEM and the degree is civil engineering, which is acceptable, but not necessarily focused on computer science."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Operations Analyst",
+      "Data Analytics",
+      "Process Improvement",
+      "Automation",
+      "Reporting",
+      "Excel",
+      "PowerPoint",
+      "Cross-functional",
+      "Workforce Planning",
+      "Capacity Planning"
+    ],
+    "tailoring_plan": [
+      "In resume and cover letter, highlight data analytics work in capacity planning, reporting, and forecasting with concrete examples of using Python, SQL, and Power BI. Emphasize automation projects that streamlined operational reporting. To bridge the gap, translate infrastructure capacity into 'workforce capacity' and 'business operations' contexts, such as tracking staffing metrics or improving hiring processes based on data-driven insights. Mention any exposure to HR or organizational metrics in prior roles, if any, and be upfront about the security clearance question."
+    ]
+  }
+}

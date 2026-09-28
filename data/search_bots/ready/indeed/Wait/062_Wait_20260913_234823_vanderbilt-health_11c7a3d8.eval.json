@@ -1,0 +1,58 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "11c7a3d8ba91246f8152464dd3306cca89c2ad2af54906ea50e1a97a7c5f8f13",
+  "site": "indeed",
+  "captured_at": "2026-09-13T23:48:23Z",
+  "indeed_jk": "8a48ae899765acd8",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3629,
+    "completion_tokens": 699,
+    "total_tokens": 4328,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00020108
+  },
+  "analysis": {
+    "company": "Vanderbilt Health",
+    "title": "Voice and Network IT Project Manager (Local / Hybrid)",
+    "location": "Nashville, TN (remote with travel to regional hospitals)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong infrastructure and technical project experience, including managing enterprise capacity requests, coordinating migrations, and delivering consulting projects. However, the role is specifically for an IT Project Manager with a focus on voice and network projects, and the candidate's background is more in capacity, performance, and data engineering. The candidate has no explicit voice or network project management experience, and while they have PM-like responsibilities, they lack formal PMP certification and healthcare domain experience. The candidate's location (Murphy, TX) is outside the preferred Nashville area, which may be a concern for the hybrid/on-site requirement.",
+    "strengths": [
+      "Proven experience managing enterprise-level infrastructure projects (e.g., capacity request management, migration of shopping engine from MySQL to Oracle RAC).",
+      "Strong technical background in infrastructure, performance, and data engineering, which can help in understanding technical project details.",
+      "Experience coordinating cross-functional teams and delivering consulting engagements (CA Technologies).",
+      "Demonstrated ability to use data and automation to improve processes, which aligns with project coordination and reporting.",
+      "Familiarity with project tracking tools like JIRA and data sources like Splunk and SQL Server."
+    ],
+    "gaps": [
+      "No explicit experience managing voice or network technology projects.",
+      "No healthcare industry experience.",
+      "No PMP certification (preferred, but not required).",
+      "Location is Murphy, TX, not in or near Nashville, TN, which is strongly preferred.",
+      "Limited formal project management experience; role requires 2 years of relevant experience, but candidate's project management is more informal/technical."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT Project Manager",
+      "Voice and Network",
+      "Telephony",
+      "Networking",
+      "Infrastructure",
+      "Project Coordination",
+      "Project Planning",
+      "Project Communications",
+      "Issues Management",
+      "Healthcare",
+      "PMP",
+      "Hybrid",
+      "Nashville"
+    ],
+    "tailoring_plan": [
+      "1. In your resume and cover letter, highlight any experience with network or telephony projects, even if not primary (e.g., managing capacity for network endpoints, working with network monitoring tools). 2. Emphasize your project coordination skills: scheduling, resource identification, change management, and stakeholder communication. 3. Mention your experience with JIRA and other project tracking tools. 4. If you are willing to relocate, state that clearly. 5. Consider obtaining PMP certification before applying or express a strong commitment to obtaining it. 6. Tailor your resume to emphas"
+    ]
+  }
+}

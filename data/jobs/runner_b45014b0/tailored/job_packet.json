@@ -1,0 +1,93 @@
+{
+  "analysis": {
+    "company": "Synthires",
+    "title": "Senior AI Software Engineer",
+    "location": "Remote, United States",
+    "score": 68,
+    "fit_rationale": "Moderate-to-strong partial fit. The role values senior software engineering for building RL evaluation environments, and the candidate brings deep Python, historical C++, performance optimization, large-scale systems experience, and practical AI/LLM project work. However, there is no direct evidence of RL environment construction, Docker/GDB/ASan/FFmpeg tooling, CI/CD/DevOps workflows, or benchmark/evaluation framework development, which are core to this job.",
+    "strengths": [
+      "Expert Python and historical expert C++ with real performance optimization evidence, including optimizing C++/OCci processing with roughly 95% less hardware at Sabre.",
+      "Strong performance engineering, bottleneck analysis, and data-quality/debugging-oriented work across APM, telemetry ETL, and forecasting systems.",
+      "Practical AI project evidence: agentic job-search pipeline with LLM scoring/quality gates and an AWS lakehouse with Text-to-SQL agent.",
+      "Experience with large-scale data systems, including migrating 200+ MySQL nodes to Oracle RAC, supporting the distributed-codebase preference."
+    ],
+    "gaps": [
+      "No direct evidence of building Reinforcement Learning environments or evaluating AI model solutions.",
+      "No explicit production experience with Docker, GDB, AddressSanitizer, FFmpeg, Git workflows, or CI/CD/DevOps.",
+      "Limited evidence for codebase refactoring, feature development, and rigorous code-review participation.",
+      "Profile is more capacity/observability engineering than general software engineering, so algorithms/software architecture depth is not strongly documented."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Reinforcement Learning",
+      "software engineering workflows",
+      "debugging",
+      "performance optimization",
+      "C++",
+      "Python",
+      "Git",
+      "Docker",
+      "GDB",
+      "AddressSanitizer",
+      "FFmpeg",
+      "CI/CD",
+      "DevOps",
+      "AI model evaluation",
+      "golden reference solutions"
+    ],
+    "tailoring_plan": [
+      "Lead with Python/C++ mastery and performance optimization wins, especially the Sabre C++/OCci optimization and ETL/forecasting validation work. Translate current AI-assisted report automation and the AI agentic pipeline/lakehouse projects into evidence for AI evaluation workflows and quality gates. Add a brief section on reproducibility and correctness: ETL validation/anomaly checks, forecasting model validation, and agentic pipeline quality gates. Acknowledge RL and DevOp tooling gaps by showing quick foundational familiarity with Docker, GDB, ASan, and CI/CD concepts, but do not claim produc"
+    ]
+  },
+  "provenance": {
+    "key": "44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6",
+    "result": "HIT",
+    "identity": {
+      "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+      "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+      "prompt_version": "canonical-v4-package-json",
+      "model_profile": "economy",
+      "pipeline_stage": "analysis",
+      "model_settings": {
+        "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+        "primary": {
+          "provider": "openrouter",
+          "model": "deepseek/deepseek-v4-flash-0731",
+          "supports_json_schema": true,
+          "supports_temperature": true,
+          "token_parameter": null
+        },
+        "fallbacks": [],
+        "temperature": 0.1,
+        "max_output_tokens": 4000,
+        "reasoning_effort": null,
+        "structured_output": "required",
+        "allow_artifacts": false
+      },
+      "schema_sha256": "2d39e7fcf01313f001692c82c0b944535fd1f55f1bf191b3905c8eb8f0b63a6c",
+      "request_sha256": "3cf45702eb07b963637ec9069e2eb4f46e1b648dd73135fa90b65fa42873c854"
+    },
+    "model_used": {
+      "profile": "economy",
+      "provider": "openrouter",
+      "model": "deepseek/deepseek-v4-flash-0731"
+    },
+    "usage": {
+      "prompt_tokens": 2859,
+      "completion_tokens": 3178,
+      "total_tokens": 6037,
+      "reasoning_tokens": 2555,
+      "actual_usd": 0.00036643776
+    }
+  },
+  "tier0_decision": "CLEAR",
+  "llm_decision": "REVIEW",
+  "user_decision": {
+    "decision": "ACCEPTED",
+    "source": "generate_command",
+    "reason": "Testing the resume and cover generation path",
+    "suitability_override": true,
+    "analysis_cache_key": "44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6"
+  },
+  "duplicate_override": null
+}

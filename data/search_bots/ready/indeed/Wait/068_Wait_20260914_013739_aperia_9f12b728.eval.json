@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "9f12b728f3ab2db2e570c33ece28ff4f911fc89d1a40c716d31171634f2175c7",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:37:39Z",
+  "indeed_jk": "e97fbd3d4519b8a5",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 2627,
+    "completion_tokens": 659,
+    "total_tokens": 3286,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002836064
+  },
+  "analysis": {
+    "company": "Aperia",
+    "title": "Power BI Developer",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "The candidate has strong SQL, Python, and data reporting experience, with hands-on Power BI migration and cataloging work. However, the role emphasizes Power BI development as a core function, while the candidate's Power BI experience is supporting migration rather than building reports from scratch. The candidate's background in financial services (CITI) and data-driven reporting aligns well, but the role requires 3+ years in business/IT program or project management, which is not clearly evidenced. The contract nature and specific Power BI development focus are the main gaps.",
+    "strengths": [
+      "Expert-level SQL and Python with extensive data pipeline and ETL experience",
+      "Hands-on Power BI experience: used Copilot, AI, and Python to organize, catalog, and support migration of Power BI reports",
+      "Strong reporting and automation background: automated capacity-report preparation with AI and multiple data sources",
+      "Experience in financial services (CITI) and data-driven management, metrics, and reporting",
+      "Familiarity with VBA and Python, as required",
+      "Proven ability to generate insights from KPIs and trends (capacity forecasting, seasonal analysis)"
+    ],
+    "gaps": [
+      "Power BI development is not the primary focus; candidate's experience is more in migration/cataloging than building new reports",
+      "No explicit evidence of 3+ years in business/IT program or project management",
+      "No direct experience in the Payments industry, though financial services experience is present",
+      "Role is a 3-month contract, which may not align with candidate's preference for permanent or longer-term roles",
+      "No mention of experience with macros and complex pivot tables in Excel, though strong Excel skills are implied"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Power BI",
+      "SQL",
+      "Python",
+      "VBA",
+      "Excel",
+      "data reporting",
+      "KPIs",
+      "trends",
+      "financial services",
+      "payments",
+      "data quality",
+      "automation",
+      "stakeholder management",
+      "project management"
+    ],
+    "tailoring_plan": [
+      "Tailor the resume to emphasize Power BI experience, even if it was migration-focused, by detailing the scale and impact of the migration. Highlight SQL and Python skills as core strengths for data extraction and transformation. Emphasize any experience with financial services data and reporting. Address the project management requirement by showcasing experience leading data-related projects, such as the capacity forecasting project. If possible, mention familiarity with VBA and macros in Excel. Prepare to discuss how the candidate can quickly ramp up on Power BI report development."
+    ]
+  }
+}

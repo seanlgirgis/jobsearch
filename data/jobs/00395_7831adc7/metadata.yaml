@@ -1,0 +1,30 @@
+uuid: 7831adc7-cc9c-4250-9916-39427d69cdd8
+job_id: 00395_7831adc7
+company: Scale AI
+role: AI Strategy Consultant Frontier Tech
+location: Remote, United States
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: LinkedIn
+  history:
+  - timestamp: '2026-09-12T16:15:29'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: Duplicate check cleared. Use the part-time consulting resume. Position
+      around applied AI evaluation, Python, SQL, AWS, LLM/RAG, data quality, and workflow
+      automation; do not claim an ML PhD.
+  - date: '2026-09-12'
+    status: Applied
+    notes: User reported submitting profile for Scale AI AI Strategy Consultant, Frontier
+      Tech. Posting indicates HireArt manages responses.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Profile submitted via LinkedIn; monitor for HireArt follow-up.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'
+  application_notes: User reported submitting profile for Scale AI AI Strategy Consultant,
+    Frontier Tech. Posting indicates HireArt manages responses.

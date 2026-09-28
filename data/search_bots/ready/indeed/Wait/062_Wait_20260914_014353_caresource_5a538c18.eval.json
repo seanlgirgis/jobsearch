@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5a538c180289c2d5cdcba9d7293f0dd5964144854a0be41542063e074da7e72d",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:43:53Z",
+  "indeed_jk": "bfded12dd2b38a6f",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3198,
+    "completion_tokens": 687,
+    "total_tokens": 3885,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00031554
+  },
+  "analysis": {
+    "company": "CareSource",
+    "title": "LTSS & Dual Eligible Program Report Developer IV",
+    "location": null,
+    "score": 62,
+    "fit_rationale": "The candidate has strong data engineering and reporting skills, including Python, SQL, ETL, and Power BI, with experience in building dashboards and automating reports. However, the role requires healthcare-specific LTSS/DSNP reporting experience, which the candidate lacks. The candidate's background is in capacity and performance engineering, not healthcare analytics. The role also emphasizes statistical methods, ML, and data governance, which the candidate has some exposure to but not at the required depth. The candidate's project work in forecasting and lakehouse architecture is relevant but not directly in healthcare.",
+    "strengths": [
+      "Expert-level Python and SQL, with strong ETL design and optimization experience.",
+      "Hands-on Power BI experience, including migration and cataloging.",
+      "Proven ability to build automated reporting pipelines and dashboards.",
+      "Experience with forecasting models (Prophet, scikit-learn) and data pipeline automation.",
+      "Strong background in data quality, validation, and anomaly detection.",
+      "Project experience with AWS lakehouse and Text-to-SQL agents, showing modern data stack familiarity."
+    ],
+    "gaps": [
+      "No healthcare or LTSS/DSNP domain experience.",
+      "Limited experience with statistical methods and ML in a production healthcare setting.",
+      "No explicit experience with data governance or regulatory compliance in healthcare.",
+      "Lacks formal certification in Tableau, Power BI, or related tools (though Power BI is used).",
+      "No demonstrated experience with DevOps/CI/CD in a data engineering context.",
+      "Role requires leading cross-functional teams; candidate's leadership experience is not explicitly highlighted."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Power BI",
+      "SQL",
+      "SSIS",
+      "ETL",
+      "data modeling",
+      "dashboards",
+      "KPIs",
+      "healthcare",
+      "LTSS",
+      "DSNP",
+      "data governance",
+      "statistical analysis",
+      "machine learning",
+      "Python",
+      "data pipeline",
+      "automation"
+    ],
+    "tailoring_plan": [
+      "If applying, emphasize transferable skills: data pipeline automation, dashboard development, and forecasting. Highlight any exposure to healthcare data (if any) or willingness to learn. Address the gap by discussing how the candidate's experience with complex data environments and cross-functional collaboration can be applied to LTSS/DSNP reporting. Tailor the resume to include keywords like 'LTSS', 'DSNP', 'healthcare reporting', and 'data governance' in a skills section, even if only as areas of interest. Prepare to discuss how the candidate's forecasting and ETL experience can be adapted to"
+    ]
+  }
+}

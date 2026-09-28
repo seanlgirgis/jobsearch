@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "948dee581660ca37bb17eb8d3af8615bcfa4e996338aa4c648b090c4edfacd95",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:41:05Z",
+  "indeed_jk": "3c96d5ed1ba387e9",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3852,
+    "completion_tokens": 750,
+    "total_tokens": 4602,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00074928
+  },
+  "analysis": {
+    "company": "Lockheed Martin",
+    "title": "Staff 3DX Application Infrastructure Analyst",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong infrastructure and performance engineering experience, with deep Python, SQL, and Unix/Linux skills, plus enterprise application support and automation. However, the role specifically requires Dassault 3DX/PLM application expertise, which the candidate lacks. The candidate's background in capacity planning, performance monitoring, and AWS migration aligns with some infrastructure aspects, but the core PLM focus and required 1-3 years Unix experience are not fully met. The candidate's AI and automation projects are relevant but not directly applicable to 3DX.",
+    "strengths": [
+      "Expert-level Python and SQL, with extensive ETL and data pipeline development",
+      "Strong Unix/Linux experience (though not explicitly stated, the candidate's work with Oracle, AWS, and scripting implies proficiency)",
+      "Experience supporting business-critical enterprise applications (CITI, G6, CA Technologies)",
+      "Familiarity with AWS, including migration and lakehouse design",
+      "Proven ability to automate reporting and infrastructure tasks using AI and scripting",
+      "Experience with Agile and DevSecOps principles from project work"
+    ],
+    "gaps": [
+      "No experience with Dassault 3DX or PLM applications",
+      "No explicit Unix system administration experience (file systems, process management, memory management)",
+      "No experience with Tomee, Tomcat, Shibboleth, or AIX",
+      "No experience in US Government regulated environments with strict compliance",
+      "No demonstrated experience with Identity and Access Management (IAM) strategies",
+      "No experience with high-availability and disaster recovery solutions for enterprise applications"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "Unix",
+      "Linux",
+      "AWS",
+      "Enterprise applications",
+      "Automation",
+      "Infrastructure-as-code",
+      "Agile",
+      "DevSecOps",
+      "Troubleshooting",
+      "Performance",
+      "Capacity planning",
+      "SQL",
+      "ETL",
+      "Monitoring",
+      "Dynatrace"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize Unix/Linux experience from past roles (e.g., Oracle RAC, AWS, scripting) and any file system/process management knowledge. 2. Highlight Python automation and infrastructure-as-code projects (e.g., lakehouse, job-search pipeline) to align with automation requirements. 3. Showcase enterprise application support experience (CITI, G6) and ability to work under pressure during outages. 4. Add any exposure to IAM, security, or compliance from past roles. 5. If possible, take a basic 3DX or PLM course to show initiative. 6. Tailor resume to use keywords like 'enterprise-wide PLM', 'high-"
+    ]
+  }
+}

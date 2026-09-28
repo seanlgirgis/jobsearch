@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "4414acb4b37cdc70d1e6a6a70386cf8a9af51dfbcad11c943e74a616c36ca7cd",
+  "site": "indeed",
+  "captured_at": "2026-09-13T23:47:52Z",
+  "indeed_jk": "8356a5961ffb6076",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 2929,
+    "completion_tokens": 636,
+    "total_tokens": 3565,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00016804
+  },
+  "analysis": {
+    "company": "General Dynamics Information Technology",
+    "title": "IT Operations Manager",
+    "location": "Remote, Working from the USA",
+    "score": 62,
+    "fit_rationale": "The candidate has strong technical depth in capacity planning, performance engineering, and data automation, which aligns with the operational excellence and modernization aspects of the role. However, the role is primarily an IT operations management position requiring leadership of IT teams, vendor management, and broad IT service management (ITSM) experience, which the candidate's profile does not explicitly demonstrate. The candidate's experience is more specialized in capacity and performance engineering rather than general IT operations management.",
+    "strengths": [
+      "Deep expertise in capacity planning, forecasting, and performance engineering, directly relevant to ensuring reliability and lifecycle planning.",
+      "Proven experience with monitoring and observability tools (Dynatrace, CA APM, AppDynamics) and data integration (ETL, SQL, Python) that can support operational reporting and automation.",
+      "Experience in regulated environments (CITI, Sabre) and with large-scale systems, indicating ability to handle complex infrastructure.",
+      "Strong automation and AI-assisted workflow skills that can drive modernization and process improvement.",
+      "Excellent communication skills demonstrated through consulting and training roles."
+    ],
+    "gaps": [
+      "No explicit experience managing IT teams or contractors; the role requires leading staff and setting priorities.",
+      "Lack of direct vendor management and contract execution experience.",
+      "No mention of ITSM platforms like ServiceNow or formal IT service management frameworks (ITIL).",
+      "Limited experience with end-user support, service desk operations, and incident/change management processes.",
+      "Cybersecurity operations and compliance management are not highlighted in the profile."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT Operations Manager",
+      "IT service management",
+      "incident management",
+      "vendor management",
+      "cybersecurity",
+      "cloud services",
+      "infrastructure",
+      "ServiceNow",
+      "operational reporting",
+      "automation",
+      "capacity planning",
+      "performance engineering",
+      "monitoring",
+      "Python",
+      "SQL",
+      "ETL"
+    ],
+    "tailoring_plan": [
+      "To improve fit, the candidate should highlight any leadership or mentoring experiences, even informal, and any involvement in vendor interactions or procurement support. Emphasize experience with monitoring and reporting that aligns with operational metrics. If possible, pursue certifications in ITIL or ServiceNow to bridge the gap. In the resume, frame capacity and performance work as contributing to operational reliability and efficiency, and explicitly mention any experience with incident response or change management."
+    ]
+  }
+}

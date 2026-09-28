@@ -1,0 +1,4 @@
+{
+  "handoff_root": "D:/OneDrive/jobsearch_handoff",
+  "comment": "Copy to search_bots.local.json (gitignored). Point at the synced OneDrive folder, not a world-writable share URL in git."
+}

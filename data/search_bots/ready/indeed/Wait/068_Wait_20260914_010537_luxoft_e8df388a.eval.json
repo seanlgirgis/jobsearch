@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e8df388a728e22b617eb31dfd3985308e24d72b90a9049951bdd1bf6a3ef7432",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:05:37Z",
+  "indeed_jk": "8205e7fd03b3ac21",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3447,
+    "completion_tokens": 652,
+    "total_tokens": 4099,
+    "reasoning_tokens": 0,
+    "actual_usd": 7.3168e-05
+  },
+  "analysis": {
+    "company": "Luxoft",
+    "title": "AI Platform / SRE Lead",
+    "location": "Remote (United States)",
+    "score": 68,
+    "fit_rationale": "The candidate has strong professional expertise in capacity planning, performance engineering, observability (Dynatrace, CA APM, AppDynamics), Python automation, and practical AI projects (RAG, agentic workflows, AI-assisted development). However, the role demands senior SRE/DevOps leadership with hands-on production operations, incident management, CI/CD, and AI-enabled operational automation at enterprise scale. The candidate's SRE/DevOps experience is indirect and not at the level of leading multiple pods or defining governance/guardrails. The AI evidence is mostly project-based or research, not production enterprise AI operations.",
+    "strengths": [
+      "Deep professional expertise in observability and monitoring (Dynatrace, CA APM, AppDynamics, BMC TrueSight) and performance engineering.",
+      "Strong Python automation and ETL skills, with practical AI projects (RAG, agentic workflows, AI-assisted development).",
+      "Experience with cloud platforms (AWS) and infrastructure as code (lakehouse project).",
+      "Proven ability to translate business needs into technical solutions (capacity forecasting, performance consulting).",
+      "Excellent communication and client-facing consulting background (CA APM consulting)."
+    ],
+    "gaps": [
+      "No direct professional SRE or DevOps role; production operations and incident management are not core evidence.",
+      "Limited CI/CD experience; no explicit evidence of building or managing CI/CD pipelines.",
+      "AI/GenAI experience is mostly project-based or research, not production enterprise AI operations or AI-enabled incident response.",
+      "No evidence of leading distributed engineering teams or establishing governance/guardrails at scale.",
+      "Healthcare or regulated environment experience is not evident."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SRE",
+      "DevOps",
+      "Generative AI",
+      "Observability",
+      "Monitoring",
+      "Incident Management",
+      "Operational Automation",
+      "CI/CD",
+      "AI Engineering",
+      "Capacity Planning",
+      "Performance Engineering",
+      "Python",
+      "AWS",
+      "Dynatrace",
+      "CA APM"
+    ],
+    "tailoring_plan": [
+      "Highlight professional observability and performance engineering as the foundation for SRE responsibilities. Emphasize Python automation and AI projects (RAG, agentic workflows) as evidence of AI-enabled operations potential. Frame the lakehouse project as cloud infrastructure and IaC experience. Address gaps by discussing any informal DevOps or incident response involvement, and express willingness to lead and define AI guardrails. Tailor resume to use SRE/DevOps terminology and quantify impact where possible."
+    ]
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "identity": {
+    "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+    "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+    "prompt_version": "canonical-v3-openrouter",
+    "model_profile": "economy",
+    "pipeline_stage": "analysis",
+    "model_settings": {
+      "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+      "primary": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "supports_json_schema": true,
+        "supports_temperature": true,
+        "token_parameter": null
+      },
+      "fallbacks": [],
+      "temperature": 0.1,
+      "max_output_tokens": 4000,
+      "structured_output": "required",
+      "allow_artifacts": false
+    },
+    "schema_sha256": "2d39e7fcf01313f001692c82c0b944535fd1f55f1bf191b3905c8eb8f0b63a6c",
+    "request_sha256": "3cf45702eb07b963637ec9069e2eb4f46e1b648dd73135fa90b65fa42873c854"
+  },
+  "status": "COMPLETE",
+  "max_provider_requests": 1,
+  "model_used": {
+    "profile": "economy",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4-flash-0731"
+  },
+  "result": {
+    "company": "Synthires",
+    "title": "Senior AI Software Engineer",
+    "location": "United States (Remote)",
+    "score": 65,
+    "fit_rationale": "Moderate fit. The candidate brings expert-level Python, historical expert-level C++, and strong performance optimization and debugging experience from large-scale monitoring and migration work. Practical AI projects and AI-assisted development align with the role's AI-training domain, but the role is fundamentally a senior software engineering position requiring current software development breadth, RL environment creation, and CLI/DevOps tooling such as Docker, GDB, ASan, and CI/CD, where direct evidence is limited.",
+    "strengths": [
+      "Expert Python with strong automation, ETL, and data engineering depth.",
+      "Historical expert C++ from performance-critical migration and optimization work.",
+      "Deep performance engineering and bottleneck analysis experience.",
+      "Practical AI experience including agentic workflows, RAG, LLM scoring, and AI-assisted development.",
+      "Targets selective remote part-time consulting, matching the engagement model."
+    ],
+    "gaps": [
+      "No direct experience with Reinforcement Learning environment design or AI model evaluation.",
+      "No listed evidence of Docker, GDB, ASan, FFmpeg, or similar CLI-based reproducible environment tooling.",
+      "Limited current software engineering evidence for feature development, refactoring, and code review at scale.",
+      "No explicit DevOps/CI/CD experience in the provided evidence.",
+      "C++ expertise appears historical rather than current production practice."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "C++",
+      "performance optimization",
+      "debugging",
+      "AI automation",
+      "agentic workflows",
+      "RAG",
+      "ETL",
+      "capacity engineering",
+      "remote contract"
+    ],
+    "tailoring_plan": [
+      "Lead with Python and C++ performance optimization achievements, especially the Oracle RAC/C++ migration work.",
+      "Translate performance engineering and anomaly detection experience into debugging and code-quality examples.",
+      "Add any real experience with Git, Docker, CLI tooling, CI/CD, or reproducible environments; do not claim unlisted tools.",
+      "Position AI-assisted projects as evidence of practical AI workflow understanding, not as RL expertise.",
+      "Acknowledge the RL/evaluation-learning curve and emphasize rapid technical learning and rigorous validation habits."
+    ]
+  },
+  "result_sha256": "ff5ec8a7befae4990b14edde266a50a3bf47d800507ad30faa4fa8080da763f0",
+  "usage": {
+    "prompt_tokens": 2859,
+    "completion_tokens": 2838,
+    "total_tokens": 5697,
+    "reasoning_tokens": 2291,
+    "actual_usd": 0.00033053376
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "479792d5d21e42f8627e005f9c3c01b9ad2ba8cdf8560d9f29b10d8566f4e1d9",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:42:56Z",
+  "indeed_jk": "71787b753e70f97b",
+  "usage": {
+    "prompt_tokens": 2773,
+    "completion_tokens": 236,
+    "total_tokens": 3009,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0001298
+  },
+  "analysis": {
+    "company": "Seven Starling",
+    "title": "California Licensed Collaborative Psychiatrist - Women's Health - PRN Remote Contract",
+    "location": "Remote",
+    "score": 0,
+    "fit_rationale": "The candidate is an infrastructure capacity and performance engineer with expertise in Python, SQL, ETL, and AI workflows. The job requires a board-certified psychiatrist licensed in California with clinical experience in women's mental health, telehealth, and collaborative practice. There is no overlap in required qualifications, skills, or experience.",
+    "strengths": [
+      "Requires manual review"
+    ],
+    "gaps": [
+      "No medical degree or psychiatric board certification",
+      "No California medical license or DEA registration",
+      "No clinical experience in perinatal or women's mental health",
+      "No telehealth clinical experience",
+      "No collaborative psychiatric practice experience"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Requires manual review"
+    ],
+    "tailoring_plan": [
+      "No tailoring possible; the role requires medical credentials and clinical expertise the candidate does not possess."
+    ]
+  }
+}

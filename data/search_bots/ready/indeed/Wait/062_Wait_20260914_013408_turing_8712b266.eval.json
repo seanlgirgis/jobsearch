@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "8712b266cbb013cd55fccad00c40a8a47b7b3e88847120a548b3a2702cfbed21",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:34:08Z",
+  "indeed_jk": "dd8ce5b50d0d80c7",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3287,
+    "completion_tokens": 742,
+    "total_tokens": 4029,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000523506
+  },
+  "analysis": {
+    "company": "Turing",
+    "title": "Remote Backend Engineer (Python/FastAPI)",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong Python, ETL, and data engineering experience, plus practical AI projects (agentic pipeline, lakehouse with Text-to-SQL). However, the role emphasizes full-stack JavaScript (React/Node.js), modern backend frameworks like FastAPI, and production-grade software engineering at high-scale companies. The candidate's professional experience is more in capacity/performance engineering and data pipelines, not full-stack development. Their AI projects are personal or research-oriented, not enterprise production. The role also requires US-based candidates, which matches the candidate's location.",
+    "strengths": [
+      "Expert-level Python and Pandas with extensive ETL development (CITI P95 telemetry pipeline).",
+      "Strong data engineering and forecasting skills (scikit-learn, Prophet, PySpark).",
+      "Practical AI experience: built agentic job-search pipeline with FAISS, LLM scoring, MCP; designed AWS lakehouse with Text-to-SQL agent.",
+      "Experience with large-scale systems (Sabre migration, 6,000+ endpoints) and performance engineering.",
+      "US-based (Murphy, TX) as required."
+    ],
+    "gaps": [
+      "No professional experience with JavaScript/React/Node.js or full-stack development.",
+      "No evidence of FastAPI or modern backend frameworks (only Python scripting and ETL).",
+      "Professional background is in capacity/performance engineering, not software engineering at high-scale tech companies like Google/Microsoft.",
+      "AI projects are personal or research-oriented, not enterprise production deployments.",
+      "No experience with AI model training data curation or evaluating AI-generated code."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "FastAPI",
+      "Backend",
+      "Full-stack",
+      "JavaScript",
+      "React",
+      "Node.js",
+      "AI",
+      "LLM",
+      "Data curation",
+      "Code evaluation",
+      "Production systems",
+      "Scalability",
+      "Software architecture",
+      "Debugging",
+      "Code review"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite headline to 'Backend Engineer with Python and AI-Driven Solutions' to align with role. 2. In summary, emphasize Python expertise and AI projects (agentic pipeline, lakehouse) as evidence of backend and AI capabilities. 3. Add a 'Technical Skills' section listing Python, FastAPI (if you have any exposure, otherwise omit), SQL, ETL, and AI/LLM tools. 4. In experience bullets, highlight Python development and data pipeline work, and quantify impact (e.g., 6,000+ endpoints). 5. Add a 'Projects' section detailing the AI job-search pipeline and lakehouse, emphasizing backend architecture "
+    ]
+  }
+}

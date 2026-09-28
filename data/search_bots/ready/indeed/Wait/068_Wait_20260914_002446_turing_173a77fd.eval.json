@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "173a77fd8edba7320f2512c96f8a8e4d153264c508f2b6268fa4bc9a082f2b8c",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:24:46Z",
+  "indeed_jk": "32061a590ee1a8b6",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 2512,
+    "completion_tokens": 851,
+    "total_tokens": 3363,
+    "reasoning_tokens": 0,
+    "actual_usd": 7.7154e-05
+  },
+  "analysis": {
+    "company": "Turing",
+    "title": "Remote IT System Manager",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "The candidate has strong systems management, project leadership, and enterprise technology strategy experience, particularly in capacity planning, performance engineering, and infrastructure. The role requires IT governance, system integration, cybersecurity, and project delivery, which align with the candidate's professional history. However, the candidate's background is more specialized in capacity/performance engineering rather than broad IT management, and there is no explicit evidence of cybersecurity or formal IT governance expertise. The AI evaluation aspect of the role is supported by the candidate's practical AI projects and current AI-assisted work, though these are not production-proven in an enterprise AI context.",
+    "strengths": [
+      "Extensive professional experience in enterprise systems management, including capacity planning, performance engineering, and infrastructure migration (e.g., Sabre, CA Technologies, G6 Hospitality, CITI).",
+      "Strong project leadership and delivery evidence, including managing enterprise capacity requests, consulting engagements, and large-scale migrations.",
+      "Advanced skills in Python, SQL, ETL, and data analysis, which are directly relevant to designing and evaluating AI reasoning scenarios.",
+      "Practical AI experience through projects (e.g., agentic job-search pipeline, serverless lakehouse) and current AI-assisted work (e.g., Copilot, AI-driven reporting).",
+      "Excellent documentation and communication skills evidenced by consulting and training roles.",
+      "Fully remote and contract-friendly, matching the role's engagement type."
+    ],
+    "gaps": [
+      "No explicit evidence of IT governance, cybersecurity protocols, or formal IT project management frameworks (e.g., PMP, ITIL).",
+      "Role emphasizes broad IT system management, while candidate's professional focus is capacity/performance engineering; may need to demonstrate broader IT operations leadership.",
+      "No direct experience with AI model evaluation or AI system testing, though the role does not require prior AI experience.",
+      "Current role production status is unconfirmed; some AI projects are personal or research-only, not enterprise deployments.",
+      "Educational background is in engineering/computer science, but not specifically Information Systems management."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT governance",
+      "system integration",
+      "cybersecurity",
+      "project delivery",
+      "cloud platforms",
+      "AWS",
+      "Azure",
+      "GCP",
+      "enterprise software",
+      "IT project management",
+      "software delivery",
+      "security protocols",
+      "AI evaluation",
+      "systems management",
+      "technology lifecycle"
+    ],
+    "tailoring_plan": [
+      "1. In the resume summary, emphasize IT systems management and project leadership, using examples from capacity planning and performance engineering as evidence of managing complex enterprise systems. 2. Add a section on 'IT Governance and Security' to highlight any relevant coursework, certifications, or on-the-job exposure to security protocols and compliance (if any). 3. For the AI evaluation aspect, describe the practical AI projects (e.g., agentic pipeline, lakehouse) as demonstrations of understanding AI reasoning and evaluation, even if not production. 4. Tailor the 'Professional Experie"
+    ]
+  }
+}

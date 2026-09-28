@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "c801bb7298ae690558dc4c8570cb74f98e4e33bbb43de0415846b6eac93cfa5c",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:42:58Z",
+  "indeed_jk": "2c360d6b27a2c0cd",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 2922,
+    "completion_tokens": 839,
+    "total_tokens": 3761,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00032634
+  },
+  "analysis": {
+    "company": "Sentara Healthcare",
+    "title": "Senior Healthcare Data Analyst - Remote",
+    "location": "Virginia Beach, VA",
+    "score": 62,
+    "fit_rationale": "The candidate has strong data analysis, SQL, Python, ETL, and reporting automation skills, which align with the core requirements of the role. However, the role is specifically in healthcare data analysis, requiring domain expertise in areas like HEDIS, STAR ratings, clinical gaps, payer functions, and population health. The candidate's experience is primarily in IT infrastructure capacity and performance engineering, with no direct healthcare domain experience. The candidate's project work in forecasting and data engineering demonstrates transferable skills, but lacks the healthcare-specific context. The role also requires Tableau, which the candidate has not listed as a skill, though they have Power BI experience. Overall, the candidate is a strong data analyst but would need significant ramp-up in healthcare domain knowledge.",
+    "strengths": [
+      "Expert-level SQL and Python, with strong ETL and data pipeline experience",
+      "Proven experience in data analysis, reporting automation, and dashboard development",
+      "Experience with data quality, validation, and anomaly detection",
+      "Strong problem-solving and consultative engagement skills from consulting roles",
+      "Experience with forecasting and predictive analytics using scikit-learn and Prophet",
+      "Familiarity with Power BI and data visualization, though not Tableau"
+    ],
+    "gaps": [
+      "No direct healthcare domain experience (payer, clinical, population health, HEDIS, STAR ratings)",
+      "No Tableau experience; only Power BI",
+      "No experience with regulatory reporting or employer group reporting",
+      "Limited experience with financial analysis or statistics in a healthcare context",
+      "No experience with provider network management or value-based care metrics",
+      "Role requires 3 years of data analysis experience; candidate has more, but in a different domain"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "Python",
+      "ETL",
+      "data analysis",
+      "reporting",
+      "dashboards",
+      "data quality",
+      "forecasting",
+      "predictive analytics",
+      "Power BI",
+      "Tableau",
+      "healthcare",
+      "HEDIS",
+      "population health",
+      "payer",
+      "clinical"
+    ],
+    "tailoring_plan": [
+      "1. Highlight transferable skills: Emphasize experience with data analysis, SQL, Python, and reporting automation. Frame capacity and performance data as analogous to healthcare operational data. 2. Address healthcare domain gap: In the resume summary or cover letter, express eagerness to learn healthcare-specific metrics and regulations. Mention any personal or academic exposure to healthcare data if applicable (none in profile). 3. Learn Tableau: Since the job requires Tableau, consider taking a quick course or creating a sample dashboard to demonstrate proficiency. 4. Tailor project descript"
+    ]
+  }
+}

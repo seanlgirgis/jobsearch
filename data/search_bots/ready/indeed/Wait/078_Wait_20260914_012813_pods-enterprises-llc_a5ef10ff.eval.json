@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "a5ef10ff07783d728391a60b02b5652324ed972ef6da2e23fa8d30891b87566d",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:28:13Z",
+  "indeed_jk": "8fe1f2501b83467f",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3182,
+    "completion_tokens": 674,
+    "total_tokens": 3856,
+    "reasoning_tokens": 0,
+    "actual_usd": 6.9454e-05
+  },
+  "analysis": {
+    "company": "PODS Enterprises, LLC",
+    "title": "Engineer III - Forward Deployed",
+    "location": null,
+    "score": 78,
+    "fit_rationale": "Strong alignment on Python, SQL, data integration, rapid prototyping, and production engineering. Candidate has deep capacity planning and forecasting experience, which matches the operational decision-support focus. Gaps include lack of explicit front-end/UX development, limited enterprise deployment/CI-CD evidence, and no direct supply chain/logistics domain experience.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive ETL and data pipeline experience",
+      "Proven capacity planning and forecasting background (CITI, HorizonScale) directly relevant to demand/capacity planning",
+      "Experience building internal tools and dashboards (Power BI, Streamlit) for operational stakeholders",
+      "Strong data integration skills across databases, APIs, and monitoring systems (Oracle, SQL Server, Splunk, JIRA)",
+      "Practical AI-assisted development experience (Copilot, Claude Code, agentic workflows) aligned with job's AI-assisted tooling preference",
+      "Ability to move from problem to working solution as shown in multiple projects and roles"
+    ],
+    "gaps": [
+      "No explicit front-end development or UI/UX framework experience (e.g., React, Angular, or similar)",
+      "Limited evidence of CI/CD, containerization, and production deployment in a formal enterprise setting",
+      "No direct experience in supply chain, logistics, or transportation operations",
+      "Current role production status unconfirmed; some projects are research or personal, not production",
+      "No explicit experience with optimization or simulation models, which are core to the role"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "data integration",
+      "API",
+      "database",
+      "forecasting",
+      "capacity planning",
+      "optimization",
+      "internal tools",
+      "rapid prototyping",
+      "AI-assisted development",
+      "production engineering",
+      "data visualization",
+      "user experience",
+      "operations",
+      "supply chain"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize capacity forecasting and planning experience as direct evidence of operational decision-support. 2. Highlight Python/Pandas ETL and SQL integration with Oracle, SQL Server, and Splunk. 3. Showcase Streamlit and Power BI work as examples of turning data into user-facing tools. 4. Frame AI-assisted development (Copilot, Claude Code) as a tool for rapid iteration. 5. Address front-end gap by mentioning any relevant coursework or personal projects, or express willingness to learn. 6. Provide concrete examples of production support and monitoring from CITI and G6 roles. 7. If possible,"
+    ]
+  }
+}

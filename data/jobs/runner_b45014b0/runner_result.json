@@ -1,0 +1,161 @@
+{
+  "state": "READY_TO_APPLY",
+  "folder": "D:\\Workarea\\jobsearch\\data\\jobs\\runner_b45014b0",
+  "tier0_decision": "CLEAR",
+  "llm_decision": "REVIEW",
+  "user_decision": {
+    "decision": "ACCEPTED",
+    "source": "generate_command",
+    "reason": "Testing the resume and cover generation path",
+    "suitability_override": true,
+    "analysis_cache_key": "44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6"
+  },
+  "resume": "D:\\Workarea\\jobsearch\\data\\jobs\\runner_b45014b0\\generated\\packages\\8be8a18b1f77408ddcb2f0bcc804cce9c46e00b4a71eccf4cbf14a0eb24995cb\\resume.docx",
+  "cover": "D:\\Workarea\\jobsearch\\data\\jobs\\runner_b45014b0\\generated\\packages\\8be8a18b1f77408ddcb2f0bcc804cce9c46e00b4a71eccf4cbf14a0eb24995cb\\cover.docx",
+  "cache": {
+    "tier1": {
+      "key": "44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6",
+      "result": "HIT",
+      "identity": {
+        "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+        "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+        "prompt_version": "canonical-v4-package-json",
+        "model_profile": "economy",
+        "pipeline_stage": "analysis",
+        "model_settings": {
+          "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+          "primary": {
+            "provider": "openrouter",
+            "model": "deepseek/deepseek-v4-flash-0731",
+            "supports_json_schema": true,
+            "supports_temperature": true,
+            "token_parameter": null
+          },
+          "fallbacks": [],
+          "temperature": 0.1,
+          "max_output_tokens": 4000,
+          "reasoning_effort": null,
+          "structured_output": "required",
+          "allow_artifacts": false
+        },
+        "schema_sha256": "2d39e7fcf01313f001692c82c0b944535fd1f55f1bf191b3905c8eb8f0b63a6c",
+        "request_sha256": "3cf45702eb07b963637ec9069e2eb4f46e1b648dd73135fa90b65fa42873c854"
+      },
+      "model_used": {
+        "profile": "economy",
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-flash-0731"
+      },
+      "usage": {
+        "prompt_tokens": 2859,
+        "completion_tokens": 3178,
+        "total_tokens": 6037,
+        "reasoning_tokens": 2555,
+        "actual_usd": 0.00036643776
+      }
+    },
+    "tier2": {
+      "key": "1e6f1961ee40fda002ebcbe34ace00f33c9838532e73c351054ad4a3b54bb110",
+      "result": "HIT",
+      "identity": {
+        "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+        "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+        "prompt_version": "canonical-v4-package-json",
+        "model_profile": "quality",
+        "pipeline_stage": "generation",
+        "model_settings": {
+          "description": "Accepted-job resume and cover package; configure a stronger model.",
+          "primary": {
+            "provider": "openrouter",
+            "model": "deepseek/deepseek-v4-pro-0813",
+            "supports_json_schema": true,
+            "supports_temperature": true,
+            "token_parameter": null
+          },
+          "fallbacks": [],
+          "temperature": 0.2,
+          "max_output_tokens": 16000,
+          "reasoning_effort": "none",
+          "structured_output": "optional",
+          "allow_artifacts": true
+        },
+        "schema_sha256": "1c93fd69f6d320a3839b1b4aeae3dfabf200dac399d0f1cf9848901b9bc85aa7",
+        "request_sha256": "ef92691c38bfdd044340500827c25c836985d8b09aa5cded8f1b82eca767accb",
+        "analysis_sha256": "f8261e9d14cd4888e47e9854f988eb99719bd92ffdd57da599222aedddea2b34",
+        "cover_requested": true
+      },
+      "model_used": {
+        "profile": "quality",
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-pro-0813"
+      },
+      "usage": {
+        "prompt_tokens": 3531,
+        "completion_tokens": 895,
+        "total_tokens": 4426,
+        "reasoning_tokens": 0,
+        "actual_usd": 0.00547008
+      }
+    }
+  },
+  "highlights": {
+    "company": "Synthires",
+    "role": "Senior AI Software Engineer",
+    "score": 68,
+    "recommendation": "REVIEW",
+    "strengths": [
+      "Expert Python and historical expert C++ with real performance optimization evidence, including optimizing C++/OCci processing with roughly 95% less hardware at Sabre.",
+      "Strong performance engineering, bottleneck analysis, and data-quality/debugging-oriented work across APM, telemetry ETL, and forecasting systems.",
+      "Practical AI project evidence: agentic job-search pipeline with LLM scoring/quality gates and an AWS lakehouse with Text-to-SQL agent.",
+      "Experience with large-scale data systems, including migrating 200+ MySQL nodes to Oracle RAC, supporting the distributed-codebase preference."
+    ],
+    "gaps": [
+      "No direct evidence of building Reinforcement Learning environments or evaluating AI model solutions.",
+      "No explicit production experience with Docker, GDB, AddressSanitizer, FFmpeg, Git workflows, or CI/CD/DevOps.",
+      "Limited evidence for codebase refactoring, feature development, and rigorous code-review participation.",
+      "Profile is more capacity/observability engineering than general software engineering, so algorithms/software architecture depth is not strongly documented."
+    ]
+  },
+  "profiles": {
+    "analysis": "economy",
+    "generation": "quality"
+  },
+  "next_command": ".\\job-runner.ps1 'D:\\Workarea\\jobsearch\\intake\\Synthires.md' -Mode apply -AssumeApplied -Method '<actual method>' -Date '<YYYY-MM-DD>' -Notes '<submission details>'",
+  "cost": {
+    "actual_usd": null,
+    "note": "Only provider-reported usage is shown; Cline usage is separate.",
+    "max_new_provider_requests": 0
+  },
+  "usage": {
+    "this_run": {
+      "provider_requests": 0,
+      "prompt_tokens": null,
+      "completion_tokens": null,
+      "total_tokens": null,
+      "reasoning_tokens": null,
+      "actual_usd": null
+    },
+    "by_stage": {
+      "tier1": {
+        "source": "cache",
+        "usage": {
+          "prompt_tokens": 2859,
+          "completion_tokens": 3178,
+          "total_tokens": 6037,
+          "reasoning_tokens": 2555,
+          "actual_usd": 0.00036643776
+        }
+      },
+      "tier2": {
+        "source": "cache",
+        "usage": {
+          "prompt_tokens": 3531,
+          "completion_tokens": 895,
+          "total_tokens": 4426,
+          "reasoning_tokens": 0,
+          "actual_usd": 0.00547008
+        }
+      }
+    }
+  }
+}

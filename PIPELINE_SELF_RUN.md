@@ -1,3 +1,8 @@
+> **Deprecated operational instructions — Prompt 04.** The active manual runbook
+> is [docs/PIPELINE_OPERATOR.md](docs/PIPELINE_OPERATOR.md), using `job-runner.ps1`.
+> Retained below for historical reference only; do not follow the one-line full
+> cycle or cache-reset instructions as current defaults.
+
 # JobSearch Self-Run Pipeline (No Assistant Needed)
 
 Use this checklist to run a full job application from `intake\intake.md` to final status update.

@@ -2066,6 +2066,60 @@
   role: Unknown
   apply_date: '2026-05-14'
   status: ACCEPTED
+- uuid: 00392_33084796
+  description_path: data\jobs\00392_33084796\intake.md
+  company: Teiva Systems
+  role: AI Integration Architect
+  apply_date: N/A
+  status: READY_TO_APPLY
+- uuid: 00393_5fabed9f
+  description_path: data\jobs\00393_5fabed9f\intake.md
+  company: Teiva Systems
+  role: AI Solutions Architect
+  apply_date: N/A
+  status: READY_TO_APPLY
+- uuid: 00394_78b7ae53
+  description_path: data\jobs\00394_78b7ae53\intake.md
+  company: Turing
+  role: Remote Backend Engineer Python FastAPI
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00395_7831adc7
+  description_path: data\jobs\00395_7831adc7\intake.md
+  company: Scale AI
+  role: AI Strategy Consultant Frontier Tech
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00396_cd7797ca
+  description_path: data\jobs\00396_cd7797ca\intake.md
+  company: SNtial Technologies, Inc.
+  role: AI Architect Consultant and Advisor
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00397_23d824e3
+  description_path: data\jobs\00397_23d824e3\intake.md
+  company: CyberCoders
+  role: AI Engineer Forward Deployment 6 Month Contract
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00398_a43a1c85
+  description_path: data\jobs\00398_a43a1c85\intake.md
+  company: Alignerr
+  role: Python Software Engineer AI Workflows
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00399_04bd9867
+  description_path: data\jobs\00399_04bd9867\intake.md
+  company: Implicit
+  role: AI Engineer Part Time
+  apply_date: '2026-09-12'
+  status: APPLIED
+- uuid: 00400_b578bd6e
+  description_path: data\jobs\00400_b578bd6e\Toloka.md
+  company: ''
+  role: Unknown
+  apply_date: N/A
+  status: ACCEPTED
 - uuid: url_captures
   description_path: data\jobs\url_captures\capitalone_r238448_capture_2026-04-24.md
   company: Unknown

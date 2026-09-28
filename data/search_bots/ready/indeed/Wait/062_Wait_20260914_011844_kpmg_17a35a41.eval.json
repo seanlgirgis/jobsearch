@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "17a35a411f3d4f81fd0b75a591a56c25624544b48fd778a548ffec87fe7762ea",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:18:44Z",
+  "indeed_jk": "13e93809328b0eb8",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3476,
+    "completion_tokens": 811,
+    "total_tokens": 4287,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00035454
+  },
+  "analysis": {
+    "company": "KPMG",
+    "title": "Strategy Consultant (contract)",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong program management and coordination experience from large-scale infrastructure migrations (e.g., Sabre shopping engine migration, AWS migration support) and has managed cross-functional teams and vendors. They have experience with risk/issue tracking, executive reporting, and command-center-like environments (e.g., capacity war rooms, hyper care support). However, the role specifically requires experience in core banking migrations, card portfolio conversions, or similar high-risk financial implementations, which the candidate lacks. The candidate's background is in capacity/performance engineering and data engineering, not financial services operations or payment card systems. The candidate's Python automation and data analysis skills are transferable for data validation and reconciliation, but the domain-specific knowledge is a significant gap.",
+    "strengths": [
+      "Proven program management and coordination across business, operations, technology, and vendor teams (e.g., Sabre migration, AWS migration support).",
+      "Experience with real-time issue tracking, escalation management, and executive status reporting (capacity management, war-room-like environments).",
+      "Strong analytical and data validation skills using Python, SQL, and ETL processes, applicable to conversion testing and reconciliation.",
+      "Calm under pressure and able to manage competing priorities during critical events (evidenced by large-scale migration and production support roles).",
+      "Proactive self-starter with ability to operate with limited direction (demonstrated in consulting roles and independent projects)."
+    ],
+    "gaps": [
+      "No direct experience with core banking migrations, card portfolio conversions, or similar high-risk financial implementations.",
+      "Lack of subject matter knowledge in payment card, servicing, or financial services operations.",
+      "No explicit experience with go/no-go governance or structured escalation processes in a financial services context.",
+      "Limited experience with conversion testing, reconciliation, and data validation in a banking/financial domain.",
+      "The role requires 6-9 years of experience; candidate has more, but the domain mismatch is the primary gap."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "core banking migration",
+      "card portfolio conversion",
+      "command center",
+      "cutover",
+      "war room",
+      "go-live",
+      "issue tracking",
+      "escalation management",
+      "program management",
+      "risk management",
+      "executive reporting",
+      "conversion testing",
+      "reconciliation",
+      "data validation",
+      "cutover planning",
+      "hyper care"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite the professional summary to emphasize program management, cross-functional coordination, and high-stakes migration experience. 2. In the experience section, highlight specific instances of managing risks, issues, dependencies, and executive reporting. 3. Add a 'Relevant Project Experience' section that details the Sabre migration and AWS migration support, focusing on cutover planning, go-live support, and hyper care. 4. In the skills section, list tools like JIRA, SQL, Python, and data validation techniques. 5. Address the domain gap in a cover letter by expressing eagerness to lea"
+    ]
+  }
+}

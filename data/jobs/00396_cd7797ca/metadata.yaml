@@ -1,0 +1,23 @@
+uuid: cd7797ca-304b-4e17-a22c-cfbdc942bdd6
+job_id: 00396_cd7797ca
+company: SNtial Technologies, Inc.
+role: AI Architect Consultant and Advisor
+location: Remote, United States
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: LinkedIn
+  history:
+  - timestamp: '2026-09-12T16:24:36'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: Applied
+    notes: User reported submitting the application via LinkedIn.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Applied via LinkedIn.
+  application_notes: User reported submitting the application via LinkedIn.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'

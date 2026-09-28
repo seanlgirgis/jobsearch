@@ -1,0 +1,23 @@
+{
+  "id": "indeed",
+  "name": "Indeed",
+  "home": "https://www.indeed.com/",
+  "enabled": true,
+  "guinea_pig": true,
+  "require_fresh_sor": true,
+  "dna": {
+    "skip_if_seen": true,
+    "keys": ["indeed_jk", "job_hash"]
+  },
+  "term_packs": ["*"],
+  "capture": {
+    "job_url": true,
+    "hiring_person": false,
+    "salary_if_shown": true,
+    "title": true,
+    "company": true,
+    "location": true,
+    "expand_see_more": true,
+    "job_description": true
+  }
+}

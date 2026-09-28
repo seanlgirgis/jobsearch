@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5c26ef5e13fee0a011f348839d5beb9ab3159fac6a99cffbf585d2faeae2d9e4",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:04:28Z",
+  "indeed_jk": "c4fe86d26fe3ffa5",
+  "category": "Apply",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3149,
+    "completion_tokens": 829,
+    "total_tokens": 3978,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000544062
+  },
+  "analysis": {
+    "company": "Kavant Solutions",
+    "title": "AI Workflow Optimization Engineer",
+    "location": "Remote",
+    "score": 82,
+    "fit_rationale": "The role centers on mapping workflows, building AI-enabled pilots, and measuring outcomes—areas where the candidate has strong evidence. The candidate has hands-on Python, ETL, and data pipeline experience (CITI, Sabre), practical AI project work (RAG, FAISS, agentic pipeline, lakehouse with Bedrock), and current use of Copilot and AI for reporting automation. The candidate's capacity forecasting and performance engineering background aligns with the role's emphasis on efficiency and cost metrics. Gaps include limited experience with specific tools like TensorFlow, Spark MLlib, Talend, and no-code/low-code platforms (Microsoft Copilot Studio, Power Platform AI Builder, Retool), plus less depth in NLP/generative AI and statistical analysis with R/SAS.",
+    "strengths": [
+      "Strong Python and ETL expertise (Pandas, SQL, Oracle) with proven pipeline building and optimization.",
+      "Practical AI project experience: RAG pipeline with FAISS, agentic workflow, AWS lakehouse with Bedrock, LLM scoring.",
+      "Current use of Copilot and AI for reporting automation and data integration (JIRA, SQL Server, Splunk).",
+      "Deep experience in capacity planning, forecasting, and performance engineering—directly relevant to efficiency and cost measurement.",
+      "Experience with cloud (AWS) and big data (PySpark, Hadoop concepts) from projects.",
+      "Strong stakeholder communication and change-management skills from consulting and training roles."
+    ],
+    "gaps": [
+      "No evidence of using TensorFlow, Spark MLlib, or cloud AI services like SageMaker in production.",
+      "Lack of experience with no-code/low-code AI tools (Microsoft Copilot Studio, Power Platform AI Builder, Retool).",
+      "Limited exposure to NLP and generative AI beyond personal projects; no production deployment.",
+      "No demonstrated use of R or SAS for statistical analysis; relies on Python.",
+      "No explicit experience with workflow mapping tools (Lucidchart, Miro, Visio) or service-blueprint techniques.",
+      "No formal responsible-AI training or NIST AI RMF awareness mentioned."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI workflow optimization",
+      "Python",
+      "ETL",
+      "RAG",
+      "FAISS",
+      "AWS",
+      "PySpark",
+      "Copilot",
+      "Power BI",
+      "capacity planning",
+      "forecasting",
+      "performance engineering",
+      "data pipelines",
+      "LLM",
+      "agentic workflows",
+      "SQL"
+    ],
+    "tailoring_plan": [
+      "1. In the resume summary, emphasize 'AI workflow optimization' and 'pilot development' with measurable outcomes. 2. Add a 'Practical AI Projects' section detailing the RAG pipeline, agentic job-search pipeline, and lakehouse platform, highlighting FAISS, embeddings, and LLM scoring. 3. Under current role, quantify the impact of AI-assisted reporting automation (e.g., 'reduced report preparation time by X%' if known, otherwise describe standardization). 4. Highlight Python and ETL expertise with specific examples from CITI and Sabre. 5. Address gaps by mentioning any exposure to no-code tools o"
+    ]
+  }
+}

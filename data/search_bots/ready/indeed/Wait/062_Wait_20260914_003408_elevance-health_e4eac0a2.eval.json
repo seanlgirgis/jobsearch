@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e4eac0a226d835da8c2c56e547a6e43cbfec6b6093453b3110529199d07a938a",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:34:08Z",
+  "indeed_jk": "b832764401aadec9",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 4554,
+    "completion_tokens": 689,
+    "total_tokens": 5243,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00039726
+  },
+  "analysis": {
+    "company": "Elevance Health",
+    "title": "Process Improvement & Operations Analyst (contract)",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong analytical, data, and process improvement skills, with extensive experience in capacity planning, forecasting, and reporting automation. However, the role specifically requires advanced Smartsheet proficiency and direct experience with software/license contract renewals, financial tracking, and vendor management, which are not evident in the candidate's profile. The candidate's background is more technical (data engineering, performance engineering) than operational/business analysis, and the role emphasizes business-facing process improvement and contract management.",
+    "strengths": [
+      "Strong analytical and problem-solving skills with experience in data analysis, forecasting, and reporting.",
+      "Proven ability to build automated reporting and dashboards using Python, Power BI, and other tools.",
+      "Experience with process improvement and workflow optimization in capacity and performance contexts.",
+      "Excellent communication skills demonstrated through consulting and cross-functional collaboration.",
+      "Experience with financial tracking and reconciliation in capacity planning and forecasting.",
+      "Ability to work independently and manage multiple priorities, as shown in project work."
+    ],
+    "gaps": [
+      "No demonstrated experience with Smartsheet, which is a core requirement for this role.",
+      "Lack of direct experience with software/license contract renewals, vendor management, or technology spend management.",
+      "Limited experience with financial forecasting, budgeting, or technology spend management in a business operations context.",
+      "Background is more technical (data engineering, performance) rather than business operations or process improvement.",
+      "No explicit experience with process mapping, workflow design, or continuous improvement methodologies.",
+      "No evidence of working within a large, matrixed organization in a business analyst capacity."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "process improvement",
+      "operations analyst",
+      "Smartsheet",
+      "Excel",
+      "contract renewals",
+      "financial tracking",
+      "reporting",
+      "dashboards",
+      "data analysis",
+      "automation",
+      "stakeholder management",
+      "vendor management",
+      "budgeting",
+      "forecasting",
+      "workflow design"
+    ],
+    "tailoring_plan": [
+      "1. Highlight any experience with contract management, vendor coordination, or financial reconciliation, even if not directly in software licensing. 2. Emphasize your advanced Excel skills and ability to build complex formulas, PivotTables, and data reconciliation. 3. Showcase your experience with process improvement and automation, using examples from capacity planning and reporting. 4. If possible, mention any exposure to Smartsheet or similar collaboration tools, or express willingness to quickly learn. 5. Tailor your resume to emphasize business-facing communication and leadership reporting"
+    ]
+  }
+}

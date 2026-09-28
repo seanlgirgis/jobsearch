@@ -1,0 +1,21 @@
+uuid: 7c75a138-3bf3-4402-a6fd-1109a26dea74
+job_id: 00401_7c75a138
+company: LaSalle Network
+role: Forward Deployed Engineer Finance and Investments
+location: Chicago IL Hybrid or Remote
+status: READY_TO_APPLY
+application:
+  applied: false
+  applied_date: null
+  applied_method: null
+  history:
+  - timestamp: '2026-09-12T17:44:05'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: LaSalle Forward Deployed Engineer Finance and Investments processed. Distinct
+      opportunity despite semantic similarity to a prior FDE intake; tailored full-time
+      finance resume created.
+  last_status: READY_TO_APPLY
+  last_status_date: '2026-09-12'

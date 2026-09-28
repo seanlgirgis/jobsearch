@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5a9506adba8bc5f756e1f59ed67f32d008f08d26dc279a97c5c6e8a65d152b13",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:42:11Z",
+  "indeed_jk": "f5310bd0a981c918",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 4604,
+    "completion_tokens": 781,
+    "total_tokens": 5385,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002445344
+  },
+  "analysis": {
+    "company": "Thomson Reuters",
+    "title": "Cloud Engineer - Professional Services",
+    "location": "Frisco, TX (Remote)",
+    "score": 68,
+    "fit_rationale": "The candidate has strong infrastructure engineering experience (capacity planning, performance engineering, AWS migration support) and practical AI automation skills (Copilot, Claude Code, agentic workflows). However, the role requires hands-on AWS infrastructure (EC2, S3, ALB, Lambda) and CI/CD pipeline building, which are not directly evidenced in the profile. The candidate's AWS experience is project-based (lakehouse) and not production-proven. SQL and Python are strong, but Windows Server/IIS and Docker are not mentioned. The role's billable consulting context aligns with the candidate's consulting background at CA Technologies.",
+    "strengths": [
+      "Expert-level Python and SQL (Oracle, Microsoft SQL Server) with extensive ETL and data pipeline experience.",
+      "Strong capacity planning and forecasting background, directly relevant to infrastructure reliability and monitoring.",
+      "Practical AI adoption: used Copilot, Claude Code, and built agentic workflows (job search pipeline, lakehouse Text-to-SQL).",
+      "Experience supporting AWS migration (at G6 Hospitality) and designing AWS lakehouse (S3, Glue, Athena, Bedrock).",
+      "Consulting experience at CA Technologies, delivering client-facing solutions and training.",
+      "Automation mindset: automated reporting, ETL, and forecasting processes."
+    ],
+    "gaps": [
+      "No direct evidence of hands-on AWS infrastructure engineering (EC2, S3, ALB, Lambda) in a production environment.",
+      "No demonstrated CI/CD pipeline development (GitHub Actions or similar).",
+      "No mention of Docker or containerization experience.",
+      "No Windows Server or IIS experience indicated.",
+      "No AWS certification listed.",
+      "Infrastructure as code (Terraform/CloudFormation) not evidenced in professional work."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AWS",
+      "EC2",
+      "S3",
+      "ALB",
+      "Lambda",
+      "CI/CD",
+      "GitHub Actions",
+      "Docker",
+      "Windows Server",
+      "IIS",
+      "SQL",
+      "Python",
+      "PowerShell",
+      "Terraform",
+      "CloudFormation",
+      "AI workflows"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite resume summary to highlight infrastructure engineering, automation, and AI workflow experience, positioning as a builder. 2. Add a 'Cloud & Automation' section listing AWS lakehouse project, AWS migration support, and AI pipeline projects. 3. Emphasize Python/SQL expertise and automation of repetitive tasks. 4. Mention consulting experience at CA Technologies to align with billable consulting. 5. Address gaps proactively: state willingness to learn CI/CD and Windows/IIS, and highlight any self-study or projects (e.g., building CI/CD pipelines in personal projects). 6. Tailor cover l"
+    ]
+  }
+}

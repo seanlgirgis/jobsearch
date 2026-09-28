@@ -1,0 +1,33 @@
+{
+  "identity": {
+    "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+    "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+    "prompt_version": "canonical-v2-cutover",
+    "model_profile": "economy",
+    "pipeline_stage": "analysis",
+    "model_settings": {
+      "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+      "primary": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "supports_json_schema": true,
+        "supports_temperature": true,
+        "token_parameter": null
+      },
+      "fallbacks": [],
+      "temperature": 0.1,
+      "max_output_tokens": 1500,
+      "structured_output": "required",
+      "allow_artifacts": false
+    },
+    "schema_sha256": "04a23e22dc9623d040fe3f5a58c8210a1a60cc609be7469e0991942bea90bb6b",
+    "request_sha256": "7cdda66f718ea08b265eae5c56f98d17ff57caabc4cf56161f5d667ca1474194"
+  },
+  "status": "FAILED_OR_UNCERTAIN",
+  "max_provider_requests": 1,
+  "model_used": {
+    "profile": "economy",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4-flash-0731"
+  }
+}

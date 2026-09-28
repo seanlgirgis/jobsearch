@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "59b1b8d288107249421dd7936a588767cdbca2217ed7a8610a59bd358f6e13fa",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:36:50Z",
+  "indeed_jk": "80e719ce5a357916",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3275,
+    "completion_tokens": 859,
+    "total_tokens": 4134,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000367495
+  },
+  "analysis": {
+    "company": "Bright Vision Technologies",
+    "title": "Python Software Architect",
+    "location": "Remote (U.S.)",
+    "score": 72,
+    "fit_rationale": "The candidate has strong Python, SQL, ETL, and data engineering experience, with enterprise-scale production systems (CITI, Sabre) and practical AI projects. However, the role emphasizes software architecture, distributed systems, and enterprise-grade application development, which are less directly evidenced. The candidate's background is more in capacity/performance engineering and data pipelines than in architecting complex applications. The score reflects strong foundational skills but a gap in explicit architecture leadership and enterprise application development.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle with extensive ETL and data processing experience (Pandas, PySpark).",
+      "Proven experience with large-scale production systems: migrated 200+ MySQL nodes to Oracle RAC, built ETL for 6,000+ endpoints.",
+      "Strong data engineering and forecasting skills (Prophet, scikit-learn) with measurable impact.",
+      "Hands-on AWS experience (S3, Glue, Athena) and cloud-native concepts.",
+      "Experience with CI/CD, Agile, and operational support (incident response, monitoring).",
+      "Strong communication and collaboration skills demonstrated across roles."
+    ],
+    "gaps": [
+      "No explicit experience as a software architect or leading architecture design for enterprise applications.",
+      "Limited evidence of building large-scale, distributed, mission-critical applications from scratch; more focus on data pipelines and performance.",
+      "No direct experience with relational databases like MS SQL Server or Sybase (only Oracle and MySQL).",
+      "No mention of secure coding standards, application resiliency patterns, or advanced concurrency/fault-tolerance design.",
+      "No formal computer science degree (has engineering diplomas).",
+      "No evidence of mentoring junior engineers or leading code reviews at an architectural level."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "Pandas",
+      "PySpark",
+      "AWS",
+      "S3",
+      "Glue",
+      "Athena",
+      "Oracle",
+      "MySQL",
+      "data engineering",
+      "forecasting",
+      "scikit-learn",
+      "Prophet",
+      "CI/CD"
+    ],
+    "tailoring_plan": [
+      "1. Highlight any architecture-related projects or design decisions in the resume, even if not titled 'architect'.\n2. Emphasize experience with distributed systems, fault tolerance, and concurrency from the Sabre migration and CITI ETL.\n3. Add a section on 'Architecture Contributions' to showcase system design, trade-offs, and scalability.\n4. Mention any mentoring or code review leadership.\n5. If possible, obtain certifications or training in software architecture patterns (e.g., TOGAF, AWS Solution Architect).\n6. Tailor the resume to use keywords from the job description: 'enterprise-grade', '"
+    ]
+  }
+}

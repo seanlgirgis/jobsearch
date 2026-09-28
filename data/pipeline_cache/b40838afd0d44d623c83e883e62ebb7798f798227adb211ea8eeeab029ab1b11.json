@@ -1,0 +1,80 @@
+{
+  "identity": {
+    "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+    "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+    "prompt_version": "canonical-v2-cutover",
+    "model_profile": "economy",
+    "pipeline_stage": "analysis",
+    "model_settings": {
+      "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+      "primary": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-flash-0731",
+        "supports_json_schema": true,
+        "supports_temperature": true,
+        "token_parameter": null
+      },
+      "fallbacks": [],
+      "temperature": 0.1,
+      "max_output_tokens": 4000,
+      "structured_output": "required",
+      "allow_artifacts": false
+    },
+    "schema_sha256": "04a23e22dc9623d040fe3f5a58c8210a1a60cc609be7469e0991942bea90bb6b",
+    "request_sha256": "7cdda66f718ea08b265eae5c56f98d17ff57caabc4cf56161f5d667ca1474194"
+  },
+  "status": "COMPLETE",
+  "max_provider_requests": 1,
+  "model_used": {
+    "profile": "economy",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4-flash-0731"
+  },
+  "result": {
+    "company": "Synthires",
+    "title": "Senior AI Software Engineer",
+    "location": "Remote (United States)",
+    "strengths": [
+      "Expert Python and historical expert C++ from production migration work",
+      "Deep performance optimization and bottleneck analysis background",
+      "Experience with large-scale systems (200+ MySQL nodes to Oracle RAC)",
+      "Practical AI projects show applied LLM/agentic workflow understanding",
+      "Remote part-time consulting aligns with candidate's stated target"
+    ],
+    "gaps": [
+      "No evidence of RL environment design or AI model evaluation",
+      "No professional DevOps/CI/CD, Docker, GDB, ASan, or FFmpeg experience",
+      "No demonstrated codebase refactoring or feature development in modern codebases",
+      "Algorithms and data structures expertise not evidenced beyond general engineering",
+      "No benchmark or reproducible evaluation environment development shown"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "C++",
+      "performance optimization",
+      "debugging",
+      "large-scale systems",
+      "AI evaluation",
+      "RL environments",
+      "DevOps",
+      "CI/CD",
+      "Docker",
+      "GDB",
+      "ASan",
+      "FFmpeg",
+      "remote contract",
+      "part-time"
+    ],
+    "tailoring_plan": [
+      "Lead with Sabre C++/OCCI optimization as proof of performance work in a large-scale codebase",
+      "Frame performance engineering and APM work as debugging and bottleneck identification",
+      "Highlight Python automation and AI-assisted projects as practical AI familiarity",
+      "Acknowledge missing RL/DevOps experience directly and emphasize fast ramp-up",
+      "Avoid positioning as a data-science/ML specialist; focus on software engineering and optimization"
+    ],
+    "score": 0,
+    "fit_rationale": "Requires manual review"
+  },
+  "result_sha256": "604a36f9d6fa106dcaeadaf7b9e7c62b8dd7ef3dfe96353b8aee41c47d4fd6de"
+}

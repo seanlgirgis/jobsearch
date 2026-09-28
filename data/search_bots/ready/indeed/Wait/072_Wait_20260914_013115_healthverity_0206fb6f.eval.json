@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "0206fb6f56366f2681c6360480b039ae2ba9d1b69ee1b260a0afd0b69c61abd9",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:31:15Z",
+  "indeed_jk": "51ccbd5422e26329",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3840,
+    "completion_tokens": 721,
+    "total_tokens": 4561,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003367614
+  },
+  "analysis": {
+    "company": "HealthVerity",
+    "title": "Director, Forward-Deployed AI Solutions",
+    "location": "Philadelphia, PA (hybrid) or approved remote states",
+    "score": 72,
+    "fit_rationale": "Strong alignment on hands-on AI/automation building, data workflow understanding, and shipping practical solutions. Candidate has deep Python/SQL/ETL expertise, experience with LLM-based tools (RAG, agents, Copilot), and a track record of driving projects from ambiguity to adoption (e.g., capacity forecasting, ETL pipelines). Gaps: limited direct healthcare data experience, no formal leadership title, and some AI work is project-level or research rather than production enterprise deployments.",
+    "strengths": [
+      "Expert-level Python, SQL, ETL, and data validation—core to the role's data logic requirements.",
+      "Proven ability to build and ship automation (capacity reports, ETL pipelines) with measurable outcomes.",
+      "Hands-on experience with LLM-based tools: RAG, agentic workflows, Copilot, and AI-assisted development.",
+      "Strong track record of solving ambiguous operational problems (capacity forecasting, performance engineering) with minimal oversight.",
+      "Experience training and enabling teams (CA APM consulting, client training) supports adoption and enablement responsibilities.",
+      "Familiarity with data governance and responsible AI considerations from regulated industries (finance, healthcare-adjacent)."
+    ],
+    "gaps": [
+      "No direct experience with real-world healthcare data (claims, EHR, labs) or life sciences workflows.",
+      "Leadership experience is informal (mentorship, consulting) rather than formal director-level management.",
+      "Some AI projects are personal or research-level (e.g., job-search pipeline, lakehouse project) not production enterprise deployments.",
+      "Limited experience with low-code tools and enterprise-scale productionization of AI solutions.",
+      "No explicit experience with build-vs-buy evaluation of AI platforms in a corporate setting."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI",
+      "LLM",
+      "RAG",
+      "automation",
+      "Python",
+      "SQL",
+      "ETL",
+      "data validation",
+      "workflow",
+      "forward-deployed",
+      "real-world data",
+      "healthcare",
+      "life sciences",
+      "governance",
+      "adoption",
+      "enablement"
+    ],
+    "tailoring_plan": [
+      "1. Highlight healthcare-adjacent data governance experience (e.g., finance/regulated industry) and emphasize transferable skills. 2. Frame AI projects (job-search pipeline, lakehouse) as evidence of practical AI integration and build-vs-buy judgment. 3. Emphasize consulting and training experience as leadership and enablement proof. 4. Address healthcare data gap by showing eagerness to learn and any relevant coursework or self-study. 5. Tailor resume to emphasize 'forward-deployed' mindset: embedding with teams, observing workflows, shipping small solutions. 6. Prepare examples of measuring a"
+    ]
+  }
+}

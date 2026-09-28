@@ -1,0 +1,48 @@
+{
+  "version": 1,
+  "active_profile": "economy",
+  "profiles": {
+    "economy": {
+      "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+      "primary": {
+        "provider": "openrouter",
+        "model": null,
+        "supports_json_schema": true,
+        "supports_temperature": true
+      },
+      "fallbacks": [],
+      "temperature": 0.1,
+      "max_output_tokens": 1500,
+      "structured_output": "required",
+      "allow_artifacts": false
+    },
+    "quality": {
+      "description": "Accepted-job resume and cover package; configure a stronger model.",
+      "primary": {
+        "provider": "openrouter",
+        "model": null,
+        "supports_json_schema": true,
+        "supports_temperature": true
+      },
+      "fallbacks": [],
+      "temperature": 0.2,
+      "max_output_tokens": 4500,
+      "structured_output": "optional",
+      "allow_artifacts": true
+    },
+    "discussion": {
+      "description": "Interactive job and career discussion; no automatic artifact generation.",
+      "primary": {
+        "provider": "openrouter",
+        "model": null,
+        "supports_json_schema": false,
+        "supports_temperature": true
+      },
+      "fallbacks": [],
+      "temperature": 0.5,
+      "max_output_tokens": 2000,
+      "structured_output": "off",
+      "allow_artifacts": false
+    }
+  }
+}

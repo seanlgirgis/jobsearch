@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5d3f5d98a9e84081f75b8e334e8a74cc0432ce7a4d95e83675739f18d7d44735",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:39:41Z",
+  "indeed_jk": "ec7a2a122f5d3883",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3575,
+    "completion_tokens": 595,
+    "total_tokens": 4170,
+    "reasoning_tokens": 0,
+    "actual_usd": 9.6144e-05
+  },
+  "analysis": {
+    "company": "Applied Information Sciences",
+    "title": "Azure Data / Databricks Engineer",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong data engineering fundamentals (Python, SQL/Oracle, ETL, data quality) and relevant migration experience (Oracle RAC to MySQL, AWS lakehouse project), but lacks direct professional production experience with Azure Databricks, ADLS Gen2, and Azure Government. Foundational exposure to Databricks, Delta Lake, and Unity Catalog is noted but not professional production expertise. The role's senior architect expectations exceed the candidate's demonstrated scope.",
+    "strengths": [
+      "Expert-level Python, SQL/Oracle, and ETL design with production experience",
+      "Proven Oracle data workload migration (Sabre: 200+ MySQL nodes to Oracle RAC)",
+      "Advanced data quality, testing, and pipeline monitoring skills",
+      "Hands-on AWS lakehouse project (S3/Glue/Athena) with PySpark and Parquet",
+      "Power BI migration and cataloging experience",
+      "Strong problem-solving and stakeholder communication from consulting roles"
+    ],
+    "gaps": [
+      "No professional production experience with Azure Databricks or ADLS Gen2",
+      "No Azure Government or regulated data-platform experience",
+      "No Power BI integration with Databricks or Unity Catalog in production",
+      "No Azure Data Factory or Databricks certification",
+      "Role expects senior architect-level influence and mentoring; candidate's scope is more individual contributor",
+      "Foundational-only skills in Databricks, Delta Lake, and Unity Catalog are not professional production expertise"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Azure Databricks",
+      "ADLS Gen2",
+      "ETL/ELT",
+      "Oracle migration",
+      "Data pipelines",
+      "Data quality",
+      "Python",
+      "SQL",
+      "Power BI",
+      "Delta Lake",
+      "Unity Catalog",
+      "Azure Data Factory",
+      "Medallion architecture",
+      "Data modeling",
+      "Monitoring"
+    ],
+    "tailoring_plan": [
+      "Emphasize Oracle-to-cloud migration experience (Sabre) and ETL/data quality expertise. Frame the AWS lakehouse project as evidence of cloud data platform design, and note foundational Databricks/Delta Lake knowledge as a fast-learning area. Highlight Power BI cataloging and AI-assisted automation as differentiators. Address Azure Government familiarity as a willingness to learn and obtain relevant certifications."
+    ]
+  }
+}

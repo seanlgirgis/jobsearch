@@ -1,3 +1,8 @@
+> **Deprecated operational instructions — Prompt 04.** Use
+> [docs/PIPELINE_OPERATOR.md](docs/PIPELINE_OPERATOR.md) for the current commands
+> and limitations. The historical guide below is preserved; its legacy wrappers,
+> cache resets, and automatic full-cycle examples are not the active route.
+
 # Job Application Pipeline — Runbook
 # Last updated: 2026-04-14
 

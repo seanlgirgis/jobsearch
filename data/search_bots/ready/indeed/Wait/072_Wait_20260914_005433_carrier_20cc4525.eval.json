@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "20cc452545c80a2b8359fa5f9759a6b79a7fecc3d1de34148cf8f1538159dbe0",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:54:33Z",
+  "indeed_jk": "0d54b02b92b394d1",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3870,
+    "completion_tokens": 674,
+    "total_tokens": 4544,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003629472
+  },
+  "analysis": {
+    "company": "Carrier",
+    "title": "Observability Technical Lead",
+    "location": "Palm Beach Gardens, FL (Remote)",
+    "score": 72,
+    "fit_rationale": "Strong alignment in observability, APM, and performance engineering with deep expertise in CA APM, Dynatrace, and Splunk, plus Python automation and ETL skills. Gaps in modern cloud-native observability stack (OpenTelemetry, Grafana, Prometheus, Kubernetes) and SRE practices (SLOs, error budgets) are partially offset by foundational AWS and project experience.",
+    "strengths": [
+      "Expert-level APM and performance engineering with CA APM and Dynatrace, directly relevant to observability platform leadership.",
+      "Proven Python automation and ETL skills for telemetry data processing, validation, and anomaly detection.",
+      "Experience with Splunk as a data source and capacity reporting, aligning with observability data integration.",
+      "Strong capacity planning and forecasting background, supporting reliability and proactive operations.",
+      "Consulting and mentoring experience from CA Technologies, suitable for technical leadership without direct authority."
+    ],
+    "gaps": [
+      "No professional experience with OpenTelemetry, Grafana, Prometheus, Tempo, Loki, or VictoriaMetrics.",
+      "Limited Kubernetes and container observability experience; foundational AWS only.",
+      "No explicit SRE practice implementation (SLIs, SLOs, error budgets) in professional roles.",
+      "AIOps and automation at scale (eBPF, continuous profiling) not evidenced.",
+      "Current role is capacity-focused; observability leadership scope may be broader than current responsibilities."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Observability",
+      "APM",
+      "Splunk",
+      "Dynatrace",
+      "CA APM",
+      "Python",
+      "ETL",
+      "Telemetry",
+      "Capacity Planning",
+      "Forecasting",
+      "SRE",
+      "Kubernetes",
+      "OpenTelemetry",
+      "Grafana",
+      "Prometheus",
+      "AIOps"
+    ],
+    "tailoring_plan": [
+      "Rewrite resume summary to lead with 'Observability and Performance Engineer' and quantify APM experience (e.g., 'managed Dynatrace for enterprise environments'). Add a 'Technical Skills' section listing Splunk, Dynatrace, CA APM, Python, SQL, and mention foundational AWS. In experience bullets, reframe capacity monitoring as 'observability and telemetry analysis' and highlight Splunk integration. Add a 'Projects' section for the AWS lakehouse and HorizonScale to demonstrate cloud and forecasting skills. In cover letter, explicitly address OpenTelemetry and Kubernetes gaps by expressing eagerne"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e4cb6e6c89f2ae1e871f62580c111a804a3737f5cfdddf1dd25cb0d3a423ac91",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:22:52Z",
+  "indeed_jk": "ece1fdec189de442",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 5534,
+    "completion_tokens": 595,
+    "total_tokens": 6129,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000195789
+  },
+  "analysis": {
+    "company": "GE Vernova",
+    "title": "Lead Analyst, Energy Forecasting & Advanced Analytics",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "Strong overlap in Python, SQL, data pipelines, forecasting (Prophet/scikit-learn), and practical AI (RAG, LLM agents). Gaps in energy-domain modeling (capacity expansion, production cost, dispatch) and enterprise-scale forecasting production. Candidate's capacity planning and performance engineering background is adjacent but not energy-specific.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle with ETL design and optimization.",
+      "Professional forecasting experience: built Python/scikit-learn models for capacity risk (3-6 months ahead).",
+      "Practical AI: RAG, agentic workflows, LLM-assisted development, and AI-assisted data extraction.",
+      "Data engineering: AWS lakehouse, PySpark, Parquet, and pipeline automation.",
+      "Strong reporting and visualization: Power BI, Copilot, and automated report generation.",
+      "Experience with large-scale data (6,000+ endpoints, 200+ MySQL nodes) and performance optimization."
+    ],
+    "gaps": [
+      "No direct experience with energy system models (capacity expansion, production cost, dispatch).",
+      "No demonstrated experience in power markets, generation technologies, or energy policy.",
+      "Forecasting experience is in IT capacity, not energy forecasting; domain transfer required.",
+      "AI projects are research/personal or unconfirmed production; not enterprise AI deployment.",
+      "No evidence of transitioning Excel-based workflows to scalable modeling environments."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "forecasting",
+      "Prophet",
+      "scikit-learn",
+      "AWS",
+      "PySpark",
+      "Power BI",
+      "RAG",
+      "LLM",
+      "agentic workflows",
+      "data pipelines",
+      "capacity planning",
+      "performance engineering"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize forecasting models built with Python/scikit-learn and Prophet, highlighting accuracy and business impact. 2. Highlight AI-assisted data extraction and summarization using RAG and LLM agents. 3. Frame capacity planning as a form of demand forecasting, drawing parallels to energy demand. 4. Showcase data pipeline engineering with AWS, PySpark, and ETL optimization. 5. Address energy domain gap by expressing willingness to learn and citing any self-study or coursework. 6. Tailor resume to use energy-related keywords (capacity expansion, production cost, dispatch) where applicable."
+    ]
+  }
+}

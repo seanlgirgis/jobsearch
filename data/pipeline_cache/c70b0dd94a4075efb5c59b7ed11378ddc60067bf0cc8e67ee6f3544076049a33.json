@@ -1,0 +1,36 @@
+{
+  "identity": {
+    "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+    "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+    "prompt_version": "canonical-v3-openrouter",
+    "model_profile": "quality",
+    "pipeline_stage": "generation",
+    "model_settings": {
+      "description": "Accepted-job resume and cover package; configure a stronger model.",
+      "primary": {
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-pro-0813",
+        "supports_json_schema": true,
+        "supports_temperature": true,
+        "token_parameter": null
+      },
+      "fallbacks": [],
+      "temperature": 0.2,
+      "max_output_tokens": 16000,
+      "reasoning_effort": "low",
+      "structured_output": "optional",
+      "allow_artifacts": true
+    },
+    "schema_sha256": "1c93fd69f6d320a3839b1b4aeae3dfabf200dac399d0f1cf9848901b9bc85aa7",
+    "request_sha256": "1aa3b3d59b9c168f19c94a6eed9aace36e4a3ddf61cd7ea004a4c1d0d125ede9",
+    "analysis_sha256": "d80cd157f504c93cbbe765494d65d9533133a52c0b8031c5404267da504b1b06",
+    "cover_requested": true
+  },
+  "status": "FAILED_OR_UNCERTAIN",
+  "max_provider_requests": 1,
+  "model_used": {
+    "profile": "quality",
+    "provider": "openrouter",
+    "model": "deepseek/deepseek-v4-pro-0813"
+  }
+}

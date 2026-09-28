@@ -1,0 +1,18 @@
+{
+  "id": "wellfound",
+  "name": "Wellfound",
+  "home": "https://wellfound.com/jobs",
+  "enabled": true,
+  "require_fresh_sor": true,
+  "term_packs": ["practical_ai", "part_time_remote"],
+  "capture": {
+    "job_url": true,
+    "hiring_person": true,
+    "salary_if_shown": true,
+    "title": true,
+    "company": true,
+    "location": true,
+    "expand_see_more": true,
+    "job_description": true
+  }
+}

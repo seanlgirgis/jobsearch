@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "92f5e894dd56106140af148e7d205aee9ee60500d8f62d38e0f81fda37bed093",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:42:22Z",
+  "indeed_jk": "6fd8c6b6e99e6c5f",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 2575,
+    "completion_tokens": 603,
+    "total_tokens": 3178,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00052934
+  },
+  "analysis": {
+    "company": "Supero",
+    "title": "Cloud / Platform Engineer (Kubernetes, GCP, AWS)",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong infrastructure and automation experience, including AWS migration support, Python automation, and capacity/performance engineering. However, the role emphasizes Kubernetes, GCP, and AWS platform engineering with IaC (Terraform/CloudFormation) and CI/CD, which are not core to the candidate's professional evidence. AWS is at 'Advanced' project-level, GCP and Kubernetes are not listed, and Terraform/CloudFormation are absent. The candidate's strengths in Python, Linux, and cloud-adjacent work provide a foundation, but the gap in core platform engineering skills limits fit.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle, with strong ETL and automation experience.",
+      "Professional experience supporting an AWS migration (G6 Hospitality).",
+      "Advanced AWS skills from a serverless lakehouse project (S3, Glue, Athena, Bedrock).",
+      "Strong capacity planning, performance engineering, and observability background (Dynatrace, CA APM, BMC TrueSight).",
+      "Experience with Linux-based environments and large-scale data migrations (Sabre)."
+    ],
+    "gaps": [
+      "No professional evidence of Kubernetes orchestration or containerized application deployment.",
+      "No GCP experience listed in the profile.",
+      "No hands-on experience with Terraform or CloudFormation (IaC tools).",
+      "No explicit CI/CD pipeline implementation experience.",
+      "AWS experience is project-level, not professional production deployment."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Kubernetes",
+      "GCP",
+      "AWS",
+      "Terraform",
+      "CloudFormation",
+      "CI/CD",
+      "Linux",
+      "Python",
+      "Bash",
+      "Infrastructure as Code",
+      "DevOps",
+      "Cloud infrastructure",
+      "Containerization",
+      "Automation",
+      "Monitoring"
+    ],
+    "tailoring_plan": [
+      "Tailor the resume to emphasize AWS migration support and any container-related coursework or projects. Add a skills section listing Kubernetes, GCP, Terraform, and CI/CD as 'familiar' or 'learning' if applicable. In the cover letter, highlight Python automation and Linux expertise, and express eagerness to learn Kubernetes and GCP. Quantify achievements in cloud cost optimization or scalability where possible."
+    ]
+  }
+}

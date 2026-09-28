@@ -1,0 +1,71 @@
+{
+  "comment": "Sean's search hypotheses: capacity/performance, observability, practical AI and flexible consulting. Short alternative phrases; the Indeed adapter already searches location=remote. Categories describe the discovery query, not proven job duties or working hours. Edit these lists; Indeed uses every category via site.json '*'.",
+  "categories": {
+    "capacity_performance": [
+      "IT capacity planning",
+      "infrastructure capacity engineer",
+      "capacity management IT",
+      "capacity performance engineer",
+      "capacity planning analyst infrastructure",
+      "application performance engineer",
+      "performance optimization engineer",
+      "infrastructure forecasting",
+      "cloud capacity optimization"
+    ],
+    "observability_apm": [
+      "observability engineer",
+      "APM engineer",
+      "application performance monitoring",
+      "Dynatrace consultant",
+      "AppDynamics engineer",
+      "Splunk observability",
+      "BMC TrueSight capacity",
+      "BMC Helix capacity",
+      "CA APM Introscope"
+    ],
+    "practical_ai": [
+      "AI enablement consultant",
+      "AI adoption specialist",
+      "AI workflow automation",
+      "AI implementation consultant",
+      "AI business process automation",
+      "Copilot adoption consultant",
+      "AI knowledge management",
+      "LLM integration engineer",
+      "RAG consultant",
+      "forward deployed engineer",
+      "forward deployed AI engineer"
+    ],
+    "python_reporting_automation": [
+      "Python automation engineer",
+      "Python reporting automation",
+      "Python SQL reporting",
+      "infrastructure reporting analyst",
+      "telemetry data analyst",
+      "Power BI automation consultant",
+      "Power BI migration consultant"
+    ],
+    "technical_consulting": [
+      "capacity planning consultant",
+      "performance engineering consultant",
+      "observability technical consultant",
+      "Dynatrace professional services",
+      "observability solutions engineer",
+      "technical account manager observability"
+    ],
+    "part_time_remote": [
+      "part time Python automation",
+      "part time AI consultant",
+      "part time reporting analyst",
+      "fractional AI consultant",
+      "freelance workflow automation",
+      "contract capacity planning",
+      "contract observability consultant",
+      "part time Power BI consultant",
+      "forward deployed engineer contract",
+      "forward deployed AI engineer contract",
+      "forward deployed engineer part time",
+      "forward deployed AI engineer part time"
+    ]
+  }
+}

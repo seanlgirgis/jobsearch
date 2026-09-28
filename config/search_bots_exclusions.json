@@ -1,0 +1,33 @@
+{
+  "comment": "Skip before OpenRouter. Company exclusions are explicit; title exclusions target annotation/rating work regardless of advertiser. No blanket bans on consulting employers or generic AI, training, consultant or sales terms. Do not infer spam from daily reposting alone.",
+  "companies": [
+    "DataAnnotation",
+    "Data Annotation",
+    "DataAnnotation.tech"
+  ],
+  "title_contains": [
+    "annotation",
+    "annotator",
+    "data labeling",
+    "data labelling",
+    "rlhf",
+    "ai rater",
+    "ai trainer",
+    "ai training data",
+    "ai training -",
+    "ai training (",
+    "for ai training",
+    "ai tutor",
+    "llm rater",
+    "llm evaluator",
+    "ai response evaluator",
+    "ai response reviewer",
+    "search engine evaluator",
+    "search quality rater",
+    "search quality evaluator",
+    "ads quality rater",
+    "ads assessor",
+    "internet assessor",
+    "internet safety evaluator"
+  ]
+}

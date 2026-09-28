@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5d3761be94ab6e29d2ba1db2e904d3d77d8e63d4f3318e04361a1fdecbc0f95a",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:22:36Z",
+  "indeed_jk": "4b62cd36d74420f1",
+  "category": "Apply",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3185,
+    "completion_tokens": 741,
+    "total_tokens": 3926,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002989649
+  },
+  "analysis": {
+    "company": "Unissant",
+    "title": "IT System Analyst II",
+    "location": null,
+    "score": 82,
+    "fit_rationale": "The candidate has strong professional experience in data operations, automated reporting, and database support, with expert-level Python and SQL skills. They have built ETL pipelines, forecasting models, and automated reports using Python, SQL, and BI tools. Their current role involves automating capacity reports with AI and integrating data sources, which aligns with the job's focus on report modernization and automation. They have experience with data quality, testing, and documentation. The job requires proficiency in Java and Tableau, which the candidate lacks, and the candidate's experience is more in capacity/performance engineering than in general IT systems analysis. However, the core skills in data analysis, automation, and reporting are highly transferable.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive use in ETL, data transformation, and automation.",
+      "Proven experience in automated reporting, dashboard creation, and data visualization (Power BI, Tableau-like tools).",
+      "Strong background in data operations, database support, and data quality validation.",
+      "Experience with requirements development, technical analysis, and documentation from consulting and engineering roles.",
+      "Familiarity with federal data, privacy, and security practices (DHS Public Trust eligibility).",
+      "Remote work experience and ability to work with cross-functional stakeholders."
+    ],
+    "gaps": [
+      "No professional evidence of Java proficiency; job requires Python, Java, SQL, Tableau, and front-end web technologies.",
+      "No direct experience with Tableau; candidate has used Power BI and other BI tools.",
+      "Limited experience with front-end web technologies (HTML, CSS, JavaScript) for reporting interfaces.",
+      "Job emphasizes IT modernization and business process analysis; candidate's experience is more infrastructure-focused.",
+      "No explicit experience with system integration testing or user-acceptance testing in a formal capacity."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT modernization",
+      "automated reporting",
+      "data operations",
+      "data quality",
+      "workflow analysis",
+      "requirements development",
+      "technical documentation",
+      "Python",
+      "SQL",
+      "Tableau",
+      "Java",
+      "front-end web technologies",
+      "database support",
+      "data warehouse",
+      "data transformation",
+      "dashboard creation"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite resume summary to emphasize 'IT System Analyst' and 'reporting modernization' rather than 'capacity engineer'. 2. Add a 'Technical Skills' section listing Python, SQL, Power BI, and mention 'familiarity with Java and Tableau' if applicable. 3. In experience bullets, highlight projects involving automated report generation, data integration, and data quality improvement. 4. Use keywords from the job description in the resume, such as 'requirements elicitation', 'workflow assessment', and 'data visualization'. 5. Prepare a cover letter addressing the Java/Tableau gap by noting transfe"
+    ]
+  }
+}

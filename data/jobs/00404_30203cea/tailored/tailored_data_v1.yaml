@@ -1,0 +1,52 @@
+company_name: System One
+company_website: ''
+job_title: Data Engineer
+location: Pittsburgh, PA 15222; Dallas, TX; Miamisburg, OH; Houston, TX
+extracted_skills:
+- Oracle
+- SQL
+- SQL Server
+- communication
+- verbal communication
+- written communication
+- tuning
+- debugging
+- performance optimization
+job_summary: Data Engineer role focused on gathering requirements from lines of business,
+  upfront testing, QE collaboration, ETL specifications, deployments to QA/production,
+  and validation with strong emphasis on communication and people skills.
+responsibilities:
+- Meet with lines of business to gather requirements
+- Perform necessary follow up
+- Work on upfront testing with line of business
+- Work on testing with QEs
+- Engage with technical team to provide data movement specifications for ETL partners
+- Deploy code changes into QA and production with run the bank team
+- Perform validation on deployments
+- Ensure documentation for deployments is accurate
+requirements:
+- GC or USC candidates only
+- W2 only
+- Onsite 5 days
+preferred:
+- Finance/Banking background
+benefits: []
+must_have_skills:
+- Strong communication
+- People skills
+- Oracle
+- SQL
+- SQL Server
+- Tuning or debugging for performance optimization
+nice_to_have_skills:
+- Finance/Banking background
+ats_keywords:
+- Data Engineer
+- Oracle
+- SQL
+- SQL Server
+- communication
+- ETL
+- testing
+- deployment
+- requirements gathering

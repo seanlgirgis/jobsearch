@@ -1,0 +1,56 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "78a7e607950331f34cea91714de3d9e0672899f12d34c75697f771680f4d6943",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:55:21Z",
+  "indeed_jk": "2455aabc49016fb3",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 4416,
+    "completion_tokens": 645,
+    "total_tokens": 5061,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000202551
+  },
+  "analysis": {
+    "company": "Cisco Systems",
+    "title": "Leader, Solutions Engineer, Splunk",
+    "location": "Research Triangle Park, NC (Remote)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong technical depth in observability, capacity planning, and data engineering, with professional experience in Dynatrace, CA APM, and Splunk (as a data source). They have leadership experience (managing enterprise capacity requests) and have built AI-assisted projects, but their leadership is not explicitly people management of a partner-facing engineering team. They lack direct partner ecosystem, Cisco Partner 360, and formal pre-sales leadership experience. Their AI and data platform skills are strong but mostly foundational or project-based, not production enterprise AI deployments.",
+    "strengths": [
+      "Deep professional expertise in observability and performance engineering (Dynatrace, CA APM, BMC TrueSight) and capacity planning/forecasting.",
+      "Strong data engineering and automation skills (Python, SQL, ETL, Power BI, AWS lakehouse).",
+      "Practical AI experience with LLM agents, RAG, and AI-assisted development, relevant to Cisco's Data Intelligence and AI strategy.",
+      "Experience with Splunk as a data source in current role, indicating familiarity with the tool.",
+      "Proven ability to build scalable solutions (e.g., 95% hardware reduction, forecasting models)."
+    ],
+    "gaps": [
+      "No explicit people management experience leading a team of engineers; current role is individual contributor.",
+      "No direct partner ecosystem or channel experience (System Integrators, Resellers, MSPs).",
+      "No experience with Cisco Partner 360 program or partner enablement roadmaps.",
+      "No formal pre-sales or RFP support experience.",
+      "AI projects are mostly personal or research, not production enterprise deployments.",
+      "Lacks certification leadership and partner technical maturity programs."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Splunk",
+      "Observability",
+      "Capacity Planning",
+      "Python",
+      "AI",
+      "Data Intelligence",
+      "Partner Enablement",
+      "Pre-sales",
+      "Leadership",
+      "Cisco"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize any experience leading cross-functional initiatives or mentoring junior engineers, even if not formal people management. 2. Highlight Splunk usage in current role and any work with partner data sources. 3. Frame AI projects as practical applications of Data Intelligence and AI-driven observability. 4. Address partner ecosystem gap by discussing any experience with external stakeholders or consulting. 5. Tailor resume to include keywords like 'partner enablement', 'technical advocacy', 'joint solution development', and 'RFP support' where applicable."
+    ]
+  }
+}

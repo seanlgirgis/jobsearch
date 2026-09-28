@@ -1,0 +1,63 @@
+Sean Girgis
+Murphy, TX | 214-315-2190 | seanlgirgis@gmail.com | LinkedIn | GitHub
+Senior Data Engineer | Capacity Planning Performance and AI-Driven Infrastructure Optimization
+Executive Profile
+Senior data, capacity, and performance engineer with 20+ years delivering reliable data pipelines, forecasting, observability, and
+infrastructure analysis in regulated and high-scale enterprises. Combines Python, SQL, ETL, cloud data services, and application
+performance management with practical AI automation to improve operational decisions and reduce manual work.
+Core Competencies
+Data Engineering and ETL | Capacity Planning and Forecasting | Performance Engineering | Python and SQL | AWS and PySpark | Data
+Quality | Observability and APM | AI-Assisted Automation | Technical Leadership
+Professional Experience
+LTIMindtree | Capacity and Performance Specialist 2026 - Present
+• Apply AI-assisted automation to capacity reporting and recurring operational workflows, integrating data from JIRA, Microsoft SQL
+Server, and Splunk to improve repeatability and report quality.
+• Use Copilot, AI, and Python to organize, catalog, and support migration of a large Power BI report estate, making reports easier to
+research and manage.
+• Research an LLM-enabled team knowledge-base and analyst command-center concept supported by retrieval, Python, and
+PowerShell; the initiative is investigative and not represented as production.
+Citi | Senior Capacity and Data Engineer Nov 2017 - Dec 2025
+• Architected automated Python and Pandas ETL pipelines for P95 telemetry from 6,000+ endpoints, replacing manual processes and
+strengthening validation, cleansing, and anomaly detection.
+• Designed Oracle schemas for historical retention and unified reporting, enabling seasonal analysis, executive dashboards, and
+capacity-risk forecasting.
+• Developed Prophet and scikit-learn models to predict bottlenecks three to six months ahead and inform provisioning, consolidation,
+and rightsizing decisions.
+• Managed enterprise capacity requests, monthly reporting, peak-period analysis, and observability across BMC TrueSight, CA APM,
+and AppDynamics.
+G6 Hospitality | Performance Engineer Mar 2017 - Nov 2017
+• Managed Dynatrace AppMon and Synthetics for critical digital systems; led performance-data mining, bottleneck analysis, an
+upgrade from 6.5 to 7.0, TLS 1.2 enablement, and AWS migration support.
+HCL / Entergy | APM Consultant Jan 2017 - Mar 2017
+• Supported CA Application Performance Management, Customer Experience Manager, and Application Delivery Analysis for utility
+systems.
+CA Technologies / TIAA-CREF | Senior Consultant and CA APM Subject Matter Expert 2011 - 2016
+• Led enterprise CA APM implementations and upgrades across environments of roughly 4,000-6,000 agents and 50+ Enterprise
+Managers.
+• Designed monitoring modules, dashboards, alerts, Golden Images, and Perl/KornShell extraction scripts; provided sizing guidance,
+troubleshooting, documentation, and client training.
+
+AT&T | Performance Test Engineer Aug 2010 - Jul 2011
+• Analyzed J2EE telecommunications applications under load, documented JDBC, thread, memory, CPU, and garbage-collection
+behavior, and automated monitoring with JMX and Wily Introscope.
+Sabre | Senior Systems and Data Migration Engineer May 2008 - 2010
+• Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a six-node Oracle RAC cluster; optimized C++/OCCI
+processing and reduced hardware footprint by approximately 95% while maintaining sub-second latency.
+Earlier Experience | Software Architecture Development and Support 1996 - 2008
+• Built and supported high-availability C++ systems, billing interfaces, database and batch processes, and Linux/Unix operations
+across government, telecom, and enterprise environments.
+Selected Technical Projects
+• AI Job Search Pipeline (2026): Built a Python agentic workflow with FAISS semantic matching, LLM scoring and tailoring, document
+generation, quality gates, MCP integrations, and tracking across 100+ postings.
+• HorizonScale (2025): Built a Python/PySpark forecasting project with Prophet, scikit-learn, and Streamlit; reduced forecasting cycles
+by approximately 90% and projected bottlenecks up to six months ahead.
+• Serverless Lakehouse: Designed an AWS S3, Glue, Athena, and Bedrock platform with a text-to-SQL agent and Parquet/Snappy
+storage optimization.
+Technical Skills
+Data: Python, SQL, Oracle, PL/SQL, Pandas, ETL/ELT, PySpark/Spark, Airflow, Parquet, dimensional modeling, data quality
+Cloud and platforms: AWS S3, Glue, Athena, Bedrock; Docker; Linux/Unix; Streamlit
+Capacity and observability: BMC TrueSight/TSCO, CA APM/Introscope, AppDynamics, Dynatrace, Splunk, Prophet, scikit-learn
+AI and automation: LLM agents, RAG, FAISS, MCP, Copilot, AI-assisted development, PowerShell
+Education and Certifications
+Post-Graduate Diploma, Computer Engineering Technology / Computer Science - Humber College, Toronto | Bachelor of Science, Civil
+Engineering - Zagazig University, Egypt | Brainbench certifications in C++, C, Java, Object-Oriented Design, and Mathematics

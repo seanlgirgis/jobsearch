@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "9e404a1c0e0f163923993723fe52e9b2c8b2af82f79f4fe7945f75532abf6c84",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:01:02Z",
+  "indeed_jk": "271d098d0ca7ac0c",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 4175,
+    "completion_tokens": 1163,
+    "total_tokens": 5338,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0004182287
+  },
+  "analysis": {
+    "company": "Orbis Operations, LLC",
+    "title": "AI Agent Engineer, Workforce Experience",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "The candidate has strong professional evidence in Python, ETL, data pipelines, and reporting automation, plus project-level experience with agentic workflows, RAG, and LLM tooling (Claude Code, MCP). The role's core (60%) requires production multi-agent workflow design, stakeholder translation, reliability, cost ownership, and documentation—areas where the candidate has transferable skills but limited direct production AI agent experience. The workforce experience focus (40%) aligns with the candidate's current work on internal tooling, AI-assisted reporting, and knowledge base research, though adoption/enablement and intake/self-service are not explicitly evidenced. The candidate's background in capacity/performance engineering and data engineering provides a strong foundation for the technical aspects, but the lack of demonstrated production multi-agent workflow deployment and internal tooling adoption metrics lowers the score.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive ETL and data pipeline experience (CITI, Sabre).",
+      "Proven ability to translate requirements into workflows and reports for non-technical stakeholders (capacity reporting, forecasting).",
+      "Hands-on project experience with agentic workflows, RAG, FAISS, MCP, and Claude Code (AI job-search pipeline, lakehouse Text-to-SQL agent).",
+      "Current role involves AI-assisted automation of reporting and data integration (JIRA, SQL Server, Splunk, Power BI).",
+      "Strong troubleshooting and monitoring skills from performance engineering (Dynatrace, CA APM).",
+      "Experience building internal tooling and knowledge base concepts (LLM-enabled team knowledge base research)."
+    ],
+    "gaps": [
+      "No explicit evidence of building and deploying a production multi-agent workflow with handoff and context sharing.",
+      "Limited evidence of driving adoption, enablement, or training for AI capabilities (no office hours, power-user community, or measured adoption).",
+      "No demonstrated experience with intake or self-service mechanisms that reduce manual request handling.",
+      "No explicit experience with cost optimization of AI workloads (prompt tightening, caching, deterministic steps).",
+      "No evidence of defining accuracy standards, human review checkpoints, or escalation criteria for AI outputs.",
+      "No direct experience in government/defense or intelligence workflows (OSINT, DIGINT, zero-trust)."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI Agent Engineer",
+      "multi-agent workflows",
+      "agentic AI",
+      "RAG",
+      "tool calling",
+      "prompt engineering",
+      "internal tooling",
+      "intake",
+      "self-service",
+      "adoption",
+      "enablement",
+      "documentation",
+      "runbooks",
+      "SOPs",
+      "Python",
+      "APIs"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite headline to emphasize 'AI Agent Engineer with production data pipeline and agentic workflow project experience.' 2. In the summary, highlight the AI job-search pipeline and lakehouse Text-to-SQL agent as evidence of multi-agent design, RAG, and tool calling. 3. Under current role, emphasize the AI-assisted reporting automation as internal tooling that improves efficiency, and mention the LLM knowledge base research as a step toward self-service. 4. Add a 'Relevant Projects' section detailing the agentic pipeline: architecture, agent handoff, context sharing, failure modes, and fixes"
+    ]
+  }
+}

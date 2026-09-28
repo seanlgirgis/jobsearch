@@ -1,3 +1,9 @@
+> **Deprecated operational instructions — Prompt 04.** Start with [AGENTS.md](AGENTS.md),
+> then use [PIPELINE_OPERATOR.md](docs/PIPELINE_OPERATOR.md) and the
+> [Cline runner](CLINE_JOBSEARCH_RUNNER.md) or [reasoner](CLINE_JOBSEARCH_REASONER.md).
+> The historical content below is retained for reference only. Its old defaults,
+> AI-native bypasses, and storage rules do not govern current execution.
+
 # JobSearch Agent Context
 
 Use this file when the user says the focus is `JobSearch`.

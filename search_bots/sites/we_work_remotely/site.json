@@ -1,0 +1,18 @@
+{
+  "id": "we_work_remotely",
+  "name": "We Work Remotely",
+  "home": "https://weworkremotely.com/",
+  "enabled": true,
+  "require_fresh_sor": true
+  "term_packs": ["part_time_remote", "practical_ai", "capacity_performance"],
+  "capture": {
+    "job_url": true,
+    "hiring_person": false,
+    "salary_if_shown": true,
+    "title": true,
+    "company": true,
+    "location": true,
+    "expand_see_more": false,
+    "job_description": true
+  }
+}

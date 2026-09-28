@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "dc3a0de043af792477571faa40fe7817ff5d758b1998c7ff6344931b38250075",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:04:38Z",
+  "indeed_jk": "cfad0d20c7537d2b",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3690,
+    "completion_tokens": 683,
+    "total_tokens": 4373,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00036279
+  },
+  "analysis": {
+    "company": "Deepgram",
+    "title": "AI Data Readiness Lead",
+    "location": "Remote (USA)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong SQL, Python, ETL, and data quality experience, plus practical AI/LLM agent exposure. However, the role emphasizes direct ownership of a semantic/metrics layer, governance-first work, and evaluating AI agent output against ground truth—areas where the candidate's evidence is limited or indirect. The candidate's background is more in capacity/performance engineering and reporting automation, not metric definition governance.",
+    "strengths": [
+      "Expert-level SQL and Python with extensive ETL and data pipeline experience (e.g., Python/Pandas ETL, Oracle RAC migration).",
+      "Strong data quality and validation skills (anomaly checks, cleansing, reconciliation).",
+      "Practical AI/LLM experience: built agentic job-search pipeline, lakehouse with Text-to-SQL agent, researched LLM knowledge base.",
+      "Experience with data cataloging and lineage (Power BI report cataloging, lakehouse design).",
+      "Comfort with ambiguity and rapid change, as shown by diverse roles and projects."
+    ],
+    "gaps": [
+      "No direct ownership of a semantic or metrics layer (dbt, Cube, LookML) in production; foundational-only dbt exposure.",
+      "Limited evidence of resolving conflicting metric definitions across functions or driving governance decisions.",
+      "No explicit experience evaluating LLM/AI agent output against ground truth in a production setting.",
+      "No experience with audit readiness, SOX, or financial controls environments.",
+      "No experience with consumption/usage-based business models where revenue metrics differ."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "Python",
+      "ETL",
+      "data quality",
+      "data catalog",
+      "lineage",
+      "semantic layer",
+      "metrics layer",
+      "AI agents",
+      "LLM evaluation",
+      "governance",
+      "data pipelines",
+      "Power BI",
+      "Athena",
+      "Glue",
+      "lakehouse"
+    ],
+    "tailoring_plan": [
+      "1. In your resume and cover letter, lead with your data quality and validation work (e.g., ETL validation, anomaly checks) and any experience defining or standardizing metrics. 2. Highlight your AI agent projects (job-search pipeline, lakehouse Text-to-SQL) as evidence of evaluating AI output and building agentic systems. 3. Emphasize your SQL expertise and ability to reverse-engineer undocumented logic (e.g., from your Oracle migration and ETL work). 4. Address the semantic layer gap by discussing your foundational dbt knowledge and your Power BI cataloging/migration project as a step toward "
+    ]
+  }
+}

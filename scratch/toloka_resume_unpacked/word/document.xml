@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><w:document xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mo="http://schemas.microsoft.com/office/mac/office/2008/main" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:mv="urn:schemas-microsoft-com:mac:vml" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" mc:Ignorable="w14 wp14">
+  <w:body>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Title"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Sean Girgis</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ResumeContact"/>
+      </w:pPr>
+      <w:r>
+        <w:t xml:space="preserve">Murphy, TX | 214-315-2190 | seanlgirgis@gmail.com | </w:t>
+      </w:r>
+      <w:hyperlink r:id="rId9">
+        <w:r>
+          <w:rPr>
+            <w:color w:val="1F4E79"/>
+            <w:u w:val="single"/>
+          </w:rPr>
+          <w:t>LinkedIn</w:t>
+        </w:r>
+      </w:hyperlink>
+      <w:r>
+        <w:t xml:space="preserve"> | </w:t>
+      </w:r>
+      <w:hyperlink r:id="rId10">
+        <w:r>
+          <w:rPr>
+            <w:color w:val="1F4E79"/>
+            <w:u w:val="single"/>
+          </w:rPr>
+          <w:t>GitHub</w:t>
+        </w:r>
+      </w:hyperlink>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Subtitle"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Senior Applied AI / Forward Deployed Engineer | Python, RAG, Agentic Workflows, Data Pipelines, Enterprise Automation</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:jc w:val="center"/>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+          <w:sz w:val="18"/>
+        </w:rPr>
+        <w:t>Available for remote B2B contract engagement.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Professional Summary</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Applied AI and solution engineer who translates business problems into technical AI solutions. Builds multi-stage AI and data pipelines with Python, Pandas, and APIs, including RAG and agentic workflows, with production reliability and performance in mind. Client-facing technical delivery: discovery, problem framing, and AI/LLM evaluation of workflow quality—not model training.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Solution Engineering</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t xml:space="preserve">Solution engineering: </w:t>
+      </w:r>
+      <w:r>
+        <w:t>discovery, problem framing, client-facing technical delivery, multi-stage pipelines, Python, Pandas, APIs</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t xml:space="preserve">Data and reporting: </w:t>
+      </w:r>
+      <w:r>
+        <w:t>SQL, Pandas, ETL, data validation, capacity reporting, forecasting, report cataloging</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t xml:space="preserve">Observability: </w:t>
+      </w:r>
+      <w:r>
+        <w:t>Splunk, CA APM, Dynatrace, AppDynamics, BMC TrueSight, performance analysis</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t xml:space="preserve">Knowledge solutions: </w:t>
+      </w:r>
+      <w:r>
+        <w:t>RAG, FAISS, agentic workflows, LLM evaluation, searchable knowledge bases, technical mentoring</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Selected Outcomes and Projects</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Automated capacity-report preparation with AI and integrated data sources, standardizing the workflow, improving report quality, and reducing manual effort.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Created automated capacity-data workflows using JIRA, Microsoft SQL Server, and Splunk inputs to reduce manual collection and make repeatable analysis possible.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Applied Copilot, AI, and Python to organize, catalog, and support migration of a large Power BI report estate, improving searchability and management.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Built an agentic job-search pipeline with Python, FAISS, sentence-transformers, LLM scoring and tailoring, document generation, quality gates, and application tracking across 100+ postings.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Developed HorizonScale, a Python and PySpark capacity-forecasting project using Prophet and scikit-learn; reduced forecasting cycles by approximately 90% and projected bottlenecks up to six months ahead.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Professional Experience</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:keepNext/>
+        <w:tabs>
+          <w:tab w:pos="10483" w:val="right"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>LTIMindtree</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> | Capacity and Performance Specialist</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>2026 - Present</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Use practical AI and automation to improve capacity reporting, integrate operational data sources, and make recurring analyst workflows more consistent and efficient.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Research a specialized team knowledge-base and analyst command-center concept using LLMs, retrieval, Python, and PowerShell; this work remains investigative rather than a production deployment.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:keepNext/>
+        <w:tabs>
+          <w:tab w:pos="10483" w:val="right"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Citi</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> | Senior Capacity and Data Engineer</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>Nov 2017 - Dec 2025</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Architected Python and Pandas ETL pipelines for P95 telemetry from 6,000+ endpoints, adding validation, cleansing, anomaly checks, and durable Oracle history.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Developed Prophet and scikit-learn forecasting models to identify capacity risks three to six months ahead and support provisioning and rightsizing decisions.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Managed capacity planning and observability across BMC TrueSight, CA APM, and AppDynamics; produced trend reporting, seasonal analysis, and executive dashboards.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:keepNext/>
+        <w:tabs>
+          <w:tab w:pos="10483" w:val="right"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>G6 Hospitality</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> | Performance Engineer</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>Mar 2017 - Nov 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Managed Dynatrace AppMon and Synthetics for critical digital systems, analyzed bottlenecks, supported an AWS migration, and led performance-data mining for optimization recommendations.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading2"/>
+        <w:keepNext/>
+        <w:tabs>
+          <w:tab w:pos="10483" w:val="right"/>
+        </w:tabs>
+      </w:pPr>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:t>Earlier Consulting and Engineering Experience</w:t>
+      </w:r>
+      <w:r>
+        <w:t xml:space="preserve"> | APM, Performance, Data Migration and Software Engineering</w:t>
+      </w:r>
+      <w:r>
+        <w:rPr>
+          <w:b/>
+        </w:rPr>
+        <w:tab/>
+        <w:t>1996 - 2017</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Delivered enterprise APM implementations and upgrades for estates of roughly 4,000-6,000 agents; created monitoring modules, dashboards, alerts, extraction scripts, sizing guidance, and client training.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="ListBullet"/>
+        <w:spacing w:after="24" w:line="230" w:lineRule="auto"/>
+        <w:ind w:left="230" w:hanging="202"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a six-node Oracle RAC cluster, reducing hardware footprint by approximately 95% while maintaining sub-second latency.</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Technical Skills</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Python, Pandas, APIs, SQL, Oracle, Microsoft SQL Server, ETL/ELT, PowerShell, Linux/Unix, AWS S3/Glue/Athena/Bedrock, PySpark, Airflow, Docker, Parquet, Splunk, Power BI, CA APM, Dynatrace, AppDynamics, BMC TrueSight, Prophet, scikit-learn, Streamlit, RAG, FAISS, MCP, solution engineering, AI evaluation, LLM and agentic workflows</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:pPr>
+        <w:pStyle w:val="Heading1"/>
+      </w:pPr>
+      <w:r>
+        <w:t>Education and Certifications</w:t>
+      </w:r>
+    </w:p>
+    <w:p>
+      <w:r>
+        <w:t>Post-Graduate Diploma, Computer Engineering Technology / Computer Science - Humber College, Toronto</w:t>
+        <w:br/>
+        <w:t>Bachelor of Science, Civil Engineering - Zagazig University, Egypt</w:t>
+        <w:br/>
+        <w:t>Brainbench certifications: C++ Fundamentals, C++, C, Java 2.0, Object-Oriented Design, Mathematics</w:t>
+      </w:r>
+    </w:p>
+    <w:sectPr>
+      <w:pgSz w:w="12240" w:h="15840"/>
+      <w:pgMar w:top="691" w:right="835" w:bottom="648" w:left="835" w:header="720" w:footer="720" w:gutter="0"/>
+      <w:cols w:space="720"/>
+      <w:docGrid w:linePitch="360"/>
+    </w:sectPr>
+  </w:body>
+</w:document>

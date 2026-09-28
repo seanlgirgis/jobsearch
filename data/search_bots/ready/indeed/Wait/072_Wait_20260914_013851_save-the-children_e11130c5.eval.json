@@ -1,0 +1,57 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e11130c52cb8d51779f2ec05c8af3a82fc9f323446a14b5be243c6838cfb889b",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:38:51Z",
+  "indeed_jk": "31a81692813e6be4",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 4127,
+    "completion_tokens": 550,
+    "total_tokens": 4677,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000196617
+  },
+  "analysis": {
+    "company": "Save the Children",
+    "title": "Specialist, BI Developer",
+    "location": null,
+    "score": 72,
+    "fit_rationale": "Strong alignment on core BI/ETL skills (SQL Server, Power BI, Python, ETL) and experience with data pipelines, reporting automation, and stakeholder collaboration. Gaps in formal SSIS/SSRS/SSAS production experience, finance systems, and non-profit sector exposure. Overall solid fit for a BI developer role with room to tailor.",
+    "strengths": [
+      "Expert-level SQL and ETL design, with production experience on Oracle and SQL Server.",
+      "Advanced Python and Pandas, used for ETL, forecasting, and automation.",
+      "Current Power BI usage including migration support and Copilot integration.",
+      "Experience with data quality, testing, and pipeline monitoring.",
+      "Proven ability to translate business requirements into technical solutions (capacity reporting, forecasting).",
+      "Strong communication and collaboration skills evidenced by cross-team work at Citi and consulting roles."
+    ],
+    "gaps": [
+      "No explicit production experience with SSIS, SSRS, or SSAS (only foundational Azure data platform).",
+      "No direct experience with finance systems or non-profit sector.",
+      "Limited evidence of agile delivery or JIRA usage in a professional BI context (JIRA listed as source-supported but not detailed).",
+      "No formal BI-specific certifications or degree in computing (though not essential)."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL Server",
+      "T-SQL",
+      "Power BI",
+      "Python",
+      "ETL",
+      "Data Quality",
+      "Reporting Automation",
+      "Stakeholder Collaboration",
+      "Agile",
+      "JIRA",
+      "Azure Data Platform",
+      "Databricks"
+    ],
+    "tailoring_plan": [
+      "Update CV summary to position as BI/Data Engineer with strong SQL and Python. Add a 'BI & Reporting' section highlighting Power BI migration, automated capacity reports, and ETL pipelines. In cover letter, explicitly address SSIS/SSRS/SSAS by noting Azure Data Factory and Databricks as modern equivalents. Emphasize experience translating non-technical requirements into technical specs. Mention agile collaboration and JIRA usage from current role. If possible, obtain or highlight any Power BI certification."
+    ]
+  }
+}

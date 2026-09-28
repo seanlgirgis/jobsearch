@@ -1,0 +1,16 @@
+{
+  "version": "local-v1",
+  "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+  "tier0_decision": "CLEAR",
+  "exact_matches": [],
+  "semantic": {
+    "status": "CLEAR",
+    "matches": [],
+    "reason": "Existing FAISS cosine check (0.82 threshold; no age expiry)"
+  },
+  "read_errors": [],
+  "eligibility_blocks": [],
+  "duplicate_or_check_blocked": false,
+  "paid_calls": 0,
+  "duplicate_override": null
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "7aaff8153110aa90f31e30eeef8bd90b0164ed8342db1736c8840cedba0ed5b6",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:41:53Z",
+  "indeed_jk": "73cb5d414b796093",
+  "usage": {
+    "prompt_tokens": 4171,
+    "completion_tokens": 703,
+    "total_tokens": 4874,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00022308
+  },
+  "analysis": {
+    "company": "Tivity Health, Inc.",
+    "title": "Director, Data Engineering - remote opportunity",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong hands-on data engineering and architecture experience (Python, SQL, ETL, AWS, Snowflake foundations) and has led technical projects, but lacks direct people management experience of a team of ~10 and has not demonstrated enterprise-scale Snowflake or healthcare domain expertise. The role is primarily a leadership and management position, which is a significant gap.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle with extensive ETL design and optimization experience.",
+      "Hands-on experience with AWS data services (S3, Glue, Athena) and lakehouse patterns.",
+      "Experience with data quality, validation, and pipeline monitoring.",
+      "Proven ability to design and execute large-scale data migrations (e.g., MySQL to Oracle RAC).",
+      "Strong background in capacity planning and forecasting, relevant to platform scalability.",
+      "Experience with infrastructure-as-code concepts (via AWS and automation projects)."
+    ],
+    "gaps": [
+      "No direct people management experience leading a team of ~10 engineers and QA professionals.",
+      "No demonstrated experience with Snowflake at enterprise scale (listed as foundational only).",
+      "No healthcare domain experience (claims, eligibility, provider networks).",
+      "No experience with Pulumi or Terraform for infrastructure-as-code in production.",
+      "No experience with real-time/event-driven architectures or streaming CDC.",
+      "No experience with data governance frameworks, cataloging, or lineage at enterprise scale."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Data Engineering",
+      "Director",
+      "Snowflake",
+      "AWS",
+      "ETL",
+      "Pulumi",
+      "Infrastructure-as-Code",
+      "Data Governance",
+      "Healthcare",
+      "Team Leadership",
+      "Python",
+      "SQL",
+      "Data Architecture",
+      "Real-time",
+      "Streaming",
+      "Lakehouse"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize your hands-on data engineering and architecture experience, especially with AWS and Python. 2. Highlight any leadership or mentoring roles, even informal, and your ability to set technical direction. 3. Address the gap in Snowflake by noting your foundational knowledge and eagerness to deepen it. 4. Showcase your experience with data quality and pipeline reliability. 5. If possible, mention any exposure to healthcare data or regulated environments (e.g., financial services at Citi). 6. Prepare to discuss your approach to managing engineers and QA, and your vision for modernizing a"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "c49d6b585f7df8443db2a68ee0dc3c83995dabae28758d3b8c3b73e475063b87",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:46:46Z",
+  "indeed_jk": "c57b4ad53ba91f97",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3172,
+    "completion_tokens": 672,
+    "total_tokens": 3844,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00114136
+  },
+  "analysis": {
+    "company": "AuraOne",
+    "title": "Expert Senior SWE",
+    "location": "Remote",
+    "score": 78,
+    "fit_rationale": "The role requires senior-level software engineering skills, code review, debugging, and unit testing. The candidate has strong professional evidence in Python, SQL, ETL, and performance engineering, with substantial experience debugging and analyzing complex systems. However, the role is specifically focused on evaluating AI-generated code and writing failing tests, which is closer to the candidate's project work (AI pipeline, lakehouse) than to their core professional experience. The candidate's background in capacity planning and performance engineering provides relevant analytical and debugging skills, but lacks explicit production code-review or test-authoring experience at the senior SWE level.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive professional use in ETL, forecasting, and data engineering.",
+      "Strong debugging and root-cause analysis skills from performance engineering and capacity management roles.",
+      "Experience with testing frameworks and data quality validation (Pandas, pytest-like practices) in ETL pipelines.",
+      "Practical AI project experience (agentic pipeline, lakehouse with Text-to-SQL) demonstrates ability to evaluate and work with AI outputs.",
+      "Clear written communication evidenced by documentation and reporting responsibilities."
+    ],
+    "gaps": [
+      "No explicit professional experience as a software engineer in production code review or technical interview grading.",
+      "Limited evidence of writing unit tests as a primary responsibility; testing is secondary to data engineering tasks.",
+      "No direct experience with security review checklists (OWASP, CWE) or AppSec patterns.",
+      "The role requires async availability for at least 10 hours per week; candidate's current employment may limit availability.",
+      "No public portfolio or open-source contributions mentioned."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "code review",
+      "debugging",
+      "unit testing",
+      "Python",
+      "pytest",
+      "Jest",
+      "JUnit",
+      "Go test",
+      "RSpec",
+      "software engineering",
+      "AI outputs",
+      "sandboxed environment",
+      "failure modes",
+      "severity scores",
+      "rubric",
+      "gold-standard reviews"
+    ],
+    "tailoring_plan": [
+      "Tailor the resume to emphasize Python expertise, debugging and root-cause analysis, and any testing or validation work in ETL pipelines. Highlight the AI-powered job search pipeline and lakehouse project as evidence of working with AI-generated code and evaluating outputs. Add a section on 'Code Review and Quality Assurance' if possible, and mention familiarity with testing frameworks like pytest. Address the availability for 10+ hours per week and the contractor work model. Consider creating a small public portfolio or sample code review to demonstrate skills."
+    ]
+  }
+}

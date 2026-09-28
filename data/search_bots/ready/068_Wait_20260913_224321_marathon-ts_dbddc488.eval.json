@@ -1,0 +1,56 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "dbddc48869cdecfe065cb9f1aad2af81e887e0819dbe1d74cb0247c1747b047b",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:43:21Z",
+  "indeed_jk": "9ecf97ca4e90f98f",
+  "usage": {
+    "prompt_tokens": 2816,
+    "completion_tokens": 762,
+    "total_tokens": 3578,
+    "reasoning_tokens": 0,
+    "actual_usd": 8.8826e-05
+  },
+  "analysis": {
+    "company": "Marathon TS",
+    "title": "Code Review Specialist",
+    "location": "Remote",
+    "score": 68,
+    "fit_rationale": "The candidate has strong software engineering fundamentals, extensive experience with structured development processes, and a proven ability to review code quality, performance, and adherence to standards in enterprise environments. However, the role explicitly requires code review as a primary function, and the candidate's professional history is centered on capacity/performance engineering rather than dedicated code review. The candidate's Python, SQL, and Git experience, along with attention to detail and documentation skills, support a moderate fit. The role's strict prohibition on AI tools conflicts with the candidate's current AI-assisted workflow, but this is a role requirement, not a disqualifier. The candidate's education and US location meet requirements.",
+    "strengths": [
+      "Strong software engineering background with Python, SQL, and C++ (historical expert) enabling code comprehension.",
+      "Experience in mature engineering organizations (CITI, Sabre, CA Technologies) with structured processes and approval workflows.",
+      "Proven ability to analyze complex systems, identify inconsistencies, and document findings clearly (e.g., ETL validation, performance bottleneck analysis).",
+      "Familiarity with Git workflows and pull request processes (implied by professional experience).",
+      "Excellent written communication and documentation skills demonstrated in reporting and consulting roles.",
+      "Ability to work independently and meet deadlines, as evidenced by long-term remote/consulting engagements."
+    ],
+    "gaps": [
+      "No explicit professional experience as a dedicated code reviewer or in a role where code review was a primary responsibility.",
+      "Limited evidence of reviewing large volumes of code or mentoring developers through code review feedback.",
+      "No direct experience with GitHub, GitLab, Azure DevOps, or Bitbucket mentioned in the profile.",
+      "The role requires adherence to security protocols and confidentiality; candidate has experience in regulated environments but not specifically code review security.",
+      "The role prohibits use of AI coding assistants; candidate's current work involves AI-assisted processes, which may require adjustment.",
+      "No explicit mention of experience with secure development principles or coding standards compliance."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "code review",
+      "pull request",
+      "Git",
+      "SDLC",
+      "Python",
+      "SQL",
+      "documentation",
+      "quality assurance",
+      "security protocols",
+      "remote",
+      "contract"
+    ],
+    "tailoring_plan": [
+      "1. Highlight any experience with code review, even if informal, such as reviewing pull requests in past projects or mentoring junior engineers. 2. Emphasize the ability to quickly learn and apply new coding standards, referencing past experience with diverse technologies. 3. Showcase strong analytical and documentation skills with examples of detailed technical reports or findings. 4. Address the AI tool restriction by stating willingness to comply and emphasizing ability to work without AI assistance. 5. Prepare to discuss experience with structured processes and adherence to security protoco"
+    ]
+  }
+}

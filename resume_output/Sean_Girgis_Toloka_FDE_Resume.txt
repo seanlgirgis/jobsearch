@@ -1,0 +1,34 @@
+Sean Girgis
+Murphy, TX | 214-315-2190 | seanlgirgis@gmail.com | LinkedIn | GitHub
+Senior Applied AI / Forward Deployed Engineer | Python, RAG, Agentic Workflows, Data Pipelines, Enterprise Automation
+Available for remote B2B contract engagement.
+Professional Summary
+Applied AI and solution engineer who translates business problems into technical AI solutions. Builds multi-stage AI and data pipelines with Python, Pandas, and APIs, including RAG and agentic workflows, with production reliability and performance in mind. Client-facing technical delivery: discovery, problem framing, and AI/LLM evaluation of workflow quality—not model training.
+Solution Engineering
+Solution engineering: discovery, problem framing, client-facing technical delivery, multi-stage pipelines, Python, Pandas, APIs
+Data and reporting: SQL, Pandas, ETL, data validation, capacity reporting, forecasting, report cataloging
+Observability: Splunk, CA APM, Dynatrace, AppDynamics, BMC TrueSight, performance analysis
+Knowledge solutions: RAG, FAISS, agentic workflows, LLM evaluation, searchable knowledge bases, technical mentoring
+Selected Outcomes and Projects
+Automated capacity-report preparation with AI and integrated data sources, standardizing the workflow, improving report quality, and reducing manual effort.
+Created automated capacity-data workflows using JIRA, Microsoft SQL Server, and Splunk inputs to reduce manual collection and make repeatable analysis possible.
+Applied Copilot, AI, and Python to organize, catalog, and support migration of a large Power BI report estate, improving searchability and management.
+Built an agentic job-search pipeline with Python, FAISS, sentence-transformers, LLM scoring and tailoring, document generation, quality gates, and application tracking across 100+ postings.
+Developed HorizonScale, a Python and PySpark capacity-forecasting project using Prophet and scikit-learn; reduced forecasting cycles by approximately 90% and projected bottlenecks up to six months ahead.
+Professional Experience
+<w:tab w:pos="10483" w:val="right"/></w:tabs></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>LTIMindtree | Capacity and Performance Specialist<w:t>2026 - Present
+Use practical AI and automation to improve capacity reporting, integrate operational data sources, and make recurring analyst workflows more consistent and efficient.
+Research a specialized team knowledge-base and analyst command-center concept using LLMs, retrieval, Python, and PowerShell; this work remains investigative rather than a production deployment.
+<w:tab w:pos="10483" w:val="right"/></w:tabs></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>Citi | Senior Capacity and Data Engineer<w:t>Nov 2017 - Dec 2025
+Architected Python and Pandas ETL pipelines for P95 telemetry from 6,000+ endpoints, adding validation, cleansing, anomaly checks, and durable Oracle history.
+Developed Prophet and scikit-learn forecasting models to identify capacity risks three to six months ahead and support provisioning and rightsizing decisions.
+Managed capacity planning and observability across BMC TrueSight, CA APM, and AppDynamics; produced trend reporting, seasonal analysis, and executive dashboards.
+<w:tab w:pos="10483" w:val="right"/></w:tabs></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>G6 Hospitality | Performance Engineer<w:t>Mar 2017 - Nov 2017
+Managed Dynatrace AppMon and Synthetics for critical digital systems, analyzed bottlenecks, supported an AWS migration, and led performance-data mining for optimization recommendations.
+<w:tab w:pos="10483" w:val="right"/></w:tabs></w:pPr><w:r><w:rPr><w:b/></w:rPr><w:t>Earlier Consulting and Engineering Experience | APM, Performance, Data Migration and Software Engineering<w:t>1996 - 2017
+Delivered enterprise APM implementations and upgrades for estates of roughly 4,000-6,000 agents; created monitoring modules, dashboards, alerts, extraction scripts, sizing guidance, and client training.
+Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a six-node Oracle RAC cluster, reducing hardware footprint by approximately 95% while maintaining sub-second latency.
+Technical Skills
+Python, Pandas, APIs, SQL, Oracle, Microsoft SQL Server, ETL/ELT, PowerShell, Linux/Unix, AWS S3/Glue/Athena/Bedrock, PySpark, Airflow, Docker, Parquet, Splunk, Power BI, CA APM, Dynatrace, AppDynamics, BMC TrueSight, Prophet, scikit-learn, Streamlit, RAG, FAISS, MCP, solution engineering, AI evaluation, LLM and agentic workflows
+Education and Certifications
+Post-Graduate Diploma, Computer Engineering Technology / Computer Science - Humber College, TorontoBachelor of Science, Civil Engineering - Zagazig University, EgyptBrainbench certifications: C++ Fundamentals, C++, C, Java 2.0, Object-Oriented Design, Mathematics

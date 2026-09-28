@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "3819f620a57317c9c591e7f7f7f228b2cb705f98f5c63c792144ac6d80042528",
+  "site": "indeed",
+  "captured_at": "2026-09-13T21:52:38Z",
+  "indeed_jk": "09576c371173d89d",
+  "usage": {
+    "prompt_tokens": 6029,
+    "completion_tokens": 488,
+    "total_tokens": 6517,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002637536
+  },
+  "analysis": {
+    "company": "GE Vernova",
+    "title": "Lead Analyst, Regional Market Insights",
+    "location": "Cambridge, MA (Remote)",
+    "score": 38,
+    "fit_rationale": "The candidate has strong analytical, data, and AI-tool skills but lacks direct energy market, policy, or forecasting domain experience. Their background is in IT capacity planning and performance engineering, not energy market analysis. The role requires deep energy market fundamentals and regional strategy, which the candidate does not demonstrate. Some transferable skills in data analysis, Python, SQL, and AI-assisted research are relevant but insufficient to offset the domain gap.",
+    "strengths": [
+      "Strong Python, SQL, and data analysis skills",
+      "Experience with forecasting models (Prophet, scikit-learn)",
+      "AI-assisted research and tooling (Copilot, LLM agents)",
+      "Data visualization with Power BI",
+      "Experience translating complex data into business insights",
+      "Stakeholder engagement and consulting background"
+    ],
+    "gaps": [
+      "No energy market, power market, or energy policy experience",
+      "No regional/country market intelligence or strategy experience",
+      "No forecasting in energy context; forecasting is IT capacity-focused",
+      "No experience with market attractiveness frameworks or country prioritization",
+      "No power market modeling or capacity expansion modeling",
+      "No executive-level market insights or quarterly market updates"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "energy markets",
+      "power markets",
+      "market analysis",
+      "energy policy",
+      "forecasting",
+      "regional market intelligence",
+      "country prioritization",
+      "market attractiveness",
+      "energy transition",
+      "policy analysis",
+      "competitive insights",
+      "executive insights",
+      "Power BI",
+      "SQL",
+      "Python",
+      "AI tools"
+    ],
+    "tailoring_plan": [
+      "If pursuing this role despite gaps, the candidate would need to: 1) Highlight any energy-related coursework, projects, or self-study; 2) Emphasize transferable analytical and forecasting skills; 3) Frame capacity planning as market demand forecasting; 4) Showcase AI-assisted research as a tool for market intelligence; 5) Prepare to address the lack of energy domain experience directly. However, given the fundamental domain mismatch, tailoring is unlikely to overcome the gap."
+    ]
+  }
+}

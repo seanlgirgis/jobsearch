@@ -1,0 +1,23 @@
+uuid: a43a1c85-b632-4830-a6c3-48b48e5497b8
+job_id: 00398_a43a1c85
+company: Alignerr
+role: Python Software Engineer AI Workflows
+location: Remote, United States
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: LinkedIn
+  history:
+  - timestamp: '2026-09-12T17:16:40'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: Applied
+    notes: User reported submitting the application via LinkedIn.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Applied via LinkedIn.
+  application_notes: User reported submitting the application via LinkedIn.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'

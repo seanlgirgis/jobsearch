@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "4414acb4b37cdc70d1e6a6a70386cf8a9af51dfbcad11c943e74a616c36ca7cd",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:23:36Z",
+  "indeed_jk": "8356a5961ffb6076",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 2929,
+    "completion_tokens": 699,
+    "total_tokens": 3628,
+    "reasoning_tokens": 0,
+    "actual_usd": 8.2968e-05
+  },
+  "analysis": {
+    "company": "General Dynamics Information Technology",
+    "title": "IT Operations Manager",
+    "location": "Remote, Working from the USA",
+    "score": 62,
+    "fit_rationale": "The candidate has strong technical depth in capacity planning, performance engineering, and data automation, with leadership experience in managing enterprise capacity requests and vendor consulting. However, the role is an IT operations management position requiring broad operational leadership across service desk, infrastructure, networks, cloud, and cybersecurity, with explicit ITSM platform experience (e.g., ServiceNow). The candidate's background is more specialized in capacity/performance engineering and data engineering, with limited evidence of direct IT service management, incident/change management, or vendor contract execution. The candidate's experience in regulated environments (CITI, Sabre) and vendor consulting (CA Technologies) partially aligns, but the gap in formal IT operations management and ITSM tools lowers the fit.",
+    "strengths": [
+      "Progressive IT experience spanning over 15 years across multiple domains (capacity, performance, data engineering).",
+      "Experience in regulated environments (CITI, Sabre) with large-scale systems.",
+      "Vendor and contractor management experience from CA APM consulting engagements.",
+      "Strong communication skills with non-technical audiences demonstrated through client training and reporting.",
+      "Experience with monitoring and observability tools (Dynatrace, CA APM, AppDynamics) relevant to operational reliability.",
+      "Data-driven approach to reporting and metrics, aligning with operational reporting requirements."
+    ],
+    "gaps": [
+      "No explicit experience in IT service management (ITSM) platforms like ServiceNow.",
+      "Limited evidence of direct management of service desk, incident, problem, or change management processes.",
+      "No demonstrated experience in cybersecurity operations or vulnerability management.",
+      "No explicit experience in cloud services management or infrastructure lifecycle planning.",
+      "Role requires broad operational leadership across multiple IT domains; candidate's focus is more specialized in capacity/performance engineering.",
+      "No evidence of managing vendor contracts or procurement support at a program level."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT operations",
+      "service delivery",
+      "incident management",
+      "change management",
+      "vendor management",
+      "ITSM",
+      "ServiceNow",
+      "cloud services",
+      "cybersecurity",
+      "infrastructure",
+      "end-user support",
+      "monitoring",
+      "metrics",
+      "reporting",
+      "automation",
+      "modernization"
+    ],
+    "tailoring_plan": [
+      "If the candidate were to apply, they should emphasize any indirect experience with incident/change processes from capacity management, highlight their vendor consulting and client training as evidence of stakeholder communication, and frame their data automation and reporting as a way to enhance operational metrics. They could also pursue a ServiceNow certification or highlight any exposure to ITSM frameworks to close the gap. Additionally, they could position their performance engineering background as directly supporting service reliability and uptime."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "87320cd3f1802753b13bd5efd52155606dbe06fdfbfe9096ddcec6849285e20c",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:26:27Z",
+  "indeed_jk": "cbb5128a246a450a",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 4239,
+    "completion_tokens": 764,
+    "total_tokens": 5003,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00023068
+  },
+  "analysis": {
+    "company": "Orbis Operations, LLC",
+    "title": "AI Agent Engineer, Cloud Infrastructure",
+    "location": null,
+    "score": 62,
+    "fit_rationale": "The candidate has strong infrastructure, performance engineering, and Python automation experience, plus practical AI projects (agentic pipeline, lakehouse with Text-to-SQL, RAG). However, the role requires 5 years of translating user requirements into workflows and 1 year of building AI agents with commercial offerings; the candidate's AI work is largely project-based or research, not production enterprise AI agent deployment. Cloud infrastructure focus is partially met (AWS project, but no GCP/Azure/Cloudflare production experience).",
+    "strengths": [
+      "Expert-level Python, SQL, ETL, and capacity planning/forecasting",
+      "Hands-on AWS project (S3/Glue/Athena/Bedrock) with Text-to-SQL agent",
+      "Built a Python agentic job-search pipeline using FAISS, LLM scoring, MCP",
+      "Strong performance engineering and observability background (Dynatrace, CA APM)",
+      "Experience with large-scale data migrations (Sabre) and cost optimization",
+      "Proven ability to explain technical work to non-technical stakeholders (consulting, training)"
+    ],
+    "gaps": [
+      "No demonstrated production multi-agent workflow deployment in enterprise setting",
+      "Lack of 5 years of explicit requirements-to-workflow translation; more infrastructure/data engineering",
+      "No GCP, Azure, or Cloudflare production experience; AWS only (project-level)",
+      "No formal infrastructure-as-code (Terraform/Pulumi) experience mentioned",
+      "Cloud networking, identity, and secrets management not evidenced",
+      "No government/defense or intelligence domain experience"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI Agent Engineer",
+      "Cloud Infrastructure",
+      "GCP",
+      "Azure",
+      "Cloudflare",
+      "Infrastructure as Code",
+      "Terraform",
+      "Pulumi",
+      "Multi-agent workflows",
+      "RAG",
+      "Prompt engineering",
+      "CI/CD",
+      "Networking",
+      "Identity",
+      "Secrets management",
+      "Cost management"
+    ],
+    "tailoring_plan": [
+      "1. Highlight the AWS lakehouse project as evidence of cloud infrastructure as code and Text-to-SQL agent. 2. Emphasize the agentic job-search pipeline as a multi-agent workflow with handoff and context sharing. 3. Frame current role's AI-assisted reporting as production workflow automation. 4. Address cloud gaps by noting foundational Azure knowledge and willingness to learn GCP/Cloudflare. 5. Prepare to discuss how to translate stakeholder requirements into workflows, using consulting experience. 6. Emphasize cost optimization and performance engineering as transferable to run cost control. 7"
+    ]
+  }
+}

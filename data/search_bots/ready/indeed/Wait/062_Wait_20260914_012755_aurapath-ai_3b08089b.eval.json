@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "3b08089b8bc13f902657a06ff78ff11ead8ec3dae84ddb3162752892f1b7a6ad",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:27:55Z",
+  "indeed_jk": "44539a16118125ad",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2866,
+    "completion_tokens": 873,
+    "total_tokens": 3739,
+    "reasoning_tokens": 0,
+    "actual_usd": 9.7243e-05
+  },
+  "analysis": {
+    "company": "Aurapath AI",
+    "title": "Forward Deployed Engineer, Applied AI",
+    "location": "Remote, United States",
+    "score": 62,
+    "fit_rationale": "The candidate has strong software engineering fundamentals (Python, SQL, ETL, data systems) and practical AI experience (LLM agents, RAG, Claude Code, MCP) from projects and current work. However, the role emphasizes forward-deployed engineering with direct client-facing delivery, production AI systems, and TypeScript/Python APIs, which the candidate's professional history only partially covers. The candidate's AI work is largely project-based or research-oriented, not yet proven in production enterprise deployments. The role's preference for insurance, legal, or accounting domain experience is not met. Overall, a moderate fit with clear strengths in data engineering and AI tooling, but gaps in production AI delivery and client-facing consulting.",
+    "strengths": [
+      "Strong Python and SQL skills with extensive ETL and data pipeline experience (e.g., P95 telemetry ETL, Oracle RAC migration).",
+      "Practical AI experience: built an agentic job-search pipeline with FAISS, LLM scoring, MCP; used Claude Code and AI-assisted development.",
+      "Experience with AWS lakehouse (S3, Glue, Athena, Bedrock) and Text-to-SQL agent, showing cloud and AI integration skills.",
+      "Proven ability to take ownership of production software: migrated shopping engine to Oracle RAC with 95% hardware reduction and sub-second latency.",
+      "Consulting background at CA Technologies, delivering APM consulting for large estates, which aligns with client-facing work.",
+      "Strong data quality, testing, and monitoring skills from capacity and performance engineering roles."
+    ],
+    "gaps": [
+      "No direct experience as a Forward Deployed Engineer or in a product engineering role with client-facing delivery.",
+      "AI experience is primarily project-based or research (e.g., CAPTAIN research, personal job-search pipeline) rather than production AI systems deployed for customers.",
+      "Lacks TypeScript experience; the role requires strong TypeScript and/or Python, but the candidate's professional history is Python-centric.",
+      "No experience in insurance, legal, or accounting domains, which is a plus but not required.",
+      "Limited evidence of building and deploying AI agents or integrations into existing business systems in a production environment.",
+      "Current role's production status is unconfirmed; some AI work is research/investigation only."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "LLM",
+      "RAG",
+      "Claude Code",
+      "MCP",
+      "AWS",
+      "Bedrock",
+      "Data Engineering",
+      "AI Agents",
+      "Consulting",
+      "Production Software",
+      "APIs",
+      "Data Systems"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize the agentic job-search pipeline as evidence of building AI agents with retrieval and LLM scoring, and highlight the use of MCP and quality gates. 2. Frame the AWS lakehouse project as an AI-integrated data platform with a Text-to-SQL agent, demonstrating production-oriented AI design. 3. Highlight the CA Technologies consulting experience to show client-facing skills and ability to translate technical requirements. 4. Address the TypeScript gap by noting willingness to learn and any exposure to JavaScript/TypeScript in projects. 5. In the application, describe the Sabre migration "
+    ]
+  }
+}

@@ -1,0 +1,81 @@
+company_name: Toloka AI
+company_website: ''
+job_title: Forward Deployed AI Engineer (B2B Contract)
+location: Texas, United States
+extracted_skills:
+- Python
+- NumPy
+- Pandas
+- LLM training
+- SFT
+- RLHF
+- RLAIF
+- DPO
+- PPO
+- reward modeling
+- LoRA
+- PEFT
+- RAG
+- agentic systems
+- synthetic data generation
+- data labeling pipelines
+- API integration
+job_summary: Freelance Forward Deployed AI Engineer role partnering directly with
+  CTOs and technical leaders to design and deliver AI data-generation, labeling, and
+  evaluation pipelines for frontier models. Hands-on solution engineering with commercial
+  ownership in a fully remote B2B contract.
+responsibilities:
+- Act as primary technical counterpart to CTOs, VPs, and research leaders using structured
+  BLUF communication
+- Diagnose client data needs and translate model goals into scalable data strategies
+- Design and build multi-stage data labeling, evaluation, and synthetic data pipelines
+- Develop AI-driven solutions including agentic systems and RAG
+- Run experiments, iterate from MVP to production, and establish engineering standards
+- Own end-to-end delivery including timelines, quality, margins, and expansion opportunities
+- Mentor Solution Engineers and Technical Consultants
+requirements:
+- 8+ years delivering complex AI, ML, or data projects end to end
+- Strong understanding of modern LLM development including SFT, RLHF/RLAIF, DPO/PPO,
+  reward modeling, LoRA/PEFT
+- Hands-on experience designing complex AI solutions and multi-stage pipelines
+- Proficiency in Python (NumPy, Pandas), API integration, and prototyping LLM-powered
+  solutions
+- Executive communication skills with senior technical stakeholders
+- Solid software engineering foundations including version control, testing, and iterative
+  development
+- Exceptional discovery and problem-framing abilities
+preferred:
+- Experience training or fine-tuning LLMs or building agentic systems
+- Advanced degree (MSc/PhD) in AI, CS, or related field
+- Experience in crowdsourcing, data-centric AI, or fast-paced multi-project delivery
+  for frontier AI clients
+- Background in top-tier strategy consulting or applied ML/LLM engineering
+- Experience establishing engineering standards and mentoring engineers
+benefits:
+- Freelance B2B collaboration with path to project team
+- Flexible fully remote schedule (40 hours per week)
+- Work with leading AI industry clients
+- Friendly expert community
+must_have_skills:
+- Python
+- LLM development
+- data pipeline engineering
+- executive communication
+- solution architecture
+nice_to_have_skills:
+- RLHF
+- RAG
+- agentic systems
+- synthetic data generation
+- MSc/PhD in AI
+ats_keywords:
+- Forward Deployed AI Engineer
+- B2B Contract
+- LLM
+- data pipelines
+- RLHF
+- RAG
+- synthetic data
+- Python
+- executive partnership
+- solution engineering

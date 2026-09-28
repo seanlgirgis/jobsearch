@@ -1,0 +1,33 @@
+uuid: 23d824e3-b3be-4bda-a95d-f565e2a9c3b2
+job_id: 00397_23d824e3
+company: CyberCoders
+role: AI Engineer Forward Deployment 6 Month Contract
+location: Remote, United States
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: LinkedIn
+  history:
+  - timestamp: '2026-09-12T16:40:52'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: HOLD
+    notes: Duplicate check cleared. Strong general Python, API, RAG, and observability
+      overlap, but hold because the posting requires demonstrated production Azure
+      AI Foundry, Azure OpenAI, Azure DevOps, C# or TypeScript, and production RAG
+      delivery not supported by the current documented profile.
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: User chose to proceed despite the documented Azure and production-delivery
+      gaps. Not yet submitted.
+  - date: '2026-09-12'
+    status: Applied
+    notes: User reported submitting the application via LinkedIn.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Applied via LinkedIn.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'
+  application_notes: User reported submitting the application via LinkedIn.

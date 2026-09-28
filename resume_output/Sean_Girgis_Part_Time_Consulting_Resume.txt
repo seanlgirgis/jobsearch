@@ -1,0 +1,53 @@
+Sean Girgis
+Murphy, TX | 214-315-2190 | seanlgirgis@gmail.com | LinkedIn | GitHub
+Python and AI Automation Consultant | Data Workflows | Reporting | Splunk and APM
+Available for select remote evening and weekend consulting engagements.
+Consulting Profile
+Senior enterprise engineer who automates manual data, reporting, and operational workflows using Python and practical AI. Brings deep
+capacity planning, performance engineering, data integration, and observability experience to focused engagements that improve
+repeatability, quality, and decision speed.
+Consulting Services
+Workflow automation: Python, PowerShell, APIs, AI-assisted development, repeatable multi-step workflows
+Data and reporting: SQL, Pandas, ETL, data validation, capacity reporting, forecasting, report cataloging
+Observability: Splunk, CA APM, Dynatrace, AppDynamics, BMC TrueSight, performance analysis
+Knowledge solutions: RAG, FAISS, LLM workflows, searchable knowledge bases, technical mentoring
+Selected Outcomes and Projects
+• Automated capacity-report preparation with AI and integrated data sources, standardizing the workflow, improving report quality, and
+reducing manual effort.
+• Created automated capacity-data workflows using JIRA, Microsoft SQL Server, and Splunk inputs to reduce manual collection and
+make repeatable analysis possible.
+• Applied Copilot, AI, and Python to organize, catalog, and support migration of a large Power BI report estate, improving searchability
+and management.
+• Built an agentic job-search pipeline with Python, FAISS, sentence-transformers, LLM scoring and tailoring, document generation,
+quality gates, and application tracking across 100+ postings.
+• Developed HorizonScale, a Python and PySpark capacity-forecasting project using Prophet and scikit-learn; reduced forecasting
+cycles by approximately 90% and projected bottlenecks up to six months ahead.
+Professional Experience
+LTIMindtree | Capacity and Performance Specialist 2026 - Present
+• Use practical AI and automation to improve capacity reporting, integrate operational data sources, and make recurring analyst
+workflows more consistent and efficient.
+• Research a specialized team knowledge-base and analyst command-center concept using LLMs, retrieval, Python, and PowerShell;
+this work remains investigative rather than a production deployment.
+Citi | Senior Capacity and Data Engineer Nov 2017 - Dec 2025
+• Architected Python and Pandas ETL pipelines for P95 telemetry from 6,000+ endpoints, adding validation, cleansing, anomaly checks,
+and durable Oracle history.
+• Developed Prophet and scikit-learn forecasting models to identify capacity risks three to six months ahead and support provisioning
+and rightsizing decisions.
+• Managed capacity planning and observability across BMC TrueSight, CA APM, and AppDynamics; produced trend reporting, seasonal
+analysis, and executive dashboards.
+G6 Hospitality | Performance Engineer Mar 2017 - Nov 2017
+• Managed Dynatrace AppMon and Synthetics for critical digital systems, analyzed bottlenecks, supported an AWS migration, and led
+performance-data mining for optimization recommendations.
+Earlier Consulting and Engineering Experience | APM, Performance, Data Migration and Software Engineering 1996 - 2017
+• Delivered enterprise APM implementations and upgrades for estates of roughly 4,000-6,000 agents; created monitoring modules,
+dashboards, alerts, extraction scripts, sizing guidance, and client training.
+• Led migration of a high-throughput shopping engine from 200+ MySQL nodes to a six-node Oracle RAC cluster, reducing hardware
+footprint by approximately 95% while maintaining sub-second latency.
+Technical Skills
+Python, SQL, Oracle, Microsoft SQL Server, Pandas, ETL/ELT, APIs, PowerShell, Linux/Unix, AWS S3/Glue/Athena/Bedrock, PySpark,
+Airflow, Docker, Parquet, Splunk, Power BI, CA APM, Dynatrace, AppDynamics, BMC TrueSight, Prophet, scikit-learn, Streamlit, RAG,
+FAISS, MCP, LLM and agentic workflows
+Education and Certifications
+Post-Graduate Diploma, Computer Engineering Technology / Computer Science - Humber College, Toronto
+Bachelor of Science, Civil Engineering - Zagazig University, Egypt
+Brainbench certifications: C++ Fundamentals, C++, C, Java 2.0, Object-Oriented Design, Mathematics

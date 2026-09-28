@@ -1,0 +1,19 @@
+uuid: 33084796-ec98-40c3-ae99-942e9004644e
+job_id: 00392_33084796
+company: Teiva Systems
+role: AI Integration Architect
+location: Remote, USA
+status: READY_TO_APPLY
+application:
+  applied: false
+  applied_date: null
+  applied_method: null
+  history:
+  - timestamp: '2026-09-12T16:03:04'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: Duplicate check cleared; use the part-time consulting resume. Not submitted.
+  last_status: READY_TO_APPLY
+  last_status_date: '2026-09-12'

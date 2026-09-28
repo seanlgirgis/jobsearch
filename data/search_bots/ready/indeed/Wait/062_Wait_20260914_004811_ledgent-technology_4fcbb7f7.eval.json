@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "4fcbb7f7d3af344e4dceaed57da7e61524ba7fe0d16d54ebde72173391e8afa8",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:48:11Z",
+  "indeed_jk": "c2ae6ff84e8c1445",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3985,
+    "completion_tokens": 759,
+    "total_tokens": 4744,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00058407
+  },
+  "analysis": {
+    "company": "Ledgent Technology",
+    "title": "Enterprise Data & Analytics Architect",
+    "location": "San Diego, CA (Remote)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong data engineering and ETL skills (Python/Pandas, SQL, Oracle), experience with reporting automation and Power BI, and foundational knowledge of Azure and cloud data platforms. However, the role requires deep expertise in Microsoft SQL Server, SSIS/ADF, SSRS, and Azure services, which the candidate's professional experience does not demonstrate. The candidate's experience is more in capacity planning, performance engineering, and observability, with some data engineering and reporting. The role also requires leadership and mentorship of a development team, which the candidate has not evidenced. The candidate's foundational-only skills in Azure and Databricks are not sufficient to meet the expert-level requirements.",
+    "strengths": [
+      "Strong ETL and data pipeline experience using Python/Pandas, SQL, and Oracle (CITI, Sabre).",
+      "Experience with Power BI report migration and cataloging (current role).",
+      "Experience with data quality, validation, and anomaly checks in ETL processes.",
+      "Familiarity with cloud data platforms (AWS lakehouse project) and foundational Azure knowledge.",
+      "Strong analytical and problem-solving skills from capacity forecasting and performance engineering.",
+      "Experience with automation and AI-assisted workflows, which could be applied to data architecture tasks."
+    ],
+    "gaps": [
+      "No professional experience with Microsoft SQL Server, SSIS/ADF, SSRS, or Power Platform (Power BI is used but not in a development/architecture capacity).",
+      "No evidence of expert-level Azure data services (ADF, Data Lake, Fabric, Snowflake) in production.",
+      "No experience leading or mentoring a development team, or overseeing code reviews, SDLC, or source control management.",
+      "No experience with data modeling, schema design, or data warehouse architecture in a professional setting.",
+      "The role requires 8-10 years of database engineering and design in OLAP/OLTP, which the candidate's experience does not match.",
+      "The candidate's Azure and Databricks skills are foundational-only, not professional production expertise."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Data Architect",
+      "Enterprise Data",
+      "Analytics",
+      "SQL Server",
+      "SSIS",
+      "ADF",
+      "SSRS",
+      "Power BI",
+      "Azure",
+      "Data Lake",
+      "Lakehouse",
+      "Fabric",
+      "Snowflake",
+      "ETL",
+      "Data Warehouse",
+      "Data Modeling"
+    ],
+    "tailoring_plan": [
+      "If applying, tailor your resume to emphasize any SQL Server or Azure data platform experience, even if from projects or foundational learning. Highlight your ETL design and optimization expertise, and your experience with reporting automation and Power BI. Frame your capacity forecasting and performance engineering work as data engineering and analytics. Emphasize your ability to learn new technologies quickly and your interest in data architecture. Consider obtaining certifications in Azure Data Engineer or Microsoft Power Platform to strengthen your candidacy."
+    ]
+  }
+}

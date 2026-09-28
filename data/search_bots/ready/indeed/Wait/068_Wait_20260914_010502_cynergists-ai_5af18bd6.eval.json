@@ -1,0 +1,59 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5af18bd64354817da023f221d0f0a85aff1030628b38cab01a7f67d7e69602f9",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:05:02Z",
+  "indeed_jk": "1471e0638e4da549",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3849,
+    "completion_tokens": 711,
+    "total_tokens": 4560,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00073794
+  },
+  "analysis": {
+    "company": "Cynergists AI",
+    "title": "AI Solutions Consultant",
+    "location": "Remote",
+    "score": 68,
+    "fit_rationale": "The candidate has strong technical depth in AI, automation, and data engineering, with practical experience in building AI-driven solutions and consulting (CA Technologies). The role is commission-based sales, which is a significant shift from the candidate's technical background. However, the candidate's ability to explain complex AI capabilities, consultative approach, and experience with AI tools (e.g., agentic workflows, RAG) align well. The candidate's current focus on practical AI and part-time consulting suggests openness to this type of role. The main gap is lack of direct sales experience, but the role explicitly welcomes non-sales backgrounds.",
+    "strengths": [
+      "Deep technical expertise in AI, automation, and data engineering, enabling credible demonstrations and solution recommendations.",
+      "Experience in consulting (CA Technologies) with client training and solution design, relevant to consultative selling.",
+      "Hands-on experience with AI agents, RAG, and agentic workflows (personal projects), aligning with the platform's AI workforce.",
+      "Strong communication and ability to translate technical concepts into business outcomes, as evidenced by past consulting roles.",
+      "Self-motivated and entrepreneurial, as shown by building a personal AI job-search pipeline and lakehouse project."
+    ],
+    "gaps": [
+      "No direct sales or business development experience; the role is commission-based and requires prospecting, closing, and pipeline management.",
+      "The candidate's background is primarily technical engineering, not sales; may need to develop sales discipline and objection handling.",
+      "The role emphasizes building a book of business and recurring revenue, which is a new career direction for the candidate.",
+      "The candidate's current employment is full-time, and the role is part-time/full-time remote; availability may be a concern.",
+      "The candidate's professional experience is in capacity/performance engineering, not in selling AI solutions to business owners."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI Solutions Consultant",
+      "commission-based",
+      "recurring revenue",
+      "consultative selling",
+      "AI agents",
+      "business automation",
+      "prospecting",
+      "discovery",
+      "demonstrations",
+      "objection handling",
+      "pipeline management",
+      "CRM",
+      "remote",
+      "uncapped commission"
+    ],
+    "tailoring_plan": [
+      "Tailor the resume to highlight consulting experience, AI project work, and ability to explain technical concepts to non-technical audiences. Emphasize any client-facing interactions, training, and solution design. Add a summary that positions the candidate as a tech-savvy consultant transitioning into AI sales. In the cover letter, express enthusiasm for AI's business impact and willingness to learn sales. Highlight the personal AI projects as evidence of practical AI knowledge. Quantify any past consulting achievements (e.g., number of clients trained, scale of deployments) to demonstrate cre"
+    ]
+  }
+}

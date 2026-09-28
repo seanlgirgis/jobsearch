@@ -1,0 +1,109 @@
+{
+  "version": 1,
+  "current_work_sha256": "724dd62c5cfd05679acd8dff4675a6945563c02ae02d776561c1fcf5e6e8a987",
+  "positioning": {
+    "headline": "Infrastructure capacity and performance engineer with Python automation and practical AI",
+    "focus": ["capacity planning", "performance engineering", "observability", "Python automation", "reporting", "practical AI"],
+    "targets": ["senior capacity, performance and data engineering roles", "selective remote part-time consulting in evenings or weekends"],
+    "ai_scope": "Apply AI to established infrastructure and workflow engineering experience."
+  },
+  "job_family_keywords": {
+    "capacity": ["capacity planning", "demand forecasting", "rightsizing", "utilization", "infrastructure analytics"],
+    "performance_observability": ["performance engineering", "APM", "observability", "bottleneck analysis"],
+    "automation_reporting": ["Python", "SQL", "ETL", "telemetry", "data quality", "reporting automation"],
+    "practical_ai_consulting": ["AI workflow automation", "RAG", "agentic workflows", "Power BI cataloging", "part-time consulting"]
+  },
+  "evidence": [
+    {
+      "id": "current", "kind": "current", "source": "current_work",
+      "employer": "LTIMindtree", "function": "Capacity and performance specialist",
+      "status": "user_stated; production status unconfirmed except research",
+      "bullets": [
+        {"id": "current_reporting", "text": "Automated capacity-report preparation with AI and multiple data sources, improving standardization and report quality."},
+        {"id": "current_sources", "text": "Used AI-assisted processes to integrate JIRA, Microsoft SQL Server and Splunk as automated capacity-data sources."},
+        {"id": "current_powerbi", "text": "Used Copilot, AI and Python to organize, catalog and support migration of Power BI reports."},
+        {"id": "current_research", "text": "Researched an LLM-enabled team knowledge base and analyst command-center concept using Python and PowerShell; research/investigation, not production."}
+      ]
+    },
+    {
+      "id": "citi", "kind": "experience", "match": "CITI",
+      "sha256": "454e660b4f2f81a92eefff5d7df69c4c6e195c5aeab3430d385b4587b4790857",
+      "bullets": [
+        {"id": "citi_etl", "text": "Built Python/Pandas ETL for P95 telemetry from 6,000+ endpoints, adding validation, cleansing, anomaly checks and Oracle history."},
+        {"id": "citi_forecast", "text": "Developed Python and scikit-learn forecasting models to identify capacity risks 3-6 months ahead and support provisioning and rightsizing."},
+        {"id": "citi_operations", "text": "Managed enterprise capacity requests, monthly reporting and seasonal analysis with BMC TrueSight, CA APM and AppDynamics."}
+      ]
+    },
+    {
+      "id": "g6", "kind": "experience", "match": "G6 Hospitality LLC",
+      "sha256": "e1b1c6b5b4d0b1860a420fcf05b30c0099178f96213c3bf521134c8f5c14c827",
+      "bullets": [
+        {"id": "g6_performance", "text": "Managed Dynatrace AppMon/Synthetics, analyzed performance bottlenecks and supported an AWS migration."}
+      ]
+    },
+    {
+      "id": "ca", "kind": "experience", "match": "CA Technologies/ TIAA-CREF",
+      "public_employer": "CA Technologies",
+      "sha256": "6f0ed46f33010430b326dcef07462e6fa224b11223af88621efee9a03ac4faad",
+      "bullets": [
+        {"id": "ca_consulting", "text": "Delivered CA APM consulting for estates of roughly 4,000-6,000 agents and 50+ Enterprise Managers, including sizing, monitoring design and client training."}
+      ]
+    },
+    {
+      "id": "sabre", "kind": "experience", "match": "Sabre",
+      "sha256": "a9f6082ed4e768f07c89a60b6188382e831f63333cf754a5c5c6dd46bbe63117",
+      "bullets": [
+        {"id": "sabre_scale", "text": "Migrated a shopping engine from 200+ MySQL nodes to six-node Oracle RAC, optimizing C++/OCCI processing with approximately 95% less hardware and sub-second latency."}
+      ]
+    },
+    {
+      "id": "horizon", "kind": "project", "match": "HorizonScale — AI Capacity Forecasting Engine",
+      "public_name": "HorizonScale capacity forecasting", "status": "master project evidence; production deployment unconfirmed",
+      "sha256": "27cf9d6689b607e093cbb68ab4fb8bbdb5cd19b355f9608c89eae5c56094402a",
+      "bullets": [
+        {"id": "horizon_forecast", "text": "Built a Python/PySpark forecasting project with Prophet, scikit-learn and Streamlit; the master records about 90% shorter forecasting cycles and bottleneck prediction up to six months ahead."}
+      ]
+    },
+    {
+      "id": "pipeline", "kind": "project", "match": "AI-Powered Job Search Pipeline",
+      "status": "personal project; not enterprise AI deployment",
+      "sha256": "3694518b9d6b770e0aeed6dbde4edd3139c0126ef3e9d427dc516bb26f9bc1e0",
+      "bullets": [
+        {"id": "pipeline_ai", "text": "Built a Python agentic job-search pipeline using FAISS retrieval, LLM scoring and tailoring, document generation, quality gates, MCP and application tracking."}
+      ]
+    },
+    {
+      "id": "lakehouse", "kind": "project", "match": "Serverless Lakehouse Platform (AWS)",
+      "status": "master project evidence; dates and production deployment unconfirmed",
+      "sha256": "ef5d8baab07f142f2b392527641b7062ddb22e07938100f8613876daa146fd88",
+      "bullets": [
+        {"id": "lakehouse_data", "text": "Designed an AWS S3/Glue/Athena/Bedrock lakehouse project with a Text-to-SQL agent and Parquet/Snappy storage optimization."}
+      ]
+    }
+  ],
+  "skill_groups": {
+    "professional_evidence": {
+      "evidence": ["citi", "g6", "ca"],
+      "names": ["Capacity Planning / Forecasting", "Python", "SQL / Oracle", "Pandas", "ETL Design & Optimization", "Data Quality, Testing & Pipeline Monitoring", "BMC TrueSight / TSCO", "CA APM / Introscope", "Dynatrace (AppMon + Synthetics)", "Prophet / Time-Series Forecasting", "scikit-learn"]
+    },
+    "project_or_practical_ai_evidence": {
+      "evidence": ["horizon", "pipeline", "lakehouse"],
+      "names": ["AWS", "PySpark", "Streamlit", "Apache Parquet / Columnar Storage", "GenAI / LLM Agents", "Claude Code", "Grok (xAI)", "Agentic AI Workflows", "MCP (Model Context Protocol)", "AI-Assisted Development"]
+    },
+    "historical_evidence": {
+      "evidence": ["sabre", "ca"],
+      "names": ["C++", "Oracle RAC", "Perl", "Ksh / Korn Shell Scripting"]
+    }
+  },
+  "unrated_skills": [
+    {"name": "AppDynamics", "evidence": "citi_operations"},
+    {"name": "JIRA", "evidence": "current_sources"},
+    {"name": "Microsoft SQL Server", "evidence": "current_sources"},
+    {"name": "Splunk", "evidence": "current_sources"},
+    {"name": "Power BI", "evidence": "current_powerbi"},
+    {"name": "Copilot", "evidence": "current_powerbi"},
+    {"name": "PowerShell", "evidence": "current_research"},
+    {"name": "RAG", "evidence": "pipeline_ai"},
+    {"name": "FAISS", "evidence": "pipeline_ai"}
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "86774a814c8eca1122068f5b6f5dfd139fc11996acc82140281b046900226eb6",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:42:38Z",
+  "indeed_jk": "0f1948c5910bd206",
+  "usage": {
+    "prompt_tokens": 3735,
+    "completion_tokens": 736,
+    "total_tokens": 4471,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00020828
+  },
+  "analysis": {
+    "company": "Fastly",
+    "title": "Senior DataCenter Provisioning Engineer",
+    "location": "Denver, CO (Remote)",
+    "score": 42,
+    "fit_rationale": "The candidate has strong infrastructure capacity planning, performance engineering, and Python automation skills, but the role is focused on hands-on data center provisioning (network devices, servers, BGP, CDN internals) which is not the candidate's core professional experience. The candidate's background is more in capacity forecasting, APM, and data engineering, with some AWS and Linux exposure, but lacks direct evidence of provisioning, routing, or CDN operations. The score reflects partial alignment on automation and infrastructure scale, but significant gaps in the core provisioning domain.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle",
+      "Strong capacity planning and forecasting (CITI, HorizonScale)",
+      "Experience with large-scale infrastructure (6,000+ endpoints, 200+ MySQL nodes)",
+      "Linux environment comfort and scripting (Bash, Python)",
+      "Automation and tooling experience (Git, Ansible, Chef mentioned in job; candidate has Git, Python, PowerShell)",
+      "AWS experience (S3, Glue, Athena) and cloud migration support"
+    ],
+    "gaps": [
+      "No direct experience with network device provisioning, BGP, or IP routing",
+      "No CDN or edge cloud platform experience",
+      "No hands-on server provisioning or rack/stack operations",
+      "Limited exposure to Ansible/Chef in production (not listed in profile)",
+      "No evidence of working with network operations or POP buildouts",
+      "Role requires deep TCP/IP and client/server dataflow understanding; candidate's background is more application/performance focused"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "provisioning",
+      "network devices",
+      "BGP",
+      "TCP/IP",
+      "CDN",
+      "Ansible",
+      "Chef",
+      "Linux",
+      "Python",
+      "Bash",
+      "Git",
+      "automation",
+      "data center",
+      "POP",
+      "infrastructure",
+      "troubleshooting"
+    ],
+    "tailoring_plan": [
+      "1. Highlight any Linux system administration and scripting experience (even if from personal projects or AWS work). 2. Emphasize Python automation for infrastructure tasks (e.g., ETL, telemetry, monitoring integration). 3. Frame capacity forecasting as a form of provisioning capacity planning. 4. Mention any experience with network monitoring or performance tools (Dynatrace, AppDynamics) as related to network health. 5. If possible, take a quick course or lab on BGP and basic routing to close the gap. 6. In the resume, list 'Ansible' and 'Chef' as familiar tools if any exposure exists (even fr"
+    ]
+  }
+}

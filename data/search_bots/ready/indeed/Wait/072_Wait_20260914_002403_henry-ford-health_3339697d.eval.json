@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "3339697d3b71b0d51b8a46a2546cf8ecc36a8e9e33ba8d35ed1f731565d4d474",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:24:03Z",
+  "indeed_jk": "8a21d422e08524dd",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 2760,
+    "completion_tokens": 676,
+    "total_tokens": 3436,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002949408
+  },
+  "analysis": {
+    "company": "Henry Ford Health",
+    "title": "Data Center Operations Analyst - IT",
+    "location": null,
+    "score": 72,
+    "fit_rationale": "The candidate has strong professional experience in capacity planning, performance engineering, and data analysis, which aligns well with the data center operations analyst role. Their expertise in Python, SQL, and automation supports the job's emphasis on process improvement, reporting, and SLA compliance. However, the role is more operations-focused with a preference for healthcare experience, ITIL, ServiceNow, and LRS/Print Services, which the candidate lacks. The candidate's background is more technical/engineering than business process analysis, but their analytical and problem-solving skills are transferable.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive experience in ETL, data analysis, and automation.",
+      "Proven capacity planning and forecasting skills, directly relevant to data center operations.",
+      "Experience with monitoring tools (Dynatrace, CA APM, BMC TrueSight) and data sources (Splunk, JIRA, SQL Server).",
+      "Strong problem-solving and process improvement mindset, evidenced by automation of reporting and data integration.",
+      "Ability to generate reports and manage SLAs/OLAs from prior capacity management roles."
+    ],
+    "gaps": [
+      "No explicit healthcare environment experience or HIPAA/EPIC familiarity.",
+      "No ITIL certification or ServiceNow experience mentioned.",
+      "No experience with LRS (Laser/Remote Services) or print services.",
+      "Role emphasizes business process analysis and coordination across organizations; candidate's background is more technical engineering.",
+      "Candidate's current role is capacity/performance specialist, not a data center operations analyst; may need to demonstrate operational focus."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Data Center Operations",
+      "SLA",
+      "OLA",
+      "process improvement",
+      "business solutions",
+      "reporting",
+      "documentation",
+      "ServiceNow",
+      "ITIL",
+      "HIPAA",
+      "EPIC",
+      "LRS",
+      "Print Services",
+      "MS Office",
+      "PMP"
+    ],
+    "tailoring_plan": [
+      "1. Update resume summary to emphasize data center operations, SLA/OLA compliance, and process improvement. 2. Add a 'Relevant Experience' section highlighting capacity planning, monitoring, and reporting automation. 3. Include keywords like 'SLA', 'OLA', 'process improvement', 'documentation' in bullet points. 4. If possible, mention any exposure to healthcare data or willingness to obtain ITIL certification. 5. Tailor cover letter to address the healthcare environment and express interest in learning HIPAA/EPIC. 6. Highlight experience with ServiceNow if any (not in profile, but if applicable"
+    ]
+  }
+}

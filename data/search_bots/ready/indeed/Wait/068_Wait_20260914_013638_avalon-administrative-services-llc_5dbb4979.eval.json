@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "5dbb49792cccc9b1311f67e33dae8ea75d646b2056cf546aea15eb86a9e0eeba",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:36:38Z",
+  "indeed_jk": "7e6710c6b0c32d39",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3038,
+    "completion_tokens": 671,
+    "total_tokens": 3709,
+    "reasoning_tokens": 0,
+    "actual_usd": 6.8236e-05
+  },
+  "analysis": {
+    "company": "Avalon Administrative Services LLC",
+    "title": "Data Analyst, Healthcare Analytics",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "The candidate has strong SQL, Python, ETL, data validation, and reporting automation skills, plus experience with large datasets and BI tools (Power BI, Tableau via similar platforms). However, the role is healthcare analytics focused, and the candidate's professional experience is in infrastructure capacity and performance engineering, not healthcare or financial analytics. The candidate's AI and automation skills are a plus, but the lack of direct healthcare domain experience and the emphasis on Tableau/Snowflake (candidate has Power BI, not Tableau, and Snowflake is foundational only) temper the score.",
+    "strengths": [
+      "Expert-level SQL and Python with extensive ETL design and data quality experience.",
+      "Proven ability to build automated reporting and dashboards (Power BI, Python, AI-assisted).",
+      "Strong data validation, reconciliation, and quality assurance practices from capacity and telemetry work.",
+      "Experience with large-scale data (6,000+ endpoints, 200+ MySQL nodes) and cloud-based analytics (AWS).",
+      "Practical AI and automation skills (LLM agents, RAG, AI-assisted development) that align with the role's AI-enabled analytics preference.",
+      "Strong communication and stakeholder collaboration from consulting and cross-functional roles."
+    ],
+    "gaps": [
+      "No direct healthcare analytics or payer/provider domain experience.",
+      "No professional experience with Tableau or Snowflake (Snowflake is foundational only).",
+      "Limited experience with financial forecasting, pricing, or underwriting analytics.",
+      "Professional background is infrastructure/performance engineering, not business intelligence or data analyst in a business context.",
+      "No evidence of developing dashboards for non-technical business stakeholders in a healthcare setting."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "Python",
+      "ETL",
+      "data analysis",
+      "data validation",
+      "reporting automation",
+      "Power BI",
+      "Tableau",
+      "Snowflake",
+      "AI-enabled analytics",
+      "large datasets",
+      "dashboards",
+      "data quality",
+      "forecasting",
+      "AWS"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize SQL and Python expertise in data extraction, transformation, and validation. 2. Highlight experience with large datasets and automated reporting pipelines. 3. Frame capacity forecasting as a form of business performance measurement. 4. Showcase AI-assisted analytics and natural language querying projects. 5. Address the healthcare gap by expressing willingness to learn and citing any personal or project work with healthcare data (if any). 6. If possible, gain familiarity with Tableau and Snowflake through quick online courses or projects to strengthen the application."
+    ]
+  }
+}

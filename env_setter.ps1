@@ -32,6 +32,26 @@ if (-not $venvPath) {
 # Activate venv
 & "$venvPath\Scripts\Activate.ps1"
 
+# Load repo .env into this PowerShell session without printing values.
+# Does not override variables already set in the session.
+$envFile = Join-Path $env:PROJECT_ROOT ".env"
+if (Test-Path -LiteralPath $envFile) {
+    Get-Content -LiteralPath $envFile | ForEach-Object {
+        $line = $_.Trim()
+        if (-not $line -or $line.StartsWith("#")) { return }
+        $eq = $line.IndexOf("=")
+        if ($eq -lt 1) { return }
+        $name = $line.Substring(0, $eq).Trim()
+        $value = $line.Substring($eq + 1).Trim()
+        if (($value.StartsWith('"') -and $value.EndsWith('"')) -or ($value.StartsWith("'") -and $value.EndsWith("'"))) {
+            $value = $value.Substring(1, $value.Length - 2)
+        }
+        if ($name -notmatch '^[A-Za-z_][A-Za-z0-9_]*$') { return }
+        if (-not [string]::IsNullOrEmpty([Environment]::GetEnvironmentVariable($name))) { return }
+        Set-Item -Path "Env:$name" -Value $value
+    }
+}
+
 # Keep imports repo-relative
 $env:PYTHONPATH = "$env:PROJECT_ROOT\src;$env:PYTHONPATH"
 

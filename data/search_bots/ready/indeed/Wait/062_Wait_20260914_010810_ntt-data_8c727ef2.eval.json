@@ -1,0 +1,68 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "8c727ef21ea081e3642fa6ac94c3804897ba6679d5fd18ecc7f4ae214faf3447",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:08:10Z",
+  "indeed_jk": "39812a56896f49e2",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3317,
+    "completion_tokens": 825,
+    "total_tokens": 4142,
+    "reasoning_tokens": 0,
+    "actual_usd": 8.0969e-05
+  },
+  "analysis": {
+    "company": "NTT DATA",
+    "title": "AI & Automation Consultant",
+    "location": "Los Angeles, CA",
+    "score": 62,
+    "fit_rationale": "The candidate has strong professional experience in capacity planning, performance engineering, and Python automation, with practical AI applications in current work (Copilot, AI-assisted reporting, research into LLM knowledge bases). However, the role requires 5+ years of consulting/enterprise architecture experience and 3+ years specifically in AI-powered enterprise search/knowledge management, which the candidate's professional history does not clearly demonstrate. The candidate's AI evidence is mostly practical/project-based, not enterprise consulting. The role also emphasizes stakeholder interviews, workshops, and strategic roadmaps, which are not prominent in the candidate's profile.",
+    "strengths": [
+      "Strong Python automation and ETL skills with production evidence (CITI, current role).",
+      "Practical AI experience: Copilot, AI-assisted reporting, RAG, agentic workflows (personal project).",
+      "Deep expertise in capacity planning, forecasting, and performance engineering (CITI, G6, CA).",
+      "Experience with enterprise tools: Dynatrace, BMC TrueSight, CA APM, Splunk, SQL Server.",
+      "Consulting background at CA Technologies (SME for CA APM) with client training.",
+      "Project evidence: AWS lakehouse with Text-to-SQL agent, AI job-search pipeline (personal)."
+    ],
+    "gaps": [
+      "No explicit professional experience in AI-powered enterprise search or knowledge management (required 3+ years).",
+      "No clear consulting or enterprise architecture experience in the last 5+ years (current role is capacity specialist, not consultant).",
+      "No evidence of conducting stakeholder interviews, workshops, or delivering strategic roadmaps.",
+      "No experience with Microsoft Copilot Studio, Claude, or Kilo (preferred).",
+      "No certifications in Azure, AI, Automation, or Enterprise Architecture.",
+      "Current AI work is practical/reporting-focused, not enterprise-wide AI solution assessment."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI",
+      "Automation",
+      "Consultant",
+      "Enterprise Search",
+      "Knowledge Management",
+      "Copilot",
+      "Generative AI",
+      "Process Improvement",
+      "Stakeholder Interviews",
+      "Roadmap",
+      "Python",
+      "ETL",
+      "Capacity Planning",
+      "Performance Engineering",
+      "APM",
+      "Dynatrace"
+    ],
+    "tailoring_plan": [
+      "Highlight current AI-assisted reporting and knowledge base research as evidence of AI-powered knowledge management, even though it's not production.",
+      "Emphasize CA Technologies consulting experience (sizing, monitoring design, client training) to demonstrate consulting skills.",
+      "Frame the AWS lakehouse project and AI job-search pipeline as examples of evaluating and recommending AI tools.",
+      "Quantify automation impact where possible (e.g., capacity report automation, ETL efficiency) to show operational efficiency gains.",
+      "Address the gap in enterprise search by mentioning familiarity with RAG and FAISS from personal projects.",
+      "Prepare to discuss how to conduct stakeholder interviews and workshops, using examples from past roles (e.g., gathering requirements for capacity tools)."
+    ]
+  }
+}

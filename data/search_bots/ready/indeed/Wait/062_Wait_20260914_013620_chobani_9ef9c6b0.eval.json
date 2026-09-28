@@ -1,0 +1,57 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "9ef9c6b0f7549773078bd4b979f50bc23008c263d76e26d177c3ee4d1839879c",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:36:20Z",
+  "indeed_jk": "5e3495d5d03c1f39",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3286,
+    "completion_tokens": 680,
+    "total_tokens": 3966,
+    "reasoning_tokens": 0,
+    "actual_usd": 7.8192e-05
+  },
+  "analysis": {
+    "company": "Chobani",
+    "title": "Analytics Engineer",
+    "location": "New York, NY, US (Remote)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong SQL, Python, ETL, and reporting automation experience, plus hands-on work with cloud data warehouses (Snowflake, BigQuery) and dbt in project/practical contexts. However, the professional experience is primarily in capacity/performance engineering and APM, not in business-facing analytics or BI development. The candidate lacks direct professional evidence of building dashboards for business stakeholders, partnering with supply chain/retail/commercial teams, or working in CPG/F&B. The dbt and Snowflake skills are foundational/project-level, not production-proven in a professional setting.",
+    "strengths": [
+      "Expert-level SQL and Python with 5+ years of professional use",
+      "Strong ETL design and data pipeline automation (Python/Pandas, Oracle, SQL Server)",
+      "Experience with cloud data warehouses (Snowflake, BigQuery) in project/practical contexts",
+      "Hands-on dbt experience in foundational/project settings",
+      "Proven ability to automate reporting and improve data quality",
+      "Experience with data visualization tools like Power BI (cataloging/migration)"
+    ],
+    "gaps": [
+      "No professional experience as an Analytics Engineer or BI Developer in a business-facing role",
+      "Lack of direct experience building reports/dashboards for business stakeholders (supply chain, retail, commercial finance)",
+      "No CPG or Food & Beverage industry experience",
+      "dbt and Snowflake are foundational/project-level, not production-proven in a professional environment",
+      "SAP experience is absent",
+      "Limited experience with business intelligence tools like Tableau or Looker (only Power BI cataloging)"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "Python",
+      "ETL",
+      "Snowflake",
+      "dbt",
+      "Data Modeling",
+      "Reporting Automation",
+      "Power BI",
+      "Data Quality",
+      "Cloud Data Warehouse"
+    ],
+    "tailoring_plan": [
+      "1. Emphasize SQL and Python expertise in resume summary and skills section. 2. Highlight any experience with Snowflake or BigQuery, even if from projects, and describe dbt usage in detail. 3. Reframe capacity reporting and automation as business-facing analytics deliverables. 4. Add a section on 'Business Intelligence & Reporting' showcasing Power BI cataloging and report automation. 5. If possible, obtain a certification or complete a small project in dbt/Snowflake to strengthen production credibility. 6. Tailor cover letter to mention interest in CPG/F&B and willingness to learn supply chain"
+    ]
+  }
+}

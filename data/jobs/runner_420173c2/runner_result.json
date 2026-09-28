@@ -1,0 +1,16 @@
+{
+  "state": "TIER0_CLEAR",
+  "folder": "D:\\Workarea\\jobsearch\\data\\jobs\\runner_420173c2",
+  "tier0_decision": "CLEAR",
+  "llm_decision": null,
+  "user_decision": null,
+  "resume": null,
+  "cover": null,
+  "cache": {},
+  "next_command": ".\\job-runner.ps1 'D:\\Workarea\\jobsearch\\intake\\smoke_test.md' -Mode triage",
+  "cost": {
+    "actual_usd": null,
+    "note": "Dollar usage is not collected; Cline usage is separate.",
+    "max_new_provider_requests": 0
+  }
+}

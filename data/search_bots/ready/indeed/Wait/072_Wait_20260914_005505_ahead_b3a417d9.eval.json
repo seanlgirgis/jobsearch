@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "b3a417d9fe85a6e4c562629c1c2ba8e901f8db90719d42fe19dfa5a73be44e69",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:55:05Z",
+  "indeed_jk": "97a3192e3b6eab15",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 4172,
+    "completion_tokens": 750,
+    "total_tokens": 4922,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003612968
+  },
+  "analysis": {
+    "company": "AHEAD",
+    "title": "Observability Project Manager",
+    "location": "Remote",
+    "score": 72,
+    "fit_rationale": "Strong technical foundation in observability and capacity management with hands-on Dynatrace, Splunk, and APM tools, plus deep experience in data-driven analysis and automation. However, the role is primarily a project management position requiring formal Agile/Waterfall project management expertise, client-facing delivery, and budget/resource management, which are not explicitly evidenced in the candidate's profile. The candidate's experience is more individual-contributor engineering than project management, though they have led technical initiatives and migrations.",
+    "strengths": [
+      "Expert-level Dynatrace (AppMon + Synthetics) and CA APM experience, directly relevant to observability.",
+      "Hands-on Splunk integration as a data source for capacity reporting, aligning with observability tooling.",
+      "Proven ability to manage complex technical projects (e.g., migration of shopping engine from 200+ MySQL nodes to Oracle RAC, AWS migration support).",
+      "Strong analytical and problem-solving skills with Python, SQL, and data forecasting, useful for project data analysis and resource planning.",
+      "Experience with client training and consulting (CA APM consulting), indicating some client-facing capability.",
+      "Familiarity with Agile/Scrum concepts through project work, though not formally certified."
+    ],
+    "gaps": [
+      "No explicit project management title or formal PMP/PMI-ACP certification.",
+      "Limited evidence of managing budgets, schedules, and vendor/subcontractor deliverables.",
+      "No demonstrated experience with Agile/Scrum coaching or leading Scrum ceremonies.",
+      "Lacks experience with project management software (e.g., MS Project, Jira for PM) and Salesforce/FinancialForce.",
+      "No direct experience with Tanium, Logic Monitor, Cribl, or Grafana, though Dynatrace and Splunk are covered.",
+      "Current role is more engineering-focused; project management responsibilities are not clearly evidenced."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Observability",
+      "Project Manager",
+      "Agile",
+      "Scrum",
+      "Waterfall",
+      "PMBOK",
+      "Dynatrace",
+      "Splunk",
+      "Grafana",
+      "Cribl",
+      "Tanium",
+      "Logic Monitor",
+      "Project Management",
+      "Budget Management",
+      "Resource Allocation",
+      "Client Management"
+    ],
+    "tailoring_plan": [
+      "1. Revise resume summary to highlight project coordination and delivery aspects of past roles, such as leading migrations or managing capacity projects. 2. Add a 'Project Management' section listing any relevant coursework, certifications (if any), or tools used (e.g., Jira for tracking). 3. Emphasize experience with Dynatrace and Splunk prominently, as they are core to the role. 4. Quantify any budget or resource management experience, even if informal. 5. Prepare to discuss Agile/Scrum knowledge and how you've applied it in team settings. 6. Consider obtaining a foundational PM certification"
+    ]
+  }
+}

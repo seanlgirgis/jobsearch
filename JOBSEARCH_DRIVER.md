@@ -1,3 +1,10 @@
+> **Current driver redirect — Prompt 04.** Follow [AGENTS.md](AGENTS.md), then
+> [docs/PIPELINE_OPERATOR.md](docs/PIPELINE_OPERATOR.md). Agent entry points are
+> [CLINE_JOBSEARCH_RUNNER.md](CLINE_JOBSEARCH_RUNNER.md) and
+> [CLINE_JOBSEARCH_REASONER.md](CLINE_JOBSEARCH_REASONER.md); technical details are
+> in [docs/PIPELINE_ARCHITECTURE.md](docs/PIPELINE_ARCHITECTURE.md).
+> All older instructions below are deprecated and preserved as history.
+
 # JobSearch Driver
 
 Single-page operator guide to run your job search pipeline end-to-end from this folder.

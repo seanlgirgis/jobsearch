@@ -1,0 +1,19 @@
+{
+  "id": "linkedin_jobs",
+  "name": "LinkedIn Jobs",
+  "home": "https://www.linkedin.com/jobs/",
+  "enabled": true,
+  "require_fresh_sor": true,
+  "term_packs": ["capacity_performance", "practical_ai", "part_time_remote"],
+  "capture": {
+    "job_url": true,
+    "hiring_person": true,
+    "salary_if_shown": true,
+    "title": true,
+    "company": true,
+    "location": true,
+    "expand_see_more": true,
+    "job_description": true
+  },
+  "notes": "Must expand See more before eval. Recruiter/hiring person optional."
+}

@@ -1,0 +1,90 @@
+{
+  "personal": {
+    "full_name": "Sean Girgis",
+    "preferred_title": "",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com"
+  },
+  "summary": "Infrastructure capacity and performance engineer with deep Python expertise and practical AI workflow automation. Experienced in large-scale telemetry ETL, forecasting, observability, and performance optimization across enterprise environments. Combines historical C++ optimization work with current AI-assisted reporting and agentic pipeline development. Focused on reproducible engineering workflows, data quality, and translating complex operational systems into maintainable, high-performance solutions.",
+  "experience": [
+    {
+      "company": "LTIMindtree",
+      "title": "Capacity & Performance Specialist",
+      "start_date": "",
+      "end_date": "Present",
+      "bullets": [
+        "Automated capacity-report preparation with AI and multiple data sources, improving standardization and report quality.",
+        "Used AI-assisted processes to integrate JIRA, Microsoft SQL Server and Splunk as automated capacity-data sources.",
+        "Used Copilot, AI and Python to organize, catalog and support migration of Power BI reports.",
+        "Researched an LLM-enabled team knowledge base and analyst command-center concept using Python and PowerShell; research/investigation, not production."
+      ]
+    },
+    {
+      "company": "CITI",
+      "title": "Senior Capacity & Data Engineer",
+      "start_date": "2017-11",
+      "end_date": "2025-12",
+      "bullets": [
+        "Built Python/Pandas ETL for P95 telemetry from 6,000+ endpoints, adding validation, cleansing, anomaly checks and Oracle history.",
+        "Developed Python and scikit-learn forecasting models to identify capacity risks 3-6 months ahead and support provisioning and rightsizing.",
+        "Managed enterprise capacity requests, monthly reporting and seasonal analysis with BMC TrueSight, CA APM and AppDynamics."
+      ]
+    },
+    {
+      "company": "G6 Hospitality LLC",
+      "title": "Performance Engineer",
+      "start_date": "2017-03",
+      "end_date": "2017-11",
+      "bullets": [
+        "Managed Dynatrace AppMon/Synthetics, analyzed performance bottlenecks and supported an AWS migration."
+      ]
+    },
+    {
+      "company": "CA Technologies",
+      "title": "SME for CA APM (Senior Consultant)",
+      "start_date": "2011",
+      "end_date": "2016",
+      "bullets": [
+        "Delivered CA APM consulting for estates of roughly 4,000-6,000 agents and 50+ Enterprise Managers, including sizing, monitoring design and client training."
+      ]
+    },
+    {
+      "company": "Sabre",
+      "title": "Senior Systems & Data Migration Engineer",
+      "start_date": "2008-05",
+      "end_date": "2010",
+      "bullets": [
+        "Migrated a shopping engine from 200+ MySQL nodes to six-node Oracle RAC, optimizing C++/OCCI processing with approximately 95% less hardware and sub-second latency."
+      ]
+    }
+  ],
+  "skills": {
+    "Professional experience": "Python, SQL / Oracle, Pandas, ETL Design & Optimization, Capacity Planning / Forecasting, CA APM / Introscope, Dynatrace (AppMon + Synthetics), BMC TrueSight / TSCO, Prophet / Time-Series Forecasting, scikit-learn, Data Quality, Testing & Pipeline Monitoring",
+    "Historical experience": "C++, Oracle RAC",
+    "Projects and practical AI": "AWS, PySpark, Streamlit, Apache Parquet / Columnar Storage, AI-Assisted Development"
+  },
+  "projects": [
+    {
+      "name": "AI-Powered Job Search Pipeline (project)",
+      "description": "Built a Python agentic job-search pipeline using FAISS retrieval, LLM scoring and tailoring, document generation, quality gates, MCP and application tracking.",
+      "technologies": []
+    },
+    {
+      "name": "Serverless Lakehouse Platform (AWS) (project)",
+      "description": "Designed an AWS S3/Glue/Athena/Bedrock lakehouse project with a Text-to-SQL agent and Parquet/Snappy storage optimization.",
+      "technologies": []
+    }
+  ],
+  "education": [
+    {
+      "degree": "High Diploma / Post-Graduate Diploma in Computer Engineering Technology / Computer Science",
+      "institution": "Humber College",
+      "dates": ""
+    },
+    {
+      "degree": "Bachelor of Science in Civil Engineering",
+      "institution": "Zagazig University",
+      "dates": ""
+    }
+  ]
+}

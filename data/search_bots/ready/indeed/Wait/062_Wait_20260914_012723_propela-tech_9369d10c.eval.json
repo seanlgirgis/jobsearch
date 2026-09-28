@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "9369d10c9f487f3dfe72f164b39f8d56fd1aa02abd535d552b920b0f7c3eaff0",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:27:23Z",
+  "indeed_jk": "9126b483c3b7c791",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2900,
+    "completion_tokens": 684,
+    "total_tokens": 3584,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00031162
+  },
+  "analysis": {
+    "company": "Propela Tech",
+    "title": "Forward Deployed Engineer/ Team Lead - Consulting Experience Required",
+    "location": "Remote, United States",
+    "score": 62,
+    "fit_rationale": "The candidate has strong full-stack and data engineering experience, including Python, SQL, AWS, and team leadership, but lacks direct healthcare domain experience and formal consulting experience in client-facing roles. The role requires 7+ years of development, 3+ years of team lead, 4 years of consulting, and 5 years of customer-facing experience; the candidate's background is more in infrastructure and capacity engineering with some consulting exposure at CA Technologies. The candidate's recent work includes AI-assisted automation and Power BI, which aligns with the role's need for custom software and integrations, but the lack of EHR/claims experience and limited direct client-facing consulting may reduce fit.",
+    "strengths": [
+      "Strong Python and SQL skills, with extensive experience in ETL, data processing, and automation.",
+      "Experience leading and mentoring teams, including managing distributed teams (e.g., at Sabre, CA Technologies).",
+      "AWS experience, including lakehouse design and migration support.",
+      "Customer-facing consulting experience at CA Technologies, including sizing, monitoring design, and client training.",
+      "Proven ability to own delivery end-to-end, from discovery to production, as seen in capacity forecasting and migration projects.",
+      "Familiarity with modern frontend technologies like React (though not explicitly listed, the candidate has used Python and web frameworks)."
+    ],
+    "gaps": [
+      "No direct healthcare domain experience (EHR, revenue cycle, claims data).",
+      "Limited formal consulting experience; the CA Technologies role was consulting but may not match the 4-year requirement.",
+      "Customer-facing experience is present but may not be as extensive as the 5-year requirement.",
+      "Lacks experience with specific healthcare data standards (HL7, FHIR, X12/EDI).",
+      "No explicit experience with Node.js, though Python is strong.",
+      "No evidence of managing offshore teams specifically, though distributed team experience exists."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "Node.js",
+      "React",
+      "SQL Server",
+      "MySQL",
+      "AWS",
+      "EHR",
+      "HL7",
+      "FHIR",
+      "X12",
+      "consulting",
+      "team lead",
+      "full stack",
+      "integrations",
+      "client-facing"
+    ],
+    "tailoring_plan": [
+      "Highlight the CA Technologies consulting experience, emphasizing client training and on-site work. Emphasize the AWS lakehouse project and Python automation as evidence of full-stack and integration skills. Address the healthcare gap by noting any relevant coursework or personal interest, and express willingness to learn EHR/claims systems. Tailor the resume to emphasize leadership of distributed teams and end-to-end delivery ownership."
+    ]
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "f905d91a5bc6f16c4a63fa23e393eb9be3b56444309c3d7ae1533b271d87b566",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:42:44Z",
+  "indeed_jk": "fa153d9c77be6660",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3272,
+    "completion_tokens": 776,
+    "total_tokens": 4048,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000534576
+  },
+  "analysis": {
+    "company": "Bright Vision Technologies",
+    "title": "Cloud Solutions Architect",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong infrastructure, capacity planning, performance engineering, and Python automation experience, with some AWS project exposure and practical AI skills. However, the role demands deep cloud-native architecture expertise, formal architecture artifacts, stakeholder management, and 13+ years of experience, which the candidate's profile only partially covers. The candidate's cloud experience is project-based (AWS lakehouse) and foundational (Azure), not professional production architecture. The candidate's current role is capacity/performance specialist, not architect. The score reflects a moderate fit with clear gaps in formal architecture leadership and cloud-native design depth.",
+    "strengths": [
+      "Expert-level Python, SQL, and ETL design from professional roles",
+      "Deep capacity planning and forecasting expertise (CITI, HorizonScale)",
+      "Performance engineering and APM experience (Dynatrace, CA APM)",
+      "AWS project experience (lakehouse with S3/Glue/Athena/Bedrock)",
+      "Practical AI and automation skills (LLM agents, RAG, MCP)",
+      "Strong data engineering and pipeline monitoring background"
+    ],
+    "gaps": [
+      "No professional cloud architecture role or formal architecture artifacts",
+      "Cloud expertise is project-based (AWS) and foundational (Azure), not deep production architecture",
+      "Lacks cloud architecture certification (AWS, Azure, or GCP)",
+      "No experience with cloud migration, modernization, or platform consolidation programs",
+      "Limited stakeholder management and architecture review leadership evidence",
+      "No multi-cloud or hybrid cloud experience"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Cloud Solutions Architect",
+      "cloud-native",
+      "AWS",
+      "Azure",
+      "GCP",
+      "containerization",
+      "serverless",
+      "managed data services",
+      "cloud networking",
+      "identity",
+      "security",
+      "cloud migration",
+      "modernization",
+      "platform consolidation",
+      "architecture artifacts",
+      "stakeholder management"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite resume summary to emphasize cloud architecture interest and relevant AWS project experience. 2. Add a 'Cloud Architecture Projects' section detailing the AWS lakehouse design, including S3, Glue, Athena, and Bedrock, and highlight architectural decisions (e.g., Parquet/Snappy optimization). 3. Emphasize any experience with containerization or serverless (if any) from projects or coursework; otherwise, consider upskilling. 4. Highlight Python automation and data pipeline skills as transferable to cloud architecture. 5. In the cover letter, address the gap in formal architecture roles"
+    ]
+  }
+}

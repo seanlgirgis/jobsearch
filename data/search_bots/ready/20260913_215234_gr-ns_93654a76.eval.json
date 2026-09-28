@@ -1,0 +1,58 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "93654a76ad3bb85c71ad4a335a3400c928f7f7784d281d063df180992a876cad",
+  "site": "indeed",
+  "captured_at": "2026-09-13T21:52:34Z",
+  "indeed_jk": "6183b057b30ff1f5",
+  "usage": {
+    "prompt_tokens": 3747,
+    "completion_tokens": 604,
+    "total_tokens": 4351,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0001956768
+  },
+  "analysis": {
+    "company": "Grüns",
+    "title": "BizOps Manager, Supply Chain",
+    "location": "Austin, TX • Remote",
+    "score": 68,
+    "fit_rationale": "The candidate has strong analytical and technical skills, including Python, SQL, forecasting, and data visualization, which align with the job's core requirements. However, the role is focused on supply chain and business operations, while the candidate's experience is primarily in infrastructure capacity and performance engineering. There is a gap in direct supply chain domain knowledge and S&OP experience, though the candidate's forecasting and data engineering skills are transferable.",
+    "strengths": [
+      "Expert-level Python and SQL, with experience building ETL pipelines and forecasting models.",
+      "Proven ability to develop capacity forecasts and identify risks 3-6 months ahead, similar to supply chain demand forecasting.",
+      "Experience with data visualization and reporting automation (Power BI, Python, AI-assisted).",
+      "Strong analytical and problem-solving skills, with a track record of owning problems end-to-end.",
+      "Experience with cloud platforms (AWS) and statistical modeling (scikit-learn, Prophet)."
+    ],
+    "gaps": [
+      "No direct supply chain or S&OP experience.",
+      "Lack of experience with inventory management, COGS analysis, or gross margin optimization.",
+      "Limited experience with executive-level business reviews and OKR alignment.",
+      "No demonstrated experience with Google Sheets/Slides or Excel/PPT at the level required.",
+      "Domain focus is infrastructure/IT, not consumer goods or e-commerce."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "supply chain",
+      "S&OP",
+      "forecasting",
+      "data analytics",
+      "SQL",
+      "Python",
+      "Excel",
+      "PowerPoint",
+      "KPI dashboards",
+      "business reviews",
+      "gross margin",
+      "inventory efficiency",
+      "financial modeling",
+      "stakeholder management",
+      "startup"
+    ],
+    "tailoring_plan": [
+      "To improve fit, the candidate should: 1) Highlight transferable skills in forecasting and data modeling, emphasizing how they can apply to supply chain. 2) Acquire foundational knowledge of supply chain concepts (e.g., COGS, inventory turnover, S&OP) through online courses or certifications. 3) Tailor resume to emphasize experience with business metrics and executive reporting, even if from a different domain. 4) Prepare to discuss how they would build supply chain models and dashboards from scratch, using their technical expertise."
+    ]
+  }
+}

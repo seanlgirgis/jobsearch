@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "8d6fc7e06bdada354282d2af8eae6ceb2906a02f9a402704c6fee490eac59dbe",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:50:50Z",
+  "indeed_jk": "e82fa3edd810f0ba",
+  "category": "Apply",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3665,
+    "completion_tokens": 639,
+    "total_tokens": 4304,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00045421334
+  },
+  "analysis": {
+    "company": "Intrado Life & Safety, Inc.",
+    "title": "Application Administrator",
+    "location": "Remote",
+    "score": 85,
+    "fit_rationale": "The candidate's expertise in monitoring, capacity planning, performance engineering, and Python automation aligns strongly with the application administrator role's focus on maintaining platform health, troubleshooting, and automation. Their experience with Splunk, SQL, data integration, and high-availability environments supports the core responsibilities. Gaps exist around SIP/SBC specifics and direct emergency communications domain experience, but the candidate's transferable skills in observability, incident response, and Python/PowerShell automation compensate.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive use in production ETL and forecasting (CITI, Sabre).",
+      "Deep experience with monitoring and observability tools including Dynatrace, AppDynamics, CA APM, and Splunk.",
+      "Strong track record in high-availability operational environments (24/7 capacity and performance management at CITI).",
+      "Proven ability to automate operational tasks using Python and PowerShell (current role, personal projects).",
+      "Experience with AWS, cloud environments, and migration projects (G6, lakehouse project)."
+    ],
+    "gaps": [
+      "No demonstrated experience with SIP, SBC, or telephony protocols.",
+      "No explicit experience with Java application servers (Payara, GlassFish, JBoss) or F5 BIG-IP.",
+      "No direct public safety or emergency communications domain experience, though high-availability experience in financial services is comparable.",
+      "On-call rotation and weekend availability are not explicitly addressed in the profile."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Application Administrator",
+      "Public Safety",
+      "Emergency Routing",
+      "SIP",
+      "SBC",
+      "Linux",
+      "Windows",
+      "SQL",
+      "Monitoring",
+      "Splunk",
+      "Incident Management",
+      "On-call",
+      "Automation",
+      "Python",
+      "PowerShell",
+      "High Availability"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite the professional summary to emphasize 24/7 operational support and mission-critical platform reliability. 2. Add a 'Technical Skills' section listing Splunk, Python, SQL, AWS, and Linux/Windows administration. 3. In experience bullets, use action verbs like 'monitored', 'automated', 'responded to incidents' and quantify uptime or ticket resolution where possible. 4. Mention familiarity with incident management processes (ITIL) and root cause analysis. 5. Include a note in the cover letter about willingness to learn SIP/SBC and telephony concepts, drawing from experience with Oracle "
+    ]
+  }
+}

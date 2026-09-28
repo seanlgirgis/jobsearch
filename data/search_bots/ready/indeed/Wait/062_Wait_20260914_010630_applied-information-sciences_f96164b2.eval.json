@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "f96164b2a19ff2521cac2af813de8847a48220a12ae1f393b42aed124bbdcdf0",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:06:30Z",
+  "indeed_jk": "692e256185773bfd",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3522,
+    "completion_tokens": 762,
+    "total_tokens": 4284,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003577728
+  },
+  "analysis": {
+    "company": "Applied Information Sciences",
+    "title": "Integration and Automation Engineer",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong backend engineering, Python automation, ETL, and data integration experience, which aligns with the core integration and automation responsibilities. However, the role specifically requires Azure Functions, Logic Apps, and Power Platform custom connectors, which are not evidenced in the candidate's professional history. The candidate's Azure experience is foundational or project-based, not production-level. The candidate's background in capacity planning, performance engineering, and observability is relevant to the monitoring and troubleshooting aspects but not the primary integration focus.",
+    "strengths": [
+      "Expert-level Python and ETL design, with extensive experience building data pipelines and integrations (e.g., Python/Pandas ETL for telemetry).",
+      "Strong backend engineering and data migration experience, including large-scale system migrations (e.g., MySQL to Oracle RAC).",
+      "Experience with APIs, JSON, and secure authentication patterns from building integrations and data pipelines.",
+      "Solid understanding of observability, monitoring, and production troubleshooting from performance engineering roles.",
+      "Experience with Azure data platform foundations and AWS lakehouse projects, indicating cloud familiarity."
+    ],
+    "gaps": [
+      "No professional evidence of Azure Functions, Logic Apps, or Power Platform custom connector development.",
+      "No demonstrated experience with flat-file generation, validation, partitioning, or B2B/external-partner integration.",
+      "No experience with Azure Government or federal customer environments.",
+      "No evidence of refactoring legacy Java applications; Java is not listed in the candidate's skill tiers.",
+      "The candidate's Azure experience is foundational or project-based, not production-level, which may not meet the 'hands-on' requirement."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Azure Functions",
+      "Logic Apps",
+      "Power Platform",
+      "custom connectors",
+      "API integration",
+      "flat-file processing",
+      "secure authentication",
+      "Python",
+      "ETL",
+      "automation",
+      "monitoring",
+      "troubleshooting",
+      "data transformations",
+      "error handling",
+      "observability"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite the professional summary to emphasize integration and automation experience, using keywords like 'API integration', 'ETL pipelines', 'automation', and 'secure data exchange'. 2. In the experience section, highlight any projects that involved connecting systems, building APIs, or automating data flows. For example, the Python/Pandas ETL and the AWS lakehouse project can be framed as integration work. 3. Add a 'Technical Skills' section that lists Azure Functions, Logic Apps, and Power Platform as 'familiar' or 'foundational' if the candidate has any exposure, but be honest about the "
+    ]
+  }
+}

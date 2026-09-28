@@ -1,0 +1,108 @@
+{
+  "version": 1,
+  "input_sha256": "1782db44846983065eeffe5273c5ecac50b03aee3a0ae032150323ea636dfa6a",
+  "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+  "renderer_sha256": "8bced039dd9b339172b8090f8b157aff112f0132b9ecd0777df306879b70d3c7",
+  "provenance": {
+    "tier1": {
+      "key": "44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6",
+      "result": "HIT",
+      "identity": {
+        "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+        "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+        "prompt_version": "canonical-v4-package-json",
+        "model_profile": "economy",
+        "pipeline_stage": "analysis",
+        "model_settings": {
+          "description": "Tier 1 fit analysis; configure a low-cost model supporting strict JSON schema.",
+          "primary": {
+            "provider": "openrouter",
+            "model": "deepseek/deepseek-v4-flash-0731",
+            "supports_json_schema": true,
+            "supports_temperature": true,
+            "token_parameter": null
+          },
+          "fallbacks": [],
+          "temperature": 0.1,
+          "max_output_tokens": 4000,
+          "reasoning_effort": null,
+          "structured_output": "required",
+          "allow_artifacts": false
+        },
+        "schema_sha256": "2d39e7fcf01313f001692c82c0b944535fd1f55f1bf191b3905c8eb8f0b63a6c",
+        "request_sha256": "3cf45702eb07b963637ec9069e2eb4f46e1b648dd73135fa90b65fa42873c854"
+      },
+      "model_used": {
+        "profile": "economy",
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-flash-0731"
+      },
+      "usage": {
+        "prompt_tokens": 2859,
+        "completion_tokens": 3178,
+        "total_tokens": 6037,
+        "reasoning_tokens": 2555,
+        "actual_usd": 0.00036643776
+      }
+    },
+    "tier2": {
+      "key": "1e6f1961ee40fda002ebcbe34ace00f33c9838532e73c351054ad4a3b54bb110",
+      "result": "MISS",
+      "identity": {
+        "job_hash": "b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d",
+        "runtime_profile_hash": "30aa0c158f287fee9ac921fffb7f296dd45a59596bc80876d362b6e3ec4e5b6a",
+        "prompt_version": "canonical-v4-package-json",
+        "model_profile": "quality",
+        "pipeline_stage": "generation",
+        "model_settings": {
+          "description": "Accepted-job resume and cover package; configure a stronger model.",
+          "primary": {
+            "provider": "openrouter",
+            "model": "deepseek/deepseek-v4-pro-0813",
+            "supports_json_schema": true,
+            "supports_temperature": true,
+            "token_parameter": null
+          },
+          "fallbacks": [],
+          "temperature": 0.2,
+          "max_output_tokens": 16000,
+          "reasoning_effort": "none",
+          "structured_output": "optional",
+          "allow_artifacts": true
+        },
+        "schema_sha256": "1c93fd69f6d320a3839b1b4aeae3dfabf200dac399d0f1cf9848901b9bc85aa7",
+        "request_sha256": "ef92691c38bfdd044340500827c25c836985d8b09aa5cded8f1b82eca767accb",
+        "analysis_sha256": "f8261e9d14cd4888e47e9854f988eb99719bd92ffdd57da599222aedddea2b34",
+        "cover_requested": true
+      },
+      "model_used": {
+        "profile": "quality",
+        "provider": "openrouter",
+        "model": "deepseek/deepseek-v4-pro-0813"
+      },
+      "usage": {
+        "prompt_tokens": 3531,
+        "completion_tokens": 895,
+        "total_tokens": 4426,
+        "reasoning_tokens": 0,
+        "actual_usd": 0.00547008
+      }
+    }
+  },
+  "quality": {
+    "passed": true,
+    "issues": [],
+    "type": "local_structural_and_content",
+    "visual_review_required": true,
+    "note": "Open the DOCX and review every page before submitting; no visual verification is claimed."
+  },
+  "files": {
+    "cover.docx": "a64c4a6c152e8781fc646c0e95188ec3e7eff9ac4a8a73f090d65db8eb2ae7a2",
+    "cover_intermediate_v1.json": "925ed81ce384b0cc19db173cd9c6f9129be2850f0a42f11570ef6b4261113794",
+    "cover_preview_v1.md": "e0e0e2d3cad3acc55e593f4dabdad51c4ef51c8e2b091de4d505868d0d5b01d6",
+    "quality_report.json": "235f893b21ed669e90b177b1c7e3a67a902f6e2f1fd6816d7fa4decdca74ef3c",
+    "resume.docx": "8aa96bcf0b9917af09e8248fdc0486000eb72520845610041c9a4a19d57d6182",
+    "resume_intermediate_v1.json": "02a3410fb3e2c2848fa1f27ac3b2f0560d028440acc4c8fc6ebb5fe0cfe53e8c",
+    "resume_preview_v1.md": "7e6417dc85c83ea8152bfb41084a654b0c5076be8326d95bda566736501a29ba"
+  }
+}

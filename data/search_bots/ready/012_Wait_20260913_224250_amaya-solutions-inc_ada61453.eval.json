@@ -1,0 +1,51 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "ada6145394ca8ea14be490973a0c2a622bb7f022e5d77c7283f3a4e0615664fa",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:42:50Z",
+  "indeed_jk": "961562f41aafc01f",
+  "usage": {
+    "prompt_tokens": 3403,
+    "completion_tokens": 432,
+    "total_tokens": 3835,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002700025
+  },
+  "analysis": {
+    "company": "Amaya Solutions, Inc.",
+    "title": "Technical Sales and Applications-Membrane Treatment- Northeast",
+    "location": "Remote",
+    "score": 12,
+    "fit_rationale": "The candidate has no membrane treatment, water/wastewater, or technical sales experience. Their background is in IT capacity planning, performance engineering, and data automation. The job explicitly requires 5+ years of membrane industry experience and states that those without advanced water processing experience should not apply. The candidate's skills in Python, data analysis, and AI are not relevant to this role.",
+    "strengths": [
+      "Strong analytical and problem-solving skills from capacity forecasting and data engineering.",
+      "Experience with data-driven reporting and automation could support technical documentation or CRM data analysis.",
+      "Proven ability to manage complex technical projects and communicate with technical audiences."
+    ],
+    "gaps": [
+      "No membrane treatment, reverse osmosis, nanofiltration, or hollow fiber filtration experience.",
+      "No water/wastewater industry background.",
+      "No sales, business development, or customer relationship management experience.",
+      "No consultative selling or distributor management experience.",
+      "No experience with membrane fouling, scaling, or chemical treatment."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "membrane treatment",
+      "reverse osmosis",
+      "nanofiltration",
+      "hollow fiber filtration",
+      "technical sales",
+      "water treatment",
+      "membrane fouling",
+      "scaling",
+      "consultative selling",
+      "distributor management"
+    ],
+    "tailoring_plan": [
+      "No tailoring plan is applicable because the candidate does not meet the minimum qualifications. If the candidate were to pivot, they would need to acquire membrane industry knowledge and sales training, but that is beyond the scope of this job application."
+    ]
+  }
+}

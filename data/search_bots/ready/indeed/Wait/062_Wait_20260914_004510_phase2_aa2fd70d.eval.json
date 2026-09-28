@@ -1,0 +1,56 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "aa2fd70dbcb7b041c64a79fd7689a84d4063adaeeb0db671cd8e906a37753b70",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:45:10Z",
+  "indeed_jk": "b4615a3dac77a3f5",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 4294,
+    "completion_tokens": 530,
+    "total_tokens": 4824,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003386206
+  },
+  "analysis": {
+    "company": "Phase2",
+    "title": "Lead AI Quality Engineer",
+    "location": "Remote (United States)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong hands-on experience in performance engineering, data quality, and Python automation, with practical AI projects (agentic pipeline, lakehouse, LLM research). However, the role demands deep QA leadership, AI-specific testing (LLM evaluation, hallucination, bias), and client-facing consulting in a digital agency context. The candidate's QA experience is indirect (data quality, performance testing) and lacks formal QA leadership or AI testing expertise.",
+    "strengths": [
+      "Strong Python and automation skills, including ETL and data quality validation.",
+      "Practical AI experience: built agentic job-search pipeline, lakehouse with Text-to-SQL agent, LLM research.",
+      "Experience with performance testing and monitoring (Dynatrace, CA APM) which overlaps with QA concepts.",
+      "Consulting background at CA Technologies, delivering client training and monitoring design.",
+      "Data quality and pipeline monitoring expertise, relevant to QA frameworks."
+    ],
+    "gaps": [
+      "No formal QA title or dedicated QA leadership experience.",
+      "No demonstrated experience testing AI/ML features (LLM hallucination, bias, output evaluation).",
+      "No experience with agentic AI for test generation or AI-powered testing tools.",
+      "No accessibility (WCAG) experience mentioned.",
+      "No agency or professional services environment experience (though consulting at CA is close).",
+      "No direct management/mentoring of QA team members."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "QA strategy",
+      "AI testing",
+      "LLM evaluation",
+      "agentic AI",
+      "test automation",
+      "Python",
+      "data quality",
+      "performance testing",
+      "client consulting",
+      "mentoring"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize QA-related aspects: data quality validation, performance testing, and automation frameworks. Highlight practical AI projects as evidence of AI-native mindset. Add a summary that positions as a quality-minded engineer with AI experimentation. In cover letter, address gaps by expressing eagerness to learn AI testing and lead QA practice. Emphasize consulting experience and ability to communicate with stakeholders."
+    ]
+  }
+}

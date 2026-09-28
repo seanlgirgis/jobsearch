@@ -1,0 +1,59 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "3011350a9a64572719b21ede8dd67046bcc2b35d975b96af7b3c7571516f56ac",
+  "site": "indeed",
+  "captured_at": "2026-09-13T21:52:51Z",
+  "indeed_jk": "0217a6fac71ad640",
+  "usage": {
+    "prompt_tokens": 3754,
+    "completion_tokens": 802,
+    "total_tokens": 4556,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00021432
+  },
+  "analysis": {
+    "company": "Blueprint Technologies",
+    "title": "Supply Planning & Analytics Program Manager",
+    "location": "Bellevue, WA (Remote)",
+    "score": 72,
+    "fit_rationale": "The candidate has strong analytical, data validation, and reporting automation skills, with deep experience in capacity planning, forecasting, and Python/SQL. They have used Power BI and AI tools for reporting and data integration, which aligns with the job's core requirements. However, the role is specifically in supply chain planning for network hardware, which is a domain the candidate has not directly worked in. The candidate's experience is more in IT capacity and performance engineering, which is adjacent but not identical. The candidate also lacks explicit experience with supply chain processes, component planning, or network hardware. The compensation range is within the candidate's likely expectations.",
+    "strengths": [
+      "Expert-level Python and SQL, with extensive ETL and data validation experience (e.g., building Python/Pandas ETL for telemetry data).",
+      "Strong capacity planning and forecasting background, including building forecasting models to identify risks months ahead.",
+      "Experience with Power BI, including using AI (Copilot) to organize and migrate reports.",
+      "Proven ability to automate reporting and data integration using AI and multiple data sources (JIRA, SQL Server, Splunk).",
+      "Strong analytical and problem-solving skills, with a track record of identifying data discrepancies and implementing corrective actions.",
+      "Experience with scenario planning and 'what-if' analysis through forecasting projects."
+    ],
+    "gaps": [
+      "No direct experience in supply chain planning, demand/supply analysis, or network hardware.",
+      "Lack of experience with supply chain-specific tools or processes (e.g., component planning, sourcing, execution).",
+      "No experience with Kusto or similar large-scale data-query platforms (though SQL is strong).",
+      "The role requires 2-4 years of experience using AI-enabled analytics tools for data validation and reporting; the candidate has used AI for reporting but not specifically for supply chain.",
+      "The role requires availability to work Pacific Time hours; the candidate is in Texas (Central Time), which may be a consideration."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "supply planning",
+      "demand analysis",
+      "data validation",
+      "Power BI",
+      "SQL",
+      "Python",
+      "AI-enabled analytics",
+      "reporting automation",
+      "scenario planning",
+      "what-if analysis",
+      "network hardware",
+      "cloud infrastructure",
+      "supply chain",
+      "Kusto",
+      "continuous improvement"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite your professional summary to emphasize your analytical and data validation skills, and position your capacity planning experience as a form of supply/demand analysis. 2. In your experience bullets, use supply chain terminology where applicable (e.g., 'demand forecasting' instead of 'capacity forecasting', 'supply supportability' instead of 'capacity risk'). 3. Highlight your Power BI and AI automation experience, specifically mentioning how you used AI to automate data validation and reporting. 4. Add a section on 'Relevant Projects' that includes your forecasting and lakehouse proj"
+    ]
+  }
+}

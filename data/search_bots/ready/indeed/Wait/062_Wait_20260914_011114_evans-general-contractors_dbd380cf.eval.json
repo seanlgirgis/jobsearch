@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "dbd380cfdc7bbb07fa11c178ab4d30118dc5aa770a9cf3e79dfd692f3bffea59",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:11:14Z",
+  "indeed_jk": "3c1d07da6179c87a",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3426,
+    "completion_tokens": 625,
+    "total_tokens": 4051,
+    "reasoning_tokens": 0,
+    "actual_usd": 6.7732e-05
+  },
+  "analysis": {
+    "company": "Evans General Contractors",
+    "title": "Junior Business Automation Engineer",
+    "location": "Alpharetta, GA",
+    "score": 62,
+    "fit_rationale": "The candidate has strong analytical, automation, and data engineering skills, with practical AI experience (Copilot, LLM agents) and Python automation. However, the role is junior-level and focused on Microsoft Power Platform (Power Apps, Power Automate, Dataverse, Copilot Studio), which the candidate has only peripheral exposure to (Power BI, Copilot). The candidate's professional experience is senior-level in capacity/performance engineering, which may be overqualified for a junior role, but the automation and AI skills are relevant. The candidate's background in process improvement and workflow automation is strong, but the specific low-code platform skills are a gap.",
+    "strengths": [
+      "Strong Python automation and ETL experience (Pandas, SQL, data pipelines).",
+      "Practical AI experience: used Copilot, LLM agents, and AI-assisted development.",
+      "Experience with process improvement and workflow automation (capacity reporting, data integration).",
+      "Familiarity with Microsoft 365 ecosystem (Power BI, Copilot, SharePoint, Teams).",
+      "Strong analytical and problem-solving skills demonstrated in capacity forecasting and performance engineering."
+    ],
+    "gaps": [
+      "No direct experience with Power Apps, Power Automate, or Dataverse.",
+      "No experience with Copilot Studio specifically.",
+      "Limited exposure to low-code development platforms.",
+      "Candidate's professional level is senior (capacity/performance engineer), which may exceed the junior scope.",
+      "No formal experience in business process mapping or workflow diagrams (though likely transferable)."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Power Apps",
+      "Power Automate",
+      "Dataverse",
+      "Copilot Studio",
+      "Microsoft Power Platform",
+      "business automation",
+      "process improvement",
+      "workflow automation",
+      "API integrations",
+      "Python",
+      "SQL",
+      "AI",
+      "Copilot",
+      "Power BI",
+      "SharePoint",
+      "Teams"
+    ],
+    "tailoring_plan": [
+      "1. Highlight experience with Copilot and AI-assisted workflows to align with Copilot Studio. 2. Emphasize Python automation and ETL as evidence of strong technical logic and workflow understanding. 3. Frame capacity reporting automation as business process automation. 4. Mention familiarity with Power BI and Microsoft 365 tools. 5. Address the junior level by expressing interest in growth and learning low-code platforms. 6. Prepare to discuss how to translate existing automation skills to Power Platform."
+    ]
+  }
+}

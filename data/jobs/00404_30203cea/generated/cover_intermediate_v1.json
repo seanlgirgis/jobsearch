@@ -1,0 +1,19 @@
+{
+  "header": {
+    "name": "Sean Luka Girgis",
+    "address": "Murphy, TX (Plano area)",
+    "phone": "214-315-2190",
+    "email": "seanlgirgis@gmail.com",
+    "date": "September 12, 2026",
+    "employer_address": ""
+  },
+  "salutation": "Dear Hiring Manager,",
+  "intro": "I am applying for the Data Engineer position at System One. The role's emphasis on ETL specifications, upfront testing, and validation aligns with my experience delivering reliable data pipelines in regulated environments.",
+  "body": [
+    "At CITI, I architected automated ETL/ELT pipelines using Python, Pandas, and SQL that ingested P95 telemetry from 6,000+ endpoints, replacing legacy manual processes and improving delivery reliability while supporting performance optimization and debugging.",
+    "I designed and optimized reporting-ready data models for historical retention and trend analysis, enabling seasonal risk forecasting and executive decision support through unified Oracle reporting and data movement specifications.",
+    "From 2011 to 2016 at CA Technologies/TIAA-CREF, I led large-scale CA APM implementations managing 4,000\u20136,000 agents, provided client training, and collaborated with technical teams on sizing, alerts, and deployment validation."
+  ],
+  "conclusion": "These experiences demonstrate consistent delivery of ETL processes, testing, and documentation in finance and enterprise settings. I am available to discuss how my background supports the requirements of this Data Engineer role.",
+  "sign_off": "Sincerely,\nSean Luka Girgis"
+}

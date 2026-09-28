@@ -1,0 +1,57 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e6fa58ae8cc71b40e6a5d5afdad06de7a3a66fccc4b0b204bd912a397aef246b",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:04:06Z",
+  "indeed_jk": "3ed68ec7162cd55c",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3482,
+    "completion_tokens": 708,
+    "total_tokens": 4190,
+    "reasoning_tokens": 0,
+    "actual_usd": 8.1953e-05
+  },
+  "analysis": {
+    "company": "Deepgram",
+    "title": "People AI & Automation Engineer",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong Python automation, ETL, and practical AI experience, including building an agentic job-search pipeline and a lakehouse with a Text-to-SQL agent. However, the role is specifically focused on People Operations workflows, HRIS integrations, and building internal tools for HR processes, which the candidate has no direct professional experience in. The candidate's background is in infrastructure capacity and performance engineering, not People Ops. The score reflects strong technical AI/automation skills but a significant domain mismatch.",
+    "strengths": [
+      "Expert-level Python and ETL design, with proven ability to build automated data pipelines and reporting.",
+      "Practical AI experience: built an agentic job-search pipeline using FAISS, LLM scoring, and MCP; designed a lakehouse with a Text-to-SQL agent.",
+      "Experience with AI-assisted development (Claude Code, Copilot) and integrating AI into workflows.",
+      "Strong background in building internal tools and automating manual processes (e.g., capacity reporting, Power BI cataloging).",
+      "Comfortable with APIs, data sources (JIRA, SQL Server, Splunk), and cloud (AWS)."
+    ],
+    "gaps": [
+      "No professional experience in People Operations, HRIS, or HR workflows.",
+      "No demonstrated experience building AI agents for employee self-service or HR process automation.",
+      "No experience with Slack integrations, performance management systems, or compensation tools.",
+      "Role is early-career; candidate has senior-level infrastructure experience, which may be overqualified or misaligned.",
+      "No evidence of building user-facing internal tools for non-technical HR stakeholders."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI automation",
+      "People Operations",
+      "HRIS",
+      "AI agents",
+      "workflow automation",
+      "Python",
+      "APIs",
+      "internal tools",
+      "LLM",
+      "RAG",
+      "Slack",
+      "onboarding"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite your professional summary to emphasize AI-first mindset and automation of manual workflows, not capacity planning. 2. Highlight your agentic job-search pipeline and lakehouse Text-to-SQL agent as evidence of building AI agents and internal tools. 3. Add a 'People Ops Automation Interest' section explaining your motivation to apply AI to HR processes. 4. Replace capacity/performance keywords with People Ops terms like 'onboarding', 'employee self-service', 'HRIS integration', 'workflow automation'. 5. In your experience bullets, reframe your automation achievements as 'building inter"
+    ]
+  }
+}

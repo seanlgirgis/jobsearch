@@ -1,0 +1,58 @@
+https://job-boards.greenhouse.io/implicit/jobs/8039713?gh_src=3asdb18x1us
+
+Company logo for, Implicit.
+Implicit
+
+
+AI Engineer (US-Based / Part-Time)
+
+Salt Lake City, UT · 2 months ago · Over 100 people clicked apply
+
+Responses managed off LinkedIn
+
+
+About the job
+Applied AI Engineer (Part-Time, Remote – U.S.)
+
+Innovation is at the heart of what we do.
+
+At Implicit, we're building the leading AI Knowledge Engine for Maintenance and Support. Our secure, no-code platform transforms complex technical documents, manuals, procedures, and operational data into trusted, structured knowledge that powers both human experts and AI agents.
+
+We're looking for a part-time Applied AI Engineer to help build the next generation of enterprise AI. You'll work alongside experienced engineers, product leaders, and AI researchers to develop production-grade AI capabilities that solve real-world problems across defense, manufacturing, customer support, and other knowledge-intensive industries.
+
+What You'll Do
+
+Design and build AI applications powered by LLMs, RAG, semantic search, and AI agents.
+Develop intelligent pipelines for document ingestion, knowledge extraction, and retrieval.
+Improve answer quality through prompt engineering, evaluation frameworks, and retrieval optimization.
+Build and optimize production AI services using Python and modern AI frameworks.
+Work with agentic development tools including Cursor, Codex and AI-assisted coding workflows.
+Write clean, maintainable, well-tested code with a strong focus on quality and reliability.
+Collaborate closely with product, engineering, and data science teams to rapidly prototype and ship new capabilities.
+Evaluate emerging AI models, tools, and techniques to continuously improve the platform.
+
+Required Qualifications
+
+3+ years of experience building AI, machine learning, or NLP applications through industry, open-source, or research.
+Strong experience with Large Language Models (LLMs), Retrieval-Augmented Generation (RAG), embeddings, and semantic search.
+Solid understanding of NLP, machine learning, and modern deep learning techniques.
+Hands-on experience with PyTorch, TensorFlow, or similar ML frameworks.
+Strong Python development skills and experience building production software.
+Experience working with APIs, vector databases, and AI application frameworks.
+Bachelor's degree in Computer Science or a related field, or equivalent practical experience.
+
+Preferred Qualifications
+
+Experience building AI systems for enterprise knowledge management or technical documentation.
+Experience with AI agents, tool calling, and agentic workflows.
+Familiarity with knowledge graphs, OCR, document parsing, or multimodal AI.
+Experience deploying AI applications using modern MLOps practices.
+Experience evaluating and benchmarking LLM performance.
+
+What We Offer
+
+Competitive compensation.
+Flexible part-time schedule.
+Remote work within the United States.
+Flexible vacation policy.
+Opportunity to build cutting-edge AI products with a small, experienced, and highly technical team tackling challenging real-world problems.

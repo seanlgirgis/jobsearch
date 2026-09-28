@@ -1,0 +1,25 @@
+uuid: 04bd9867-2d48-4ac7-8b15-fb78f67a3505
+job_id: 00399_04bd9867
+company: Implicit
+role: AI Engineer Part Time
+location: Remote, United States
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: Company Website
+  history:
+  - timestamp: '2026-09-12T17:21:49'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: Applied
+    notes: User reported submitting the application through the Implicit Greenhouse
+      job board.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Applied through the Implicit Greenhouse job board.
+  application_notes: User reported submitting the application through the Implicit
+    Greenhouse job board.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'

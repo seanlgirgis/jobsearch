@@ -1,0 +1,59 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "cff5e8ccc9cdc4fe9c86b24ae4d1a2ced495dfa81fa308cf067c502dbed1dcda",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:46:18Z",
+  "indeed_jk": "133ec869e494c21f",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3091,
+    "completion_tokens": 670,
+    "total_tokens": 3761,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00030606
+  },
+  "analysis": {
+    "company": "mSupply",
+    "title": "BI Developer - US",
+    "location": null,
+    "score": 62,
+    "fit_rationale": "The candidate has strong data engineering and analytics skills, including SQL, Python, ETL, and Power BI (used for report cataloging and migration). However, the role is primarily a BI developer focused on Power BI semantic modeling, DAX, and Microsoft Fabric, which are not core to the candidate's professional experience. The candidate's expertise is in capacity planning, performance engineering, and infrastructure analytics, with some project-level exposure to lakehouse and AI. The candidate's foundational-only skills in dbt and medallion architecture are not professional production expertise, which is a gap for the preferred qualifications. Overall, the candidate has transferable data skills but lacks direct BI development depth.",
+    "strengths": [
+      "Expert-level SQL and Python, with strong ETL and data pipeline experience.",
+      "Hands-on Power BI experience (cataloging, migration support) and AI-assisted workflows.",
+      "Experience with data quality, validation, and anomaly detection in telemetry data.",
+      "Project experience with AWS lakehouse (S3/Glue/Athena) and PySpark, relevant to modern data platforms.",
+      "Strong analytical and problem-solving skills from capacity forecasting and performance engineering."
+    ],
+    "gaps": [
+      "Limited professional experience in Power BI report development, DAX, and semantic modeling.",
+      "No demonstrated experience with Microsoft Fabric, Direct Lake, or OneLake.",
+      "Foundational-only knowledge of dbt and medallion architecture, not professional production expertise.",
+      "No direct experience in wholesale distribution, HVAC, or supply chain domains.",
+      "Role requires 3+ years of BI development; candidate's BI experience is peripheral, not core."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Power BI",
+      "DAX",
+      "SQL",
+      "semantic models",
+      "data visualization",
+      "ETL",
+      "Python",
+      "Microsoft Fabric",
+      "Direct Lake",
+      "OneLake",
+      "dbt",
+      "medallion architecture",
+      "data governance",
+      "self-service analytics"
+    ],
+    "tailoring_plan": [
+      "If pursuing this role, the candidate should emphasize their SQL and Python expertise, data quality practices, and any Power BI work (even if cataloging/migration). They should highlight their lakehouse project as evidence of modern data platform familiarity. To close gaps, they could take a Power BI DAX and modeling course, and study Microsoft Fabric fundamentals. In the resume, position Power BI as a tool they have used for reporting automation and data integration, and frame their capacity forecasting as business intelligence for infrastructure. Also, tailor the headline to 'Data Engineer wi"
+    ]
+  }
+}

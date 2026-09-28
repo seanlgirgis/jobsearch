@@ -1,0 +1,58 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "da5b9a21d9fea572be726e2a8fa792d73675102d45c3ee4b9c6277525ca57489",
+  "site": "indeed",
+  "captured_at": "2026-09-13T21:52:29Z",
+  "indeed_jk": "ece1fdec189de442",
+  "usage": {
+    "prompt_tokens": 5913,
+    "completion_tokens": 661,
+    "total_tokens": 6574,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0002779392
+  },
+  "analysis": {
+    "company": "GE Vernova",
+    "title": "Lead Analyst, Energy Forecasting & Advanced Analytics",
+    "location": "Cambridge, MA (Remote)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong Python, data engineering, and forecasting skills, with direct experience building forecasting models (scikit-learn, Prophet) and ETL pipelines. However, the role requires energy-specific domain expertise (capacity expansion, production cost models, power markets) which the candidate lacks. The candidate's AI experience is practical and applied, but mostly in infrastructure and workflow automation, not energy analytics. The role is a lead analyst position, and the candidate's experience is more senior in infrastructure capacity, which may not translate directly to energy forecasting.",
+    "strengths": [
+      "Expert-level Python and SQL with extensive experience in data pipelines, ETL, and large datasets.",
+      "Proven forecasting experience: built Python/scikit-learn models for capacity risk prediction and a PySpark/Prophet forecasting project.",
+      "Strong automation and AI adoption: used AI to automate reporting, integrate data sources, and modernize workflows.",
+      "Experience with data visualization and BI tools (Power BI) and cloud platforms (AWS).",
+      "Solid background in capacity planning and performance engineering, which involves similar analytical and modeling skills."
+    ],
+    "gaps": [
+      "No direct experience in energy forecasting, power markets, or energy system models (capacity expansion, production cost, dispatch).",
+      "Lack of domain knowledge in generation technologies, energy policy, or utility-scale analytics.",
+      "The role requires translating business/domain inputs into model logic; candidate's domain is IT infrastructure, not energy.",
+      "No evidence of experience with Julia or R, though Python is sufficient.",
+      "The candidate's AI experience is mostly in workflow automation and personal projects, not in production enterprise AI for forecasting."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "forecasting",
+      "data pipelines",
+      "AI",
+      "machine learning",
+      "capacity planning",
+      "Power BI",
+      "AWS",
+      "scikit-learn",
+      "Prophet",
+      "automation",
+      "data engineering",
+      "analytics"
+    ],
+    "tailoring_plan": [
+      "Tailor your resume to emphasize forecasting and data engineering achievements, using metrics like reduced forecasting cycles and improved accuracy. Add a summary that highlights your interest in energy and your ability to apply advanced analytics to complex systems. In the skills section, list Python, SQL, forecasting, and AI. In the experience bullets, rephrase capacity planning as 'demand forecasting' and 'scenario analysis' to align with the job. Mention any coursework or self-study in energy markets or power systems. Prepare a cover letter that connects your infrastructure forecasting expe"
+    ]
+  }
+}

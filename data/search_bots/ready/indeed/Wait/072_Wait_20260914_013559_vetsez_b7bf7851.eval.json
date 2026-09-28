@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "b7bf78515d4ab3c414687c0ab01521b781d473ddb52730d49562249ad37773cd",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:35:59Z",
+  "indeed_jk": "33b69585c2dddbcb",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 2893,
+    "completion_tokens": 661,
+    "total_tokens": 3554,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003003616
+  },
+  "analysis": {
+    "company": "VetsEZ",
+    "title": "Data Automation Engineer (Remote Opportunity)",
+    "location": null,
+    "score": 72,
+    "fit_rationale": "Strong alignment in data quality validation, SQL, ETL, automation, and reporting. Candidate has professional experience building Python/Pandas ETL with validation and anomaly checks, strong SQL/Oracle expertise, and current work automating reporting with AI and multiple data sources. Gaps include lack of VA-specific domain experience (VistA, VX130, Oracle Health), no direct InterSystems IRIS/Caché experience, and limited exposure to healthcare data migration and cutover validation. Candidate's background in large-scale data migration (Sabre) and data quality monitoring is transferable.",
+    "strengths": [
+      "Expert-level SQL and Python with professional ETL development including validation, cleansing, and anomaly checks.",
+      "Proven experience in data quality monitoring and reconciliation across large datasets (6,000+ endpoints).",
+      "Strong automation and reporting skills, including AI-assisted report generation and integration of multiple data sources.",
+      "Experience with data migration at scale (Sabre: 200+ MySQL nodes to Oracle RAC).",
+      "Familiarity with Power BI, GitHub/Azure DevOps, and Agile/Scrum environments.",
+      "Excellent problem-solving and communication skills demonstrated in consulting and cross-functional roles."
+    ],
+    "gaps": [
+      "No direct experience with VA healthcare data, VistA, VX130, or Oracle Health.",
+      "No experience with InterSystems IRIS/Caché.",
+      "Limited healthcare domain knowledge; no prior federal healthcare environment experience.",
+      "No explicit experience with Kubernetes/containers or Linux administration.",
+      "No demonstrated experience with cutover validation or site go-live activities in a healthcare context."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Data Quality",
+      "SQL",
+      "ETL",
+      "Python",
+      "Automation",
+      "Data Validation",
+      "Reconciliation",
+      "Reporting",
+      "Power BI",
+      "Agile",
+      "Scrum",
+      "Data Migration",
+      "Healthcare",
+      "VistA",
+      "VX130",
+      "Oracle Health"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize data quality validation, SQL query creation, and automation of reporting. Highlight ETL projects with validation and anomaly detection. Add keywords like 'data migration', 'cutover validation', 'healthcare data', and 'VA' where applicable. Prepare to discuss experience with large-scale data migration and how it applies to EHRM. Consider obtaining basic familiarity with VistA and IRIS to strengthen candidacy."
+    ]
+  }
+}

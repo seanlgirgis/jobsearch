@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "94144c50a1e4b9db151ab89b155169f98179d27b6e1c86a067ddd4d8230942d1",
+  "site": "indeed",
+  "captured_at": "2026-09-13T23:54:01Z",
+  "indeed_jk": "b683d56d1d6fabba",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3985,
+    "completion_tokens": 750,
+    "total_tokens": 4735,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000384076
+  },
+  "analysis": {
+    "company": "Raytheon",
+    "title": "Systems Engineering & Test Capabilities Operations Analyst (Remote)",
+    "location": "Sacramento, CA (Remote)",
+    "score": 72,
+    "fit_rationale": "The role focuses on operational analytics, data-driven decision support, process improvement, and workforce planning within an engineering organization. The candidate's professional background in capacity planning, performance engineering, and data analysis (Python, SQL, ETL, dashboards) aligns well with the data analysis and process improvement aspects. However, the role requires a minimum of 8 years of experience and a STEM bachelor's degree, which the candidate meets (Civil Engineering B.Sc. and Computer Engineering diploma). The candidate's current work involves AI-assisted reporting and data integration, which matches the 'automation and digital tools' preference. Gaps include lack of explicit HR/recruiting/learning & development experience, and the requirement for an active Secret clearance, which is not mentioned in the profile.",
+    "strengths": [
+      "Strong data analysis and reporting skills: Python, SQL, ETL, Power BI, and dashboard development.",
+      "Experience with process improvement and automation: AI-assisted reporting, data integration from multiple sources.",
+      "Capacity planning and forecasting expertise: Python/scikit-learn models, identifying risks months ahead.",
+      "Cross-functional collaboration: worked with engineering, business leaders, and stakeholders in past roles.",
+      "Experience with large datasets and data visualization: telemetry from 6,000+ endpoints, Power BI migration."
+    ],
+    "gaps": [
+      "No explicit experience in HR, recruiting, workforce planning, or learning & development.",
+      "Active Secret clearance not mentioned in profile; role requires it after day 1.",
+      "Role expects 8+ years of relevant experience; candidate has that, but the specific mix of operations analysis and workforce support may be less direct.",
+      "Limited experience with formal project management or leading cross-functional teams in an HR context."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "data analysis",
+      "dashboards",
+      "reports",
+      "process improvement",
+      "automation",
+      "workforce planning",
+      "hiring",
+      "onboarding",
+      "learning and development",
+      "Excel",
+      "PowerPoint",
+      "Power BI",
+      "Python",
+      "SQL",
+      "ETL",
+      "cross-functional collaboration"
+    ],
+    "tailoring_plan": [
+      "1. Update resume summary to highlight operational analytics and process improvement experience, using terms like 'workforce metrics', 'operational dashboards', and 'process automation'. 2. In the experience section, emphasize projects where data analysis led to business decisions, e.g., capacity forecasting and reporting automation. 3. Add a section on 'Relevant Projects' that showcases dashboard development and automation (e.g., Power BI migration, AI-assisted reporting). 4. If applicable, mention any experience with HR or talent-related data (even if informal) to bridge the gap. 5. Prepare t"
+    ]
+  }
+}

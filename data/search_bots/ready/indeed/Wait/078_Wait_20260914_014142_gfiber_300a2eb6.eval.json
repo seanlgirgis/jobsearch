@@ -1,0 +1,59 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "300a2eb6a2dadf3a5fd792326e52990415ea87d8f65fa98f14ea5e9e9fed717e",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:41:42Z",
+  "indeed_jk": "ff39411405db088c",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 2949,
+    "completion_tokens": 573,
+    "total_tokens": 3522,
+    "reasoning_tokens": 0,
+    "actual_usd": 7.1445e-05
+  },
+  "analysis": {
+    "company": "GFiber",
+    "title": "Senior Business Data Analyst",
+    "location": "Austin, TX • Remote",
+    "score": 78,
+    "fit_rationale": "Strong alignment in SQL, data visualization, dashboarding, and stakeholder communication. Candidate has extensive experience with data pipelines, ETL, forecasting, and reporting automation, which matches the core requirements. Gaps exist in specific tools (Looker/GCP, ServiceNow, Salesforce, network systems) and in the business analyst role focus, as the candidate's background is more infrastructure/capacity engineering.",
+    "strengths": [
+      "Expert SQL and data manipulation skills (Oracle, SQL Server, MySQL) with 5+ years of experience.",
+      "Proven experience building dashboards and reports (Power BI, Streamlit) and automating reporting with Python and AI.",
+      "Strong data modeling and forecasting skills (Prophet, scikit-learn) applied to capacity planning.",
+      "Experience presenting to stakeholders at all levels, including technical and non-technical audiences.",
+      "Project management and cross-team collaboration demonstrated in multiple roles."
+    ],
+    "gaps": [
+      "No explicit experience with Looker or Google Cloud Platform (BigQuery) as required/preferred.",
+      "No experience with ticketing systems like ServiceNow or Salesforce, or network systems like Netcracker, Axiros, Alepo.",
+      "Role is business data analyst, while candidate's background is more infrastructure/capacity engineering; may need to emphasize business-facing analysis.",
+      "Limited evidence of working with network engineering or field operations teams specifically."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "data visualization",
+      "dashboards",
+      "Looker",
+      "GCP",
+      "BigQuery",
+      "stakeholder communication",
+      "data modeling",
+      "Python",
+      "ETL",
+      "forecasting",
+      "Power BI",
+      "Streamlit",
+      "capacity planning",
+      "reporting automation"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite bullet points to emphasize business-facing data analysis and dashboard creation, not just infrastructure. 2. Add a skills section listing Looker/GCP as 'familiar' if any exposure, otherwise note willingness to learn. 3. Highlight experience with presenting to non-technical stakeholders. 4. Emphasize project management and cross-functional collaboration. 5. Remove or de-emphasize heavy infrastructure/APM terms to align with business analyst role."
+    ]
+  }
+}

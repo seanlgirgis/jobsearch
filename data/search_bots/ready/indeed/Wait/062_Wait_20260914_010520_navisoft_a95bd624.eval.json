@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "a95bd6249957d0aa2cfba347d54acb60714a2b9366e7d5dcc3bbfc754a96e9a9",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:05:20Z",
+  "indeed_jk": "e0d403900cf9f48d",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2663,
+    "completion_tokens": 695,
+    "total_tokens": 3358,
+    "reasoning_tokens": 0,
+    "actual_usd": 8.9236e-05
+  },
+  "analysis": {
+    "company": "Navisoft",
+    "title": "AI Engineers",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong Python, SQL, ETL, and forecasting skills, plus practical AI projects (agentic pipeline, lakehouse with Text-to-SQL) and AWS experience. However, the role emphasizes production AI model development, NLP, generative AI, and big data technologies (Hadoop, Spark, Talend) which are not core professional strengths. The candidate's AI work is largely project-based or research-oriented, not enterprise AI deployment. The role is part-time remote, which aligns with the candidate's target of selective remote part-time consulting.",
+    "strengths": [
+      "Expert Python and SQL/Oracle with strong ETL design and data quality",
+      "Advanced forecasting with Prophet/scikit-learn and time-series analysis",
+      "Hands-on AWS (S3, Glue, Athena, Bedrock) and PySpark project experience",
+      "Practical AI projects: agentic job-search pipeline (FAISS, LLM, MCP) and lakehouse Text-to-SQL agent",
+      "Experience with cloud migration and performance optimization (AWS migration support)",
+      "Part-time remote availability matches the job's structure"
+    ],
+    "gaps": [
+      "No professional production experience in NLP, generative AI, or chatbot development",
+      "Limited hands-on with Hadoop, Spark, Talend in a production environment (PySpark is project-level)",
+      "No evidence of deploying AI models in cloud production environments",
+      "Statistical analysis tools like R or SAS are not listed in the profile",
+      "Quantum engineering principles are not mentioned (though listed as a plus)",
+      "Role expects AI model evaluation and refinement in production; candidate's evaluation is more forecasting-oriented"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI Engineer",
+      "Machine Learning",
+      "TensorFlow",
+      "PyTorch",
+      "NLP",
+      "Generative AI",
+      "Big Data",
+      "Hadoop",
+      "Spark",
+      "ETL",
+      "SQL",
+      "AWS",
+      "Python",
+      "Statistical Modeling",
+      "Predictive Modeling",
+      "Cloud Deployment"
+    ],
+    "tailoring_plan": [
+      "Tailor the resume to emphasize AI/ML projects (agentic pipeline, lakehouse Text-to-SQL) and quantify outcomes where possible. Highlight Python, SQL, and AWS as core strengths. Add a skills section that includes NLP, generative AI, and big data technologies (even if foundational) to match the job description. In the summary, position as an engineer who applies AI to real-world data challenges, with a focus on automation and scalable solutions. Prepare to discuss how you would approach NLP and generative AI projects, and consider taking a short course or project to strengthen those areas before "
+    ]
+  }
+}

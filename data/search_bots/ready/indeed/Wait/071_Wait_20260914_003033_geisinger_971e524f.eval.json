@@ -1,0 +1,38 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "971e524f456bc3abd65a706c19c1290c8888401cbc379077eb9ec936860283e8",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:30:33Z",
+  "indeed_jk": "a46da2b46d7c1ce8",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3037,
+    "completion_tokens": 481,
+    "total_tokens": 3518,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000364159852
+  },
+  "analysis": {
+    "company": "Geisinger",
+    "title": "Associate Director Information Technology",
+    "location": "Work from Home",
+    "score": 71,
+    "fit_rationale": "The candidate has deep technical expertise in IT operations, data management, and project leadership, aligning with the role's core focus on leading an IT data management team. However, the role requires formal managerial experience (2+ years) and enterprise-level vendor/budget management, which the candidate's provided evidence does not explicitly confirm. The candidate's strength in capacity planning, data engineering, and automation strongly matches the 'enterprise data management ecosystems' requirement, but lacks direct evidence of leading teams, budget administration, or staff development.",
+    "strengths": [
+      "Expert-level Python, SQL, ETL, and capacity forecasting; strong data warehousing and analytics delivery experience via Power BI, SQL Server, Splunk; proven operational excellence in large-scale environments (CITI, CA); project leadership on complex migrations and AI-driven automation; solid understanding of enterprise workload automation and scheduling."
+    ],
+    "gaps": [
+      "No explicit evidence of managing/supervising staff (required 2+ years); no demonstrated vendor contract negotiation, invoice reconciliation, or budget administration; limited experience with formal IT project management guidelines or KPI monitoring across a team; resume shows individual contributor/research focus rather than team leadership."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "IT strategy, data management, data warehousing, analytics delivery, workload automation, operations team, service delivery, process improvement, vendor management, budget management, staff development, KPIs, project management, leadership, enterprise data ecosystems."
+    ],
+    "tailoring_plan": [
+      "Emphasize any team coordination or mentorship in current role, even informal; frame capacity forecasting models as evidence of 'operational excellence and process improvement'; highlight experience with data warehousing and analytics tools as direct match; prepare examples of leading projects and coordinating stakeholders; address budget and vendor management by citing any relevant involvement (if any), otherwise acknowledge and show willingness to learn. For resume, adjust headline to 'IT Operations Leader' and lead with management-oriented accomplishments, not just technical projects."
+    ]
+  }
+}

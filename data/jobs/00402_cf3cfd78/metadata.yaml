@@ -1,0 +1,22 @@
+uuid: cf3cfd78-cb19-4cf5-81b0-fbf237273026
+job_id: 00402_cf3cfd78
+company: DeWinter Group
+role: Forward Deployed AI Engineer FDE
+location: Remote
+status: READY_TO_APPLY
+application:
+  applied: false
+  applied_date: null
+  applied_method: null
+  history:
+  - timestamp: '2026-09-12T17:52:25'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: DeWinter FDE role processed. Tailored Markdown resume and the supplied
+      resume-change instructions are preserved in this job record. Duplicate checker
+      flagged semantic similarity to other FDE roles, but this is a distinct DeWinter
+      opportunity.
+  last_status: READY_TO_APPLY
+  last_status_date: '2026-09-12'

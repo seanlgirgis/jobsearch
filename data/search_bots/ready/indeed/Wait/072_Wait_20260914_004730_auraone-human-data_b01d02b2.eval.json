@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "b01d02b2d9342a33d50350638e18a105cda8a49c61c9d9377a4836cd90140829",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:47:30Z",
+  "indeed_jk": "2242adcdd65bbe72",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3138,
+    "completion_tokens": 671,
+    "total_tokens": 3809,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000784
+  },
+  "analysis": {
+    "company": "AuraOne Human Data",
+    "title": "ML Engineer - Model Evaluation Specialist (Remote)",
+    "location": "Remote",
+    "score": 72,
+    "fit_rationale": "The role requires strong software engineering skills, code review, debugging, unit testing, and clear written communication. The candidate has extensive professional experience in Python, ETL, data quality, and performance engineering, which aligns with the core requirements. However, the role is specifically focused on evaluating AI-generated code and writing tests for ML models, which is a specialized area. The candidate has practical AI experience (LLM agents, RAG, AI-assisted development) and has built a Python agentic pipeline, demonstrating relevant skills. The main gaps are lack of explicit code-review or technical-interview-grading experience, and no direct ML model evaluation background. The candidate's foundational-only skills in some areas (e.g., Databricks) are not relevant here. Overall, a strong fit for the engineering aspects, but with a learning curve in AI model evaluation specifics.",
+    "strengths": [
+      "Expert-level Python and SQL, with strong ETL and data quality experience.",
+      "Proven debugging and performance analysis skills from APM and capacity engineering roles.",
+      "Experience writing and maintaining test suites (implied by data quality and pipeline monitoring).",
+      "Practical AI experience: built an agentic job-search pipeline with LLM scoring, RAG, and MCP.",
+      "Strong written communication evidenced by documentation and reporting.",
+      "Comfortable with remote work and independent contractor arrangements."
+    ],
+    "gaps": [
+      "No explicit code-review or technical-interview-grading experience mentioned.",
+      "No direct experience evaluating AI-generated code or writing unit tests for ML models.",
+      "Familiarity with testing frameworks (pytest, Jest, etc.) is not explicitly stated, though Python experience suggests likely comfort with pytest.",
+      "No security-review experience (OWASP, CWE) mentioned.",
+      "The role requires at least 10 hours/week async availability; candidate's current employment may limit availability, though not specified."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "data quality",
+      "debugging",
+      "performance engineering",
+      "AI-assisted development",
+      "LLM agents",
+      "RAG",
+      "MCP",
+      "unit testing",
+      "code review",
+      "remote",
+      "contractor"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize Python, debugging, and testing skills. Add a section on AI projects, especially the agentic pipeline, to show practical AI experience. Mention any experience with pytest or other testing frameworks. Highlight ability to write clear technical documentation and communicate with senior engineers. If possible, include a sample of a code review or test case written for a past project. Address the contractor/remote availability in the cover letter."
+    ]
+  }
+}

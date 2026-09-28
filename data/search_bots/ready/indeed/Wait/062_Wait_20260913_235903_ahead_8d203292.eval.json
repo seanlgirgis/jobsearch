@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "8d203292c578d27002a52e1d05e2e99c4e0940c396e22cc138fa2405dd6205ae",
+  "site": "indeed",
+  "captured_at": "2026-09-13T23:59:03Z",
+  "indeed_jk": "97a3192e3b6eab15",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 4212,
+    "completion_tokens": 773,
+    "total_tokens": 4985,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000366933
+  },
+  "analysis": {
+    "company": "AHEAD",
+    "title": "Observability Project Manager",
+    "location": "Remote",
+    "score": 62,
+    "fit_rationale": "The candidate has strong technical depth in observability and performance engineering (Dynatrace, CA APM, Splunk, AppDynamics) and has managed enterprise-scale projects and consulting engagements. However, the role is primarily a project management position requiring formal Agile/Scrum coaching, PMBOK knowledge, and client-facing project leadership. The candidate's experience is more technical/engineering than project management, with no explicit evidence of leading Agile teams, managing budgets, or formal PM methodologies. The observability tooling overlap is a significant strength, but the PM-specific requirements are a gap.",
+    "strengths": [
+      "Deep hands-on experience with observability tools: Dynatrace, CA APM, Splunk, AppDynamics, BMC TrueSight.",
+      "Managed enterprise capacity and performance projects, including migrations and large-scale system changes.",
+      "Consulting experience at CA Technologies, including client training and monitoring design for large estates.",
+      "Strong analytical and problem-solving skills, with Python automation and data-driven decision-making.",
+      "Experience with data center infrastructure and software, aligning with the job's requirement.",
+      "Remote work experience and ability to manage complex technical projects independently."
+    ],
+    "gaps": [
+      "No explicit project management title or formal PM certification (PMP, Scrum Master, etc.).",
+      "Limited evidence of Agile/Scrum coaching or leading self-organizing teams.",
+      "No demonstrated experience managing project budgets, timelines, and vendor/subcontractor deliverables.",
+      "Lack of PMBOK or formal project management methodology knowledge.",
+      "No evidence of client expectation management at executive level or sales/revenue opportunity development.",
+      "The candidate's background is more engineering-focused than project management, which may be a mismatch for the role's primary responsibilities."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Observability",
+      "Project Manager",
+      "Agile",
+      "Scrum",
+      "Dynatrace",
+      "Splunk",
+      "Grafana",
+      "Cribl",
+      "Logic Monitor",
+      "Tanium",
+      "PMBOK",
+      "Waterfall",
+      "Project planning",
+      "Budget management",
+      "Risk management",
+      "Client management"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite resume summary to emphasize project management skills, even if informal, such as leading capacity planning initiatives, coordinating cross-functional teams, and delivering consulting projects. 2. Add a 'Project Management' section listing any relevant coursework, certifications (if any), or tools (e.g., JIRA, Microsoft Project). 3. Highlight specific examples of managing timelines, resources, and stakeholder communication from past roles. 4. Emphasize experience with observability tools and data center infrastructure to match the technical requirements. 5. In the cover letter, addre"
+    ]
+  }
+}

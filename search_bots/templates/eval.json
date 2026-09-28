@@ -1,0 +1,20 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v2-cutover",
+  "model_profile": "economy",
+  "job_hash": "{{job_hash}}",
+  "site": "{{site_id}}",
+  "captured_at": "{{iso_datetime}}",
+  "analysis": {
+    "company": null,
+    "title": null,
+    "location": null,
+    "score": null,
+    "fit_rationale": "",
+    "strengths": [],
+    "gaps": [],
+    "recommendation": "REVIEW",
+    "keywords": [],
+    "tailoring_plan": []
+  }
+}

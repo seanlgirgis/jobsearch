@@ -1,0 +1,29 @@
+uuid: f90f3b49-31d1-4627-9157-c426a52f9295
+job_id: 00403_f90f3b49
+company: Fluidstack
+role: IT Infrastructure Capacity Analyst
+location: Austin TX
+status: APPLIED
+application:
+  applied: true
+  applied_date: '2026-09-12'
+  applied_method: LinkedIn
+  history:
+  - timestamp: '2026-09-12T18:19:10'
+    event: CREATED
+    note: Job folder scaffolded via process_job_direct.ps1
+  - date: '2026-09-12'
+    status: READY_TO_APPLY
+    notes: Fluidstack IT Infrastructure Capacity Analyst processed. Tailored Word
+      resume and cover letter generated; supplied resume instructions preserved. Capacity
+      planning, forecasting, telemetry, Python/SQL automation, and operational action
+      are the primary positioning.
+  - date: '2026-09-12'
+    status: Applied
+    notes: Sean confirmed application submitted.
+  - date: '2026-09-12'
+    status: APPLIED
+    notes: Application submitted; confirmed by Sean.
+  last_status: APPLIED
+  last_status_date: '2026-09-12'
+  application_notes: Sean confirmed application submitted.

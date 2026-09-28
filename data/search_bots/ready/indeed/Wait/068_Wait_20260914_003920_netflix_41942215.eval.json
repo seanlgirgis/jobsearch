@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "41942215f7039746e3b2b2b03cbe3f313acdf147a985920431cca6cbaf065f82",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:39:20Z",
+  "indeed_jk": "264f74d0157a3341",
+  "category": "Wait",
+  "search_pack": "capacity_performance",
+  "usage": {
+    "prompt_tokens": 3145,
+    "completion_tokens": 906,
+    "total_tokens": 4051,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003191599
+  },
+  "analysis": {
+    "company": "Netflix",
+    "title": "Systems Analyst, CS Workforce Management",
+    "location": null,
+    "score": 68,
+    "fit_rationale": "The candidate has strong systems analysis, data integration, and troubleshooting skills, with deep expertise in capacity planning, forecasting, and data validation. However, the role specifically requires experience with third-party WFM contact center applications (e.g., Calabrio, NICE IEX, Aspect WFM, Verint, Teleopti) and contact routing platforms (Avaya, Genesis, Sprinklr), which the candidate does not have. The candidate's experience with AI, Python, and data integration is relevant but not directly in the WFM domain. The candidate's background in performance engineering and capacity management is transferable, but the lack of direct WFM tool experience is a significant gap.",
+    "strengths": [
+      "Expert-level Python, SQL, and data validation skills, demonstrated in ETL and telemetry projects.",
+      "Strong experience with forecasting and capacity planning using scikit-learn and Prophet, directly relevant to WFM forecasting.",
+      "Proven ability to integrate multiple data sources (JIRA, SQL Server, Splunk) and automate reporting, aligning with data reconciliation requirements.",
+      "Experience with AI/LLM applications (e.g., Copilot, agentic workflows) and prompt engineering, matching the GenAI exposure requirement.",
+      "Strong troubleshooting and problem-solving skills from performance engineering and consulting roles.",
+      "Experience with large-scale systems (e.g., 6,000+ endpoints, 4,000-6,000 agents) indicating ability to handle complex environments."
+    ],
+    "gaps": [
+      "No direct experience with third-party WFM contact center applications (Calabrio, NICE IEX, Aspect WFM, Verint, Teleopti).",
+      "No experience with contact routing platforms (Avaya, Genesis, Sprinklr).",
+      "Lack of formal WFM domain knowledge (e.g., agent scheduling, intraday management, adherence).",
+      "Current role is in capacity and performance engineering, not specifically in customer service WFM.",
+      "No explicit experience with user provisioning, licensing, or security compliance in a WFM context."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Workforce Management",
+      "WFM",
+      "Calabrio",
+      "NICE IEX",
+      "Aspect WFM",
+      "Verint",
+      "Teleopti",
+      "Contact Center",
+      "Avaya",
+      "Genesis",
+      "Sprinklr",
+      "Data Integration",
+      "Data Validation",
+      "Tier 1 Support",
+      "Troubleshooting",
+      "Google Sheets"
+    ],
+    "tailoring_plan": [
+      "1. Highlight transferable skills: Emphasize experience with capacity forecasting, data integration, and troubleshooting in complex environments. 2. Address WFM gap: Acknowledge lack of direct WFM tool experience but demonstrate ability to learn quickly by citing examples of mastering new technologies (e.g., AWS, PySpark). 3. Showcase AI/LLM experience: Detail projects involving LLM-based automation and prompt engineering to meet the GenAI requirement. 4. Tailor resume to include keywords like 'workforce management', 'contact center', 'scheduling', 'adherence' even if only in a learning context"
+    ]
+  }
+}

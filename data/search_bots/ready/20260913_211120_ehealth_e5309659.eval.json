@@ -1,0 +1,52 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "e5309659295d63d99467b99eaf9b398b9ea9b5474c56cdf8425653cc73e5d371",
+  "site": "indeed",
+  "captured_at": "2026-09-13T21:11:20Z",
+  "indeed_jk": "6b43906093e48639",
+  "analysis": {
+    "company": "eHealth",
+    "title": "Amplify Data Analyst",
+    "location": "Remote",
+    "score": 72,
+    "fit_rationale": "Strong technical foundation in SQL, Python, data analysis, forecasting, and BI tools (Power BI) aligns with core requirements. Experience with operational dashboards, ETL, and data modeling is directly relevant. However, lack of direct sales analytics, P&L reporting, finance/accounting, and insurance industry experience are notable gaps. The candidate's background in capacity planning and performance engineering provides transferable analytical and problem-solving skills, but the role emphasizes business-facing sales analytics and financial reporting.",
+    "strengths": [
+      "Expert-level SQL (Oracle, Microsoft SQL Server) and Python",
+      "Advanced ETL design, data quality, and pipeline monitoring",
+      "Forecasting models using Prophet and scikit-learn",
+      "BI tool proficiency (Power BI; Tableau not explicitly listed but transferable)",
+      "Operational dashboard and KPI reporting experience",
+      "Cross-functional collaboration and stakeholder communication"
+    ],
+    "gaps": [
+      "No direct sales analytics experience",
+      "No P&L reporting, budgeting, or variance analysis",
+      "No finance/accounting concepts",
+      "No insurance carrier, ACA, Medicare, or Medicaid industry experience",
+      "Call center workforce management only indirectly via large agent estates (CA APM consulting)",
+      "Tableau not explicitly used (Power BI is primary)"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "SQL",
+      "Python",
+      "Power BI",
+      "Tableau",
+      "forecasting",
+      "data analysis",
+      "ETL",
+      "data modeling",
+      "KPI",
+      "dashboard",
+      "P&L",
+      "sales analytics",
+      "operations",
+      "statistical analysis"
+    ],
+    "tailoring_plan": [
+      "Emphasize forecasting models and data pipelines as evidence of analytical rigor. Highlight experience with large-scale agent environments (4,000-6,000 agents) as a proxy for call center workforce management. Frame capacity planning as operational analytics. Address P&L gap by noting experience with financial reporting? (Not present, so suggest focusing on ability to learn quickly and adapt). Position Power BI as a strong BI tool and note willingness to learn Tableau. Emphasize cross-functional collaboration and communication skills from consulting roles."
+    ]
+  }
+}

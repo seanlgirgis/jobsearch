@@ -1,0 +1,60 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "dbf9bd4bd23cee46c4949e6fc73423007070daa27a21a73640015ae70dbd5bd2",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:37:06Z",
+  "indeed_jk": "9f31ec71984a60ad",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3142,
+    "completion_tokens": 661,
+    "total_tokens": 3803,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0003075
+  },
+  "analysis": {
+    "company": "Royal Bank of Canada",
+    "title": "Senior Business Intelligence & Reporting Analyst, RBC Capital Markets, LLC",
+    "location": "Jersey City, NJ",
+    "score": 62,
+    "fit_rationale": "The candidate has strong SQL, Python, and data engineering skills, with experience in ETL, automation, and reporting. However, the role requires deep expertise in Tableau (Server and Desktop), Control-M, Snowflake, Databricks, and capital markets domain knowledge, which are not evidenced in the profile. The candidate's experience is more in capacity/performance engineering and infrastructure analytics, not BI development or governance.",
+    "strengths": [
+      "Expert-level Python and SQL (Oracle) with ETL design and optimization",
+      "Experience automating reporting and data integration (e.g., JIRA, SQL Server, Splunk)",
+      "Data quality, validation, and pipeline monitoring skills",
+      "Experience with large-scale data migration and performance optimization (e.g., Sabre project)",
+      "Project experience with AWS lakehouse and PySpark, indicating cloud data platform familiarity"
+    ],
+    "gaps": [
+      "No evidence of Tableau Desktop or Tableau Server administration (HA, TSM, SAML, AD, row-level security)",
+      "No experience with Control-M job orchestration",
+      "No professional experience with Snowflake, Databricks, or Cloudera Impala (only foundational exposure)",
+      "No capital markets domain experience (trade lifecycle, pricing, exposure calculations)",
+      "No supervisory experience of BI developers or SDLC governance in regulated financial institutions"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Tableau",
+      "Tableau Server",
+      "SQL Server",
+      "T-SQL",
+      "Python",
+      "Control-M",
+      "Snowflake",
+      "Databricks",
+      "Cloudera Impala",
+      "BI",
+      "Reporting",
+      "Data Modeling",
+      "SDLC",
+      "Governance",
+      "Capital Markets"
+    ],
+    "tailoring_plan": [
+      "1. Rewrite the professional summary to emphasize BI and reporting automation, using terms like 'business intelligence', 'dashboards', and 'data governance'. 2. In the experience section, highlight any reporting or dashboard work (e.g., capacity reports) and quantify impact. 3. Add a 'Technical Skills' section listing Tableau (if any exposure), SQL Server, Python, and cloud data platforms. 4. For the project section, describe the lakehouse project with a BI angle (e.g., 'built data models for analytics'). 5. Address the capital markets gap by noting any finance-related coursework or personal in"
+    ]
+  }
+}

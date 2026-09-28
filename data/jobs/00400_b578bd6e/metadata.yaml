@@ -1,0 +1,18 @@
+uuid: b578bd6e-de55-4c87-b340-65846d2eaa80
+job_id: 00400_b578bd6e
+original_filename: Toloka.md
+company: ''
+role: ''
+company_website: ''
+location: ''
+status: ACCEPTED
+score: 42
+recommendation: Skip
+score_date: '2026-09-12T17:37:48.516066'
+created_at: '2026-09-12T17:37:48.516066'
+notes: 'Score: 42%. Recommendation: Skip
+
+  • Sean requested process. Score skipped because master yaml underweights stated
+  AI/RAG/agentic work; proceed with tailored FDE resume. (2026-09-12)'
+last_decision_at: '2026-09-12T17:38:12.698819'
+last_decision: ACCEPTED

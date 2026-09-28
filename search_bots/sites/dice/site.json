@@ -1,0 +1,18 @@
+{
+  "id": "dice",
+  "name": "Dice",
+  "home": "https://www.dice.com/",
+  "enabled": true,
+  "require_fresh_sor": true,
+  "term_packs": ["capacity_performance", "practical_ai"],
+  "capture": {
+    "job_url": true,
+    "hiring_person": false,
+    "salary_if_shown": true,
+    "title": true,
+    "company": true,
+    "location": true,
+    "expand_see_more": true,
+    "job_description": true
+  }
+}

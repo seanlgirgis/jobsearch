@@ -1,3 +1,8 @@
+> **Deprecated snapshot — Prompt 04.** Current operational authority is
+> [docs/PIPELINE_OPERATOR.md](../../PIPELINE_OPERATOR.md), reached through
+> [AGENTS.md](../../../AGENTS.md). This retained MyFuture snapshot is historical;
+> do not use its old wrappers or cache reset instructions for current execution.
+
 # Job Application Pipeline — Runbook
 # Last updated: 2026-04-14
 

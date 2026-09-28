@@ -1,0 +1,61 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "0e7932c09079e798137015bb82867549f36f7e79d3c6752b37e55f0be458cba2",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:08:29Z",
+  "indeed_jk": "767152001bc6c930",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 2570,
+    "completion_tokens": 656,
+    "total_tokens": 3226,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00028513
+  },
+  "analysis": {
+    "company": "Sainapse",
+    "title": "Solutions Engineer, Enterprise AI",
+    "location": "San Francisco (on-site preferred; remote acceptable)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong technical depth in Python, data engineering, and performance/capacity analysis, plus consulting experience (CA Technologies) and customer-facing delivery. However, the role is presales-focused for enterprise AI solutions, requiring direct experience in solution architecture, demos, RFP responses, and security questionnaires. The candidate's AI experience is mostly practical/project-based, not enterprise production, and lacks explicit presales or solution engineering background. The role also requires U.S. citizenship, which the candidate likely meets (location in USA), but this is not confirmed.",
+    "strengths": [
+      "Strong Python and data engineering skills (ETL, Pandas, SQL/Oracle) with professional evidence.",
+      "Consulting experience at CA Technologies, including client training and monitoring design.",
+      "Experience with enterprise systems (Oracle, JIRA, Splunk, Power BI) and integration.",
+      "Practical AI projects (agentic pipeline, lakehouse with Bedrock) show initiative and technical breadth.",
+      "Capacity forecasting and performance engineering expertise aligns with technical validation and proof-of-concept work."
+    ],
+    "gaps": [
+      "No explicit presales or solutions engineering experience (demos, RFP, security questionnaires).",
+      "AI experience is mostly project-based or research, not enterprise production deployments.",
+      "Lack of familiarity with common enterprise SaaS like Salesforce, ServiceNow, Freshworks, Zendesk, SAP (only Oracle and JIRA).",
+      "No evidence of leading technical evaluations or defining acceptance criteria with customers.",
+      "Travel requirement and on-site preference may conflict with candidate's remote/part-time positioning."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Solutions Engineer",
+      "Enterprise AI",
+      "Presales",
+      "Solution Architecture",
+      "Demos",
+      "Prototypes",
+      "Proof-of-Concept",
+      "Technical Validation",
+      "RFP",
+      "Security Questionnaires",
+      "Customer-Facing",
+      "API",
+      "Python",
+      "Enterprise Systems",
+      "Salesforce",
+      "ServiceNow"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize customer-facing consulting experience (CA Technologies) and any work with demos or prototypes. Highlight Python and API skills, and mention familiarity with enterprise systems (Oracle, JIRA, Splunk). Frame AI projects as evidence of building lightweight prototypes and technical validation. Add keywords like 'presales', 'solution architecture', 'RFP', and 'security questionnaires' if applicable. Prepare to discuss how capacity forecasting and performance engineering translate to defining acceptance criteria and evaluating technical fit."
+    ]
+  }
+}

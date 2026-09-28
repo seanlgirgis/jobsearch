@@ -153,6 +153,14 @@ activemq-data/
 
 # Environments
 .env
+# Machine-local model IDs and profile selection (credentials belong only in .env)
+/config/model_profiles.local.json
+/config/search_bots.local.json
+/data/search_bots/cache/
+/data/search_bots/chrome_profile/
+/data/search_bots/schedule.sqlite
+/data/search_bots/schedule.sqlite-journal
+/config/.model_profiles-*.tmp
 .envrc
 .venv
 env/

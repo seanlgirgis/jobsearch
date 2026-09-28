@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "0e046ddda5c30ed96d894fe696acf2f0fcfda9df3b5ae986775e1094c351649f",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:34:27Z",
+  "indeed_jk": "cd497236bc21a443",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3126,
+    "completion_tokens": 669,
+    "total_tokens": 3795,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.00028542
+  },
+  "analysis": {
+    "company": "APPLIED TECHNOLOGY GROUP INC",
+    "title": "Senior Python Engineer",
+    "location": "North Little Rock, AR 72114 (Remote)",
+    "score": 62,
+    "fit_rationale": "The candidate has strong Python and data engineering skills, with professional experience in ETL, forecasting, and performance engineering. However, the role requires extensive Django and REST API development, which the candidate's profile does not explicitly demonstrate. The candidate's background is more infrastructure and data-focused, with limited web application development experience. The role also emphasizes mentoring, documentation, and agile project management, which the candidate has some evidence of but not in a web development context.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle, with professional ETL and data pipeline experience.",
+      "Experience with PostgreSQL (source-supported via SQL/Oracle, but not explicitly PostgreSQL).",
+      "Experience with AWS (project-level) and CI/CD concepts (via GitHub Actions in personal projects).",
+      "Strong analytical and problem-solving skills, with a track record of optimizing performance and scalability.",
+      "Experience with observability tools (Dynatrace, CA APM) and data integration (JIRA, Splunk, SQL Server).",
+      "Project experience with AI/LLM agents and data lakehouse, showing modern tech awareness."
+    ],
+    "gaps": [
+      "No explicit professional experience with Django or Django Rest Framework.",
+      "No evidence of building web applications or APIs in a production environment.",
+      "Limited experience with front-end technologies (JavaScript, HTML5, CSS3) and Vue 3.",
+      "No explicit experience with Celery, Flower, or background job processing.",
+      "No evidence of mentoring or leading development teams.",
+      "No explicit experience with Docker or containerization in a professional setting."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "Django",
+      "RESTful APIs",
+      "PostgreSQL",
+      "Celery",
+      "Docker",
+      "CI/CD",
+      "AWS",
+      "Azure",
+      "Terraform",
+      "JavaScript",
+      "Vue 3",
+      "Mentoring",
+      "Agile",
+      "Documentation"
+    ],
+    "tailoring_plan": [
+      "If the candidate were to apply, they should highlight their Python expertise, data modeling, and API design from a data perspective. They could emphasize their experience with SQL databases and ETL pipelines as transferable to Django models and ORM. They should also showcase any personal projects involving web frameworks or API development, and express willingness to learn Django. Additionally, they could highlight their experience with observability and performance tuning as relevant to building resilient APIs."
+    ]
+  }
+}

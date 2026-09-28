@@ -1,0 +1,37 @@
+job_id: runner_b45014b0
+job_hash: b45014b0a40f7f2fd0b2001d5a75eead02288d8bdd48579bb74ae50ad49c774d
+canonical_runner: true
+tier0_decision: CLEAR
+last_runner_state: READY_TO_APPLY
+status: READY_TO_APPLY
+llm_decision: REVIEW
+user_decision:
+  decision: ACCEPTED
+  source: generate_command
+  reason: Testing the resume and cover generation path
+  suitability_override: true
+  analysis_cache_key: 44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6
+company: Synthires
+role: Senior AI Software Engineer
+score: 68
+decision_history:
+- decision: ACCEPTED
+  source: generate_command
+  reason: Specific reason I want to pursue this despite the gaps
+  suitability_override: true
+  analysis_cache_key: 6b7a03a62d1a5891d9c19c831277c4d97b44133bd56eda7e9bd8541713135800
+- decision: ACCEPTED
+  source: generate_command
+  reason: Testing the resume and cover generation path
+  suitability_override: true
+  analysis_cache_key: e35f11f29b4fddde127ef8cc4997fb871d59e7d9a96c8df37c93e55f73484c0e
+- decision: ACCEPTED
+  source: generate_command
+  reason: Testing the resume and cover generation path
+  suitability_override: true
+  analysis_cache_key: 44fa442f7b6bbdabc849d9f914dba56b3ece2de565289c29de6210849a00e7e6
+artifacts:
+  resume: generated/packages/8be8a18b1f77408ddcb2f0bcc804cce9c46e00b4a71eccf4cbf14a0eb24995cb/resume.docx
+  cover: generated/packages/8be8a18b1f77408ddcb2f0bcc804cce9c46e00b4a71eccf4cbf14a0eb24995cb/cover.docx
+  manifest: generated/packages/8be8a18b1f77408ddcb2f0bcc804cce9c46e00b4a71eccf4cbf14a0eb24995cb/artifact_manifest.json
+  manifest_sha256: d8fc32af042b61a0a9c607d45f0c97b461d2ba69b267a11403a4c131fe33dd70

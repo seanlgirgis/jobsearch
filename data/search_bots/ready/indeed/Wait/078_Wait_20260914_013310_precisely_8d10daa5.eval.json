@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "8d10daa503d695f58a6fd66c300b708454d553ab4305249aa9a0dc4c00247787",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:33:10Z",
+  "indeed_jk": "216d37f93c8ccda8",
+  "category": "Wait",
+  "search_pack": "python_reporting_automation",
+  "usage": {
+    "prompt_tokens": 3254,
+    "completion_tokens": 767,
+    "total_tokens": 4021,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000195536
+  },
+  "analysis": {
+    "company": "Precisely",
+    "title": "Senior Automation Engineer (Python, AI Agents & Automation)",
+    "location": "Arizona City, AZ (Remote)",
+    "score": 78,
+    "fit_rationale": "Strong alignment in Python automation, API integration, CI/CD, and AI-assisted workflows. Candidate has deep Python/Pandas ETL experience, AI-assisted development (Copilot, Claude Code), and hands-on agentic AI projects (job-search pipeline with MCP, lakehouse with Text-to-SQL). However, the role emphasizes production-grade automation for documentation/localization, which is not a direct match. Candidate's experience is more in capacity/performance engineering and data pipelines, with some automation but not at the scale or domain specificity required. Gaps in multi-agent orchestration, observability for AI systems, and containerization of long-running services.",
+    "strengths": [
+      "Expert-level Python and ETL design, with production experience building pipelines (CITI P95 telemetry).",
+      "Strong AI-assisted development: uses Copilot, Claude Code, and has built agentic workflows (job-search pipeline with MCP, lakehouse with Text-to-SQL).",
+      "Experience with REST APIs and integrating multiple data sources (JIRA, SQL Server, Splunk).",
+      "CI/CD familiarity: Git-based workflows, GitHub Actions (implied by pipeline project).",
+      "Mentoring and cross-functional collaboration from senior roles.",
+      "Proven ability to automate reporting and reduce manual effort (capacity reports)."
+    ],
+    "gaps": [
+      "No direct experience in documentation, localization, or content operations automation.",
+      "Limited evidence of designing multi-agent or tool-orchestrated AI workflows at scale; pipeline is personal project.",
+      "No demonstrated experience with observability, metrics, or cost tracking for AI-driven automation.",
+      "No containerization or deployment of long-running agent services in production.",
+      "Role requires flexibility for late afternoon meetings; candidate location (Murphy, TX) is Central time, which is acceptable but not Eastern.",
+      "Candidate's AI projects are personal or research, not enterprise production deployments."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "AI Agents",
+      "Automation",
+      "REST APIs",
+      "CI/CD",
+      "GitHub Actions",
+      "MCP",
+      "LLM",
+      "Agentic workflows",
+      "ETL",
+      "Data pipelines",
+      "AI-assisted development",
+      "Copilot",
+      "Claude Code",
+      "JIRA",
+      "Splunk"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize automation engineering aspects: highlight Python automation projects, AI agent design (pipeline, lakehouse), and API integrations. Use keywords from job description: 'production-grade automation', 'agent frameworks', 'MCP', 'REST APIs', 'CI/CD', 'GitHub Actions'. Frame capacity reporting as automation of manual processes. Add a section on AI-assisted engineering tools (Copilot, Claude Code) and responsible AI practices. Address gaps by mentioning any experience with documentation or content workflows, even if tangential. Emphasize flexibility for global collaboration"
+    ]
+  }
+}

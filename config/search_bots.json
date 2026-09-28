@@ -1,0 +1,76 @@
+{
+  "version": 1,
+  "description": "Shared search-bot brain. Site bots inherit this. Life changes belong in data/master; rebuild runtime before bots run.",
+  "source_of_record": {
+    "runtime_profile": "data/master/candidate_profile_runtime.json",
+    "refresh": ".\\search_bots\\refresh_sor.ps1",
+    "require_before_each_bot": "python scripts\\search_bots_sor.py --require",
+    "bots_may_edit_sor": false,
+    "edit_these_when_life_changes": [
+      "data/master/master_career_data.yaml",
+      "data/master/skills.yaml",
+      "data/master/bofa_stated_ai_work.md",
+      "config/runtime_profile_rules.json",
+      "outbox/sean_girgis_searchable_profile.md"
+    ]
+  },
+  "recency": {
+    "first_run_days": 1,
+    "later_run_days": 1,
+    "indeed_param": "fromage",
+    "note": "Always last 24 hours (fromage=1)."
+  },
+  "polite": {
+    "one_term_per_run": true,
+    "sleep_between_terms_sec": [180, 300],
+    "cloudflare_wait_sec": 300,
+    "chrome_profile": "data/search_bots/chrome_profile",
+    "hours_between_phrases": 12,
+    "click_sleep_sec": [4, 8],
+    "note": "Hourly SQLite queue: one phrase per scheduled fire. fromage=1. Persistent Chrome. Cloudflare: human only."
+  },
+  "exclusions_file": "config/search_bots_exclusions.json",
+  "pay_rules": {
+    "full_time_skip_below_usd": 140000,
+    "full_time_never_below_usd": 120000,
+    "part_time_skip_below_usd": null,
+    "skip_if_salary_unknown": false,
+    "note": "Skip when posted max annualized USD pay is under 140k unless the posting explicitly offers part-time/flexible work. Search phrases do not establish working hours; contract alone is not part-time. Ranges reaching 140k stay for Sean's review. Unknown pay, unknown units and non-USD pay stay for review. Hourly annualization uses 2080 hours for comparison only."
+  },
+  "evaluation": {
+    "provider": "openrouter",
+    "profile": "economy",
+    "reuse_eval_json_as_triage_cache": true,
+    "verdicts": {
+      "apply_min_score": 80,
+      "wait_min_score": 60,
+      "note": "Apply: score>=80 and not SKIP. Wait: 60-79. Reject: under 60 or SKIP. Only Apply and Wait are written to ready/handoff."
+    }
+  },
+  "output": {
+    "local_ready": "data/search_bots/ready",
+    "local_logs": "data/search_bots/logs",
+    "local_audit": "data/search_bots/audit",
+    "handoff_root": null,
+    "handoff_note": "Local overlay config/search_bots.local.json sets handoff_root to V:\\\\Bots_Jobs (OneDrive). Public packets only.",
+    "files_per_job": 2,
+    "stem": "{score}_{Apply|Wait|Reject}_{date}_{time}_{company_slug}_{shortid}",
+    "job_suffix": ".job.md",
+    "eval_suffix": ".eval.json"
+  },
+  "guards": {
+    "public_employer": "LTIMindtree",
+    "never_name_current_client": true,
+    "captain_is_research": true,
+    "expand_see_more_before_eval": true,
+    "unique_job_hash_required": true
+  },
+  "term_packs": ["*"],
+  "enabled_sites": [
+    "linkedin_jobs",
+    "indeed",
+    "dice",
+    "wellfound",
+    "we_work_remotely"
+  ]
+}

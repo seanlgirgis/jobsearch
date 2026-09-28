@@ -1,0 +1,62 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "98f0cac4484678f3d6249433ea784179b096d6debbd5474dfbc4d516ba1efbce",
+  "site": "indeed",
+  "captured_at": "2026-09-14T00:01:53Z",
+  "indeed_jk": "500af087c472941e",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 2644,
+    "completion_tokens": 486,
+    "total_tokens": 3130,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.000381192
+  },
+  "analysis": {
+    "company": "Centurion Consulting Group",
+    "title": "Data Engineer",
+    "location": "Remote",
+    "score": 78,
+    "fit_rationale": "Strong alignment with core data engineering requirements: extensive Python and SQL expertise, ETL pipeline development, AWS lakehouse project experience, and Agile/Jira familiarity. Gaps in formal DoD/government experience and limited production AWS data pipeline exposure.",
+    "strengths": [
+      "Expert-level Python and SQL/Oracle with extensive ETL design and optimization experience",
+      "Built Python/Pandas ETL for telemetry from 6,000+ endpoints with validation and cleansing",
+      "Designed AWS S3/Glue/Athena/Bedrock lakehouse project with Text-to-SQL agent and Parquet optimization",
+      "Experience with Jira, Git, and Agile methodologies from current role",
+      "Strong data quality, testing, and pipeline monitoring skills",
+      "Proven ability to translate business requirements into technical solutions"
+    ],
+    "gaps": [
+      "No explicit Department of Defense or government environment experience",
+      "AWS experience is project-based, not professional production deployment",
+      "Limited exposure to AWS Lambda and Glue in production settings",
+      "No formal AWS certifications listed",
+      "Data engineering experience is more infrastructure/capacity-focused than pure data pipeline development"
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "SQL",
+      "ETL",
+      "AWS Lambda",
+      "AWS Glue",
+      "Amazon S3",
+      "data modeling",
+      "data quality",
+      "Agile",
+      "Jira",
+      "Git",
+      "CI/CD",
+      "data pipelines",
+      "schema development",
+      "query optimization",
+      "technical documentation"
+    ],
+    "tailoring_plan": [
+      "Emphasize Python/SQL ETL expertise and AWS lakehouse project. Frame capacity forecasting as data pipeline work. Highlight Agile/Jira experience. Address government/DoD gap by emphasizing security and compliance awareness from enterprise environments. Consider obtaining AWS certification to offset lack of formal credential."
+    ]
+  }
+}

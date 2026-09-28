@@ -1,0 +1,16 @@
+{
+  "query": "capacity planning python remote",
+  "search_url": "https://www.indeed.com/jobs",
+  "steps": [
+    {
+      "step": "search",
+      "http": 401,
+      "final_url": "https://www.indeed.com/jobs?q=capacity+planning+python+remote&l=remote",
+      "bytes": 1675,
+      "title": "Authenticating...",
+      "jk_count": 0,
+      "jk_sample": [],
+      "blocked": true
+    }
+  ]
+}

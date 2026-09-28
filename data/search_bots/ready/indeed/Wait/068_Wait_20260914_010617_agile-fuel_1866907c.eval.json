@@ -1,0 +1,63 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "1866907cb06ce95b17747a002c07f865055058477fda3133532314383a25dcca",
+  "site": "indeed",
+  "captured_at": "2026-09-14T01:06:17Z",
+  "indeed_jk": "bbd0439795b4efb6",
+  "category": "Wait",
+  "search_pack": "practical_ai",
+  "usage": {
+    "prompt_tokens": 3423,
+    "completion_tokens": 628,
+    "total_tokens": 4051,
+    "reasoning_tokens": 0,
+    "actual_usd": 6.7921e-05
+  },
+  "analysis": {
+    "company": "Agile Fuel",
+    "title": "AI Agents & Automations Engineer",
+    "location": "Remote",
+    "score": 68,
+    "fit_rationale": "The candidate has strong engineering fundamentals, production experience with Python, ETL, and infrastructure, and practical AI project evidence including agentic workflows, RAG, and MCP. However, the role requires demonstrated production deployment of AI agents with measurable business outcomes, which the candidate's evidence does not confirm. Client-facing discovery and direct selling industry experience are also limited.",
+    "strengths": [
+      "Strong software engineering fundamentals with expert-level Python and SQL/Oracle.",
+      "Production experience building ETL pipelines, forecasting models, and infrastructure automation.",
+      "Practical AI evidence includes agentic workflows, RAG, FAISS, MCP, and AI-assisted development.",
+      "Experience with monitoring, observability, and performance engineering (Dynatrace, CA APM).",
+      "Consulting background at CA Technologies, delivering client training and monitoring design.",
+      "Comfortable with APIs, integrations, and data sources (JIRA, SQL Server, Splunk)."
+    ],
+    "gaps": [
+      "No confirmed production deployment of AI agents with measurable business outcomes.",
+      "Limited evidence of client-facing discovery and translating business problems into technical specs.",
+      "No direct selling industry experience.",
+      "Frontend development experience not demonstrated.",
+      "No explicit experience with n8n, Make, Zapier, or LangGraph; only MCP and custom orchestration.",
+      "Production engineering topics like authentication, scopes, secrets management, and cost control not explicitly evidenced."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "AI agents",
+      "automation",
+      "Python",
+      "TypeScript",
+      "n8n",
+      "Make",
+      "Zapier",
+      "OpenAI Agents SDK",
+      "LangGraph",
+      "Claude Agent SDK",
+      "MCP",
+      "API integrations",
+      "webhooks",
+      "production engineering",
+      "monitoring",
+      "error handling"
+    ],
+    "tailoring_plan": [
+      "Highlight the AI-powered job search pipeline and lakehouse project as evidence of agentic workflows and MCP. Emphasize the consulting experience at CA Technologies for client-facing skills. Frame the capacity forecasting and ETL work as production engineering with measurable outcomes (e.g., 95% hardware reduction at Sabre). Address the gap in agent frameworks by noting adaptability and willingness to learn n8n/LangGraph. Prepare to discuss how to design human-in-the-loop processes and production reliability for agents."
+    ]
+  }
+}

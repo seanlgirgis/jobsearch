@@ -1,0 +1,58 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "ab804b73d3c8596b4ff4e2af03f08ead317f9494b40fd70c6f9cb1bd945cfbcc",
+  "site": "indeed",
+  "captured_at": "2026-09-13T22:42:42Z",
+  "indeed_jk": "757508a00abf67b1",
+  "usage": {
+    "prompt_tokens": 3348,
+    "completion_tokens": 509,
+    "total_tokens": 3857,
+    "reasoning_tokens": 0,
+    "actual_usd": 0.0001716
+  },
+  "analysis": {
+    "company": "Hexad Solutions Group LLC",
+    "title": "Business Development - Sales/Hunter - UTILITY OR TELECOM EXPERIENCE REQUIRED",
+    "location": "Remote",
+    "score": 12,
+    "fit_rationale": "The candidate's background is in infrastructure capacity and performance engineering, with strong technical skills in Python, SQL, and observability tools. The job requires a hunter sales role with 5+ years of business development experience in telecom or utility, current industry relationships, and 40-60% travel. The candidate has no sales or business development experience, no telecom or utility domain expertise, and no evidence of client-facing sales or relationship management. The only overlap is a general technical understanding of infrastructure, which is insufficient for this role.",
+    "strengths": [
+      "Technical background in infrastructure and data engineering, which could help understand technical service offerings.",
+      "Experience with data analysis and reporting, potentially useful for CRM and pipeline reporting.",
+      "Located in Texas, which is within the preferred geographic region."
+    ],
+    "gaps": [
+      "No business development or sales experience.",
+      "No telecom or utility industry experience or relationships.",
+      "No evidence of prospecting, pipeline management, or closing deals.",
+      "No experience with CRM systems for sales forecasting.",
+      "Travel requirement of 40-60% is not addressed in profile.",
+      "No experience with engineering services, GIS, or joint-use pole audits."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "business development",
+      "sales hunter",
+      "telecom",
+      "utility",
+      "new account acquisition",
+      "pipeline",
+      "prospecting",
+      "CRM",
+      "travel",
+      "Tier 1-3 carriers",
+      "ILEC",
+      "CLEC",
+      "ISP",
+      "fiber infrastructure",
+      "joint-use",
+      "GIS"
+    ],
+    "tailoring_plan": [
+      "Given the fundamental mismatch, tailoring is not recommended. If the candidate were to pursue this role, they would need to acquire sales experience and telecom/utility domain knowledge, which is not feasible through resume tailoring alone. Focus on roles that match existing technical skills."
+    ]
+  }
+}

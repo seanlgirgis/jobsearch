@@ -1,0 +1,54 @@
+{
+  "schema": "job_analysis",
+  "prompt_version": "canonical-v4-package-json",
+  "model_profile": "economy",
+  "job_hash": "ec4c4a2cbe248ca2e94a1e57b4ea6427064dcb1bda4a7925d4be81e67558969e",
+  "site": "indeed",
+  "captured_at": "2026-09-13T23:59:31Z",
+  "indeed_jk": "79fee7914e80e7a9",
+  "category": "Wait",
+  "search_pack": "observability_apm",
+  "usage": {
+    "prompt_tokens": 3100,
+    "completion_tokens": 462,
+    "total_tokens": 3562,
+    "reasoning_tokens": 0,
+    "actual_usd": 5.5063e-05
+  },
+  "analysis": {
+    "company": "AuraOne Human Data",
+    "title": "Software Engineer, Python — Codebase Q&A",
+    "location": "Remote",
+    "score": 78,
+    "fit_rationale": "Strong Python, debugging, unit testing, and code review experience from professional roles and projects. The role's focus on evaluating AI-generated code aligns with the candidate's practical AI projects and LLM familiarity. Gaps include lack of explicit security-review experience and formal code-review grading, but the candidate's background in ETL, forecasting, and AI pipelines demonstrates the required engineering judgment.",
+    "strengths": [
+      "Expert-level Python with extensive professional use in ETL, forecasting, and automation.",
+      "Proven debugging and performance analysis skills from capacity and performance engineering roles.",
+      "Experience writing unit tests and validating data quality in ETL pipelines.",
+      "Familiarity with AI/LLM outputs and agentic workflows, relevant to grading model-generated code.",
+      "Strong written communication evidenced by documentation and consulting experience."
+    ],
+    "gaps": [
+      "No explicit security-review or OWASP/CWE experience mentioned.",
+      "No formal code-review or interview-grading role in the profile.",
+      "Testing framework experience is implied but not explicitly listed (e.g., pytest).",
+      "Current role production status unconfirmed; some AI projects are personal or research-level."
+    ],
+    "recommendation": "REVIEW",
+    "keywords": [
+      "Python",
+      "code review",
+      "debugging",
+      "unit testing",
+      "pytest",
+      "AI evaluation",
+      "LLM",
+      "ETL",
+      "data quality",
+      "sandboxed environment"
+    ],
+    "tailoring_plan": [
+      "Tailor resume to emphasize Python debugging and testing in professional roles. Add a section on evaluating AI-generated code from personal projects. Mention pytest or similar frameworks explicitly. Include examples of writing failing tests to catch edge cases. Highlight ability to explain fixes clearly to non-experts."
+    ]
+  }
+}
